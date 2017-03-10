@@ -1,0 +1,25 @@
+{
+  "name": "electron-express",
+  "productName": "electron-express",
+  "version": "1.0.0",
+  "description": "Example of embedding a node express server within an electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=oss.icns --prune=true --out=builds"
+  },
+  "repository": "https://github.com/jason/electron-express",
+  "keywords": [
+    "node.js",
+    "express",
+    "electron"
+  ],
+  "author": "Jason Henderson",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "electron-log": "^1.3.0",
+    "readline": "^1.3.0"
+  }
+}
