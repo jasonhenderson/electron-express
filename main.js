@@ -249,7 +249,7 @@ app.on('window-all-closed', function () {
 });
 
 //if (process.platform === "win32") {
-//	var rl = require("readline").createInterface({
+//	var rl = require("linebyline").createInterface({
 //		input: process.stdin,
 //		output: process.stdout
 //	});
