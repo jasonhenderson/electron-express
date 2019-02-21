@@ -16,7 +16,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
     log.info('serving home page...');
-    res.render('index', { title: 'Express' });
+    res.render('/pages/index', { title: 'Configurator' });
 });
 
 module.exports = router;
