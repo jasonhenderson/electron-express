@@ -1,6 +1,6 @@
 {
   "name": "electron-express",
-  "productName": "electron-express",
+  "productName": "T-Runner",
   "version": "1.0.0",
   "description": "Example of embedding a node express server within an electron app",
   "main": "main.js",

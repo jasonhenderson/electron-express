@@ -102,7 +102,7 @@ function createWindow () {
 	mainWindow = new BrowserWindow({
 		width: 800,
 		height: 600,
-		title: productName
+		title: "Tournament Runner"
 	});
 
 	log.info(mainWindow);
@@ -180,7 +180,7 @@ function createWindow () {
 	];
 
 	template.unshift({
-		label: productName,
+		label: "T-Runner",
 		submenu: [
 			{
 				role: 'about'
