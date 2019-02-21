@@ -43,7 +43,7 @@ function startExpress() {
 
 	var nodePath = "/usr/local/bin/node";
 	if (process.platform === 'win32') {
-		// Overwrite with the windows path...only testing on mac currently
+		nodePath = "C:/Program\ Files/nodejs/node.exe"
 	}
 
 	// Optionally update environment variables used
