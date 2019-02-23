@@ -1,9 +1,8 @@
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 
-import 'section.dart';
-import 'section_service.dart';
-import 'route_paths.dart';
+import '../../type/section.dart';
+import '../../service/section_service.dart';
 
 @Component(
   selector: 'tr-dashboard',

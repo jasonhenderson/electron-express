@@ -1,4 +1,4 @@
-import 'tournament.dart';
+import '../type/tournament.dart';
 
 final List<Tournament> mockTournaments = [
   Tournament(1, 'Tokyo'),

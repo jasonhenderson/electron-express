@@ -1,9 +1,9 @@
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 
-import 'src/section_service.dart';
-import 'src/tournament_service.dart';
-import 'src/routes.dart';
+import 'src/service/section_service.dart';
+import 'src/service/tournament_service.dart';
+import 'src/conf/routes.dart';
 
 @Component(
   selector: 'tr-app',

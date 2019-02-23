@@ -3,10 +3,8 @@ import 'dart:async';
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 
-import 'route_paths.dart';
-import 'tournament.dart';
-import 'tournament_service.dart';
-import 'list_provider_interface.dart';
+import '../../service/tournament_service.dart';
+import '../../type/list_provider_interface.dart';
 
 @Component(
   selector: 'my-itemlist',
@@ -18,11 +16,10 @@ import 'list_provider_interface.dart';
 class DetailListComponent implements OnInit, OnActivate {
   DetailListService _currentService;
   String _serviceName;
-  final Router _router;
   List<dynamic> listItems;
   dynamic selected;
 
-  DetailListComponent(this._router);
+  DetailListComponent();
 
   Future<void> _getServiceItems() async {
     listItems = await _currentService.getAll();

@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'tournament.dart';
-import 'mock_tournaments.dart';
+import '../type/tournament.dart';
+import '../data/mock_tournaments.dart';
 
-import 'list_provider_interface.dart';
+import '../type/list_provider_interface.dart';
 
 class TournamentService implements DetailListService {
 

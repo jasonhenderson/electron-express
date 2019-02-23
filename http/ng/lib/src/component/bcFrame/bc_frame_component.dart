@@ -18,7 +18,7 @@ class BcFrameComponent implements OnInit {
     safeUrl = _sanitizer.bypassSecurityTrustResourceUrl(_currentContent);
   }
 
-  BcFrameComponent(this._sanitizer){}
+  BcFrameComponent(this._sanitizer);
 
   @override
   void ngOnInit(){

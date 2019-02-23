@@ -1,4 +1,4 @@
-import 'section.dart';
+import '../type/section.dart';
 
 final List<Section> mockSections = [
   Section(0, "Blockchain"),

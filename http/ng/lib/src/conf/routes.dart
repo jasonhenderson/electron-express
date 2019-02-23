@@ -1,9 +1,9 @@
 import 'package:angular_router/angular_router.dart';
 
 import 'route_paths.dart';
-import 'dashboard_component.template.dart' as dashboard_template;
-import 'detail_list_component.template.dart' as detaillist_template;
-import 'bc_frame_component.template.dart' as bcframe_template;
+import '../component/dash/dashboard_component.template.dart' as dashboard_template;
+import '../component/detailList/detail_list_component.template.dart' as detaillist_template;
+import '../component/bcFrame/bc_frame_component.template.dart' as bcframe_template;
 
 export 'route_paths.dart';
 
