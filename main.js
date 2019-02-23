@@ -248,16 +248,16 @@ app.on('window-all-closed', function () {
 	}
 });
 
-//if (process.platform === "win32") {
-//	var rl = require("linebyline").createInterface({
-//		input: process.stdin,
-//		output: process.stdout
-//	});
-//
-//	rl.on("SIGINT", function () {
-//		process.emit("SIGINT");
-//	});
-//}
+if (process.platform === "win32") {
+	var rl = require("readline").createInterface({
+		input: process.stdin,
+		output: process.stdout
+	});
+
+	rl.on("SIGINT", function () {
+		process.emit("SIGINT");
+	});
+}
 
 process.on("SIGINT", function () {
 	//graceful shutdown
