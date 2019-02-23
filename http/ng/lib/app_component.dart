@@ -12,6 +12,8 @@ import 'src/routes.dart';
     <nav>
       <a [routerLink]="RoutePaths.dashboard.toUrl()"
          [routerLinkActive]="'active'">Dashboard</a>
+      <a [routerLink]="RoutePaths.blockchain.toUrl()"
+         [routerLinkActive]="'active'">Blockchain</a>
       <a [routerLink]="RoutePaths.tournaments.toUrl()"
          [routerLinkActive]="'active'">Tournaments</a>
     </nav>
