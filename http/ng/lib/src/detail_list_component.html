@@ -1,0 +1,14 @@
+<h2>{{getSectionTitle()}}</h2>
+<ul class="heroes">
+  <li *ngFor="let item of listItems"
+      [class.selected]="item === selected"
+      (click)="onSelect(item)">
+    <span class="badge">{{item.id}}</span> {{item.name}}
+  </li>
+</ul>
+<div *ngIf="selected != null">
+  <h2>
+    {{selected.name | uppercase}} is selected.
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+</div>

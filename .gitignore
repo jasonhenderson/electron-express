@@ -45,3 +45,9 @@ Dockerfile
 docker-compose.yml
 
 /builds
+
+# Files and directories created by pub
+.dart_tool
+.packages
+.pub/
+**/ng/build/

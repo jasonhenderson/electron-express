@@ -1,0 +1,9 @@
+<h3>Available Functions</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let section of sections" class="col-1-4"
+     [routerLink]="section.name.toLowerCase()">
+    <div class="module section">
+      <h4>{{section.name}}</h4>
+    </div>
+  </a>
+</div>

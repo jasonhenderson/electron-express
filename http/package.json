@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build-ng": "cd ./ng && webdev build --release --output web:build && cd ..",
+    "move-ng": "cp ./ng/build/{main.dart.js,index.html,styles.css} ./public",
+    "prod-ng": "npm run build-ng && npm run move-ng"
   },
   "engine": {
     "node": ">=10.15.1"
