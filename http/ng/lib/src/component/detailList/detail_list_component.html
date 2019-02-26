@@ -1,14 +1,27 @@
-<h2>{{getSectionTitle()}}</h2>
+<hr>
+<h2>{{getSectionTitle(true)}}</h2>
+<input type="text" placeholder="Search" 
+       (input)="updateSearchText($event.target.value)" 
+       (keyup.enter)="onSearch($event)" >
+<button id="search" 
+        (click)="onSearch($event)">Search</button>
 <ul class="heroes">
   <li *ngFor="let item of listItems"
       [class.selected]="item === selected"
       (click)="onSelect(item)">
-    <span class="badge">{{item.id}}</span> {{item.name}}
+    <span class="badge">{{item.id}}</span>
+    {{item.name}}
+    <button class="danger" 
+            (click)="onButton($event, item.name)">Delete</button>
+    <button class="warn" 
+            (click)="onButton($event, item.name)">Clone</button>
+    <button class="info" 
+            (click)="onButton($event, item.name)">Details</button>
   </li>
 </ul>
 <div *ngIf="selected != null">
   <h2>
-    {{selected.name | uppercase}} is selected.
+    {{selected.name}} is selected.
   </h2>
   <button (click)="gotoDetail()">View Details</button>
 </div>

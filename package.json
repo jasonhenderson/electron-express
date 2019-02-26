@@ -10,7 +10,8 @@
   "scripts": {
     "start": "electron .",
     "build-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=oss.icns --prune=true --out=builds",
-    "build-win": "electron-packager . --overwrite --platform=win32 --arch=x64 --prune=true --out=builds"
+    "build-win": "electron-packager . --overwrite --platform=win32 --arch=x64 --prune=true --out=builds",
+    "win-one": "cd ./http && npm run prod-ng && cd ../ && npm run build-win"
   },
   "repository": "https://github.com/jason/electron-express",
   "keywords": [
