@@ -1,6 +1,8 @@
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 
+import 'package:http/http.dart' as http;
+
 import 'src/service/section_service.dart';
 import 'src/service/tournament_service.dart';
 import 'src/conf/routes.dart';
@@ -12,10 +14,7 @@ import 'src/conf/routes.dart';
     <nav>
       <a [routerLink]="RoutePaths.dashboard.toUrl()"
          [routerLinkActive]="'active'">Dashboard</a>
-      <a [routerLink]="RoutePaths.blockchain.toUrl()"
-         [routerLinkActive]="'active'">Blockchain</a>
-      <a [routerLink]="RoutePaths.tournaments.toUrl()"
-         [routerLinkActive]="'active'">Tournaments</a>
+      <a (click)="openUiWindow()">Blockchain</a>
     </nav>
     <router-outlet [routes]="Routes.all"></router-outlet>
   ''',
@@ -26,4 +25,11 @@ import 'src/conf/routes.dart';
 )
 class AppComponent {
   final title = 'Tournament Runner';
+  void openUiWindow(){
+    http.get("http://localhost:3000/open/BCUI")
+    .then((response) {
+        print("Response status: ${response.statusCode}");
+    });
+
+  }
 }

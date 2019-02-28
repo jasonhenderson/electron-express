@@ -32,6 +32,7 @@ const productName = require('./package.json').productName;
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow;
+var secondaryWindow;
 var webServer;
 var shuttingDown;
 
@@ -52,7 +53,8 @@ function startExpress() {
 	// Start the node express server
 	const spawn = require('child_process').spawn;
 	webServer = spawn(nodePath,[webServerDirectory], {
-		env : env
+		env : env,
+        stdio: [null, null, null, 'ipc']
 	});
 
 	// Were we successful?
@@ -69,6 +71,33 @@ function startExpress() {
 	// Triggered when a child process uses process.send() to send messages.
 	webServer.on('message', function (message) {
 		log.info(message);
+        if(message.value == "NEW-UI-WINDOW"){
+          log.info("Gearing up for new UI window...")
+          if(secondaryWindow == null){
+            secondaryWindow = new BrowserWindow({
+              width: 800,
+              height: 600,
+              title: "Chain UI"
+            });
+
+            log.info(secondaryWindow);
+
+            // Create the URL to the locally running express server
+            secondaryWindow.loadURL(url.format({
+              pathname: 'localhost:3000',
+              protocol: 'http:',
+              slashes: true
+            }));
+
+            // Emitted when the window is closed.
+            secondaryWindow.on('closed', function () {
+              // Dereference the window object, usually you would store windows
+              // in an array if your app supports multi windows, this is the time
+              // when you should delete the corresponding element.
+              secondaryWindow = null
+            });
+          }
+        }
 	});
 
 	// Handle closing of the child process
@@ -102,7 +131,7 @@ function createWindow () {
 	mainWindow = new BrowserWindow({
 		width: 800,
 		height: 600,
-		title: "Tournament Runner"
+		title: "Tourney Running"
 	});
 
 	log.info(mainWindow);

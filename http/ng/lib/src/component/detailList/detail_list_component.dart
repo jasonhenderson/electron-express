@@ -6,6 +6,8 @@ import 'package:angular_forms/angular_forms.dart';
 import 'package:angular_router/angular_router.dart';
 
 import '../../service/tournament_service.dart';
+import '../../service/match_service.dart';
+import '../../service/player_service.dart';
 import '../../type/list_provider_interface.dart';
 
 @Component(
@@ -46,6 +48,14 @@ class DetailListComponent implements OnInit, OnActivate {
       case "tournaments":
         print("Loading tournament service...");
         _currentService = TournamentService();
+        break;
+      case "matches":
+        print("Loading match service...");
+        _currentService = MatchService();
+        break;
+      case "players":
+        print("Loading player service...");
+        _currentService = PlayerService();
         break;
       default:
         print("Failed to find service... bad load!");

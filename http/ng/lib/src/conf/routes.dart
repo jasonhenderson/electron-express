@@ -20,11 +20,21 @@ class Routes {
     routePath: RoutePaths.tournaments,
     component: detaillist_template.DetailListComponentNgFactory,
   );
+  static final matches = RouteDefinition(
+    routePath: RoutePaths.matches,
+    component: detaillist_template.DetailListComponentNgFactory,
+  );
+  static final players = RouteDefinition(
+    routePath: RoutePaths.players,
+    component: detaillist_template.DetailListComponentNgFactory,
+  );
 
   static final all = <RouteDefinition>[
     dashboard,
     blockchain,
     tournaments,
+    matches,
+    players,
     RouteDefinition.redirect(
       path: '',
       redirectTo: RoutePaths.dashboard.toUrl(),

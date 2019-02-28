@@ -18,5 +18,18 @@ router.get('/', function(req, res, next) {
     log.info('serving home page...');
     res.sendFile(path.join(__dirname + '../public/index.html'));
 });
+router.get('/open/:preq', function(req, res, next) {
+    log.info('serving custom page...');
+    var parameterRequest = new String(req.params.preq.trim()).valueOf();
+    var parameterMatcher = new String("BCUI").valueOf();
+    if(parameterRequest == parameterMatcher){
+      log.info("Match ok, emitting...");
+      res.status(200).end();
+      process.send({value: "NEW-UI-WINDOW"});
+    } else {
+        log.info("Bad match on param...");
+        res.status(201).end();
+    }
+});
 
 module.exports = router;
