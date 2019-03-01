@@ -54,7 +54,8 @@ function startExpress() {
 	const spawn = require('child_process').spawn;
 	webServer = spawn(nodePath,[webServerDirectory], {
 		env : env,
-        stdio: [null, null, null, 'ipc']
+    // Pipes - [default, default, default, IPC]
+    stdio: [null, null, null, 'ipc']
 	});
 
 	// Were we successful?
