@@ -17,13 +17,13 @@ import 'src/conf/routes.dart';
 @Component(
   selector: 'tr-app',
   template: '''
-    <h2>{{title + "Menu"}}</h2>
     <material-button (click)="goHome()">Dashboard</material-button>
     <dropdown-menu
         [menu]="navMenu"
         buttonText="Sections">
     </dropdown-menu>
     <material-button style="float: right;" (click)="openUiWindow()">Open ChainUI</material-button>
+    <hr>
     <router-outlet [routes]="Routes.all"></router-outlet>
   ''',
   styleUrls: ['app_component.css'],

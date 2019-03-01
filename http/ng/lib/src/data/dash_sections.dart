@@ -1,8 +1,7 @@
 import '../type/section.dart';
 
-final List<Section> mockSections = [
-  Section(0, "Blockchain"),
+final List<Section> dashSections = [
   Section(1, 'Tournaments'),
   Section(2, 'Matches'),
-  Section(3, 'Players')
+  Section(3, 'Players'),
 ];

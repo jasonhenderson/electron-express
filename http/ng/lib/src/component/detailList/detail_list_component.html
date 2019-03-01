@@ -1,9 +1,9 @@
-<hr>
 <h2>{{getSectionTitle(true)}}</h2>
-<input type="text" placeholder="Search" 
-       (input)="updateSearchText($event.target.value)" 
-       (keyup.enter)="onSearch($event)" >
-<button id="search" 
+<input type="text" placeholder="Search"
+       (input)="updateSearchText($event.target.value)"
+       (keyup.enter)="onSearch($event)"
+       style="float: right;" >
+<button id="search"
         (click)="onSearch($event)">Search</button>
 <ul class="heroes">
   <li *ngFor="let item of listItems"
@@ -11,11 +11,11 @@
       (click)="onSelect(item)">
     <span class="badge">{{item.id}}</span>
     {{item.name}}
-    <button class="danger" 
+    <button class="danger"
             (click)="onButton($event, item.name)">Delete</button>
-    <button class="warn" 
+    <button class="warn"
             (click)="onButton($event, item.name)">Clone</button>
-    <button class="info" 
+    <button class="info"
             (click)="onButton($event, item.name)">Details</button>
   </li>
 </ul>
