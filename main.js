@@ -76,8 +76,8 @@ function startExpress() {
           log.info("Gearing up for new UI window...")
           if(secondaryWindow == null){
             secondaryWindow = new BrowserWindow({
-              width: 800,
-              height: 600,
+              width: 1024,
+              height: 720,
               title: "Chain UI"
             });
 

@@ -1,24 +1,41 @@
-<h2>{{getSectionTitle(true)}}</h2>
-<input type="text" placeholder="Search"
+<div class="col-1-2 inlinediv">
+<h2 style="display: inherit;">{{getSectionTitle(true)}}</h2>
+</div>
+<div class="col-1-2 inlinediv floatright">
+<material-input placeholder="Search"
        (input)="updateSearchText($event.target.value)"
-       (keyup.enter)="onSearch($event)"
-       style="float: right;" >
-<button id="search"
-        (click)="onSearch($event)">Search</button>
-<ul class="heroes">
-  <li *ngFor="let item of listItems"
+       (keyup.enter)="onSearch($event)" ></material-input>
+<material-button id="search"
+        (click)="onSearch($event)"
+        aria-label="Search" >Search</material-button>
+</div>
+<table class="itemtable">
+  <tr *ngFor="let item of listItems"
       [class.selected]="item === selected"
       (click)="onSelect(item)">
-    <span class="badge">{{item.id}}</span>
-    {{item.name}}
-    <button class="danger"
-            (click)="onButton($event, item.name)">Delete</button>
-    <button class="warn"
-            (click)="onButton($event, item.name)">Clone</button>
-    <button class="info"
-            (click)="onButton($event, item.name)">Details</button>
-  </li>
-</ul>
+      <td>
+        {{item.id}}
+      </td>
+      <td>
+        {{item.name}}
+      </td>
+      <td>
+        <material-button
+                (trigger)="onButton($event, item.name)"
+                aria-label="Delete" >Delete</material-button>
+      </td>
+      <td>
+        <material-button
+                (trigger)="onButton($event, item.name)"
+                aria-label="Clone" >Clone</material-button>
+      </td>
+      <td>
+        <material-button
+                (trigger)="onButton($event, item.name)"
+                aria-label="Details" >Details</material-button>
+      </td>
+  </tr>
+</table>
 <div *ngIf="selected != null">
   <h2>
     {{selected.name}} is selected.

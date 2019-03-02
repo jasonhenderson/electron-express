@@ -8,34 +8,50 @@ import 'package:angular_components/material_menu/dropdown_menu.dart';
 import 'package:angular_components/material_menu/material_menu.dart';
 import 'package:angular_components/model/menu/menu.dart';
 
-import 'package:http/http.dart' as http;
+import 'src/component/raisableMenu/raisable_menu_component.dart';
 
-import 'src/service/section_service.dart';
+import 'package:http/http.dart' as http;
+import 'dart:html';
+
 import 'src/service/tournament_service.dart';
 import 'src/conf/routes.dart';
 
 @Component(
   selector: 'tr-app',
   template: '''
-    <material-button (click)="goHome()">Dashboard</material-button>
-    <dropdown-menu
-        [menu]="navMenu"
-        buttonText="Sections">
-    </dropdown-menu>
-    <material-button style="float: right;" (click)="openUiWindow()">Open ChainUI</material-button>
-    <hr>
-    <router-outlet [routes]="Routes.all"></router-outlet>
+    <div class="appcontainer">
+        <div class="hrdiv">
+            <material-button
+              [raised]="true"
+              (click)="goHome()" >Dashboard</material-button>
+            <raisable-menu id="sectionmenu"
+                [menu]="navMenu"
+                [raised]="true" >
+                <section menu-button>
+                    Services
+                    <material-icon icon="arrow_drop_down" size="medium" baseline></material-icon>
+                </section>
+            </raisable-menu>
+            <material-button
+              [raised]="true"
+              style="float: right;"
+              (click)="openUiWindow()" >Open ChainUI</material-button>
+        <br>
+        <br>
+        </div>
+        <router-outlet [routes]="Routes.all"></router-outlet>
+    </div>
   ''',
   styleUrls: ['app_component.css'],
   directives: [
     routerDirectives,
     MaterialMenuComponent,
+    RaisableMenuComponent,
     DropdownMenuComponent,
     MaterialIconComponent,
     MaterialButtonComponent
   ],
   providers: [
-    ClassProvider(SectionService),
     ClassProvider(TournamentService),
     materialProviders
   ],
@@ -60,6 +76,7 @@ class AppComponent implements OnInit {
   }
   MenuModel<MenuItem> navMenu;
   void ngOnInit(){
+    // Build menu
     navMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
         MenuItem('Tournaments', action: () => _router.navigate(RoutePaths.tournaments.toUrl())),
@@ -68,4 +85,5 @@ class AppComponent implements OnInit {
       ])
     ]);
   }
+
 }

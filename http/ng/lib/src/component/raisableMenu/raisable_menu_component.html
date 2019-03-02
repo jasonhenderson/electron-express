@@ -1,0 +1,34 @@
+<!--
+ Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file
+ for details. All rights reserved. Use of this source code is governed by a
+ BSD-style license that can be found in the LICENSE file.
+-->
+<material-button
+    (trigger)="handleButtonClick"
+    [attr.aria-label]="ariaLabel"
+    [attr.icon]="hasIcon"
+    [disabled]="disabled"
+    [tabbable]="tabbable"
+    [raised]="raised"
+    [materialTooltip]="tooltipText"
+    [showTooltipIf]="hasTooltip"
+    class="trigger-button"
+    popupSource
+    #toggle="popupSource">
+  <material-icon
+      *ngIf="menu.uiIcon != null"
+      [icon]="menu.uiIcon">
+  </material-icon>
+  <span *ngIf="buttonText != null">{{buttonText}}</span>
+  <ng-content select="[menu-button]"></ng-content>
+</material-button>
+<menu-popup
+    *ngIf="hasSubmenu"
+    [(isExpanded)]="isExpanded"
+    [popupClass]="popupClass"
+    [menu]="menu"
+    [popupSource]="toggle"
+    [preferredPositions]="preferredPositions"
+    [width]="width">
+  <ng-content></ng-content>
+</menu-popup>
