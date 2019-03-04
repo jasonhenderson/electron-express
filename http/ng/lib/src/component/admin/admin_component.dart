@@ -32,16 +32,16 @@ class AdminComponent implements OnInit {
 
   // Navigate back to the dashboard, using the current router object
   void goHome(){
-    _router.navigate(RoutePaths.dashboard.toUrl());
+    _router.navigate(RoutePaths.dash.toUrl());
   }
 
   void ngOnInit(){
     // Fill menu on init, since we need to attach to the current router object
     adminMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
-        MenuItem('Tournaments', action: () => _router.navigate(RoutePaths.tournaments.toUrl())),
-        MenuItem('Matches', action: () => _router.navigate(RoutePaths.matches.toUrl())),
-        MenuItem('Players', action: () => _router.navigate(RoutePaths.players.toUrl()))
+        MenuItem('Tournaments', action: () => _router.navigate(RoutePaths.list.toUrl())),
+        MenuItem('Matches', action: () => _router.navigate(RoutePaths.list.toUrl())),
+        MenuItem('Players', action: () => _router.navigate(RoutePaths.list.toUrl()))
       ])
     ]);
   }

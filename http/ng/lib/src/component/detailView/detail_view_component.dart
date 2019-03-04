@@ -30,8 +30,8 @@ import '../../type/list_provider_interface.dart';
 
 @Component(
   selector: 'my-itemlist',
-  templateUrl: 'detail_list_component.html',
-  styleUrls: ['detail_list_component.css'],
+  templateUrl: 'detail_view_component.html',
+  styleUrls: ['detail_view_component.css'],
   directives: [
                 coreDirectives,
                 formDirectives,
@@ -45,7 +45,7 @@ import '../../type/list_provider_interface.dart';
               ],
   pipes: [commonPipes],
 )
-class DetailListComponent implements OnInit, OnActivate {
+class DetailViewComponent implements OnInit, OnActivate {
   // Hold on to current service and string title
   DetailListService _currentService;
   String _serviceName;
@@ -63,7 +63,7 @@ class DetailListComponent implements OnInit, OnActivate {
   // Toggle the "Delete" modal for confirmation before sending DB request
   bool deleteModalVisible = false;
 
-  DetailListComponent();
+  DetailViewComponent();
 
   // Use the current service to get every item available (NO FILTER)
   Future<void> _getServiceItems() async {

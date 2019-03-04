@@ -6,30 +6,18 @@ Menu Section (FAB(new) & SEARCH(input))
     <material-fab
       mini raised
       id="heavyfab"
-      (trigger)="adding = !adding">
+      (trigger)="onAddButton($event)">
       <material-icon icon="add"></material-icon>
     </material-fab>
     <h2 *ngIf="!adding" style="display: inherit; margin:8px;">{{getSectionTitle(true)}}</h2>
-    <h2 *ngIf="adding" style="display: inherit; margin:8px;">New:</h2>
-    <material-input *ngIf="adding" placeholder="Search"
-      (input)="addingText = $event.target.value"
-      (keyup.enter)="addClicked()"
-      id="shiftedinput" ></material-input>
-    <material-fab
-      *ngIf="adding"
-      mini raised
-      style="background-color: #0f9d58; color: white;"
-      (trigger)="addClicked()">
-      <material-icon icon="check"></material-icon>
-    </material-fab>
   </div>
-  <div class="col-1-2 inlinediv floatright">
-  <material-input placeholder="Search"
-         (input)="updateSearchText($event.target.value)"
-         (keyup.enter)="onSearch($event)" ></material-input>
-  <material-button id="search"
-          (click)="onSearch($event)"
-          aria-label="Search" >Search</material-button>
+    <div class="col-1-2 inlinediv floatright">
+    <material-input placeholder="Search"
+           (input)="updateSearchText($event.target.value)"
+           (keyup.enter)="onSearch($event)" ></material-input>
+    <material-button id="search"
+            (click)="onSearch($event)"
+            aria-label="Search" >Search</material-button>
   </div>
 </div>
 <!--

@@ -76,18 +76,35 @@ class AppComponent implements OnInit {
 
   // Navigate back to the dashboard, using the current router object
   void goHome(){
-    _router.navigate(RoutePaths.dashboard.toUrl());
+    _router.navigate(RoutePaths.dash.toUrl());
   }
 
   void ngOnInit(){
+    print("Filling menu...");
     // Fill menu on init, since we need to attach to the current router object
     navMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
-        MenuItem('Tournaments', action: () => _router.navigate(RoutePaths.tournaments.toUrl())),
-        MenuItem('Matches', action: () => _router.navigate(RoutePaths.matches.toUrl())),
-        MenuItem('Players', action: () => _router.navigate(RoutePaths.players.toUrl()))
+        MenuItem('Tournaments', action: () =>
+          _router.navigate(RoutePaths.list
+                            .toUrl(parameters: {
+                              "type": "tournaments",
+                            }))
+        ), // END OF ITEM
+        MenuItem('Matches', action: () =>
+          _router.navigate(RoutePaths.list
+                            .toUrl(parameters: {
+                              "type": "matches",
+                            }))
+        ), // END OF ITEM
+        MenuItem('Players', action: () =>
+          _router.navigate(RoutePaths.list
+                            .toUrl(parameters: {
+                              "type": "players",
+                            }))
+        ), // END OF ITEM
       ])
     ]);
+    print("Done...");
   }
 
 }
