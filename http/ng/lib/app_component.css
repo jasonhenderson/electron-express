@@ -34,7 +34,7 @@ div.hrdiv{
     margin-bottom: .75em;
 }
 div.appcontainer{
-    min-width: 256px;
+    min-width: 600px;
     max-width: 1280px;
     margin: auto;
 }

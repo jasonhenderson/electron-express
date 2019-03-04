@@ -1,5 +1,4 @@
 table{
-  margin: 1em 0 2em 0;
   border-collapse: separate;
   border-spacing: 0px .5em;
 }
@@ -25,6 +24,7 @@ tr.selected:hover{
 }
 td{
   padding:5px;
+  padding-left: .75em;
 }
 td:first-of-type {
   background-color: #607D8B;
@@ -76,4 +76,12 @@ div.inlinediv{
 }
 div.floatright *{
     float:right
+}
+material-input#shiftedinput{
+  margin-right: 1em;
+}
+material-fab#heavyfab{
+    background-color: #db4437; 
+    color: white; 
+    margin-bottom: 3em;
 }

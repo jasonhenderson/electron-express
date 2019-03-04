@@ -4,14 +4,11 @@ import 'package:angular_router/angular_router.dart';
 
 import 'package:angular_components/angular_components.dart';
 import 'package:angular_components/material_button/material_button.dart';
-import 'package:angular_components/material_menu/dropdown_menu.dart';
-import 'package:angular_components/material_menu/material_menu.dart';
 import 'package:angular_components/model/menu/menu.dart';
 
 import 'src/component/raisableMenu/raisable_menu_component.dart';
 
 import 'package:http/http.dart' as http;
-import 'dart:html';
 
 import 'src/service/tournament_service.dart';
 import 'src/conf/routes.dart';
@@ -24,7 +21,7 @@ import 'src/conf/routes.dart';
             <material-button
               [raised]="true"
               (click)="goHome()" >Dashboard</material-button>
-            <raisable-menu id="sectionmenu"
+            <raisable-menu
                 [menu]="navMenu"
                 [raised]="true" >
                 <section menu-button>
@@ -47,7 +44,6 @@ import 'src/conf/routes.dart';
     routerDirectives,
     MaterialMenuComponent,
     RaisableMenuComponent,
-    DropdownMenuComponent,
     MaterialIconComponent,
     MaterialButtonComponent
   ],
@@ -61,22 +57,30 @@ import 'src/conf/routes.dart';
   ],
 )
 class AppComponent implements OnInit {
+  // Get a handle to current router object when class is constructed
   final Router _router;
   AppComponent(this._router);
-  final title = 'Tournament Runner';
+
+  // Navigation menu for sub-component
+  MenuModel<MenuItem> navMenu;
+
+  // Function call to open second window in Electron - see host application
   void openUiWindow(){
-    // Put in a call to the Electron host to trigger some upstream function
+    // Place request as per router config in Electron host
     http.get("http://localhost:3000/open/BCUI")
     .then((response) {
+        // status 200 is ok, 201 is error from Electron host
         print("Response status: ${response.statusCode}");
     });
   }
+
+  // Navigate back to the dashboard, using the current router object
   void goHome(){
     _router.navigate(RoutePaths.dashboard.toUrl());
   }
-  MenuModel<MenuItem> navMenu;
+
   void ngOnInit(){
-    // Build menu
+    // Fill menu on init, since we need to attach to the current router object
     navMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
         MenuItem('Tournaments', action: () => _router.navigate(RoutePaths.tournaments.toUrl())),
