@@ -5,4 +5,5 @@ class RoutePaths {
   static final tournaments = RoutePath(path: 'tournaments');
   static final matches = RoutePath(path: 'matches');
   static final players = RoutePath(path: 'players');
+  static final admin = RoutePath(path: 'admin');
 }

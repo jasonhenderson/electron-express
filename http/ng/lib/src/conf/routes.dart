@@ -3,6 +3,7 @@ import 'package:angular_router/angular_router.dart';
 import 'route_paths.dart';
 import '../component/dash/dashboard_component.template.dart' as dashboard_template;
 import '../component/detailList/detail_list_component.template.dart' as detaillist_template;
+import '../component/admin/admin_component.template.dart' as admin_template;
 
 export 'route_paths.dart';
 
@@ -23,12 +24,17 @@ class Routes {
     routePath: RoutePaths.players,
     component: detaillist_template.DetailListComponentNgFactory,
   );
+  static final admin = RouteDefinition(
+    routePath: RoutePaths.admin,
+    component: admin_template.AdminComponentNgFactory,
+  );
 
   static final all = <RouteDefinition>[
     dashboard,
     tournaments,
     matches,
     players,
+    admin,
     RouteDefinition.redirect(
       path: '',
       redirectTo: RoutePaths.dashboard.toUrl(),
