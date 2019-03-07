@@ -107,4 +107,8 @@ class PlayerService implements DetailListService {
     // Vanilla response code return
     return response.statusCode;
   }
+
+  Player getNew(){
+    return new Player(0, "New");
+  }
 }

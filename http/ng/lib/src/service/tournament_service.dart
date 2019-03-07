@@ -9,7 +9,11 @@ class TournamentService implements DetailListService {
 
   String getName() => "tournament";
 
-  Future<List<Tournament>> getAll() async => mockTournaments;
+  Future<List<Tournament>> getAll() async {
+    List<Tournament> returnList = new List();
+    returnList.insertAll(0, mockTournaments);
+    return returnList;
+  }
   Future<dynamic> addByMap(Map newObject){
     return null;
   }
@@ -33,5 +37,9 @@ class TournamentService implements DetailListService {
 
   Future<int> deleteById(int id){
     return null;
+  }
+
+  Tournament getNew(){
+    return new Tournament(0, "New");
   }
 }

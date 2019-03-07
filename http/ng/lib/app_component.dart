@@ -21,7 +21,7 @@ import 'src/conf/routes.dart';
             <material-button
               [raised]="true"
               (click)="goHome()" >Dashboard</material-button>
-            <raisable-menu
+            <raisable-menu raised-button
                 [menu]="navMenu"
                 [raised]="true" >
                 <section menu-button>

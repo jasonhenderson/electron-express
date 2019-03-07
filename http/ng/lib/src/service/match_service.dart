@@ -35,4 +35,7 @@ class MatchService implements DetailListService {
   Future<int> deleteById(int id){
     return null;
   }
+  Match getNew(){
+    return new Match(0, "New");
+  }
 }

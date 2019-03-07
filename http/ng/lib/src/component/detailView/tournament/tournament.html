@@ -1,0 +1,8 @@
+<material-expansionpanel
+    #itemExpansion
+    name="{{(item == null) ? '' : item.name + ':' + item.id.toString()}}"
+    (cancel)="printString('Canceling!')"
+    [expanded]="false"
+    [showSaveCancel]="false" >
+  This panel will not be automatically collapsed when there is a click outside of it.
+</material-expansionpanel>

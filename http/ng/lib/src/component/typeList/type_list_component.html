@@ -9,7 +9,7 @@ Menu Section (FAB(new) & SEARCH(input))
       (trigger)="onAddButton($event)">
       <material-icon icon="add"></material-icon>
     </material-fab>
-    <h2 *ngIf="!adding" style="display: inherit; margin:8px;">{{getSectionTitle(true)}}</h2>
+    <h2 style="display: inherit; margin:8px;">{{getSectionTitle(true)}}</h2>
   </div>
     <div class="col-1-2 inlinediv floatright">
     <material-input placeholder="Search"
@@ -22,71 +22,42 @@ Menu Section (FAB(new) & SEARCH(input))
 </div>
 <!--
 Item Section (from _currentSection)
+[expanded]="(selected == null) ? false : selected.id == item.id"
  -->
-<table class="itemtable">
-  <tr *ngFor="let item of listItems"
-      [class.selected]="item === selected"
-      (click)="onSelect(item)">
-      <td>
-        {{item.id}}
-      </td>
-      <td>
-        {{item.name}}
-      </td>
-      <td>
-        <material-button
-                (trigger)="onDelete($event, item)"
-                aria-label="Delete" >Delete</material-button>
-      </td>
-      <td>
-        <material-button
-                (trigger)="onButton($event, item)"
-                aria-label="Clone" >Clone</material-button>
-      </td>
-      <td>
-        <material-button
-                (trigger)="onButton($event, item)"
-                aria-label="Details" >Details</material-button>
-      </td>
-  </tr>
-</table>
-<!--
-Details Section (PRINT & EDIT(button))
- -->
-<div *ngIf="selected != null">
-  <h2>
-    {{selected.name}} is selected.
-  </h2>
-  <button (click)="gotoDetail()">View Details</button>
-</div>
-<!--
-Modal Section (DELETE(confirm))
- -->
-<modal [(visible)]="deleteModalVisible">
-    <material-dialog
-        [autoDismissable]="deleteModalVisible"
-        (dismiss)="deleteModalVisible = false"
-        style="width:320px" >
-
-        <div header>
-          <h1>Please verify deletion...</h1>
-          <h3 *ngIf="selected != null">{{selected.name}}</h3>
+<material-expansionpanel-set focusList>
+    <material-expansionpanel *ngFor="let item of listItems"
+                              wide
+                              name="{{item.name}}: {{item.id}}"
+                              #itemPanel
+                              (expandedChange)="changeHandler($event, item)"
+                              [disabled]="mode == 'add'"
+                              (save)="onSave($event)"
+                              (cancel)="onCancel($event)"
+                              [expanded]="selected?.id == item.id"
+                              [closeOnSave]="false">
+        <div *ngIf="itemPanel.isExpanded" style="padding: 8px;">
+        <template #itemContainer></template>
         </div>
-
-        <material-button
-            raised
-            (trigger)="onConfirmDelete()"
-            style="background-color: #db4437; color: white;" >
-          Confirm Delete
-        </material-button>
-
-        <div footer>
-          <material-button
-            autoFocus class="close-button"
-            (trigger)="deleteModalVisible = false" >
-            Close
-          </material-button>
-        </div>
-
-    </material-dialog>
+    </material-expansionpanel>
+</material-expansionpanel-set>
+<!--
+Cancel Confirm/Deny
+ -->
+<modal [visible]="cancelModalVisible">
+  <material-dialog class="max-height-dialog" autofocus >
+    <h1 header>Cancel?</h1>
+    <p>
+      Are you sure you want to cancel {{selected?.name}}?
+    </p>
+    <div footer>
+      <material-button
+        (trigger)="onConfirmCancel(true)" >
+        Yes, Cancel
+      </material-button>
+      <material-button autoFocus
+        (trigger)="onConfirmCancel(false)" >
+        Go Back
+      </material-button>
+    </div>
+  </material-dialog>
 </modal>

@@ -7,4 +7,5 @@ abstract class DetailListService {
   Future<List<dynamic>> getAll();
   Future<dynamic> getById(int id);
   Future<List<dynamic>> searchFor(String search);
+  dynamic getNew();
 }
