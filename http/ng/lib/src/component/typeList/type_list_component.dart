@@ -35,6 +35,7 @@ import '../../service/match_service.dart';
 import '../../service/player_service.dart';
 import '../../type/list_provider_interface.dart';
 import '../../component/detailView/tournament/tournament.template.dart' as tournament_component;
+import '../../component/detailView/player/player.template.dart' as player_component;
 
 @ Component(
   selector: 'my-itemlist',
@@ -88,11 +89,7 @@ import '../../component/detailView/tournament/tournament.template.dart' as tourn
 
     // Use the current service to get every item available (NO FILTER)
     Future < void > _getServiceItems() async {
-      print("Updating with old length: ${listItems.length.toString()}");
-      List<dynamic> newList = await _currentService.getAll();
-      print("Updating with new length: ${newList.length.toString()}");
-      listItems = newList;
-      print("Updated to new length: ${listItems.length.toString()}");
+      listItems = await _currentService.getAll();
       // TODO - switch to "getShort()" and only return id/name
     }
 
@@ -114,6 +111,7 @@ import '../../component/detailView/tournament/tournament.template.dart' as tourn
         case "players":
         print("Loading player service...");
         _currentService = PlayerService();
+        _currentFactory = player_component.PlayerDetailComponentNgFactory;
         break;
         default:
         window.alert("Oops, that service doesn't seem to exist!");

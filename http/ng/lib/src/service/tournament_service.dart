@@ -10,8 +10,9 @@ class TournamentService implements DetailListService {
   String getName() => "tournament";
 
   Future<List<Tournament>> getAll() async {
-    List<Tournament> returnList = new List();
-    returnList.insertAll(0, mockTournaments);
+    // TODO - Convert to new/fill pattern when connected to API
+    // List<Tournament> returnList = new List();
+    List<Tournament> returnList = new List.from(mockTournaments);
     return returnList;
   }
   Future<dynamic> addByMap(Map newObject){
