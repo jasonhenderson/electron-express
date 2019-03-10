@@ -9,7 +9,13 @@ class MatchService implements DetailListService {
 
   String getName() => "results";
 
-  Future<dynamic> addByMap(Map newObject){
+  Future<dynamic> addByMap(Map map){
+    return null;
+  }
+  Future<dynamic> addByObject(dynamic object){
+    return null;
+  }
+  Future<dynamic> updateByObject(dynamic object){
     return null;
   }
 

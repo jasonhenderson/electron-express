@@ -23,6 +23,8 @@ import 'package:angular_components/material_expansionpanel/material_expansionpan
 // PROJECT IMPORTS
 // ***************
 import '../../../type/player.dart';
+import '../../../type/barcode.dart';
+import '../../../service/interop_key_service.dart';
 
 @Component(
   selector: 'player-detail',
@@ -47,15 +49,29 @@ class PlayerDetailComponent implements OnInit {
   Player item;
 
   // Track lock level (UI MOD)
+  // 0 - New/free entity (DB reject on duplicate keys, id, etc)
+  // 1 - Edit normal entity (DB update with new name, settings, etc)
   @Input()
   int lockLevel;
 
-  PlayerDetailComponent();
+  PlayerDetailComponent(this._interopService);
+  InteropKeyService _interopService;
+
+  // Reference to our dynamically loaded content's DOM element
+  @ViewChild('ethkeyslot', read: MaterialInputComponent)
+  MaterialInputComponent ethereumKeySlot;
+
+  // Determine if UI element is unlocked
+  // Lower levels are at increased amounts of guarding from edits
+  bool disabledFromLevel(int level){
+    return lockLevel >= level;
+  }
 
   // NO ACTION ON INIT
   void ngOnInit() async {
     print("Init finished");
     print("Current Item : ${item.name}");
+    _interopService.barcodeStream.listen(_streamHandler);
   }
 
   // Extinguish the current event and attempt to confirm DELETE with modal
@@ -77,12 +93,19 @@ class PlayerDetailComponent implements OnInit {
     // }
   }
 
+  void _streamHandler(Barcode barcode){
+    MaterialInputComponent input = ethereumKeySlot;
+    if(input.focused && (!input.disabled)){
+      input.inputText = barcode.value;
+    }
+  }
+
   String capitalizedFunction(){
     // TODO - Fix or ditch
     return "STUB VALUE";
   }
 
-  void printString(String str){
-    print(str);
+  void printer(dynamic thing){
+    print(thing);
   }
 }

@@ -10,8 +10,9 @@ import 'src/component/raisableMenu/raisable_menu_component.dart';
 
 import 'package:http/http.dart' as http;
 
-import 'src/service/tournament_service.dart';
 import 'src/conf/routes.dart';
+
+import 'src/service/interop_key_service.dart';
 
 @Component(
   selector: 'tr-app',
@@ -48,8 +49,10 @@ import 'src/conf/routes.dart';
     MaterialButtonComponent
   ],
   providers: [
-    ClassProvider(TournamentService),
-    materialProviders
+    materialProviders,
+    const Provider(InteropKeyService,
+        useFactory: interopKeyServiceFactory,
+        deps: const [])
   ],
   exports: [
     RoutePaths,
@@ -59,7 +62,9 @@ import 'src/conf/routes.dart';
 class AppComponent implements OnInit {
   // Get a handle to current router object when class is constructed
   final Router _router;
-  AppComponent(this._router);
+  AppComponent(this._router, this._keyService);
+  
+  final InteropKeyService _keyService;
 
   // Navigation menu for sub-component
   MenuModel<MenuItem> navMenu;

@@ -17,8 +17,23 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
     <script defer src="main.dart.js"></script>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script src="webrtc-adapter.js"></script>
+    <script src="dbr-6.4.1.3.min.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
   </head>
   <body>
     <tr-app>Loading...</tr-app>
+    <div id="divVideoContainer" style="max-width:50%;position:relative;visibility:hidden;">
+        <video id="theVideo" style="width:100%;height:100%;" playsinline="true"></video>
+        <div id="divVideoRegion" style="position:absolute;margin:auto;left:0;top:0;right:0;bottom:0;width:100%;height:100%;border:3px solid #50A8E1;"></div>
+    </div>
   </body>
+  <script src="qrCodeReader.js"></script>
 </html>

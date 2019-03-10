@@ -665,8 +665,8 @@
       noSuchMethod$1: ["super$Interceptor$noSuchMethod", function(receiver, invocation) {
         H.interceptedTypeCheck(invocation, "$isInvocation");
         throw H.wrapException(P.NoSuchMethodError$(receiver, invocation.get$memberName(), invocation.get$positionalArguments(), invocation.get$namedArguments(), null));
-      }, null, "get$noSuchMethod", 5, 0, null, 19],
-      "%": "ANGLEInstancedArrays|ANGLE_instanced_arrays|AnimationEffectReadOnly|AnimationEffectTiming|AnimationEffectTimingReadOnly|AnimationTimeline|AnimationWorkletGlobalScope|AudioListener|AudioParam|AudioWorkletGlobalScope|AudioWorkletProcessor|AuthenticatorAssertionResponse|AuthenticatorAttestationResponse|AuthenticatorResponse|BackgroundFetchFetch|BackgroundFetchManager|BackgroundFetchSettledFetch|BarProp|BarcodeDetector|Bluetooth|BluetoothCharacteristicProperties|BluetoothRemoteGATTDescriptor|BluetoothRemoteGATTServer|BluetoothRemoteGATTService|BluetoothUUID|Body|BudgetService|BudgetState|CSS|CSSVariableReferenceValue|Cache|CacheStorage|CanvasGradient|CanvasPattern|CanvasRenderingContext2D|Clients|CookieStore|Coordinates|CredentialsContainer|Crypto|CryptoKey|CustomElementRegistry|DOMFileSystemSync|DOMImplementation|DOMMatrix|DOMMatrixReadOnly|DOMParser|DOMQuad|DOMStringMap|DataTransfer|DataTransferItem|Database|DeprecatedStorageInfo|DeprecatedStorageQuota|DeprecationReport|DetectedBarcode|DetectedFace|DetectedText|DeviceRotationRate|DirectoryEntrySync|DirectoryReader|DirectoryReaderSync|DocumentOrShadowRoot|DocumentTimeline|EXTBlendMinMax|EXTColorBufferFloat|EXTColorBufferHalfFloat|EXTDisjointTimerQuery|EXTDisjointTimerQueryWebGL2|EXTFragDepth|EXTShaderTextureLOD|EXTTextureFilterAnisotropic|EXT_blend_minmax|EXT_frag_depth|EXT_sRGB|EXT_shader_texture_lod|EXT_texture_filter_anisotropic|EXTsRGB|EntrySync|External|FaceDetector|FileEntrySync|FileReaderSync|FileWriterSync|FontFaceSource|FormData|GamepadButton|GamepadPose|Geolocation|HTMLAllCollection|HTMLHyperlinkElementUtils|Headers|IDBFactory|IDBObserver|IDBObserverChanges|IdleDeadline|ImageBitmapRenderingContext|ImageCapture|InputDeviceCapabilities|IntersectionObserver|InterventionReport|Iterator|KeyframeEffect|KeyframeEffectReadOnly|MediaCapabilities|MediaCapabilitiesInfo|MediaDeviceInfo|MediaError|MediaKeyStatusMap|MediaKeySystemAccess|MediaKeys|MediaKeysPolicy|MediaMetadata|MediaSession|MediaSettingsRange|MemoryInfo|MessageChannel|Metadata|Mojo|MojoHandle|MojoWatcher|MutationObserver|NFC|NavigationPreloadManager|Navigator|NavigatorAutomationInformation|NavigatorConcurrentHardware|NavigatorCookies|NodeFilter|NodeIterator|NonDocumentTypeChildNode|NonElementParentNode|NoncedElement|OESElementIndexUint|OESStandardDerivatives|OESTextureFloat|OESTextureFloatLinear|OESTextureHalfFloat|OESTextureHalfFloatLinear|OESVertexArrayObject|OES_element_index_uint|OES_standard_derivatives|OES_texture_float|OES_texture_float_linear|OES_texture_half_float|OES_texture_half_float_linear|OES_vertex_array_object|OffscreenCanvasRenderingContext2D|PagePopupController|PaintRenderingContext2D|PaintWorkletGlobalScope|Path2D|PaymentAddress|PaymentInstruments|PaymentManager|PaymentResponse|PerformanceNavigation|PerformanceObserver|PerformanceObserverEntryList|PerformanceTiming|PeriodicWave|Permissions|PhotoCapabilities|Position|PositionError|Presentation|PresentationReceiver|PushManager|PushMessageData|PushSubscription|PushSubscriptionOptions|RTCCertificate|RTCIceCandidate|RTCRtpContributingSource|RTCRtpReceiver|RTCRtpSender|RTCSessionDescription|RTCStatsResponse|Range|Report|ReportBody|ReportingObserver|Request|ResizeObserver|Response|SQLError|SQLResultSet|SQLTransaction|SVGAngle|SVGAnimatedAngle|SVGAnimatedBoolean|SVGAnimatedEnumeration|SVGAnimatedInteger|SVGAnimatedNumberList|SVGAnimatedPreserveAspectRatio|SVGAnimatedRect|SVGAnimatedTransformList|SVGMatrix|SVGPreserveAspectRatio|SVGUnitTypes|ScrollState|ScrollTimeline|Selection|SharedArrayBuffer|SpeechRecognitionAlternative|StaticRange|StorageManager|StyleMedia|StylePropertyMap|StylePropertyMapReadonly|SubtleCrypto|SyncManager|TextDetector|TrackDefault|TreeWalker|TrustedHTML|TrustedScriptURL|TrustedURL|URLSearchParams|USBAlternateInterface|USBConfiguration|USBDevice|USBEndpoint|USBInTransferResult|USBInterface|USBIsochronousInTransferPacket|USBIsochronousInTransferResult|USBIsochronousOutTransferPacket|USBIsochronousOutTransferResult|USBOutTransferResult|UnderlyingSourceBase|VRCoordinateSystem|VRDisplayCapabilities|VREyeParameters|VRFrameData|VRFrameOfReference|VRPose|VRStageBounds|VRStageParameters|ValidityState|VideoPlaybackQuality|WEBGL_compressed_texture_atc|WEBGL_compressed_texture_etc1|WEBGL_compressed_texture_pvrtc|WEBGL_compressed_texture_s3tc|WEBGL_debug_renderer_info|WEBGL_debug_shaders|WEBGL_depth_texture|WEBGL_draw_buffers|WEBGL_lose_context|WebGL|WebGL2RenderingContext|WebGL2RenderingContextBase|WebGLBuffer|WebGLCanvas|WebGLColorBufferFloat|WebGLCompressedTextureASTC|WebGLCompressedTextureATC|WebGLCompressedTextureETC|WebGLCompressedTextureETC1|WebGLCompressedTexturePVRTC|WebGLCompressedTextureS3TC|WebGLCompressedTextureS3TCsRGB|WebGLDebugRendererInfo|WebGLDebugShaders|WebGLDepthTexture|WebGLDrawBuffers|WebGLExtensionLoseContext|WebGLFramebuffer|WebGLGetBufferSubDataAsync|WebGLLoseContext|WebGLProgram|WebGLQuery|WebGLRenderbuffer|WebGLRenderingContext|WebGLSampler|WebGLShader|WebGLShaderPrecisionFormat|WebGLSync|WebGLTexture|WebGLTimerQueryEXT|WebGLTransformFeedback|WebGLUniformLocation|WebGLVertexArrayObject|WebGLVertexArrayObjectOES|WebKitMutationObserver|WorkerLocation|WorkerNavigator|Worklet|WorkletAnimation|WorkletGlobalScope|XMLSerializer|XPathEvaluator|XPathExpression|XPathNSResolver|XPathResult|XSLTProcessor|mozRTCIceCandidate|mozRTCSessionDescription"
+      }, null, "get$noSuchMethod", 5, 0, null, 22],
+      "%": "ANGLEInstancedArrays|ANGLE_instanced_arrays|AnimationEffectReadOnly|AnimationEffectTiming|AnimationEffectTimingReadOnly|AnimationTimeline|AnimationWorkletGlobalScope|AudioListener|AudioParam|AudioWorkletGlobalScope|AudioWorkletProcessor|AuthenticatorAssertionResponse|AuthenticatorAttestationResponse|AuthenticatorResponse|BackgroundFetchFetch|BackgroundFetchManager|BackgroundFetchSettledFetch|BarProp|BarcodeDetector|Bluetooth|BluetoothCharacteristicProperties|BluetoothRemoteGATTDescriptor|BluetoothRemoteGATTServer|BluetoothRemoteGATTService|BluetoothUUID|Body|BudgetService|BudgetState|CSS|CSSVariableReferenceValue|Cache|CacheStorage|CanvasGradient|CanvasPattern|CanvasRenderingContext2D|Clients|CookieStore|Coordinates|CredentialsContainer|Crypto|CryptoKey|CustomElementRegistry|DOMFileSystemSync|DOMImplementation|DOMMatrix|DOMMatrixReadOnly|DOMParser|DOMQuad|DataTransfer|Database|DeprecatedStorageInfo|DeprecatedStorageQuota|DeprecationReport|DetectedBarcode|DetectedFace|DetectedText|DeviceRotationRate|DirectoryEntrySync|DirectoryReader|DirectoryReaderSync|DocumentOrShadowRoot|DocumentTimeline|EXTBlendMinMax|EXTColorBufferFloat|EXTColorBufferHalfFloat|EXTDisjointTimerQuery|EXTDisjointTimerQueryWebGL2|EXTFragDepth|EXTShaderTextureLOD|EXTTextureFilterAnisotropic|EXT_blend_minmax|EXT_frag_depth|EXT_sRGB|EXT_shader_texture_lod|EXT_texture_filter_anisotropic|EXTsRGB|EntrySync|External|FaceDetector|FileEntrySync|FileReaderSync|FileWriterSync|FontFaceSource|FormData|GamepadButton|GamepadPose|Geolocation|HTMLAllCollection|HTMLHyperlinkElementUtils|Headers|IDBFactory|IDBObserver|IDBObserverChanges|IdleDeadline|ImageBitmapRenderingContext|ImageCapture|InputDeviceCapabilities|IntersectionObserver|InterventionReport|Iterator|KeyframeEffect|KeyframeEffectReadOnly|MediaCapabilities|MediaCapabilitiesInfo|MediaDeviceInfo|MediaError|MediaKeyStatusMap|MediaKeySystemAccess|MediaKeys|MediaKeysPolicy|MediaMetadata|MediaSession|MediaSettingsRange|MemoryInfo|MessageChannel|Metadata|Mojo|MojoHandle|MojoWatcher|MutationObserver|NFC|NavigationPreloadManager|Navigator|NavigatorAutomationInformation|NavigatorConcurrentHardware|NavigatorCookies|NodeFilter|NodeIterator|NonDocumentTypeChildNode|NonElementParentNode|NoncedElement|OESElementIndexUint|OESStandardDerivatives|OESTextureFloat|OESTextureFloatLinear|OESTextureHalfFloat|OESTextureHalfFloatLinear|OESVertexArrayObject|OES_element_index_uint|OES_standard_derivatives|OES_texture_float|OES_texture_float_linear|OES_texture_half_float|OES_texture_half_float_linear|OES_vertex_array_object|OffscreenCanvasRenderingContext2D|PagePopupController|PaintRenderingContext2D|PaintWorkletGlobalScope|Path2D|PaymentAddress|PaymentInstruments|PaymentManager|PaymentResponse|PerformanceNavigation|PerformanceObserver|PerformanceObserverEntryList|PerformanceTiming|PeriodicWave|Permissions|PhotoCapabilities|Position|PositionError|Presentation|PresentationReceiver|PushManager|PushMessageData|PushSubscription|PushSubscriptionOptions|RTCCertificate|RTCIceCandidate|RTCRtpContributingSource|RTCRtpReceiver|RTCRtpSender|RTCSessionDescription|RTCStatsResponse|Range|Report|ReportBody|ReportingObserver|Request|ResizeObserver|Response|SQLError|SQLResultSet|SQLTransaction|SVGAngle|SVGAnimatedAngle|SVGAnimatedBoolean|SVGAnimatedEnumeration|SVGAnimatedInteger|SVGAnimatedNumberList|SVGAnimatedPreserveAspectRatio|SVGAnimatedRect|SVGAnimatedTransformList|SVGMatrix|SVGPreserveAspectRatio|SVGUnitTypes|ScrollState|ScrollTimeline|Selection|SharedArrayBuffer|StaticRange|StorageManager|StyleMedia|StylePropertyMap|StylePropertyMapReadonly|SubtleCrypto|SyncManager|TextDetector|TreeWalker|TrustedHTML|TrustedScriptURL|TrustedURL|URLSearchParams|USBAlternateInterface|USBConfiguration|USBDevice|USBEndpoint|USBInTransferResult|USBInterface|USBIsochronousInTransferPacket|USBIsochronousInTransferResult|USBIsochronousOutTransferPacket|USBIsochronousOutTransferResult|USBOutTransferResult|UnderlyingSourceBase|VRCoordinateSystem|VRDisplayCapabilities|VREyeParameters|VRFrameData|VRFrameOfReference|VRPose|VRStageBounds|VRStageParameters|ValidityState|VideoPlaybackQuality|WEBGL_compressed_texture_atc|WEBGL_compressed_texture_etc1|WEBGL_compressed_texture_pvrtc|WEBGL_compressed_texture_s3tc|WEBGL_debug_renderer_info|WEBGL_debug_shaders|WEBGL_depth_texture|WEBGL_draw_buffers|WEBGL_lose_context|WebGL|WebGL2RenderingContext|WebGL2RenderingContextBase|WebGLBuffer|WebGLCanvas|WebGLColorBufferFloat|WebGLCompressedTextureASTC|WebGLCompressedTextureATC|WebGLCompressedTextureETC|WebGLCompressedTextureETC1|WebGLCompressedTexturePVRTC|WebGLCompressedTextureS3TC|WebGLCompressedTextureS3TCsRGB|WebGLDebugRendererInfo|WebGLDebugShaders|WebGLDepthTexture|WebGLDrawBuffers|WebGLExtensionLoseContext|WebGLFramebuffer|WebGLGetBufferSubDataAsync|WebGLLoseContext|WebGLProgram|WebGLQuery|WebGLRenderbuffer|WebGLRenderingContext|WebGLSampler|WebGLShader|WebGLShaderPrecisionFormat|WebGLSync|WebGLTexture|WebGLTimerQueryEXT|WebGLTransformFeedback|WebGLUniformLocation|WebGLVertexArrayObject|WebGLVertexArrayObjectOES|WebKitMutationObserver|WorkerLocation|WorkerNavigator|Worklet|WorkletAnimation|WorkletGlobalScope|XMLSerializer|XPathEvaluator|XPathExpression|XPathNSResolver|XPathResult|XSLTProcessor|mozRTCIceCandidate|mozRTCSessionDescription"
     },
     JSBool: {
       "^": "Interceptor;",
@@ -694,7 +694,7 @@
       },
       noSuchMethod$1: [function(receiver, invocation) {
         return this.super$Interceptor$noSuchMethod(receiver, H.interceptedTypeCheck(invocation, "$isInvocation"));
-      }, null, "get$noSuchMethod", 5, 0, null, 19],
+      }, null, "get$noSuchMethod", 5, 0, null, 22],
       $isNull: 1
     },
     JavaScriptObject: {
@@ -838,6 +838,21 @@
         }
         return value;
       },
+      firstWhere$2$orElse: function(receiver, test, orElse) {
+        var t1, end, i, element;
+        t1 = H.getTypeArgumentByIndex(receiver, 0);
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]});
+        H.functionTypeCheck(orElse, {func: 1, ret: t1});
+        end = receiver.length;
+        for (i = 0; i < end; ++i) {
+          element = receiver[i];
+          if (test.call$1(element))
+            return element;
+          if (receiver.length !== end)
+            throw H.wrapException(P.ConcurrentModificationError$(receiver));
+        }
+        return orElse.call$0();
+      },
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
@@ -898,6 +913,8 @@
         $length = end - start;
         if ($length === 0)
           return;
+        if (skipCount < 0)
+          H.throwExpression(P.RangeError$range(skipCount, 0, null, "skipCount", null));
         t2 = J.getInterceptor$(iterable);
         if (!!t2.$isList) {
           H.assertSubtype(iterable, "$isList", [t1], "$asList");
@@ -1029,6 +1046,19 @@
         this.setRange$3(t1, 0, receiver.length, receiver);
         this.setRange$3(t1, receiver.length, totalLength, other);
         return t1;
+      },
+      indexWhere$2: function(receiver, test, start) {
+        var i;
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [H.getTypeArgumentByIndex(receiver, 0)]});
+        if (start >= receiver.length)
+          return -1;
+        for (i = start; i < receiver.length; ++i)
+          if (test.call$1(receiver[i]))
+            return i;
+        return -1;
+      },
+      indexWhere$1: function($receiver, test) {
+        return this.indexWhere$2($receiver, test, 0);
       },
       $isJSIndexable: 1,
       $asJSIndexable: Isolate.functionThatReturnsNull,
@@ -1633,6 +1663,24 @@
         }
         return false;
       },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        var t1, $length, i, element;
+        t1 = H.getRuntimeTypeArgument(this, "ListIterable", 0);
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]});
+        H.functionTypeCheck(orElse, {func: 1, ret: t1});
+        $length = this.get$length(this);
+        if (typeof $length !== "number")
+          return H.iae($length);
+        i = 0;
+        for (; i < $length; ++i) {
+          element = this.elementAt$1(0, i);
+          if (test.call$1(element))
+            return element;
+          if ($length !== this.get$length(this))
+            throw H.wrapException(P.ConcurrentModificationError$(this));
+        }
+        return orElse.call$0();
+      },
       join$1: function(_, separator) {
         var $length, first, t1, i;
         $length = this.get$length(this);
@@ -1776,6 +1824,8 @@
       },
       skip$1: function(_, count) {
         var newStart, t1;
+        if (count < 0)
+          H.throwExpression(P.RangeError$range(count, 0, null, "count", null));
         newStart = this.__internal$_start + count;
         t1 = this._endOrLength;
         if (t1 != null && newStart >= t1)
@@ -2092,6 +2142,12 @@
       contains$1: function(_, element) {
         return false;
       },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        var t1 = H.getTypeArgumentByIndex(this, 0);
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]});
+        t1 = H.functionTypeCheck(orElse, {func: 1, ret: t1}).call$0();
+        return t1;
+      },
       join$1: function(_, separator) {
         return "";
       },
@@ -2104,6 +2160,8 @@
         return new H.EmptyIterable([$T]);
       },
       skip$1: function(_, count) {
+        if (count < 0)
+          H.throwExpression(P.RangeError$range(count, 0, null, "count", null));
         return this;
       },
       toList$1$growable: function(_, growable) {
@@ -2278,7 +2336,7 @@
     },
     getType: [function(index) {
       return init.types[H.intTypeCheck(index)];
-    }, null, null, 4, 0, null, 25],
+    }, null, null, 4, 0, null, 1],
     isJsIndexable: function(object, record) {
       var result;
       if (record != null) {
@@ -2760,7 +2818,7 @@
           return closure.call$4(arg1, arg2, arg3, arg4);
       }
       throw H.wrapException(P.Exception_Exception("Unsupported number of arguments for wrapped closure"));
-    }, null, null, 24, 0, null, 52, 41, 21, 15, 85, 77],
+    }, null, null, 24, 0, null, 58, 54, 24, 25, 86, 80],
     convertDartClosureToJS: function(closure, arity) {
       var $function;
       H.intTypeCheck(arity);
@@ -3038,6 +3096,11 @@
         return value;
       throw H.wrapException(H.TypeErrorImplementation$(value, "String"));
     },
+    stringTypeCast: function(value) {
+      if (typeof value === "string" || value == null)
+        return value;
+      throw H.wrapException(H.CastErrorImplementation$(value, "String"));
+    },
     doubleTypeCheck: function(value) {
       if (value == null)
         return value;
@@ -3154,6 +3217,13 @@
       } finally {
         $._inTypeAssertion = false;
       }
+    },
+    functionTypeCast: function(value, functionTypeRti) {
+      if (value == null)
+        return value;
+      if (H.functionTypeTest(value, functionTypeRti))
+        return value;
+      throw H.wrapException(H.CastErrorImplementation$(value, H.runtimeTypeToString(functionTypeRti)));
     },
     futureOrCheck: function(o, futureOrRti) {
       if (o != null && !H.checkSubtypeOfRuntimeType(o, futureOrRti))
@@ -3828,7 +3898,7 @@
     },
     _stringIdentity: [function(string) {
       return string;
-    }, "call$1", "_js_helper___stringIdentity$closure", 4, 0, 13],
+    }, "call$1", "_js_helper___stringIdentity$closure", 4, 0, 14],
     stringReplaceAllFuncUnchecked: function(receiver, pattern, onMatch, onNonMatch) {
       var t1, startIndex, t2, t3, t4, t5;
       if (!J.getInterceptor$(pattern).$isPattern)
@@ -3922,6 +3992,20 @@
       },
       get$keys: function(_) {
         return new H._ConstantMapKeyIterable(this, [H.getTypeArgumentByIndex(this, 0)]);
+      },
+      get$values: function(_) {
+        return H.MappedIterable_MappedIterable(this.__js_helper$_keys, new H.ConstantStringMap_values_closure(this), H.getTypeArgumentByIndex(this, 0), H.getTypeArgumentByIndex(this, 1));
+      }
+    },
+    ConstantStringMap_values_closure: {
+      "^": "Closure;$this",
+      call$1: [function(key) {
+        var t1 = this.$this;
+        return H.assertSubtypeOfRuntimeType(t1._fetch$1(H.assertSubtypeOfRuntimeType(key, H.getTypeArgumentByIndex(t1, 0))), H.getTypeArgumentByIndex(t1, 1));
+      }, null, null, 4, 0, null, 17, "call"],
+      $signature: function() {
+        var t1 = this.$this;
+        return {func: 1, ret: H.getTypeArgumentByIndex(t1, 1), args: [H.getTypeArgumentByIndex(t1, 0)]};
       }
     },
     ConstantProtoMap: {
@@ -3971,6 +4055,10 @@
       get$keys: function(_) {
         var t1 = this._getMap$0();
         return t1.get$keys(t1);
+      },
+      get$values: function(_) {
+        var t1 = this._getMap$0();
+        return t1.get$values(t1);
       },
       get$length: function(_) {
         var t1 = this._getMap$0();
@@ -4048,7 +4136,7 @@
       }
     },
     Primitives_functionNoSuchMethod_closure: {
-      "^": "Closure:65;_box_0,namedArgumentList,$arguments",
+      "^": "Closure:68;_box_0,namedArgumentList,$arguments",
       call$2: function($name, argument) {
         var t1;
         H.stringTypeCheck($name);
@@ -4165,7 +4253,7 @@
       "^": "Object;dartException,stackTrace"
     },
     unwrapException_saveStackTrace: {
-      "^": "Closure:10;ex",
+      "^": "Closure:7;ex",
       call$1: function(error) {
         if (!!J.getInterceptor$(error).$isError)
           if (error.$thrownJsError == null)
@@ -4614,7 +4702,7 @@
       call$1: [function(each) {
         var t1 = this.$this;
         return t1.$index(0, H.assertSubtypeOfRuntimeType(each, H.getTypeArgumentByIndex(t1, 0)));
-      }, null, null, 4, 0, null, 56, "call"],
+      }, null, null, 4, 0, null, 18, "call"],
       $signature: function() {
         var t1 = this.$this;
         return {func: 1, ret: H.getTypeArgumentByIndex(t1, 1), args: [H.getTypeArgumentByIndex(t1, 0)]};
@@ -4693,19 +4781,19 @@
       $isIterator: 1
     },
     initHooks_closure: {
-      "^": "Closure:10;getTag",
+      "^": "Closure:7;getTag",
       call$1: function(o) {
         return this.getTag(o);
       }
     },
     initHooks_closure0: {
-      "^": "Closure:173;getUnknownTag",
+      "^": "Closure:175;getUnknownTag",
       call$2: function(o, tag) {
         return this.getUnknownTag(o, tag);
       }
     },
     initHooks_closure1: {
-      "^": "Closure:98;prototypeForTag",
+      "^": "Closure:229;prototypeForTag",
       call$1: function(tag) {
         return this.prototypeForTag(H.stringTypeCheck(tag));
       }
@@ -5019,6 +5107,8 @@
         if (start > end)
           throw H.wrapException(P.RangeError$range(start, 0, end, null, null));
         count = end - start;
+        if (skipCount < 0)
+          throw H.wrapException(P.ArgumentError$(skipCount));
         sourceLength = source.length;
         if (sourceLength - skipCount < count)
           throw H.wrapException(P.StateError$("Not enough elements"));
@@ -5219,13 +5309,13 @@
     },
     _AsyncRun__scheduleImmediateJsOverride: [function(callback) {
       self.scheduleImmediate(H.convertDartClosureToJS(new P._AsyncRun__scheduleImmediateJsOverride_internalCallback(H.functionTypeCheck(callback, {func: 1, ret: -1})), 0));
-    }, "call$1", "async__AsyncRun__scheduleImmediateJsOverride$closure", 4, 0, 40],
+    }, "call$1", "async__AsyncRun__scheduleImmediateJsOverride$closure", 4, 0, 39],
     _AsyncRun__scheduleImmediateWithSetImmediate: [function(callback) {
       self.setImmediate(H.convertDartClosureToJS(new P._AsyncRun__scheduleImmediateWithSetImmediate_internalCallback(H.functionTypeCheck(callback, {func: 1, ret: -1})), 0));
-    }, "call$1", "async__AsyncRun__scheduleImmediateWithSetImmediate$closure", 4, 0, 40],
+    }, "call$1", "async__AsyncRun__scheduleImmediateWithSetImmediate$closure", 4, 0, 39],
     _AsyncRun__scheduleImmediateWithTimer: [function(callback) {
       P.Timer__createTimer(C.Duration_0, H.functionTypeCheck(callback, {func: 1, ret: -1}));
-    }, "call$1", "async__AsyncRun__scheduleImmediateWithTimer$closure", 4, 0, 40],
+    }, "call$1", "async__AsyncRun__scheduleImmediateWithTimer$closure", 4, 0, 39],
     Timer__createTimer: function(duration, callback) {
       var milliseconds;
       H.functionTypeCheck(callback, {func: 1, ret: -1});
@@ -5543,13 +5633,13 @@
       }
     },
     _nullDataHandler: [function(value) {
-    }, "call$1", "async___nullDataHandler$closure", 4, 0, 11, 1],
+    }, "call$1", "async___nullDataHandler$closure", 4, 0, 12, 2],
     _nullErrorHandler: [function(error, stackTrace) {
       H.interceptedTypeCheck(stackTrace, "$isStackTrace");
       $.Zone__current.handleUncaughtError$2(error, stackTrace);
     }, function(error) {
       return P._nullErrorHandler(error, null);
-    }, "call$2", "call$1", "async___nullErrorHandler$closure", 4, 2, 27, 3, 2, 4],
+    }, "call$2", "call$1", "async___nullErrorHandler$closure", 4, 2, 29, 4, 3, 5],
     _nullDoneHandler: [function() {
     }, "call$0", "async___nullDoneHandler$closure", 0, 0, 1],
     _cancelAndValue: function(subscription, future, value) {
@@ -5589,7 +5679,7 @@
       var t1 = {};
       t1.error = error;
       P._schedulePriorityAsyncCallback(new P._rootHandleUncaughtError_closure(t1, H.interceptedTypeCheck(stackTrace, "$isStackTrace")));
-    }, "call$5", "async___rootHandleUncaughtError$closure", 20, 0, 58],
+    }, "call$5", "async___rootHandleUncaughtError$closure", 20, 0, 62],
     _rootRun: [1, function($self, $parent, zone, f, $R) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5609,7 +5699,7 @@
       }
     }, function($self, $parent, zone, f) {
       return P._rootRun($self, $parent, zone, f, null);
-    }, "call$1$4", "call$4", "async___rootRun$closure", 16, 0, 50, 10, 12, 13, 16],
+    }, "call$1$4", "call$4", "async___rootRun$closure", 16, 0, 65, 11, 13, 14, 16],
     _rootRunUnary: [1, function($self, $parent, zone, f, arg, $R, $T) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5630,7 +5720,7 @@
       }
     }, function($self, $parent, zone, f, arg) {
       return P._rootRunUnary($self, $parent, zone, f, arg, null, null);
-    }, "call$2$5", "call$5", "async___rootRunUnary$closure", 20, 0, 56, 10, 12, 13, 16, 11],
+    }, "call$2$5", "call$5", "async___rootRunUnary$closure", 20, 0, 64, 11, 13, 14, 16, 12],
     _rootRunBinary: [1, function($self, $parent, zone, f, arg1, arg2, $R, T1, T2) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5652,26 +5742,26 @@
       }
     }, function($self, $parent, zone, f, arg1, arg2) {
       return P._rootRunBinary($self, $parent, zone, f, arg1, arg2, null, null, null);
-    }, "call$3$6", "call$6", "async___rootRunBinary$closure", 24, 0, 57, 10, 12, 13, 16, 21, 15],
+    }, "call$3$6", "call$6", "async___rootRunBinary$closure", 24, 0, 63, 11, 13, 14, 16, 24, 25],
     _rootRegisterCallback: [function($self, $parent, zone, f, $R) {
       return H.functionTypeCheck(f, {func: 1, ret: $R});
     }, function($self, $parent, zone, f) {
       return P._rootRegisterCallback($self, $parent, zone, f, null);
-    }, "call$1$4", "call$4", "async___rootRegisterCallback$closure", 16, 0, 174],
+    }, "call$1$4", "call$4", "async___rootRegisterCallback$closure", 16, 0, 196],
     _rootRegisterUnaryCallback: [function($self, $parent, zone, f, $R, $T) {
       return H.functionTypeCheck(f, {func: 1, ret: $R, args: [$T]});
     }, function($self, $parent, zone, f) {
       return P._rootRegisterUnaryCallback($self, $parent, zone, f, null, null);
-    }, "call$2$4", "call$4", "async___rootRegisterUnaryCallback$closure", 16, 0, 175],
+    }, "call$2$4", "call$4", "async___rootRegisterUnaryCallback$closure", 16, 0, 197],
     _rootRegisterBinaryCallback: [function($self, $parent, zone, f, $R, T1, T2) {
       return H.functionTypeCheck(f, {func: 1, ret: $R, args: [T1, T2]});
     }, function($self, $parent, zone, f) {
       return P._rootRegisterBinaryCallback($self, $parent, zone, f, null, null, null);
-    }, "call$3$4", "call$4", "async___rootRegisterBinaryCallback$closure", 16, 0, 176],
+    }, "call$3$4", "call$4", "async___rootRegisterBinaryCallback$closure", 16, 0, 198],
     _rootErrorCallback: [function($self, $parent, zone, error, stackTrace) {
       H.interceptedTypeCheck(stackTrace, "$isStackTrace");
       return;
-    }, "call$5", "async___rootErrorCallback$closure", 20, 0, 177],
+    }, "call$5", "async___rootErrorCallback$closure", 20, 0, 199],
     _rootScheduleMicrotask: [function($self, $parent, zone, f) {
       var t1;
       H.functionTypeCheck(f, {func: 1, ret: -1});
@@ -5679,25 +5769,25 @@
       if (t1)
         f = !(!t1 || C.C__RootZone.get$errorZone() === zone.get$errorZone()) ? zone.bindCallbackGuarded$1(f) : zone.bindCallback$1$1(f, -1);
       P._scheduleAsyncCallback(f);
-    }, "call$4", "async___rootScheduleMicrotask$closure", 16, 0, 49],
+    }, "call$4", "async___rootScheduleMicrotask$closure", 16, 0, 66],
     _rootCreateTimer: [function($self, $parent, zone, duration, callback) {
       H.interceptedTypeCheck(duration, "$isDuration");
       callback = zone.bindCallback$1$1(H.functionTypeCheck(callback, {func: 1, ret: -1}), -1);
       return P.Timer__createTimer(duration, callback);
-    }, "call$5", "async___rootCreateTimer$closure", 20, 0, 60],
+    }, "call$5", "async___rootCreateTimer$closure", 20, 0, 61],
     _rootCreatePeriodicTimer: [function($self, $parent, zone, duration, callback) {
       var milliseconds;
       H.interceptedTypeCheck(duration, "$isDuration");
       callback = zone.bindUnaryCallback$2$1(H.functionTypeCheck(callback, {func: 1, ret: -1, args: [P.Timer]}), null, P.Timer);
       milliseconds = C.JSInt_methods._tdivFast$1(duration._duration, 1000);
       return P._TimerImpl$periodic(milliseconds < 0 ? 0 : milliseconds, callback);
-    }, "call$5", "async___rootCreatePeriodicTimer$closure", 20, 0, 178],
+    }, "call$5", "async___rootCreatePeriodicTimer$closure", 20, 0, 200],
     _rootPrint: [function($self, $parent, zone, line) {
       H.printString(H.stringTypeCheck(line));
-    }, "call$4", "async___rootPrint$closure", 16, 0, 179],
+    }, "call$4", "async___rootPrint$closure", 16, 0, 201],
     _printToZone: [function(line) {
       $.Zone__current.print$1(0, line);
-    }, "call$1", "async___printToZone$closure", 4, 0, 180],
+    }, "call$1", "async___printToZone$closure", 4, 0, 202],
     _rootFork: [function($self, $parent, zone, specification, zoneValues) {
       var valueMap, t1, t2;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5740,7 +5830,7 @@
       t2 = specification.handleUncaughtError;
       t1.set$_handleUncaughtError(t2 != null ? new P._ZoneFunction(t1, t2, [{func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}]) : zone.get$_handleUncaughtError());
       return t1;
-    }, "call$5", "async___rootFork$closure", 20, 0, 181, 10, 12, 13, 63, 61],
+    }, "call$5", "async___rootFork$closure", 20, 0, 203, 11, 13, 14, 66, 63],
     _AsyncRun__initializeScheduleImmediate_internalCallback: {
       "^": "Closure:4;_box_0",
       call$1: [function(_) {
@@ -5752,7 +5842,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     _AsyncRun__initializeScheduleImmediate_closure: {
-      "^": "Closure:197;_box_0,div,span",
+      "^": "Closure:84;_box_0,div,span",
       call$1: function(callback) {
         var t1, t2;
         this._box_0.storedCallback = H.functionTypeCheck(callback, {func: 1, ret: -1});
@@ -5880,19 +5970,19 @@
       "^": "Closure:2;bodyFunction",
       call$1: [function(result) {
         return this.bodyFunction.call$2(0, result);
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     _awaitOnObject_closure0: {
-      "^": "Closure:198;bodyFunction",
+      "^": "Closure:217;bodyFunction",
       call$2: [function(error, stackTrace) {
         this.bodyFunction.call$2(1, new H.ExceptionAndStackTrace(error, H.interceptedTypeCheck(stackTrace, "$isStackTrace")));
-      }, null, null, 8, 0, null, 2, 4, "call"]
+      }, null, null, 8, 0, null, 3, 5, "call"]
     },
     _wrapJsFunctionForAsync_closure: {
-      "^": "Closure:75;$protected",
+      "^": "Closure:232;$protected",
       call$2: [function(errorCode, result) {
         this.$protected(H.intTypeCheck(errorCode), result);
-      }, null, null, 8, 0, null, 54, 6, "call"]
+      }, null, null, 8, 0, null, 56, 7, "call"]
     },
     _asyncStarHelper_closure: {
       "^": "Closure:0;controller,bodyFunctionOrErrorCode",
@@ -5966,7 +6056,7 @@
       }
     },
     _AsyncStarStreamController_closure: {
-      "^": "Closure:18;$this,body",
+      "^": "Closure:17;$this,body",
       call$0: [function() {
         var t1 = this.$this;
         if ((t1.controller.get$_state() & 4) === 0) {
@@ -6201,7 +6291,7 @@
         if (!this.get$_mayAddEvent())
           throw H.wrapException(this._addEventError$0());
         this._sendData$1(data);
-      }, null, "get$add", 5, 0, null, 8],
+      }, null, "get$add", 5, 0, null, 9],
       addError$2: function(error, stackTrace) {
         var replacement;
         if (error == null)
@@ -6233,7 +6323,7 @@
       },
       _add$1: [function(_, data) {
         this._sendData$1(H.assertSubtypeOfRuntimeType(data, H.getTypeArgumentByIndex(this, 0)));
-      }, null, "get$_add", 5, 0, null, 8],
+      }, null, "get$_add", 5, 0, null, 9],
       _forEachListener$1: function(action) {
         var t1, subscription, id, next;
         H.functionTypeCheck(action, {func: 1, ret: -1, args: [[P._BufferingStreamSubscription, H.getTypeArgumentByIndex(this, 0)]]});
@@ -6397,7 +6487,7 @@
             t1.lastPendingEvent = null;
           $event.perform$1(this);
         }
-      }, "call$1", "get$add", 5, 0, 11, 8],
+      }, "call$1", "get$add", 5, 0, 12, 9],
       addError$2: [function(error, stackTrace) {
         var t1, $event, t2;
         H.interceptedTypeCheck(stackTrace, "$isStackTrace");
@@ -6424,7 +6514,7 @@
         }
       }, function(error) {
         return this.addError$2(error, null);
-      }, "addError$1", "call$2", "call$1", "get$addError", 4, 2, 27, 3, 2, 4],
+      }, "addError$1", "call$2", "call$1", "get$addError", 4, 2, 29, 4, 3, 5],
       close$0: [function(_) {
         var t1 = this._state;
         if ((t1 & 4) === 0 && (t1 & 2) !== 0) {
@@ -6433,7 +6523,7 @@
           return P._BroadcastStreamController.prototype.get$done.call(this);
         }
         return this.super$_BroadcastStreamController$close(0);
-      }, "call$0", "get$close", 1, 0, 18],
+      }, "call$0", "get$close", 1, 0, 17],
       _callOnCancel$0: function() {
         if (this.get$_hasPending()) {
           var t1 = this._pending;
@@ -6491,7 +6581,7 @@
           }
         } else if (t2 === 0 && !this.eagerError)
           this.result._completeError$2(t1.error, t1.stackTrace);
-      }, null, null, 8, 0, null, 50, 46, "call"]
+      }, null, null, 8, 0, null, 52, 48, "call"]
     },
     Future_wait_closure: {
       "^": "Closure;_box_0,pos,result,cleanUp,eagerError,T",
@@ -6507,7 +6597,7 @@
             this.result._completeWithValue$1(t1.values);
         } else if (t1.remaining === 0 && !this.eagerError)
           this.result._completeError$2(t1.error, t1.stackTrace);
-      }, null, null, 4, 0, null, 1, "call"],
+      }, null, null, 4, 0, null, 2, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.T]};
       }
@@ -6531,7 +6621,7 @@
         this._completeError$2(error, stackTrace);
       }, function(error) {
         return this.completeError$2(error, null);
-      }, "completeError$1", "call$2", "call$1", "get$completeError", 4, 2, 27, 3, 2, 4],
+      }, "completeError$1", "call$2", "call$1", "get$completeError", 4, 2, 29, 4, 3, 5],
       $isCompleter: 1
     },
     _AsyncCompleter: {
@@ -6545,7 +6635,7 @@
         t1._asyncComplete$1(value);
       }, function($receiver) {
         return this.complete$1($receiver, null);
-      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 67, 3, 1],
+      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 69, 4, 2],
       _completeError$2: function(error, stackTrace) {
         this.future._asyncCompleteError$2(error, stackTrace);
       }
@@ -6561,7 +6651,7 @@
         t1._complete$1(value);
       }, function($receiver) {
         return this.complete$1($receiver, null);
-      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 67, 3, 1],
+      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 69, 4, 2],
       _completeError$2: function(error, stackTrace) {
         this.future._completeError$2(error, stackTrace);
       }
@@ -6739,7 +6829,7 @@
         P._Future__propagateToListeners(this, listeners);
       }, function(error) {
         return this._completeError$2(error, null);
-      }, "_completeError$1", "call$2", "call$1", "get$_completeError", 4, 2, 27, 3, 2, 4],
+      }, "_completeError$1", "call$2", "call$1", "get$_completeError", 4, 2, 29, 4, 3, 5],
       _asyncComplete$1: function(value) {
         H.futureOrCheck(value, {futureOr: 1, type: H.getTypeArgumentByIndex(this, 0)});
         if (H.checkSubtype(value, "$isFuture", this.$ti, "$asFuture")) {
@@ -6918,15 +7008,15 @@
         var t1 = this.target;
         t1._state = 0;
         t1._complete$1(value);
-      }, null, null, 4, 0, null, 1, "call"]
+      }, null, null, 4, 0, null, 2, "call"]
     },
     _Future__chainForeignFuture_closure0: {
-      "^": "Closure:76;target",
+      "^": "Closure:90;target",
       call$2: [function(error, stackTrace) {
         this.target._completeError$2(error, H.interceptedTypeCheck(stackTrace, "$isStackTrace"));
       }, function(error) {
         return this.call$2(error, null);
-      }, "call$1", null, null, null, 4, 2, null, 3, 2, 4, "call"]
+      }, "call$1", null, null, null, 4, 2, null, 4, 3, 5, "call"]
     },
     _Future__chainForeignFuture_closure1: {
       "^": "Closure:0;target,e,s",
@@ -6996,7 +7086,7 @@
       }
     },
     _Future__propagateToListeners_handleWhenCompleteCallback_closure: {
-      "^": "Closure:77;originalSource",
+      "^": "Closure:94;originalSource",
       call$1: [function(_) {
         return this.originalSource;
       }, null, null, 4, 0, null, 0, "call"]
@@ -7092,7 +7182,7 @@
         var t1 = this.controller;
         t1._add$1(0, H.assertSubtypeOfRuntimeType(value, this.T));
         t1._closeUnchecked$0();
-      }, null, null, 4, 0, null, 1, "call"],
+      }, null, null, 4, 0, null, 2, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.T]};
       }
@@ -7103,7 +7193,7 @@
         var t1 = this.controller;
         t1._addError$2(error, H.interceptedTypeCheck(stackTrace, "$isStackTrace"));
         t1._closeUnchecked$0();
-      }, null, null, 8, 0, null, 2, 4, "call"]
+      }, null, null, 8, 0, null, 3, 5, "call"]
     },
     Stream_Stream$fromIterable_closure: {
       "^": "Closure;elements,T",
@@ -7152,7 +7242,7 @@
       call$1: [function(value) {
         H.assertSubtypeOfRuntimeType(value, H.getRuntimeTypeArgument(this.$this, "Stream", 0));
         P._cancelAndValue(this._box_0.subscription, this.future, value);
-      }, null, null, 4, 0, null, 1, "call"],
+      }, null, null, 4, 0, null, 2, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [H.getRuntimeTypeArgument(this.$this, "Stream", 0)]};
       }
@@ -7268,7 +7358,7 @@
         if (this._state >= 4)
           throw H.wrapException(this._badEventState$0());
         this._add$1(0, value);
-      }, "call$1", "get$add", 5, 0, 11, 1],
+      }, "call$1", "get$add", 5, 0, 12, 2],
       addError$2: function(error, stackTrace) {
         var replacement;
         if (this._state >= 4)
@@ -7308,7 +7398,7 @@
           this._sendData$1(value);
         else if ((t1 & 3) === 0)
           this._ensurePendingEvents$0().add$1(0, new P._DelayedData(value, this.$ti));
-      }, "call$1", "get$_add", 5, 0, 11, 1],
+      }, "call$1", "get$_add", 5, 0, 12, 2],
       _addError$2: [function(error, stackTrace) {
         var t1;
         H.interceptedTypeCheck(stackTrace, "$isStackTrace");
@@ -7317,7 +7407,7 @@
           this._sendError$2(error, stackTrace);
         else if ((t1 & 3) === 0)
           this._ensurePendingEvents$0().add$1(0, new P._DelayedError(error, stackTrace));
-      }, "call$2", "get$_addError", 8, 0, 84, 2, 4],
+      }, "call$2", "get$_addError", 8, 0, 96, 3, 5],
       _close$0: [function() {
         var addState = H.assertSubtype(this._varData, "$is_StreamControllerAddStreamState", this.$ti, "$as_StreamControllerAddStreamState");
         this._varData = addState.varData;
@@ -8153,11 +8243,11 @@
       },
       _handleData$1: [function(data) {
         this._stream._handleData$2(H.assertSubtypeOfRuntimeType(data, H.getRuntimeTypeArgument(this, "_ForwardingStreamSubscription", 0)), this);
-      }, "call$1", "get$_handleData", 4, 0, 11, 8],
+      }, "call$1", "get$_handleData", 4, 0, 12, 9],
       _handleError$2: [function(error, stackTrace) {
         H.interceptedTypeCheck(stackTrace, "$isStackTrace");
         H.assertSubtype(this, "$is_EventSink", [H.getRuntimeTypeArgument(this._stream, "_ForwardingStream", 1)], "$as_EventSink")._addError$2(error, stackTrace);
-      }, "call$2", "get$_handleError", 8, 0, 85, 2, 4],
+      }, "call$2", "get$_handleError", 8, 0, 97, 3, 5],
       _handleDone$0: [function() {
         H.assertSubtype(this, "$is_EventSink", [H.getRuntimeTypeArgument(this._stream, "_ForwardingStream", 1)], "$as_EventSink")._close$0();
       }, "call$0", "get$_handleDone", 0, 0, 1],
@@ -8321,7 +8411,7 @@
         if ((t1._state & 2) !== 0)
           H.throwExpression(P.StateError$("Stream is already closed"));
         t1.super$_BufferingStreamSubscription$_add(0, data);
-      }, "call$1", "get$add", 5, 0, 11, 8],
+      }, "call$1", "get$add", 5, 0, 12, 9],
       addError$2: function(error, stackTrace) {
         var t1 = this._async$_sink;
         if ((t1._state & 2) !== 0)
@@ -8381,7 +8471,7 @@
             H.throwExpression(P.StateError$("Stream is already closed"));
           this.super$_BufferingStreamSubscription$_addError(e, t1);
         }
-      }, "call$1", "get$_handleData", 4, 0, 11, 8],
+      }, "call$1", "get$_handleData", 4, 0, 12, 9],
       _handleError$2: [function(error, stackTrace) {
         var e, s, exception, t1;
         try {
@@ -8404,7 +8494,7 @@
         }
       }, function(error) {
         return this._handleError$2(error, null);
-      }, "_handleError$1", "call$2", "call$1", "get$_handleError", 4, 2, 89, 3, 2, 4],
+      }, "_handleError$1", "call$2", "call$1", "get$_handleError", 4, 2, 98, 4, 3, 5],
       _handleDone$0: [function() {
         var e, s, exception, t1;
         try {
@@ -8742,7 +8832,7 @@
       call$1: [function(arg) {
         var t1 = this.T;
         return this.$this.runUnaryGuarded$1$2(this.registered, H.assertSubtypeOfRuntimeType(arg, t1), t1);
-      }, null, null, 4, 0, null, 11, "call"],
+      }, null, null, 4, 0, null, 12, "call"],
       $signature: function() {
         return {func: 1, ret: -1, args: [this.T]};
       }
@@ -8955,7 +9045,7 @@
       call$1: [function(arg) {
         var t1 = this.T;
         return this.$this.runUnaryGuarded$1$2(this.f, H.assertSubtypeOfRuntimeType(arg, t1), t1);
-      }, null, null, 4, 0, null, 11, "call"],
+      }, null, null, 4, 0, null, 12, "call"],
       $signature: function() {
         return {func: 1, ret: -1, args: [this.T]};
       }
@@ -8998,10 +9088,10 @@
     },
     _defaultEquals: [function(a, b) {
       return J.$eq$(a, b);
-    }, "call$2", "collection___defaultEquals$closure", 8, 0, 62],
+    }, "call$2", "collection___defaultEquals$closure", 8, 0, 58],
     _defaultHashCode: [function(a) {
       return J.get$hashCode$(a);
-    }, "call$1", "collection___defaultHashCode$closure", 4, 0, 183, 29],
+    }, "call$1", "collection___defaultHashCode$closure", 4, 0, 205, 32],
     HashMap_HashMap$from: function(other, $K, $V) {
       var result = P.HashMap_HashMap(null, null, null, $K, $V);
       J.forEach$1$ax(other, new P.HashMap_HashMap$from_closure(result, $K, $V));
@@ -9177,6 +9267,10 @@
       },
       get$keys: function(_) {
         return new P._HashMapKeyIterable(this, [H.getTypeArgumentByIndex(this, 0)]);
+      },
+      get$values: function(_) {
+        var t1 = H.getTypeArgumentByIndex(this, 0);
+        return H.MappedIterable_MappedIterable(new P._HashMapKeyIterable(this, [t1]), new P._HashMap_values_closure(this), t1, H.getTypeArgumentByIndex(this, 1));
       },
       containsKey$1: function(_, key) {
         var strings, nums;
@@ -9363,6 +9457,17 @@
         }
       }
     },
+    _HashMap_values_closure: {
+      "^": "Closure;$this",
+      call$1: [function(each) {
+        var t1 = this.$this;
+        return t1.$index(0, H.assertSubtypeOfRuntimeType(each, H.getTypeArgumentByIndex(t1, 0)));
+      }, null, null, 4, 0, null, 18, "call"],
+      $signature: function() {
+        var t1 = this.$this;
+        return {func: 1, ret: H.getTypeArgumentByIndex(t1, 1), args: [H.getTypeArgumentByIndex(t1, 0)]};
+      }
+    },
     _HashMapKeyIterable: {
       "^": "EfficientLengthIterable;_collection$_map,$ti",
       get$length: function(_) {
@@ -9479,7 +9584,7 @@
       }
     },
     _LinkedCustomHashMap_closure: {
-      "^": "Closure:69;K",
+      "^": "Closure:35;K",
       call$1: function(v) {
         return H.checkSubtypeOfRuntimeType(v, this.K);
       }
@@ -9828,6 +9933,24 @@
         }
         return false;
       },
+      firstWhere$2$orElse: function(receiver, test, orElse) {
+        var t1, $length, i, element;
+        t1 = H.getRuntimeTypeArgumentIntercepted(this, receiver, "ListMixin", 0);
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]});
+        H.functionTypeCheck(orElse, {func: 1, ret: t1});
+        $length = this.get$length(receiver);
+        if (typeof $length !== "number")
+          return H.iae($length);
+        i = 0;
+        for (; i < $length; ++i) {
+          element = this.$index(receiver, i);
+          if (test.call$1(element))
+            return element;
+          if ($length !== this.get$length(receiver))
+            throw H.wrapException(P.ConcurrentModificationError$(receiver));
+        }
+        return orElse.call$0();
+      },
       join$1: function(receiver, separator) {
         var t1;
         if (this.get$length(receiver) === 0)
@@ -9952,6 +10075,8 @@
         $length = end - start;
         if ($length === 0)
           return;
+        if (skipCount < 0)
+          H.throwExpression(P.RangeError$range(skipCount, 0, null, "skipCount", null));
         if (H.checkSubtype(iterable, "$isList", [t1], "$asList")) {
           otherStart = skipCount;
           otherList = iterable;
@@ -9989,6 +10114,25 @@
       },
       indexOf$1: function($receiver, element) {
         return this.indexOf$2($receiver, element, 0);
+      },
+      indexWhere$2: function(receiver, test, start) {
+        var i, t1;
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [H.getRuntimeTypeArgumentIntercepted(this, receiver, "ListMixin", 0)]});
+        i = start;
+        while (true) {
+          t1 = this.get$length(receiver);
+          if (typeof t1 !== "number")
+            return H.iae(t1);
+          if (!(i < t1))
+            break;
+          if (test.call$1(this.$index(receiver, i)))
+            return i;
+          ++i;
+        }
+        return -1;
+      },
+      indexWhere$1: function($receiver, test) {
+        return this.indexWhere$2($receiver, test, 0);
       },
       insert$2: function(receiver, index, element) {
         var t1;
@@ -10056,10 +10200,57 @@
       get$isNotEmpty: function(receiver) {
         return J.get$isNotEmpty$asx(this.get$keys(receiver));
       },
+      get$values: function(receiver) {
+        return new P._MapBaseValueIterable(receiver, [H.getRuntimeTypeArgumentIntercepted(this, receiver, "MapMixin", 0), H.getRuntimeTypeArgumentIntercepted(this, receiver, "MapMixin", 1)]);
+      },
       toString$0: function(receiver) {
         return P.MapBase_mapToString(receiver);
       },
       $isMap: 1
+    },
+    _MapBaseValueIterable: {
+      "^": "EfficientLengthIterable;_collection$_map,$ti",
+      get$length: function(_) {
+        return J.get$length$asx(this._collection$_map);
+      },
+      get$isEmpty: function(_) {
+        return J.get$isEmpty$asx(this._collection$_map);
+      },
+      get$isNotEmpty: function(_) {
+        return J.get$isNotEmpty$asx(this._collection$_map);
+      },
+      get$iterator: function(_) {
+        var t1 = this._collection$_map;
+        return new P._MapBaseValueIterator(J.get$iterator$ax(J.get$keys$x(t1)), t1, this.$ti);
+      },
+      $asEfficientLengthIterable: function($K, $V) {
+        return [$V];
+      },
+      $asIterable: function($K, $V) {
+        return [$V];
+      }
+    },
+    _MapBaseValueIterator: {
+      "^": "Object;_keys,_collection$_map,0_collection$_current,$ti",
+      set$_collection$_current: function(_current) {
+        this._collection$_current = H.assertSubtypeOfRuntimeType(_current, H.getTypeArgumentByIndex(this, 1));
+      },
+      moveNext$0: function() {
+        var t1 = this._keys;
+        if (t1.moveNext$0()) {
+          this.set$_collection$_current(J.$index$asx(this._collection$_map, t1.get$current(t1)));
+          return true;
+        }
+        this.set$_collection$_current(null);
+        return false;
+      },
+      get$current: function(_) {
+        return this._collection$_current;
+      },
+      $isIterator: 1,
+      $asIterator: function($K, $V) {
+        return [$V];
+      }
     },
     _UnmodifiableMapMixin: {
       "^": "Object;$ti",
@@ -10097,6 +10288,9 @@
       },
       toString$0: function(_) {
         return J.toString$0$(this._collection$_map);
+      },
+      get$values: function(_) {
+        return J.get$values$x(this._collection$_map);
       },
       $isMap: 1
     },
@@ -10158,6 +10352,18 @@
       },
       skip$1: function(_, n) {
         return H.SkipIterable_SkipIterable(this, n, H.getRuntimeTypeArgument(this, "SetMixin", 0));
+      },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        var t1, element;
+        t1 = H.getRuntimeTypeArgument(this, "SetMixin", 0);
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]});
+        H.functionTypeCheck(orElse, {func: 1, ret: t1});
+        for (t1 = this.get$iterator(this); t1.moveNext$0();) {
+          element = t1._collection$_current;
+          if (test.call$1(element))
+            return element;
+        }
+        return orElse.call$0();
       },
       elementAt$1: function(_, index) {
         var t1, elementIndex, element;
@@ -10223,7 +10429,7 @@
     },
     _defaultToEncodable: [function(object) {
       return object.toJson$0();
-    }, "call$1", "convert___defaultToEncodable$closure", 4, 0, 10, 30],
+    }, "call$1", "convert___defaultToEncodable$closure", 4, 0, 7, 21],
     _JsonMap: {
       "^": "MapBase;_original,_processed,0_data",
       $index: function(_, key) {
@@ -10260,6 +10466,14 @@
           return t1.get$keys(t1);
         }
         return new P._JsonMapKeyIterable(this);
+      },
+      get$values: function(_) {
+        var t1;
+        if (this._processed == null) {
+          t1 = this._data;
+          return t1.get$values(t1);
+        }
+        return H.MappedIterable_MappedIterable(this._convert$_computeKeys$0(), new P._JsonMap_values_closure(this), P.String, null);
       },
       $indexSet: function(_, key, value) {
         var processed, original;
@@ -10340,6 +10554,12 @@
       $asMap: function() {
         return [P.String, null];
       }
+    },
+    _JsonMap_values_closure: {
+      "^": "Closure:7;$this",
+      call$1: [function(each) {
+        return this.$this.$index(0, each);
+      }, null, null, 4, 0, null, 18, "call"]
     },
     _JsonMapKeyIterable: {
       "^": "ListIterable;_convert$_parent",
@@ -10782,7 +11002,7 @@
         if (typeof t3 !== "number")
           return H.iae(t3);
         this._bufferIndex = t4 + t3;
-      }, "call$1", "get$add", 5, 0, 11, 43],
+      }, "call$1", "get$add", 5, 0, 12, 45],
       close$0: [function(_) {
         this._callback.call$1(C.NativeUint8List_methods.sublist$2(this._buffer, 0, this._bufferIndex));
       }, "call$0", "get$close", 1, 0, 1]
@@ -10832,6 +11052,14 @@
       },
       decode$1: function($receiver, source) {
         return this.decode$2$reviver($receiver, source, null);
+      },
+      encode$2$toEncodable: function(value, toEncodable) {
+        var t1 = this.get$encoder();
+        t1 = P._JsonStringStringifier_stringify(value, t1._toEncodable, t1.indent);
+        return t1;
+      },
+      encode$1: function(value) {
+        return this.encode$2$toEncodable(value, null);
       },
       get$encoder: function() {
         return C.JsonEncoder_null_null;
@@ -11084,6 +11312,13 @@
         this._sink.writeCharCode$1(charCode);
       },
       static: {
+        _JsonStringStringifier_stringify: function(object, toEncodable, indent) {
+          var output, t1;
+          output = new P.StringBuffer("");
+          P._JsonStringStringifier_printOn(object, output, toEncodable, indent);
+          t1 = output._contents;
+          return t1.charCodeAt(0) == 0 ? t1 : t1;
+        },
         _JsonStringStringifier_printOn: function(object, output, toEncodable, indent) {
           var stringifier = new P._JsonStringStringifier(output, [], P.convert___defaultToEncodable$closure());
           stringifier.writeObject$1(object);
@@ -11456,7 +11691,7 @@
       }
     },
     _Utf8Decoder_convert_scanOneByteCharacters: {
-      "^": "Closure:128;endIndex",
+      "^": "Closure:105;endIndex",
       call$2: function(units, from) {
         var to, t1, i, unit;
         H.assertSubtype(units, "$isList", [P.int], "$asList");
@@ -11476,7 +11711,7 @@
       }
     },
     _Utf8Decoder_convert_addSingleBytes: {
-      "^": "Closure:146;$this,startIndex,endIndex,codeUnits",
+      "^": "Closure:155;$this,startIndex,endIndex,codeUnits",
       call$2: function(from, to) {
         this.$this._stringSink._contents += P.String_String$fromCharCodes(this.codeUnits, from, to);
       }
@@ -11485,7 +11720,7 @@
     "^": "",
     identityHashCode: [function(object) {
       return H.objectHashCode(object);
-    }, "call$1", "core__identityHashCode$closure", 4, 0, 184, 30],
+    }, "call$1", "core__identityHashCode$closure", 4, 0, 206, 21],
     Function_apply: function($function, positionalArguments, namedArguments) {
       var t1 = H.Primitives_applyFunctionWithPositionalArguments($function, positionalArguments);
       return t1;
@@ -11581,7 +11816,7 @@
     },
     identical: [function(a, b) {
       return a == null ? b == null : a === b;
-    }, "call$2", "core__identical$closure", 8, 0, 185, 29, 31],
+    }, "call$2", "core__identical$closure", 8, 0, 207, 32, 33],
     Uri_base: function() {
       var uri = H.Primitives_currentUri();
       if (uri != null)
@@ -11814,7 +12049,7 @@
     Uri_decodeComponent: [function(encodedComponent) {
       H.stringTypeCheck(encodedComponent);
       return P._Uri__uriDecode(encodedComponent, 0, encodedComponent.length, C.Utf8Codec_false, false);
-    }, "call$1", "core_Uri_decodeComponent$closure", 4, 0, 13, 42],
+    }, "call$1", "core_Uri_decodeComponent$closure", 4, 0, 14, 44],
     Uri_splitQueryString: function(query, encoding) {
       var t1 = P.String;
       return C.JSArray_methods.fold$1$2(H.setRuntimeTypeInfo(query.split("&"), [t1]), P.LinkedHashMap_LinkedHashMap$_empty(t1, t1), new P.Uri_splitQueryString_closure(encoding), [P.Map, P.String, P.String]);
@@ -12098,7 +12333,7 @@
       return state;
     },
     NoSuchMethodError_toString_closure: {
-      "^": "Closure:152;_box_0,sb",
+      "^": "Closure:172;_box_0,sb",
       call$2: function(key, value) {
         var t1, t2, t3;
         H.interceptedTypeCheck(key, "$isSymbol0");
@@ -12227,7 +12462,7 @@
       }
     },
     Duration_toString_sixDigits: {
-      "^": "Closure:32;",
+      "^": "Closure:13;",
       call$1: function(n) {
         if (n >= 100000)
           return "" + n;
@@ -12243,7 +12478,7 @@
       }
     },
     Duration_toString_twoDigits: {
-      "^": "Closure:32;",
+      "^": "Closure:13;",
       call$1: function(n) {
         if (n >= 10)
           return "" + n;
@@ -12702,6 +12937,18 @@
           throw H.wrapException(H.IterableElementError_noElement());
         return it.get$current(it);
       },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        var t1, element;
+        t1 = H.getRuntimeTypeArgument(this, "Iterable", 0);
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]});
+        H.functionTypeCheck(orElse, {func: 1, ret: t1});
+        for (t1 = this.get$iterator(this); t1.moveNext$0();) {
+          element = t1.get$current(t1);
+          if (test.call$1(element))
+            return element;
+        }
+        return orElse.call$0();
+      },
       elementAt$1: function(_, index) {
         var t1, elementIndex, element;
         if (typeof index !== "number" || Math.floor(index) !== index)
@@ -12760,7 +13007,7 @@
       noSuchMethod$1: [function(_, invocation) {
         H.interceptedTypeCheck(invocation, "$isInvocation");
         throw H.wrapException(P.NoSuchMethodError$(this, invocation.get$memberName(), invocation.get$positionalArguments(), invocation.get$namedArguments(), null));
-      }, null, "get$noSuchMethod", 5, 0, null, 19],
+      }, null, "get$noSuchMethod", 5, 0, null, 22],
       toString: function() {
         return this.toString$0(this);
       }
@@ -12833,7 +13080,7 @@
       "^": "Object;"
     },
     Uri_splitQueryString_closure: {
-      "^": "Closure:182;encoding",
+      "^": "Closure:218;encoding",
       call$2: function(map, element) {
         var t1, index, key, value;
         t1 = P.String;
@@ -12853,13 +13100,13 @@
       }
     },
     Uri__parseIPv4Address_error: {
-      "^": "Closure:194;host",
+      "^": "Closure:219;host",
       call$2: function(msg, position) {
         throw H.wrapException(P.FormatException$("Illegal IPv4 address, " + msg, this.host, position));
       }
     },
     Uri_parseIPv6Address_error: {
-      "^": "Closure:195;host",
+      "^": "Closure:220;host",
       call$2: function(msg, position) {
         throw H.wrapException(P.FormatException$("Illegal IPv6 address, " + msg, this.host, position));
       },
@@ -12868,7 +13115,7 @@
       }
     },
     Uri_parseIPv6Address_parseHex: {
-      "^": "Closure:196;error,host",
+      "^": "Closure:233;error,host",
       call$2: function(start, end) {
         var value;
         if (end - start > 4)
@@ -13865,7 +14112,7 @@
       }
     },
     _Uri__Uri$notSimple_closure: {
-      "^": "Closure:28;uri,portStart",
+      "^": "Closure:24;uri,portStart",
       call$1: function(_) {
         var t1 = this.portStart;
         if (typeof t1 !== "number")
@@ -13874,7 +14121,7 @@
       }
     },
     _Uri__checkNonWindowsPathReservedCharacters_closure: {
-      "^": "Closure:28;argumentError",
+      "^": "Closure:24;argumentError",
       call$1: function(segment) {
         H.stringTypeCheck(segment);
         if (J.contains$1$asx(segment, "/"))
@@ -13885,10 +14132,10 @@
       }
     },
     _Uri__makePath_closure: {
-      "^": "Closure:13;",
+      "^": "Closure:14;",
       call$1: [function(s) {
         return P._Uri__uriEncode(C.List_qg40, H.stringTypeCheck(s), C.Utf8Codec_false, false);
-      }, null, null, 4, 0, null, 32, "call"]
+      }, null, null, 4, 0, null, 34, "call"]
     },
     UriData: {
       "^": "Object;_text,_separatorIndices,_uriCache",
@@ -13973,13 +14220,13 @@
       }
     },
     _createTables_closure: {
-      "^": "Closure:201;",
+      "^": "Closure:225;",
       call$1: function(_) {
         return new Uint8Array(96);
       }
     },
     _createTables_build: {
-      "^": "Closure:210;tables",
+      "^": "Closure:223;tables",
       call$2: function(state, defaultTransition) {
         var t1 = this.tables;
         if (state >= t1.length)
@@ -14469,7 +14716,7 @@
       else if (P.Device_isOpera())
         return "oTransitionEnd";
       return "transitionend";
-    }, null, null, 4, 0, null, 7],
+    }, null, null, 4, 0, null, 8],
     _JenkinsSmiHash_combine: function(hash, value) {
       hash = 536870911 & hash + value;
       hash = 536870911 & hash + ((524287 & hash) << 10);
@@ -14516,13 +14763,13 @@
       "^": "Closure:2;completer,T",
       call$1: [function(promiseValue) {
         return this.completer.complete$1(0, H.futureOrCheck(promiseValue, {futureOr: 1, type: this.T}));
-      }, null, null, 4, 0, null, 40, "call"]
+      }, null, null, 4, 0, null, 43, "call"]
     },
     promiseToFuture_closure0: {
       "^": "Closure:2;completer",
       call$1: [function(promiseError) {
         return this.completer.completeError$1(promiseError);
-      }, null, null, 4, 0, null, 38, "call"]
+      }, null, null, 4, 0, null, 42, "call"]
     },
     HtmlElement: {
       "^": "Element;",
@@ -14533,8 +14780,16 @@
       "^": "Sensor;0x=,0y=",
       "%": "Accelerometer|LinearAccelerationSensor"
     },
+    AccessibleNode: {
+      "^": "EventTarget;",
+      $isAccessibleNode: 1,
+      "%": "AccessibleNode"
+    },
     AccessibleNodeList: {
       "^": "Interceptor;0length=",
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 216, 1],
       "%": "AccessibleNodeList"
     },
     AnchorElement: {
@@ -14547,6 +14802,9 @@
     },
     Animation: {
       "^": "EventTarget;0id=",
+      set$id: function(receiver, id) {
+        receiver.id = H.stringTypeCheck(id);
+      },
       "%": "Animation"
     },
     AnimationEvent: {
@@ -14597,6 +14855,9 @@
     },
     ButtonElement: {
       "^": "HtmlElement;0name=,0value=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLButtonElement"
     },
     CanvasElement: {
@@ -14626,6 +14887,9 @@
     },
     CssKeyframesRule: {
       "^": "CssRule;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "CSSKeyframesRule|MozCSSKeyframesRule|WebKitCSSKeyframesRule"
     },
     CssNumericValue: {
@@ -14694,6 +14958,9 @@
       _getPropertyValue$1: function(receiver, property) {
         return receiver.getPropertyValue(property);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 13, 1],
       get$bottom: function(receiver) {
         return receiver.bottom;
       },
@@ -14759,6 +15026,11 @@
       "^": "HtmlElement;0value=",
       "%": "HTMLDataElement"
     },
+    DataTransferItem: {
+      "^": "Interceptor;",
+      $isDataTransferItem: 1,
+      "%": "DataTransferItem"
+    },
     DataTransferItemList: {
       "^": "Interceptor;0length=",
       add$2: function(receiver, data_OR_file, type) {
@@ -14767,6 +15039,9 @@
       add$1: function($receiver, data_OR_file) {
         return $receiver.add(data_OR_file);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 210, 1],
       $index: function(receiver, index) {
         return receiver[H.intTypeCheck(index)];
       },
@@ -14866,6 +15141,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 204, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [[P.Rectangle, P.num]];
@@ -14966,6 +15244,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 13, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [P.String];
@@ -14994,11 +15275,21 @@
       },
       "%": "DOMStringList"
     },
+    DomStringMap: {
+      "^": "Interceptor;",
+      item$1: [function(receiver, $name) {
+        return receiver.item(H.stringTypeCheck($name));
+      }, "call$1", "get$item", 5, 0, 14, 40],
+      "%": "DOMStringMap"
+    },
     DomTokenList: {
       "^": "Interceptor;0length=",
       add$1: function(receiver, tokens) {
         return receiver.add(H.stringTypeCheck(tokens));
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 13, 1],
       "%": "DOMTokenList"
     },
     _ChildrenElementList: {
@@ -15041,15 +15332,15 @@
       insert$2: function(_, index, element) {
         var t1, t2, t3;
         H.interceptedTypeCheck(element, "$isElement");
+        if (index < 0 || index > this._childElements.length)
+          throw H.wrapException(P.RangeError$range(index, 0, this.get$length(this), null, null));
         t1 = this._childElements;
         t2 = t1.length;
-        if (index > t2)
-          throw H.wrapException(P.RangeError$range(index, 0, this.get$length(this), null, null));
         t3 = this._html$_element;
         if (index === t2)
           J.append$1$x(t3, element);
         else {
-          if (index >= t2)
+          if (index < 0 || index >= t2)
             return H.ioore(t1, index);
           J.insertBefore$2$x(t3, element, H.interceptedTypeCheck(t1[index], "$isElement"));
         }
@@ -15057,7 +15348,7 @@
       removeAt$1: function(_, index) {
         var t1, result;
         t1 = this._childElements;
-        if (index >= t1.length)
+        if (index < 0 || index >= t1.length)
           return H.ioore(t1, index);
         result = H.interceptedTypeCheck(t1[index], "$isElement");
         J._removeChild$1$x(this._html$_element, result);
@@ -15098,6 +15389,9 @@
     },
     Element: {
       "^": "Node;0tabIndex=,0className=,0id=",
+      set$id: function(receiver, id) {
+        receiver.id = H.stringTypeCheck(id);
+      },
       get$children: function(receiver) {
         return new W._ChildrenElementList(receiver, receiver.children);
       },
@@ -15173,13 +15467,16 @@
       "%": ";Element"
     },
     Element_animate_closure: {
-      "^": "Closure:74;",
+      "^": "Closure:195;",
       call$1: function(x) {
         return !!J.getInterceptor$(H.assertSubtype(x, "$isMap", [P.String, null], "$asMap")).$isMap;
       }
     },
     EmbedElement: {
       "^": "HtmlElement;0height=,0name=,0width=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLEmbedElement"
     },
     Entry: {
@@ -15205,10 +15502,10 @@
       }, null, null, 0, 0, null, "call"]
     },
     Entry_remove_closure0: {
-      "^": "Closure:70;completer",
+      "^": "Closure:187;completer",
       call$1: [function(error) {
         this.completer.completeError$1(H.interceptedTypeCheck(error, "$isDomException"));
-      }, null, null, 4, 0, null, 2, "call"]
+      }, null, null, 4, 0, null, 3, "call"]
     },
     Event: {
       "^": "Interceptor;",
@@ -15269,7 +15566,7 @@
         return receiver.removeEventListener(type, H.convertDartClosureToJS(H.functionTypeCheck(listener, {func: 1, args: [W.Event]}), 1), options);
       },
       $isEventTarget: 1,
-      "%": "AccessibleNode|AnalyserNode|ApplicationCache|AudioBufferSourceNode|AudioChannelMerger|AudioChannelSplitter|AudioDestinationNode|AudioGainNode|AudioNode|AudioPannerNode|AudioScheduledSourceNode|AudioWorkletNode|BatteryManager|BiquadFilterNode|BluetoothDevice|BluetoothRemoteGATTCharacteristic|ChannelMergerNode|ChannelSplitterNode|Clipboard|ConstantSourceNode|ConvolverNode|DOMApplicationCache|DelayNode|DynamicsCompressorNode|EventSource|GainNode|IDBTransaction|IIRFilterNode|JavaScriptAudioNode|MIDIAccess|MediaDevices|MediaElementAudioSourceNode|MediaQueryList|MediaRecorder|MediaSource|MediaStreamAudioDestinationNode|MediaStreamAudioSourceNode|MojoInterfaceInterceptor|NetworkInformation|OfflineResourceList|Oscillator|OscillatorNode|PannerNode|Performance|PermissionStatus|PresentationConnectionList|PresentationRequest|RTCDTMFSender|RTCPeerConnection|RealtimeAnalyserNode|RemotePlayback|ScreenOrientation|ScriptProcessorNode|ServiceWorker|ServiceWorkerContainer|ServiceWorkerRegistration|SharedWorker|SpeechRecognition|SpeechSynthesis|SpeechSynthesisUtterance|StereoPannerNode|USB|VR|VRDevice|VRDisplay|VRSession|WaveShaperNode|WebSocket|Worker|WorkerPerformance|mozRTCPeerConnection|webkitAudioPannerNode|webkitRTCPeerConnection;EventTarget;_SourceBufferList_EventTarget_ListMixin|_SourceBufferList_EventTarget_ListMixin_ImmutableListMixin|_TextTrackList_EventTarget_ListMixin|_TextTrackList_EventTarget_ListMixin_ImmutableListMixin"
+      "%": "AnalyserNode|ApplicationCache|AudioBufferSourceNode|AudioChannelMerger|AudioChannelSplitter|AudioDestinationNode|AudioGainNode|AudioNode|AudioPannerNode|AudioScheduledSourceNode|AudioWorkletNode|BatteryManager|BiquadFilterNode|BluetoothDevice|BluetoothRemoteGATTCharacteristic|ChannelMergerNode|ChannelSplitterNode|Clipboard|ConstantSourceNode|ConvolverNode|DOMApplicationCache|DelayNode|DynamicsCompressorNode|EventSource|GainNode|IDBTransaction|IIRFilterNode|JavaScriptAudioNode|MIDIAccess|MediaDevices|MediaElementAudioSourceNode|MediaQueryList|MediaRecorder|MediaSource|MediaStreamAudioDestinationNode|MediaStreamAudioSourceNode|MojoInterfaceInterceptor|NetworkInformation|OfflineResourceList|Oscillator|OscillatorNode|PannerNode|Performance|PermissionStatus|PresentationConnectionList|PresentationRequest|RTCDTMFSender|RTCPeerConnection|RealtimeAnalyserNode|RemotePlayback|ScreenOrientation|ScriptProcessorNode|ServiceWorker|ServiceWorkerContainer|ServiceWorkerRegistration|SharedWorker|SpeechRecognition|SpeechSynthesis|SpeechSynthesisUtterance|StereoPannerNode|USB|VR|VRDevice|VRDisplay|VRSession|WaveShaperNode|WebSocket|Worker|WorkerPerformance|mozRTCPeerConnection|webkitAudioPannerNode|webkitRTCPeerConnection;EventTarget;_SourceBufferList_EventTarget_ListMixin|_SourceBufferList_EventTarget_ListMixin_ImmutableListMixin|_TextTrackList_EventTarget_ListMixin|_TextTrackList_EventTarget_ListMixin_ImmutableListMixin"
     },
     ExtendableEvent: {
       "^": "Event;",
@@ -15281,6 +15578,9 @@
     },
     FieldSetElement: {
       "^": "HtmlElement;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLFieldSetElement"
     },
     File: {
@@ -15310,6 +15610,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 117, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.File];
@@ -15379,6 +15682,12 @@
     },
     FormElement: {
       "^": "HtmlElement;0length=,0name=,0target=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 54, 1],
       "%": "HTMLFormElement"
     },
     Gamepad: {
@@ -15428,6 +15737,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 53, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Node];
@@ -15455,12 +15767,19 @@
       $asImmutableListMixin: function() {
         return [W.Node];
       },
-      "%": "HTMLCollection|HTMLFormControlsCollection|HTMLOptionsCollection"
+      "%": "HTMLOptionsCollection;HTMLCollection"
     },
     HtmlDocument: {
       "^": "Document;",
       $isHtmlDocument: 1,
       "%": "HTMLDocument"
+    },
+    HtmlFormControlsCollection: {
+      "^": "HtmlCollection;",
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 53, 1],
+      "%": "HTMLFormControlsCollection"
     },
     HttpRequest: {
       "^": "HttpRequestEventTarget;0responseType,0withCredentials",
@@ -15503,7 +15822,7 @@
       },
       setRequestHeader$2: [function(receiver, $name, value) {
         return receiver.setRequestHeader(H.stringTypeCheck($name), H.stringTypeCheck(value));
-      }, "call$2", "get$setRequestHeader", 9, 0, 48],
+      }, "call$2", "get$setRequestHeader", 9, 0, 42],
       $isHttpRequest: 1,
       "%": "XMLHttpRequest"
     },
@@ -15513,6 +15832,9 @@
     },
     IFrameElement: {
       "^": "HtmlElement;0height=,0name=,0width=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLIFrameElement"
     },
     ImageBitmap: {
@@ -15530,6 +15852,9 @@
     },
     InputElement: {
       "^": "HtmlElement;0height=,0name=,0value=,0width=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       $isInputElement: 1,
       "%": "HTMLInputElement"
     },
@@ -15560,6 +15885,9 @@
     },
     MapElement: {
       "^": "HtmlElement;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLMapElement"
     },
     MediaElement: {
@@ -15575,6 +15903,9 @@
     },
     MediaList: {
       "^": "Interceptor;0length=",
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 13, 1],
       "%": "MediaList"
     },
     MediaStream: {
@@ -15597,6 +15928,9 @@
     },
     MetaElement: {
       "^": "HtmlElement;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLMetaElement"
     },
     MeterElement: {
@@ -15627,6 +15961,11 @@
         this.forEach$1(receiver, new W.MidiInputMap_keys_closure(keys));
         return keys;
       },
+      get$values: function(receiver) {
+        var values = H.setRuntimeTypeInfo([], [[P.Map,,,]]);
+        this.forEach$1(receiver, new W.MidiInputMap_values_closure(values));
+        return values;
+      },
       get$length: function(receiver) {
         return receiver.size;
       },
@@ -15650,9 +15989,15 @@
       "%": "MIDIInputMap"
     },
     MidiInputMap_keys_closure: {
-      "^": "Closure:25;keys",
+      "^": "Closure:8;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
+      }
+    },
+    MidiInputMap_values_closure: {
+      "^": "Closure:8;values",
+      call$2: function(k, v) {
+        return C.JSArray_methods.add$1(this.values, v);
       }
     },
     MidiOutputMap: {
@@ -15679,6 +16024,11 @@
         this.forEach$1(receiver, new W.MidiOutputMap_keys_closure(keys));
         return keys;
       },
+      get$values: function(receiver) {
+        var values = H.setRuntimeTypeInfo([], [[P.Map,,,]]);
+        this.forEach$1(receiver, new W.MidiOutputMap_values_closure(values));
+        return values;
+      },
       get$length: function(receiver) {
         return receiver.size;
       },
@@ -15702,9 +16052,15 @@
       "%": "MIDIOutputMap"
     },
     MidiOutputMap_keys_closure: {
-      "^": "Closure:25;keys",
+      "^": "Closure:8;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
+      }
+    },
+    MidiOutputMap_values_closure: {
+      "^": "Closure:8;values",
+      call$2: function(k, v) {
+        return C.JSArray_methods.add$1(this.values, v);
       }
     },
     MidiPort: {
@@ -15738,6 +16094,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 51, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.MimeType];
@@ -15787,16 +16146,16 @@
       insert$2: function(_, index, node) {
         var t1, t2, t3, t4;
         H.interceptedTypeCheck(node, "$isNode");
+        if (index < 0 || index > this._this.childNodes.length)
+          throw H.wrapException(P.RangeError$range(index, 0, this.get$length(this), null, null));
         t1 = this._this;
         t2 = t1.childNodes;
         t3 = t2.length;
-        if (index > t3)
-          throw H.wrapException(P.RangeError$range(index, 0, this.get$length(this), null, null));
         t4 = J.getInterceptor$x(t1);
         if (index === t3)
           t4.append$1(t1, node);
         else {
-          if (index >= t3)
+          if (index < 0 || index >= t3)
             return H.ioore(t2, index);
           t4.insertBefore$2(t1, node, t2[index]);
         }
@@ -15805,7 +16164,7 @@
         var t1, t2, result;
         t1 = this._this;
         t2 = t1.childNodes;
-        if (index >= t2.length)
+        if (index < 0 || index >= t2.length)
           return H.ioore(t2, index);
         result = t2[index];
         J._removeChild$1$x(t1, result);
@@ -15958,6 +16317,9 @@
     },
     ObjectElement: {
       "^": "HtmlElement;0height=,0name=,0width=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLObjectElement"
     },
     OffscreenCanvas: {
@@ -15970,6 +16332,9 @@
     },
     OutputElement: {
       "^": "HtmlElement;0name=,0value=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLOutputElement"
     },
     OverconstrainedError: {
@@ -15982,6 +16347,9 @@
     },
     ParamElement: {
       "^": "HtmlElement;0name=,0value=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLParamElement"
     },
     PasswordCredential: {
@@ -16002,6 +16370,9 @@
     },
     Plugin: {
       "^": "Interceptor;0length=,0name=",
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 51, 1],
       $isPlugin: 1,
       "%": "Plugin"
     },
@@ -16027,6 +16398,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 166, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Plugin];
@@ -16120,6 +16494,11 @@
         this.forEach$1(receiver, new W.RtcStatsReport_keys_closure(keys));
         return keys;
       },
+      get$values: function(receiver) {
+        var values = H.setRuntimeTypeInfo([], [[P.Map,,,]]);
+        this.forEach$1(receiver, new W.RtcStatsReport_values_closure(values));
+        return values;
+      },
       get$length: function(receiver) {
         return receiver.size;
       },
@@ -16143,9 +16522,15 @@
       "%": "RTCStatsReport"
     },
     RtcStatsReport_keys_closure: {
-      "^": "Closure:25;keys",
+      "^": "Closure:8;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
+      }
+    },
+    RtcStatsReport_values_closure: {
+      "^": "Closure:8;values",
+      call$2: function(k, v) {
+        return C.JSArray_methods.add$1(this.values, v);
       }
     },
     Screen: {
@@ -16154,6 +16539,12 @@
     },
     SelectElement: {
       "^": "HtmlElement;0length=,0name=,0value=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 54, 1],
       "%": "HTMLSelectElement"
     },
     Sensor: {
@@ -16166,6 +16557,9 @@
     },
     SlotElement: {
       "^": "HtmlElement;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLSlotElement"
     },
     SourceBuffer: {
@@ -16195,6 +16589,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 152, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.SourceBuffer];
@@ -16255,6 +16652,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 148, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.SpeechGrammar];
@@ -16283,8 +16683,16 @@
       },
       "%": "SpeechGrammarList"
     },
+    SpeechRecognitionAlternative: {
+      "^": "Interceptor;",
+      $isSpeechRecognitionAlternative: 1,
+      "%": "SpeechRecognitionAlternative"
+    },
     SpeechRecognitionResult: {
       "^": "Interceptor;0length=",
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 143, 1],
       $isSpeechRecognitionResult: 1,
       "%": "SpeechRecognitionResult"
     },
@@ -16322,6 +16730,11 @@
         this.forEach$1(receiver, new W.Storage_keys_closure(keys));
         return keys;
       },
+      get$values: function(receiver) {
+        var values = H.setRuntimeTypeInfo([], [P.String]);
+        this.forEach$1(receiver, new W.Storage_values_closure(values));
+        return values;
+      },
       get$length: function(receiver) {
         return receiver.length;
       },
@@ -16350,9 +16763,15 @@
       "%": "Storage"
     },
     Storage_keys_closure: {
-      "^": "Closure:48;keys",
+      "^": "Closure:42;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
+      }
+    },
+    Storage_values_closure: {
+      "^": "Closure:42;values",
+      call$2: function(k, v) {
+        return C.JSArray_methods.add$1(this.values, v);
       }
     },
     StorageEvent: {
@@ -16371,6 +16790,9 @@
     },
     TextAreaElement: {
       "^": "HtmlElement;0name=,0value=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "HTMLTextAreaElement"
     },
     TextMetrics: {
@@ -16384,6 +16806,9 @@
     },
     TextTrackCue: {
       "^": "EventTarget;0id=",
+      set$id: function(receiver, id) {
+        receiver.id = H.stringTypeCheck(id);
+      },
       $isTextTrackCue: 1,
       "%": "TextTrackCue|VTTCue"
     },
@@ -16526,6 +16951,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 124, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Touch];
@@ -16554,8 +16982,16 @@
       },
       "%": "TouchList"
     },
+    TrackDefault: {
+      "^": "Interceptor;",
+      $isTrackDefault: 1,
+      "%": "TrackDefault"
+    },
     TrackDefaultList: {
       "^": "Interceptor;0length=",
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 118, 1],
       "%": "TrackDefaultList"
     },
     TransitionEvent: {
@@ -16597,10 +17033,16 @@
     },
     VttRegion: {
       "^": "Interceptor;0id=,0width=",
+      set$id: function(receiver, id) {
+        receiver.id = H.stringTypeCheck(id);
+      },
       "%": "VTTRegion"
     },
     Window: {
       "^": "EventTarget;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       requestAnimationFrame$1: function(receiver, callback) {
         H.functionTypeCheck(callback, {func: 1, ret: -1, args: [P.num]});
         this._ensureRequestAnimationFrame$0(receiver);
@@ -16681,6 +17123,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 112, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.CssRule];
@@ -16765,6 +17210,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 110, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Gamepad];
@@ -16815,6 +17263,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 109, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Node];
@@ -16865,6 +17316,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 106, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.SpeechRecognitionResult];
@@ -16915,6 +17369,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return receiver.item(H.intTypeCheck(index));
+      }, "call$1", "get$item", 5, 0, 104, 1],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.StyleSheet];
@@ -16965,6 +17422,19 @@
             C.JSArray_methods.add$1(keys, attr.name);
         }
         return keys;
+      },
+      get$values: function(_) {
+        var attributes, values, len, i, attr;
+        attributes = this._html$_element.attributes;
+        values = H.setRuntimeTypeInfo([], [P.String]);
+        for (len = attributes.length, i = 0; i < len; ++i) {
+          if (i >= attributes.length)
+            return H.ioore(attributes, i);
+          attr = H.interceptedTypeCheck(attributes[i], "$is_Attr");
+          if (attr.namespaceURI == null)
+            C.JSArray_methods.add$1(values, attr.value);
+        }
+        return values;
       },
       get$isEmpty: function(_) {
         return this.get$keys(this).length === 0;
@@ -17101,7 +17571,7 @@
         this._html$_target = null;
         this.set$_html$_onData(null);
         return;
-      }, "call$0", "get$cancel", 1, 0, 18],
+      }, "call$0", "get$cancel", 1, 0, 17],
       pause$1: function(_, resumeSignal) {
         if (this._html$_target == null)
           return;
@@ -17137,10 +17607,10 @@
       }
     },
     _EventStreamSubscription_closure: {
-      "^": "Closure:78;onData",
+      "^": "Closure:102;onData",
       call$1: [function(e) {
         return this.onData.call$1(H.interceptedTypeCheck(e, "$isEvent"));
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     ImmutableListMixin: {
       "^": "Object;$ti",
@@ -17349,7 +17819,7 @@
       return object;
     }, function(dict) {
       return P.convertDartToNative_Dictionary(dict, null);
-    }, "call$2", "call$1", "html_common__convertDartToNative_Dictionary$closure", 4, 2, 186, 3, 35, 36],
+    }, "call$2", "call$1", "html_common__convertDartToNative_Dictionary$closure", 4, 2, 208, 4, 37, 38],
     convertNativePromiseToDartFuture: function(promise) {
       var t1, completer;
       t1 = new P._Future(0, $.Zone__current, [null]);
@@ -17566,7 +18036,7 @@
       }
     },
     _AcceptStructuredClone_walk_closure: {
-      "^": "Closure:81;_box_0,$this",
+      "^": "Closure:101;_box_0,$this",
       call$2: function(key, value) {
         var t1, t2;
         t1 = this._box_0.copy;
@@ -17599,13 +18069,13 @@
       "^": "Closure:2;completer",
       call$1: [function(result) {
         return this.completer.complete$1(0, result);
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     convertNativePromiseToDartFuture_closure0: {
       "^": "Closure:2;completer",
       call$1: [function(result) {
         return this.completer.completeError$1(result);
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     CssClassSetImpl: {
       "^": "SetBase;",
@@ -17618,7 +18088,7 @@
         if (t1.test(value))
           return value;
         throw H.wrapException(P.ArgumentError$value(value, "value", "Not a valid class token"));
-      }, "call$1", "get$_validateToken", 4, 0, 13, 1],
+      }, "call$1", "get$_validateToken", 4, 0, 14, 2],
       toString$0: function(_) {
         return this.readClasses$0().join$1(0, " ");
       },
@@ -17688,6 +18158,11 @@
         var t1 = this.readClasses$0();
         return H.SkipIterable_SkipIterable(t1, n, H.getRuntimeTypeArgument(t1, "SetMixin", 0));
       },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [P.String]});
+        H.functionTypeCheck(orElse, {func: 1, ret: P.String});
+        return this.readClasses$0().firstWhere$2$orElse(0, test, orElse);
+      },
       elementAt$1: function(_, index) {
         return this.readClasses$0().elementAt$1(0, index);
       },
@@ -17713,20 +18188,20 @@
       }
     },
     CssClassSetImpl_add_closure: {
-      "^": "Closure:82;value",
+      "^": "Closure:95;value",
       call$1: function(s) {
         return H.assertSubtype(s, "$isSet", [P.String], "$asSet").add$1(0, this.value);
       }
     },
     CssClassSetImpl_addAll_closure: {
-      "^": "Closure:44;$this,iterable",
+      "^": "Closure:59;$this,iterable",
       call$1: function(s) {
         var t1 = P.String;
         return H.assertSubtype(s, "$isSet", [t1], "$asSet").addAll$1(0, this.iterable.map$1$1(0, this.$this.get$_validateToken(), t1));
       }
     },
     CssClassSetImpl_removeAll_closure: {
-      "^": "Closure:44;iterable",
+      "^": "Closure:59;iterable",
       call$1: function(s) {
         return H.assertSubtype(s, "$isSet", [P.String], "$asSet").removeAll$1(this.iterable);
       }
@@ -17828,19 +18303,19 @@
       }
     },
     FilteredElementList__iterable_closure: {
-      "^": "Closure:47;",
+      "^": "Closure:60;",
       call$1: function(n) {
         return !!J.getInterceptor$(H.interceptedTypeCheck(n, "$isNode")).$isElement;
       }
     },
     FilteredElementList__iterable_closure0: {
-      "^": "Closure:86;",
+      "^": "Closure:85;",
       call$1: [function(n) {
         return H.interceptedTypeCast(H.interceptedTypeCheck(n, "$isNode"), "$isElement");
-      }, null, null, 4, 0, null, 37, "call"]
+      }, null, null, 4, 0, null, 39, "call"]
     },
     FilteredElementList_removeRange_closure: {
-      "^": "Closure:10;",
+      "^": "Closure:7;",
       call$1: function(el) {
         return J.remove$0$ax(el);
       }
@@ -17867,13 +18342,16 @@
       "%": "IDBDatabase"
     },
     _completeRequest_closure: {
-      "^": "Closure:8;request,completer,T",
+      "^": "Closure:9;request,completer,T",
       call$1: function(e) {
         this.completer.complete$1(0, H.assertSubtypeOfRuntimeType(new P._AcceptStructuredCloneDart2Js([], [], false).convertNativeToDart_AcceptStructuredClone$2$mustCopy(this.request.result, false), this.T));
       }
     },
     Index: {
       "^": "Interceptor;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       "%": "IDBIndex"
     },
     KeyRange: {
@@ -17883,6 +18361,9 @@
     },
     ObjectStore: {
       "^": "Interceptor;0name=",
+      set$name: function(receiver, $name) {
+        receiver.name = H.stringTypeCheck($name);
+      },
       add$2: function(receiver, value, key) {
         var request, e, stacktrace, t1, exception;
         try {
@@ -17942,7 +18423,7 @@
       }
       dartArgs = P.List_List$from(J.map$1$1$ax($arguments, P.js___convertToDart$closure(), null), true, null);
       return P._convertToJS(P.Function_apply(H.interceptedTypeCheck(callback, "$isFunction"), dartArgs, null));
-    }, null, null, 16, 0, null, 9, 39, 10, 34],
+    }, null, null, 16, 0, null, 10, 41, 11, 36],
     _defineProperty: function(o, $name, value) {
       var exception;
       try {
@@ -17976,7 +18457,7 @@
       if (!!t1.$isFunction)
         return P._getJsProxy(o, "$dart_jsFunction", new P._convertToJS_closure());
       return P._getJsProxy(o, "_$dart_jsObject", new P._convertToJS_closure0($.$get$_dartProxyCtor()));
-    }, "call$1", "js___convertToJS$closure", 4, 0, 10, 33],
+    }, "call$1", "js___convertToJS$closure", 4, 0, 7, 35],
     _getJsProxy: function(o, propertyName, createProxy) {
       var jsProxy;
       H.functionTypeCheck(createProxy, {func: 1, args: [,]});
@@ -18004,7 +18485,7 @@
         return o.o;
       else
         return P._wrapToDart(o);
-    }, "call$1", "js___convertToDart$closure", 4, 0, 187, 33],
+    }, "call$1", "js___convertToDart$closure", 4, 0, 209, 35],
     _wrapToDart: function(o) {
       if (typeof o == "function")
         return P._getDartProxy(o, $.$get$DART_CLOSURE_PROPERTY_NAME(), new P._wrapToDart_closure());
@@ -18039,7 +18520,7 @@
     _callDartFunctionFast: [function(callback, $arguments) {
       H.listTypeCheck($arguments);
       return P.Function_apply(H.interceptedTypeCheck(callback, "$isFunction"), $arguments, null);
-    }, null, null, 8, 0, null, 9, 34],
+    }, null, null, 8, 0, null, 10, 36],
     allowInterop: function(f, $F) {
       H.assertIsSubtype($F, P.Function, "The type argument '", "' is not a subtype of the type variable bound '", "' of type variable 'F' in 'allowInterop'.");
       H.assertSubtypeOfRuntimeType(f, $F);
@@ -18130,7 +18611,7 @@
       insert$2: function(_, index, element) {
         var t1;
         H.assertSubtypeOfRuntimeType(element, H.getTypeArgumentByIndex(this, 0));
-        t1 = index >= this.get$length(this) + 1;
+        t1 = index < 0 || index >= this.get$length(this) + 1;
         if (t1)
           H.throwExpression(P.RangeError$range(index, 0, this.get$length(this), null, null));
         this.callMethod$2("splice", [index, 0, element]);
@@ -18148,6 +18629,8 @@
         $length = end - start;
         if ($length === 0)
           return;
+        if (skipCount < 0)
+          throw H.wrapException(P.ArgumentError$(skipCount));
         args = [start, $length];
         C.JSArray_methods.addAll$1(args, J.skip$1$ax(iterable, skipCount).take$1(0, $length));
         this.callMethod$2("splice", args);
@@ -18157,7 +18640,7 @@
       $isList: 1,
       static: {
         JsArray__checkRange: function(start, end, $length) {
-          if (start > $length)
+          if (start < 0 || start > $length)
             throw H.wrapException(P.RangeError$range(start, 0, $length, null, null));
           if (typeof end !== "number")
             return end.$lt();
@@ -18167,7 +18650,7 @@
       }
     },
     _convertToJS_closure: {
-      "^": "Closure:10;",
+      "^": "Closure:7;",
       call$1: function(o) {
         var jsFunction;
         H.interceptedTypeCheck(o, "$isFunction");
@@ -18181,25 +18664,25 @@
       }
     },
     _convertToJS_closure0: {
-      "^": "Closure:10;ctor",
+      "^": "Closure:7;ctor",
       call$1: function(o) {
         return new this.ctor(o);
       }
     },
     _wrapToDart_closure: {
-      "^": "Closure:90;",
+      "^": "Closure:83;",
       call$1: function(o) {
         return new P.JsFunction(o);
       }
     },
     _wrapToDart_closure0: {
-      "^": "Closure:92;",
+      "^": "Closure:82;",
       call$1: function(o) {
         return new P.JsArray(o, [null]);
       }
     },
     _wrapToDart_closure1: {
-      "^": "Closure:97;",
+      "^": "Closure:81;",
       call$1: function(o) {
         return new P.JsObject(o);
       }
@@ -18886,6 +19369,11 @@
         this.forEach$1(receiver, new P.AudioParamMap_keys_closure(keys));
         return keys;
       },
+      get$values: function(receiver) {
+        var values = H.setRuntimeTypeInfo([], [[P.Map,,,]]);
+        this.forEach$1(receiver, new P.AudioParamMap_values_closure(values));
+        return values;
+      },
       get$length: function(receiver) {
         return receiver.size;
       },
@@ -18909,9 +19397,15 @@
       "%": "AudioParamMap"
     },
     AudioParamMap_keys_closure: {
-      "^": "Closure:25;keys",
+      "^": "Closure:8;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
+      }
+    },
+    AudioParamMap_values_closure: {
+      "^": "Closure:8;values",
+      call$2: function(k, v) {
+        return C.JSArray_methods.add$1(this.values, v);
       }
     },
     AudioTrack: {
@@ -18963,6 +19457,9 @@
       elementAt$1: function(receiver, index) {
         return this.$index(receiver, index);
       },
+      item$1: [function(receiver, index) {
+        return P.convertNativeToDart_Dictionary(this._item_1$1(receiver, H.intTypeCheck(index)));
+      }, "call$1", "get$item", 5, 0, 80, 1],
       _item_1$1: function(receiver, index) {
         return receiver.item(index);
       },
@@ -18996,7 +19493,7 @@
     "^": "",
     createNgZone: [function() {
       return Y.NgZone$(false);
-    }, "call$0", "modules__createNgZone$closure", 0, 0, 43],
+    }, "call$0", "modules__createNgZone$closure", 0, 0, 70],
     createRandomAppId: function() {
       var t1 = new G.createRandomAppId_char(C.C__JSRandom);
       return H.S(t1.call$0()) + H.S(t1.call$0()) + H.S(t1.call$0());
@@ -19012,7 +19509,7 @@
       $isSlowComponentLoader: 1
     },
     createRandomAppId_char: {
-      "^": "Closure:35;random",
+      "^": "Closure:30;random",
       call$0: function() {
         return H.Primitives_stringFromCharCode(97 + this.random.nextInt$1(26));
       }
@@ -19023,7 +19520,7 @@
       return new Y._Injector$minimalApp($parent == null ? C.EmptyInjector_null : $parent);
     }, function() {
       return Y.minimalApp$Injector(null);
-    }, "call$1", "call$0", "modules_template__minimalApp$Injector$closure", 0, 2, 63],
+    }, "call$1", "call$0", "modules_template__minimalApp$Injector$closure", 0, 2, 67],
     _Injector$minimalApp: {
       "^": "HierarchicalInjector;0_modules_template$_field0,0_modules_template$_field1,0_modules_template$_field2,0_modules_template$_field3,0_field5,parent",
       injectFromSelfOptional$2: function(token, orElse) {
@@ -19106,25 +19603,25 @@
       return ngZone._innerZone.run$1$1(t1, t2);
     },
     appInjector_closure: {
-      "^": "Closure:104;_box_0",
+      "^": "Closure:78;_box_0",
       call$0: function() {
         return this._box_0.applicationRef;
       }
     },
     appInjector_closure0: {
-      "^": "Closure:123;",
+      "^": "Closure:77;",
       call$0: function() {
         return $.appViewUtils;
       }
     },
     appInjector_closure1: {
-      "^": "Closure:43;ngZone",
+      "^": "Closure:70;ngZone",
       call$0: function() {
         return this.ngZone;
       }
     },
     appInjector_closure2: {
-      "^": "Closure:132;ngZone",
+      "^": "Closure:74;ngZone",
       call$0: function() {
         var t1 = new D.Testability(this.ngZone, 0, true, false, H.setRuntimeTypeInfo([], [P.Function]));
         t1._watchAngularEvents$0();
@@ -19132,7 +19629,7 @@
       }
     },
     appInjector_closure3: {
-      "^": "Closure:135;_box_0,ngZone,userInjector",
+      "^": "Closure:73;_box_0,ngZone,userInjector",
       call$0: [function() {
         var t1, t2, t3, t4;
         t1 = this.ngZone;
@@ -19248,32 +19745,32 @@
       }
     },
     NgClass__applyKeyValueChanges_closure: {
-      "^": "Closure:36;$this",
+      "^": "Closure:38;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.key), H.boolTypeCheck(record.currentValue));
       }
     },
     NgClass__applyKeyValueChanges_closure0: {
-      "^": "Closure:36;$this",
+      "^": "Closure:38;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.key), H.boolTypeCheck(record.currentValue));
       }
     },
     NgClass__applyKeyValueChanges_closure1: {
-      "^": "Closure:36;$this",
+      "^": "Closure:38;$this",
       call$1: function(record) {
         if (record.previousValue != null)
           this.$this._toggleClass$2(H.stringTypeCheck(record.key), false);
       }
     },
     NgClass__applyIterableChanges_closure: {
-      "^": "Closure:37;$this",
+      "^": "Closure:45;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.item), true);
       }
     },
     NgClass__applyIterableChanges_closure0: {
-      "^": "Closure:37;$this",
+      "^": "Closure:45;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.item), false);
       }
@@ -19330,7 +19827,7 @@
       }
     },
     NgFor__applyChanges_closure: {
-      "^": "Closure:154;$this,insertTuples",
+      "^": "Closure:75;$this,insertTuples",
       call$3: function(item, adjustedPreviousIndex, currentIndex) {
         var t1, t2, viewRef, view;
         H.interceptedTypeCheck(item, "$isCollectionChangeRecord");
@@ -19355,7 +19852,7 @@
       }
     },
     NgFor__applyChanges_closure0: {
-      "^": "Closure:37;$this",
+      "^": "Closure:45;$this",
       call$1: function(record) {
         var t1, t2;
         t1 = record.currentIndex;
@@ -19545,14 +20042,14 @@
       }
     },
     ApplicationRef$__closure: {
-      "^": "Closure:165;$this",
+      "^": "Closure:76;$this",
       call$1: [function(e) {
         H.interceptedTypeCheck(e, "$isNgZoneError");
         this.$this._exceptionHandler.call$3(e.error, new P._StringStackTrace(C.JSArray_methods.join$1(e.stackTrace, "\n")), null);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     ApplicationRef$__closure0: {
-      "^": "Closure:17;$this",
+      "^": "Closure:18;$this",
       call$1: [function(_) {
         var t1, t2;
         t1 = this.$this;
@@ -19623,7 +20120,7 @@
     _trackByIdentity: [function(index, item) {
       H.intTypeCheck(index);
       return item;
-    }, "call$2", "default_iterable_differ___trackByIdentity$closure", 8, 0, 189, 25, 20],
+    }, "call$2", "default_iterable_differ___trackByIdentity$closure", 8, 0, 211, 1, 23],
     _getPreviousIndex: function(item, addRemoveOffset, moveOffsets) {
       var previousIndex, moveOffset;
       H.interceptedTypeCheck(item, "$isCollectionChangeRecord");
@@ -20078,7 +20575,7 @@
       }
     },
     CollectionChangeRecord: {
-      "^": "Object;item',trackById,0currentIndex,0previousIndex,0_nextPrevious,0_prev,0_default_iterable_differ$_next,0_prevDup,0_nextDup,0_prevRemoved,0_nextRemoved,0_nextAdded,0_nextMoved,0_nextIdentityChange",
+      "^": "Object;item*,trackById,0currentIndex,0previousIndex,0_nextPrevious,0_prev,0_default_iterable_differ$_next,0_prevDup,0_nextDup,0_prevRemoved,0_nextRemoved,0_nextAdded,0_nextMoved,0_nextIdentityChange",
       toString$0: function(_) {
         var t1, t2, t3;
         t1 = this.previousIndex;
@@ -20215,7 +20712,7 @@
       }
     },
     KeyValueChangeRecord: {
-      "^": "Object;key>,0previousValue,0currentValue,0_default_keyvalue_differ$_nextPrevious,0_default_keyvalue_differ$_next,0_default_keyvalue_differ$_prev,0_default_keyvalue_differ$_nextAdded,0_nextChanged",
+      "^": "Object;key*,0previousValue,0currentValue,0_default_keyvalue_differ$_nextPrevious,0_default_keyvalue_differ$_next,0_default_keyvalue_differ$_prev,0_default_keyvalue_differ$_nextAdded,0_nextChanged",
       toString$0: function(_) {
         var t1, t2, t3;
         t1 = this.previousValue;
@@ -20351,7 +20848,7 @@
       call$1: [function(result) {
         H.assertSubtypeOfRuntimeType(result, this.R);
         this.completer.complete$1(0, result);
-      }, null, null, 4, 0, null, 6, "call"],
+      }, null, null, 4, 0, null, 7, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.R]};
       }
@@ -20362,7 +20859,7 @@
         var sCasted = H.interceptedTypeCheck(s, "$isStackTrace");
         this.completer.completeError$2(e, sCasted);
         this.$this._exceptionHandler.call$3(e, H.interceptedTypeCheck(sCasted, "$isStackTrace"), null);
-      }, null, null, 8, 0, null, 7, 32, "call"]
+      }, null, null, 8, 0, null, 8, 34, "call"]
     }
   }], ["", "package:angular/src/core/di/opaque_token.dart",, S, {
     "^": "",
@@ -20781,7 +21278,7 @@
         t1.toString;
         t2 = H.functionTypeCheck(this.handler, {func: 1, ret: -1});
         t1._innerZone.runGuarded$1(t2);
-      }, null, null, 4, 0, null, 5, "call"],
+      }, null, null, 4, 0, null, 6, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.E]};
       }
@@ -20796,7 +21293,7 @@
         t1.toString;
         t2 = H.functionTypeCheck(new S.AppView_eventHandler1__closure(this.handler, $event, this.F), {func: 1, ret: -1});
         t1._innerZone.runGuarded$1(t2);
-      }, null, null, 4, 0, null, 5, "call"],
+      }, null, null, 4, 0, null, 6, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.E]};
       }
@@ -21069,7 +21566,7 @@
       "^": "Object;appView",
       setLocal$2: [function(variableName, value) {
         this.appView.locals.$indexSet(0, H.stringTypeCheck(variableName), value);
-      }, "call$2", "get$setLocal", 8, 0, 25],
+      }, "call$2", "get$setLocal", 8, 0, 8],
       $isChangeDetectorRef: 1,
       $isViewRef: 1,
       $isEmbeddedViewRef: 1
@@ -21147,10 +21644,10 @@
       whenStable$1: [function(_, callback) {
         C.JSArray_methods.add$1(this._testability$_callbacks, H.interceptedTypeCheck(callback, "$isFunction"));
         this._runCallbacksIfReady$0();
-      }, "call$1", "get$whenStable", 5, 0, 188, 9]
+      }, "call$1", "get$whenStable", 5, 0, 79, 10]
     },
     Testability__watchAngularEvents_closure: {
-      "^": "Closure:17;$this",
+      "^": "Closure:18;$this",
       call$1: [function(_) {
         var t1 = this.$this;
         t1._didWork = true;
@@ -21167,7 +21664,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     Testability__watchAngularEvents__closure: {
-      "^": "Closure:17;$this",
+      "^": "Closure:18;$this",
       call$1: [function(_) {
         if ($.Zone__current.$index(0, $.$get$NgZone__anyZoneKey()) === true)
           H.throwExpression(P.Exception_Exception("Expected to not be in Angular Zone, but it is!"));
@@ -21229,7 +21726,7 @@
         implementation = $parent._delegationTarget.get$_scheduleMicrotask();
         implZone = implementation.zone;
         implementation.$function.call$4(implZone, P._parentDelegate(implZone), zone, safeMicrotask);
-      }, "call$4", "get$_ng_zone$_scheduleMicrotask", 16, 0, 49],
+      }, "call$4", "get$_ng_zone$_scheduleMicrotask", 16, 0, 66],
       _run$1$4: [function($self, $parent, zone, fn, $R) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R});
@@ -21240,7 +21737,7 @@
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}).call$1$4(implZone, P._parentDelegate(implZone), zone, t1, $R);
       }, function($self, $parent, zone, fn) {
         return this._run$1$4($self, $parent, zone, fn, null);
-      }, "_run$4", "call$1$4", "call$4", "get$_run", 16, 0, 50],
+      }, "_run$4", "call$1$4", "call$4", "get$_run", 16, 0, 65],
       _runUnary$2$5: [function($self, $parent, zone, fn, arg, $R, $T) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R, args: [$T]});
@@ -21253,7 +21750,7 @@
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}).call$2$5(implZone, P._parentDelegate(implZone), zone, t1, arg, $R, $T);
       }, function($self, $parent, zone, fn, arg) {
         return this._runUnary$2$5($self, $parent, zone, fn, arg, null, null);
-      }, "_runUnary$5", "call$2$5", "call$5", "get$_runUnary", 20, 0, 56],
+      }, "_runUnary$5", "call$2$5", "call$5", "get$_runUnary", 20, 0, 64],
       _runBinary$3$6: [function($self, $parent, zone, fn, arg1, arg2, $R, T1, T2) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R, args: [T1, T2]});
@@ -21266,7 +21763,7 @@
         implementation = $parent._delegationTarget.get$_async$_runBinary();
         implZone = implementation.zone;
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}).call$3$6(implZone, P._parentDelegate(implZone), zone, t1, arg1, arg2, $R, T1, T2);
-      }, "call$3$6", "get$_runBinary", 24, 0, 57],
+      }, "call$3$6", "get$_runBinary", 24, 0, 63],
       _onEnter$0: function() {
         ++this._nesting;
         if (this._isStable) {
@@ -21281,7 +21778,7 @@
       },
       _onErrorWithoutLongStackTrace$5: [function($self, $parent, zone, error, trace) {
         this._onError.add$1(0, new Y.NgZoneError(error, [J.toString$0$(H.interceptedTypeCheck(trace, "$isStackTrace"))]));
-      }, "call$5", "get$_onErrorWithoutLongStackTrace", 20, 0, 58],
+      }, "call$5", "get$_onErrorWithoutLongStackTrace", 20, 0, 62],
       _createTimer$5: [function($self, $parent, zone, duration, fn) {
         var t1, t2, onDone, callback, implementation, implZone, wrappedTimer;
         t1 = {};
@@ -21299,7 +21796,7 @@
         C.JSArray_methods.add$1(this._pendingTimers, wrappedTimer);
         this._hasPendingMacrotasks = true;
         return t1.wrappedTimer;
-      }, "call$5", "get$_createTimer", 20, 0, 60],
+      }, "call$5", "get$_createTimer", 20, 0, 61],
       _checkStable$0: function() {
         var t1, t2;
         t1 = this._nesting;
@@ -21326,7 +21823,7 @@
         return this._outerZone.run$1$1(callback, $R);
       }, function(callback) {
         return this.runOutsideAngular$1$1(callback, null);
-      }, "runOutsideAngular$1", "call$1$1", "call$1", "get$runOutsideAngular", 4, 0, 203, 9],
+      }, "runOutsideAngular$1", "call$1$1", "call$1", "get$runOutsideAngular", 4, 0, 86, 10],
       static: {
         NgZone$: function(enableLongStackTrace) {
           var t1 = [-1];
@@ -21377,7 +21874,7 @@
         } finally {
           this.$this._onLeave$0();
         }
-      }, null, null, 4, 0, null, 11, "call"],
+      }, null, null, 4, 0, null, 12, "call"],
       $signature: function() {
         return {func: 1, ret: this.R, args: [this.T]};
       }
@@ -21395,7 +21892,7 @@
         } finally {
           this.$this._onLeave$0();
         }
-      }, null, null, 8, 0, null, 21, 15, "call"],
+      }, null, null, 8, 0, null, 24, 25, "call"],
       $signature: function() {
         return {func: 1, ret: this.R, args: [this.T1, this.T2]};
       }
@@ -21568,7 +22065,7 @@
         return this.call$3(error, null, null);
       }, "call$1", function(error, stack) {
         return this.call$3(error, stack, null);
-      }, "call$2", null, null, null, "get$$call", 4, 4, null, 3, 3, 2, 44, 45],
+      }, "call$2", "call$3", "call$1", "call$2", "get$$call", 4, 4, 87, 4, 4, 3, 46, 47],
       $isExceptionHandler: 1
     }
   }], ["browser.testability", "package:angular/src/platform/browser/testability.dart",, K, {
@@ -21607,7 +22104,7 @@
       $isGetTestability: 1
     },
     BrowserGetTestability_addToWindow_closure: {
-      "^": "Closure:207;",
+      "^": "Closure:88;",
       call$2: [function(elem, findInAncestors) {
         var registry, t1, i, t2, result;
         H.interceptedTypeCheck(elem, "$isElement");
@@ -21630,10 +22127,10 @@
         throw H.wrapException(P.StateError$("Could not find testability for element."));
       }, function(elem) {
         return this.call$2(elem, true);
-      }, "call$1", null, null, null, 4, 2, null, 28, 47, 48, "call"]
+      }, "call$1", null, null, null, 4, 2, null, 31, 49, 50, "call"]
     },
     BrowserGetTestability_addToWindow_closure0: {
-      "^": "Closure:209;",
+      "^": "Closure:89;",
       call$0: [function() {
         var registry, result, t1, i, t2, testabilities, testabilityCount, j;
         registry = H.listTypeCheck(self.self.ngTestabilityRegistries);
@@ -21673,10 +22170,10 @@
           testability = t1.get$current(t1);
           testability.whenStable.apply(testability, [P.allowInterop(decrement, t2)]);
         }
-      }, null, null, 4, 0, null, 9, "call"]
+      }, null, null, 4, 0, null, 10, "call"]
     },
     BrowserGetTestability_addToWindow__closure: {
-      "^": "Closure:24;_box_0,callback",
+      "^": "Closure:25;_box_0,callback",
       call$1: [function(didWork_) {
         var t1, didWork, t2, count;
         H.boolTypeCheck(didWork_);
@@ -21690,20 +22187,20 @@
         t1.count = count;
         if (count === 0)
           this.callback.call$1(didWork);
-      }, null, null, 4, 0, null, 49, "call"]
+      }, null, null, 4, 0, null, 51, "call"]
     },
     BrowserGetTestability__createRegistry_closure: {
-      "^": "Closure:71;registry",
+      "^": "Closure:91;registry",
       call$1: [function(element) {
         var t1, testability;
         H.interceptedTypeCheck(element, "$isElement");
         t1 = this.registry;
         testability = t1._testabilityGetter.findTestabilityInTree$2(t1, element);
         return testability == null ? null : {isStable: P.allowInterop(testability.get$isStable(testability), {func: 1, ret: P.bool}), whenStable: P.allowInterop(testability.get$whenStable(testability), {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool]}]})};
-      }, null, null, 4, 0, null, 27, "call"]
+      }, null, null, 4, 0, null, 30, "call"]
     },
     BrowserGetTestability__createRegistry_closure0: {
-      "^": "Closure:72;registry",
+      "^": "Closure:92;registry",
       call$0: [function() {
         var t1, t2, t3;
         t1 = this.registry._applications;
@@ -21715,11 +22212,11 @@
       }, null, null, 0, 0, null, "call"]
     },
     BrowserGetTestability__createRegistry__closure: {
-      "^": "Closure:73;",
+      "^": "Closure:93;",
       call$1: [function(t) {
         H.interceptedTypeCheck(t, "$isTestability");
         return {isStable: P.allowInterop(t.get$isStable(t), {func: 1, ret: P.bool}), whenStable: P.allowInterop(t.get$whenStable(t), {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool]}]})};
-      }, null, null, 4, 0, null, 51, "call"]
+      }, null, null, 4, 0, null, 53, "call"]
     }
   }], ["", "package:angular/src/platform/dom/events/dom_events.dart",, L, {
     "^": "",
@@ -21772,25 +22269,25 @@
   }], ["", "package:angular/src/platform/dom/events/key_events.dart",, N, {
     "^": "",
     closure: {
-      "^": "Closure:22;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.altKey;
       }
     },
     closure0: {
-      "^": "Closure:22;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.ctrlKey;
       }
     },
     closure1: {
-      "^": "Closure:22;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.metaKey;
       }
     },
     closure2: {
-      "^": "Closure:22;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.shiftKey;
       }
@@ -21867,7 +22364,7 @@
       }
     },
     KeyEventsPlugin_addEventListener_closure: {
-      "^": "Closure:66;element,parsedEvent,outsideHandler",
+      "^": "Closure:72;element,parsedEvent,outsideHandler",
       call$0: [function() {
         var t1, t2;
         t1 = this.element;
@@ -21955,7 +22452,7 @@
         if (this.get$disabled(this))
           return;
         this._trigger.add$1(0, mouseEvent);
-      }, "call$1", "get$handleClick", 4, 0, 14],
+      }, "call$1", "get$handleClick", 4, 0, 16],
       handleKeyPress$1: [function(keyboardEvent) {
         H.interceptedTypeCheck(keyboardEvent, "$isKeyboardEvent");
         if (this.get$disabled(this))
@@ -21964,7 +22461,7 @@
           this._trigger.add$1(0, keyboardEvent);
           keyboardEvent.preventDefault();
         }
-      }, "call$1", "get$handleKeyPress", 4, 0, 12]
+      }, "call$1", "get$handleKeyPress", 4, 0, 15]
     },
     _ButtonDirective_RootFocusable_HasTabIndex: {
       "^": "RootFocusable+HasTabIndex;"
@@ -22047,7 +22544,7 @@
           }
         }
         this._visible = value;
-      }, "call$1", "get$_setVisible", 4, 0, 16, 1],
+      }, "call$1", "get$_setVisible", 4, 0, 19, 2],
       ngOnDestroy$0: function() {
         this._deferred_content$_disposer.dispose$0();
         this._viewContainer = null;
@@ -22106,7 +22603,7 @@
       }
     },
     DynamicComponent__initialize_closure: {
-      "^": "Closure:79;$this,loadType",
+      "^": "Closure:99;$this,loadType",
       call$1: function(componentRef) {
         var t1 = this.$this;
         if (!J.$eq$(this.loadType, t1._componentType)) {
@@ -22127,7 +22624,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Z.DynamicComponent));
       t1.componentType = $.ViewDynamicComponent0__renderType;
       return t1;
-    }, "call$2", "dynamic_component_template__viewFactory_DynamicComponent1$closure", 8, 0, 190],
+    }, "call$2", "dynamic_component_template__viewFactory_DynamicComponent1$closure", 8, 0, 212],
     ViewDynamicComponent0: {
       "^": "AppView;0_dynamic_component_template$_appEl_0,0_TemplateRef_0_8,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -22220,7 +22717,7 @@
       _onModalOrPopupVisibleChanged$1: [function(isVisible) {
         if (H.boolTypeCheck(isVisible))
           this._focus$_domService.scheduleWrite$1(this.get$focus(this));
-      }, "call$1", "get$_onModalOrPopupVisibleChanged", 4, 0, 16, 18]
+      }, "call$1", "get$_onModalOrPopupVisibleChanged", 4, 0, 19, 20]
     },
     FocusableDirective: {
       "^": "RootFocusable;_root"
@@ -22229,6 +22726,9 @@
     "^": "",
     FocusActivableItemDirective: {
       "^": "RootFocusable;0key>,_root",
+      set$key: function(_, key) {
+        this.key = H.stringTypeCheck(key);
+      },
       $isFocusableActivateItem: 1
     },
     FocusableActivateItem: {
@@ -22346,7 +22846,7 @@
       },
       whenStable$1: [function(_, fn) {
         this._runCallbacksIfStable$1$newCallback(H.functionTypeCheck(fn, {func: 1, ret: -1, args: [P.bool, P.String]}));
-      }, "call$1", "get$whenStable", 5, 0, 80, 53],
+      }, "call$1", "get$whenStable", 5, 0, 100, 55],
       _runCallbacksIfStable$1$newCallback: function(newCallback) {
         C.C__RootZone.run$1$1(new D.AbstractTestability__runCallbacksIfStable_closure(this, H.functionTypeCheck(newCallback, {func: 1, ret: -1, args: [P.bool, P.String]})), P.Null);
       },
@@ -22456,7 +22956,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, G.HighlightedTextComponent));
       t1.componentType = $.ViewHighlightedTextComponent0__renderType;
       return t1;
-    }, "call$2", "highlighted_text_template__viewFactory_HighlightedTextComponent1$closure", 8, 0, 191],
+    }, "call$2", "highlighted_text_template__viewFactory_HighlightedTextComponent1$closure", 8, 0, 213],
     ViewHighlightedTextComponent0: {
       "^": "AppView;0_highlighted_text_template$_appEl_1,0_highlighted_text_template$_NgFor_1_9,0_highlighted_text_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -22540,7 +23040,7 @@
         H.boolTypeCheck(isVisible);
         this._modal$_isVisible = isVisible;
         this._onVisibleChanged.add$1(0, isVisible);
-      }, "call$1", "get$_onOverlayVisibleChanged", 4, 0, 16, 18],
+      }, "call$1", "get$_onOverlayVisibleChanged", 4, 0, 19, 20],
       get$contentVisible: function() {
         var t1 = this._onVisibleChanged;
         return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
@@ -22561,7 +23061,7 @@
         this._resolvedOverlayRef.setVisible$1(true);
       }, function() {
         return this._showModalOverlay$1$temporary(false);
-      }, "_showModalOverlay$0", "call$1$temporary", "call$0", "get$_showModalOverlay", 0, 3, 45],
+      }, "_showModalOverlay$0", "call$1$temporary", "call$0", "get$_showModalOverlay", 0, 3, 57],
       _hideModalOverlay$1$temporary: [function(temporary) {
         var t1;
         if (!temporary) {
@@ -22573,7 +23073,7 @@
         this._resolvedOverlayRef.setVisible$1(false);
       }, function() {
         return this._hideModalOverlay$1$temporary(false);
-      }, "_hideModalOverlay$0", "call$1$temporary", "call$0", "get$_hideModalOverlay", 0, 3, 45],
+      }, "_hideModalOverlay$0", "call$1$temporary", "call$0", "get$_hideModalOverlay", 0, 3, 57],
       _restoreFocus$0: function() {
         var t1 = this._lastFocusedElement;
         if (t1 == null)
@@ -22658,18 +23158,18 @@
       }
     },
     ModalComponent_open_closure: {
-      "^": "Closure:46;$this",
+      "^": "Closure:56;$this",
       call$1: [function(completed) {
         this.$this.set$_pendingOpen(null);
         return H.futureOrCheck(completed, {futureOr: 1, type: P.bool});
-      }, null, null, 4, 0, null, 26, "call"]
+      }, null, null, 4, 0, null, 29, "call"]
     },
     ModalComponent_close_closure: {
-      "^": "Closure:46;$this",
+      "^": "Closure:56;$this",
       call$1: [function(completed) {
         this.$this.set$_pendingClose(null);
         return H.futureOrCheck(completed, {futureOr: 1, type: P.bool});
-      }, null, null, 4, 0, null, 26, "call"]
+      }, null, null, 4, 0, null, 29, "call"]
     }
   }], ["", "package:angular_components/laminate/components/modal/modal.template.dart",, O, {
     "^": "",
@@ -22678,7 +23178,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.ModalComponent));
       t1.componentType = $.ViewModalComponent0__renderType;
       return t1;
-    }, "call$2", "modal_template__viewFactory_ModalComponent1$closure", 8, 0, 192],
+    }, "call$2", "modal_template__viewFactory_ModalComponent1$closure", 8, 0, 214],
     ViewModalComponent0: {
       "^": "AppView;0_modal_template$_appEl_1,0_ModalControllerDirective_1_9,0_modal_template$_expr_0,0_modal_template$_expr_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -23002,13 +23502,13 @@
       }
     },
     DomPortalHost_attachTemplatePortal_closure: {
-      "^": "Closure:83;$this,portal",
+      "^": "Closure:103;$this,portal",
       call$1: [function(ref) {
         H.interceptedTypeCheck(ref, "$isImperativeViewRef");
         this.portal._locals.forEach$1(0, ref.viewRef.get$setLocal());
         this.$this.set$_detachPortal(H.functionTypeCheck(ref.get$dispose(), {func: 1, ret: -1}));
         return P.LinkedHashMap_LinkedHashMap$_empty(P.String, null);
-      }, null, null, 4, 0, null, 55, "call"]
+      }, null, null, 4, 0, null, 57, "call"]
     }
   }], ["", "package:angular_components/laminate/ruler/dom_ruler.dart",, K, {
     "^": "",
@@ -23066,13 +23566,13 @@
       }
     },
     DomRulerImpl_removeCssClassesSync_closure: {
-      "^": "Closure:19;",
+      "^": "Closure:20;",
       call$1: function(c) {
         return H.stringTypeCheck(c).length !== 0;
       }
     },
     DomRulerImpl_addCssClassesSync_closure: {
-      "^": "Closure:19;",
+      "^": "Closure:20;",
       call$1: function(c) {
         return H.stringTypeCheck(c).length !== 0;
       }
@@ -23244,13 +23744,13 @@
         if (this._clickFocused)
           return;
         this._setFocused$1(true);
-      }, "call$1", "get$onFocus", 5, 0, 20],
+      }, "call$1", "get$onFocus", 5, 0, 21],
       onBlur$1: [function(_, $event) {
         H.interceptedTypeCheck($event, "$isUIEvent");
         if (this._clickFocused)
           this._clickFocused = false;
         this._setFocused$1(false);
-      }, "call$1", "get$onBlur", 5, 0, 20]
+      }, "call$1", "get$onBlur", 5, 0, 21]
     },
     MaterialButtonBase__setFocused_closure: {
       "^": "Closure:0;$this,newValue",
@@ -23336,7 +23836,7 @@
   }], ["", "package:angular_components/material_checkbox/material_checkbox.dart",, B, {
     "^": "",
     MaterialCheckboxComponent: {
-      "^": "Object;_material_checkbox$_changeDetector,_material_checkbox$_root,_defaultTabIndex,role>,0_onTouched,_onChecked,_onIndeterminate,_onChange,indeterminateToChecked,disabled>,_checked,readOnly,_material_checkbox$_focused,_isKeyboardEvent,_checkedStr,_indeterminate,_material_checkbox$_icon,0themeColor,0label>,0focusDelegate",
+      "^": "Object;_material_checkbox$_changeDetector,_material_checkbox$_root,_defaultTabIndex,role>,0_onTouched,_onChecked,_onIndeterminate,_material_checkbox$_onChange,indeterminateToChecked,disabled>,_checked,readOnly,_material_checkbox$_focused,_isKeyboardEvent,_checkedStr,_indeterminate,_material_checkbox$_icon,0themeColor,0label>,0focusDelegate",
       writeValue$1: function(_, isChecked) {
         H.boolTypeCheck(isChecked);
         if (isChecked == null)
@@ -23372,7 +23872,7 @@
           this._onChecked.add$1(0, checked);
         if (this._checkedStr !== prevState) {
           this._syncAriaChecked$0();
-          this._onChange.add$1(0, this._checkedStr);
+          this._material_checkbox$_onChange.add$1(0, this._checkedStr);
         }
       },
       _setStates$1$checked: function(checked) {
@@ -23416,17 +23916,17 @@
         if (t1 == null ? t2 != null : t1 !== t2)
           return;
         this._isKeyboardEvent = true;
-      }, "call$1", "get$handleKeyUp", 4, 0, 12],
+      }, "call$1", "get$handleKeyUp", 4, 0, 15],
       handleClick$1: [function(mouseEvent) {
         H.interceptedTypeCheck(mouseEvent, "$isMouseEvent");
         if (this.disabled)
           return;
         this._isKeyboardEvent = false;
         this.toggleChecked$0();
-      }, "call$1", "get$handleClick", 4, 0, 14],
+      }, "call$1", "get$handleClick", 4, 0, 16],
       handleMouseDown$1: [function(mouseEvent) {
         H.interceptedTypeCheck(mouseEvent, "$isMouseEvent");
-      }, "call$1", "get$handleMouseDown", 4, 0, 14],
+      }, "call$1", "get$handleMouseDown", 4, 0, 16],
       handleKeyPress$1: [function($event) {
         var t1, t2;
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
@@ -23441,7 +23941,7 @@
           this._isKeyboardEvent = true;
           this.toggleChecked$0();
         }
-      }, "call$1", "get$handleKeyPress", 4, 0, 12],
+      }, "call$1", "get$handleKeyPress", 4, 0, 15],
       handleFocus$1: [function(_) {
         this._material_checkbox$_focused = true;
       }, "call$1", "get$handleFocus", 4, 0, 2],
@@ -23452,11 +23952,11 @@
         t1 = this._onTouched;
         if (!(t1 == null))
           t1.call$0();
-      }, "call$1", "get$handleBlur", 4, 0, 29],
+      }, "call$1", "get$handleBlur", 4, 0, 36],
       onDisabledChanged$1: [function(isDisabled) {
         this.disabled = H.boolTypeCheck(isDisabled);
         this._material_checkbox$_changeDetector.appView.markPathToRootAsCheckOnce$0();
-      }, "call$1", "get$onDisabledChanged", 4, 0, 16, 17],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 19, 19],
       $isFocusable: 1,
       $isControlValueAccessor: 1,
       $asControlValueAccessor: function() {
@@ -23464,10 +23964,10 @@
       }
     },
     MaterialCheckboxComponent_registerOnChange_closure: {
-      "^": "Closure:10;callback",
+      "^": "Closure:7;callback",
       call$1: [function(checked) {
         return this.callback.call$1(H.boolTypeCheck(checked));
-      }, null, null, 4, 0, null, 86, "call"]
+      }, null, null, 4, 0, null, 59, "call"]
     }
   }], ["asset_angular_components_lib_material_checkbox_material_checkbox.scss.css.shim.dart", "package:angular_components/material_checkbox/material_checkbox.scss.css.shim.dart",, F, {}], ["", "package:angular_components/material_checkbox/material_checkbox.template.dart",, G, {
     "^": "",
@@ -23476,9 +23976,9 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, B.MaterialCheckboxComponent));
       t1.componentType = $.ViewMaterialCheckboxComponent0__renderType;
       return t1;
-    }, "call$2", "material_checkbox_template__viewFactory_MaterialCheckboxComponent1$closure", 8, 0, 193],
+    }, "call$2", "material_checkbox_template__viewFactory_MaterialCheckboxComponent1$closure", 8, 0, 215],
     ViewMaterialCheckboxComponent0: {
-      "^": "AppView;0_material_checkbox_template$_compView_1,0_MaterialIconComponent_1_5,0_material_checkbox_template$_appEl_2,0_material_checkbox_template$_NgIf_2_9,0_material_checkbox_template$_expr_0,0_material_checkbox_template$_expr_1,0_material_checkbox_template$_expr_2,0_material_checkbox_template$_expr_3,0_material_checkbox_template$_expr_5,0_material_checkbox_template$_expr_6,0_material_checkbox_template$_expr_8,0_expr_9,0_material_checkbox_template$_expr_10,0_material_checkbox_template$_el_0,0_material_checkbox_template$_el_1,0_text_4,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_checkbox_template$_compView_1,0_material_checkbox_template$_MaterialIconComponent_1_5,0_material_checkbox_template$_appEl_2,0_material_checkbox_template$_NgIf_2_9,0_material_checkbox_template$_expr_0,0_material_checkbox_template$_expr_1,0_material_checkbox_template$_expr_2,0_material_checkbox_template$_expr_3,0_material_checkbox_template$_expr_5,0_material_checkbox_template$_expr_6,0_material_checkbox_template$_expr_8,0_material_checkbox_template$_expr_9,0_material_checkbox_template$_expr_10,0_material_checkbox_template$_el_0,0_material_checkbox_template$_el_1,0_text_4,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var _ctx, _rootEl, parentRenderNode, doc, t1, t2, _anchor_2, _el_3, t3, t4;
         _ctx = this.ctx;
@@ -23500,7 +24000,7 @@
         t1.className = "icon";
         this.addShimC$1(t1);
         t1 = new Y.MaterialIconComponent(this._material_checkbox_template$_el_1);
-        this._MaterialIconComponent_1_5 = t1;
+        this._material_checkbox_template$_MaterialIconComponent_1_5 = t1;
         this._material_checkbox_template$_compView_1.create$2(0, t1, []);
         t1 = $.$get$_viewContainerAnchor();
         _anchor_2 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
@@ -23535,7 +24035,7 @@
         currVal_3 = _ctx._material_checkbox$_icon;
         t1 = this._material_checkbox_template$_expr_3;
         if (t1 !== currVal_3) {
-          this._MaterialIconComponent_1_5.set$icon(0, currVal_3);
+          this._material_checkbox_template$_MaterialIconComponent_1_5.set$icon(0, currVal_3);
           this._material_checkbox_template$_expr_3 = currVal_3;
           changed = true;
         } else
@@ -23639,7 +24139,7 @@
           $event.preventDefault();
           t1.close$0(0);
         }
-      }, "call$1", "get$_defaultEscapeHandler", 4, 0, 12],
+      }, "call$1", "get$_defaultEscapeHandler", 4, 0, 15],
       static: {
         MaterialDialogComponent$: function(_rootElement, _domService, _changeDetector, _modal) {
           var t1 = new D.MaterialDialogComponent(_rootElement, _domService, _changeDetector, _modal, new R.Disposer(true, false), true, true, false, false, P.StreamController_StreamController(null, null, null, null, false, P.bool), false, true, null);
@@ -23649,13 +24149,13 @@
       }
     },
     MaterialDialogComponent_main_closure: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: function(_) {
         this.$this._setHeaderFooterScrollBorder$0();
       }
     },
     MaterialDialogComponent_main_closure0: {
-      "^": "Closure:87;$this",
+      "^": "Closure:107;$this",
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isAsyncAction");
         this.$this._setHeaderFooterScrollBorder$0();
@@ -23692,13 +24192,13 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.MaterialDialogComponent));
       t1.componentType = $.ViewMaterialDialogComponent0__renderType;
       return t1;
-    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent1$closure", 8, 0, 64],
+    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent1$closure", 8, 0, 71],
     viewFactory_MaterialDialogComponent2: [function(parentView, parentIndex) {
       var t1 = new Z._ViewMaterialDialogComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.MaterialDialogComponent));
       t1.componentType = $.ViewMaterialDialogComponent0__renderType;
       return t1;
-    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent2$closure", 8, 0, 64],
+    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent2$closure", 8, 0, 71],
     ViewMaterialDialogComponent0: {
       "^": "AppView;0_material_dialog_template$_compView_0,0_FocusTrapComponent_0_5,0_material_dialog_template$_appEl_2,0_material_dialog_template$_NgIf_2_9,0_material_dialog_template$_appEl_6,0_material_dialog_template$_NgIf_6_9,0_material_dialog_template$_expr_1,0_material_dialog_template$_expr_2,0_material_dialog_template$_expr_3,0_material_dialog_template$_expr_4,0_material_dialog_template$_el_3,0_material_dialog_template$_text_4,0_el_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -23820,6 +24320,9 @@
       "^": "Object;_material_expansionpanel$_ngZone,_changeDetector<,_material_expansionpanel$_domService,_disposer,_defaultExpandIcon,shouldExpandOnLeft,initialized,0autoFocusChild,0_mainPanel,0_headerPanel,0_mainContent,0_headerContent,0_actionContent,0_contentWrapper,closeOnSave<,_isExpanded<,_isExpandedChange<,_isExpandedChangeByUserAction,_anotherExpanded,_disabled,saveDisabled,_activeSaveCancelAction,hideExpandedHeader,disableHeaderExpansion,0name>,0secondaryText,0_expandIcon,alwaysShowExpandIcon,alwaysHideExpandIcon,showSaveCancel,cancelDisplayed,enterAccepts,saveText,cancelText,_openController<,_closeController<,_saveController<,_cancelController<,0_expandCollapseButton",
       set$_anotherExpanded: function(_anotherExpanded) {
         this._anotherExpanded = H.boolTypeCheck(_anotherExpanded);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
       },
       set$mainPanel: function(mainPanel) {
         var t1;
@@ -23950,7 +24453,7 @@
         return this.changeState$3(false, byUserAction, this._closeController);
       }, function($receiver) {
         return this.collapse$1$byUserAction($receiver, true);
-      }, "collapse$0", "call$1$byUserAction", "call$0", "get$collapse", 1, 3, 88, 28, 58],
+      }, "collapse$0", "call$1$byUserAction", "call$0", "get$collapse", 1, 3, 108, 31, 90],
       doSave$0: [function() {
         var t1, t2, t3, t4, actionCtrl;
         t1 = P.bool;
@@ -23963,7 +24466,7 @@
         this._changeDetector.appView.markPathToRootAsCheckOnce$0();
         actionCtrl.execute$2$valueOnCancel(new T.MaterialExpansionPanel_doSave_closure(this, this.initialized), false);
         return actionCtrl.get$action(actionCtrl)._async_action$_onDone.then$1$1(new T.MaterialExpansionPanel_doSave_closure0(this), t1);
-      }, "call$0", "get$doSave", 0, 0, 38],
+      }, "call$0", "get$doSave", 0, 0, 41],
       doCancel$0: [function() {
         var t1, t2, t3, t4, actionCtrl;
         t1 = P.bool;
@@ -23976,7 +24479,7 @@
         this._changeDetector.appView.markPathToRootAsCheckOnce$0();
         actionCtrl.execute$2$valueOnCancel(new T.MaterialExpansionPanel_doCancel_closure(this, this.initialized), false);
         return actionCtrl.get$action(actionCtrl)._async_action$_onDone.then$1$1(new T.MaterialExpansionPanel_doCancel_closure0(this), t1);
-      }, "call$0", "get$doCancel", 0, 0, 38],
+      }, "call$0", "get$doCancel", 0, 0, 41],
       changeState$3: function(expand, byUserAction, stream) {
         var t1, t2, t3, t4, actionCtrl;
         if (this._isExpanded === expand) {
@@ -24017,7 +24520,7 @@
       $isDeferredContentAware: 1
     },
     MaterialExpansionPanel_mainPanel_closure: {
-      "^": "Closure:61;$this",
+      "^": "Closure:52;$this",
       call$1: function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isTransitionEvent");
@@ -24026,7 +24529,7 @@
       }
     },
     MaterialExpansionPanel_headerPanel_closure: {
-      "^": "Closure:61;$this",
+      "^": "Closure:52;$this",
       call$1: function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isTransitionEvent");
@@ -24035,7 +24538,7 @@
       }
     },
     MaterialExpansionPanel_ngOnInit_closure: {
-      "^": "Closure:24;$this",
+      "^": "Closure:25;$this",
       call$1: [function(_) {
         var t1, t2;
         H.boolTypeCheck(_);
@@ -24046,14 +24549,14 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     MaterialExpansionPanel_ngOnInit__closure: {
-      "^": "Closure:91;$this",
+      "^": "Closure:111;$this",
       call$1: [function(_) {
         var t1 = this.$this._expandCollapseButton;
         if (!(t1 == null))
           t1.focus$0(0);
       }, function() {
         return this.call$1(null);
-      }, "call$0", null, null, null, 0, 2, null, 3, 0, "call"]
+      }, "call$0", null, null, null, 0, 2, null, 4, 0, "call"]
     },
     MaterialExpansionPanel_doSave_closure: {
       "^": "Closure:6;$this,stateWasInitialized",
@@ -24071,7 +24574,7 @@
       }
     },
     MaterialExpansionPanel_doSave_closure0: {
-      "^": "Closure:30;$this",
+      "^": "Closure:31;$this",
       call$1: [function(result) {
         var t1;
         H.boolTypeCheck(result);
@@ -24079,7 +24582,7 @@
         t1._activeSaveCancelAction = false;
         t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
         return result;
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     MaterialExpansionPanel_doCancel_closure: {
       "^": "Closure:6;$this,stateWasInitialized",
@@ -24095,7 +24598,7 @@
       }
     },
     MaterialExpansionPanel_doCancel_closure0: {
-      "^": "Closure:30;$this",
+      "^": "Closure:31;$this",
       call$1: [function(result) {
         var t1;
         H.boolTypeCheck(result);
@@ -24103,7 +24606,7 @@
         t1._activeSaveCancelAction = false;
         t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
         return result;
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     MaterialExpansionPanel_changeState_closure: {
       "^": "Closure:6;$this,expand,byUserAction,stateWasInitialized",
@@ -24122,17 +24625,17 @@
       }
     },
     MaterialExpansionPanel__transitionHeightChange_closure: {
-      "^": "Closure:28;$this",
+      "^": "Closure:24;$this",
       call$1: [function(expandedPanelHeight) {
         var t1;
         H.stringTypeCheck(expandedPanelHeight);
         t1 = this.$this._mainPanel.style;
         t1.toString;
         t1.height = expandedPanelHeight == null ? "" : expandedPanelHeight;
-      }, null, null, 4, 0, null, 59, "call"]
+      }, null, null, 4, 0, null, 61, "call"]
     },
     MaterialExpansionPanel__transitionHeightChange_closure0: {
-      "^": "Closure:93;$this",
+      "^": "Closure:113;$this",
       call$1: [function(_) {
         var t1;
         H.numTypeCheck(_);
@@ -24164,55 +24667,55 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel1$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel1$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel2: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel2$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel2$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel3: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel3$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel3$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel4: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel4$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel4$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel5: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel5$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel5$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel6: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel6(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel6$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel6$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel7: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel7(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel7$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel7$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel8: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel8(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel8$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel8$closure", 8, 0, 10],
     viewFactory_MaterialExpansionPanel9: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel9(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel9$closure", 8, 0, 9],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel9$closure", 8, 0, 10],
     ViewMaterialExpansionPanel0: {
       "^": "AppView;0_KeyUpBoundaryDirective_0_5,0_ButtonDirective_2_5,0_appEl_3,0_NgIf_3_9,0_appEl_7,0_NgIf_7_9,0_appEl_9,0_NgIf_9_9,0_appEl_10,_query_action_1_4_isDirty,0_NgIf_10_9,0_appEl_14,_query_expandCollapseButton_1_6_isDirty,0_NgIf_14_9,0_appEl_16,0_NgIf_16_9,0_appEl_17,0_DeferredContentDirective_17_9,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_material_expansionpanel_template$_expr_2,0_material_expansionpanel_template$_expr_3,0_material_expansionpanel_template$_expr_4,0_material_expansionpanel_template$_expr_5,0_material_expansionpanel_template$_expr_6,0_material_expansionpanel_template$_expr_7,0_expr_8,0_expr_10,0_expr_14,0_expr_15,0_el_0,0_el_1,0_el_2,0_text_6,0_el_11,0_el_13,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -24480,19 +24983,19 @@
       }
     },
     ViewMaterialExpansionPanel0_detectChangesInternal_closure: {
-      "^": "Closure:94;",
+      "^": "Closure:114;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialExpansionPanel4")._el_0], [W.HtmlElement]);
       }
     },
     ViewMaterialExpansionPanel0_detectChangesInternal_closure0: {
-      "^": "Closure:95;",
+      "^": "Closure:115;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialExpansionPanel5")._ButtonDirective_0_5.instance], [T.ButtonDirective]);
       }
     },
     ViewMaterialExpansionPanel0_detectChangesInternal_closure1: {
-      "^": "Closure:96;",
+      "^": "Closure:116;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialExpansionPanel6")._ButtonDirective_0_5.instance], [T.ButtonDirective]);
       }
@@ -25056,44 +25559,44 @@
       }
     },
     MaterialExpansionPanelSet__onPanelsChange_closure: {
-      "^": "Closure:24;$this,panel",
+      "^": "Closure:25;$this,panel",
       call$1: [function(isExpanded) {
         if (H.boolTypeCheck(isExpanded))
           this.$this._setOpenPanel$1(this.panel);
-      }, null, null, 4, 0, null, 60, "call"]
+      }, null, null, 4, 0, null, 62, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure0: {
-      "^": "Closure:31;$this,panel",
+      "^": "Closure:28;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelOpen$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 14, "call"]
+      }, null, null, 4, 0, null, 15, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure1: {
-      "^": "Closure:31;$this,panel",
+      "^": "Closure:28;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 14, "call"]
+      }, null, null, 4, 0, null, 15, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure2: {
-      "^": "Closure:31;$this,panel",
+      "^": "Closure:28;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 14, "call"]
+      }, null, null, 4, 0, null, 15, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure3: {
-      "^": "Closure:31;$this,panel",
+      "^": "Closure:28;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 14, "call"]
+      }, null, null, 4, 0, null, 15, "call"]
     },
     MaterialExpansionPanelSet__onPanelOpen_closure: {
-      "^": "Closure:30;$this,panel",
+      "^": "Closure:31;$this,panel",
       call$1: [function(success) {
         H.boolTypeCheck(success);
         if (success)
           this.$this._setOpenPanel$1(this.panel);
         return !success;
-      }, null, null, 4, 0, null, 62, "call"]
+      }, null, null, 4, 0, null, 64, "call"]
     }
   }], ["", "package:angular_components/material_icon/material_icon.dart",, Y, {
     "^": "",
@@ -25189,11 +25692,20 @@
         this._base_material_input$_disposer.addFunction$1(new D.BaseMaterialInput_closure(validator, $call));
       },
       ngAfterViewInit$0: function() {
+        var t1, t2, t3;
+        t1 = this._base_material_input$_cd;
+        if ((t1 == null ? null : t1._control) != null) {
+          t2 = this._base_material_input$_disposer;
+          t3 = t1._control._valueChanges;
+          t2.addStreamSubscription$1$1(new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(new D.BaseMaterialInput_ngAfterViewInit_closure(this)), null);
+          t1 = t1._control._statusChanges;
+          t2.addStreamSubscription$1$1(new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(new D.BaseMaterialInput_ngAfterViewInit_closure0(this)), P.String);
+        }
       },
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isAbstractControl");
         return this._isLocallyValid$1(true);
-      }, "call$1", "get$$call", 4, 0, 51, 0],
+      }, "call$1", "get$$call", 4, 0, 44, 0],
       _isLocallyValid$1: function(fromFormsApi) {
         var t1;
         if (this._invalid && true) {
@@ -25208,6 +25720,20 @@
         return this._base_material_input$_disabled;
       },
       get$invalid: function(_) {
+        var t1, t2;
+        t1 = this._base_material_input$_cd;
+        if ((t1 == null ? null : t1._control) != null) {
+          t1 = t1._control;
+          t2 = t1 == null;
+          if (!(t2 ? null : t1._status === "VALID"))
+            if (!(t2 ? null : t1._touched))
+              t1 = t2 ? null : !t1._model$_pristine;
+            else
+              t1 = true;
+          else
+            t1 = false;
+          return t1;
+        }
         return this._isLocallyValid$1(false) != null;
       },
       get$hasVisibleText: function() {
@@ -25220,7 +25746,28 @@
         return !t1;
       },
       get$errorMessage: function(_) {
-        var t1 = this._localValidationMessage;
+        var t1, t2, errorMap, stringValue;
+        t1 = this._base_material_input$_cd;
+        if (t1 != null) {
+          t2 = t1._control;
+          t2 = (t2 == null ? null : t2._errors) != null;
+        } else
+          t2 = false;
+        if (t2) {
+          errorMap = t1._control._errors;
+          t1 = J.getInterceptor$x(errorMap);
+          stringValue = J.firstWhere$2$orElse$ax(t1.get$values(errorMap), new D.BaseMaterialInput_errorMessage_closure(), new D.BaseMaterialInput_errorMessage_closure0());
+          if (stringValue != null)
+            return H.stringTypeCast(stringValue);
+          for (t1 = J.get$iterator$ax(t1.get$keys(errorMap)); t1.moveNext$0();) {
+            t2 = t1.get$current(t1);
+            if ("required" === t2)
+              return this._requiredErrorMsg;
+            if ("maxlength" === t2)
+              return this._errorMsg;
+          }
+        }
+        t1 = this._localValidationMessage;
         return t1 == null ? "" : t1;
       },
       ngOnDestroy$0: ["super$BaseMaterialInput$ngOnDestroy", function() {
@@ -25244,7 +25791,7 @@
         this._validationMessage = validationMessage;
         this._pristine = false;
         this.set$inputText(newValue);
-        this._base_material_input$_changeController.add$1(0, newValue);
+        this._changeController.add$1(0, newValue);
         this.updateBottomPanelState$0();
       },
       inputKeypress$3: function(newValue, valid, validationMessage) {
@@ -25284,6 +25831,34 @@
         C.JSArray_methods.remove$1(t1._delegates, t2);
         t1.set$_validator(null);
       }
+    },
+    BaseMaterialInput_ngAfterViewInit_closure: {
+      "^": "Closure:4;$this",
+      call$1: [function(value) {
+        this.$this.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+      }, null, null, 4, 0, null, 2, "call"]
+    },
+    BaseMaterialInput_ngAfterViewInit_closure0: {
+      "^": "Closure:24;$this",
+      call$1: [function($status) {
+        var t1;
+        H.stringTypeCheck($status);
+        t1 = this.$this;
+        t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+        t1.updateBottomPanelState$0();
+      }, null, null, 4, 0, null, 65, "call"]
+    },
+    BaseMaterialInput_errorMessage_closure: {
+      "^": "Closure:35;",
+      call$1: function(v) {
+        return typeof v === "string" && v.length !== 0;
+      }
+    },
+    BaseMaterialInput_errorMessage_closure0: {
+      "^": "Closure:0;",
+      call$0: function() {
+        return;
+      }
     }
   }], ["", "package:angular_components/material_input/deferred_validator.dart",, L, {
     "^": "",
@@ -25307,12 +25882,12 @@
           this.set$_validator(numDelegates > 1 ? B.Validators_compose(t1) : C.JSArray_methods.get$single(t1));
         }
         return this._validator.call$1(control);
-      }, null, "get$$call", 4, 0, null, 24]
+      }, "call$1", "get$$call", 4, 0, 44, 28]
     }
   }], ["", "package:angular_components/material_input/material_input.dart",, L, {
     "^": "",
     MaterialInputComponent: {
-      "^": "BaseMaterialInput;_material_input$_changeDetector,0inputEl,0popupSourceEl,0type,multiple,inputRole,_labelId,0_leadingText,0leadingGlyph,0_trailingText,0trailingGlyph,0trailingGlyphAriaLabel,0leadingGlyphAriaLabel,_rightAlign,0inputAriaOwns,0inputAriaActivedescendent,0inputAriaHasPopup,0inputAriaExpanded,0inputAriaAutocomplete,_base_material_input$_changeDetector,_base_material_input$_disposer,emptyState,errorState,hintState,_invalid,0_validationMessage,0_localValidationMessage,_required,_showHintOnlyOnFocus,_base_material_input$_disabled,useNativeValidation,_pristine,_base_material_input$_cd,bottomPanelState,0_errorMsg,0_error,0label,0inputAriaLabel,0_hintText,_requiredErrorMsg,0maxCount,0_checkValid,_inputTextLength,_inputText,displayBottomPanel,0errorRenderer,0_characterCounter,showCharacterCount,floatingLabel,_keypressController,_base_material_input$_changeController,_blurController,focused,FocusableMixin__onFocus,0FocusableMixin__focusable,FocusableMixin__focusPending",
+      "^": "BaseMaterialInput;_material_input$_changeDetector,0inputEl,0popupSourceEl,0type,multiple,inputRole,_labelId,0_leadingText,0leadingGlyph,0_trailingText,0trailingGlyph,0trailingGlyphAriaLabel,0leadingGlyphAriaLabel,_rightAlign,0inputAriaOwns,0inputAriaActivedescendent,0inputAriaHasPopup,0inputAriaExpanded,0inputAriaAutocomplete,_base_material_input$_changeDetector,_base_material_input$_disposer,emptyState,errorState,hintState,_invalid,0_validationMessage,0_localValidationMessage,_required,_showHintOnlyOnFocus,_base_material_input$_disabled,useNativeValidation,_pristine,_base_material_input$_cd,bottomPanelState,0_errorMsg,0_error,0label,0inputAriaLabel,0_hintText,_requiredErrorMsg,0maxCount,0_checkValid,_inputTextLength,_inputText,displayBottomPanel,0errorRenderer,0_characterCounter,showCharacterCount,floatingLabel,_keypressController,_changeController,_blurController,focused,FocusableMixin__onFocus,0FocusableMixin__focusable,FocusableMixin__focusPending",
       set$inputEl: function(inputEl) {
         this.inputEl = H.interceptedTypeCheck(inputEl, "$isElementRef");
       },
@@ -25325,7 +25900,21 @@
       focus$0: [function(_) {
         return this.super$FocusableMixin$focus(0);
       }, "call$0", "get$focus", 1, 0, 1],
-      $isReferenceDirective: 1
+      $isReferenceDirective: 1,
+      static: {
+        MaterialInputComponent$: function(type, multiple, inputRole, cd, _changeDetector, validator) {
+          var t1, t2, t3, t4;
+          t1 = new R.SequentialIdGenerator(R.SequentialIdGenerator__createUuid(), 0).nextId$0();
+          t2 = $.$get$BaseMaterialInput_defaultEmptyMessage();
+          t3 = [P.String];
+          t4 = [W.FocusEvent];
+          t1 = new L.MaterialInputComponent(_changeDetector, false, inputRole, t1, false, _changeDetector, new R.Disposer(true, false), C.BottomPanelState_0, C.BottomPanelState_1, C.BottomPanelState_2, false, false, false, false, true, true, cd, C.BottomPanelState_0, t2, 0, "", true, false, false, new P._SyncBroadcastStreamController(null, null, 0, t3), new P._SyncBroadcastStreamController(null, null, 0, t3), new P._SyncBroadcastStreamController(null, null, 0, t4), false, new P._SyncBroadcastStreamController(null, null, 0, t4), false);
+          t1.BaseMaterialInput$3(cd, _changeDetector, validator);
+          t1.type = "text";
+          t1.multiple = E.attributeToBool(multiple, false);
+          return t1;
+        }
+      }
     }
   }], ["asset_angular_components_lib_material_input_material_input.scss.css.shim.dart", "package:angular_components/material_input/material_input.scss.css.shim.dart",, F, {}], ["", "package:angular_components/material_input/material_input.template.dart",, Q, {
     "^": "",
@@ -25334,57 +25923,57 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent1$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent1$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent2: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent2$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent2$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent3: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent3$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent3$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent4: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent4$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent4$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent5: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent5$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent5$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent6: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent6(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent6$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent6$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent7: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent7(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent7$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent7$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent8: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent8(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent8$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent8$closure", 8, 0, 11],
     viewFactory_MaterialInputComponent9: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent9(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent9$closure", 8, 0, 7],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent9$closure", 8, 0, 11],
     ViewMaterialInputComponent0: {
-      "^": "AppView;0_material_input_template$_appEl_2,0_material_input_template$_NgIf_2_9,0_material_input_template$_appEl_4,0_material_input_template$_NgIf_4_9,0_DefaultValueAccessor_11_5,0_FocusableDirective_11_6,0_NgValueAccessor_11_7,0_NgModel_11_8,0_material_input_template$_appEl_13,0_NgIf_13_9,0_appEl_15,0_NgIf_15_9,0_appEl_21,0_NgIf_21_9,0_material_input_template$_expr_0,0_material_input_template$_expr_3,0_material_input_template$_expr_4,0_material_input_template$_expr_5,0_material_input_template$_expr_6,0_material_input_template$_expr_7,0_material_input_template$_expr_8,0_material_input_template$_expr_9,0_material_input_template$_expr_10,0_material_input_template$_expr_11,0_material_input_template$_expr_12,0_material_input_template$_expr_13,0_material_input_template$_expr_14,0_material_input_template$_expr_15,0_material_input_template$_expr_16,0_material_input_template$_expr_17,0_expr_18,0_expr_19,0_material_input_template$_expr_20,0_expr_22,0_expr_23,0_expr_24,0_expr_25,0_expr_26,0_expr_30,0_expr_31,0_expr_32,0_expr_33,0_expr_34,0_expr_35,0_material_input_template$_el_1,0_el_6,0_el_7,0_el_9,0_text_10,0_material_input_template$_el_11,0_el_18,0_el_19,0_el_20,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_input_template$_appEl_2,0_material_input_template$_NgIf_2_9,0_appEl_4,0_NgIf_4_9,0_DefaultValueAccessor_11_5,0_FocusableDirective_11_6,0_NgValueAccessor_11_7,0_NgModel_11_8,0_appEl_13,0_NgIf_13_9,0_appEl_15,0_NgIf_15_9,0_appEl_21,0_NgIf_21_9,0_material_input_template$_expr_0,0_material_input_template$_expr_3,0_material_input_template$_expr_4,0_material_input_template$_expr_5,0_material_input_template$_expr_6,0_material_input_template$_expr_7,0_material_input_template$_expr_8,0_expr_9,0_material_input_template$_expr_10,0_expr_11,0_expr_12,0_expr_13,0_material_input_template$_expr_14,0_material_input_template$_expr_15,0_expr_16,0_expr_17,0_expr_18,0_expr_19,0_expr_20,0_expr_22,0_expr_23,0_expr_24,0_expr_25,0_expr_26,0_expr_30,0_expr_31,0_expr_32,0_expr_33,0_expr_34,0_expr_35,0_material_input_template$_el_1,0_el_6,0_el_7,0_el_9,0_text_10,0_material_input_template$_el_11,0_el_18,0_el_19,0_el_20,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       set$_NgValueAccessor_11_7: function(_NgValueAccessor_11_7) {
         this._NgValueAccessor_11_7 = H.assertSubtype(_NgValueAccessor_11_7, "$isList", [[L.ControlValueAccessor,,]], "$asList");
       },
@@ -25415,8 +26004,8 @@
         t2 = this._material_input_template$_el_1;
         (t2 && C.DivElement_methods).append$1(t2, _anchor_4);
         t2 = new V.ViewContainer(4, 1, this, _anchor_4);
-        this._material_input_template$_appEl_4 = t2;
-        this._material_input_template$_NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent2$closure()), t2, false);
+        this._appEl_4 = t2;
+        this._NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent2$closure()), t2, false);
         _text_5 = doc.createTextNode(" ");
         t2 = this._material_input_template$_el_1;
         (t2 && C.DivElement_methods).append$1(t2, _text_5);
@@ -25451,67 +26040,63 @@
         this._DefaultValueAccessor_11_5 = t3;
         this._FocusableDirective_11_6 = new E.FocusableDirective(t2);
         this.set$_NgValueAccessor_11_7(H.setRuntimeTypeInfo([t3], [[L.ControlValueAccessor,,]]));
-        t3 = this._NgValueAccessor_11_7;
-        t2 = X.selectValueAccessor(t3);
-        t2 = new U.NgModel(false, null, t2, null);
-        t2._init$1(t3);
-        this._NgModel_11_8 = t2;
+        this._NgModel_11_8 = U.NgModel$(null, this._NgValueAccessor_11_7);
         _text_12 = doc.createTextNode(" ");
-        t2 = this._material_input_template$_el_1;
-        (t2 && C.DivElement_methods).append$1(t2, _text_12);
+        t3 = this._material_input_template$_el_1;
+        (t3 && C.DivElement_methods).append$1(t3, _text_12);
         _anchor_13 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
-        t2 = this._material_input_template$_el_1;
-        (t2 && C.DivElement_methods).append$1(t2, _anchor_13);
-        t2 = new V.ViewContainer(13, 1, this, _anchor_13);
-        this._material_input_template$_appEl_13 = t2;
-        this._NgIf_13_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent3$closure()), t2, false);
+        t3 = this._material_input_template$_el_1;
+        (t3 && C.DivElement_methods).append$1(t3, _anchor_13);
+        t3 = new V.ViewContainer(13, 1, this, _anchor_13);
+        this._appEl_13 = t3;
+        this._NgIf_13_9 = new K.NgIf(new D.TemplateRef(t3, Q.material_input_template__viewFactory_MaterialInputComponent3$closure()), t3, false);
         _text_14 = doc.createTextNode(" ");
-        t2 = this._material_input_template$_el_1;
-        (t2 && C.DivElement_methods).append$1(t2, _text_14);
+        t3 = this._material_input_template$_el_1;
+        (t3 && C.DivElement_methods).append$1(t3, _text_14);
         _anchor_15 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
-        t2 = this._material_input_template$_el_1;
-        (t2 && C.DivElement_methods).append$1(t2, _anchor_15);
-        t2 = new V.ViewContainer(15, 1, this, _anchor_15);
-        this._appEl_15 = t2;
-        this._NgIf_15_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent4$closure()), t2, false);
+        t3 = this._material_input_template$_el_1;
+        (t3 && C.DivElement_methods).append$1(t3, _anchor_15);
+        t3 = new V.ViewContainer(15, 1, this, _anchor_15);
+        this._appEl_15 = t3;
+        this._NgIf_15_9 = new K.NgIf(new D.TemplateRef(t3, Q.material_input_template__viewFactory_MaterialInputComponent4$closure()), t3, false);
         _text_16 = doc.createTextNode(" ");
-        t2 = this._material_input_template$_el_1;
-        (t2 && C.DivElement_methods).append$1(t2, _text_16);
+        t3 = this._material_input_template$_el_1;
+        (t3 && C.DivElement_methods).append$1(t3, _text_16);
         this.project$2(this._material_input_template$_el_1, 0);
         _el_17 = S.createDivAndAppend(doc, _el_0);
         _el_17.className = "underline";
         this.addShimC$1(_el_17);
-        t2 = S.createDivAndAppend(doc, _el_17);
-        this._el_18 = t2;
-        t2.className = "disabled-underline";
-        this.addShimC$1(t2);
-        t2 = S.createDivAndAppend(doc, _el_17);
-        this._el_19 = t2;
-        t2.className = "unfocused-underline";
-        this.addShimC$1(t2);
-        t2 = S.createDivAndAppend(doc, _el_17);
-        this._el_20 = t2;
-        t2.className = "focused-underline";
-        this.addShimC$1(t2);
+        t3 = S.createDivAndAppend(doc, _el_17);
+        this._el_18 = t3;
+        t3.className = "disabled-underline";
+        this.addShimC$1(t3);
+        t3 = S.createDivAndAppend(doc, _el_17);
+        this._el_19 = t3;
+        t3.className = "unfocused-underline";
+        this.addShimC$1(t3);
+        t3 = S.createDivAndAppend(doc, _el_17);
+        this._el_20 = t3;
+        t3.className = "focused-underline";
+        this.addShimC$1(t3);
         _anchor_21 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
         J.append$1$x(parentRenderNode, _anchor_21);
         t1 = new V.ViewContainer(21, null, this, _anchor_21);
         this._appEl_21 = t1;
         this._NgIf_21_9 = new K.NgIf(new D.TemplateRef(t1, Q.material_input_template__viewFactory_MaterialInputComponent5$closure()), t1, false);
         t1 = this._material_input_template$_el_11;
-        t2 = W.Event;
-        (t1 && C.InputElement_methods).addEventListener$2(t1, "blur", this.eventHandler1$2$1(this.get$_handle_blur_11_0(), t2, t2));
+        t3 = W.Event;
+        (t1 && C.InputElement_methods).addEventListener$2(t1, "blur", this.eventHandler1$2$1(this.get$_handle_blur_11_0(), t3, t3));
         t1 = this._material_input_template$_el_11;
-        (t1 && C.InputElement_methods).addEventListener$2(t1, "change", this.eventHandler1$2$1(this.get$_handle_change_11_1(), t2, t2));
+        (t1 && C.InputElement_methods).addEventListener$2(t1, "change", this.eventHandler1$2$1(this.get$_handle_change_11_1(), t3, t3));
         t1 = this._material_input_template$_el_11;
-        (t1 && C.InputElement_methods).addEventListener$2(t1, "focus", this.eventHandler1$2$1(this.ctx.get$inputFocusAction(), t2, t2));
+        (t1 && C.InputElement_methods).addEventListener$2(t1, "focus", this.eventHandler1$2$1(this.ctx.get$inputFocusAction(), t3, t3));
         t1 = this._material_input_template$_el_11;
-        (t1 && C.InputElement_methods).addEventListener$2(t1, "input", this.eventHandler1$2$1(this.get$_handle_input_11_3(), t2, t2));
+        (t1 && C.InputElement_methods).addEventListener$2(t1, "input", this.eventHandler1$2$1(this.get$_handle_input_11_3(), t3, t3));
         this.ctx.set$focusable(this._FocusableDirective_11_6);
         this.ctx.set$inputEl(new Z.ElementRef(this._material_input_template$_el_11));
         this.ctx.set$popupSourceEl(new Z.ElementRef(_el_0));
         this.init$2(C.List_empty, null);
-        J.addEventListener$2$x(_rootEl, "focus", this.eventHandler0$1$1(_ctx.get$focus(_ctx), t2));
+        J.addEventListener$2$x(_rootEl, "focus", this.eventHandler0$1$1(_ctx.get$focus(_ctx), t3));
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         if (token === C.Type_Focusable_adc && 11 === nodeIndex)
@@ -25527,16 +26112,13 @@
         t1 = this._material_input_template$_NgIf_2_9;
         _ctx.leadingGlyph;
         t1.set$ngIf(false);
-        t1 = this._material_input_template$_NgIf_4_9;
+        t1 = this._NgIf_4_9;
         _ctx._leadingText;
         t1.set$ngIf(false);
         this._NgModel_11_8.set$model(_ctx._inputText);
         this._NgModel_11_8.ngAfterChanges$0();
-        if (firstCheck) {
-          t1 = this._NgModel_11_8;
-          X.setUpControl(t1._control, t1);
-          t1._control.updateValueAndValidity$1$emitEvent(false);
-        }
+        if (firstCheck)
+          this._NgModel_11_8.ngOnInit$0();
         t1 = this._NgIf_13_9;
         _ctx._trailingText;
         t1.set$ngIf(false);
@@ -25547,8 +26129,8 @@
         _ctx.displayBottomPanel;
         t1.set$ngIf(true);
         this._material_input_template$_appEl_2.detectChangesInNestedViews$0();
-        this._material_input_template$_appEl_4.detectChangesInNestedViews$0();
-        this._material_input_template$_appEl_13.detectChangesInNestedViews$0();
+        this._appEl_4.detectChangesInNestedViews$0();
+        this._appEl_13.detectChangesInNestedViews$0();
         this._appEl_15.detectChangesInNestedViews$0();
         this._appEl_21.detectChangesInNestedViews$0();
         currVal_0 = _ctx._base_material_input$_disabled;
@@ -25592,10 +26174,10 @@
           this._material_input_template$_expr_8 = false;
         }
         currVal_9 = _ctx._base_material_input$_disabled;
-        t1 = this._material_input_template$_expr_9;
+        t1 = this._expr_9;
         if (t1 != currVal_9) {
           this.updateClass$3(this._el_9, "disabled", currVal_9);
-          this._material_input_template$_expr_9 = currVal_9;
+          this._expr_9 = currVal_9;
         }
         _ctx.focused;
         t1 = this._material_input_template$_expr_10;
@@ -25604,25 +26186,25 @@
           this._material_input_template$_expr_10 = false;
         }
         _ctx.get$invalid(_ctx);
-        t1 = this._material_input_template$_expr_11;
+        t1 = this._expr_11;
         if (t1 !== false) {
           this.updateClass$3(this._el_9, "invalid", false);
-          this._material_input_template$_expr_11 = false;
+          this._expr_11 = false;
         }
         currVal_12 = Q.interpolate0(_ctx.label);
-        t1 = this._material_input_template$_expr_12;
+        t1 = this._expr_12;
         if (t1 !== currVal_12) {
           this._text_10.textContent = currVal_12;
-          this._material_input_template$_expr_12 = currVal_12;
+          this._expr_12 = currVal_12;
         }
         firstCheck;
         currVal_17 = _ctx.get$invalid(_ctx);
-        t1 = this._material_input_template$_expr_17;
+        t1 = this._expr_17;
         if (t1 !== currVal_17) {
           t1 = this._material_input_template$_el_11;
           t2 = String(currVal_17);
           this.setAttr$3(t1, "aria-invalid", t2);
-          this._material_input_template$_expr_17 = currVal_17;
+          this._expr_17 = currVal_17;
         }
         t1 = this._expr_19;
         if (t1 !== currVal_5) {
@@ -25697,8 +26279,8 @@
       },
       destroyInternal$0: function() {
         this._material_input_template$_appEl_2.destroyNestedViews$0();
-        this._material_input_template$_appEl_4.destroyNestedViews$0();
-        this._material_input_template$_appEl_13.destroyNestedViews$0();
+        this._appEl_4.destroyNestedViews$0();
+        this._appEl_13.destroyNestedViews$0();
         this._appEl_15.destroyNestedViews$0();
         this._appEl_21.destroyNestedViews$0();
       },
@@ -25722,10 +26304,30 @@
       }, "call$1", "get$_handle_input_11_3", 4, 0, 2],
       $asAppView: function() {
         return [L.MaterialInputComponent];
+      },
+      static: {
+        ViewMaterialInputComponent0$: function(parentView, parentIndex) {
+          var t1, t2;
+          t1 = new Q.ViewMaterialInputComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+          t1.set$viewData(S.AppViewData_AppViewData(t1, 1, C.ViewType_1, parentIndex, L.MaterialInputComponent));
+          t2 = document.createElement("material-input");
+          H.interceptedTypeCheck(t2, "$isHtmlElement");
+          t1.rootEl = t2;
+          t2.className = "themeable";
+          t2.tabIndex = -1;
+          t2 = $.ViewMaterialInputComponent0__renderType;
+          if (t2 == null) {
+            t2 = $.appViewUtils;
+            t2 = t2.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$MaterialInputComponent());
+            $.ViewMaterialInputComponent0__renderType = t2;
+          }
+          t1.setupComponentType$1(t2);
+          return t1;
+        }
       }
     },
     _ViewMaterialInputComponent1: {
-      "^": "AppView;0_material_input_template$_compView_1,0_material_input_template$_MaterialIconComponent_1_5,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_input_template$_compView_1,0_MaterialIconComponent_1_5,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1 = document.createElement("span");
         this._material_input_template$_el_0 = t1;
@@ -25740,7 +26342,7 @@
         t1.className = "glyph leading";
         this.addShimC$1(t1);
         t1 = new Y.MaterialIconComponent(this._material_input_template$_el_1);
-        this._material_input_template$_MaterialIconComponent_1_5 = t1;
+        this._MaterialIconComponent_1_5 = t1;
         this._material_input_template$_compView_1.create$2(0, t1, []);
         this.init0$1(this._material_input_template$_el_0);
       },
@@ -25750,7 +26352,7 @@
         _ctx.leadingGlyph;
         t1 = this._material_input_template$_expr_3;
         if (t1 !== "") {
-          this._material_input_template$_MaterialIconComponent_1_5.set$icon(0, "");
+          this._MaterialIconComponent_1_5.set$icon(0, "");
           this._material_input_template$_expr_3 = "";
           changed = true;
         } else
@@ -25848,7 +26450,7 @@
       }
     },
     _ViewMaterialInputComponent4: {
-      "^": "AppView;0_material_input_template$_compView_1,0_material_input_template$_MaterialIconComponent_1_5,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_input_template$_compView_1,0_MaterialIconComponent_1_5,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1 = document.createElement("span");
         this._material_input_template$_el_0 = t1;
@@ -25863,7 +26465,7 @@
         t1.className = "glyph trailing";
         this.addShimC$1(t1);
         t1 = new Y.MaterialIconComponent(this._material_input_template$_el_1);
-        this._material_input_template$_MaterialIconComponent_1_5 = t1;
+        this._MaterialIconComponent_1_5 = t1;
         this._material_input_template$_compView_1.create$2(0, t1, []);
         this.init0$1(this._material_input_template$_el_0);
       },
@@ -25873,7 +26475,7 @@
         _ctx.trailingGlyph;
         t1 = this._material_input_template$_expr_3;
         if (t1 !== "") {
-          this._material_input_template$_MaterialIconComponent_1_5.set$icon(0, "");
+          this._MaterialIconComponent_1_5.set$icon(0, "");
           this._material_input_template$_expr_3 = "";
           changed = true;
         } else
@@ -25903,7 +26505,7 @@
       }
     },
     _ViewMaterialInputComponent5: {
-      "^": "AppView;0_NgSwitch_0_5,0_material_input_template$_appEl_1,0_NgSwitchWhen_1_9,0_material_input_template$_appEl_2,0_NgSwitchWhen_2_9,0_material_input_template$_appEl_3,0_NgSwitchWhen_3_9,0_material_input_template$_appEl_4,0_material_input_template$_NgIf_4_9,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_NgSwitch_0_5,0_material_input_template$_appEl_1,0_NgSwitchWhen_1_9,0_material_input_template$_appEl_2,0_NgSwitchWhen_2_9,0_material_input_template$_appEl_3,0_NgSwitchWhen_3_9,0_appEl_4,0_NgIf_4_9,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var _el_0, t1, _anchor_1, t2, t3, t4, _anchor_2, _anchor_3, _anchor_4;
         _el_0 = document.createElement("div");
@@ -25940,8 +26542,8 @@
         _anchor_4 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
         t2.append$1(_el_0, _anchor_4);
         t2 = new V.ViewContainer(4, 0, this, _anchor_4);
-        this._material_input_template$_appEl_4 = t2;
-        this._material_input_template$_NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent9$closure()), t2, false);
+        this._appEl_4 = t2;
+        this._NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent9$closure()), t2, false);
         this.init0$1(_el_0);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
@@ -25981,19 +26583,19 @@
           this._NgSwitchWhen_3_9.set$ngSwitchWhen(currVal_3);
           this._material_input_template$_expr_3 = currVal_3;
         }
-        t1 = this._material_input_template$_NgIf_4_9;
+        t1 = this._NgIf_4_9;
         _ctx.showCharacterCount;
         t1.set$ngIf(false);
         this._material_input_template$_appEl_1.detectChangesInNestedViews$0();
         this._material_input_template$_appEl_2.detectChangesInNestedViews$0();
         this._material_input_template$_appEl_3.detectChangesInNestedViews$0();
-        this._material_input_template$_appEl_4.detectChangesInNestedViews$0();
+        this._appEl_4.detectChangesInNestedViews$0();
       },
       destroyInternal$0: function() {
         this._material_input_template$_appEl_1.destroyNestedViews$0();
         this._material_input_template$_appEl_2.destroyNestedViews$0();
         this._material_input_template$_appEl_3.destroyNestedViews$0();
-        this._material_input_template$_appEl_4.destroyNestedViews$0();
+        this._appEl_4.destroyNestedViews$0();
       },
       $asAppView: function() {
         return [L.MaterialInputComponent];
@@ -26153,14 +26755,17 @@
       }
     },
     MaterialInputDefaultValueAccessor_registerOnChange_closure: {
-      "^": "Closure:28;callback",
+      "^": "Closure:24;callback",
       call$1: [function(value) {
         this.callback.call$1(H.stringTypeCheck(value));
-      }, null, null, 4, 0, null, 1, "call"]
+      }, null, null, 4, 0, null, 2, "call"]
     },
     BaseMaterialInputValueAccessor: {
       "^": "Object;",
       BaseMaterialInputValueAccessor$2: function(input, _cd) {
+        var t1 = this._cd;
+        if (!(t1 == null))
+          t1.valueAccessor = this;
         this.disposer.addFunction$1(new Z.BaseMaterialInputValueAccessor_closure(this));
       },
       writeValue$1: function(_, newValue) {
@@ -26180,17 +26785,20 @@
         var t1 = this.input;
         t1._base_material_input$_disabled = H.boolTypeCheck(isDisabled);
         t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
-      }, "call$1", "get$onDisabledChanged", 4, 0, 16, 17],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 19, 19],
       $isControlValueAccessor: 1,
       $asControlValueAccessor: Isolate.functionThatReturnsNull
     },
     BaseMaterialInputValueAccessor_closure: {
       "^": "Closure:0;$this",
       call$0: function() {
+        var t1 = this.$this._cd;
+        if (!(t1 == null))
+          t1.valueAccessor = null;
       }
     },
     BaseMaterialInputValueAccessor_registerOnTouched_closure: {
-      "^": "Closure:99;_box_0,callback",
+      "^": "Closure:119;_box_0,callback",
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isFocusEvent");
         this._box_0.sub.cancel$0(0);
@@ -26290,7 +26898,7 @@
       }
     },
     MenuItemAffixListComponent_items_closure: {
-      "^": "Closure:100;$this",
+      "^": "Closure:120;$this",
       call$1: [function(_) {
         H.assertSubtype(_, "$isList", [[Y.ListChangeRecord, L.MenuItemAffix]], "$asList");
         this.$this._menu_item_affix_list$_cdRef.appView.markPathToRootAsCheckOnce$0();
@@ -26303,31 +26911,31 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent1$closure", 8, 0, 23],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent1$closure", 8, 0, 27],
     viewFactory_MenuItemAffixListComponent2: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent2(P.LinkedHashMap_LinkedHashMap$_literal(["$implicit", null], P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent2$closure", 8, 0, 23],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent2$closure", 8, 0, 27],
     viewFactory_MenuItemAffixListComponent3: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent3$closure", 8, 0, 23],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent3$closure", 8, 0, 27],
     viewFactory_MenuItemAffixListComponent4: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent4$closure", 8, 0, 23],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent4$closure", 8, 0, 27],
     viewFactory_MenuItemAffixListComponent5: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent5$closure", 8, 0, 23],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent5$closure", 8, 0, 27],
     ViewMenuItemAffixListComponent0: {
       "^": "AppView;0_menu_item_affix_list_template$_appEl_1,0_menu_item_affix_list_template$_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -26561,7 +27169,7 @@
   }], ["", "package:angular_components/material_menu/menu_item_groups.dart",, A, {
     "^": "",
     MenuItemGroupsComponent: {
-      "^": "Object;_idGenerator,_menu_item_groups$_changeDetector,0menu,0focusableItems,_closeOnPressLeft,_isMouseDriven,0_activeModel,0_activeModelChange,_activateFirstItemOnInit,_menuRoot,_dropdownHandle,0_subMenuOpener,0_hoveredItem,0_submenuParent,_autoFocusItemId,isKeyboardOpenedSubmenu,_selected,0highlighter,0_highlight,0popupClass,_highlightCache",
+      "^": "Object;_menu_item_groups$_idGenerator,_menu_item_groups$_changeDetector,0menu,0focusableItems,_closeOnPressLeft,_isMouseDriven,0_activeModel,0_activeModelChange,_activateFirstItemOnInit,_menuRoot,_dropdownHandle,0_subMenuOpener,0_hoveredItem,0_submenuParent,_autoFocusItemId,isKeyboardOpenedSubmenu,_selected,0highlighter,0_highlight,0popupClass,_highlightCache",
       set$focusableItems: function(focusableItems) {
         this.focusableItems = H.assertSubtype(focusableItems, "$isList", [K.FocusableActivateItem], "$asList");
       },
@@ -26579,7 +27187,7 @@
         t1 = this._activeModelChange;
         if (!(t1 == null))
           t1.cancel$0(0);
-        t1 = v._modelChanged;
+        t1 = v._active_item$_modelChanged;
         this._activeModelChange = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(new A.MenuItemGroupsComponent_activeModel_closure(this));
       },
       get$hasHighlight: function() {
@@ -26605,7 +27213,7 @@
         this._activeModel.activate$1(null);
         this._hoveredItem = item;
         this._subMenuOpener.start$0(0);
-      }, "call$1", "get$onMouseOver", 5, 0, 14, 5],
+      }, "call$1", "get$onMouseOver", 5, 0, 16, 6],
       onMouseOut$1: [function(_, $event) {
         var item;
         H.interceptedTypeCheck($event, "$isMouseEvent");
@@ -26617,14 +27225,14 @@
         if (item === this._hoveredItem)
           this._hoveredItem = null;
         this._subMenuOpener._reset$1(false);
-      }, "call$1", "get$onMouseOut", 5, 0, 14],
+      }, "call$1", "get$onMouseOut", 5, 0, 16],
       onMouseMove$1: [function(_, _0) {
         H.interceptedTypeCheck(_0, "$isMouseEvent");
         this._isMouseDriven = true;
-      }, "call$1", "get$onMouseMove", 5, 0, 14],
+      }, "call$1", "get$onMouseMove", 5, 0, 16],
       onSubMenuItemSelected$1: [function(item) {
         this._selected.add$1(0, H.interceptedTypeCheck(item, "$isMenuItem"));
-      }, "call$1", "get$onSubMenuItemSelected", 4, 0, 101],
+      }, "call$1", "get$onSubMenuItemSelected", 4, 0, 121],
       handleKeydown$2$shouldPreventDefault: [function($event, shouldPreventDefault) {
         var t1, activeMenuItem, t2, t3;
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
@@ -26652,7 +27260,7 @@
                 t1._activeIndex = t2 - 1;
               }
             }
-            t1._modelChanged.add$1(0, null);
+            t1._active_item$_modelChanged.add$1(0, null);
             this._focusActiveItem$0();
             shouldPreventDefault = true;
             break;
@@ -26673,7 +27281,7 @@
               else
                 t1._activeIndex = 0;
             }
-            t1._modelChanged.add$1(0, null);
+            t1._active_item$_modelChanged.add$1(0, null);
             this._focusActiveItem$0();
             shouldPreventDefault = true;
             break;
@@ -26699,7 +27307,7 @@
           $event.preventDefault();
       }, function($event) {
         return this.handleKeydown$2$shouldPreventDefault($event, true);
-      }, "handleKeydown$1", "call$2$shouldPreventDefault", "call$1", "get$handleKeydown", 4, 3, 102],
+      }, "handleKeydown$1", "call$2$shouldPreventDefault", "call$1", "get$handleKeydown", 4, 3, 122],
       _openSubMenu$2$isOpenedByKeyboard: function(item, isOpenedByKeyboard) {
         var t1;
         item.enabled;
@@ -26738,7 +27346,7 @@
         t1 = this._activeModel;
         if (!(t1 == null))
           t1.activate$1(item);
-      }, "call$1", "get$onFocus", 5, 0, 103],
+      }, "call$1", "get$onFocus", 5, 0, 123],
       handleSelectItemTrigger$3: function(item, group, $event) {
         var t1;
         if (item == null || false)
@@ -26815,7 +27423,7 @@
         t1 = this.menu;
         t2 = t1 == null;
         if (!t2 && this._activeModel == null) {
-          t3 = this._idGenerator;
+          t3 = this._menu_item_groups$_idGenerator;
           t1 = D.ActiveMenuItemModel__createEnabledItemGroupList(t2 ? null : t1.itemGroups, true, null);
           t2 = P.String;
           t4 = P.HashMap_HashMap(null, null, null, null, t2);
@@ -26882,19 +27490,19 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     MenuItemGroupsComponent_hasAutoFocus_closure: {
-      "^": "Closure:19;itemId",
+      "^": "Closure:20;itemId",
       call$1: function(id) {
         return H.stringTypeCheck(id) == this.itemId;
       }
     },
     MenuItemGroupsComponent__triggerAffixShortcutActions_closure: {
-      "^": "Closure:52;keyCode",
+      "^": "Closure:49;keyCode",
       call$1: function(suffix) {
         return H.interceptedTypeCheck(suffix, "$isMenuItemAffix").hasShortcutKeyCode$1(this.keyCode);
       }
     },
     MenuItemGroupsComponent__triggerAffixShortcutActions_closure0: {
-      "^": "Closure:52;",
+      "^": "Closure:49;",
       call$1: function(suffix) {
         return H.interceptedTypeCheck(suffix, "$isMenuItemAffix").get$shouldCloseMenuOnTrigger();
       }
@@ -27096,25 +27704,25 @@
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal_closure: {
-      "^": "Closure:105;",
+      "^": "Closure:125;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent1")._menu_item_groups_template$_appEl_4.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal__closure0(), E.AutoFocusDirective, B._ViewMenuItemGroupsComponent4);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal__closure0: {
-      "^": "Closure:106;",
+      "^": "Closure:126;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent4")._menu_item_groups_template$_appEl_1.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal___closure0(), E.AutoFocusDirective, B._ViewMenuItemGroupsComponent5);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal___closure0: {
-      "^": "Closure:107;",
+      "^": "Closure:127;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent5")._menu_item_groups_template$_appEl_1.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal____closure0(), E.AutoFocusDirective, B._ViewMenuItemGroupsComponent6);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal____closure0: {
-      "^": "Closure:108;",
+      "^": "Closure:128;",
       call$1: function(nestedView) {
         var t1;
         H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent6");
@@ -27123,37 +27731,37 @@
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal_____closure: {
-      "^": "Closure:109;",
+      "^": "Closure:129;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent15")._menu_item_groups_template$_appEl_2.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal______closure(), E.AutoFocusDirective, B._ViewMenuItemGroupsComponent16);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal______closure: {
-      "^": "Closure:110;",
+      "^": "Closure:130;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent16")._AutoFocusDirective_2_5], [E.AutoFocusDirective]);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal_closure0: {
-      "^": "Closure:111;",
+      "^": "Closure:131;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent1")._menu_item_groups_template$_appEl_4.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal__closure(), K.FocusableActivateItem, B._ViewMenuItemGroupsComponent4);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal__closure: {
-      "^": "Closure:112;",
+      "^": "Closure:132;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent4")._menu_item_groups_template$_appEl_1.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal___closure(), K.FocusableActivateItem, B._ViewMenuItemGroupsComponent5);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal___closure: {
-      "^": "Closure:113;",
+      "^": "Closure:133;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent5")._menu_item_groups_template$_appEl_1.mapNestedViews$2$1(new B.ViewMenuItemGroupsComponent0_detectChangesInternal____closure(), K.FocusableActivateItem, B._ViewMenuItemGroupsComponent6);
       }
     },
     ViewMenuItemGroupsComponent0_detectChangesInternal____closure: {
-      "^": "Closure:114;",
+      "^": "Closure:134;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMenuItemGroupsComponent6")._FocusableActivateItem_1_15], [K.FocusableActivateItem]);
       }
@@ -27420,7 +28028,7 @@
       }
     },
     _ViewMenuItemGroupsComponent6: {
-      "^": "AppView;0_menu_item_groups_template$_compView_1,0_menu_item_groups_template$_appEl_1,0_ActiveItemDirective_1_8,0_AutoFocusDirective_1_9,0_FocusActivableItemDirective_1_10,0_MaterialTooltipDirective_1_11,0_MaterialSelectItemComponent_1_12,0_NgClass_1_13,0_PopupSourceDirective_1_14,0_FocusableActivateItem_1_15,0__TooltipController_1_19,0_menu_item_groups_template$_appEl_3,0_menu_item_groups_template$_NgIf_3_9,0_menu_item_groups_template$_appEl_7,0_menu_item_groups_template$_NgIf_7_9,0_menu_item_groups_template$_appEl_9,0_menu_item_groups_template$_NgIf_9_9,0_appEl_11,0_NgIf_11_9,0_menu_item_groups_template$_appEl_14,0_menu_item_groups_template$_NgIf_14_9,0_menu_item_groups_template$_appEl_16,0_menu_item_groups_template$_NgIf_16_9,0_appEl_19,0_NgIf_19_9,0_menu_item_groups_template$_expr_0,0_menu_item_groups_template$_expr_1,0_menu_item_groups_template$_expr_2,0_menu_item_groups_template$_expr_3,0_menu_item_groups_template$_expr_4,0_menu_item_groups_template$_expr_5,0_menu_item_groups_template$_expr_6,0_menu_item_groups_template$_expr_7,0_menu_item_groups_template$_expr_8,0_menu_item_groups_template$_expr_9,0_menu_item_groups_template$_expr_10,0_menu_item_groups_template$_expr_11,0_menu_item_groups_template$_expr_12,0_menu_item_groups_template$_expr_14,0_expr_16,0_expr_17,0_expr_20,0_menu_item_groups_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_menu_item_groups_template$_compView_1,0_menu_item_groups_template$_appEl_1,0_ActiveItemDirective_1_8,0_AutoFocusDirective_1_9,0_FocusActivableItemDirective_1_10,0_MaterialTooltipDirective_1_11,0_MaterialSelectItemComponent_1_12,0_NgClass_1_13,0_PopupSourceDirective_1_14,0_FocusableActivateItem_1_15,0__TooltipController_1_19,0_menu_item_groups_template$_appEl_3,0_menu_item_groups_template$_NgIf_3_9,0_menu_item_groups_template$_appEl_7,0_menu_item_groups_template$_NgIf_7_9,0_menu_item_groups_template$_appEl_9,0_menu_item_groups_template$_NgIf_9_9,0_appEl_11,0_NgIf_11_9,0_menu_item_groups_template$_appEl_14,0_menu_item_groups_template$_NgIf_14_9,0_menu_item_groups_template$_appEl_16,0_menu_item_groups_template$_NgIf_16_9,0_appEl_19,0_NgIf_19_9,0_menu_item_groups_template$_expr_0,0_menu_item_groups_template$_expr_1,0_menu_item_groups_template$_expr_2,0_menu_item_groups_template$_expr_3,0_menu_item_groups_template$_expr_4,0_menu_item_groups_template$_expr_5,0_menu_item_groups_template$_expr_6,0_menu_item_groups_template$_expr_7,0_menu_item_groups_template$_expr_8,0_menu_item_groups_template$_expr_9,0_menu_item_groups_template$_expr_10,0_menu_item_groups_template$_expr_11,0_menu_item_groups_template$_expr_12,0_menu_item_groups_template$_expr_14,0_menu_item_groups_template$_expr_16,0_menu_item_groups_template$_expr_17,0_menu_item_groups_template$_expr_20,0_menu_item_groups_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       get$_TooltipController_1_19: function() {
         var t1, t2;
         t1 = this.__TooltipController_1_19;
@@ -27615,22 +28223,22 @@
           this._MaterialSelectItemComponent_1_12.disabled = false;
           this._menu_item_groups_template$_expr_12 = false;
         }
-        t1 = this._expr_16;
+        t1 = this._menu_item_groups_template$_expr_16;
         if (t1 !== false) {
           t1 = this._MaterialSelectItemComponent_1_12;
           t1.toString;
           t1._selectOnActivate = E.getBool(false);
-          this._expr_16 = false;
+          this._menu_item_groups_template$_expr_16 = false;
         }
         if (firstCheck)
           this._MaterialSelectItemComponent_1_12.ngOnInit$0();
         if (firstCheck)
           this._NgClass_1_13.set$initialClasses("menu-item");
         currVal_20 = local_item.cssClasses;
-        t1 = this._expr_20;
+        t1 = this._menu_item_groups_template$_expr_20;
         if (t1 !== currVal_20) {
           this._NgClass_1_13.set$rawClass(currVal_20);
-          this._expr_20 = currVal_20;
+          this._menu_item_groups_template$_expr_20 = currVal_20;
         }
         this._NgClass_1_13.ngDoCheck$0();
         this._menu_item_groups_template$_NgIf_3_9.set$ngIf(local_item.get$hasIcon());
@@ -28356,7 +28964,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, G.MenuPopupComponent));
       t1.componentType = $.ViewMenuPopupComponent0__renderType;
       return t1;
-    }, "call$2", "menu_popup_template__viewFactory_MenuPopupComponent1$closure", 8, 0, 199],
+    }, "call$2", "menu_popup_template__viewFactory_MenuPopupComponent1$closure", 8, 0, 221],
     ViewMenuPopupComponent0: {
       "^": "AppView;0_menu_popup_template$_compView_0,0_menu_popup_template$_appEl_0,0_MaterialPopupComponent_0_8,0__PopupRef_0_10,0__PopupHierarchy_0_12,0_menu_popup_template$_appEl_1,_query_MenuItemGroupsComponent_1_0_isDirty,0_DeferredContentDirective_1_9,0_menu_popup_template$_expr_0,0_menu_popup_template$_expr_2,0_menu_popup_template$_expr_3,0_menu_popup_template$_expr_4,0_menu_popup_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       get$_PopupRef_0_10: function() {
@@ -28474,7 +29082,7 @@
       }
     },
     ViewMenuPopupComponent0_detectChangesInternal_closure: {
-      "^": "Closure:115;",
+      "^": "Closure:135;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMenuPopupComponent1")._MenuItemGroupsComponent_1_8], [A.MenuItemGroupsComponent]);
       }
@@ -28841,7 +29449,7 @@
           popupContentsLayoutStream = new P._TakeStream(1, popupContentsLayoutStream, [H.getTypeArgumentByIndex(popupContentsLayoutStream, 0)]);
         this._layoutChangeSub = G._mergeStreams(H.setRuntimeTypeInfo([popupContentsLayoutStream, popupSourceLayoutStream], [[P.Stream, [P.Rectangle, P.num]]]), t2).listen$1(new G.MaterialPopupComponent__open_closure0(this, new P._AsyncCompleter(t3, [t2])));
         return t3;
-      }, "call$0", "get$_open", 1, 0, 18],
+      }, "call$0", "get$_open", 1, 0, 17],
       _onPopupOpened$0: function() {
         var t1, t2, t3;
         if (!this._isOpening)
@@ -29254,7 +29862,7 @@
       }
     },
     MaterialPopupComponent_closure: {
-      "^": "Closure:116;$this",
+      "^": "Closure:136;$this",
       call$1: [function(_) {
         this.$this.set$visible(0, false);
         return;
@@ -29300,13 +29908,13 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     MaterialPopupComponent__open_closure: {
-      "^": "Closure:117;$this",
+      "^": "Closure:137;$this",
       call$1: [function(sub) {
         this.$this._layoutInternalSub = H.assertSubtype(sub, "$isStreamSubscription", [[P.Rectangle, P.num]], "$asStreamSubscription");
-      }, null, null, 4, 0, null, 64, "call"]
+      }, null, null, 4, 0, null, 67, "call"]
     },
     MaterialPopupComponent__open_closure0: {
-      "^": "Closure:118;$this,initialData",
+      "^": "Closure:138;$this,initialData",
       call$1: [function(layoutRects) {
         var t1, t2;
         H.assertSubtype(layoutRects, "$isList", [[P.Rectangle, P.num]], "$asList");
@@ -29321,10 +29929,10 @@
           t2.set$_initialSourceDimensions(null);
           t2._schedulePositionUpdate$2(t1.$index(layoutRects, 0), t1.$index(layoutRects, 1));
         }
-      }, null, null, 4, 0, null, 65, "call"]
+      }, null, null, 4, 0, null, 68, "call"]
     },
     MaterialPopupComponent__open__closure: {
-      "^": "Closure:119;",
+      "^": "Closure:139;",
       call$1: function(r) {
         return H.assertSubtype(r, "$isRectangle", [P.num], "$asRectangle") != null;
       }
@@ -29392,7 +30000,7 @@
         var t1 = this.cachedResults;
         C.JSArray_methods.$indexSet(t1, this.n, H.assertSubtypeOfRuntimeType(result, this.T));
         this._box_1.streamController.add$1(0, t1);
-      }, null, null, 4, 0, null, 6, "call"],
+      }, null, null, 4, 0, null, 7, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.T]};
       }
@@ -29421,7 +30029,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, G.MaterialPopupComponent));
       t1.componentType = $.ViewMaterialPopupComponent0__renderType;
       return t1;
-    }, "call$2", "material_popup_template__viewFactory_MaterialPopupComponent1$closure", 8, 0, 200],
+    }, "call$2", "material_popup_template__viewFactory_MaterialPopupComponent1$closure", 8, 0, 222],
     ViewMaterialPopupComponent0: {
       "^": "AppView;0_material_popup_template$_appEl_1,0_TemplateRef_1_7,0_material_popup_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -29471,7 +30079,7 @@
       }
     },
     _ViewMaterialPopupComponent1: {
-      "^": "AppView;0_material_popup_template$_expr_0,0_material_popup_template$_expr_1,0_material_popup_template$_expr_2,0_material_popup_template$_expr_3,0_material_popup_template$_expr_4,0_material_popup_template$_expr_5,0_material_popup_template$_expr_6,0_material_popup_template$_expr_7,0_material_popup_template$_expr_8,0_material_popup_template$_expr_10,0_expr_11,0_expr_12,0_expr_13,0_material_popup_template$_el_1,0_el_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_popup_template$_expr_0,0_material_popup_template$_expr_1,0_material_popup_template$_expr_2,0_material_popup_template$_expr_3,0_material_popup_template$_expr_4,0_material_popup_template$_expr_5,0_material_popup_template$_expr_6,0_material_popup_template$_expr_7,0_material_popup_template$_expr_8,0_material_popup_template$_expr_10,0_material_popup_template$_expr_11,0_material_popup_template$_expr_12,0_material_popup_template$_expr_13,0_material_popup_template$_el_1,0_el_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, _text_0, t2, _text_2, _text_4, _el_5, _el_7, _el_11, _el_15, _text_19, _text_20, _text_21;
         t1 = document;
@@ -29721,23 +30329,23 @@
       }
     },
     MaterialRippleComponent_closure: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: [function(e) {
         var t1, t2;
         e = H.interceptedTypeCast(H.interceptedTypeCheck(e, "$isEvent"), "$isMouseEvent");
         t1 = e.clientX;
         t2 = e.clientY;
         B._createRipple(H.intTypeCheck(t1), H.intTypeCheck(t2), this.$this._material_ripple$_element, false);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     MaterialRippleComponent_closure0: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: [function(e) {
         e = H.interceptedTypeCheck(H.interceptedTypeCheck(e, "$isEvent"), "$isKeyboardEvent");
         if (!(e.keyCode === 13 || Z.isSpaceKey(e)))
           return;
         B._createRipple(0, 0, this.$this._material_ripple$_element, true);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     }
   }], ["asset_angular_components_lib_material_ripple_material_ripple.scss.css.dart", "package:angular_components/material_ripple/material_ripple.scss.css.dart",, O, {}], ["", "package:angular_components/material_ripple/material_ripple.template.dart",, L, {
     "^": "",
@@ -29826,7 +30434,7 @@
             t1.set$visible(0, false);
         }
         this._selectOnActivate;
-      }, "call$1", "get$handleActivate", 4, 0, 20, 7],
+      }, "call$1", "get$handleActivate", 4, 0, 21, 8],
       static: {
         MaterialSelectItemComponent$: function(element, _dropdown, _activationHandler, _cdRef, role, $T) {
           var t1 = new B.MaterialSelectItemComponent(new R.Disposer(true, false), _activationHandler, _cdRef, _dropdown, element, false, false, false, G.has_renderer___nullRenderer$closure(), false, true, true, false, true, new P._SyncBroadcastStreamController(null, null, 0, [W.UIEvent]), role, false, true, null, element, [$T]);
@@ -29836,7 +30444,7 @@
       }
     },
     MaterialSelectItemComponent_closure: {
-      "^": "Closure:18;$this",
+      "^": "Closure:17;$this",
       call$0: function() {
         return;
       }
@@ -30103,11 +30711,11 @@
           t2._material_checkbox_template$_expr_8 = currVal_8;
         }
         currVal_9 = J.get$disabled$z(t2.ctx);
-        t1 = t2._expr_9;
+        t1 = t2._material_checkbox_template$_expr_9;
         if (t1 != currVal_9) {
           t1 = t2.rootEl;
           t2.setAttr$3(t1, "aria-disabled", currVal_9 == null ? null : C.JSBool_methods.toString$0(currVal_9));
-          t2._expr_9 = currVal_9;
+          t2._material_checkbox_template$_expr_9 = currVal_9;
         }
         currVal_10 = J.get$label$z(t2.ctx);
         t1 = t2._material_checkbox_template$_expr_10;
@@ -30389,10 +30997,10 @@
       },
       onYes$1: [function($event) {
         this._yes.add$1(0, H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onYes", 4, 0, 20],
+      }, "call$1", "get$onYes", 4, 0, 21],
       onNo$1: [function($event) {
         this._no.add$1(0, H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onNo", 4, 0, 20]
+      }, "call$1", "get$onNo", 4, 0, 21]
     },
     BoundaryAwareKeyUpDirective: {
       "^": "Object;",
@@ -30429,12 +31037,12 @@
         if (t1)
           return false;
         return true;
-      }, "call$1", "get$_isKeyUpMatching", 4, 0, 22],
+      }, "call$1", "get$_isKeyUpMatching", 4, 0, 26],
       _onMatchingKeyUp$1: [function($event) {
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
         this._yesNo._yes.add$1(0, $event);
         return;
-      }, "call$1", "get$_onMatchingKeyUp", 4, 0, 12, 5]
+      }, "call$1", "get$_onMatchingKeyUp", 4, 0, 15, 6]
     }
   }], ["asset_angular_components_lib_material_yes_no_buttons_material_yes_no_buttons.scss.css.shim.dart", "package:angular_components/material_yes_no_buttons/material_yes_no_buttons.scss.css.shim.dart",, T, {}], ["", "package:angular_components/material_yes_no_buttons/material_yes_no_buttons.template.dart",, M, {
     "^": "",
@@ -30443,19 +31051,19 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent1$closure", 8, 0, 41],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent1$closure", 8, 0, 43],
     viewFactory_MaterialYesNoButtonsComponent2: [function(parentView, parentIndex) {
       var t1 = new M._ViewMaterialYesNoButtonsComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent2$closure", 8, 0, 41],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent2$closure", 8, 0, 43],
     viewFactory_MaterialYesNoButtonsComponent3: [function(parentView, parentIndex) {
       var t1 = new M._ViewMaterialYesNoButtonsComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure", 8, 0, 41],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure", 8, 0, 43],
     ViewMaterialYesNoButtonsComponent0: {
       "^": "AppView;0_material_yes_no_buttons_template$_appEl_0,0_material_yes_no_buttons_template$_NgIf_0_9,0_material_yes_no_buttons_template$_appEl_1,_query_yesButton_1_0_isDirty,0_material_yes_no_buttons_template$_NgIf_1_9,0_appEl_2,_query_noButton_1_1_isDirty,0_NgIf_2_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -30524,13 +31132,13 @@
       }
     },
     ViewMaterialYesNoButtonsComponent0_detectChangesInternal_closure: {
-      "^": "Closure:120;",
+      "^": "Closure:140;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialYesNoButtonsComponent2")._MaterialButtonComponent_0_6], [B.MaterialButtonComponent]);
       }
     },
     ViewMaterialYesNoButtonsComponent0_detectChangesInternal_closure0: {
-      "^": "Closure:121;",
+      "^": "Closure:141;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialYesNoButtonsComponent3")._MaterialButtonComponent_0_6], [B.MaterialButtonComponent]);
       }
@@ -30813,7 +31421,7 @@
         H.assertSubtypeOfRuntimeType(value, H.getTypeArgumentByIndex(this, 0));
         t1 = this._items;
         this._activeIndex = t1.indexOf$1(t1, value);
-        this._modelChanged.add$1(0, null);
+        this._active_item$_modelChanged.add$1(0, null);
       },
       id$1: [function(_, item) {
         var t1;
@@ -30822,9 +31430,9 @@
           return;
         t1 = this._ids;
         if (!t1.containsKey$1(0, item))
-          t1.$indexSet(0, item, this._active_item$_idGenerator.nextId$0());
+          t1.$indexSet(0, item, this._idGenerator.nextId$0());
         return t1.$index(0, item);
-      }, "call$1", "get$id", 5, 0, 122, 20]
+      }, "call$1", "get$id", 5, 0, 142, 23]
     }
   }], ["", "package:angular_components/model/a11y/active_item_directive.dart",, B, {
     "^": "",
@@ -30875,7 +31483,7 @@
       }, "call$0", "get$onMouseLeave", 1, 0, 1]
     },
     ActiveItemDirective__scrollIntoViewIfNecessary_closure: {
-      "^": "Closure:24;$this",
+      "^": "Closure:25;$this",
       call$1: [function(isVisible) {
         var t1, t2;
         if (H.boolTypeCheck(isVisible)) {
@@ -30886,7 +31494,7 @@
           if (t1._initialized && t1._active && !t1._hasHover)
             t1._scrollIntoView$0(0);
         }
-      }, null, null, 4, 0, null, 18, "call"]
+      }, null, null, 4, 0, null, 20, "call"]
     },
     ActiveItemDirective__scrollIntoView_closure: {
       "^": "Closure:0;$this",
@@ -30926,7 +31534,7 @@
           if (t1 != null)
             t1.call$1($event);
         }
-      }, "call$1", "get$onKeyUp", 5, 0, 12]
+      }, "call$1", "get$onKeyUp", 5, 0, 15]
     }
   }], ["", "package:angular_components/model/action/delayed_action.dart",, T, {
     "^": "",
@@ -31020,19 +31628,19 @@
       }
     },
     CombinedList_isEmpty_closure: {
-      "^": "Closure:53;",
+      "^": "Closure:48;",
       call$1: function(list) {
         return J.get$isEmpty$asx(H.listTypeCheck(list));
       }
     },
     CombinedList_isNotEmpty_closure: {
-      "^": "Closure:53;",
+      "^": "Closure:48;",
       call$1: function(list) {
         return J.get$isNotEmpty$asx(H.listTypeCheck(list));
       }
     },
     CombinedList_length_closure: {
-      "^": "Closure:124;",
+      "^": "Closure:144;",
       call$2: function(sum, list) {
         var t1;
         H.intTypeCheck(sum);
@@ -31129,13 +31737,13 @@
       }
     },
     MenuItem_toString_closure: {
-      "^": "Closure:125;",
+      "^": "Closure:145;",
       call$1: [function(affix) {
         return H.S(H.interceptedTypeCheck(affix, "$isMenuItemAffix"));
-      }, null, null, 4, 0, null, 66, "call"]
+      }, null, null, 4, 0, null, 69, "call"]
     },
     ActiveMenuItemModel: {
-      "^": "ActiveItemModel;_filterOutUnselectableItems,_modelChanged,_ids,_active_item$_idGenerator,0_items,0_loop,_activeIndex,$ti",
+      "^": "ActiveItemModel;_filterOutUnselectableItems,_active_item$_modelChanged,_ids,_idGenerator,0_items,0_loop,_activeIndex,$ti",
       static: {
         ActiveMenuItemModel__createEnabledItemGroupList: function(menuGroups, filterOutUnselectableItems, $T) {
           var t1, t2;
@@ -31155,7 +31763,7 @@
         var t1 = this.T;
         t1 = J.where$1$ax(H.assertSubtype(group, "$isList", [t1], "$asList"), new D.ActiveMenuItemModel__createEnabledItemGroupList__closure(t1));
         return P.List_List$from(t1, true, H.getTypeArgumentByIndex(t1, 0));
-      }, null, null, 4, 0, null, 67, "call"],
+      }, null, null, 4, 0, null, 70, "call"],
       $signature: function() {
         var t1 = this.T;
         return {func: 1, ret: [P.List, t1], args: [[P.List, t1]]};
@@ -31229,7 +31837,7 @@
       "^": "Object;"
     },
     ObservableReference: {
-      "^": "_ObservableReference_ChangeNotificationProvider_ObservableViewMixin;_equalsFn,0_listenSub,_observable$_value,_coalesce,_coalesceScheduled,0_streamController,0_changeController,0_observable$_previous,0_observable$_next,$ti",
+      "^": "_ObservableReference_ChangeNotificationProvider_ObservableViewMixin;_equalsFn,0_listenSub,_observable$_value,_coalesce,_coalesceScheduled,0_streamController,0_observable$_changeController,0_observable$_previous,0_observable$_next,$ti",
       set$_observable$_value: function(_value) {
         this._observable$_value = H.assertSubtypeOfRuntimeType(_value, H.getTypeArgumentByIndex(this, 0));
       },
@@ -31245,7 +31853,7 @@
       static: {
         ObservableReference__defaultEq: [function(a, b) {
           return a == b;
-        }, "call$2", "observable_ObservableReference__defaultEq$closure", 8, 0, 62]
+        }, "call$2", "observable_ObservableReference__defaultEq$closure", 8, 0, 58]
       }
     },
     _ObservableReference_ChangeNotificationProvider_ObservableViewMixin: {
@@ -31260,7 +31868,7 @@
     "^": "",
     _nullRenderer: [function(value) {
       return H.throwExpression(P.StateError$("nullRenderer should never be called"));
-    }, "call$1", "has_renderer___nullRenderer$closure", 4, 0, 202, 1],
+    }, "call$1", "has_renderer___nullRenderer$closure", 4, 0, 224, 2],
     HasRenderer: {
       "^": "Object;"
     }
@@ -31388,7 +31996,7 @@
           t1 = J.getInterceptor$x(a);
           t2 = J.getInterceptor$x(b);
           return t1.get$width(a) == t2.get$width(b) && t1.get$height(a) == t2.get$height(b);
-        }, "call$2", "overlay_ref_OverlayRef__isEqualSize$closure", 8, 0, 55],
+        }, "call$2", "overlay_ref_OverlayRef__isEqualSize$closure", 8, 0, 46],
         OverlayRef$: function(_asyncApplyState, _asyncMeasureSize, _delegatePortalHost, containerElement, overlayElement, _runOutsideAngular, state) {
           var t1 = new B.OverlayRef(Z.MutableOverlayState_MutableOverlayState$from(state), containerElement, overlayElement, _asyncApplyState, _asyncMeasureSize, _delegatePortalHost, _runOutsideAngular, false);
           t1.OverlayRef$7$state(_asyncApplyState, _asyncMeasureSize, _delegatePortalHost, containerElement, overlayElement, _runOutsideAngular, state);
@@ -31397,14 +32005,14 @@
       }
     },
     OverlayRef_measureSizeChanges_closure: {
-      "^": "Closure:126;$this",
+      "^": "Closure:146;$this",
       call$0: [function() {
         var t1 = this.$this;
         return t1._overlay_ref$_asyncMeasureSize.call$2$track(t1.overlayElement, true).distinct$1(B.overlay_ref_OverlayRef__isEqualSize$closure());
       }, null, null, 0, 0, null, "call"]
     },
     OverlayRef_closure: {
-      "^": "Closure:127;$this",
+      "^": "Closure:147;$this",
       call$1: [function(_) {
         return this.$this._applyChanges$0();
       }, null, null, 4, 0, null, 0, "call"]
@@ -31432,7 +32040,7 @@
         return this._renderService.measureSize$3$sync$track(pane, this._useDomSynchronously, true);
       }, function(pane) {
         return this._measurePane$2$track(pane, false);
-      }, "_measurePane$1", "call$2$track", "call$1", "get$_measurePane", 4, 3, 54]
+      }, "_measurePane$1", "call$2$track", "call$1", "get$_measurePane", 4, 3, 47]
     }
   }], ["", "package:angular_components/src/laminate/overlay/overlay_state.dart",, Z, {
     "^": "",
@@ -31581,7 +32189,7 @@
       "^": "Object;containerElement,_containerName,_overlay_dom_render_service$_domRuler,_domService,_imperativeViewUtils,_overlay_dom_render_service$_useDomSynchronously,_useRepositionLoop,_zIndexer,0_lastZIndex,_uniqueId",
       applyState$2: [function(state, pane) {
         return this.applyState$body$OverlayDomRenderService(H.interceptedTypeCheck(state, "$isOverlayState"), H.interceptedTypeCheck(pane, "$isHtmlElement"));
-      }, "call$2", "get$applyState", 8, 0, 129, 68, 69],
+      }, "call$2", "get$applyState", 8, 0, 149, 71, 72],
       applyState$body$OverlayDomRenderService: function(state, pane) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -31664,7 +32272,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     OverlayDomRenderService_measureContainer_closure: {
-      "^": "Closure:130;$this",
+      "^": "Closure:150;$this",
       call$1: [function(_) {
         return this.$this.containerElement.getBoundingClientRect();
       }, null, null, 4, 0, null, 0, "call"]
@@ -31707,7 +32315,7 @@
           return t1.measure$1(0, element).asStream$0();
       }, function(element) {
         return this._asyncMeasureSize$2$track(element, false);
-      }, "_asyncMeasureSize$1", "call$2$track", "call$1", "get$_asyncMeasureSize", 4, 3, 54, 70, 27, 71]
+      }, "_asyncMeasureSize$1", "call$2$track", "call$1", "get$_asyncMeasureSize", 4, 3, 47, 73, 30, 74]
     },
     DomPopupSource: {
       "^": "Object;_asyncMeasureSize,sourceElement<,_dom_popup_source$_initAriaAttributes,0_dom_popup_source$_alignOriginX,0_dom_popup_source$_alignOriginY,0_dom_popup_source$_id",
@@ -31809,7 +32417,7 @@
             t3._sendData$1($event);
           }
         }
-      }, "call$1", "get$_popup_hierarchy$_onTrigger", 4, 0, 29, 5],
+      }, "call$1", "get$_popup_hierarchy$_onTrigger", 4, 0, 36, 6],
       _onKeyUp$1: [function($event) {
         var t1, i, current, t2, t3, _i;
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
@@ -31840,7 +32448,7 @@
                 return;
               }
           }
-      }, "call$1", "get$_onKeyUp", 4, 0, 12]
+      }, "call$1", "get$_onKeyUp", 4, 0, 15]
     },
     PopupHierarchyElement: {
       "^": "Object;"
@@ -32099,7 +32707,7 @@
       }
     },
     RulerBase_measure_closure: {
-      "^": "Closure:131;$this,element,offset",
+      "^": "Closure:151;$this,element,offset",
       call$1: [function(_) {
         return this.$this.measureSync$2$offset(this.element, this.offset);
       }, null, null, 4, 0, null, 0, "call"]
@@ -32136,7 +32744,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     RulerBase_track_closure1: {
-      "^": "Closure:55;",
+      "^": "Closure:46;",
       call$2: function(previous, next) {
         var t1, t2, t3;
         t1 = [P.num];
@@ -32151,7 +32759,7 @@
       }
     },
     RulerBase_track_closure_withinEpsilon: {
-      "^": "Closure:133;",
+      "^": "Closure:153;",
       call$2: function(a, b) {
         if (typeof a !== "number")
           return a.$sub();
@@ -32161,7 +32769,7 @@
       }
     },
     RulerBase_updateSync_closure: {
-      "^": "Closure:65;$this,element",
+      "^": "Closure:68;$this,element",
       call$2: function($name, value) {
         var t1 = this.element.style;
         C.CssStyleDeclaration_methods._setPropertyHelper$3(t1, (t1 && C.CssStyleDeclaration_methods)._browserPropertyName$1(t1, $name), value, null);
@@ -32203,18 +32811,18 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.MaterialInkTooltipComponent));
       t1.componentType = $.ViewMaterialInkTooltipComponent0__renderType;
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent1$closure", 8, 0, 42],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent1$closure", 8, 0, 40],
     viewFactory_MaterialInkTooltipComponent2: [function(parentView, parentIndex) {
       var t1 = new L._ViewMaterialInkTooltipComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.MaterialInkTooltipComponent));
       t1.componentType = $.ViewMaterialInkTooltipComponent0__renderType;
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent2$closure", 8, 0, 42],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent2$closure", 8, 0, 40],
     viewFactory_MaterialInkTooltipComponentHost0: [function(parentView, parentIndex) {
       var t1 = new L._ViewMaterialInkTooltipComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, F.MaterialInkTooltipComponent));
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure", 8, 0, 42],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure", 8, 0, 40],
     ViewMaterialInkTooltipComponent0: {
       "^": "AppView;0_ink_tooltip_template$_appEl_1,0_ink_tooltip_template$_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -32474,7 +33082,7 @@
       handleLongPress$1: [function(_) {
         this.inLongPress = true;
         this.show$0(0);
-      }, "call$1", "get$handleLongPress", 4, 0, 29],
+      }, "call$1", "get$handleLongPress", 4, 0, 36],
       endLongPress$1: [function($event) {
         H.interceptedTypeCheck($event, "$isTouchEvent");
         if (this.inLongPress) {
@@ -32482,7 +33090,7 @@
           this.inLongPress = false;
           this.hide$1(true);
         }
-      }, "call$1", "get$endLongPress", 4, 0, 134],
+      }, "call$1", "get$endLongPress", 4, 0, 154],
       show$0: function(_) {
         if (this._isShown || !this._canShow)
           return;
@@ -32554,33 +33162,33 @@
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure: {
-      "^": "Closure:15;$this",
+      "^": "Closure:22;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.hide$1(true);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure0: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: function(_) {
         this.$this.hide$1(true);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure1: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: function(_) {
         this.$this.show$0(0);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure2: {
-      "^": "Closure:15;$this",
+      "^": "Closure:22;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.show$0(0);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure3: {
-      "^": "Closure:15;$this",
+      "^": "Closure:22;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.hide$0();
@@ -32744,7 +33352,7 @@
       }
     },
     AsyncActionController_execute_closure: {
-      "^": "Closure:18;$this,exec,onCancel,valueOnCancel",
+      "^": "Closure:17;$this,exec,onCancel,valueOnCancel",
       call$0: function() {
         var t1 = this.$this;
         if (t1._locked)
@@ -32754,7 +33362,7 @@
       }
     },
     AsyncActionController_execute__closure: {
-      "^": "Closure:136;$this,exec,onCancel,valueOnCancel",
+      "^": "Closure:235;$this,exec,onCancel,valueOnCancel",
       call$1: [function(shouldCancel) {
         var t1, shouldProceed;
         H.boolTypeCheck(shouldCancel);
@@ -32769,7 +33377,7 @@
           t1._executeCompleter.complete$1(0, this.valueOnCancel);
           return;
         }
-      }, null, null, 4, 0, null, 72, "call"]
+      }, null, null, 4, 0, null, 75, "call"]
     },
     AsyncActionController_execute___closure: {
       "^": "Closure:4;$this,exec",
@@ -32786,20 +33394,20 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     AsyncActionController__shouldCancel_closure: {
-      "^": "Closure:38;$this",
+      "^": "Closure:41;$this",
       call$0: function() {
         var t1 = P.bool;
         return P.Future_wait(this.$this._futureCancellations, null, false, t1).then$1$1(new Z.AsyncActionController__shouldCancel__closure(), t1);
       }
     },
     AsyncActionController__shouldCancel__closure: {
-      "^": "Closure:137;",
+      "^": "Closure:157;",
       call$1: [function(results) {
         return J.any$1$ax(H.assertSubtype(results, "$isList", [P.bool], "$asList"), new Z.AsyncActionController__shouldCancel___closure());
-      }, null, null, 4, 0, null, 73, "call"]
+      }, null, null, 4, 0, null, 76, "call"]
     },
     AsyncActionController__shouldCancel___closure: {
-      "^": "Closure:30;",
+      "^": "Closure:31;",
       call$1: function(cancel) {
         return H.boolTypeCheck(cancel) === true;
       }
@@ -32814,7 +33422,7 @@
       "^": "ManagedZone;",
       capturedTurnStart$1: [function($event) {
         this._managed_zone$_isRunning = true;
-      }, "call$1", "get$capturedTurnStart", 4, 0, 2, 5],
+      }, "call$1", "get$capturedTurnStart", 4, 0, 2, 6],
       capturedTurnDone$1: ["super$ManagedZoneBase$capturedTurnDone", function($event) {
         this._managed_zone$_isRunning = false;
       }],
@@ -32858,7 +33466,7 @@
       },
       add$1: [function(_, $event) {
         this._addEvent.call$1($event);
-      }, null, "get$add", 5, 0, null, 5],
+      }, null, "get$add", 5, 0, null, 6],
       addError$2: function(error, stackTrace) {
         var t1 = this._outputSink._async$_sink;
         if ((t1._state & 2) !== 0)
@@ -32881,7 +33489,7 @@
       }
     },
     RateLimitTransformer_bind_closure: {
-      "^": "Closure:138;$this",
+      "^": "Closure:158;$this",
       call$1: function(sink) {
         var t1, t2, t3;
         t1 = this.$this;
@@ -32999,7 +33607,7 @@
       }
     },
     AcxImperativeViewUtils_insertAngularView_closure: {
-      "^": "Closure:139;viewContainer,templateRef,intoDomElement",
+      "^": "Closure:159;viewContainer,templateRef,intoDomElement",
       call$1: [function(_) {
         var t1, viewRef, t2, t3, t4, _i;
         t1 = this.viewContainer;
@@ -33043,12 +33651,12 @@
         if (this._isDisposed)
           return;
         this.super$ManagedZoneBase$capturedTurnDone($event);
-      }, "call$1", "get$capturedTurnDone", 4, 0, 2, 5],
+      }, "call$1", "get$capturedTurnDone", 4, 0, 2, 6],
       capturedEventDone$1: [function($event) {
         if (this._isDisposed)
           return;
         this.super$ManagedZoneBase$capturedEventDone($event);
-      }, "call$1", "get$capturedEventDone", 4, 0, 2, 5],
+      }, "call$1", "get$capturedEventDone", 4, 0, 2, 6],
       static: {
         Angular2ManagedZone$: function(_ngZone) {
           var t1 = new T.Angular2ManagedZone(_ngZone, false, false);
@@ -33437,7 +34045,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     DomService_init__closure: {
-      "^": "Closure:17;$this",
+      "^": "Closure:18;$this",
       call$1: [function(_) {
         var t1, t2, e;
         t1 = this.$this;
@@ -33460,7 +34068,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     DomService_nextFrame__closure: {
-      "^": "Closure:211;$this,completer",
+      "^": "Closure:160;$this,completer",
       call$1: [function(highResTimer) {
         var t1, t2;
         H.numTypeCheck(highResTimer);
@@ -33473,7 +34081,7 @@
           t2._nextFrameCompleter = null;
         }
         t1.complete$1(0, highResTimer);
-      }, null, null, 4, 0, null, 74, "call"]
+      }, null, null, 4, 0, null, 77, "call"]
     },
     DomService_onLayoutChanged_closure: {
       "^": "Closure:0;$this",
@@ -33494,7 +34102,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     DomService_onLayoutChanged__closure: {
-      "^": "Closure:17;$this",
+      "^": "Closure:18;$this",
       call$1: [function(_) {
         var t1 = this.$this;
         if (t1._dom_service$_state !== C.DomServiceState_0)
@@ -33503,7 +34111,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     DomService_onLayoutChanged__closure0: {
-      "^": "Closure:17;$this",
+      "^": "Closure:18;$this",
       call$1: [function(_) {
         var t1 = this.$this;
         if (t1._dom_service$_state !== C.DomServiceState_0)
@@ -33514,7 +34122,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     DomService_onLayoutChanged__closure1: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: [function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isEvent");
@@ -33530,7 +34138,7 @@
       }
     },
     DomService__scheduleProcessQueue_closure: {
-      "^": "Closure:141;$this",
+      "^": "Closure:161;$this",
       call$1: [function(_) {
         H.numTypeCheck(_);
         return this.$this._processQueues$0();
@@ -33641,7 +34249,7 @@
       return false;
     },
     triggersOutside_closure: {
-      "^": "Closure:47;_box_0",
+      "^": "Closure:60;_box_0",
       call$1: function(node) {
         return false;
       }
@@ -33669,7 +34277,7 @@
       }
     },
     triggersOutsideAny__closure: {
-      "^": "Closure:8;_box_0,_box_1,checkNodeInside",
+      "^": "Closure:9;_box_0,_box_1,checkNodeInside",
       call$1: [function(e) {
         var node, t1;
         H.interceptedTypeCheck(e, "$isEvent");
@@ -33681,16 +34289,16 @@
           else
             node = node.parentElement;
         this._box_1.controller.add$1(0, e);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     triggersOutsideAny__closure0: {
-      "^": "Closure:15;_box_0",
+      "^": "Closure:22;_box_0",
       call$1: function(e) {
         this._box_0.lastDownEvent = H.interceptedTypeCheck(e, "$isMouseEvent");
       }
     },
     triggersOutsideAny__closure1: {
-      "^": "Closure:15;_box_0,_box_1",
+      "^": "Closure:22;_box_0,_box_1",
       call$1: function(e) {
         var t1, t2, t3;
         H.interceptedTypeCheck(e, "$isMouseEvent");
@@ -33708,7 +34316,7 @@
       }
     },
     triggersOutsideAny__closure2: {
-      "^": "Closure:15;_box_0,_box_1",
+      "^": "Closure:22;_box_0,_box_1",
       call$1: function(e) {
         var t1, t2, t3, t4;
         H.interceptedTypeCheck(e, "$isMouseEvent");
@@ -33767,7 +34375,7 @@
         var t1 = this._disposable_callback$_callback;
         if (t1 != null)
           t1.call$0();
-      }, "call$0", "get$$call", 0, 0, 66]
+      }, "call$0", "get$$call", 0, 0, 72]
     }
   }], ["", "package:angular_components/utils/disposer/disposer.dart",, R, {
     "^": "",
@@ -33908,16 +34516,16 @@
       }
     },
     SequentialIdGenerator__createUuid_closure: {
-      "^": "Closure:142;",
+      "^": "Closure:162;",
       call$1: function(_) {
         return $.$get$SequentialIdGenerator__rnd().nextInt$1(256);
       }
     },
     SequentialIdGenerator__createUuid_closure0: {
-      "^": "Closure:32;",
+      "^": "Closure:13;",
       call$1: [function(b) {
         return C.JSString_methods.padLeft$2(J.toRadixString$1$n(H.intTypeCheck(b), 16), 2, "0");
-      }, null, null, 4, 0, null, 31, "call"]
+      }, null, null, 4, 0, null, 33, "call"]
     }
   }], ["", "package:angular_components/utils/rate_limit_utils/rate_limit_utils.dart",, R, {
     "^": "",
@@ -33925,7 +34533,7 @@
       return R._throttle(H.functionTypeCheck(delegate, {func: 1, args: [$T]}), interval, true, $T);
     }, function(delegate, interval) {
       return R.throttleGuaranteeLast(delegate, interval, null);
-    }, "call$1$2", "call$2", "rate_limit_utils__throttleGuaranteeLast$closure", 8, 0, 204],
+    }, "call$1$2", "call$2", "rate_limit_utils__throttleGuaranteeLast$closure", 8, 0, 226],
     _throttle: function(delegate, interval, guaranteeLast, $T) {
       var t1, $self;
       t1 = {};
@@ -33953,7 +34561,7 @@
           t2.lastArg = argument;
           t2.hasLastArg = true;
         }
-      }, null, null, 4, 0, null, 75, "call"],
+      }, null, null, 4, 0, null, 78, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.T]};
       }
@@ -33973,6 +34581,9 @@
     "^": "",
     AbstractControlDirective: {
       "^": "Object;0name>,$ti",
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      },
       get$enabled: function(_) {
         var t1 = this._control;
         return t1 == null ? null : t1._status !== "DISABLED";
@@ -34031,7 +34642,7 @@
       },
       onDisabledChanged$1: [function(isDisabled) {
         this._default_value_accessor$_element.disabled = H.boolTypeCheck(isDisabled);
-      }, "call$1", "get$onDisabledChanged", 4, 0, 16, 17],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 19, 19],
       $isControlValueAccessor: 1,
       $asControlValueAccessor: Isolate.functionThatReturnsNull,
       $asChangeHandler: function() {
@@ -34061,7 +34672,7 @@
   }], ["", "package:angular_forms/src/directives/ng_model.dart",, U, {
     "^": "",
     NgModel: {
-      "^": "_NgModel_NgControl_ComponentState;0_control,0_update,0_model,_ng_model$_modelChanged,0viewModel,ComponentState__stateChangeCallback,valueAccessor,validator,0name",
+      "^": "_NgModel_NgControl_ComponentState;0_control,0_update,0_model,_modelChanged,0viewModel,ComponentState__stateChangeCallback,valueAccessor,validator,0name",
       set$model: function(value) {
         var t1;
         if (this._model == value)
@@ -34070,7 +34681,7 @@
         t1 = this.viewModel;
         if (value == null ? t1 == null : value === t1)
           return;
-        this._ng_model$_modelChanged = true;
+        this._modelChanged = true;
       },
       _init$1: function(valueAccessors) {
         var t1;
@@ -34081,14 +34692,33 @@
         this._update = new P._SyncBroadcastStreamController(null, null, 0, [null]);
       },
       ngAfterChanges$0: function() {
-        if (this._ng_model$_modelChanged) {
+        if (this._modelChanged) {
           this._control.updateValue$1(this._model);
           H.functionTypeCheck(new U.NgModel_ngAfterChanges_closure(this), {func: 1, ret: -1}).call$0();
-          this._ng_model$_modelChanged = false;
+          this._modelChanged = false;
         }
+      },
+      ngOnInit$0: function() {
+        X.setUpControl(this._control, this);
+        this._control.updateValueAndValidity$1$emitEvent(false);
       },
       get$path: function(_) {
         return H.setRuntimeTypeInfo([], [P.String]);
+      },
+      static: {
+        NgModel$: function(validators, valueAccessors) {
+          var t1, t2, t3;
+          t1 = X.selectValueAccessor(valueAccessors);
+          if (validators != null) {
+            t2 = {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]};
+            t3 = H.getTypeArgumentByIndex(validators, 0);
+            t2 = B.Validators_compose(new H.MappedListIterable(validators, H.functionTypeCheck(D.normalize_validator__normalizeValidator$closure(), {func: 1, ret: t2, args: [t3]}), [t3, t2]).toList$0(0));
+          } else
+            t2 = null;
+          t2 = new U.NgModel(false, null, t1, t2);
+          t2._init$1(valueAccessors);
+          return t2;
+        }
       }
     },
     NgModel_ngAfterChanges_closure: {
@@ -34101,6 +34731,15 @@
     _NgModel_NgControl_ComponentState: {
       "^": "NgControl+ComponentState;"
     }
+  }], ["", "package:angular_forms/src/directives/normalize_validator.dart",, D, {
+    "^": "",
+    normalizeValidator: [function(validator) {
+      var t1 = {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]};
+      if (!!J.getInterceptor$(validator).$isFunction)
+        return H.functionTypeCast(validator, t1);
+      else
+        return H.functionTypeCast(validator.get$$call(), t1);
+    }, "call$1", "normalize_validator__normalizeValidator$closure", 4, 0, 156, 60]
   }], ["", "package:angular_forms/src/directives/shared.dart",, X, {
     "^": "",
     setUpControl: function(control, dir) {
@@ -34110,7 +34749,7 @@
       control.set$validator(B.Validators_compose(H.setRuntimeTypeInfo([control.validator, dir.validator], [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}])));
       dir.valueAccessor.writeValue$1(0, control._model$_value);
       dir.valueAccessor.registerOnChange$1(new X.setUpControl_closure(dir, control));
-      control._model$_onChange = new X.setUpControl_closure0(dir);
+      control._onChange = new X.setUpControl_closure0(dir);
       t1 = control._disabledChanges;
       t2 = dir.valueAccessor;
       t2 = t2 == null ? null : t2.get$onDisabledChanged();
@@ -34149,7 +34788,7 @@
       X._throwError(null, "No valid value accessor for");
     },
     setUpControl_closure: {
-      "^": "Closure:143;dir,control",
+      "^": "Closure:163;dir,control",
       call$2$rawValue: function(newValue, rawValue) {
         var t1 = this.dir;
         t1.viewModel = newValue;
@@ -34227,14 +34866,14 @@
       }
     },
     AbstractControl__anyControlsHaveStatus_closure: {
-      "^": "Closure:144;status",
+      "^": "Closure:164;status",
       call$1: function(c) {
         c.get$status(c);
         return false;
       }
     },
     Control: {
-      "^": "AbstractControl;0_model$_onChange,0_rawValue,validator,_model$_value,_valueChanges,_statusChanges,_disabledChanges,0_status,0_errors,_model$_pristine,_touched,0_model$_parent,$ti",
+      "^": "AbstractControl;0_onChange,0_rawValue,validator,_model$_value,_valueChanges,_statusChanges,_disabledChanges,0_status,0_errors,_model$_pristine,_touched,0_model$_parent,$ti",
       updateValue$5$emitEvent$emitModelToViewChange$onlySelf$rawValue: function(value, emitEvent, emitModelToViewChange, onlySelf, rawValue) {
         var t1;
         H.assertSubtypeOfRuntimeType(value, H.getTypeArgumentByIndex(this, 0));
@@ -34242,7 +34881,7 @@
           emitModelToViewChange = true;
         this.set$_model$_value(value);
         this._rawValue = rawValue;
-        t1 = this._model$_onChange;
+        t1 = this._onChange;
         if (t1 != null && emitModelToViewChange)
           t1.call$1(this._model$_value);
         this.updateValueAndValidity$2$emitEvent$onlySelf(emitEvent, onlySelf);
@@ -34292,10 +34931,10 @@
       return result.get$isEmpty(result) ? null : result;
     },
     Validators_compose_closure: {
-      "^": "Closure:51;presentValidators",
+      "^": "Closure:44;presentValidators",
       call$1: [function(control) {
         return B._executeValidators(H.interceptedTypeCheck(control, "$isAbstractControl"), this.presentValidators);
-      }, null, null, 4, 0, null, 24, "call"]
+      }, null, null, 4, 0, null, 28, "call"]
     }
   }], ["", "package:angular_router/src/directives/router_link_directive.dart",, G, {
     "^": "",
@@ -34319,13 +34958,13 @@
         if ($event.ctrlKey || $event.metaKey)
           return;
         this._router_link_directive$_trigger$1($event);
-      }, "call$1", "get$onClick", 5, 0, 14],
+      }, "call$1", "get$onClick", 5, 0, 16],
       _onKeyPress$1: [function($event) {
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
         if ($event.keyCode !== 13 || $event.ctrlKey || $event.metaKey)
           return;
         this._router_link_directive$_trigger$1($event);
-      }, "call$1", "get$_onKeyPress", 4, 0, 12],
+      }, "call$1", "get$_onKeyPress", 4, 0, 15],
       _router_link_directive$_trigger$1: function($event) {
         var t1, t2;
         $event.preventDefault();
@@ -34447,7 +35086,7 @@
       }
     },
     RouterOutlet_prepare_closure: {
-      "^": "Closure:145;$this,componentFactory",
+      "^": "Closure:165;$this,componentFactory",
       call$0: function() {
         var t1, t2, t3, componentRef;
         t1 = P.Object;
@@ -34483,7 +35122,7 @@
       } else
         t1 = true;
       return t1 ? pathname : "/" + H.S(pathname);
-    }, "call$0", "base_href__baseHrefFromDOM$closure", 0, 0, 35],
+    }, "call$0", "base_href__baseHrefFromDOM$closure", 0, 0, 30],
     _getBaseElementHref: function() {
       var t1 = $._baseElement;
       if (t1 == null) {
@@ -34508,7 +35147,7 @@
         if (path == null)
           path = "";
         return path.length === 0 ? path : C.JSString_methods.substring$1(path, 1);
-      }, "call$0", "get$path", 1, 0, 35],
+      }, "call$0", "get$path", 1, 0, 30],
       prepareExternalUrl$1: function(internal) {
         var url, t1;
         url = V.Location_joinWithSlash(this._baseHref, internal);
@@ -34552,7 +35191,7 @@
       },
       path$0: [function(_) {
         return V.Location_stripTrailingSlash(V._stripBaseHref(this._location$_baseHref, V._stripIndexHtml(this.locationStrategy.path$0(0))));
-      }, "call$0", "get$path", 1, 0, 35],
+      }, "call$0", "get$path", 1, 0, 30],
       normalizePath$1: function(path) {
         if (path == null)
           return;
@@ -34587,13 +35226,13 @@
       }
     },
     Location_closure: {
-      "^": "Closure:8;$this",
+      "^": "Closure:9;$this",
       call$1: [function(ev) {
         var t1;
         H.interceptedTypeCheck(ev, "$isEvent");
         t1 = this.$this;
         t1._subject.add$1(0, P.LinkedHashMap_LinkedHashMap$_literal(["url", V.Location_stripTrailingSlash(V._stripBaseHref(t1._location$_baseHref, V._stripIndexHtml(t1.locationStrategy.path$0(0)))), "pop", true, "type", ev.type], P.String, P.Object));
-      }, null, null, 4, 0, null, 76, "call"]
+      }, null, null, 4, 0, null, 79, "call"]
     }
   }], ["", "package:angular_router/src/location/location_strategy.dart",, X, {
     "^": "",
@@ -34633,10 +35272,10 @@
       }
     },
     RouteDefinition_parameters_closure: {
-      "^": "Closure:33;",
+      "^": "Closure:34;",
       call$1: [function(m) {
         return H.interceptedTypeCheck(m, "$isMatch").$index(0, 1);
-      }, null, null, 4, 0, null, 23, "call"]
+      }, null, null, 4, 0, null, 26, "call"]
     },
     ComponentRouteDefinition: {
       "^": "RouteDefinition;component,path,useAsDefault,additionalData",
@@ -34679,10 +35318,10 @@
       }
     },
     RedirectRouteDefinition__redirectToParameters_closure: {
-      "^": "Closure:33;",
+      "^": "Closure:34;",
       call$1: [function(m) {
         return H.interceptedTypeCheck(m, "$isMatch").$index(0, 1);
-      }, null, null, 4, 0, null, 23, "call"]
+      }, null, null, 4, 0, null, 26, "call"]
     }
   }], ["", "package:angular_router/src/route_path.dart",, O, {
     "^": "",
@@ -35299,7 +35938,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     RouterImpl__closure: {
-      "^": "Closure:147;$this",
+      "^": "Closure:167;$this",
       call$1: [function(navigationResult) {
         var t1, t2;
         if (H.interceptedTypeCheck(navigationResult, "$isNavigationResult") === C.NavigationResult_1) {
@@ -35307,23 +35946,23 @@
           t2 = t1._activeState.toUrl$0(0);
           t1._router_impl$_location.locationStrategy.replaceState$4(0, null, "", t2, "");
         }
-      }, null, null, 4, 0, null, 78, "call"]
+      }, null, null, 4, 0, null, 81, "call"]
     },
     RouterImpl__enqueueNavigation_closure: {
-      "^": "Closure:148;$this,path,navigationParams,navigationCompleter",
+      "^": "Closure:168;$this,path,navigationParams,navigationCompleter",
       call$1: [function(_) {
         var t1 = this.navigationCompleter;
         return this.$this._navigate$2(this.path, this.navigationParams).then$1$1(t1.get$complete(t1), -1).catchError$1(t1.get$completeError());
       }, null, null, 4, 0, null, 0, "call"]
     },
     RouterImpl__getAbsolutePath_closure: {
-      "^": "Closure:149;state",
+      "^": "Closure:169;state",
       call$2: function(soFar, route) {
         return J.$add$ansx(H.stringTypeCheck(soFar), H.interceptedTypeCheck(route, "$isRouteDefinition").toUrl$1(0, this.state.parameters));
       }
     },
     RouterImpl__resolveState_closure: {
-      "^": "Closure:150;$this,path,navigationParams",
+      "^": "Closure:170;$this,path,navigationParams",
       call$1: [function(routerState) {
         var t1;
         H.interceptedTypeCheck(routerState, "$isMutableRouterState");
@@ -35336,7 +35975,7 @@
           }
           return this.$this._attachDefaultChildren$1(routerState);
         }
-      }, null, null, 4, 0, null, 79, "call"]
+      }, null, null, 4, 0, null, 82, "call"]
     }
   }], ["", "package:angular_router/src/router/router_outlet_token.dart",, S, {
     "^": "",
@@ -35426,19 +36065,19 @@
       }
     },
     Url_toUrl_closure: {
-      "^": "Closure:13;$this",
+      "^": "Closure:14;$this",
       call$1: [function(k) {
         var v;
         H.stringTypeCheck(k);
         v = this.$this.queryParameters.$index(0, k);
         k = P._Uri__uriEncode(C.List_KIf, k, C.Utf8Codec_false, false);
         return v != null ? H.S(k) + "=" + H.S(P._Uri__uriEncode(C.List_KIf, v, C.Utf8Codec_false, false)) : k;
-      }, null, null, 4, 0, null, 80, "call"]
+      }, null, null, 4, 0, null, 83, "call"]
     }
   }], ["asset_angular_tour_of_heroes_lib_app_component.css.shim.dart", "package:angular_tour_of_heroes/app_component.css.shim.dart",, L, {}], ["", "package:angular_tour_of_heroes/app_component.dart",, Q, {
     "^": "",
     AppComponent: {
-      "^": "Object;_app_component$_router,0navMenu",
+      "^": "Object;_app_component$_router,_keyService,0navMenu",
       set$navMenu: function(navMenu) {
         this.navMenu = H.assertSubtype(navMenu, "$isMenuModel", [[D.MenuItem,,]], "$asMenuModel");
       },
@@ -35456,27 +36095,27 @@
       }
     },
     AppComponent_openUiWindow_closure: {
-      "^": "Closure:151;",
+      "^": "Closure:171;",
       call$1: [function(response) {
         P.print("Response status: " + H.S(H.interceptedTypeCheck(response, "$isResponse").statusCode));
-      }, null, null, 4, 0, null, 81, "call"]
+      }, null, null, 4, 0, null, 84, "call"]
     },
     AppComponent_ngOnInit_closure: {
-      "^": "Closure:21;$this",
+      "^": "Closure:23;$this",
       call$0: function() {
         var t1 = P.String;
         return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "tournaments"], t1, t1)));
       }
     },
     AppComponent_ngOnInit_closure0: {
-      "^": "Closure:21;$this",
+      "^": "Closure:23;$this",
       call$0: function() {
         var t1 = P.String;
         return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "matches"], t1, t1)));
       }
     },
     AppComponent_ngOnInit_closure1: {
-      "^": "Closure:21;$this",
+      "^": "Closure:23;$this",
       call$0: function() {
         var t1 = P.String;
         return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "players"], t1, t1)));
@@ -35488,9 +36127,9 @@
       var t1 = new V._ViewAppComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, Q.AppComponent));
       return t1;
-    }, "call$2", "app_component_template__viewFactory_AppComponentHost0$closure", 8, 0, 205],
+    }, "call$2", "app_component_template__viewFactory_AppComponentHost0$closure", 8, 0, 227],
     ViewAppComponent0: {
-      "^": "AppView;0_app_component_template$_compView_2,0_AcxDarkTheme_2_5,0_MaterialButtonComponent_2_6,0_compView_4,0_RaisableMenuComponent_4_5,0_compView_7,0_MaterialIconComponent_7_5,0_compView_8,0_AcxDarkTheme_8_5,0_MaterialButtonComponent_8_6,0_appEl_13,0_RouterOutlet_13_8,0_app_component_template$_expr_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_app_component_template$_compView_2,0_AcxDarkTheme_2_5,0_MaterialButtonComponent_2_6,0_compView_4,0_RaisableMenuComponent_4_5,0_compView_7,0_MaterialIconComponent_7_5,0_compView_8,0_AcxDarkTheme_8_5,0_MaterialButtonComponent_8_6,0_app_component_template$_appEl_13,0_RouterOutlet_13_8,0_app_component_template$_expr_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var parentRenderNode, doc, _el_0, _el_1, t1, _el_2, t2, _text_3, t3, _el_4, _el_5, t4, _el_7, _el_8, _text_9, _el_13;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
@@ -35558,8 +36197,8 @@
         this.addShimE$1(S.createAndAppend(doc, "br", _el_1));
         _el_13 = S.createAndAppend(doc, "router-outlet", _el_0);
         this.addShimE$1(_el_13);
-        this._appEl_13 = new V.ViewContainer(13, 0, this, _el_13);
-        t1 = Z.RouterOutlet$(H.interceptedTypeCheck(t1.injectorGet$3(C.Type_RouterOutletToken_Wv6, this.viewData.parentIndex, null), "$isRouterOutletToken"), this._appEl_13, H.interceptedTypeCheck(t1.injectorGet$2(C.Type_Router_yx3, this.viewData.parentIndex), "$isRouter"), H.interceptedTypeCheck(t1.injectorGet$3(C.Type_RouterHook_okS, this.viewData.parentIndex, null), "$isRouterHook"));
+        this._app_component_template$_appEl_13 = new V.ViewContainer(13, 0, this, _el_13);
+        t1 = Z.RouterOutlet$(H.interceptedTypeCheck(t1.injectorGet$3(C.Type_RouterOutletToken_Wv6, this.viewData.parentIndex, null), "$isRouterOutletToken"), this._app_component_template$_appEl_13, H.interceptedTypeCheck(t1.injectorGet$2(C.Type_Router_yx3, this.viewData.parentIndex), "$isRouter"), H.interceptedTypeCheck(t1.injectorGet$3(C.Type_RouterHook_okS, this.viewData.parentIndex, null), "$isRouterHook"));
         this._RouterOutlet_13_8 = t1;
         t1 = W.Event;
         J.addEventListener$2$x(_el_2, "click", this.eventHandler0$1$1(this.ctx.get$goHome(), t1));
@@ -35644,7 +36283,7 @@
             t2._enqueueNavigation$2(url.path, Q.NavigationParams$(t1, url.queryParameters, false, true, true));
           }
         }
-        this._appEl_13.detectChangesInNestedViews$0();
+        this._app_component_template$_appEl_13.detectChangesInNestedViews$0();
         this._app_component_template$_compView_2.detectHostChanges$1(firstCheck);
         this._compView_8.detectHostChanges$1(firstCheck);
         this._app_component_template$_compView_2.detectChanges$0();
@@ -35655,7 +36294,7 @@
           this._RaisableMenuComponent_4_5.ngAfterViewInit$0();
       },
       destroyInternal$0: function() {
-        this._appEl_13.destroyNestedViews$0();
+        this._app_component_template$_appEl_13.destroyNestedViews$0();
         this._app_component_template$_compView_2.destroy$0();
         this._compView_4.destroy$0();
         this._compView_7.destroy$0();
@@ -35668,7 +36307,7 @@
       }
     },
     _ViewAppComponentHost0: {
-      "^": "AppView;0_compView_0,0_AppComponent_0_5,0__TournamentService_0_6,0__Document_0_7,0__Window_0_8,0__DomService_0_9,0__AcxImperativeViewUtils_0_10,0__DomRuler_0_11,0__ManagedZone_0_12,0__overlayContainerName_0_13,0__overlayContainerParent_0_14,0__overlayContainer_0_15,0__overlaySyncDom_0_16,0__overlayRepositionLoop_0_17,0__OverlayStyleConfig_0_18,0__ZIndexer_0_19,0__OverlayDomRenderService_0_20,0__OverlayService_0_21,0__defaultPopupPositions_0_22,0__DomPopupSourceFactory_0_23,0__Clock_0_24,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_compView_0,0_InteropKeyService_0_5,0_AppComponent_0_6,0__Document_0_7,0__Window_0_8,0__DomService_0_9,0__AcxImperativeViewUtils_0_10,0__DomRuler_0_11,0__ManagedZone_0_12,0__overlayContainerName_0_13,0__overlayContainerParent_0_14,0__overlayContainer_0_15,0__overlaySyncDom_0_16,0__overlayRepositionLoop_0_17,0__OverlayStyleConfig_0_18,0__ZIndexer_0_19,0__OverlayDomRenderService_0_20,0__OverlayService_0_21,0__defaultPopupPositions_0_22,0__DomPopupSourceFactory_0_23,0__Clock_0_24,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       set$__defaultPopupPositions_0_22: function(__defaultPopupPositions_0_22) {
         this.__defaultPopupPositions_0_22 = H.assertSubtype(__defaultPopupPositions_0_22, "$isList", [K.RelativePosition], "$asList");
       },
@@ -35836,22 +36475,24 @@
         t1.setupComponentType$1(t3);
         this._compView_0 = t1;
         this.rootEl = t1.rootEl;
-        t1 = new Q.AppComponent(H.interceptedTypeCheck(this.injectorGet$2(C.Type_Router_yx3, this.viewData.parentIndex), "$isRouter"));
-        this._AppComponent_0_5 = t1;
+        t1 = $.keyServiceSingleton;
+        if (t1 == null) {
+          t1 = new E.InteropKeyService();
+          $.$get$context0().$indexSet(0, "provideValueToKeyService", P.allowInterop(t1.get$_acceptJsObject(), {func: 1, ret: -1, args: [P.JsObject]}));
+          t1.set$_barcodeStreamer(new P._SyncBroadcastStreamController(null, null, 0, [L.Barcode]));
+          $.keyServiceSingleton = t1;
+        }
+        this._InteropKeyService_0_5 = t1;
+        t1 = new Q.AppComponent(H.interceptedTypeCheck(this.injectorGet$2(C.Type_Router_yx3, this.viewData.parentIndex), "$isRouter"), this._InteropKeyService_0_5);
+        this._AppComponent_0_6 = t1;
         this._compView_0.create$2(0, t1, this.viewData.projectableNodes);
         this.init0$1(this.rootEl);
-        return new D.ComponentRef(this, 0, this.rootEl, this._AppComponent_0_5, [t2]);
+        return new D.ComponentRef(this, 0, this.rootEl, this._AppComponent_0_6, [t2]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         var t1;
-        if (token === C.Type_TournamentService_iX7 && 0 === nodeIndex) {
-          t1 = this.__TournamentService_0_6;
-          if (t1 == null) {
-            t1 = new G.TournamentService();
-            this.__TournamentService_0_6 = t1;
-          }
-          return t1;
-        }
+        if (token === C.Type_InteropKeyService_eLp && 0 === nodeIndex)
+          return this._InteropKeyService_0_5;
         if (token === C.Type_Document_woc && 0 === nodeIndex)
           return this.get$_Document_0_7();
         if (token === C.Type_Window_0H0 && 0 === nodeIndex)
@@ -35908,7 +36549,7 @@
       detectChangesInternal$0: function() {
         var t1 = this.viewData._cdState;
         if (t1 === 0)
-          this._AppComponent_0_5.ngOnInit$0();
+          this._AppComponent_0_6.ngOnInit$0();
         this._compView_0.detectChanges$0();
       },
       destroyInternal$0: function() {
@@ -35931,19 +36572,19 @@
       }
     },
     AdminComponent_ngOnInit_closure: {
-      "^": "Closure:21;$this",
+      "^": "Closure:23;$this",
       call$0: function() {
         return this.$this._admin_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$0(0));
       }
     },
     AdminComponent_ngOnInit_closure0: {
-      "^": "Closure:21;$this",
+      "^": "Closure:23;$this",
       call$0: function() {
         return this.$this._admin_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$0(0));
       }
     },
     AdminComponent_ngOnInit_closure1: {
-      "^": "Closure:21;$this",
+      "^": "Closure:23;$this",
       call$0: function() {
         return this.$this._admin_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$0(0));
       }
@@ -35954,7 +36595,7 @@
       var t1 = new K._ViewAdminComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, O.AdminComponent));
       return t1;
-    }, "call$2", "admin_component_template__viewFactory_AdminComponentHost0$closure", 8, 0, 206],
+    }, "call$2", "admin_component_template__viewFactory_AdminComponentHost0$closure", 8, 0, 228],
     ViewAdminComponent0: {
       "^": "AppView;0_admin_component_template$_compView_1,0_RaisableMenuComponent_1_5,0_admin_component_template$_compView_4,0_MaterialIconComponent_4_5,0_admin_component_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -36084,12 +36725,12 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
       t1.componentType = $.ViewDashboardComponent0__renderType;
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent1$closure", 8, 0, 68],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent1$closure", 8, 0, 50],
     viewFactory_DashboardComponentHost0: [function(parentView, parentIndex) {
       var t1 = new T._ViewDashboardComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, K.DashboardComponent));
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponentHost0$closure", 8, 0, 68],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponentHost0$closure", 8, 0, 50],
     ViewDashboardComponent0: {
       "^": "AppView;0_dashboard_component_template$_appEl_3,0_dashboard_component_template$_NgFor_3_9,0_dashboard_component_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -36238,10 +36879,396 @@
         return [K.DashboardComponent];
       }
     }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_player_player.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/player/player.css.shim.dart",, O, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/player/player.dart",, Q, {
+    "^": "",
+    PlayerDetailComponent: {
+      "^": "Object;0item>,0lockLevel,_interopService,0ethereumKeySlot",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isPlayer");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      set$ethereumKeySlot: function(ethereumKeySlot) {
+        this.ethereumKeySlot = H.interceptedTypeCheck(ethereumKeySlot, "$isMaterialInputComponent");
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this, t1;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Init finished");
+                P.print("Current Item : " + H.S($async$self.item.name));
+                t1 = $async$self._interopService._barcodeStreamer;
+                t1.toString;
+                new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(new Q.PlayerDetailComponent_ngOnInit_closure($async$self));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      }
+    },
+    PlayerDetailComponent_ngOnInit_closure: {
+      "^": "Closure:173;$this",
+      call$1: [function(barcode) {
+        var input;
+        H.interceptedTypeCheck(barcode, "$isBarcode");
+        input = this.$this.ethereumKeySlot;
+        if (input.focused && !input._base_material_input$_disabled)
+          input.set$inputText(barcode.value);
+      }, null, null, 4, 0, null, 85, "call"]
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/player/player.template.dart",, Y, {
+    "^": "",
+    viewFactory_PlayerDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new Y._ViewPlayerDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, Q.PlayerDetailComponent));
+      return t1;
+    }, "call$2", "player_template__viewFactory_PlayerDetailComponentHost0$closure", 8, 0, 230],
+    ViewPlayerDetailComponent0: {
+      "^": "AppView;0_player_template$_compView_0,0_player_template$_MaterialExpansionPanel_0_5,0_compView_5,0_DeferredValidator_5_5,0_NgValidators_5_6,0_NgModel_5_7,0_NgControl_5_8,0_MaterialInputComponent_5_9,0_BaseMaterialInput_5_10,0_MaterialInputDefaultValueAccessor_5_11,0_compView_10,0_DeferredValidator_10_5,0_NgValidators_10_6,0_NgModel_10_7,0_NgControl_10_8,0_MaterialInputComponent_10_9,0_BaseMaterialInput_10_10,0_MaterialInputDefaultValueAccessor_10_11,0_compView_15,0_DeferredValidator_15_5,0_NgValidators_15_6,0_NgModel_15_7,0_NgControl_15_8,0_MaterialInputComponent_15_9,0_BaseMaterialInput_15_10,0_MaterialInputDefaultValueAccessor_15_11,0_player_template$_expr_4,0_player_template$_expr_6,0_player_template$_expr_9,0_el_15,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, t1, _el_0, t2, t3, t4, t5, t6, t7, doc, _el_1, _el_2, _el_3, _el_5, _el_6, _el_7, _el_8, _el_10, _el_11, _el_12, _el_13;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._player_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.append$1$x(parentRenderNode, _el_0);
+        J.setAttribute$2$x(_el_0, "name", "Basic Information");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._player_template$_compView_0.viewData.ref;
+        t1 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t4 = [P.bool];
+        t5 = $.$get$MaterialExpansionPanel__msgSave();
+        t6 = $.$get$MaterialExpansionPanel__msgCancel();
+        t7 = [[L.AsyncAction, P.bool]];
+        t1 = new T.MaterialExpansionPanel(t2, t3, t1, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t4), new P._SyncBroadcastStreamController(null, null, 0, t4), false, false, false, false, false, false, false, false, true, true, false, t5, t6, new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7));
+        this._player_template$_MaterialExpansionPanel_0_5 = t1;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        _el_2 = S.createDivAndAppend(doc, _el_1);
+        _el_2.className = "inlinediv";
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        t1 = J.getInterceptor$x(_el_3);
+        t1.setAttribute$2(_el_3, "style", "display: inherit; margin:8px;");
+        this.addShimE$1(_el_3);
+        t1.append$1(_el_3, doc.createTextNode("ID:"));
+        t1 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._compView_5 = t1;
+        _el_5 = t1.rootEl;
+        (_el_2 && C.DivElement_methods).append$1(_el_2, _el_5);
+        J.setAttribute$2$x(_el_5, "placeholder", "-");
+        this.addShimC$1(_el_5);
+        t1 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._DeferredValidator_5_5 = t2;
+        t2 = [t2];
+        this._NgValidators_5_6 = t2;
+        t2 = U.NgModel$(t2, null);
+        this._NgModel_5_7 = t2;
+        this._NgControl_5_8 = t2;
+        t2 = L.MaterialInputComponent$(null, null, null, t2, this._compView_5.viewData.ref, this._DeferredValidator_5_5);
+        this._MaterialInputComponent_5_9 = t2;
+        this._BaseMaterialInput_5_10 = t2;
+        t3 = this._NgControl_5_8;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t2, t3);
+        t4.BaseMaterialInputValueAccessor$2(t2, t3);
+        this._MaterialInputDefaultValueAccessor_5_11 = t4;
+        this._compView_5.create$2(0, this._MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createDivAndAppend(doc, _el_6);
+        _el_7.className = "inlinediv";
+        this.addShimC$1(_el_7);
+        _el_8 = S.createAndAppend(doc, "h4", _el_7);
+        t2 = J.getInterceptor$x(_el_8);
+        t2.setAttribute$2(_el_8, "style", "display: inherit; margin:8px;");
+        this.addShimE$1(_el_8);
+        t2.append$1(_el_8, doc.createTextNode("Name:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 10);
+        this._compView_10 = t2;
+        _el_10 = t2.rootEl;
+        (_el_7 && C.DivElement_methods).append$1(_el_7, _el_10);
+        t2 = J.getInterceptor$x(_el_10);
+        t2.setAttribute$2(_el_10, "placeholder", "Name");
+        this.addShimC$1(_el_10);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._DeferredValidator_10_5 = t3;
+        t3 = [t3];
+        this._NgValidators_10_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._NgModel_10_7 = t3;
+        this._NgControl_10_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._compView_10.viewData.ref, this._DeferredValidator_10_5);
+        this._MaterialInputComponent_10_9 = t3;
+        this._BaseMaterialInput_10_10 = t3;
+        t4 = this._NgControl_10_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._MaterialInputDefaultValueAccessor_10_11 = t5;
+        this._compView_10.create$2(0, this._MaterialInputComponent_10_9, [C.List_empty, C.List_empty]);
+        _el_11 = doc.createElement("div");
+        H.interceptedTypeCheck(_el_11, "$isHtmlElement");
+        this.addShimC$1(_el_11);
+        _el_12 = S.createDivAndAppend(doc, _el_11);
+        _el_12.className = "inlinediv";
+        this.addShimC$1(_el_12);
+        _el_13 = S.createAndAppend(doc, "h4", _el_12);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "style", "display: inherit; margin:8px;");
+        this.addShimE$1(_el_13);
+        t3.append$1(_el_13, doc.createTextNode("Key:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 15);
+        this._compView_15 = t3;
+        t3 = t3.rootEl;
+        this._el_15 = t3;
+        (_el_12 && C.DivElement_methods).append$1(_el_12, t3);
+        J.setAttribute$2$x(this._el_15, "placeholder", "64-Bit Key");
+        this.addShimC$1(this._el_15);
+        t1 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._DeferredValidator_15_5 = t1;
+        t1 = [t1];
+        this._NgValidators_15_6 = t1;
+        t1 = U.NgModel$(t1, null);
+        this._NgModel_15_7 = t1;
+        this._NgControl_15_8 = t1;
+        t1 = L.MaterialInputComponent$(null, null, null, t1, this._compView_15.viewData.ref, this._DeferredValidator_15_5);
+        this._MaterialInputComponent_15_9 = t1;
+        this._BaseMaterialInput_15_10 = t1;
+        t3 = this._NgControl_15_8;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t1, t3);
+        t4.BaseMaterialInputValueAccessor$2(t1, t3);
+        this._MaterialInputDefaultValueAccessor_15_11 = t4;
+        this._compView_15.create$2(0, this._MaterialInputComponent_15_9, [C.List_empty, C.List_empty]);
+        this._player_template$_compView_0.create$2(0, this._player_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1, _el_6, _el_11], [W.Element]), C.List_empty]);
+        t4 = W.Event;
+        t2.addEventListener$2(_el_10, "keyup", this.eventHandler1$2$1(this.get$_handle_keyup_10_0(), t4, t4));
+        J.addEventListener$2$x(this._el_15, "keyup", this.eventHandler1$2$1(this.get$_handle_keyup_15_0(), t4, t4));
+        this.ctx.set$ethereumKeySlot(this._MaterialInputComponent_15_9);
+        this.init$2(C.List_empty, null);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 10 === nodeIndex)
+          return this._DeferredValidator_10_5;
+        if (t2 && 10 === nodeIndex)
+          return this._NgModel_10_7;
+        if (t3 && 10 === nodeIndex)
+          return this._NgControl_10_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 10 === nodeIndex)
+          return this._MaterialInputComponent_10_9;
+        if (t5 && 10 === nodeIndex)
+          return this._BaseMaterialInput_10_10;
+        if (t6 && 10 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_10_11;
+        if (t1 && 15 === nodeIndex)
+          return this._DeferredValidator_15_5;
+        if (t2 && 15 === nodeIndex)
+          return this._NgModel_15_7;
+        if (t3 && 15 === nodeIndex)
+          return this._NgControl_15_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 15 === nodeIndex)
+          return this._MaterialInputComponent_15_9;
+        if (t5 && 15 === nodeIndex)
+          return this._BaseMaterialInput_15_10;
+        if (t6 && 15 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_15_11;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 15;
+        else
+          t1 = false;
+        if (t1)
+          return this._player_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_9;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._player_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._player_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._player_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        this._NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._player_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._MaterialInputComponent_5_9;
+          t1._base_material_input$_disabled = true;
+          t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._player_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._compView_5.viewData.set$cdMode(1);
+        this._NgModel_10_7.set$model(_ctx.item.name);
+        this._NgModel_10_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_10_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._player_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._MaterialInputComponent_10_9;
+          t1._base_material_input$_disabled = currVal_6;
+          t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._player_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._compView_10.viewData.set$cdMode(1);
+        this._NgModel_15_7.set$model(_ctx.item.key);
+        this._NgModel_15_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_15_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_9 = t1 >= 1;
+        t1 = this._player_template$_expr_9;
+        if (t1 !== currVal_9) {
+          t1 = this._MaterialInputComponent_15_9;
+          t1._base_material_input$_disabled = currVal_9;
+          t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._player_template$_expr_9 = currVal_9;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._compView_15.viewData.set$cdMode(1);
+        if (firstCheck)
+          this.setAttr$3(this._el_15, "maxlength", C.JSInt_methods.toString$0(40));
+        this._player_template$_compView_0.detectChanges$0();
+        this._compView_5.detectChanges$0();
+        this._compView_10.detectChanges$0();
+        this._compView_15.detectChanges$0();
+        if (firstCheck) {
+          this._MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._MaterialInputComponent_10_9.ngAfterViewInit$0();
+          this._MaterialInputComponent_15_9.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._player_template$_compView_0.destroy$0();
+        this._compView_5.destroy$0();
+        this._compView_10.destroy$0();
+        this._compView_15.destroy$0();
+        var t1 = this._MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_10_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_10_11.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_15_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_15_11.disposer.dispose$0();
+        this._player_template$_MaterialExpansionPanel_0_5._disposer.dispose$0();
+      },
+      _handle_keyup_10_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck(J.get$value$x(J.get$target$x($$event))));
+      }, "call$1", "get$_handle_keyup_10_0", 4, 0, 2],
+      _handle_keyup_15_0$1: [function($$event) {
+        J.set$key$x(J.get$item$x(this.ctx), H.stringTypeCheck(J.get$value$x(J.get$target$x($$event))));
+      }, "call$1", "get$_handle_keyup_15_0", 4, 0, 2],
+      $asAppView: function() {
+        return [Q.PlayerDetailComponent];
+      }
+    },
+    _ViewPlayerDetailComponentHost0: {
+      "^": "AppView;0_player_template$_compView_0,0_PlayerDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3;
+        t1 = new Y.ViewPlayerDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
+        t2 = Q.PlayerDetailComponent;
+        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
+        t3 = document.createElement("player-detail");
+        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
+        t3 = $.ViewPlayerDetailComponent0__renderType;
+        if (t3 == null) {
+          t3 = $.appViewUtils;
+          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$PlayerDetailComponent());
+          $.ViewPlayerDetailComponent0__renderType = t3;
+        }
+        t1.setupComponentType$1(t3);
+        this._player_template$_compView_0 = t1;
+        this.rootEl = t1.rootEl;
+        t1 = new Q.PlayerDetailComponent(H.interceptedTypeCheck(this.injectorGet$2(C.Type_InteropKeyService_eLp, this.viewData.parentIndex), "$isInteropKeyService"));
+        this._PlayerDetailComponent_0_5 = t1;
+        this._player_template$_compView_0.create$2(0, t1, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._PlayerDetailComponent_0_5, [t2]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._PlayerDetailComponent_0_5.ngOnInit$0();
+        this._player_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._player_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [Q.PlayerDetailComponent];
+      }
+    }
   }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_tournament_tournament.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.css.shim.dart",, S, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.dart",, E, {
     "^": "",
     TournamentDetailComponent: {
-      "^": "Object;0item,0lockLevel",
+      "^": "Object;0item>,0lockLevel",
       set$item: function(_, item) {
         this.item = H.interceptedTypeCheck(item, "$isTournament");
       },
@@ -36260,7 +37287,7 @@
               case 0:
                 // Function start
                 P.print("Init finished");
-                P.print("Current Item : " + $async$self.item.name);
+                P.print("Current Item : " + H.S($async$self.item.name));
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
             }
@@ -36277,7 +37304,7 @@
       var t1 = new A._ViewTournamentDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, E.TournamentDetailComponent));
       return t1;
-    }, "call$2", "tournament_template__viewFactory_TournamentDetailComponentHost0$closure", 8, 0, 208],
+    }, "call$2", "tournament_template__viewFactory_TournamentDetailComponentHost0$closure", 8, 0, 231],
     ViewTournamentDetailComponent0: {
       "^": "AppView;0_tournament_template$_compView_0,0_MaterialExpansionPanel_0_5,0_tournament_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -36326,7 +37353,7 @@
         } else
           changed = false;
         t1 = _ctx.item;
-        currVal_0 = Q.interpolate0(t1 == null ? "" : t1.name + ":" + C.JSInt_methods.toString$0(t1.id));
+        currVal_0 = Q.interpolate0(t1 == null ? "" : J.$add$ansx(t1.name, ":") + C.JSInt_methods.toString$0(_ctx.item.id));
         t1 = this._tournament_template$_expr_0;
         if (t1 !== currVal_0) {
           this._MaterialExpansionPanel_0_5.name = currVal_0;
@@ -36416,7 +37443,7 @@
       $isFocusable: 1
     },
     RaisableMenuComponent_ngAfterViewInit_closure: {
-      "^": "Closure:24;$this",
+      "^": "Closure:25;$this",
       call$1: [function(_) {
         var t1;
         H.boolTypeCheck(_);
@@ -36437,21 +37464,21 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent1$closure", 8, 0, 39],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent1$closure", 8, 0, 37],
     viewFactory_RaisableMenuComponent2: [function(parentView, parentIndex) {
       var t1 = new G._ViewRaisableMenuComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent2$closure", 8, 0, 39],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent2$closure", 8, 0, 37],
     viewFactory_RaisableMenuComponent3: [function(parentView, parentIndex) {
       var t1 = new G._ViewRaisableMenuComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure", 8, 0, 39],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure", 8, 0, 37],
     ViewRaisableMenuComponent0: {
-      "^": "AppView;0_raisable_menu_component_template$_compView_0,0_raisable_menu_component_template$_appEl_0,0_AcxDarkTheme_0_8,0_MaterialButtonComponent_0_9,0_MaterialTooltipDirective_0_10,0_PopupSourceDirective_0_11,0__TooltipController_0_14,0_raisable_menu_component_template$_appEl_1,0_raisable_menu_component_template$_NgIf_1_9,0_raisable_menu_component_template$_appEl_2,0_raisable_menu_component_template$_NgIf_2_9,0_appEl_4,_query_MenuPopupComponent_1_1_isDirty,0_NgIf_4_9,0_raisable_menu_component_template$_expr_0,0_raisable_menu_component_template$_expr_1,0_raisable_menu_component_template$_expr_2,0_raisable_menu_component_template$_expr_3,0_raisable_menu_component_template$_expr_4,0_raisable_menu_component_template$_expr_5,0_raisable_menu_component_template$_expr_6,0_raisable_menu_component_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_raisable_menu_component_template$_compView_0,0_raisable_menu_component_template$_appEl_0,0_AcxDarkTheme_0_8,0_MaterialButtonComponent_0_9,0_MaterialTooltipDirective_0_10,0_PopupSourceDirective_0_11,0__TooltipController_0_14,0_raisable_menu_component_template$_appEl_1,0_raisable_menu_component_template$_NgIf_1_9,0_raisable_menu_component_template$_appEl_2,0_raisable_menu_component_template$_NgIf_2_9,0_raisable_menu_component_template$_appEl_4,_query_MenuPopupComponent_1_1_isDirty,0_raisable_menu_component_template$_NgIf_4_9,0_raisable_menu_component_template$_expr_0,0_raisable_menu_component_template$_expr_1,0_raisable_menu_component_template$_expr_2,0_raisable_menu_component_template$_expr_3,0_raisable_menu_component_template$_expr_4,0_raisable_menu_component_template$_expr_5,0_raisable_menu_component_template$_expr_6,0_raisable_menu_component_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       get$_TooltipController_0_14: function() {
         var t1 = this.__TooltipController_0_14;
         if (t1 == null) {
@@ -36503,8 +37530,8 @@
         _anchor_4 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
         t2.append$1(parentRenderNode, _anchor_4);
         t2 = new V.ViewContainer(4, null, this, _anchor_4);
-        this._appEl_4 = t2;
-        this._NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, G.raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure()), t2, false);
+        this._raisable_menu_component_template$_appEl_4 = t2;
+        this._raisable_menu_component_template$_NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, G.raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure()), t2, false);
         t2 = this._MaterialButtonComponent_0_9._trigger;
         subscription_0 = new P._BroadcastStream(t2, [H.getTypeArgumentByIndex(t2, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$handleButtonClick(), W.UIEvent));
         J.set$button$z(this.ctx, this._MaterialButtonComponent_0_9);
@@ -36587,7 +37614,7 @@
         t1 = this._raisable_menu_component_template$_NgIf_2_9;
         _ctx.buttonText;
         t1.set$ngIf(false);
-        t1 = this._NgIf_4_9;
+        t1 = this._raisable_menu_component_template$_NgIf_4_9;
         t2 = _ctx.MenuPopupWrapper_menu;
         t2 = t2 == null ? null : t2.itemGroups;
         t2 = t2 == null ? null : t2.length !== 0;
@@ -36595,10 +37622,10 @@
         this._raisable_menu_component_template$_appEl_0.detectChangesInNestedViews$0();
         this._raisable_menu_component_template$_appEl_1.detectChangesInNestedViews$0();
         this._raisable_menu_component_template$_appEl_2.detectChangesInNestedViews$0();
-        this._appEl_4.detectChangesInNestedViews$0();
+        this._raisable_menu_component_template$_appEl_4.detectChangesInNestedViews$0();
         if (this._query_MenuPopupComponent_1_1_isDirty) {
           t1 = this.ctx;
-          t2 = this._appEl_4.mapNestedViews$2$1(new G.ViewRaisableMenuComponent0_detectChangesInternal_closure(), G.MenuPopupComponent, G._ViewRaisableMenuComponent3);
+          t2 = this._raisable_menu_component_template$_appEl_4.mapNestedViews$2$1(new G.ViewRaisableMenuComponent0_detectChangesInternal_closure(), G.MenuPopupComponent, G._ViewRaisableMenuComponent3);
           t1.set$menuPopup(t2.length !== 0 ? C.JSArray_methods.get$first(t2) : null);
           this._query_MenuPopupComponent_1_1_isDirty = false;
         }
@@ -36619,7 +37646,7 @@
         this._raisable_menu_component_template$_appEl_0.destroyNestedViews$0();
         this._raisable_menu_component_template$_appEl_1.destroyNestedViews$0();
         this._raisable_menu_component_template$_appEl_2.destroyNestedViews$0();
-        this._appEl_4.destroyNestedViews$0();
+        this._raisable_menu_component_template$_appEl_4.destroyNestedViews$0();
         this._raisable_menu_component_template$_compView_0.destroy$0();
         this._MaterialTooltipDirective_0_10.ngOnDestroy$0();
         this._PopupSourceDirective_0_11.ngOnDestroy$0();
@@ -36646,7 +37673,7 @@
       }
     },
     ViewRaisableMenuComponent0_detectChangesInternal_closure: {
-      "^": "Closure:153;",
+      "^": "Closure:174;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewRaisableMenuComponent3")._MenuPopupComponent_0_5], [G.MenuPopupComponent]);
       }
@@ -36787,7 +37814,7 @@
   }], ["asset_angular_tour_of_heroes_lib_src_component_typeList_type_list_component.css.shim.dart", "package:angular_tour_of_heroes/src/component/typeList/type_list_component.css.shim.dart",, K, {}], ["", "package:angular_tour_of_heroes/src/component/typeList/type_list_component.dart",, L, {
     "^": "",
     TypeListComponent: {
-      "^": "Object;_router,0_currentService,0_serviceName,_loader,0_currentFactory,listItems,0selected,_searchText,mode,cancelModalVisible,0cancelModalAction,0cancelModalCompleter,0domContainer",
+      "^": "Object;_router,0_currentService,0_serviceName,_loader,0_currentFactory,0loadedComponent,listItems,0selected,_searchText,mode,cancelModalVisible,0cancelModalAction,0cancelModalCompleter,0domContainer",
       set$cancelModalCompleter: function(cancelModalCompleter) {
         this.cancelModalCompleter = H.assertSubtype(cancelModalCompleter, "$isCompleter", [P.bool], "$asCompleter");
       },
@@ -36801,7 +37828,7 @@
       _getServiceItems$0: function() {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(-1),
-          $async$self = this, newList;
+          $async$self = this, $async$temp1;
         var $async$_getServiceItems$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -36809,16 +37836,12 @@
             switch ($async$goto) {
               case 0:
                 // Function start
-                P.print("Updating with old length: " + J.toString$0$(J.get$length$asx($async$self.listItems)));
+                $async$temp1 = H;
                 $async$goto = 2;
                 return P._asyncAwait($async$self._currentService.getAll$0(0), $async$_getServiceItems$0);
               case 2:
                 // returning from await.
-                newList = $async$result;
-                P.print("Updating with new length: " + J.toString$0$(J.get$length$asx(newList)));
-                H.listTypeCheck(newList);
-                $async$self.listItems = newList;
-                P.print("Updated to new length: " + J.toString$0$(J.get$length$asx(newList)));
+                $async$self.listItems = $async$temp1.listTypeCheck($async$result);
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
             }
@@ -36853,6 +37876,7 @@
                     case "players":
                       P.print("Loading player service...");
                       $async$self._currentService = new R.PlayerService();
+                      $async$self._currentFactory = C.ComponentFactory_1mp;
                       break;
                     default:
                       C.Window_methods.alert$1(window, "Oops, that service doesn't seem to exist!");
@@ -36883,7 +37907,7 @@
       },
       onSearch$1: [function(_, $event) {
         return this.onSearch$body$TypeListComponent(_, H.interceptedTypeCheck($event, "$isEvent"));
-      }, "call$1", "get$onSearch", 5, 0, 29],
+      }, "call$1", "get$onSearch", 5, 0, 36],
       onSearch$body$TypeListComponent: function(_, $event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -36913,7 +37937,7 @@
       },
       onAddButton$1: [function($event) {
         return this.onAddButton$body$TypeListComponent(H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onAddButton", 4, 0, 20],
+      }, "call$1", "get$onAddButton", 4, 0, 21],
       onAddButton$body$TypeListComponent: function($event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -36945,7 +37969,7 @@
       },
       onCancel$1: [function(_, $event) {
         return this.onCancel$body$TypeListComponent(_, H.interceptedTypeCheck($event, "$isAsyncAction"));
-      }, "call$1", "get$onCancel", 5, 0, 59],
+      }, "call$1", "get$onCancel", 5, 0, 55],
       onCancel$body$TypeListComponent: function(_, $event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -36984,11 +38008,11 @@
       },
       onSave$1: [function($event) {
         return this.onSave$body$TypeListComponent(H.interceptedTypeCheck($event, "$isAsyncAction"));
-      }, "call$1", "get$onSave", 4, 0, 59],
+      }, "call$1", "get$onSave", 4, 0, 55],
       onSave$body$TypeListComponent: function($event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
-          $async$self = this;
+          $async$returnValue, $async$self = this, t1, item, t2, indexPosition;
         var $async$onSave$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -36996,20 +38020,57 @@
             switch ($async$goto) {
               case 0:
                 // Function start
+                t1 = {};
                 P.print("Save requested...");
-                $async$goto = $async$self.mode === "add" ? 2 : 3;
+                item = J.get$item$x($async$self.loadedComponent._component);
+                t1.item = item;
+                $async$goto = $async$self.mode === "add" ? 3 : 5;
                 break;
-              case 2:
+              case 3:
+                // then
+                $async$goto = item != null ? 6 : 7;
+                break;
+              case 6:
                 // then
                 $async$self.mode = "edit";
-                $async$goto = 4;
-                return P._asyncAwait($async$self._getServiceItems$0(), $async$onSave$1);
-              case 4:
+                $async$goto = 8;
+                return P._asyncAwait($async$self._currentService.addByObject$1(item), $async$onSave$1);
+              case 8:
                 // returning from await.
-              case 3:
+                item = $async$result;
+                t1.item = item;
+                J.removeAt$1$ax($async$self.listItems, 0);
+                J.insert$2$ax($async$self.listItems, 0, item);
+                // goto return
+                $async$goto = 1;
+                break;
+              case 7:
                 // join
-                // implicit return
-                return P._asyncReturn(null, $async$completer);
+                t2 = item;
+                // goto join
+                $async$goto = 4;
+                break;
+              case 5:
+                // else
+                $async$goto = 9;
+                return P._asyncAwait($async$self._currentService.updateByObject$1(item), $async$onSave$1);
+              case 9:
+                // returning from await.
+                item = $async$result;
+                t1.item = item;
+                t2 = item;
+              case 4:
+                // join
+                if (t2 == null)
+                  C.Window_methods.alert$1(window, "Couldn't finish current item save!");
+                else {
+                  indexPosition = J.indexWhere$1$ax($async$self.listItems, new L.TypeListComponent_onSave_closure(t1));
+                  J.removeAt$1$ax($async$self.listItems, indexPosition);
+                  J.insert$2$ax($async$self.listItems, indexPosition, t1.item);
+                }
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
             }
         });
         return P._asyncStartSync($async$onSave$1, $async$completer);
@@ -37020,19 +38081,25 @@
       },
       $isOnActivate: 1
     },
+    TypeListComponent_onSave_closure: {
+      "^": "Closure:35;_box_0",
+      call$1: function(element) {
+        return J.$eq$(J.get$id$x(element), J.get$id$x(this._box_0.item));
+      }
+    },
     TypeListComponent_changeHandler_closure: {
       "^": "Closure:0;$this,thing",
       call$0: [function() {
-        var t1, t2, component, t3;
+        var t1, t2;
         t1 = this.$this;
         t2 = this.thing;
         t1.selected = t2;
         P.print("Running delayed injection method...");
-        component = t1._loader.loadNextToLocation$1$2(t1._currentFactory, t1.domContainer, null);
+        t1.loadedComponent = t1._loader.loadNextToLocation$1$2(t1._currentFactory, t1.domContainer, null);
         P.print("Injecting thing with stuff...");
-        t3 = component._component;
-        J.set$item$x(t3, t2);
-        t3.set$lockLevel(t1.mode === "add" ? 0 : 1);
+        J.set$item$x(t1.loadedComponent._component, t2);
+        t2 = t1.loadedComponent._component;
+        t2.set$lockLevel(t1.mode === "add" ? 0 : 1);
         P.print("Injecting thing finished...");
       }, null, null, 0, 0, null, "call"]
     }
@@ -37043,28 +38110,28 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent1$closure", 8, 0, 26],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent1$closure", 8, 0, 33],
     viewFactory_TypeListComponent2: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent2$closure", 8, 0, 26],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent2$closure", 8, 0, 33],
     viewFactory_TypeListComponent3: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent3$closure", 8, 0, 26],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent3$closure", 8, 0, 33],
     viewFactory_TypeListComponentHost0: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, L.TypeListComponent));
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponentHost0$closure", 8, 0, 26],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponentHost0$closure", 8, 0, 33],
     ViewTypeListComponent0: {
       "^": "AppView;0_type_list_component_template$_compView_2,0_MaterialFabComponent_2_5,0_compView_3,0_MaterialIconComponent_3_5,0_type_list_component_template$_compView_7,0_DeferredValidator_7_5,0_MaterialInputComponent_7_6,0_BaseMaterialInput_7_7,0_MaterialInputDefaultValueAccessor_7_8,0__NgValidators_7_9,0_type_list_component_template$_compView_8,0_type_list_component_template$_AcxDarkTheme_8_5,0_type_list_component_template$_MaterialButtonComponent_8_6,0_MaterialExpansionPanelSet_10_5,0_type_list_component_template$_appEl_11,_query_MaterialExpansionPanel_10_0_isDirty,_query_itemContainer_1_0_isDirty,0_NgFor_11_9,0_compView_12,0_ModalComponent_12_5,0_compView_13,0_MaterialDialogComponent_13_5,0_compView_21,0_AcxDarkTheme_21_5,0_MaterialButtonComponent_21_6,0_compView_23,0_AcxDarkTheme_23_5,0_MaterialButtonComponent_23_6,0_type_list_component_template$_expr_2,0_type_list_component_template$_expr_3,0_type_list_component_template$_expr_4,0_type_list_component_template$_expr_5,0_text_5,0_text_18,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var parentRenderNode, doc, _el_0, _el_1, t1, t2, t3, _el_2, _el_3, _el_4, t4, t5, _el_6, _el_7, t6, t7, t8, t9, t10, _el_8, _text_9, _el_10, _anchor_11, _el_12, _el_13, _el_14, _el_16, _el_20, _el_21, _text_22, _el_23, _text_24, subscription_0, subscription_1;
+        var parentRenderNode, doc, _el_0, _el_1, t1, t2, t3, _el_2, _el_3, _el_4, t4, t5, _el_6, _el_7, t6, _el_8, t7, _text_9, t8, _el_10, t9, _anchor_11, _el_12, _el_13, _el_14, _el_16, _el_20, _el_21, _text_22, _el_23, _text_24, subscription_0, subscription_1;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         _el_0 = S.createDivAndAppend(doc, parentRenderNode);
@@ -37117,20 +38184,7 @@
         _el_6 = S.createDivAndAppend(doc, _el_0);
         _el_6.className = "col-1-2 inlinediv floatright";
         this.addShimC$1(_el_6);
-        t5 = new Q.ViewMaterialInputComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
-        t5.set$viewData(S.AppViewData_AppViewData(t5, 1, C.ViewType_1, 7, L.MaterialInputComponent));
-        t4 = doc.createElement("material-input");
-        H.interceptedTypeCheck(t4, "$isHtmlElement");
-        t5.rootEl = t4;
-        t4.className = "themeable";
-        t4.tabIndex = -1;
-        t4 = $.ViewMaterialInputComponent0__renderType;
-        if (t4 == null) {
-          t4 = $.appViewUtils;
-          t4 = t4.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$MaterialInputComponent());
-          $.ViewMaterialInputComponent0__renderType = t4;
-        }
-        t5.setupComponentType$1(t4);
+        t5 = Q.ViewMaterialInputComponent0$(this, 7);
         this._type_list_component_template$_compView_7 = t5;
         _el_7 = t5.rootEl;
         (_el_6 && C.DivElement_methods).append$1(_el_6, _el_7);
@@ -37139,31 +38193,23 @@
         this.addShimC$1(_el_7);
         t4 = new L.DeferredValidator(H.setRuntimeTypeInfo([], [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}]));
         this._DeferredValidator_7_5 = t4;
-        t6 = this._type_list_component_template$_compView_7.viewData.ref;
-        t7 = new R.SequentialIdGenerator(R.SequentialIdGenerator__createUuid(), 0).nextId$0();
-        t8 = $.$get$BaseMaterialInput_defaultEmptyMessage();
-        t9 = [t1];
-        t10 = [W.FocusEvent];
-        t7 = new L.MaterialInputComponent(t6, false, null, t7, false, t6, new R.Disposer(true, false), C.BottomPanelState_0, C.BottomPanelState_1, C.BottomPanelState_2, false, false, false, false, true, true, null, C.BottomPanelState_0, t8, 0, "", true, false, false, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t10), false, new P._SyncBroadcastStreamController(null, null, 0, t10), false);
-        t7.BaseMaterialInput$3(null, t6, t4);
-        t7.type = "text";
-        t7.multiple = E.attributeToBool(null, false);
-        this._MaterialInputComponent_7_6 = t7;
-        this._BaseMaterialInput_7_7 = t7;
-        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t7, null);
-        t4.BaseMaterialInputValueAccessor$2(t7, null);
-        this._MaterialInputDefaultValueAccessor_7_8 = t4;
+        t4 = L.MaterialInputComponent$(null, null, null, null, this._type_list_component_template$_compView_7.viewData.ref, t4);
+        this._MaterialInputComponent_7_6 = t4;
+        this._BaseMaterialInput_7_7 = t4;
+        t6 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, null);
+        t6.BaseMaterialInputValueAccessor$2(t4, null);
+        this._MaterialInputDefaultValueAccessor_7_8 = t6;
         this._type_list_component_template$_compView_7.create$2(0, this._MaterialInputComponent_7_6, [C.List_empty, C.List_empty]);
-        t4 = U.ViewMaterialButtonComponent0$(this, 8);
-        this._type_list_component_template$_compView_8 = t4;
-        _el_8 = t4.rootEl;
+        t6 = U.ViewMaterialButtonComponent0$(this, 8);
+        this._type_list_component_template$_compView_8 = t6;
+        _el_8 = t6.rootEl;
         C.DivElement_methods.append$1(_el_6, _el_8);
-        t4 = J.getInterceptor$x(_el_8);
-        t4.setAttribute$2(_el_8, "aria-label", "Search");
-        t4.setAttribute$2(_el_8, "id", "search");
+        t6 = J.getInterceptor$x(_el_8);
+        t6.setAttribute$2(_el_8, "aria-label", "Search");
+        t6.setAttribute$2(_el_8, "id", "search");
         this.addShimC$1(_el_8);
-        t6 = this.parentView;
-        t7 = F.AcxDarkTheme$(H.boolTypeCheck(t6.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
+        t4 = this.parentView;
+        t7 = F.AcxDarkTheme$(H.boolTypeCheck(t4.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
         this._type_list_component_template$_AcxDarkTheme_8_5 = t7;
         t7 = B.MaterialButtonComponent$(_el_8, t7, this._type_list_component_template$_compView_8.viewData.ref, null);
         this._type_list_component_template$_MaterialButtonComponent_8_6 = t7;
@@ -37196,7 +38242,7 @@
         _el_12 = t7.rootEl;
         J.append$1$x(parentRenderNode, _el_12);
         this.addShimC$1(_el_12);
-        t7 = D.ModalComponent$(H.interceptedTypeCheck(t6.injectorGet$2(C.Type_OverlayService_4iH, this.viewData.parentIndex), "$isOverlayService"), _el_12, H.interceptedTypeCheck(t6.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), H.interceptedTypeCheck(t6.injectorGet$3(C.Type_Modal_OjC, this.viewData.parentIndex, null), "$isModal"), H.interceptedTypeCheck(t6.injectorGet$3(C.Type_GlobalModalStack_QCS, this.viewData.parentIndex, null), "$isGlobalModalStack"));
+        t7 = D.ModalComponent$(H.interceptedTypeCheck(t4.injectorGet$2(C.Type_OverlayService_4iH, this.viewData.parentIndex), "$isOverlayService"), _el_12, H.interceptedTypeCheck(t4.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), H.interceptedTypeCheck(t4.injectorGet$3(C.Type_Modal_OjC, this.viewData.parentIndex, null), "$isModal"), H.interceptedTypeCheck(t4.injectorGet$3(C.Type_GlobalModalStack_QCS, this.viewData.parentIndex, null), "$isGlobalModalStack"));
         this._ModalComponent_12_5 = t7;
         t1 = new Z.ViewMaterialDialogComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
         t1.set$viewData(S.AppViewData_AppViewData(t1, 1, C.ViewType_1, 13, D.MaterialDialogComponent));
@@ -37214,7 +38260,7 @@
         J.setAttribute$2$x(_el_13, "autofocus", "");
         _el_13.className = "max-height-dialog";
         this.addShimC$1(_el_13);
-        t1 = D.MaterialDialogComponent$(_el_13, H.interceptedTypeCheck(t6.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), this._compView_13.viewData.ref, this._ModalComponent_12_5);
+        t1 = D.MaterialDialogComponent$(_el_13, H.interceptedTypeCheck(t4.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), this._compView_13.viewData.ref, this._ModalComponent_12_5);
         this._MaterialDialogComponent_13_5 = t1;
         _el_14 = doc.createElement("h1");
         t1 = J.getInterceptor$x(_el_14);
@@ -37239,7 +38285,7 @@
         _el_21 = t7.rootEl;
         t1.append$1(_el_20, _el_21);
         this.addShimC$1(_el_21);
-        t7 = F.AcxDarkTheme$(H.boolTypeCheck(t6.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
+        t7 = F.AcxDarkTheme$(H.boolTypeCheck(t4.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
         this._AcxDarkTheme_21_5 = t7;
         t7 = B.MaterialButtonComponent$(_el_21, t7, this._compView_21.viewData.ref, null);
         this._MaterialButtonComponent_21_6 = t7;
@@ -37251,7 +38297,7 @@
         t1.append$1(_el_20, _el_23);
         J.setAttribute$2$x(_el_23, "autoFocus", "");
         this.addShimC$1(_el_23);
-        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t6.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t4.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
         this._AcxDarkTheme_23_5 = t1;
         t1 = B.MaterialButtonComponent$(_el_23, t1, this._compView_23.viewData.ref, null);
         this._MaterialButtonComponent_23_6 = t1;
@@ -37269,7 +38315,7 @@
         t5.toString;
         H.functionTypeCheck(t8, {func: 1, ret: -1, args: [,]});
         t5._findPluginFor$1("keyup.enter").addEventListener$3(0, _el_7, "keyup.enter", t8);
-        t4.addEventListener$2(_el_8, "click", this.eventHandler1$2$1(J.get$onSearch$z(this.ctx), t2, t2));
+        t6.addEventListener$2(_el_8, "click", this.eventHandler1$2$1(J.get$onSearch$z(this.ctx), t2, t2));
         t2 = this._MaterialButtonComponent_21_6._trigger;
         subscription_1 = new P._BroadcastStream(t2, [H.getTypeArgumentByIndex(t2, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_trigger_21_0(), t3, t3));
         t2 = this._MaterialButtonComponent_23_6._trigger;
@@ -37485,19 +38531,19 @@
       }
     },
     ViewTypeListComponent0_detectChangesInternal_closure: {
-      "^": "Closure:155;",
+      "^": "Closure:176;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewTypeListComponent1")._type_list_component_template$_MaterialExpansionPanel_0_5], [T.MaterialExpansionPanel]);
       }
     },
     ViewTypeListComponent0_detectChangesInternal_closure0: {
-      "^": "Closure:156;",
+      "^": "Closure:177;",
       call$1: function(nestedView) {
         return H.interceptedTypeCheck(nestedView, "$is_ViewTypeListComponent1")._type_list_component_template$_appEl_1.mapNestedViews$2$1(new Z.ViewTypeListComponent0_detectChangesInternal__closure(), R.ViewContainerRef, Z._ViewTypeListComponent2);
       }
     },
     ViewTypeListComponent0_detectChangesInternal__closure: {
-      "^": "Closure:157;",
+      "^": "Closure:178;",
       call$1: function(nestedView) {
         return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewTypeListComponent2")._type_list_component_template$_appEl_1], [R.ViewContainerRef]);
       }
@@ -37684,10 +38730,30 @@
         return [L.TypeListComponent];
       }
     }
-  }], ["", "package:angular_tour_of_heroes/src/conf/route_paths.dart",, N, {}], ["", "package:angular_tour_of_heroes/src/conf/routes.dart",, T, {}], ["", "package:angular_tour_of_heroes/src/data/dash_sections.dart",, L, {}], ["", "package:angular_tour_of_heroes/src/data/mock_matches.dart",, G, {}], ["", "package:angular_tour_of_heroes/src/data/mock_tournaments.dart",, S, {}], ["", "package:angular_tour_of_heroes/src/service/match_service.dart",, Y, {
+  }], ["", "package:angular_tour_of_heroes/src/conf/route_paths.dart",, N, {}], ["", "package:angular_tour_of_heroes/src/conf/routes.dart",, T, {}], ["", "package:angular_tour_of_heroes/src/data/dash_sections.dart",, L, {}], ["", "package:angular_tour_of_heroes/src/data/mock_matches.dart",, G, {}], ["", "package:angular_tour_of_heroes/src/data/mock_tournaments.dart",, S, {}], ["", "package:angular_tour_of_heroes/src/service/interop_key_service.dart",, E, {
+    "^": "",
+    InteropKeyService: {
+      "^": "Object;0_barcodeStreamer",
+      set$_barcodeStreamer: function(_barcodeStreamer) {
+        this._barcodeStreamer = H.assertSubtype(_barcodeStreamer, "$isStreamController", [L.Barcode], "$asStreamController");
+      },
+      _acceptJsObject$1: [function(object) {
+        var barcode = new L.Barcode();
+        barcode.value = H.stringTypeCheck(H.interceptedTypeCheck(object, "$isJsObject").$index(0, "value"));
+        P.print("adding value to stream");
+        this._barcodeStreamer.add$1(0, barcode);
+      }, "call$1", "get$_acceptJsObject", 4, 0, 179, 21]
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/match_service.dart",, Y, {
     "^": "",
     MatchService: {
       "^": "Object;",
+      addByObject$1: function(object) {
+        return;
+      },
+      updateByObject$1: function(object) {
+        return;
+      },
       getAll$0: function(_) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter([P.List, Y.Match0]),
@@ -37745,7 +38811,7 @@
       $isDetailListService: 1
     },
     MatchService_searchFor_closure: {
-      "^": "Closure:158;_box_0,string",
+      "^": "Closure:180;_box_0,string",
       call$1: function(match) {
         var t1, testInt;
         H.interceptedTypeCheck(match, "$isMatch0");
@@ -37762,6 +38828,54 @@
     "^": "",
     PlayerService: {
       "^": "Object;",
+      updateByObject$1: function(object) {
+        return;
+      },
+      addByObject$1: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(Q.Player),
+          $async$returnValue, t1, t2, t3, jsonBody, response, responseId;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.getInterceptor$x(object);
+                P.print("Adding: " + H.S(t2.get$name(object)));
+                t3 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", t2.get$name(object), "Key", t2.get$key(object)], t3, null));
+                P.print(jsonBody);
+                $async$goto = 3;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$5("POST", "http://localhost:8080/v1/user/add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t3, t3), "$isMap", [t3, t3], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 3:
+                // returning from await.
+                response = $async$result;
+                t3 = response.statusCode;
+                P.print("Response status: " + H.S(t3));
+                if (t3 === 200) {
+                  responseId = H.intTypeCheck(J.$index$asx(J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(response.headers).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, response.bodyBytes)), "Data"), "id"));
+                  P.print("Returning ID: " + H.S(responseId));
+                  t2.set$id(object, responseId);
+                  $async$returnValue = H.futureOrCheck(object, {futureOr: 1, type: Q.Player});
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  P.print("Error, code: " + H.S(t3));
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                }
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
       getAll$0: function(_) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter([P.List, Q.Player]),
@@ -37828,14 +38942,14 @@
       $isDetailListService: 1
     },
     PlayerService_getAll_closure: {
-      "^": "Closure:159;",
+      "^": "Closure:181;",
       call$1: [function(item) {
         var t1 = J.getInterceptor$asx(item);
         return new Q.Player(H.intTypeCheck(t1.$index(item, "Id")), H.stringTypeCheck(t1.$index(item, "Name")));
-      }, null, null, 4, 0, null, 20, "call"]
+      }, null, null, 4, 0, null, 23, "call"]
     },
     PlayerService_searchFor_closure: {
-      "^": "Closure:160;_box_0,string",
+      "^": "Closure:182;_box_0,string",
       call$1: function(player) {
         var t1, testInt;
         H.interceptedTypeCheck(player, "$isPlayer");
@@ -37855,7 +38969,7 @@
       getAll$0: function(_) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter([P.List, E.Tournament]),
-          $async$returnValue, returnList;
+          $async$returnValue;
         var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -37863,9 +38977,7 @@
             switch ($async$goto) {
               case 0:
                 // Function start
-                returnList = H.setRuntimeTypeInfo([], [E.Tournament]);
-                C.JSArray_methods.insertAll$2(returnList, 0, $.$get$mockTournaments());
-                $async$returnValue = returnList;
+                $async$returnValue = P.List_List$from($.$get$mockTournaments(), true, E.Tournament);
                 // goto return
                 $async$goto = 1;
                 break;
@@ -37875,6 +38987,12 @@
             }
         });
         return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        return;
+      },
+      updateByObject$1: function(object) {
+        return;
       },
       searchFor$1: function(string) {
         var $async$goto = 0,
@@ -37911,7 +39029,7 @@
       $isDetailListService: 1
     },
     TournamentService_searchFor_closure: {
-      "^": "Closure:161;_box_0,string",
+      "^": "Closure:183;_box_0,string",
       call$1: function(tournament) {
         var t1, testInt;
         H.interceptedTypeCheck(tournament, "$isTournament");
@@ -37924,10 +39042,18 @@
         return C.JSString_methods.contains$1(tournament.name.toLowerCase(), t1.toLowerCase());
       }
     }
+  }], ["", "package:angular_tour_of_heroes/src/type/barcode.dart",, L, {
+    "^": "",
+    Barcode: {
+      "^": "Object;0value"
+    }
   }], ["", "package:angular_tour_of_heroes/src/type/match.dart",, Y, {
     "^": "",
     Match0: {
       "^": "Object;id>,name>",
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      },
       static: {
         Match$: function(id, $name) {
           return new Y.Match0(id, $name);
@@ -37937,12 +39063,24 @@
   }], ["", "package:angular_tour_of_heroes/src/type/player.dart",, Q, {
     "^": "",
     Player: {
-      "^": "Object;id>,name>"
+      "^": "Object;id>,name>,0key>",
+      set$id: function(_, id) {
+        this.id = H.intTypeCheck(id);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      },
+      set$key: function(_, key) {
+        this.key = H.stringTypeCheck(key);
+      }
     }
   }], ["", "package:angular_tour_of_heroes/src/type/section.dart",, X, {
     "^": "",
     Section: {
       "^": "Object;id>,name>",
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      },
       static: {
         Section$: function(id, $name) {
           return new X.Section(id, $name);
@@ -37953,6 +39091,9 @@
     "^": "",
     Tournament: {
       "^": "Object;id>,name>",
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      },
       static: {
         Tournament$: function(id, $name) {
           return new E.Tournament(id, $name);
@@ -38054,6 +39195,10 @@
         var t1 = this._list;
         return H.SubListIterable$(t1, n, null, H.getTypeArgumentByIndex(t1, 0));
       },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        var t1 = H.getTypeArgumentByIndex(this, 0);
+        return C.JSArray_methods.firstWhere$2$orElse(this._list, H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]}), H.functionTypeCheck(orElse, {func: 1, ret: t1}));
+      },
       elementAt$1: function(_, index) {
         return C.JSArray_methods.$index(this._list, index);
       },
@@ -38142,6 +39287,14 @@
         var t1 = this._base;
         return t1.get$length(t1);
       },
+      get$values: function(_) {
+        var t1, t2, t3;
+        t1 = this._base;
+        t1 = t1.get$values(t1);
+        t2 = H.getRuntimeTypeArgument(this, "CanonicalizedMap", 2);
+        t3 = H.getRuntimeTypeArgument(t1, "Iterable", 0);
+        return H.MappedIterable_MappedIterable(t1, H.functionTypeCheck(new M.CanonicalizedMap_values_closure(this), {func: 1, ret: t2, args: [t3]}), t3, t2);
+      },
       toString$0: function(_) {
         var t1, result, t2;
         t1 = {};
@@ -38213,12 +39366,25 @@
       call$1: [function(pair) {
         var t1 = this.$this;
         return H.assertSubtype(pair, "$isPair", [H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 1), H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 2)], "$asPair").first;
-      }, null, null, 4, 0, null, 82, "call"],
+      }, null, null, 4, 0, null, 27, "call"],
       $signature: function() {
         var t1, t2;
         t1 = this.$this;
         t2 = H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 1);
         return {func: 1, ret: t2, args: [[B.Pair, t2, H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 2)]]};
+      }
+    },
+    CanonicalizedMap_values_closure: {
+      "^": "Closure;$this",
+      call$1: [function(pair) {
+        var t1 = this.$this;
+        return H.assertSubtype(pair, "$isPair", [H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 1), H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 2)], "$asPair").last;
+      }, null, null, 4, 0, null, 27, "call"],
+      $signature: function() {
+        var t1, t2;
+        t1 = this.$this;
+        t2 = H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 2);
+        return {func: 1, ret: t2, args: [[B.Pair, H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 1), t2]]};
       }
     },
     CanonicalizedMap_toString_closure: {
@@ -38239,7 +39405,7 @@
       }
     },
     _isToStringVisiting_closure: {
-      "^": "Closure:69;o",
+      "^": "Closure:35;o",
       call$1: function(e) {
         return this.o === e;
       }
@@ -38383,6 +39549,12 @@
         var t1 = this._wrappers$_base;
         return (t1 && C.JSArray_methods).every$1(t1, H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [H.getTypeArgumentByIndex(this, 0)]}));
       },
+      firstWhere$2$orElse: function(_, test, orElse) {
+        var t1, t2;
+        t1 = H.getTypeArgumentByIndex(this, 0);
+        t2 = this._wrappers$_base;
+        return (t2 && C.JSArray_methods).firstWhere$2$orElse(t2, H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [t1]}), H.functionTypeCheck(orElse, {func: 1, ret: t1}));
+      },
       forEach$1: function(_, f) {
         var t1 = this._wrappers$_base;
         return (t1 && C.JSArray_methods).forEach$1(t1, H.functionTypeCheck(f, {func: 1, ret: -1, args: [H.getTypeArgumentByIndex(this, 0)]}));
@@ -38469,6 +39641,15 @@
       indexOf$1: function($receiver, element) {
         return this.indexOf$2($receiver, element, 0);
       },
+      indexWhere$2: function(_, test, start) {
+        var t1;
+        H.functionTypeCheck(test, {func: 1, ret: P.bool, args: [H.getTypeArgumentByIndex(this, 0)]});
+        t1 = H.assertSubtype(this._wrappers$_base, "$isList", this.$ti, "$asList");
+        return (t1 && C.JSArray_methods).indexWhere$2(t1, test, start);
+      },
+      indexWhere$1: function($receiver, test) {
+        return this.indexWhere$2($receiver, test, 0);
+      },
       insert$2: function(_, index, element) {
         var t1;
         H.assertSubtypeOfRuntimeType(element, H.getTypeArgumentByIndex(this, 0));
@@ -38547,7 +39728,7 @@
       return P._asyncStartSync($async$_withClient, $async$completer);
     },
     get_closure: {
-      "^": "Closure:162;url,headers",
+      "^": "Closure:184;url,headers",
       call$1: function(client) {
         return client._sendUnstreamed$3("GET", this.url, this.headers);
       }
@@ -38557,7 +39738,8 @@
     BaseClient: {
       "^": "Object;",
       _sendUnstreamed$5: function(method, url, headers, body, encoding) {
-        return this._sendUnstreamed$body$BaseClient(method, url, headers, body, encoding);
+        var t1 = P.String;
+        return this._sendUnstreamed$body$BaseClient(method, url, H.assertSubtype(headers, "$isMap", [t1, t1], "$asMap"), body, encoding);
       },
       _sendUnstreamed$3: function(method, url, headers) {
         return this._sendUnstreamed$5(method, url, headers, null, null);
@@ -38565,7 +39747,7 @@
       _sendUnstreamed$body$BaseClient: function(method, url, headers, body, encoding) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(U.Response),
-          $async$returnValue, $async$self = this, t1, t2, $async$temp1;
+          $async$returnValue, $async$self = this, t1, t2, request, $async$temp1;
         var $async$_sendUnstreamed$5 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -38577,9 +39759,14 @@
                 t1 = new Uint8Array(0);
                 t2 = P.String;
                 t2 = P.LinkedHashMap_LinkedHashMap(new G.BaseRequest_closure(), new G.BaseRequest_closure0(), null, t2, t2);
+                request = new O.Request(C.Utf8Codec_false, t1, method, url, true, true, 5, t2, false);
+                if (headers != null)
+                  t2.addAll$1(0, headers);
+                if (body != null)
+                  request.set$body(0, body);
                 $async$temp1 = U;
                 $async$goto = 3;
-                return P._asyncAwait($async$self.send$1(0, new O.Request(C.Utf8Codec_false, t1, method, url, true, true, 5, t2, false)), $async$_sendUnstreamed$5);
+                return P._asyncAwait($async$self.send$1(0, request), $async$_sendUnstreamed$5);
               case 3:
                 // returning from await.
                 $async$returnValue = $async$temp1.Response_fromStream($async$result);
@@ -38612,18 +39799,18 @@
       }
     },
     BaseRequest_closure: {
-      "^": "Closure:163;",
+      "^": "Closure:185;",
       call$2: [function(key1, key2) {
         H.stringTypeCheck(key1);
         H.stringTypeCheck(key2);
         return key1.toLowerCase() === key2.toLowerCase();
-      }, null, null, 8, 0, null, 83, 84, "call"]
+      }, null, null, 8, 0, null, 87, 88, "call"]
     },
     BaseRequest_closure0: {
-      "^": "Closure:164;",
+      "^": "Closure:186;",
       call$1: [function(key) {
         return C.JSString_methods.get$hashCode(H.stringTypeCheck(key).toLowerCase());
-      }, null, null, 4, 0, null, 22, "call"]
+      }, null, null, 4, 0, null, 17, "call"]
     }
   }], ["", "package:http/src/base_response.dart",, T, {
     "^": "",
@@ -38725,7 +39912,7 @@
       }
     },
     BrowserClient_send_closure: {
-      "^": "Closure:34;xhr,completer,request",
+      "^": "Closure:32;xhr,completer,request",
       call$1: [function(_) {
         var t1, blob, reader, t2, t3, t4, t5;
         H.interceptedTypeCheck(_, "$isProgressEvent");
@@ -38743,7 +39930,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     BrowserClient_send__closure: {
-      "^": "Closure:34;reader,completer,xhr,request",
+      "^": "Closure:32;reader,completer,xhr,request",
       call$1: [function(_) {
         var body, t1, t2, t3, t4, t5, t6;
         H.interceptedTypeCheck(_, "$isProgressEvent");
@@ -38762,13 +39949,13 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     BrowserClient_send__closure0: {
-      "^": "Closure:34;completer,request",
+      "^": "Closure:32;completer,request",
       call$1: [function(error) {
         this.completer.completeError$2(new E.ClientException(J.toString$0$(H.interceptedTypeCheck(error, "$isProgressEvent")), this.request.url), P.StackTrace_current());
-      }, null, null, 4, 0, null, 2, "call"]
+      }, null, null, 4, 0, null, 3, "call"]
     },
     BrowserClient_send_closure0: {
-      "^": "Closure:34;completer,request",
+      "^": "Closure:32;completer,request",
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isProgressEvent");
         this.completer.completeError$2(new E.ClientException("XMLHttpRequest error.", this.request.url), P.StackTrace_current());
@@ -38795,7 +39982,7 @@
       }
     },
     ByteStream_toBytes_closure: {
-      "^": "Closure:166;completer",
+      "^": "Closure:188;completer",
       call$1: function(bytes) {
         return this.completer.complete$1(0, new Uint8Array(H._ensureNativeList(H.assertSubtype(bytes, "$isList", [P.int], "$asList"))));
       }
@@ -38816,7 +40003,39 @@
   }], ["", "package:http/src/request.dart",, O, {
     "^": "",
     Request: {
-      "^": "BaseRequest;_defaultEncoding,_bodyBytes,method,url,0_contentLength,_persistentConnection,_followRedirects,_maxRedirects,headers,_finalized"
+      "^": "BaseRequest;_defaultEncoding,_bodyBytes,method,url,0_contentLength,_persistentConnection,_followRedirects,_maxRedirects,headers,_finalized",
+      get$encoding: function(_) {
+        if (this.get$_contentType() == null || !J.containsKey$1$x(this.get$_contentType().parameters._collection$_map, "charset"))
+          return this._defaultEncoding;
+        return B.requiredEncodingForCharset(J.$index$asx(this.get$_contentType().parameters._collection$_map, "charset"));
+      },
+      set$body: function(_, value) {
+        var t1, contentType, t2;
+        t1 = H.assertSubtype(this.get$encoding(this).encode$1(value), "$isList", [P.int], "$asList");
+        this._checkFinalized$0();
+        this._bodyBytes = B.toUint8List(t1);
+        contentType = this.get$_contentType();
+        if (contentType == null) {
+          t1 = this.get$encoding(this);
+          t2 = P.String;
+          this.headers.$indexSet(0, "content-type", R.MediaType$("text", "plain", P.LinkedHashMap_LinkedHashMap$_literal(["charset", t1.get$name(t1)], t2, t2)).toString$0(0));
+        } else if (!J.containsKey$1$x(contentType.parameters._collection$_map, "charset")) {
+          t1 = this.get$encoding(this);
+          t2 = P.String;
+          this.headers.$indexSet(0, "content-type", contentType.change$1$parameters(P.LinkedHashMap_LinkedHashMap$_literal(["charset", t1.get$name(t1)], t2, t2)).toString$0(0));
+        }
+      },
+      get$_contentType: function() {
+        var contentType = this.headers.$index(0, "content-type");
+        if (contentType == null)
+          return;
+        return R.MediaType_MediaType$parse(contentType);
+      },
+      _checkFinalized$0: function() {
+        if (!this._finalized)
+          return;
+        throw H.wrapException(P.StateError$("Can't modify a finalized Request."));
+      }
     }
   }], ["", "package:http/src/response.dart",, U, {
     "^": "",
@@ -38838,7 +40057,7 @@
       }
     },
     Response_fromStream_closure: {
-      "^": "Closure:167;response",
+      "^": "Closure:189;response",
       call$1: [function(body) {
         var t1, t2, t3, t4, t5, t6;
         H.interceptedTypeCheck(body, "$isUint8List");
@@ -38852,7 +40071,7 @@
         t5 = new U.Response(t5, t3, t2, t1, t6, t4, false, true);
         t5.BaseResponse$7$contentLength$headers$isRedirect$persistentConnection$reasonPhrase$request(t2, t6, t4, false, true, t1, t3);
         return t5;
-      }, null, null, 4, 0, null, 57, "call"]
+      }, null, null, 4, 0, null, 89, "call"]
     }
   }], ["", "package:http/src/streamed_response.dart",, X, {
     "^": "",
@@ -38868,6 +40087,14 @@
         return fallback;
       encoding = P.Encoding_getByName(charset);
       return encoding == null ? fallback : encoding;
+    },
+    requiredEncodingForCharset: function(charset) {
+      var encoding;
+      H.stringTypeCheck(charset);
+      encoding = P.Encoding_getByName(charset);
+      if (encoding != null)
+        return encoding;
+      throw H.wrapException(P.FormatException$('Unsupported encoding "' + H.S(charset) + '".', null, null));
     },
     toUint8List: function(input) {
       var t1;
@@ -38906,13 +40133,13 @@
       }
     },
     CaseInsensitiveMap$from_closure: {
-      "^": "Closure:13;",
+      "^": "Closure:14;",
       call$1: [function(key) {
         return H.stringTypeCheck(key).toLowerCase();
-      }, null, null, 4, 0, null, 22, "call"]
+      }, null, null, 4, 0, null, 17, "call"]
     },
     CaseInsensitiveMap$from_closure0: {
-      "^": "Closure:168;",
+      "^": "Closure:190;",
       call$1: function(key) {
         return key != null;
       }
@@ -38921,6 +40148,17 @@
     "^": "",
     MediaType: {
       "^": "Object;type,subtype,parameters>",
+      change$5$clearParameters$mimeType$parameters$subtype$type: function(clearParameters, mimeType, parameters, subtype, type) {
+        var t1, parameters0;
+        t1 = P.String;
+        H.assertSubtype(parameters, "$isMap", [t1, t1], "$asMap");
+        parameters0 = P.LinkedHashMap_LinkedHashMap$from(this.parameters, t1, t1);
+        parameters0.addAll$1(0, parameters);
+        return R.MediaType$(this.type, this.subtype, parameters0);
+      },
+      change$1$parameters: function(parameters) {
+        return this.change$5$clearParameters$mimeType$parameters$subtype$type(false, null, parameters, null, null);
+      },
       toString$0: function(_) {
         var buffer, t1;
         buffer = new P.StringBuffer("");
@@ -38949,7 +40187,7 @@
       }
     },
     MediaType_MediaType$parse_closure: {
-      "^": "Closure:169;mediaType",
+      "^": "Closure:191;mediaType",
       call$0: function() {
         var t1, scanner, t2, t3, type, subtype, t4, parameters, t5, success, attribute, value;
         t1 = this.mediaType;
@@ -39025,7 +40263,7 @@
       }
     },
     MediaType_toString_closure: {
-      "^": "Closure:170;buffer",
+      "^": "Closure:192;buffer",
       call$2: function(attribute, value) {
         var t1, t2;
         H.stringTypeCheck(attribute);
@@ -39046,7 +40284,7 @@
       }
     },
     MediaType_toString__closure: {
-      "^": "Closure:33;",
+      "^": "Closure:34;",
       call$1: function(match) {
         return C.JSString_methods.$add("\\", match.$index(0, 0));
       }
@@ -39060,7 +40298,7 @@
       return H.stringReplaceAllFuncUnchecked(J.substring$2$s(string, 1, string.length - 1), $.$get$_quotedPair(), H.functionTypeCheck(new N.expectQuotedString_closure(), {func: 1, ret: P.String, args: [P.Match]}), null);
     },
     expectQuotedString_closure: {
-      "^": "Closure:33;",
+      "^": "Closure:34;",
       call$1: function(match) {
         return match.$index(0, 1);
       }
@@ -39677,10 +40915,13 @@
       },
       removeRange$2: function(_, start, end) {
         var t1, rangeLength, t2, len, t3;
-        t1 = J.get$length$asx(this._observable_list$_list);
-        if (typeof t1 !== "number")
-          return H.iae(t1);
-        t1 = start > t1;
+        if (start >= 0) {
+          t1 = J.get$length$asx(this._observable_list$_list);
+          if (typeof t1 !== "number")
+            return H.iae(t1);
+          t1 = start > t1;
+        } else
+          t1 = true;
         if (t1)
           H.throwExpression(P.RangeError$range(start, 0, this.get$length(this), null, null));
         if (end >= start) {
@@ -39707,10 +40948,13 @@
       insert$2: function(_, index, element) {
         var t1, t2, t3;
         H.assertSubtypeOfRuntimeType(element, H.getTypeArgumentByIndex(this, 0));
-        t1 = J.get$length$asx(this._observable_list$_list);
-        if (typeof t1 !== "number")
-          return H.iae(t1);
-        t1 = index > t1;
+        if (index >= 0) {
+          t1 = J.get$length$asx(this._observable_list$_list);
+          if (typeof t1 !== "number")
+            return H.iae(t1);
+          t1 = index > t1;
+        } else
+          t1 = true;
         if (t1)
           throw H.wrapException(P.RangeError$range(index, 0, this.get$length(this), null, null));
         t1 = this._observable_list$_list;
@@ -39801,6 +41045,10 @@
       get$keys: function(_) {
         var t1 = this._observable_map$_map;
         return t1.get$keys(t1);
+      },
+      get$values: function(_) {
+        var t1 = this._observable_map$_map;
+        return t1.get$values(t1);
       },
       get$length: function(_) {
         var t1 = this._observable_map$_map;
@@ -40231,29 +41479,29 @@
       }
     },
     Context_join_closure: {
-      "^": "Closure:19;",
+      "^": "Closure:20;",
       call$1: function(part) {
         return H.stringTypeCheck(part) != null;
       }
     },
     Context_joinAll_closure: {
-      "^": "Closure:19;",
+      "^": "Closure:20;",
       call$1: function(part) {
         return H.stringTypeCheck(part) !== "";
       }
     },
     Context_split_closure: {
-      "^": "Closure:19;",
+      "^": "Closure:20;",
       call$1: function(part) {
         return H.stringTypeCheck(part).length !== 0;
       }
     },
     _validateArgList_closure: {
-      "^": "Closure:13;",
+      "^": "Closure:14;",
       call$1: [function(arg) {
         H.stringTypeCheck(arg);
         return arg == null ? "null" : '"' + arg + '"';
-      }, null, null, 4, 0, null, 11, "call"]
+      }, null, null, 4, 0, null, 12, "call"]
     }
   }], ["", "package:path/src/internal_style.dart",, B, {
     "^": "",
@@ -40394,7 +41642,7 @@
       }
     },
     ParsedPath_normalize_closure: {
-      "^": "Closure:32;$this",
+      "^": "Closure:13;$this",
       call$1: function(_) {
         return this.$this.style.get$separator();
       }
@@ -40663,7 +41911,7 @@
       return 536870911 & hash + ((16383 & hash) << 15);
     },
     hashObjects_closure: {
-      "^": "Closure:171;",
+      "^": "Closure:193;",
       call$2: function(h, i) {
         return X._combine(H.intTypeCheck(h), J.get$hashCode$(i));
       }
@@ -40703,7 +41951,7 @@
     "^": "",
     systemTime: [function() {
       return new P.DateTime(Date.now(), false);
-    }, "call$0", "time__systemTime$closure", 0, 0, 140],
+    }, "call$0", "time__systemTime$closure", 0, 0, 234],
     Clock: {
       "^": "Object;_time"
     }
@@ -41587,7 +42835,7 @@
         return t1.charCodeAt(0) == 0 ? t1 : t1;
       }, function($receiver, message) {
         return this.message$2$color($receiver, message, null);
-      }, "message$1", "call$2$color", "call$1", "get$message", 5, 3, 172],
+      }, "message$1", "call$2$color", "call$1", "get$message", 5, 3, 194],
       highlight$1$color: function(_, color) {
         var t1, t2, t3, t4, newSpan;
         t1 = !!this.$isSourceSpanWithContext;
@@ -41796,7 +43044,7 @@
       return new K._Injector$injector($parent);
     }, function() {
       return K.injector$Injector(null);
-    }, "call$1", "call$0", "main_template__injector$Injector$closure", 0, 2, 63],
+    }, "call$1", "call$0", "main_template__injector$Injector$closure", 0, 2, 67],
     _Injector$injector: {
       "^": "HierarchicalInjector;0_field0,0_field1,0_field2,0_field3,parent",
       injectFromSelfOptional$2: function(token, orElse) {
@@ -41976,6 +43224,12 @@
   J.set$item$x = function(receiver, value) {
     return J.getInterceptor$x(receiver).set$item(receiver, value);
   };
+  J.set$key$x = function(receiver, value) {
+    return J.getInterceptor$x(receiver).set$key(receiver, value);
+  };
+  J.set$name$x = function(receiver, value) {
+    return J.getInterceptor$x(receiver).set$name(receiver, value);
+  };
   J.set$responseType$x = function(receiver, value) {
     return J.getInterceptor$x(receiver).set$responseType(receiver, value);
   };
@@ -42020,6 +43274,9 @@
   };
   J.get$isNotEmpty$asx = function(receiver) {
     return J.getInterceptor$asx(receiver).get$isNotEmpty(receiver);
+  };
+  J.get$item$x = function(receiver) {
+    return J.getInterceptor$x(receiver).get$item(receiver);
   };
   J.get$iterator$ax = function(receiver) {
     return J.getInterceptor$ax(receiver).get$iterator(receiver);
@@ -42098,6 +43355,9 @@
   };
   J.get$value$x = function(receiver) {
     return J.getInterceptor$x(receiver).get$value(receiver);
+  };
+  J.get$values$x = function(receiver) {
+    return J.getInterceptor$x(receiver).get$values(receiver);
   };
   J.get$width$x = function(receiver) {
     return J.getInterceptor$x(receiver).get$width(receiver);
@@ -42202,6 +43462,9 @@
   J.fillRange$3$x = function(receiver, a0, a1, a2) {
     return J.getInterceptor$x(receiver).fillRange$3(receiver, a0, a1, a2);
   };
+  J.firstWhere$2$orElse$ax = function(receiver, a0, a1) {
+    return J.getInterceptor$ax(receiver).firstWhere$2$orElse(receiver, a0, a1);
+  };
   J.focus$0$x = function(receiver) {
     return J.getInterceptor$x(receiver).focus$0(receiver);
   };
@@ -42216,6 +43479,9 @@
   };
   J.indexOf$2$asx = function(receiver, a0, a1) {
     return J.getInterceptor$asx(receiver).indexOf$2(receiver, a0, a1);
+  };
+  J.indexWhere$1$ax = function(receiver, a0) {
+    return J.getInterceptor$ax(receiver).indexWhere$1(receiver, a0);
   };
   J.insert$2$ax = function(receiver, a0, a1) {
     return J.getInterceptor$ax(receiver).insert$2(receiver, a0, a1);
@@ -42345,6 +43611,7 @@
   C.C__NoopDisposable = new R._NoopDisposable();
   C.C__RootZone = new P._RootZone();
   C.Clock_systemTime = new V.Clock(V.time__systemTime$closure());
+  C.ComponentFactory_1mp = new D.ComponentFactory("player-detail", Y.player_template__viewFactory_PlayerDetailComponentHost0$closure(), [Q.PlayerDetailComponent]);
   C.ComponentFactory_B8J = new D.ComponentFactory("admin-comp", K.admin_component_template__viewFactory_AdminComponentHost0$closure(), [O.AdminComponent]);
   C.ComponentFactory_OSt = new D.ComponentFactory("tournament-detail", A.tournament_template__viewFactory_TournamentDetailComponentHost0$closure(), [E.TournamentDetailComponent]);
   C.ComponentFactory_S1h = new D.ComponentFactory("material-tooltip-text", L.ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure(), [F.MaterialInkTooltipComponent]);
@@ -42597,6 +43864,7 @@
   C.Type_HasRenderer_wsa = H.createRuntimeType([G.HasRenderer,,]);
   C.Type_IdGenerator_yLN = H.createRuntimeType(R.IdGenerator);
   C.Type_Injector_aJC = H.createRuntimeType(M.Injector);
+  C.Type_InteropKeyService_eLp = H.createRuntimeType(E.InteropKeyService);
   C.Type_KeyUpBoundaryDirective_GF2 = H.createRuntimeType(E.KeyUpBoundaryDirective);
   C.Type_ListChangeRecord_WB4 = H.createRuntimeType([Y.ListChangeRecord,,]);
   C.Type_LocationStrategy_gyR = H.createRuntimeType(X.LocationStrategy);
@@ -42632,7 +43900,6 @@
   C.Type_TestabilityRegistry_IMm = H.createRuntimeType(D.TestabilityRegistry);
   C.Type_Testability_h8g = H.createRuntimeType(D.Testability);
   C.Type_TooltipController_H6X = H.createRuntimeType(U.TooltipController);
-  C.Type_TournamentService_iX7 = H.createRuntimeType(G.TournamentService);
   C.Type_Window_0H0 = H.createRuntimeType(W.Window);
   C.Type_YIv = H.createRuntimeType(Z.MaterialInputDefaultValueAccessor);
   C.Type_ZIndexer_ViP = H.createRuntimeType(X.ZIndexer);
@@ -42740,9 +44007,11 @@
   $.ViewAppComponent0__renderType = null;
   $.ViewAdminComponent0__renderType = null;
   $.ViewDashboardComponent0__renderType = null;
+  $.ViewPlayerDetailComponent0__renderType = null;
   $.ViewTournamentDetailComponent0__renderType = null;
   $.ViewRaisableMenuComponent0__renderType = null;
   $.ViewTypeListComponent0__renderType = null;
+  $.keyServiceSingleton = null;
   $._currentUriBase = null;
   $._current = null;
   $._glyphs = C.C_UnicodeGlyphSet;
@@ -42879,38 +44148,38 @@
     return new P.Object();
   }, "NgZone__anyZoneKey", "_modifierKeyGetters", "$get$_modifierKeyGetters", function() {
     return P.LinkedHashMap_LinkedHashMap$_literal(["alt", new N.closure(), "control", new N.closure0(), "meta", new N.closure1(), "shift", new N.closure2()], P.String, {func: 1, ret: P.bool, args: [W.KeyboardEvent]});
-  }, "_modifierKeyGetters", "styles11", "$get$styles11", function() {
+  }, "_modifierKeyGetters", "styles13", "$get$styles13", function() {
     return ["._nghost-%ID%{display:block}[focusContentWrapper]._ngcontent-%ID%{height:inherit;max-height:inherit;min-height:inherit}"];
-  }, "styles11", "styles$FocusTrapComponent", "$get$styles$FocusTrapComponent", function() {
-    return [$.$get$styles11()];
+  }, "styles13", "styles$FocusTrapComponent", "$get$styles$FocusTrapComponent", function() {
+    return [$.$get$styles13()];
   }, "styles$FocusTrapComponent", "FrameworkStabilizers__idToFrameworkStabilizer", "$get$FrameworkStabilizers__idToFrameworkStabilizer", function() {
     return P.LinkedHashMap_LinkedHashMap$_empty(P.int, null);
   }, "FrameworkStabilizers__idToFrameworkStabilizer", "testabilitiesEnabled", "$get$testabilitiesEnabled", function() {
     return J.contains$1$asx(self.window.location.href, "enableTestabilities");
-  }, "testabilitiesEnabled", "styles6", "$get$styles6", function() {
+  }, "testabilitiesEnabled", "styles8", "$get$styles8", function() {
     return ['._nghost-%ID%{display:inline-flex}._nghost-%ID%[light]{opacity:0.54}._nghost-%ID%[size=x-small]  i{font-size:12px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=small]  i{font-size:13px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=medium]  i{font-size:16px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=large]  i{font-size:18px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=x-large]  i{font-size:20px;height:1em;line-height:1em;width:1em}._nghost-%ID%[flip][dir=rtl] .glyph-i._ngcontent-%ID%,[dir=rtl] [flip]._nghost-%ID% .glyph-i._ngcontent-%ID%{transform:scaleX(-1)}._nghost-%ID%[baseline]{align-items:center}._nghost-%ID%[baseline]::before{content:"-";display:inline-block;width:0;visibility:hidden}._nghost-%ID%[baseline] .glyph-i._ngcontent-%ID%{margin-bottom:0.1em}'];
-  }, "styles6", "styles$GlyphComponent", "$get$styles$GlyphComponent", function() {
-    return [$.$get$styles6()];
-  }, "styles$GlyphComponent", "styles9", "$get$styles9", function() {
+  }, "styles8", "styles$GlyphComponent", "$get$styles$GlyphComponent", function() {
+    return [$.$get$styles8()];
+  }, "styles$GlyphComponent", "styles11", "$get$styles11", function() {
     return [".segment-highlight._ngcontent-%ID%{font-weight:700}"];
-  }, "styles9", "styles$HighlightedTextComponent", "$get$styles$HighlightedTextComponent", function() {
-    return [$.$get$styles9()];
+  }, "styles11", "styles$HighlightedTextComponent", "$get$styles$HighlightedTextComponent", function() {
+    return [$.$get$styles11()];
   }, "styles$HighlightedTextComponent", "styles0", "$get$styles0", function() {
     return ['._nghost-%ID%{font-size:14px;font-weight:500;text-transform:uppercase;user-select:none;background:transparent;border-radius:inherit;box-sizing:border-box;cursor:pointer;display:inline-block;letter-spacing:0.01em;line-height:normal;outline:none;position:relative;text-align:center}._nghost-%ID%.acx-theme-dark{color:#fff}._nghost-%ID%:not([icon]){margin:0 0.29em}._nghost-%ID%[dense]:not([icon]){height:32px;font-size:13px}._nghost-%ID%[compact]:not([icon]){padding:0 8px}._nghost-%ID%[disabled]{color:rgba(0,0,0,0.26);cursor:not-allowed}._nghost-%ID%[disabled].acx-theme-dark{color:rgba(255,255,255,0.3)}._nghost-%ID%[disabled] > *._ngcontent-%ID%{pointer-events:none}._nghost-%ID%:not([disabled]):not([icon]):hover::after,._nghost-%ID%.is-focused::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:currentColor;opacity:0.12;border-radius:inherit;pointer-events:none}._nghost-%ID%[raised][animated]{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}._nghost-%ID%[raised][elevation="1"]{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="2"]{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="3"]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="4"]{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="5"]{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="6"]{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}._nghost-%ID%[raised].acx-theme-dark{background-color:#4285f4}._nghost-%ID%[raised][disabled]{background:rgba(0,0,0,0.12);box-shadow:none}._nghost-%ID%[raised][disabled].acx-theme-dark{background:rgba(255,255,255,0.12)}._nghost-%ID%[raised].highlighted:not([disabled]){background-color:#4285f4;color:#fff}._nghost-%ID%[no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%[clear-size]{margin:0}._nghost-%ID% .content._ngcontent-%ID%{display:inline-flex;align-items:center}._nghost-%ID%:not([icon]){border-radius:2px;min-width:64px}._nghost-%ID%:not([icon]) .content._ngcontent-%ID%{padding:0.7em 0.57em}._nghost-%ID%[icon]{border-radius:50%}._nghost-%ID%[icon] .content._ngcontent-%ID%{padding:8px}._nghost-%ID%[clear-size]{min-width:0}'];
   }, "styles0", "styles$MaterialButtonComponent", "$get$styles$MaterialButtonComponent", function() {
     return [$.$get$styles0()];
-  }, "styles$MaterialButtonComponent", "styles21", "$get$styles21", function() {
+  }, "styles$MaterialButtonComponent", "styles22", "$get$styles22", function() {
     return ['._nghost-%ID%{font-size:14px;font-weight:500;text-transform:uppercase;user-select:none;background:transparent;border-radius:inherit;box-sizing:border-box;cursor:pointer;display:inline-block;letter-spacing:0.01em;line-height:normal;outline:none;position:relative;text-align:center;border-radius:28px}._nghost-%ID%.acx-theme-dark{color:#fff}._nghost-%ID%:not([icon]){margin:0 0.29em}._nghost-%ID%[dense]:not([icon]){height:32px;font-size:13px}._nghost-%ID%[compact]:not([icon]){padding:0 8px}._nghost-%ID%[disabled]{color:rgba(0,0,0,0.26);cursor:not-allowed}._nghost-%ID%[disabled].acx-theme-dark{color:rgba(255,255,255,0.3)}._nghost-%ID%[disabled] > *._ngcontent-%ID%{pointer-events:none}._nghost-%ID%:not([disabled]):not([icon]):hover::after,._nghost-%ID%.is-focused::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:currentColor;opacity:0.12;border-radius:inherit;pointer-events:none}._nghost-%ID%[raised][animated]{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}._nghost-%ID%[raised][elevation="1"]{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="2"]{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="3"]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="4"]{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="5"]{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="6"]{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}._nghost-%ID%[raised].acx-theme-dark{background-color:#4285f4}._nghost-%ID%[raised][disabled]{background:rgba(0,0,0,0.12);box-shadow:none}._nghost-%ID%[raised][disabled].acx-theme-dark{background:rgba(255,255,255,0.12)}._nghost-%ID%[raised].highlighted:not([disabled]){background-color:#4285f4;color:#fff}._nghost-%ID%[no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%[clear-size]{margin:0}._nghost-%ID% .content._ngcontent-%ID%{display:inline-flex;align-items:center}._nghost-%ID% .content._ngcontent-%ID%{height:56px;width:56px}._nghost-%ID% .content._ngcontent-%ID%{justify-content:center}._nghost-%ID%[mini]{font-size:14px;font-weight:500;text-transform:uppercase;user-select:none;background:transparent;border-radius:inherit;box-sizing:border-box;cursor:pointer;display:inline-block;letter-spacing:0.01em;line-height:normal;outline:none;position:relative;text-align:center;border-radius:20px}._nghost-%ID%[mini].acx-theme-dark{color:#fff}._nghost-%ID%[mini]:not([icon]){margin:0 0.29em}._nghost-%ID%[mini][dense]:not([icon]){height:32px;font-size:13px}._nghost-%ID%[mini][compact]:not([icon]){padding:0 8px}._nghost-%ID%[mini][disabled]{color:rgba(0,0,0,0.26);cursor:not-allowed}._nghost-%ID%[mini][disabled].acx-theme-dark{color:rgba(255,255,255,0.3)}._nghost-%ID%[mini][disabled] > *._ngcontent-%ID%{pointer-events:none}._nghost-%ID%[mini]:not([disabled]):not([icon]):hover::after,._nghost-%ID%[mini].is-focused::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:currentColor;opacity:0.12;border-radius:inherit;pointer-events:none}._nghost-%ID%[mini][raised][animated]{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}._nghost-%ID%[mini][raised][elevation="1"]{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="2"]{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="3"]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="4"]{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="5"]{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="6"]{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised].acx-theme-dark{background-color:#4285f4}._nghost-%ID%[mini][raised][disabled]{background:rgba(0,0,0,0.12);box-shadow:none}._nghost-%ID%[mini][raised][disabled].acx-theme-dark{background:rgba(255,255,255,0.12)}._nghost-%ID%[mini][raised].highlighted:not([disabled]){background-color:#4285f4;color:#fff}._nghost-%ID%[mini][no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%[mini][clear-size]{margin:0}._nghost-%ID%[mini] .content._ngcontent-%ID%{display:inline-flex;align-items:center}._nghost-%ID%[mini] .content._ngcontent-%ID%{height:40px;width:40px}._nghost-%ID%[mini] .content._ngcontent-%ID%{justify-content:center}._nghost-%ID%[raised]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%.is-pressed[raised]{box-shadow:0 12px 17px 2px rgba(0,0,0,0.14),0 5px 22px 4px rgba(0,0,0,0.12),0 7px 8px -4px rgba(0,0,0,0.2)}material-icon._ngcontent-%ID%  .material-icon-i.material-icon-i{font-size:24px}glyph._ngcontent-%ID%  i{font-size:24px;height:1em;line-height:1em;width:1em}'];
-  }, "styles21", "styles$MaterialFabComponent", "$get$styles$MaterialFabComponent", function() {
-    return [$.$get$styles21()];
-  }, "styles$MaterialFabComponent", "styles7", "$get$styles7", function() {
+  }, "styles22", "styles$MaterialFabComponent", "$get$styles$MaterialFabComponent", function() {
+    return [$.$get$styles22()];
+  }, "styles$MaterialFabComponent", "styles9", "$get$styles9", function() {
     return ['._nghost-%ID%{align-items:center;cursor:pointer;display:inline-flex;margin:8px}._nghost-%ID%[no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%:focus{outline:none}._nghost-%ID%.disabled{cursor:not-allowed}._nghost-%ID%.disabled > .content._ngcontent-%ID%{color:rgba(0,0,0,0.54)}._nghost-%ID%.disabled > .icon-container._ngcontent-%ID% > .icon._ngcontent-%ID%{color:rgba(0,0,0,0.26)}.icon-container._ngcontent-%ID%{display:flex;position:relative}.icon-container.focus._ngcontent-%ID%::after,.icon-container._ngcontent-%ID% .ripple._ngcontent-%ID%{color:#9e9e9e;border-radius:20px;height:40px;left:-8px;position:absolute;top:-8px;width:40px}.icon-container.focus._ngcontent-%ID%::after{content:"";display:block;background-color:currentColor;opacity:0.12}.icon._ngcontent-%ID%{opacity:0.54}.icon.filled._ngcontent-%ID%{color:#4285f4;opacity:0.87}.content._ngcontent-%ID%{align-items:center;flex-grow:1;flex-shrink:1;flex-basis:auto;margin-left:8px;overflow-x:hidden;padding:1px 0;text-overflow:ellipsis}'];
-  }, "styles7", "styles$MaterialCheckboxComponent", "$get$styles$MaterialCheckboxComponent", function() {
-    return [$.$get$styles7()];
-  }, "styles$MaterialCheckboxComponent", "styles19", "$get$styles19", function() {
+  }, "styles9", "styles$MaterialCheckboxComponent", "$get$styles$MaterialCheckboxComponent", function() {
+    return [$.$get$styles9()];
+  }, "styles$MaterialCheckboxComponent", "styles21", "$get$styles21", function() {
     return ["._nghost-%ID%{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);background:#fff;border-radius:2px;display:block;height:auto;max-height:60vh;max-width:1240px;overflow:hidden}@media (max-height:1200px){._nghost-%ID%{max-height:calc(560px + (100vh - 600px) * .267)}}@media (max-height:600px){._nghost-%ID%{max-height:calc(100vh - 32px)}}@media (max-width:1800px){._nghost-%ID%{max-width:calc(880px + (100vw - 920px) * .4)}}@media (max-width:920px){._nghost-%ID%{max-width:calc(100vw - 32px)}}focus-trap._ngcontent-%ID%{height:inherit;max-height:inherit;min-height:inherit;width:100%}.wrapper._ngcontent-%ID%{display:flex;flex-direction:column;height:inherit;overflow:hidden;max-height:inherit;min-height:inherit}.error._ngcontent-%ID%{font-size:13px;font-weight:400;box-sizing:border-box;flex-shrink:0;background:#eee;color:#c53929;padding:0 24px;transition:padding 218ms cubic-bezier(0.4,0,0.2,1) 0s;width:100%}.error.expanded._ngcontent-%ID%{border-bottom:1px #e0e0e0 solid;border-top:1px #e0e0e0 solid;padding:8px 24px}main._ngcontent-%ID%{font-size:13px;font-weight:400;box-sizing:border-box;flex-grow:1;color:rgba(0,0,0,0.87);overflow:auto;padding:0 24px;width:100%}main.top-scroll-stroke._ngcontent-%ID%{border-top:1px #e0e0e0 solid}main.bottom-scroll-stroke._ngcontent-%ID%{border-bottom:1px #e0e0e0 solid}footer._ngcontent-%ID%{box-sizing:border-box;flex-shrink:0;padding:0 8px 8px;width:100%}._nghost-%ID%  .wrapper > header{-moz-box-sizing:border-box;box-sizing:border-box;padding:24px 24px 0;width:100%;flex-shrink:0}._nghost-%ID%  .wrapper > header  h1,._nghost-%ID%  .wrapper > header  h3{font-size:20px;font-weight:500;margin:0 0 8px}._nghost-%ID%  .wrapper > header  p{font-size:12px;font-weight:400;margin:0}._nghost-%ID%  .wrapper > footer [footer]{display:flex;flex-shrink:0;justify-content:flex-end}._nghost-%ID%[headered]  .wrapper > header{-moz-box-sizing:border-box;box-sizing:border-box;padding:24px 24px 0;width:100%;background:#616161;padding-bottom:16px}._nghost-%ID%[headered]  .wrapper > header  h1,._nghost-%ID%[headered]  .wrapper > header  h3{font-size:20px;font-weight:500;margin:0 0 8px}._nghost-%ID%[headered]  .wrapper > header  p{font-size:12px;font-weight:400;margin:0}._nghost-%ID%[headered]  .wrapper > header  h1,._nghost-%ID%[headered]  .wrapper > header  h3{color:#fff;margin-bottom:4px}._nghost-%ID%[headered]  .wrapper > header  p{color:white}._nghost-%ID%[headered]  .wrapper > main{padding-top:8px}._nghost-%ID%[info]  .wrapper > header  h1,._nghost-%ID%[info]  .wrapper > header  h3{line-height:40px;margin:0}._nghost-%ID%[info]  .wrapper > header  material-button{float:right}._nghost-%ID%[info]  .wrapper > footer{padding-bottom:24px}"];
-  }, "styles19", "styles$MaterialDialogComponent", "$get$styles$MaterialDialogComponent", function() {
-    return [$.$get$styles19()];
+  }, "styles21", "styles$MaterialDialogComponent", "$get$styles$MaterialDialogComponent", function() {
+    return [$.$get$styles21()];
   }, "styles$MaterialDialogComponent", "MaterialExpansionPanel__closePanelMsg", "$get$MaterialExpansionPanel__closePanelMsg", function() {
     return T.Intl_message("Close panel", null, "ARIA label for a button that closes the panel.", C.Map_empty0, null, null, "_closePanelMsg", null);
   }, "MaterialExpansionPanel__closePanelMsg", "MaterialExpansionPanel__openPanelMsg", "$get$MaterialExpansionPanel__openPanelMsg", function() {
@@ -42931,40 +44200,40 @@
     return [$.$get$styles3()];
   }, "styles$MaterialIconComponent", "BaseMaterialInput_defaultEmptyMessage", "$get$BaseMaterialInput_defaultEmptyMessage", function() {
     return T.Intl_message("Enter a value", null, "Error message when the input is empty and required.", C.Map_empty0, null, null, null, null);
-  }, "BaseMaterialInput_defaultEmptyMessage", "styles20", "$get$styles20", function() {
+  }, "BaseMaterialInput_defaultEmptyMessage", "styles6", "$get$styles6", function() {
     return ["._nghost-%ID%{display:inline-flex;flex-direction:column;outline:none;padding:8px 0;text-align:inherit;width:176px;line-height:initial}.baseline._ngcontent-%ID%{display:inline-flex;flex-direction:column;width:100%}._nghost-%ID%[multiline] .baseline._ngcontent-%ID%{flex-shrink:0}.focused.label-text._ngcontent-%ID%{color:#4285f4}.focused-underline._ngcontent-%ID%,.cursor._ngcontent-%ID%{background-color:#4285f4}.top-section._ngcontent-%ID%{display:flex;flex-direction:row;align-items:baseline;margin-bottom:8px}.input-container._ngcontent-%ID%{flex-grow:100;flex-shrink:100;width:100%;position:relative}.input._ngcontent-%ID%::-ms-clear{display:none}.invalid.counter._ngcontent-%ID%,.invalid.label-text._ngcontent-%ID%,.error-text._ngcontent-%ID%,.focused.error-icon._ngcontent-%ID%{color:#c53929}.invalid.unfocused-underline._ngcontent-%ID%,.invalid.focused-underline._ngcontent-%ID%,.invalid.cursor._ngcontent-%ID%{background-color:#c53929}.right-align._ngcontent-%ID%{text-align:right}.leading-text._ngcontent-%ID%,.trailing-text._ngcontent-%ID%{padding:0 4px;white-space:nowrap}.glyph._ngcontent-%ID%{transform:translateY(8px)}.glyph.leading._ngcontent-%ID%{margin-right:8px}.glyph.trailing._ngcontent-%ID%{margin-left:8px}.glyph[disabled=true]._ngcontent-%ID%{opacity:0.3}input._ngcontent-%ID%,textarea._ngcontent-%ID%{font:inherit;color:inherit;padding:0;margin:0;background-color:transparent;border:0;outline:none;width:100%}input[type=text]._ngcontent-%ID%,input[type=text]:focus._ngcontent-%ID%,input[type=text]:hover._ngcontent-%ID%{border:0;outline:none;box-shadow:none}textarea._ngcontent-%ID%{position:absolute;top:0;right:0;bottom:0;left:0;resize:none;height:100%}input:hover._ngcontent-%ID%,textarea:hover._ngcontent-%ID%{cursor:text;box-shadow:none}input:focus._ngcontent-%ID%,textarea:focus._ngcontent-%ID%{box-shadow:none}input:invalid._ngcontent-%ID%,textarea:invalid._ngcontent-%ID%{box-shadow:none}.label-text.disabled._ngcontent-%ID%,.disabledInput._ngcontent-%ID%{color:rgba(0,0,0,0.38)}input[type=number]._ngcontent-%ID%::-webkit-inner-spin-button,input[type=number]._ngcontent-%ID%::-webkit-outer-spin-button{-webkit-appearance:none}input[type=number]._ngcontent-%ID%{-moz-appearance:textfield}.invisible._ngcontent-%ID%{visibility:hidden}.animated._ngcontent-%ID%,.reset._ngcontent-%ID%{transition:opacity 218ms cubic-bezier(0.4,0,0.2,1),transform 218ms cubic-bezier(0.4,0,0.2,1),font-size 218ms cubic-bezier(0.4,0,0.2,1)}.animated.label-text._ngcontent-%ID%{transform:translateY(-100%) translateY(-8px);font-size:12px}.leading-text.floated-label._ngcontent-%ID%,.trailing-text.floated-label._ngcontent-%ID%,.input-container.floated-label._ngcontent-%ID%{margin-top:16px}.label._ngcontent-%ID%{background:transparent;bottom:0;left:0;pointer-events:none;position:absolute;right:0;top:0}.label-text._ngcontent-%ID%{transform-origin:0%,0%;color:rgba(0,0,0,0.54);overflow:hidden;display:inline-block;max-width:100%}.label-text:not(.multiline)._ngcontent-%ID%{text-overflow:ellipsis;white-space:nowrap}.underline._ngcontent-%ID%{height:1px;overflow:visible}.disabled-underline._ngcontent-%ID%{-moz-box-sizing:border-box;box-sizing:border-box;height:1px;border-bottom:1px dashed;color:rgba(0,0,0,0.12)}.unfocused-underline._ngcontent-%ID%{height:1px;background:rgba(0,0,0,0.12);border-bottom-color:rgba(0,0,0,0.12);position:relative;top:-1px}.focused-underline._ngcontent-%ID%{transform:none;height:2px;position:relative;top:-3px}.focused-underline.invisible._ngcontent-%ID%{transform:scale3d(0,1,1)}.bottom-section._ngcontent-%ID%{display:flex;flex-direction:row;justify-content:space-between;margin-top:4px}.counter._ngcontent-%ID%,.error-text._ngcontent-%ID%,.hint-text._ngcontent-%ID%,.spaceholder._ngcontent-%ID%{font-size:12px}.spaceholder._ngcontent-%ID%{flex-grow:1;outline:none}.counter._ngcontent-%ID%{color:rgba(0,0,0,0.54);white-space:nowrap}.hint-text._ngcontent-%ID%{color:rgba(0,0,0,0.54)}.error-icon._ngcontent-%ID%{height:20px;width:20px}"];
-  }, "styles20", "styles$MaterialInputComponent", "$get$styles$MaterialInputComponent", function() {
-    return [$.$get$styles20()];
-  }, "styles$MaterialInputComponent", "styles13", "$get$styles13", function() {
+  }, "styles6", "styles$MaterialInputComponent", "$get$styles$MaterialInputComponent", function() {
+    return [$.$get$styles6()];
+  }, "styles$MaterialInputComponent", "styles15", "$get$styles15", function() {
     return ["._nghost-%ID%{display:block;background:#fff;margin:0;padding:16px 0;white-space:nowrap}._nghost-%ID%[size=x-small]{width:96px}._nghost-%ID%[size=small]{width:192px}._nghost-%ID%[size=medium]{width:320px}._nghost-%ID%[size=large]{width:384px}._nghost-%ID%[size=x-large]{width:448px}._nghost-%ID%[min-size=x-small]{min-width:96px}._nghost-%ID%[min-size=small]{min-width:192px}._nghost-%ID%[min-size=medium]{min-width:320px}._nghost-%ID%[min-size=large]{min-width:384px}._nghost-%ID%[min-size=x-large]{min-width:448px}._nghost-%ID%  [group]:not(.empty) + *:not(script):not(template):not(.empty),._nghost-%ID%  :not([group]):not(script):not(template):not(.empty) + [group]:not(.empty){border-top:1px solid #e0e0e0;margin-top:7px;padding-top:8px}._nghost-%ID%  [group]:not(.empty) + *:not(script):not(template):not(.empty){box-shadow:inset 0 8px 0 0 #fff}._nghost-%ID%  [separator=present]{background:#e0e0e0;cursor:default;height:1px;margin:8px 0}._nghost-%ID%  [label]{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;color:#9e9e9e;font-size:12px;font-weight:400}._nghost-%ID%  [label].disabled{pointer-events:none}._nghost-%ID%  [label]  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}._nghost-%ID%  [label].disabled  .material-list-item-primary{color:rgba(0,0,0,0.38)}._nghost-%ID%  [label]  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}._nghost-%ID%  [label].disabled  .material-list-item-secondary{color:rgba(0,0,0,0.38)}._nghost-%ID%  [label]  .submenu-icon{transform:rotate(-90deg)}._nghost-%ID%[dir=rtl]  [label]  .submenu-icon,[dir=rtl] ._nghost-%ID%  [label]  .submenu-icon{transform:rotate(90deg)}"];
-  }, "styles13", "styles$MaterialListComponent", "$get$styles$MaterialListComponent", function() {
-    return [$.$get$styles13()];
-  }, "styles$MaterialListComponent", "styles8", "$get$styles8", function() {
-    return ["._nghost-%ID%{display:block}._nghost-%ID%:hover  .secondary-icon.hover-icon{opacity:inherit}.material-list-item-primary.caption-text._ngcontent-%ID%{margin:0 8px}.material-list-item-primary.secondary-icon._ngcontent-%ID%{transition:color 218ms cubic-bezier(0.4,0,0.2,1);width:24px}.material-list-item-primary.secondary-icon:not(.disabled):hover._ngcontent-%ID%{color:rgba(0,0,0,0.87)}.secondary-icon.hover-icon._ngcontent-%ID%{opacity:0;transition:opacity 218ms cubic-bezier(0.4,0,0.2,1)}"];
-  }, "styles8", "styles$MenuItemAffixListComponent", "$get$styles$MenuItemAffixListComponent", function() {
-    return [$.$get$styles8()];
-  }, "styles$MenuItemAffixListComponent", "styles12", "$get$styles12", function() {
-    return ["._nghost-%ID%{display:block;outline:none}.group-header._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;font-size:12px;font-weight:400;color:rgba(0,0,0,0.54);height:24px;line-height:24px;display:flex;justify-content:space-between}.group-header.disabled._ngcontent-%ID%{pointer-events:none}.group-header._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.group-header.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.group-header.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.group-header.is-collapsible._ngcontent-%ID%{cursor:pointer}.expansion-icon._ngcontent-%ID%{align-items:center;cursor:pointer;margin-left:8px}.menu-item._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;display:flex;align-items:center;color:rgba(0,0,0,0.87);cursor:pointer;min-height:32px;outline:none}.menu-item.disabled._ngcontent-%ID%{pointer-events:none}.menu-item._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.menu-item.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.menu-item.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.menu-item:not([separator=present]):hover._ngcontent-%ID%,.menu-item:not([separator=present]):focus._ngcontent-%ID%,.menu-item:not([separator=present]).active._ngcontent-%ID%{background:#eee}.menu-item:not([separator=present]).disabled._ngcontent-%ID%{background:none;color:rgba(0,0,0,0.38);cursor:default;pointer-events:all}.menu-item._ngcontent-%ID% material-icon.disabled._ngcontent-%ID%{color:rgba(0,0,0,0.38)}._nghost-%ID%[dir=rtl] .group-header._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .group-header._ngcontent-%ID%  .submenu-icon,._nghost-%ID%[dir=rtl] .menu-item._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(90deg)}.menu-item.active._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.mouse-driven._ngcontent-%ID% .menu-item:not(:hover)._ngcontent-%ID%{background-color:inherit}.mouse-driven._ngcontent-%ID% .menu-item:hover._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.keyboard-driven._ngcontent-%ID% .menu-item:not(.active)._ngcontent-%ID%{background-color:inherit}.keyboard-driven._ngcontent-%ID% .menu-item.is-menu-parent._ngcontent-%ID%{background:#eee}.group:not(.empty):not(:first-child)._ngcontent-%ID%{border-top:1px solid #e0e0e0;margin-top:7px;padding-top:8px}.menu-item-label-section._ngcontent-%ID%{display:inline-flex;flex:1;flex-direction:column;line-height:normal;padding:4px 0}.menu-item-secondary-label._ngcontent-%ID%{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(0,0,0,0.54);font:400 12px/20px Roboto,Noto,sans-serif;letter-spacing:0.02em}.label-annotation._ngcontent-%ID%{color:#0f9d58;font-size:10px;font-weight:700;line-height:10px;text-transform:uppercase}.item-group-list._ngcontent-%ID%{padding:8px 0}.suffix-list._ngcontent-%ID%{margin-left:24px}"];
-  }, "styles12", "styles$MenuItemGroupsComponent", "$get$styles$MenuItemGroupsComponent", function() {
-    return [$.$get$styles12()];
-  }, "styles$MenuItemGroupsComponent", "styles15", "$get$styles15", function() {
-    return [".item-group-list._ngcontent-%ID%{padding:8px 0}"];
-  }, "styles15", "styles$MenuPopupComponent", "$get$styles$MenuPopupComponent", function() {
+  }, "styles15", "styles$MaterialListComponent", "$get$styles$MaterialListComponent", function() {
     return [$.$get$styles15()];
+  }, "styles$MaterialListComponent", "styles10", "$get$styles10", function() {
+    return ["._nghost-%ID%{display:block}._nghost-%ID%:hover  .secondary-icon.hover-icon{opacity:inherit}.material-list-item-primary.caption-text._ngcontent-%ID%{margin:0 8px}.material-list-item-primary.secondary-icon._ngcontent-%ID%{transition:color 218ms cubic-bezier(0.4,0,0.2,1);width:24px}.material-list-item-primary.secondary-icon:not(.disabled):hover._ngcontent-%ID%{color:rgba(0,0,0,0.87)}.secondary-icon.hover-icon._ngcontent-%ID%{opacity:0;transition:opacity 218ms cubic-bezier(0.4,0,0.2,1)}"];
+  }, "styles10", "styles$MenuItemAffixListComponent", "$get$styles$MenuItemAffixListComponent", function() {
+    return [$.$get$styles10()];
+  }, "styles$MenuItemAffixListComponent", "styles14", "$get$styles14", function() {
+    return ["._nghost-%ID%{display:block;outline:none}.group-header._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;font-size:12px;font-weight:400;color:rgba(0,0,0,0.54);height:24px;line-height:24px;display:flex;justify-content:space-between}.group-header.disabled._ngcontent-%ID%{pointer-events:none}.group-header._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.group-header.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.group-header.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.group-header.is-collapsible._ngcontent-%ID%{cursor:pointer}.expansion-icon._ngcontent-%ID%{align-items:center;cursor:pointer;margin-left:8px}.menu-item._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;display:flex;align-items:center;color:rgba(0,0,0,0.87);cursor:pointer;min-height:32px;outline:none}.menu-item.disabled._ngcontent-%ID%{pointer-events:none}.menu-item._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.menu-item.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.menu-item.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.menu-item:not([separator=present]):hover._ngcontent-%ID%,.menu-item:not([separator=present]):focus._ngcontent-%ID%,.menu-item:not([separator=present]).active._ngcontent-%ID%{background:#eee}.menu-item:not([separator=present]).disabled._ngcontent-%ID%{background:none;color:rgba(0,0,0,0.38);cursor:default;pointer-events:all}.menu-item._ngcontent-%ID% material-icon.disabled._ngcontent-%ID%{color:rgba(0,0,0,0.38)}._nghost-%ID%[dir=rtl] .group-header._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .group-header._ngcontent-%ID%  .submenu-icon,._nghost-%ID%[dir=rtl] .menu-item._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(90deg)}.menu-item.active._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.mouse-driven._ngcontent-%ID% .menu-item:not(:hover)._ngcontent-%ID%{background-color:inherit}.mouse-driven._ngcontent-%ID% .menu-item:hover._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.keyboard-driven._ngcontent-%ID% .menu-item:not(.active)._ngcontent-%ID%{background-color:inherit}.keyboard-driven._ngcontent-%ID% .menu-item.is-menu-parent._ngcontent-%ID%{background:#eee}.group:not(.empty):not(:first-child)._ngcontent-%ID%{border-top:1px solid #e0e0e0;margin-top:7px;padding-top:8px}.menu-item-label-section._ngcontent-%ID%{display:inline-flex;flex:1;flex-direction:column;line-height:normal;padding:4px 0}.menu-item-secondary-label._ngcontent-%ID%{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(0,0,0,0.54);font:400 12px/20px Roboto,Noto,sans-serif;letter-spacing:0.02em}.label-annotation._ngcontent-%ID%{color:#0f9d58;font-size:10px;font-weight:700;line-height:10px;text-transform:uppercase}.item-group-list._ngcontent-%ID%{padding:8px 0}.suffix-list._ngcontent-%ID%{margin-left:24px}"];
+  }, "styles14", "styles$MenuItemGroupsComponent", "$get$styles$MenuItemGroupsComponent", function() {
+    return [$.$get$styles14()];
+  }, "styles$MenuItemGroupsComponent", "styles17", "$get$styles17", function() {
+    return [".item-group-list._ngcontent-%ID%{padding:8px 0}"];
+  }, "styles17", "styles$MenuPopupComponent", "$get$styles$MenuPopupComponent", function() {
+    return [$.$get$styles17()];
   }, "styles$MenuPopupComponent", "MaterialPopupComponent__idGenerator", "$get$MaterialPopupComponent__idGenerator", function() {
     return R.SequentialIdGenerator$fromUUID();
-  }, "MaterialPopupComponent__idGenerator", "styles14", "$get$styles14", function() {
+  }, "MaterialPopupComponent__idGenerator", "styles16", "$get$styles16", function() {
     return ['.shadow._ngcontent-%ID%{background:#fff;border-radius:2px;transition:transform 150ms cubic-bezier(0.4,0,1,1);transform-origin:top left;transform:scale3d(0,0,1);will-change:transform}.shadow[animated]._ngcontent-%ID%{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}.shadow[elevation="1"]._ngcontent-%ID%{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}.shadow[elevation="2"]._ngcontent-%ID%{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}.shadow[elevation="3"]._ngcontent-%ID%{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}.shadow[elevation="4"]._ngcontent-%ID%{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}.shadow[elevation="5"]._ngcontent-%ID%{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}.shadow[elevation="6"]._ngcontent-%ID%{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}.shadow[slide=x]._ngcontent-%ID%{transform:scale3d(0,1,1)}.shadow[slide=y]._ngcontent-%ID%{transform:scale3d(1,0,1)}.shadow.visible._ngcontent-%ID%{transition:transform 150ms cubic-bezier(0,0,0.2,1);transform:scale3d(1,1,1)}.shadow.ink._ngcontent-%ID%{background:#616161;color:#fff}.shadow.full-width._ngcontent-%ID%{flex-grow:1;flex-shrink:1;flex-basis:auto}.shadow._ngcontent-%ID% .popup._ngcontent-%ID%{border-radius:2px;flex-grow:1;flex-shrink:1;flex-basis:auto;overflow:hidden;transition:inherit}.shadow.visible._ngcontent-%ID% .popup._ngcontent-%ID%{visibility:initial}.shadow._ngcontent-%ID% header._ngcontent-%ID%,.shadow._ngcontent-%ID% footer._ngcontent-%ID%{display:block}.shadow._ngcontent-%ID% .main._ngcontent-%ID%{display:flex;flex-direction:column;min-height:inherit;min-width:inherit;max-height:inherit;max-width:inherit;overflow:auto;overscroll-behavior:contain}._nghost-%ID%{justify-content:flex-start;align-items:flex-start}._nghost-%ID%  ::-webkit-scrollbar{background-color:rgba(0,0,0,0);height:4px;width:4px}._nghost-%ID%  ::-webkit-scrollbar:hover{background-color:rgba(0,0,0,0.12)}._nghost-%ID%  ::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.26);min-height:48px;min-width:48px}._nghost-%ID%  ::-webkit-scrollbar-thumb:hover{background-color:#4285f4}._nghost-%ID%  ::-webkit-scrollbar-button{width:0;height:0}.material-popup-content._ngcontent-%ID%{min-width:inherit;min-height:inherit;max-width:inherit;max-height:inherit;position:relative;display:flex;flex-direction:column}.popup-wrapper._ngcontent-%ID%{width:100%}'];
-  }, "styles14", "styles$MaterialPopupComponent", "$get$styles$MaterialPopupComponent", function() {
-    return [$.$get$styles14()];
+  }, "styles16", "styles$MaterialPopupComponent", "$get$styles$MaterialPopupComponent", function() {
+    return [$.$get$styles16()];
   }, "styles$MaterialPopupComponent", "styles", "$get$styles", function() {
     return ["material-ripple {\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  overflow: hidden;\n  border-radius: inherit;\n  contain: strict;\n  transform: translateX(0);\n}\n\n.__acx-ripple {\n  position: absolute;\n  width: 256px;\n  height: 256px;\n  background-color: currentColor;\n  border-radius: 50%;\n  pointer-events: none;\n  will-change: opacity, transform;\n  opacity: 0;\n}\n.__acx-ripple.fallback {\n  animation: __acx-ripple 300ms linear;\n  transform: translateZ(0);\n}\n\n@keyframes __acx-ripple {\n  from {\n    opacity: 0;\n    transform: translateZ(0) scale(0.125);\n  }\n  25%, 50% {\n    opacity: 0.16;\n  }\n  to {\n    opacity: 0;\n    transform: translateZ(0) scale(4);\n  }\n}\n"];
   }, "styles", "styles$MaterialRippleComponent", "$get$styles$MaterialRippleComponent", function() {
     return [$.$get$styles()];
-  }, "styles$MaterialRippleComponent", "styles10", "$get$styles10", function() {
+  }, "styles$MaterialRippleComponent", "styles12", "$get$styles12", function() {
     return ["._nghost-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;display:flex;align-items:center;color:rgba(0,0,0,0.87);cursor:pointer;padding:0 16px;outline:none}._nghost-%ID%.disabled{pointer-events:none}._nghost-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}._nghost-%ID%.disabled  .material-list-item-primary{color:rgba(0,0,0,0.38)}._nghost-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}._nghost-%ID%.disabled  .material-list-item-secondary{color:rgba(0,0,0,0.38)}._nghost-%ID%  .submenu-icon{transform:rotate(-90deg)}._nghost-%ID%:not([separator=present]):hover,._nghost-%ID%:not([separator=present]):focus,._nghost-%ID%:not([separator=present]).active{background:#eee}._nghost-%ID%:not([separator=present]).disabled{background:none;color:rgba(0,0,0,0.38);cursor:default;pointer-events:all}._nghost-%ID%:hover,._nghost-%ID%.active{background:whitesmoke}._nghost-%ID%:not(.multiselect).selected{background:#eee}._nghost-%ID% .selected-accent._ngcontent-%ID%{position:absolute;top:0;left:0;bottom:0;width:3px;background:#9e9e9e}._nghost-%ID% material-checkbox._ngcontent-%ID%{margin:0}.check-container._ngcontent-%ID%{display:inline-block;width:40px}.dynamic-item._ngcontent-%ID%{flex-grow:1}"];
-  }, "styles10", "styles$MaterialSelectItemComponent", "$get$styles$MaterialSelectItemComponent", function() {
-    return [$.$get$styles10()];
+  }, "styles12", "styles$MaterialSelectItemComponent", "$get$styles$MaterialSelectItemComponent", function() {
+    return [$.$get$styles12()];
   }, "styles$MaterialSelectItemComponent", "styles1", "$get$styles1", function() {
     return ['._nghost-%ID%{animation:rotate 1568ms linear infinite;border-color:#4285f4;display:inline-block;height:28px;position:relative;vertical-align:middle;width:28px}.spinner._ngcontent-%ID%{animation:fill-unfill-rotate 5332ms cubic-bezier(0.4,0,0.2,1) infinite both;border-color:inherit;height:100%;display:flex;position:absolute;width:100%}.circle._ngcontent-%ID%{border-color:inherit;height:100%;overflow:hidden;position:relative;width:50%}.circle._ngcontent-%ID%::before{border-bottom-color:transparent!important;border-color:inherit;border-radius:50%;border-style:solid;border-width:3px;bottom:0;box-sizing:border-box;content:"";height:100%;left:0;position:absolute;right:0;top:0;width:200%}.circle.left._ngcontent-%ID%::before{animation:left-spin 1333ms cubic-bezier(0.4,0,0.2,1) infinite both;border-right-color:transparent;transform:rotate(129deg)}.circle.right._ngcontent-%ID%::before{animation:right-spin 1333ms cubic-bezier(0.4,0,0.2,1) infinite both;border-left-color:transparent;left:-100%;transform:rotate(-129deg)}.circle.gap._ngcontent-%ID%{height:50%;left:45%;position:absolute;top:0;width:10%}.circle.gap._ngcontent-%ID%::before{height:200%;left:-450%;width:1000%}@keyframes rotate{to{transform:rotate(360deg)}}@keyframes fill-unfill-rotate{12.5%{transform:rotate(135deg)}25%{transform:rotate(270deg)}37.5%{transform:rotate(405deg)}50%{transform:rotate(540deg)}62.5%{transform:rotate(675deg)}75%{transform:rotate(810deg)}87.5%{transform:rotate(945deg)}to{transform:rotate(1080deg)}}@keyframes left-spin{from{transform:rotate(130deg)}50%{transform:rotate(-5deg)}to{transform:rotate(130deg)}}@keyframes right-spin{from{transform:rotate(-130deg)}50%{transform:rotate(5deg)}to{transform:rotate(-130deg)}}'];
   }, "styles1", "styles$MaterialSpinnerComponent", "$get$styles$MaterialSpinnerComponent", function() {
@@ -42980,36 +44249,40 @@
   }, "styles$MaterialYesNoButtonsComponent", "DomPopupSource__isRtl", "$get$DomPopupSource__isRtl", function() {
     var t1 = W.document();
     return t1.documentElement.dir === "rtl" || t1.body.dir === "rtl";
-  }, "DomPopupSource__isRtl", "styles17", "$get$styles17", function() {
+  }, "DomPopupSource__isRtl", "styles19", "$get$styles19", function() {
     return ["._nghost-%ID%{position:absolute}.ink-container._ngcontent-%ID%{box-sizing:border-box;overflow:hidden;max-width:320px;padding:8px;font-size:12px;font-weight:500;line-height:16px;text-align:left;text-overflow:ellipsis}.aacmtit-ink-tooltip-shadow._ngcontent-%ID%  .popup-wrapper.mixin{margin:8px}"];
-  }, "styles17", "styles$MaterialInkTooltipComponent", "$get$styles$MaterialInkTooltipComponent", function() {
-    return [$.$get$styles17()];
+  }, "styles19", "styles$MaterialInkTooltipComponent", "$get$styles$MaterialInkTooltipComponent", function() {
+    return [$.$get$styles19()];
   }, "styles$MaterialInkTooltipComponent", "supportsAnimationApi", "$get$supportsAnimationApi", function() {
     return P.hasProperty(W.DivElement_DivElement(), "animate") && !$.$get$context0().hasProperty$1("__acxDisableWebAnimationsApi");
   }, "supportsAnimationApi", "SequentialIdGenerator__rnd", "$get$SequentialIdGenerator__rnd", function() {
     return P.Random_Random(null);
   }, "SequentialIdGenerator__rnd", "RouteDefinition__findParameters", "$get$RouteDefinition__findParameters", function() {
     return P.RegExp_RegExp(":([\\w-]+)", true, false);
-  }, "RouteDefinition__findParameters", "styles16", "$get$styles16", function() {
+  }, "RouteDefinition__findParameters", "styles18", "$get$styles18", function() {
     return ["h1._ngcontent-%ID%{font-size:1.2em;color:#999;margin-bottom:0}h2._ngcontent-%ID%{font-size:2em;margin-top:0;padding-top:0}nav._ngcontent-%ID% a._ngcontent-%ID%{padding:5px 10px;text-decoration:none;margin-top:10px;display:inline-block;background-color:#eee;border-radius:4px}nav._ngcontent-%ID% a:visited._ngcontent-%ID%,a:link._ngcontent-%ID%{color:#607D8B}nav._ngcontent-%ID% a:hover._ngcontent-%ID%{color:#039be5;background-color:#CFD8DC}nav._ngcontent-%ID% a.active._ngcontent-%ID%{color:#039be5}div.hrdiv._ngcontent-%ID%{border-bottom:2px solid #A0A0A0;overflow:hidden;width:100%;margin:auto;margin-bottom:.75em}div.appcontainer._ngcontent-%ID%{min-width:600px;max-width:1280px;margin:auto}"];
-  }, "styles16", "styles$AppComponent", "$get$styles$AppComponent", function() {
-    return [$.$get$styles16()];
-  }, "styles$AppComponent", "styles18", "$get$styles18", function() {
-    return ["h1._ngcontent-%ID%{font-size:1.2em;color:#999;margin-bottom:0}h2._ngcontent-%ID%{font-size:2em;margin-top:0;padding-top:0}nav._ngcontent-%ID% a._ngcontent-%ID%{padding:5px 10px;text-decoration:none;margin-top:10px;display:inline-block;background-color:#eee;border-radius:4px}nav._ngcontent-%ID% a:visited._ngcontent-%ID%,a:link._ngcontent-%ID%{color:#607D8B}nav._ngcontent-%ID% a:hover._ngcontent-%ID%{color:#039be5;background-color:#CFD8DC}nav._ngcontent-%ID% a.active._ngcontent-%ID%{color:#039be5}div.hrdiv._ngcontent-%ID%{border-bottom:2px solid #A0A0A0;overflow:hidden;width:100%;margin:auto;margin-bottom:.75em}div.appcontainer._ngcontent-%ID%{min-width:600px;max-width:1280px;margin:auto}"];
-  }, "styles18", "styles$AdminComponent", "$get$styles$AdminComponent", function() {
+  }, "styles18", "styles$AppComponent", "$get$styles$AppComponent", function() {
     return [$.$get$styles18()];
-  }, "styles$AdminComponent", "styles23", "$get$styles23", function() {
+  }, "styles$AppComponent", "styles20", "$get$styles20", function() {
+    return ["h1._ngcontent-%ID%{font-size:1.2em;color:#999;margin-bottom:0}h2._ngcontent-%ID%{font-size:2em;margin-top:0;padding-top:0}nav._ngcontent-%ID% a._ngcontent-%ID%{padding:5px 10px;text-decoration:none;margin-top:10px;display:inline-block;background-color:#eee;border-radius:4px}nav._ngcontent-%ID% a:visited._ngcontent-%ID%,a:link._ngcontent-%ID%{color:#607D8B}nav._ngcontent-%ID% a:hover._ngcontent-%ID%{color:#039be5;background-color:#CFD8DC}nav._ngcontent-%ID% a.active._ngcontent-%ID%{color:#039be5}div.hrdiv._ngcontent-%ID%{border-bottom:2px solid #A0A0A0;overflow:hidden;width:100%;margin:auto;margin-bottom:.75em}div.appcontainer._ngcontent-%ID%{min-width:600px;max-width:1280px;margin:auto}"];
+  }, "styles20", "styles$AdminComponent", "$get$styles$AdminComponent", function() {
+    return [$.$get$styles20()];
+  }, "styles$AdminComponent", "styles24", "$get$styles24", function() {
     return ['[class*="col-"]._ngcontent-%ID%{float:left;padding-right:20px;padding-bottom:20px}[class*="col-"]:last-of-type._ngcontent-%ID%{padding-right:0}a._ngcontent-%ID%{text-decoration:none}*._ngcontent-%ID%,*._ngcontent-%ID%:after,*._ngcontent-%ID%:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}h3._ngcontent-%ID%{text-align:center;margin-bottom:0}h4._ngcontent-%ID%{position:relative}.grid._ngcontent-%ID%{margin:0}.col-1-4._ngcontent-%ID%{width:25%}.module._ngcontent-%ID%{padding:20px;text-align:center;color:#eee;max-height:120px;min-width:120px;background-color:#607D8B;border-radius:2px}.module:hover._ngcontent-%ID%{background-color:#EEE;cursor:pointer;color:#607d8b}.grid-pad._ngcontent-%ID%{padding:10px 0}.grid-pad._ngcontent-%ID% > [class*="col-"]:last-of-type._ngcontent-%ID%{padding-right:20px}@media (max-width:600px){.module._ngcontent-%ID%{font-size:10px;max-height:75px}}@media (max-width:1024px){.grid._ngcontent-%ID%{margin:0}.module._ngcontent-%ID%{min-width:60px}}'];
-  }, "styles23", "styles$DashboardComponent", "$get$styles$DashboardComponent", function() {
-    return [$.$get$styles23()];
-  }, "styles$DashboardComponent", "styles5", "$get$styles5", function() {
+  }, "styles24", "styles$DashboardComponent", "$get$styles$DashboardComponent", function() {
+    return [$.$get$styles24()];
+  }, "styles$DashboardComponent", "styles7", "$get$styles7", function() {
+    return ["table._ngcontent-%ID%{border-collapse:separate;border-spacing:0px .5em}tr._ngcontent-%ID%{background-color:#EEE;border-radius:10px;height:1.5em;padding:.3em}tr:hover._ngcontent-%ID%{color:#607D8B;background-color:#DDD;left:.1em}tr.selected._ngcontent-%ID%{background-color:#CFD8DC!important;color:white;-webkit-transform:translateX(4px) translateY(2px)}tr.selected:hover._ngcontent-%ID%{background-color:#BBD8DC!important;color:white}td._ngcontent-%ID%{padding:5px;padding-left:.75em}td:first-of-type._ngcontent-%ID%{background-color:#607D8B;color:white;padding:0em 0.7em 0 0.7em;border:0px;border-radius:10px 0px 0px 10px;height:1.8em;margin-right:.8em}td._ngcontent-%ID%::nth-of-type(2){padding:0em 0em 0 0.7em}td:last-of-type._ngcontent-%ID%{border:0px;border-radius:0px 10px 10px 0px}td._ngcontent-%ID% button._ngcontent-%ID%{margin-right:1.5em;float:right;margin-bottom:.8em;vertical-align:middle;color:black;font-weight:bold}li._ngcontent-%ID% button.danger._ngcontent-%ID%{background-color:#A94A4B}li._ngcontent-%ID% button.danger:hover._ngcontent-%ID%{background-color:#763334}li._ngcontent-%ID% button.warn._ngcontent-%ID%{background-color:#FDB34C}li._ngcontent-%ID% button.warn:hover._ngcontent-%ID%{background-color:#B17D35}li._ngcontent-%ID% button.info._ngcontent-%ID%{background-color:#4AA66C}li._ngcontent-%ID% button.info:hover._ngcontent-%ID%{background-color:#33744B}div.col-1-2._ngcontent-%ID%{width:50%}div.inlinediv._ngcontent-%ID%{display:inline}div.floatright._ngcontent-%ID% *._ngcontent-%ID%{float:right}material-input#shiftedinput._ngcontent-%ID%{margin-right:1em}material-fab#heavyfab._ngcontent-%ID%{background-color:#db4437;color:white;margin-bottom:3em}"];
+  }, "styles7", "styles$PlayerDetailComponent", "$get$styles$PlayerDetailComponent", function() {
+    return [$.$get$styles7()];
+  }, "styles$PlayerDetailComponent", "styles5", "$get$styles5", function() {
     return ["table._ngcontent-%ID%{border-collapse:separate;border-spacing:0px .5em}tr._ngcontent-%ID%{background-color:#EEE;border-radius:10px;height:1.5em;padding:.3em}tr:hover._ngcontent-%ID%{color:#607D8B;background-color:#DDD;left:.1em}tr.selected._ngcontent-%ID%{background-color:#CFD8DC!important;color:white;-webkit-transform:translateX(4px) translateY(2px)}tr.selected:hover._ngcontent-%ID%{background-color:#BBD8DC!important;color:white}td._ngcontent-%ID%{padding:5px;padding-left:.75em}td:first-of-type._ngcontent-%ID%{background-color:#607D8B;color:white;padding:0em 0.7em 0 0.7em;border:0px;border-radius:10px 0px 0px 10px;height:1.8em;margin-right:.8em}td._ngcontent-%ID%::nth-of-type(2){padding:0em 0em 0 0.7em}td:last-of-type._ngcontent-%ID%{border:0px;border-radius:0px 10px 10px 0px}td._ngcontent-%ID% button._ngcontent-%ID%{margin-right:1.5em;float:right;margin-bottom:.8em;vertical-align:middle;color:black;font-weight:bold}li._ngcontent-%ID% button.danger._ngcontent-%ID%{background-color:#A94A4B}li._ngcontent-%ID% button.danger:hover._ngcontent-%ID%{background-color:#763334}li._ngcontent-%ID% button.warn._ngcontent-%ID%{background-color:#FDB34C}li._ngcontent-%ID% button.warn:hover._ngcontent-%ID%{background-color:#B17D35}li._ngcontent-%ID% button.info._ngcontent-%ID%{background-color:#4AA66C}li._ngcontent-%ID% button.info:hover._ngcontent-%ID%{background-color:#33744B}div.col-1-2._ngcontent-%ID%{width:50%}div.inlinediv._ngcontent-%ID%{display:inline}div.floatright._ngcontent-%ID% *._ngcontent-%ID%{float:right}material-input#shiftedinput._ngcontent-%ID%{margin-right:1em}material-fab#heavyfab._ngcontent-%ID%{background-color:#db4437;color:white;margin-bottom:3em}"];
   }, "styles5", "styles$TournamentDetailComponent", "$get$styles$TournamentDetailComponent", function() {
     return [$.$get$styles5()];
-  }, "styles$TournamentDetailComponent", "styles22", "$get$styles22", function() {
+  }, "styles$TournamentDetailComponent", "styles23", "$get$styles23", function() {
     return ["table._ngcontent-%ID%{border-collapse:separate;border-spacing:0px .5em}tr._ngcontent-%ID%{background-color:#EEE;border-radius:10px;height:1.5em;padding:.3em}tr:hover._ngcontent-%ID%{color:#607D8B;background-color:#DDD;left:.1em}tr.selected._ngcontent-%ID%{background-color:#CFD8DC!important;color:white;-webkit-transform:translateX(4px) translateY(2px)}tr.selected:hover._ngcontent-%ID%{background-color:#BBD8DC!important;color:white}td._ngcontent-%ID%{padding:5px;padding-left:.75em}td:first-of-type._ngcontent-%ID%{background-color:#607D8B;color:white;padding:0em 0.7em 0 0.7em;border:0px;border-radius:10px 0px 0px 10px;height:1.8em;margin-right:.8em}td._ngcontent-%ID%::nth-of-type(2){padding:0em 0em 0 0.7em}td:last-of-type._ngcontent-%ID%{border:0px;border-radius:0px 10px 10px 0px}td._ngcontent-%ID% button._ngcontent-%ID%{margin-right:1.5em;float:right;margin-bottom:.8em;vertical-align:middle;color:black;font-weight:bold}li._ngcontent-%ID% button.danger._ngcontent-%ID%{background-color:#A94A4B}li._ngcontent-%ID% button.danger:hover._ngcontent-%ID%{background-color:#763334}li._ngcontent-%ID% button.warn._ngcontent-%ID%{background-color:#FDB34C}li._ngcontent-%ID% button.warn:hover._ngcontent-%ID%{background-color:#B17D35}li._ngcontent-%ID% button.info._ngcontent-%ID%{background-color:#4AA66C}li._ngcontent-%ID% button.info:hover._ngcontent-%ID%{background-color:#33744B}div.col-1-2._ngcontent-%ID%{width:50%}div.inlinediv._ngcontent-%ID%{display:inline}div.floatright._ngcontent-%ID% *._ngcontent-%ID%{float:right}material-input#shiftedinput._ngcontent-%ID%{margin-right:1em}material-fab#heavyfab._ngcontent-%ID%{background-color:#db4437;color:white;margin-bottom:3em}"];
-  }, "styles22", "styles$TypeListComponent", "$get$styles$TypeListComponent", function() {
-    return [$.$get$styles22()];
+  }, "styles23", "styles$TypeListComponent", "$get$styles$TypeListComponent", function() {
+    return [$.$get$styles23()];
   }, "styles$TypeListComponent", "RoutePaths_dash", "$get$RoutePaths_dash", function() {
     return O.RoutePath$(null, null, "dash", false);
   }, "RoutePaths_dash", "RoutePaths_list", "$get$RoutePaths_list", function() {
@@ -43069,8 +44342,8 @@
   }, "_slashAutoEscape"]);
   Isolate = Isolate.$finishIsolateConstructor(Isolate);
   $ = new Isolate();
-  init.metadata = ["_", "value", "error", null, "stackTrace", "event", "result", "e", "data", "callback", "self", "arg", "parent", "zone", "action", "arg2", "f", "isDisabled", "isVisible", "invocation", "item", "arg1", "key", "m", "control", "index", "completed", "element", true, "a", "object", "b", "s", "o", "arguments", "dict", "postCreate", "n", "promiseError", "captureThis", "promiseValue", "numberOfArguments", "encodedComponent", "chunk", "stack", "reason", "theStackTrace", "elem", "findInAncestors", "didWork_", "theError", "t", "closure", "fn", "errorCode", "ref", "each", "body", "byUserAction", "expandedPanelHeight", "isExpanded", "zoneValues", "success", "specification", "sub", "layoutRects", "affix", "group", "state", "pane", false, "track", "shouldCancel", "results", "highResTimer", "argument", "ev", "arg4", "navigationResult", "routerState", "k", "response", "pair", "key1", "key2", "arg3", "checked"];
-  init.types = [{func: 1, ret: P.Null}, {func: 1, ret: -1}, {func: 1, ret: -1, args: [,]}, {func: 1, ret: [S.AppView, A.MenuItemGroupsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [,]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: P.bool}, {func: 1, ret: [S.AppView, L.MaterialInputComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [W.Event]}, {func: 1, ret: [S.AppView, T.MaterialExpansionPanel], args: [[S.AppView,,], P.int]}, {func: 1, args: [,]}, {func: 1, ret: -1, args: [P.Object]}, {func: 1, ret: -1, args: [W.KeyboardEvent]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: -1, args: [W.MouseEvent]}, {func: 1, ret: P.Null, args: [W.MouseEvent]}, {func: 1, ret: -1, args: [P.bool]}, {func: 1, ret: P.Null, args: [-1]}, {func: 1, ret: [P.Future,,]}, {func: 1, ret: P.bool, args: [P.String]}, {func: 1, ret: -1, args: [W.UIEvent]}, {func: 1, ret: [P.Future, Z.NavigationResult]}, {func: 1, ret: P.bool, args: [W.KeyboardEvent]}, {func: 1, ret: [S.AppView, Q.MenuItemAffixListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [P.bool]}, {func: 1, ret: -1, args: [P.String,,]}, {func: 1, ret: [S.AppView, L.TypeListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.Null, args: [P.String]}, {func: 1, ret: -1, args: [W.Event]}, {func: 1, ret: P.bool, args: [P.bool]}, {func: 1, ret: P.Null, args: [[L.AsyncAction, P.bool]]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: P.String, args: [P.Match]}, {func: 1, ret: P.Null, args: [W.ProgressEvent]}, {func: 1, ret: P.String}, {func: 1, ret: P.Null, args: [N.KeyValueChangeRecord]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord]}, {func: 1, ret: [P.Future, P.bool]}, {func: 1, ret: [S.AppView, F.RaisableMenuComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [{func: 1, ret: -1}]}, {func: 1, ret: [S.AppView, E.MaterialYesNoButtonsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, F.MaterialInkTooltipComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: Y.NgZone}, {func: 1, ret: -1, args: [[P.Set, P.String]]}, {func: 1, ret: -1, named: {temporary: P.bool}}, {func: 1, ret: {futureOr: 1, type: P.bool}, args: [,]}, {func: 1, ret: P.bool, args: [W.Node]}, {func: 1, ret: -1, args: [P.String, P.String]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: -1}]}, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, {func: 1, ret: P.bool, args: [L.MenuItemAffix]}, {func: 1, ret: P.bool, args: [[P.List,,]]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]], args: [W.HtmlElement], named: {track: P.bool}}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num], [P.Rectangle, P.num]]}, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, ret: -1, args: [[L.AsyncAction,,]]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [W.TransitionEvent]}, {func: 1, ret: P.bool, args: [,,]}, {func: 1, ret: M.Injector, opt: [M.Injector]}, {func: 1, ret: [S.AppView, D.MaterialDialogComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [P.String,,]}, {func: 1}, {func: 1, ret: -1, opt: [P.Object]}, {func: 1, ret: [S.AppView, K.DashboardComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [,]}, {func: 1, ret: P.Null, args: [W.DomException]}, {func: 1, ret: U.JsTestability, args: [W.Element]}, {func: 1, ret: [P.List, U.JsTestability]}, {func: 1, ret: U.JsTestability, args: [D.Testability]}, {func: 1, ret: P.bool, args: [[P.Map, P.String,,]]}, {func: 1, ret: P.Null, args: [P.int,,]}, {func: 1, ret: P.Null, args: [,], opt: [,]}, {func: 1, ret: [P._Future,,], args: [,]}, {func: 1, args: [W.Event]}, {func: 1, ret: P.Null, args: [[D.ComponentRef,,]]}, {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool, P.String]}]}, {func: 1, args: [,,]}, {func: 1, ret: P.bool, args: [[P.Set, P.String]]}, {func: 1, ret: [P.Map, P.String,,], args: [O.ImperativeViewRef]}, {func: 1, ret: -1, args: [P.Object, P.StackTrace]}, {func: 1, ret: -1, args: [, P.StackTrace]}, {func: 1, ret: W.Element, args: [W.Node]}, {func: 1, ret: P.Null, args: [[L.AsyncAction,,]]}, {func: 1, ret: [P.Future, P.bool], named: {byUserAction: P.bool}}, {func: 1, ret: -1, args: [,], opt: [,]}, {func: 1, ret: P.JsFunction, args: [,]}, {func: 1, ret: P.Null, opt: [-1]}, {func: 1, ret: [P.JsArray,,], args: [,]}, {func: 1, ret: P.String, args: [P.num]}, {func: 1, ret: [P.List, W.HtmlElement], args: [D._ViewMaterialExpansionPanel4]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel5]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel6]}, {func: 1, ret: P.JsObject, args: [,]}, {func: 1, args: [P.String]}, {func: 1, ret: P.Null, args: [W.FocusEvent]}, {func: 1, ret: P.Null, args: [[P.List, [Y.ListChangeRecord, L.MenuItemAffix]]]}, {func: 1, ret: -1, args: [[D.MenuItem,,]]}, {func: 1, ret: -1, args: [W.KeyboardEvent], named: {shouldPreventDefault: P.bool}}, {func: 1, ret: -1, args: [W.FocusEvent]}, {func: 1, ret: Y.ApplicationRef}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent15]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent16]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, A.MenuItemGroupsComponent], args: [M._ViewMenuPopupComponent1]}, {func: 1, ret: -1, args: [-1]}, {func: 1, ret: P.Null, args: [[P.StreamSubscription, [P.Rectangle, P.num]]]}, {func: 1, ret: P.Null, args: [[P.List, [P.Rectangle, P.num]]]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num]]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent2]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent3]}, {func: 1, ret: P.String, args: [P.Object]}, {func: 1, ret: Q.AppViewUtils}, {func: 1, ret: P.int, args: [P.int, [P.List,,]]}, {func: 1, ret: P.String, args: [L.MenuItemAffix]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]]}, {func: 1, ret: [P.Future,,], args: [,]}, {func: 1, ret: P.int, args: [[P.List, P.int], P.int]}, {func: 1, ret: [P.Future,,], args: [Z.OverlayState, W.HtmlElement]}, {func: 1, ret: [P.Rectangle, P.num], args: [,]}, {func: 1, ret: [P.Rectangle, P.num], args: [-1]}, {func: 1, ret: D.Testability}, {func: 1, ret: P.bool, args: [P.num, P.num]}, {func: 1, ret: -1, args: [W.TouchEvent]}, {func: 1, ret: M.Injector}, {func: 1, ret: [P.Future,,], args: [P.bool]}, {func: 1, ret: P.bool, args: [[P.List, P.bool]]}, {func: 1, ret: R._RateLimitSink, args: [[P.EventSink,,]]}, {func: 1, ret: O.ImperativeViewRef, args: [,]}, {func: 1, ret: P.DateTime}, {func: 1, ret: -1, args: [P.num]}, {func: 1, ret: P.int, args: [P.int]}, {func: 1, ret: P.Null, args: [,], named: {rawValue: P.String}}, {func: 1, ret: P.bool, args: [[Z.AbstractControl,,]]}, {func: 1, ret: [D.ComponentRef,,]}, {func: 1, ret: -1, args: [P.int, P.int]}, {func: 1, ret: P.Null, args: [Z.NavigationResult]}, {func: 1, ret: [P.Future, -1], args: [-1]}, {func: 1, ret: P.String, args: [P.String, N.RouteDefinition]}, {func: 1, ret: [P.Future, M.MutableRouterState], args: [M.MutableRouterState]}, {func: 1, ret: P.Null, args: [U.Response]}, {func: 1, ret: P.Null, args: [P.Symbol0,,]}, {func: 1, ret: [P.List, G.MenuPopupComponent], args: [G._ViewRaisableMenuComponent3]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: [P.List, T.MaterialExpansionPanel], args: [Z._ViewTypeListComponent1]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent1]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent2]}, {func: 1, ret: P.bool, args: [Y.Match0]}, {func: 1, ret: Q.Player, args: [,]}, {func: 1, ret: P.bool, args: [Q.Player]}, {func: 1, ret: P.bool, args: [E.Tournament]}, {func: 1, ret: [P.Future, U.Response], args: [U.Client]}, {func: 1, ret: P.bool, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.String]}, {func: 1, ret: P.Null, args: [Y.NgZoneError]}, {func: 1, ret: -1, args: [[P.List, P.int]]}, {func: 1, ret: U.Response, args: [P.Uint8List]}, {func: 1, ret: P.bool, args: [P.Object]}, {func: 1, ret: R.MediaType}, {func: 1, ret: P.Null, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.int,,]}, {func: 1, ret: P.String, args: [P.String], named: {color: null}}, {func: 1, args: [, P.String]}, {func: 1, bounds: [P.Object], ret: {func: 1, ret: 0}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, bounds: [P.Object, P.Object], ret: {func: 1, ret: 0, args: [1]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: {func: 1, ret: 0, args: [1, 2]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1, args: [P.Timer]}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, ret: -1, args: [P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, [P.Map,,,]]}, {func: 1, ret: [P.Map, P.String, P.String], args: [[P.Map, P.String, P.String], P.String]}, {func: 1, ret: P.int, args: [,]}, {func: 1, ret: P.int, args: [P.Object]}, {func: 1, ret: P.bool, args: [P.Object, P.Object]}, {func: 1, args: [[P.Map,,,]], opt: [{func: 1, ret: -1, args: [P.Object]}]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: -1, args: [P.Function]}, {func: 1, ret: P.Object, args: [P.int,,]}, {func: 1, ret: [S.AppView, Z.DynamicComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.HighlightedTextComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.ModalComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, B.MaterialCheckboxComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.String, P.int]}, {func: 1, ret: -1, args: [P.String], opt: [,]}, {func: 1, ret: P.int, args: [P.int, P.int]}, {func: 1, ret: P.Null, args: [{func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [, P.StackTrace]}, {func: 1, ret: [S.AppView, G.MenuPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.MaterialPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Uint8List, args: [P.int]}, {func: 1, ret: P.String, args: [,]}, {func: 1, bounds: [P.Object], ret: 0, args: [{func: 1, ret: 0}]}, {func: 1, bounds: [P.Object], ret: {func: 1, args: [0]}, args: [{func: 1, args: [0]}, P.Duration]}, {func: 1, ret: [S.AppView, Q.AppComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, O.AdminComponent], args: [[S.AppView,,], P.int]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, ret: [S.AppView, E.TournamentDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.List,,]}, {func: 1, ret: P.Uint8List, args: [,,]}, {func: 1, ret: P.Null, args: [P.num]}];
+  init.metadata = ["_", "index", "value", "error", null, "stackTrace", "event", "result", "e", "data", "callback", "self", "arg", "parent", "zone", "action", "f", "key", "each", "isDisabled", "isVisible", "object", "invocation", "item", "arg1", "arg2", "m", "pair", "control", "completed", "element", true, "a", "b", "s", "o", "arguments", "dict", "postCreate", "n", "name", "captureThis", "promiseError", "promiseValue", "encodedComponent", "chunk", "stack", "reason", "theStackTrace", "elem", "findInAncestors", "didWork_", "theError", "t", "numberOfArguments", "fn", "errorCode", "ref", "closure", "checked", "validator", "expandedPanelHeight", "isExpanded", "zoneValues", "success", "status", "specification", "sub", "layoutRects", "affix", "group", "state", "pane", false, "track", "shouldCancel", "results", "highResTimer", "argument", "ev", "arg4", "navigationResult", "routerState", "k", "response", "barcode", "arg3", "key1", "key2", "body", "byUserAction"];
+  init.types = [{func: 1, ret: P.Null}, {func: 1, ret: -1}, {func: 1, ret: -1, args: [,]}, {func: 1, ret: [S.AppView, A.MenuItemGroupsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [,]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: P.bool}, {func: 1, args: [,]}, {func: 1, ret: -1, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.Event]}, {func: 1, ret: [S.AppView, T.MaterialExpansionPanel], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, L.MaterialInputComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.Object]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: -1, args: [W.KeyboardEvent]}, {func: 1, ret: -1, args: [W.MouseEvent]}, {func: 1, ret: [P.Future,,]}, {func: 1, ret: P.Null, args: [-1]}, {func: 1, ret: -1, args: [P.bool]}, {func: 1, ret: P.bool, args: [P.String]}, {func: 1, ret: -1, args: [W.UIEvent]}, {func: 1, ret: P.Null, args: [W.MouseEvent]}, {func: 1, ret: [P.Future, Z.NavigationResult]}, {func: 1, ret: P.Null, args: [P.String]}, {func: 1, ret: P.Null, args: [P.bool]}, {func: 1, ret: P.bool, args: [W.KeyboardEvent]}, {func: 1, ret: [S.AppView, Q.MenuItemAffixListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [[L.AsyncAction, P.bool]]}, {func: 1, ret: -1, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.String}, {func: 1, ret: P.bool, args: [P.bool]}, {func: 1, ret: P.Null, args: [W.ProgressEvent]}, {func: 1, ret: [S.AppView, L.TypeListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.String, args: [P.Match]}, {func: 1, ret: P.bool, args: [,]}, {func: 1, ret: -1, args: [W.Event]}, {func: 1, ret: [S.AppView, F.RaisableMenuComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [N.KeyValueChangeRecord]}, {func: 1, ret: -1, args: [{func: 1, ret: -1}]}, {func: 1, ret: [S.AppView, F.MaterialInkTooltipComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Future, P.bool]}, {func: 1, ret: -1, args: [P.String, P.String]}, {func: 1, ret: [S.AppView, E.MaterialYesNoButtonsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num], [P.Rectangle, P.num]]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]], args: [W.HtmlElement], named: {track: P.bool}}, {func: 1, ret: P.bool, args: [[P.List,,]]}, {func: 1, ret: P.bool, args: [L.MenuItemAffix]}, {func: 1, ret: [S.AppView, K.DashboardComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.MimeType, args: [P.int]}, {func: 1, ret: P.Null, args: [W.TransitionEvent]}, {func: 1, ret: W.Node, args: [P.int]}, {func: 1, ret: W.Element, args: [P.int]}, {func: 1, ret: -1, args: [[L.AsyncAction,,]]}, {func: 1, ret: {futureOr: 1, type: P.bool}, args: [,]}, {func: 1, ret: -1, named: {temporary: P.bool}}, {func: 1, ret: P.bool, args: [,,]}, {func: 1, ret: -1, args: [[P.Set, P.String]]}, {func: 1, ret: P.bool, args: [W.Node]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: -1}]}, {func: 1, ret: M.Injector, opt: [M.Injector]}, {func: 1, ret: P.Null, args: [P.String,,]}, {func: 1, ret: -1, opt: [P.Object]}, {func: 1, ret: Y.NgZone}, {func: 1, ret: [S.AppView, D.MaterialDialogComponent], args: [[S.AppView,,], P.int]}, {func: 1}, {func: 1, ret: M.Injector}, {func: 1, ret: D.Testability}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: P.Null, args: [Y.NgZoneError]}, {func: 1, ret: Q.AppViewUtils}, {func: 1, ret: Y.ApplicationRef}, {func: 1, ret: -1, args: [P.Function]}, {func: 1, ret: [P.Map,,,], args: [P.int]}, {func: 1, ret: P.JsObject, args: [,]}, {func: 1, ret: [P.JsArray,,], args: [,]}, {func: 1, ret: P.JsFunction, args: [,]}, {func: 1, ret: P.Null, args: [{func: 1, ret: -1}]}, {func: 1, ret: W.Element, args: [W.Node]}, {func: 1, bounds: [P.Object], ret: 0, args: [{func: 1, ret: 0}]}, {func: 1, ret: -1, args: [,], opt: [, P.String]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, ret: [P.List,,]}, {func: 1, ret: P.Null, args: [,], opt: [,]}, {func: 1, ret: U.JsTestability, args: [W.Element]}, {func: 1, ret: [P.List, U.JsTestability]}, {func: 1, ret: U.JsTestability, args: [D.Testability]}, {func: 1, ret: [P._Future,,], args: [,]}, {func: 1, ret: P.bool, args: [[P.Set, P.String]]}, {func: 1, ret: -1, args: [P.Object, P.StackTrace]}, {func: 1, ret: -1, args: [, P.StackTrace]}, {func: 1, ret: -1, args: [,], opt: [,]}, {func: 1, ret: P.Null, args: [[D.ComponentRef,,]]}, {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool, P.String]}]}, {func: 1, args: [,,]}, {func: 1, args: [W.Event]}, {func: 1, ret: [P.Map, P.String,,], args: [O.ImperativeViewRef]}, {func: 1, ret: W.StyleSheet, args: [P.int]}, {func: 1, ret: P.int, args: [[P.List, P.int], P.int]}, {func: 1, ret: W.SpeechRecognitionResult, args: [P.int]}, {func: 1, ret: P.Null, args: [[L.AsyncAction,,]]}, {func: 1, ret: [P.Future, P.bool], named: {byUserAction: P.bool}}, {func: 1, ret: W._Attr, args: [P.int]}, {func: 1, ret: W.Gamepad, args: [P.int]}, {func: 1, ret: P.Null, opt: [-1]}, {func: 1, ret: W.CssRule, args: [P.int]}, {func: 1, ret: P.String, args: [P.num]}, {func: 1, ret: [P.List, W.HtmlElement], args: [D._ViewMaterialExpansionPanel4]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel5]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel6]}, {func: 1, ret: W.File, args: [P.int]}, {func: 1, ret: W.TrackDefault, args: [P.int]}, {func: 1, ret: P.Null, args: [W.FocusEvent]}, {func: 1, ret: P.Null, args: [[P.List, [Y.ListChangeRecord, L.MenuItemAffix]]]}, {func: 1, ret: -1, args: [[D.MenuItem,,]]}, {func: 1, ret: -1, args: [W.KeyboardEvent], named: {shouldPreventDefault: P.bool}}, {func: 1, ret: -1, args: [W.FocusEvent]}, {func: 1, ret: W.Touch, args: [P.int]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent15]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent16]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, A.MenuItemGroupsComponent], args: [M._ViewMenuPopupComponent1]}, {func: 1, ret: -1, args: [-1]}, {func: 1, ret: P.Null, args: [[P.StreamSubscription, [P.Rectangle, P.num]]]}, {func: 1, ret: P.Null, args: [[P.List, [P.Rectangle, P.num]]]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num]]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent2]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent3]}, {func: 1, ret: P.String, args: [P.Object]}, {func: 1, ret: W.SpeechRecognitionAlternative, args: [P.int]}, {func: 1, ret: P.int, args: [P.int, [P.List,,]]}, {func: 1, ret: P.String, args: [L.MenuItemAffix]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]]}, {func: 1, ret: [P.Future,,], args: [,]}, {func: 1, ret: W.SpeechGrammar, args: [P.int]}, {func: 1, ret: [P.Future,,], args: [Z.OverlayState, W.HtmlElement]}, {func: 1, ret: [P.Rectangle, P.num], args: [,]}, {func: 1, ret: [P.Rectangle, P.num], args: [-1]}, {func: 1, ret: W.SourceBuffer, args: [P.int]}, {func: 1, ret: P.bool, args: [P.num, P.num]}, {func: 1, ret: -1, args: [W.TouchEvent]}, {func: 1, ret: -1, args: [P.int, P.int]}, {func: 1, ret: {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, args: [,]}, {func: 1, ret: P.bool, args: [[P.List, P.bool]]}, {func: 1, ret: R._RateLimitSink, args: [[P.EventSink,,]]}, {func: 1, ret: O.ImperativeViewRef, args: [,]}, {func: 1, ret: P.Null, args: [P.num]}, {func: 1, ret: -1, args: [P.num]}, {func: 1, ret: P.int, args: [P.int]}, {func: 1, ret: P.Null, args: [,], named: {rawValue: P.String}}, {func: 1, ret: P.bool, args: [[Z.AbstractControl,,]]}, {func: 1, ret: [D.ComponentRef,,]}, {func: 1, ret: W.Plugin, args: [P.int]}, {func: 1, ret: P.Null, args: [Z.NavigationResult]}, {func: 1, ret: [P.Future, -1], args: [-1]}, {func: 1, ret: P.String, args: [P.String, N.RouteDefinition]}, {func: 1, ret: [P.Future, M.MutableRouterState], args: [M.MutableRouterState]}, {func: 1, ret: P.Null, args: [U.Response]}, {func: 1, ret: P.Null, args: [P.Symbol0,,]}, {func: 1, ret: P.Null, args: [L.Barcode]}, {func: 1, ret: [P.List, G.MenuPopupComponent], args: [G._ViewRaisableMenuComponent3]}, {func: 1, args: [, P.String]}, {func: 1, ret: [P.List, T.MaterialExpansionPanel], args: [Z._ViewTypeListComponent1]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent1]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent2]}, {func: 1, ret: -1, args: [P.JsObject]}, {func: 1, ret: P.bool, args: [Y.Match0]}, {func: 1, ret: Q.Player, args: [,]}, {func: 1, ret: P.bool, args: [Q.Player]}, {func: 1, ret: P.bool, args: [E.Tournament]}, {func: 1, ret: [P.Future, U.Response], args: [U.Client]}, {func: 1, ret: P.bool, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.String]}, {func: 1, ret: P.Null, args: [W.DomException]}, {func: 1, ret: -1, args: [[P.List, P.int]]}, {func: 1, ret: U.Response, args: [P.Uint8List]}, {func: 1, ret: P.bool, args: [P.Object]}, {func: 1, ret: R.MediaType}, {func: 1, ret: P.Null, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.int,,]}, {func: 1, ret: P.String, args: [P.String], named: {color: null}}, {func: 1, ret: P.bool, args: [[P.Map, P.String,,]]}, {func: 1, bounds: [P.Object], ret: {func: 1, ret: 0}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, bounds: [P.Object, P.Object], ret: {func: 1, ret: 0, args: [1]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: {func: 1, ret: 0, args: [1, 2]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1, args: [P.Timer]}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, ret: -1, args: [P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, [P.Map,,,]]}, {func: 1, ret: [P.Rectangle, P.num], args: [P.int]}, {func: 1, ret: P.int, args: [,]}, {func: 1, ret: P.int, args: [P.Object]}, {func: 1, ret: P.bool, args: [P.Object, P.Object]}, {func: 1, args: [[P.Map,,,]], opt: [{func: 1, ret: -1, args: [P.Object]}]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: W.DataTransferItem, args: [P.int]}, {func: 1, ret: P.Object, args: [P.int,,]}, {func: 1, ret: [S.AppView, Z.DynamicComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.HighlightedTextComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.ModalComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, B.MaterialCheckboxComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.AccessibleNode, args: [P.int]}, {func: 1, ret: P.Null, args: [, P.StackTrace]}, {func: 1, ret: [P.Map, P.String, P.String], args: [[P.Map, P.String, P.String], P.String]}, {func: 1, ret: -1, args: [P.String, P.int]}, {func: 1, ret: -1, args: [P.String], opt: [,]}, {func: 1, ret: [S.AppView, G.MenuPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.MaterialPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Uint8List, args: [,,]}, {func: 1, ret: P.String, args: [,]}, {func: 1, ret: P.Uint8List, args: [P.int]}, {func: 1, bounds: [P.Object], ret: {func: 1, args: [0]}, args: [{func: 1, args: [0]}, P.Duration]}, {func: 1, ret: [S.AppView, Q.AppComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, O.AdminComponent], args: [[S.AppView,,], P.int]}, {func: 1, args: [P.String]}, {func: 1, ret: [S.AppView, Q.PlayerDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.TournamentDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [P.int,,]}, {func: 1, ret: P.int, args: [P.int, P.int]}, {func: 1, ret: P.DateTime}, {func: 1, ret: [P.Future,,], args: [P.bool]}];
   function convertToFastObject(properties) {
     function MyClass() {
     }

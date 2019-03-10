@@ -85,8 +85,8 @@ function startExpress() {
 
             // Create the URL to the locally running express server
             secondaryWindow.loadURL(url.format({
-              pathname: 'localhost:3000',
-              protocol: 'http:',
+              pathname: 'demo.dynamsoft.com/dbr_wasm/barcode_reader_javascript.html',
+              protocol: 'https:',
               slashes: true
             }));
 

@@ -15,7 +15,13 @@ class TournamentService implements DetailListService {
     List<Tournament> returnList = new List.from(mockTournaments);
     return returnList;
   }
-  Future<dynamic> addByMap(Map newObject){
+  Future<dynamic> addByMap(Map map){
+    return null;
+  }
+  Future<dynamic> addByObject(dynamic object){
+    return null;
+  }
+  Future<dynamic> updateByObject(dynamic object){
     return null;
   }
 

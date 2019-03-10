@@ -1,8 +1,49 @@
 <material-expansionpanel
-    #itemExpansion
-    name="{{(item == null) ? '' : item.name + ':' + item.id.toString()}}"
-    (cancel)="printString('Canceling!')"
-    [expanded]="false"
-    [showSaveCancel]="false" >
-  This panel will not be automatically collapsed when there is a click outside of it.
+  #itemExpansion
+  name="Basic Information"
+  [expanded]="false"
+  [showSaveCancel]="false" >
+  <!--
+  // DB ID VALUE
+  -->
+  <div>
+      <div class="inlinediv">
+        <h4 style="display: inherit; margin:8px;">ID:</h4>
+        <material-input
+          placeholder="-"
+          [disabled]="disabledFromLevel(0)"
+          [ngModel] = "item.id.toString()" >
+        </material-input>
+      </div>
+  </div>
+  <!--
+  // DB NAME VALUE
+  -->
+  <div>
+      <div class="inlinediv">
+        <h4 style="display: inherit; margin:8px;">Name:</h4>
+        <material-input
+          placeholder="Name"
+          [disabled]="disabledFromLevel(2)"
+          (keyup)="item.name = $event.target.value"
+          [ngModel] = "item.name" >
+        </material-input>
+      </div>
+  </div>
+  <!--
+  // DB KEY VALUE
+  -->
+  <div>
+      <div class="inlinediv">
+        <h4 style="display: inherit; margin:8px;">Key:</h4>
+        <material-input
+          #ethkeyslot
+          placeholder="64-Bit Key"
+          [disabled]="disabledFromLevel(1)"
+          (keyup)="item.key = $event.target.value"
+          [attr.maxlength]="40"
+          [ngModel] = "item.key" >
+        </material-input>
+      </div>
+    </div>
 </material-expansionpanel>

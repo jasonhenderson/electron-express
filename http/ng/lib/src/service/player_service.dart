@@ -16,15 +16,49 @@ class PlayerService implements DetailListService {
 
   // Static name for all services created by this class
   String getName() => "players";
+  Future<dynamic> updateByObject(dynamic object){
+    return null;
+  }
 
   // Use a simple map to craft a DB call to add a new player
-  Future<Player> addByMap(Map object) async {
+  Future<Player> addByObject(dynamic object) async {
     // Get a handle to a new XHR builder and build a url for it
     var client = BrowserClient();
     var url = 'http://localhost:8080/v1/user/add';
-    print("Adding: ${object['name']}");
-    // Build an XHR body by encoding values from the passed Map object
-    String jsonBody = json.encode( {"Name": object["name"]} );
+    print("Adding: ${object.name}");
+    // Build an XHR body by encoding values from the passed Map
+    String jsonBody = json.encode({
+      "Name": object.name,
+      "Key": object.key
+    });
+    print(jsonBody);
+    // Fire the request with appropriate headers and wait for the response
+    var response = await client.post(url,
+                                    headers: { "Content-Type": "application/json"},
+                                    body: jsonBody);
+    print('Response status: ${response.statusCode}');
+    // If add was successful then use the incoming data to build new item
+    if(response.statusCode == 200){
+        int responseId = json.decode(response.body)["Data"]["id"];
+        print("Returning ID: ${responseId}");
+        // Build new item and return
+        object.id = responseId;
+        return object;
+    }
+    else {
+        print("Error, code: ${response.statusCode}");
+        return null;
+    }
+  }
+
+  // Use a simple map to craft a DB call to add a new player
+  Future<Player> addByMap(Map map) async {
+    // Get a handle to a new XHR builder and build a url for it
+    var client = BrowserClient();
+    var url = 'http://localhost:8080/v1/user/add';
+    print("Adding: ${map['name']}");
+    // Build an XHR body by encoding values from the passed Map
+    String jsonBody = json.encode( {"Name": map["name"]} );
     print(jsonBody);
     // Fire the request with appropriate headers and wait for the response
     var response = await client.post(url,
@@ -44,7 +78,7 @@ class PlayerService implements DetailListService {
         // }
         print("Returning ID: ${responseId}");
         // Build new item and return
-        return Player(responseId, object["name"]);
+        return Player(responseId, map["name"]);
     }
     else {
         print("Error, code: ${response.statusCode}");
