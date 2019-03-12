@@ -1,87 +1,14 @@
-table{
-  border-collapse: separate;
-  border-spacing: 0px .5em;
-}
-tr{
-  background-color: #EEE;
-  border-radius: 10px;
-  height: 1.5em;
-  padding: .3em;
-}
-tr:hover{
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
-tr.selected {
-  background-color: #CFD8DC !important;
+.danger_button{
+  margin-right: 4em;
   color: white;
-  -webkit-transform: translateX(4px) translateY(2px)
+  background-color: #db4437;
 }
-tr.selected:hover{
-  background-color: #BBD8DC !important;
-  color: white;
+.inlinediv h4{
+  display: inherit;
 }
-td{
-  padding:5px;
-  padding-left: .75em;
+.full_pad{
+  margin:8px;
 }
-td:first-of-type {
-  background-color: #607D8B;
-  color: white;
-  padding: 0em 0.7em 0 0.7em;
-  border: 0px;
-  border-radius: 10px 0px 0px 10px;
-  height: 1.8em;
-  margin-right: .8em;
-}
-td::nth-of-type(2) {
-  padding: 0em 0em 0 0.7em;
-}
-td:last-of-type {
-  border: 0px;
-  border-radius: 0px 10px 10px 0px;
-}
-td button {
-  margin-right: 1.5em;
-  float: right;
-  margin-bottom: .8em;
-  vertical-align: middle;
-  color: black;
-  font-weight: bold;
-}
-li button.danger{
-    background-color: #A94A4B;
-}
-li button.danger:hover{
-    background-color: #763334;
-}
-li button.warn{
-    background-color: #FDB34C;
-}
-li button.warn:hover{
-    background-color: #B17D35;
-}
-li button.info{
-    background-color: #4AA66C;
-}
-li button.info:hover{
-    background-color: #33744B;
-}
-div.col-1-2{
-    width: 50%;
-}
-div.inlinediv{
-    display:inline;
-}
-div.floatright *{
-    float:right
-}
-material-input#shiftedinput{
-  margin-right: 1em;
-}
-material-fab#heavyfab{
-    background-color: #db4437; 
-    color: white; 
-    margin-bottom: 3em;
+.vert_pad{
+  margin:8px 0px 8px 0px;
 }

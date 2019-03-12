@@ -5,7 +5,7 @@ import '../data/mock_tournaments.dart';
 
 import '../type/list_provider_interface.dart';
 
-class TournamentService implements DetailListService {
+class TournamentService implements DetailListService<Tournament> {
 
   String getName() => "tournament";
 
@@ -15,13 +15,13 @@ class TournamentService implements DetailListService {
     List<Tournament> returnList = new List.from(mockTournaments);
     return returnList;
   }
-  Future<dynamic> addByMap(Map map){
+  Future<Tournament> addByMap(Map map){
     return null;
   }
-  Future<dynamic> addByObject(dynamic object){
+  Future<Tournament> addByObject(Tournament object){
     return null;
   }
-  Future<dynamic> updateByObject(dynamic object){
+  Future<Tournament> updateByObject(Tournament object){
     return null;
   }
 

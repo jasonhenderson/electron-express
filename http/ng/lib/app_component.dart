@@ -12,7 +12,7 @@ import 'package:http/http.dart' as http;
 
 import 'src/conf/routes.dart';
 
-import 'src/service/interop_key_service.dart';
+import 'src/service/interop_barcode_service.dart';
 
 @Component(
   selector: 'tr-app',
@@ -50,8 +50,8 @@ import 'src/service/interop_key_service.dart';
   ],
   providers: [
     materialProviders,
-    const Provider(InteropKeyService,
-        useFactory: interopKeyServiceFactory,
+    const Provider(InteropBarcodeService,
+        useFactory: interopBarcodeServiceFactory,
         deps: const [])
   ],
   exports: [
@@ -60,11 +60,10 @@ import 'src/service/interop_key_service.dart';
   ],
 )
 class AppComponent implements OnInit {
-  // Get a handle to current router object when class is constructed
+
+  // Get a handle to current router and interop(force singleton init) objects
   final Router _router;
-  AppComponent(this._router, this._keyService);
-  
-  final InteropKeyService _keyService;
+  AppComponent(this._router);
 
   // Navigation menu for sub-component
   MenuModel<MenuItem> navMenu;
@@ -85,7 +84,6 @@ class AppComponent implements OnInit {
   }
 
   void ngOnInit(){
-    print("Filling menu...");
     // Fill menu on init, since we need to attach to the current router object
     navMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
@@ -103,13 +101,12 @@ class AppComponent implements OnInit {
         ), // END OF ITEM
         MenuItem('Players', action: () =>
           _router.navigate(RoutePaths.list
-                            .toUrl(parameters: {
-                              "type": "players",
-                            }))
+                                      .toUrl(parameters: {
+                                        "type": "players",
+                                      }))
         ), // END OF ITEM
       ])
     ]);
-    print("Done...");
   }
 
 }

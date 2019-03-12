@@ -22,6 +22,7 @@ import 'package:angular_components/material_expansionpanel/material_expansionpan
 import 'package:angular_components/material_expansionpanel/material_expansionpanel_auto_dismiss.dart';
 import 'package:angular_components/material_expansionpanel/material_expansionpanel_set.dart';
 import 'package:angular_components/material_dialog/material_dialog.dart';
+import 'package:angular_components/material_progress/material_progress.dart';
 
 import 'package:angular_components/model/action/async_action.dart';
 import 'package:angular_components/laminate/components/modal/modal.dart';
@@ -54,76 +55,82 @@ import '../../component/detailView/player/player.template.dart' as player_compon
     MaterialExpansionPanel,
     MaterialExpansionPanelSet,
     MaterialExpansionPanelAutoDismiss,
+    MaterialProgressComponent
   ],
   pipes: [commonPipes],
 )
 class TypeListComponent implements OnActivate {
+
+  // Default constructor, grab router at init
+  TypeListComponent(this._router, this._loader);
   // Router for nav to detail view
   Router _router;
-  // Hold on to current service and string title
-  DetailListService _currentService;
-  String _serviceName;
   // Component factory and loader for dynamically loaded content manipulation
   final ComponentLoader _loader;
   ComponentFactory _currentFactory;
   ComponentRef loadedComponent;
 
+  // Hold on to current service and string title
+  DetailListService _currentService;
+  String _serviceName;
+  bool loading = false;
+
   // List of items from calls to current service
-  List < dynamic > listItems = new List();
+  List <dynamic> listItems = new List();
   // Currently selected item handle
   dynamic selected;
+
   // Current value for search text-box
   String _searchText = "";
   void updateSearchText(String text) => _searchText = text;
+
   // Toggle the "New" feature for the current service
   // TODO - Rewrite with type/struct to enforce interface (add/edit)
   String mode = "edit";
+
   // Toggle the "Delete" modal for confirmation before sending DB request
   bool cancelModalVisible = false;
-  AsyncAction cancelModalAction;
-  Completer<bool> cancelModalCompleter;
+  bool deleteModalVisible = false;
+  Completer<bool> modalCompleter;
+
   // Reference to our dynamically loaded content's DOM element
   @ViewChild('itemContainer', read: ViewContainerRef)
   ViewContainerRef domContainer;
 
-  // Default constructor, grab router at init
-  TypeListComponent(this._router, this._loader);
-
   // Use the current service to get every item available (NO FILTER)
-  Future < void > _getServiceItems() async {
-    listItems = await _currentService.getAll();
+  Future <void> _getServiceItems() async {
+    loading = true;
+    listItems = (await _currentService.getAll()) ?? listItems;
+    loading = false;
     // TODO - switch to "getShort()" and only return id/name
   }
 
   // Take current router path and parse into required service, then LOAD
-  @ override
+  @override
   void onActivate(_, RouterState current) async {
     // Get current service from router parameters
     _serviceName = getTypeFrom(current.parameters);
     switch (_serviceName) {
       case "tournaments":
-      print("Loading tournament service...");
-      _currentService = TournamentService();
-      _currentFactory = tournament_component.TournamentDetailComponentNgFactory;
-      break;
+        print("Loading tournament service...");
+        _currentService = TournamentService();
+        _currentFactory = tournament_component.TournamentDetailComponentNgFactory;
+        break;
       case "matches":
-      print("Loading match service...");
-      _currentService = MatchService();
-      break;
+        print("Loading match service...");
+        _currentService = MatchService();
+        break;
       case "players":
-      print("Loading player service...");
-      _currentService = PlayerService();
-      _currentFactory = player_component.PlayerDetailComponentNgFactory;
-      break;
+        print("Loading player service...");
+        _currentService = PlayerService();
+        _currentFactory = player_component.PlayerDetailComponentNgFactory;
+        break;
       default:
-      window.alert("Oops, that service doesn't seem to exist!");
-      print("Failed to find service... bad load!");
-      _router.navigate(RoutePaths.dash.toUrl());
-      return;
-      break;
+        window.alert("Oops, that service doesn't seem to exist!");
+        print("Failed to find service... bad load!");
+        _router.navigate(RoutePaths.dash.toUrl());
     }
     _getServiceItems();
-    print("Done with service load!");
   }
 
   // Simple utility to parse service name from router into capitalized (?) value
@@ -144,12 +151,14 @@ class TypeListComponent implements OnActivate {
     print("Current value is: ${_searchText}");
     event.stopPropagation();
     event.preventDefault();
+    loading = true;
     listItems = await _currentService.searchFor(_searchText);
+    loading = false;
   }
 
   // If we are in edit mode, add a new item and open in free UI
   // If we are already in add mode, ignore the button event
-  void onAddButton(UIEvent event)async {
+  void onAddButton(UIEvent event) async {
     event.stopPropagation();
     event.preventDefault();
     if(mode == "add"){
@@ -162,8 +171,8 @@ class TypeListComponent implements OnActivate {
 
   // Handle the cancellation of a panel
   void onCancel(AsyncAction event) async {
-    cancelModalCompleter = new Completer();
-    event.cancelIf(cancelModalCompleter.future);
+    modalCompleter = new Completer();
+    event.cancelIf(modalCompleter.future);
     print("Cancel requested...");
     cancelModalVisible = true;
   }
@@ -171,7 +180,7 @@ class TypeListComponent implements OnActivate {
   void onConfirmCancel(bool cancel) {
     print("Cancel confirmed: ${cancel.toString()}");
     // Signal modal that a decision has been made
-    cancelModalCompleter.complete(!cancel);
+    modalCompleter.complete(!cancel);
     if(cancel){
       if(mode == "add"){
         mode = "edit";
@@ -184,83 +193,77 @@ class TypeListComponent implements OnActivate {
     cancelModalVisible = false;
   }
 
-  // Handle the saving of a panel
+  // Handle the cancellation of a panel
+  void onDelete() {
+    print("Delete requested...");
+    deleteModalVisible = true;
+  }
+  // Handle the cancellation of a panel
+  void onConfirmDelete() async {
+    print("Delete confirmed...");
+    // Immediately kill UI element to prevent double click issues
+    deleteModalVisible = false;
+    int statusCode = await _currentService.deleteById(selected.id);
+    if (statusCode == 200) {
+      // If we removed from DB successfully then remove from UI list
+      listItems.removeWhere((item) => item.id == selected.id);
+      selected = null;
+    } else {
+      window.alert("Couldn't finish deleting current item!");
+      print("Status code: ${statusCode}");
+    }
+  }
+
+  // Handle the saving of a panel - panels will not auto-close on success/fail
   void onSave(AsyncAction event) async {
     print("Save requested...");
     // Get a handle to injected object
-    dynamic item = loadedComponent.instance.item;
+    // TODO - "item" is injected from "selected" - ref is possible duplicate
+    dynamic loadedItem = loadedComponent.instance.item;
+    dynamic itemRef;
     // If adding, attempt to add and insert into list if successful
     if(mode == "add"){
-      if(item != null){
-        mode = "edit";
-        item = await _currentService.addByObject(item);
-        listItems.removeAt(0);
-        listItems.insert(0, item);
-        return;
+      if(loadedItem != null){
+        // Ensure we have an updated object when moving forward
+        itemRef = await _currentService.addByObject(loadedItem);
+        if(itemRef != null){
+          mode = "edit";
+          listItems.removeAt(0);
+          // Insert new ref for consistency (bad field sets in DB, etc)
+          listItems.insert(0, itemRef);
+        }
       }
     }
     // If editing, attempt to update existing entry in DB
     else {
-      item = await _currentService.updateByObject(item);
+      itemRef = await _currentService.updateByObject(loadedItem);
     }
     // If edit/add return null then alert and do nothing.
-    if(item == null){
+    if(itemRef == null){
       // Null return from current service is bad operation in connector
       window.alert("Couldn't finish current item save!");
     }
     // Add non-null handled, successful edit/update procedure below
     else {
-      int indexPosition = listItems.indexWhere((element)=>element.id == item.id);
+      int indexPosition = listItems.indexWhere((element)=>element.id == loadedItem.id);
       listItems.removeAt(indexPosition);
-      listItems.insert(indexPosition, item);
+      listItems.insert(indexPosition, itemRef);
     }
   }
 
-  // // Extinguish the current event and attempt to confirm DELETE with modal
-  // void onDelete() {
-  //   print("Running delete flow...");
-  //   deleteModalVisible = true;
-  // }
-  //
-  // // Modal confirms DELETE, use current selection ID and feed to current service
-  // void onConfirmDelete() async {
-  //   deleteModalVisible = false;
-  //   int statusCode = 200; // await _currentService.deleteById(selected.id);
-  //   if (statusCode == 200) {
-  //     // If we removed from DB successfully then remove from UI list
-  //     listItems.removeWhere((item) => item.id == selected.id);
-  //     selected = null;
-  //   } else {
-  //     window.alert("Couldn't finish deleting current item!");
-  //     print("Status code: ${statusCode}");
-  //   }
-  // }
-
   // Do other stuff (placeholder event handling)
-  void onButton(UIEvent event, dynamic thing) async {
-    String cmd = (event.currentTarget as HtmlElement).text.trim();
-    print("Button clicked with method ${cmd}");
-    event.stopPropagation();
-    event.preventDefault();
+  void _childButtonListener(String cmd) async {
+    print("Child button clicked with method ${cmd}");
     switch (cmd) {
-      case "Details":
-      print("Running details flow...");
-      // _router.navigate(RoutePaths.detail.toUrl(parameters: {
-      //   "id": thing.id.toString(),
-      //   "function": "details",
-      //   "type": _serviceName
-      // }));
-      // String jsonDetails = await _currentService.details(thing);
-      // doSomethingWithDetails(jsonDetails);
-      break;
-      case "Clone":
-      print("Running clone flow...");
-      // dynamic clone = await _currentService.clone(thing);
-      // listItems.insert(0, thing);
-      // selected = thing;
-      break;
+      case "clone":
+        print("Running clone flow...");
+        break;
+      case "delete":
+        print("Running delete flow...");
+        onDelete();
+        break;
       default:
-      print("ERROR IN FLOW - BAD CMD: $cmd");
+        print("ERROR IN FLOW - BAD CMD: $cmd");
     }
   }
 
@@ -270,14 +273,14 @@ class TypeListComponent implements OnActivate {
       // Delay long enough for template region to register in DOM
       Timer(Duration(milliseconds: 10), () {
         selected = thing;
-        print("Running delayed injection method...");
         // Get component handle after factory injects into DOM
         loadedComponent = _loader.loadNextToLocation(_currentFactory, domContainer);
         // Set current item for view component
-        print("Injecting thing with stuff...");
-        loadedComponent.instance.item = thing;
+        loadedComponent.instance.item = selected;
+        // Set UI locking level
         loadedComponent.instance.lockLevel = (mode == "add" ? 0 : 1);
-        print("Injecting thing finished...");
+        // Add a button listener for child callbacks
+        loadedComponent.instance.buttonStream.listen(_childButtonListener);
       });
     }
   }

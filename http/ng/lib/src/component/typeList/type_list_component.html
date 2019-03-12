@@ -11,7 +11,7 @@ Menu Section (FAB(new) & SEARCH(input))
     </material-fab>
     <h2 style="display: inherit; margin:8px;">{{getSectionTitle(true)}}</h2>
   </div>
-    <div class="col-1-2 inlinediv floatright">
+  <div class="col-1-2 inlinediv floatright">
     <material-input placeholder="Search"
            (input)="updateSearchText($event.target.value)"
            (keyup.enter)="onSearch($event)" ></material-input>
@@ -24,6 +24,11 @@ Menu Section (FAB(new) & SEARCH(input))
 Item Section (from _currentSection)
 [expanded]="(selected == null) ? false : selected.id == item.id"
  -->
+<i *ngIf="(listItems.length == 0) && (!loading)">
+  <h2 style="text-align:center;">EMPTY LIST</h2>
+</i>
+<h2 *ngIf="loading">Loading entries...</h2>
+<material-progress *ngIf="loading" [indeterminate]="true"></material-progress>
 <material-expansionpanel-set focusList>
     <material-expansionpanel *ngFor="let item of listItems"
                               wide
@@ -35,7 +40,7 @@ Item Section (from _currentSection)
                               (cancel)="onCancel($event)"
                               [expanded]="selected?.id == item.id"
                               [closeOnSave]="false">
-        <div *ngIf="itemPanel.isExpanded" style="padding: 8px;">
+        <div *ngIf="itemPanel.isExpanded" class="padder">
           <template #itemContainer></template>
         </div>
     </material-expansionpanel>
@@ -56,6 +61,28 @@ Cancel Confirm/Deny
       </material-button>
       <material-button autoFocus
         (trigger)="onConfirmCancel(false)" >
+        Go Back
+      </material-button>
+    </div>
+  </material-dialog>
+</modal>
+<!--
+Delete Confirm/Deny
+ -->
+<modal [visible]="deleteModalVisible">
+  <material-dialog class="max-height-dialog" autofocus >
+    <h1 header>Confirm DELETE?</h1>
+    <p>
+      Are you sure you want to delete {{selected?.name}}?
+    </p>
+    <div footer>
+      <material-button
+        class="delete_confirm"
+        (trigger)="onConfirmDelete()" >
+        Yes, DELETE
+      </material-button>
+      <material-button autoFocus
+        (trigger)="deleteModalVisible = false" >
         Go Back
       </material-button>
     </div>

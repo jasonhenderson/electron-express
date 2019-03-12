@@ -9,14 +9,10 @@ import 'dart:html';
 // ***************
 import 'package:angular/angular.dart';
 
-import 'package:angular_components/angular_components.dart';
 import 'package:angular_forms/angular_forms.dart';
 
+import 'package:angular_components/angular_components.dart';
 import 'package:angular_components/material_button/material_button.dart';
-
-import 'package:angular_components/laminate/components/modal/modal.dart';
-import 'package:angular_components/auto_dismiss/auto_dismiss.dart';
-
 import 'package:angular_components/material_expansionpanel/material_expansionpanel.dart';
 
 // ***************
@@ -24,7 +20,7 @@ import 'package:angular_components/material_expansionpanel/material_expansionpan
 // ***************
 import '../../../type/player.dart';
 import '../../../type/barcode.dart';
-import '../../../service/interop_key_service.dart';
+import '../../../service/interop_barcode_service.dart';
 
 @Component(
   selector: 'player-detail',
@@ -36,9 +32,6 @@ import '../../../service/interop_key_service.dart';
     MaterialButtonComponent,
     MaterialExpansionPanel,
     materialInputDirectives,
-    AutoDismissDirective,
-    MaterialDialogComponent,
-    ModalComponent,
   ],
   pipes: [commonPipes],
 )
@@ -54,58 +47,51 @@ class PlayerDetailComponent implements OnInit {
   @Input()
   int lockLevel;
 
-  PlayerDetailComponent(this._interopService);
-  InteropKeyService _interopService;
+  PlayerDetailComponent(this._interopService){
+    _buttonStreamer = new StreamController<String>.broadcast(sync: true);
+  }
 
-  // Reference to our dynamically loaded content's DOM element
-  @ViewChild('ethkeyslot', read: MaterialInputComponent)
-  MaterialInputComponent ethereumKeySlot;
+  StreamController<String> _buttonStreamer;
+  Stream<String> get buttonStream => _buttonStreamer.stream;
 
-  // Determine if UI element is unlocked
-  // Lower levels are at increased amounts of guarding from edits
-  bool disabledFromLevel(int level){
+  InteropBarcodeService _interopService; // Injected from app_component
+
+  // Reference to the Material-Input where we want to auto-fill with barcodes
+  @ViewChild('barcode_slot', read: MaterialInputComponent)
+  MaterialInputComponent barcodeSlot;
+
+  // Determine if UI element is locked
+  // Lower levels are at decreased amounts of guarding from edits
+  bool lockLevelIsAtLeast(int level){
     return lockLevel >= level;
   }
 
   // NO ACTION ON INIT
   void ngOnInit() async {
-    print("Init finished");
     print("Current Item : ${item.name}");
-    _interopService.barcodeStream.listen(_streamHandler);
+    _interopService.barcodeStream.listen(_barcodeStreamHandler);
   }
 
-  // Extinguish the current event and attempt to confirm DELETE with modal
-  void onDelete(UIEvent event) async {
-    event.stopPropagation();
+  void buttonCall(UIEvent event, String cmd){
     event.preventDefault();
-    print("Running delete flow...");
+    event.stopPropagation();
+    _buttonStreamer.add(cmd);
   }
 
-  // Modal confirms DELETE, use current selection ID and feed to current service
-  void onConfirmDelete() async {
-    // int statusCode = await _currentService.deleteById(selected.id);
-    // if(statusCode == 200){
-    //   // Success
-    //   // TODO - Go back
-    // } else {
-    window.alert("Couldn't finish deleting current item!");
-    //   print("Status code: ${statusCode}");
-    // }
-  }
-
-  void _streamHandler(Barcode barcode){
-    MaterialInputComponent input = ethereumKeySlot;
-    if(input.focused && (!input.disabled)){
-      input.inputText = barcode.value;
+  void _barcodeStreamHandler(Barcode barcode){
+    if(barcodeSlot.focused && (!barcodeSlot.disabled)){
+      item.key = barcode.value;
     }
   }
 
-  String capitalizedFunction(){
-    // TODO - Fix or ditch
-    return "STUB VALUE";
+  void startBarcodeReader(){
+    if(!barcodeSlot.disabled){
+      _interopService.startStream();
+    }
   }
 
-  void printer(dynamic thing){
-    print(thing);
+  void stopBarcodeReader(){
+    _interopService.stopStream();
   }
+
 }

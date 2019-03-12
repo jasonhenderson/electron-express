@@ -5,20 +5,15 @@ import '../data/mock_matches.dart';
 
 import '../type/list_provider_interface.dart';
 
-class MatchService implements DetailListService {
+class MatchService implements DetailListService<Match> {
 
-  String getName() => "results";
-
-  Future<dynamic> addByMap(Map map){
-    return null;
-  }
-  Future<dynamic> addByObject(dynamic object){
-    return null;
-  }
-  Future<dynamic> updateByObject(dynamic object){
+  Future<Match> addByObject(Match object) {
     return null;
   }
 
+  Future<Match> updateByObject(Match object){
+    return null;
+  }
   Future<List<Match>> getAll() async => mockMatches;
 
   Future<Match> getById(int id) async =>

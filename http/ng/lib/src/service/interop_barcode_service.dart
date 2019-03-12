@@ -13,12 +13,13 @@ import 'dart:async';
 // ***************
 import '../type/barcode.dart';
 
-class InteropKeyService {
+// SINGLETON - Binds to global JS scope, service must be only one to do so
+class InteropBarcodeService {
 
-  InteropKeyService(){
+  InteropBarcodeService(){
     // Set JS global name to interop-enabled Dart function
     // Call from JS with provideValueToKeyService(Object)
-    context['provideValueToKeyService'] = allowInterop(_acceptJsObject);
+    context['jsInteropToDart'] = allowInterop(_acceptJsObject);
     // Initialize the event stream for this singleton
     _barcodeStreamer = new StreamController<Barcode>.broadcast(sync: true);
   }
@@ -27,21 +28,32 @@ class InteropKeyService {
   StreamController<Barcode> _barcodeStreamer;
   Stream<Barcode> get barcodeStream => _barcodeStreamer.stream;
 
+  // Interop function base, handles JsObject conversion into Dart ecosystem
   void _acceptJsObject(JsObject object){
     Barcode barcode = new Barcode();
-    barcode.value = object['value'];
+    // TODO - Add types/filtering to Dart intake function _acceptJsObject
+    // TODO - This, better
+    print(object);
+    barcode.value = object["BarcodeText"].toString().substring(2);
     _barcodeStreamer.add(barcode);
   }
 
+  void startStream(){
+    context['videoStreamer'].callMethod('start', []);
+  }
+
+  void stopStream(){
+    context['videoStreamer'].callMethod('stop', []);
+  }
 }
 
 // Singleton to provide the factory when already instantiated
-InteropKeyService keyServiceSingleton;
+InteropBarcodeService serviceSingleton;
 
 // Create a new service if necessary, return singleton to caller
-InteropKeyService interopKeyServiceFactory(){
-    if(keyServiceSingleton == null){
-      keyServiceSingleton = new InteropKeyService();
+InteropBarcodeService interopBarcodeServiceFactory(){
+    if(serviceSingleton == null){
+      serviceSingleton = new InteropBarcodeService();
     }
-    return keyServiceSingleton;
+    return serviceSingleton;
 }

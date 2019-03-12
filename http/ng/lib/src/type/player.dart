@@ -1,7 +1,7 @@
 class Player {
-  int id;
-  String name;
+  int id = 0;
+  String name = "New";
   String key;
 
-  Player(this.id, this.name);
+  Player();
 }

@@ -38,3 +38,6 @@ div.appcontainer{
     max-width: 1280px;
     margin: auto;
 }
+::ng-deep material-input.interop_fillable .focused-underline{
+    background-color: #27d64b;
+}

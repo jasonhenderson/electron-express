@@ -12,78 +12,46 @@ import 'package:http/browser_client.dart';
 import '../type/player.dart';
 import '../type/list_provider_interface.dart';
 
-class PlayerService implements DetailListService {
+class PlayerService implements DetailListService<Player> {
 
-  // Static name for all services created by this class
-  String getName() => "players";
-  Future<dynamic> updateByObject(dynamic object){
+  Future<Player> updateByObject(Player object){
     return null;
   }
 
   // Use a simple map to craft a DB call to add a new player
-  Future<Player> addByObject(dynamic object) async {
+  Future<Player> addByObject(Player object) async {
     // Get a handle to a new XHR builder and build a url for it
     var client = BrowserClient();
     var url = 'http://localhost:8080/v1/user/add';
     print("Adding: ${object.name}");
+    print("Key: ${object.key}");
     // Build an XHR body by encoding values from the passed Map
     String jsonBody = json.encode({
       "Name": object.name,
       "Key": object.key
     });
     print(jsonBody);
-    // Fire the request with appropriate headers and wait for the response
-    var response = await client.post(url,
-                                    headers: { "Content-Type": "application/json"},
-                                    body: jsonBody);
-    print('Response status: ${response.statusCode}');
-    // If add was successful then use the incoming data to build new item
-    if(response.statusCode == 200){
-        int responseId = json.decode(response.body)["Data"]["id"];
-        print("Returning ID: ${responseId}");
-        // Build new item and return
-        object.id = responseId;
-        return object;
-    }
-    else {
-        print("Error, code: ${response.statusCode}");
-        return null;
-    }
-  }
-
-  // Use a simple map to craft a DB call to add a new player
-  Future<Player> addByMap(Map map) async {
-    // Get a handle to a new XHR builder and build a url for it
-    var client = BrowserClient();
-    var url = 'http://localhost:8080/v1/user/add';
-    print("Adding: ${map['name']}");
-    // Build an XHR body by encoding values from the passed Map
-    String jsonBody = json.encode( {"Name": map["name"]} );
-    print(jsonBody);
-    // Fire the request with appropriate headers and wait for the response
-    var response = await client.post(url,
-                                    headers: { "Content-Type": "application/json"},
-                                    body: jsonBody);
-    print('Response status: ${response.statusCode}');
-    // If add was successful then use the incoming data to build new item
-    if(response.statusCode == 200){
-        Map jsonData = json.decode(response.body)["Data"];
-        int responseId = jsonData["id"];
-        // NOTE - THIS BLOCK CAN BE DROPPED IN IF PARSING NEEDED
-        // int responseId;
-        // if(jsonData["id"] is int){
-        //     responseId = jsonData["id"];
-        // } else if(int.tryParse(jsonData["id"]) is int){
-        //     responseId = int.tryParse(jsonData["id"]);
-        // }
-        print("Returning ID: ${responseId}");
-        // Build new item and return
-        return Player(responseId, map["name"]);
-    }
-    else {
-        print("Error, code: ${response.statusCode}");
-        return null;
-    }
+    try{
+      // Fire the request with appropriate headers and wait for the response
+      var response = await client.post(url,
+                                      headers: { "Content-Type": "application/json"},
+                                      body: jsonBody);
+      print('Response status: ${response.statusCode}');
+      // If add was successful then use the incoming data to build new item
+      if(response.statusCode == 200){
+          dynamic jsonData = json.decode(response.body)["Data"];
+          // TODO - Fix API and return "Id" for consistency
+          print("Returning ID: ${jsonData['id']}");
+          return new Player()
+                      ..id = jsonData["id"]
+                      ..name = object.name
+                      ..key = object.key;
+      }
+      else {
+          print("Error, code: ${response.statusCode}");
+      }
+    } catch (e) {print("Error: ${e.toString()}");}
+    return null;
   }
 
   // Gets all Player entries from the DB
@@ -91,41 +59,56 @@ class PlayerService implements DetailListService {
     // Get a handle to a new XHR builder and build a url for it
     var client = BrowserClient();
     var url = 'http://localhost:8080/v1/user/find/\*';
-    // Fire the request and wait for the response
-    var response = await client.get(url);
-    print('Response status: ${response.statusCode}');
+    try{
+      // Fire the request and wait for the response
+      var response = await client.get(url);
+      print('Response status: ${response.statusCode}');
 
-    // ********************************************************
-    // WARNING - DO NOT CONCATENATE THESE FUNCTIONS IN ANY WAY
-    // WARNING - SERIOUS TYPING ISSUES IF NOT LEFT AS-IS
-    // ********************************************************
-    List<dynamic> jsonList = (json.decode(response.body) as Map)["Data"];
-    List<Player> playerList = new List();
-    if(jsonList != null){
-        playerList = jsonList.map((item) => Player(item["Id"], item["Name"])).toList();
-    }
-    // ********************************************************
+      // ********************************************************
+      // WARNING - DO NOT CONCATENATE THESE FUNCTIONS IN ANY WAY
+      // WARNING - SERIOUS TYPING ISSUES IF NOT LEFT AS-IS
+      // ********************************************************
+      List<dynamic> jsonList = (json.decode(response.body) as Map)["Data"];
+      List<Player> playerList = new List();
+      if(jsonList != null){
+          playerList = jsonList.map((item){
+            return new Player()
+                        ..id = item['Id']
+                        ..name = item['Name']
+                        ..key = item['Key'];
 
-    return playerList;
+          }).toList();
+      }
+      // ********************************************************
+      return playerList;
+    } catch (e) {print("Error: ${e.toString()}"); return null;}
   }
 
   // TODO - Rewrite to use DB function (/get/id)
-  Future<Player> getById(int id) async =>
-      (await getAll()).firstWhere((player) => player.id == id);
+  Future<Player> getById(int id) async {
+    try{
+      // Value is filled if match on ID, null if not found (opaque vs error)
+      return (await getAll()).firstWhere((player) => player.id == id,
+                                          orElse: () => null);
+    } catch (e) {print("Error: ${e.toString()}");}
+    return null;
+  }
 
   // TODO - Combine (ID FIND) with (API SEARCH)
   Future<List<Player>> searchFor(String string) async {
     int testInt;
-    return (await getAll()).where((player){
-      // Try to parse as an int
-      testInt = int.tryParse(string);
-      if(testInt != null){
-        // If we got an int, test against the player id
-        if(player.id == testInt) return true;
-      }
-      // Try to catch the name
-      return player.name.toLowerCase().contains(string.toLowerCase());
-    }).toList();
+    try{
+      return (await getAll()).where((player){
+        // Try to parse as an int
+        testInt = int.tryParse(string);
+        if(testInt != null){
+          // If we got an int, test against the player id
+          if(player.id == testInt) return true;
+        }
+        // Try to catch the name
+        return player.name.toLowerCase().contains(string.toLowerCase());
+      }).toList();
+    } catch (e) {print("Error: ${e.toString()}"); return null;}
   }
 
   Future<int> deleteById(int id) async {
@@ -135,14 +118,16 @@ class PlayerService implements DetailListService {
     var client = BrowserClient();
     String url = 'http://localhost:8080/v1/user/';
     url += id.toString();
-    // Fire the request and wait for the response
-    var response = await client.delete(url);
-    print('Response status: ${response.statusCode}');
-    // Vanilla response code return
-    return response.statusCode;
+    try{
+      // Fire the request and wait for the response
+      var response = await client.delete(url);
+      print('Response status: ${response.statusCode}');
+      // Vanilla response code return
+      return response.statusCode;
+    } catch (e) {print("Error: ${e.toString()}"); return null;}
   }
 
   Player getNew(){
-    return new Player(0, "New");
+    return new Player();
   }
 }

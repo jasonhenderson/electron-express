@@ -1,49 +1,72 @@
-<material-expansionpanel
-  #itemExpansion
-  name="Basic Information"
-  [expanded]="false"
-  [showSaveCancel]="false" >
-  <!--
-  // DB ID VALUE
-  -->
-  <div>
-      <div class="inlinediv">
-        <h4 style="display: inherit; margin:8px;">ID:</h4>
-        <material-input
-          placeholder="-"
-          [disabled]="disabledFromLevel(0)"
-          [ngModel] = "item.id.toString()" >
-        </material-input>
-      </div>
-  </div>
-  <!--
-  // DB NAME VALUE
-  -->
-  <div>
-      <div class="inlinediv">
-        <h4 style="display: inherit; margin:8px;">Name:</h4>
-        <material-input
-          placeholder="Name"
-          [disabled]="disabledFromLevel(2)"
-          (keyup)="item.name = $event.target.value"
-          [ngModel] = "item.name" >
-        </material-input>
-      </div>
-  </div>
-  <!--
-  // DB KEY VALUE
-  -->
-  <div>
-      <div class="inlinediv">
-        <h4 style="display: inherit; margin:8px;">Key:</h4>
-        <material-input
-          #ethkeyslot
-          placeholder="64-Bit Key"
-          [disabled]="disabledFromLevel(1)"
-          (keyup)="item.key = $event.target.value"
-          [attr.maxlength]="40"
-          [ngModel] = "item.key" >
-        </material-input>
-      </div>
+
+<!--
+// General information
+-->
+<div class="full_pad">
+  <material-expansionpanel
+    name="Basic Information"
+    [expanded]="false"
+    [showSaveCancel]="false" >
+    <!--
+    // DB ID VALUE
+    -->
+    <div class="inlinediv">
+      <h4>ID:</h4>
+      <material-input
+        placeholder="-"
+        [disabled]="lockLevelIsAtLeast(0)"
+        [ngModel] = "item.id.toString()" >
+      </material-input>
     </div>
-</material-expansionpanel>
+    <!--
+    // DB NAME VALUE
+    -->
+    <div class="inlinediv">
+      <h4>Name:</h4>
+      <material-input
+        placeholder="Name"
+        [disabled]="lockLevelIsAtLeast(2)"
+        (keyup)="item.name = $event.target.value"
+        [ngModel] = "item.name" >
+      </material-input>
+    </div>
+    <!--
+    // DB KEY VALUE
+    -->
+    <div class="inlinediv">
+      <h4>Key:</h4>
+      <material-input
+        #barcode_slot
+        (focus)="startBarcodeReader()"
+        (blur)="stopBarcodeReader()"
+        class = "interop_fillable"
+        placeholder="64-Bit Key"
+        [disabled]="lockLevelIsAtLeast(1)"
+        (keyup)="item.key = $event.target.value"
+        [attr.maxlength]="40"
+        [ngModel] = "item.key" >
+      </material-input>
+    </div>
+  </material-expansionpanel>
+
+  <!--
+  // Admin Functions - Copy, delete, etc
+  -->
+  <material-expansionpanel
+    name="Administration"
+    [expanded]="false"
+    [showSaveCancel]="false"
+    *ngIf="lockLevelIsAtLeast(1)" >
+    <div class="vert_pad">
+      <material-button
+        raised
+        class="danger_button"
+        (trigger)="buttonCall($event, 'delete')">DELETE</material-button>
+      <material-button
+        raised
+        class="blue"
+        (trigger)="buttonCall($event, 'clone')">Clone</material-button>
+    </div>
+  </material-expansionpanel>
+
+</div>
