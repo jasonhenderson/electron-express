@@ -13,7 +13,6 @@
     <div class="inlinediv">
       <h4>ID:</h4>
       <material-input
-        placeholder="-"
         [disabled]="lockLevelIsAtLeast(0)"
         [ngModel] = "item.id.toString()" >
       </material-input>
@@ -26,25 +25,19 @@
       <material-input
         placeholder="Name"
         [disabled]="lockLevelIsAtLeast(2)"
-        (keyup)="item.name = $event.target.value"
-        [ngModel] = "item.name" >
+        [(ngModel)] = "item.name" >
       </material-input>
     </div>
     <!--
-    // DB KEY VALUE
+    // DB OWNER ID
     -->
     <div class="inlinediv">
-      <h4>Key:</h4>
+      <h4>Owner ID:</h4>
       <material-input
-        #barcode_slot
-        (focus)="startBarcodeReader()"
-        (blur)="stopBarcodeReader()"
-        class = "interop_fillable"
-        placeholder="64-Bit Key"
-        [disabled]="lockLevelIsAtLeast(1)"
-        (keyup)="item.key = $event.target.value"
-        [attr.maxlength]="40"
-        [ngModel] = "item.key" >
+        label="Number"
+        type="number"
+        [(ngModel)]="item.ownerId"
+        [disabled]="lockLevelIsAtLeast(1)" >
       </material-input>
     </div>
   </material-expansionpanel>

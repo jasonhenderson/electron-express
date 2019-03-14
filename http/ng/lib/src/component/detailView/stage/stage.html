@@ -41,6 +41,18 @@
       </material-input>
     </div>
     <!--
+    // DB TOURNAMENT ID
+    -->
+    <div class="inlinediv">
+      <h4>Tournament ID:</h4>
+      <material-input
+        label="Number"
+        type="number"
+        [(ngModel)]="item.tournamentId"
+        [disabled]="lockLevelIsAtLeast(1)" >
+      </material-input>
+    </div>
+    <!--
     // DB MAX ENTRANTS
     -->
     <div class="inlinediv">
@@ -48,7 +60,19 @@
       <material-input
         label="Number"
         type="number"
-        [(ngModel)]="item.settings['maxEntrants']"
+        [(ngModel)]="item.maxEntrants"
+        [disabled]="lockLevelIsAtLeast(1)" >
+      </material-input>
+    </div>
+    <!--
+    // DB MAX ROUNDS
+    -->
+    <div class="inlinediv">
+      <h4>Max Rounds:</h4>
+      <material-input
+        label="Number"
+        type="number"
+        [(ngModel)]="item.maxRounds"
         [disabled]="lockLevelIsAtLeast(1)" >
       </material-input>
     </div>

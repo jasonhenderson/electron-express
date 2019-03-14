@@ -9,7 +9,7 @@ import 'package:http/browser_client.dart';
 // ***************
 // PROJECT IMPORTS
 // ***************
-import '../type/tournament.dart';
+import '../type/event.dart';
 import '../type/list_provider_interface.dart';
 
 // ***************
@@ -28,20 +28,20 @@ DELETE
 ​/tournament​/{id}
 */
 
-class TournamentService implements DetailListService<Tournament> {
+class EventService implements DetailListService<Event> {
 
   static String baseUrl = "http://localhost:8080/v1/";
-  static String coreUrl = "tournament/";
+  static String coreUrl = "event/";
 
   String endpointUrl(String endpoint){
     return baseUrl + coreUrl + endpoint;
   }
 
-  Tournament getNew(){
-    return new Tournament();
+  Event getNew(){
+    return new Event();
   }
 
-  Future<List<Tournament>> getAll() async {
+  Future<List<Event>> getAll() async {
     print("Getting: all");
     try{
       // Fire the request and wait for the response
@@ -53,14 +53,13 @@ class TournamentService implements DetailListService<Tournament> {
         // WARNING - SERIOUS TYPING ISSUES IF NOT LEFT AS-IS
         // ********************************************************
         List<dynamic> jsonList = (json.decode(response.body) as Map)["Data"];
-        List<Tournament> tournamentList = new List();
+        List<Event> tournamentList = new List();
         if(jsonList != null){
             tournamentList = jsonList.map((item){
-              return new Tournament()
+              return new Event()
                           ..id = item['Id']
                           ..name = item['Name']
-                          ..ownerId = item['OwnerId']
-                          ..settings = json.decode(item['Settings']);
+                          ..ownerId = item['OwnerId'];
             }).toList();
         }
         // ********************************************************
@@ -72,7 +71,7 @@ class TournamentService implements DetailListService<Tournament> {
      return null;
   }
 
-  Future<Tournament> addByObject(Tournament object) async {
+  Future<Event> addByObject(Event object) async {
     String jsonBody = json.encode({
       "Name": object.name,
       "OwnerId": object.ownerId,
@@ -91,11 +90,10 @@ class TournamentService implements DetailListService<Tournament> {
         dynamic jsonData = json.decode(response.body)["Data"];
         // TODO - Fix API and return "Id" for consistency
         print("Returning ID: ${jsonData['id']}");
-        return new Tournament()
+        return new Event()
                     ..id = jsonData["id"]
                     ..name = object.name
-                    ..ownerId = object.ownerId
-                    ..settings = object.settings;
+                    ..ownerId = object.ownerId;
       }
       else {
         throw new Exception("Bad status code - ${response.statusCode}");
@@ -105,11 +103,11 @@ class TournamentService implements DetailListService<Tournament> {
   }
 
   // TODO - finish
-  Future<Tournament> updateByObject(Tournament object){
+  Future<Event> updateByObject(Event object){
     return null;
   }
 
-  Future<Tournament> getById(int id) async {
+  Future<Event> getById(int id) async{
     print("Getting: ${id}");
     try{
       // Fire the request with appropriate headers and wait for the response
@@ -118,11 +116,10 @@ class TournamentService implements DetailListService<Tournament> {
       // If add was successful then use the incoming data to build new item
       if(response.statusCode == 200){
           dynamic jsonData = json.decode(response.body)["Data"];
-          return new Tournament()
+          return new Event()
                       ..id = id
                       ..name = jsonData["Name"]
-                      ..ownerId = jsonData["OwnerId"]
-                      ..settings = jsonData["Settings"];
+                      ..ownerId = jsonData["OwnerId"];
       }
       else {
         throw new Exception("Bad status code - ${response.statusCode}");
@@ -131,7 +128,7 @@ class TournamentService implements DetailListService<Tournament> {
     return null;
   }
 
-  Future<List<Tournament>> searchFor(String string) async {
+  Future<List<Event>> searchFor(String string) async {
     int testInt;
     return (await getAll()).where((tournament){
       // Try to parse as an int

@@ -1,6 +1,10 @@
 class Tournament {
-  final int id;
-  String name;
+  int id = 0;
+  int ownerId = 0;
+  String name = "New";
+  Map<dynamic, dynamic> settings = {
+    "maxEntrants": 100
+  };
 
-  Tournament(this.id, this.name);
+  Tournament();
 }

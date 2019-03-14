@@ -14,32 +14,33 @@ import 'package:angular_forms/angular_forms.dart';
 import 'package:angular_components/angular_components.dart';
 import 'package:angular_components/material_button/material_button.dart';
 import 'package:angular_components/material_expansionpanel/material_expansionpanel.dart';
+import 'package:angular_components/material_input/material_input.dart';
+import 'package:angular_components/material_input/material_number_accessor.dart';
 
 // ***************
 // PROJECT IMPORTS
 // ***************
-import '../../../type/player.dart';
-import '../../../type/barcode.dart';
-import '../../../service/interop_barcode_service.dart';
+import '../../../type/game.dart';
 
 @Component(
-  selector: 'player-detail',
-  templateUrl: 'player.html',
-  styleUrls: ['player.css'],
+  selector: 'game-detail',
+  templateUrl: 'game.html',
+  styleUrls: ['game.css'],
   directives: [
     coreDirectives,
     formDirectives,
     MaterialButtonComponent,
     MaterialExpansionPanel,
     materialInputDirectives,
+    materialNumberInputDirectives,
   ],
   pipes: [commonPipes],
 )
-class PlayerDetailComponent implements OnInit {
+class GameDetailComponent implements OnInit {
 
   // Hold on to current item
   @Input()
-  Player item;
+  Game item;
 
   // Track lock level (UI MOD)
   // 0 - New/free entity (DB reject on duplicate keys, id, etc)
@@ -47,18 +48,12 @@ class PlayerDetailComponent implements OnInit {
   @Input()
   int lockLevel;
 
-  PlayerDetailComponent(this._interopService){
+  StageDetailComponent(){
     _buttonStreamer = new StreamController<String>.broadcast(sync: true);
   }
 
   StreamController<String> _buttonStreamer;
   Stream<String> get buttonStream => _buttonStreamer.stream;
-
-  InteropBarcodeService _interopService; // Injected from app_component
-
-  // Reference to the Material-Input where we want to auto-fill with barcodes
-  @ViewChild('barcode_slot', read: MaterialInputComponent)
-  MaterialInputComponent barcodeSlot;
 
   // Determine if UI element is locked
   // Lower levels are at decreased amounts of guarding from edits
@@ -68,30 +63,13 @@ class PlayerDetailComponent implements OnInit {
 
   // NO ACTION ON INIT
   void ngOnInit() async {
-    print("Current Item : ${item.name}");
-    _interopService.barcodeStream.listen(_barcodeStreamHandler);
+    print("Current Game : ${item.id.toString()}");
   }
 
   void buttonCall(UIEvent event, String cmd){
     event.preventDefault();
     event.stopPropagation();
     _buttonStreamer.add(cmd);
-  }
-
-  void _barcodeStreamHandler(Barcode barcode){
-    if(barcodeSlot.focused && (!barcodeSlot.disabled)){
-      item.key = barcode.value;
-    }
-  }
-
-  void startBarcodeReader(){
-    if(!barcodeSlot.disabled){
-      _interopService.startStream();
-    }
-  }
-
-  void stopBarcodeReader(){
-    _interopService.stopStream();
   }
 
 }

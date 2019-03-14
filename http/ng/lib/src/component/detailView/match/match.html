@@ -29,26 +29,14 @@
       </material-input>
     </div>
     <!--
-    // DB OWNER ID
+    // DB STAGE ID
     -->
     <div class="inlinediv">
-      <h4>Owner ID:</h4>
+      <h4>Round ID:</h4>
       <material-input
         label="Number"
         type="number"
-        [(ngModel)]="item.ownerId"
-        [disabled]="lockLevelIsAtLeast(1)" >
-      </material-input>
-    </div>
-    <!--
-    // DB MAX ENTRANTS
-    -->
-    <div class="inlinediv">
-      <h4>Max Entrants:</h4>
-      <material-input
-        label="Number"
-        type="number"
-        [(ngModel)]="item.settings['maxEntrants']"
+        [(ngModel)]="item.roundId"
         [disabled]="lockLevelIsAtLeast(1)" >
       </material-input>
     </div>

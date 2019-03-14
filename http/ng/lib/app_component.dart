@@ -1,5 +1,7 @@
-import 'package:angular/angular.dart';
 
+import 'package:http/http.dart' as http;
+
+import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 
 import 'package:angular_components/angular_components.dart';
@@ -7,11 +9,7 @@ import 'package:angular_components/material_button/material_button.dart';
 import 'package:angular_components/model/menu/menu.dart';
 
 import 'src/component/raisableMenu/raisable_menu_component.dart';
-
-import 'package:http/http.dart' as http;
-
-import 'src/conf/routes.dart';
-
+import 'src/routing/routes.dart';
 import 'src/service/interop_barcode_service.dart';
 
 @Component(
@@ -89,20 +87,20 @@ class AppComponent implements OnInit {
       MenuItemGroup<MenuItem>([
         MenuItem('Tournaments', action: () =>
           _router.navigate(RoutePaths.list
-                            .toUrl(parameters: {
-                              "type": "tournaments",
-                            }))
+                                      .toUrl(parameters: {
+                                        "type": "tournaments",
+                                      }))
         ), // END OF ITEM
         MenuItem('Matches', action: () =>
           _router.navigate(RoutePaths.list
-                            .toUrl(parameters: {
-                              "type": "matches",
-                            }))
+                                      .toUrl(parameters: {
+                                        "type": "matches",
+                                      }))
         ), // END OF ITEM
-        MenuItem('Players', action: () =>
+        MenuItem('Users', action: () =>
           _router.navigate(RoutePaths.list
                                       .toUrl(parameters: {
-                                        "type": "players",
+                                        "type": "users",
                                       }))
         ), // END OF ITEM
       ])

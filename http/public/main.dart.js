@@ -665,7 +665,7 @@
       noSuchMethod$1: ["super$Interceptor$noSuchMethod", function(receiver, invocation) {
         H.interceptedTypeCheck(invocation, "$isInvocation");
         throw H.wrapException(P.NoSuchMethodError$(receiver, invocation.get$memberName(), invocation.get$positionalArguments(), invocation.get$namedArguments(), null));
-      }, null, "get$noSuchMethod", 5, 0, null, 21],
+      }, null, "get$noSuchMethod", 5, 0, null, 22],
       "%": "ANGLEInstancedArrays|ANGLE_instanced_arrays|AnimationEffectReadOnly|AnimationEffectTiming|AnimationEffectTimingReadOnly|AnimationTimeline|AnimationWorkletGlobalScope|AudioListener|AudioParam|AudioWorkletGlobalScope|AudioWorkletProcessor|AuthenticatorAssertionResponse|AuthenticatorAttestationResponse|AuthenticatorResponse|BackgroundFetchFetch|BackgroundFetchManager|BackgroundFetchSettledFetch|BarProp|BarcodeDetector|Bluetooth|BluetoothCharacteristicProperties|BluetoothRemoteGATTDescriptor|BluetoothRemoteGATTServer|BluetoothRemoteGATTService|BluetoothUUID|Body|BudgetService|BudgetState|CSS|CSSVariableReferenceValue|Cache|CacheStorage|CanvasGradient|CanvasPattern|CanvasRenderingContext2D|Clients|CookieStore|Coordinates|CredentialsContainer|Crypto|CryptoKey|CustomElementRegistry|DOMFileSystemSync|DOMImplementation|DOMMatrix|DOMMatrixReadOnly|DOMParser|DOMQuad|DataTransfer|Database|DeprecatedStorageInfo|DeprecatedStorageQuota|DeprecationReport|DetectedBarcode|DetectedFace|DetectedText|DeviceRotationRate|DirectoryEntrySync|DirectoryReader|DirectoryReaderSync|DocumentOrShadowRoot|DocumentTimeline|EXTBlendMinMax|EXTColorBufferFloat|EXTColorBufferHalfFloat|EXTDisjointTimerQuery|EXTDisjointTimerQueryWebGL2|EXTFragDepth|EXTShaderTextureLOD|EXTTextureFilterAnisotropic|EXT_blend_minmax|EXT_frag_depth|EXT_sRGB|EXT_shader_texture_lod|EXT_texture_filter_anisotropic|EXTsRGB|EntrySync|External|FaceDetector|FileEntrySync|FileReaderSync|FileWriterSync|FontFaceSource|FormData|GamepadButton|GamepadPose|Geolocation|HTMLAllCollection|HTMLHyperlinkElementUtils|Headers|IDBFactory|IDBObserver|IDBObserverChanges|IdleDeadline|ImageBitmapRenderingContext|ImageCapture|InputDeviceCapabilities|IntersectionObserver|InterventionReport|Iterator|KeyframeEffect|KeyframeEffectReadOnly|MediaCapabilities|MediaCapabilitiesInfo|MediaDeviceInfo|MediaError|MediaKeyStatusMap|MediaKeySystemAccess|MediaKeys|MediaKeysPolicy|MediaMetadata|MediaSession|MediaSettingsRange|MemoryInfo|MessageChannel|Metadata|Mojo|MojoHandle|MojoWatcher|MutationObserver|NFC|NavigationPreloadManager|Navigator|NavigatorAutomationInformation|NavigatorConcurrentHardware|NavigatorCookies|NodeFilter|NodeIterator|NonDocumentTypeChildNode|NonElementParentNode|NoncedElement|OESElementIndexUint|OESStandardDerivatives|OESTextureFloat|OESTextureFloatLinear|OESTextureHalfFloat|OESTextureHalfFloatLinear|OESVertexArrayObject|OES_element_index_uint|OES_standard_derivatives|OES_texture_float|OES_texture_float_linear|OES_texture_half_float|OES_texture_half_float_linear|OES_vertex_array_object|OffscreenCanvasRenderingContext2D|PagePopupController|PaintRenderingContext2D|PaintWorkletGlobalScope|Path2D|PaymentAddress|PaymentInstruments|PaymentManager|PaymentResponse|PerformanceNavigation|PerformanceObserver|PerformanceObserverEntryList|PerformanceTiming|PeriodicWave|Permissions|PhotoCapabilities|Position|PositionError|Presentation|PresentationReceiver|PushManager|PushMessageData|PushSubscription|PushSubscriptionOptions|RTCCertificate|RTCIceCandidate|RTCRtpContributingSource|RTCRtpReceiver|RTCRtpSender|RTCSessionDescription|RTCStatsResponse|Range|Report|ReportBody|ReportingObserver|Request|ResizeObserver|Response|SQLError|SQLResultSet|SQLTransaction|SVGAngle|SVGAnimatedAngle|SVGAnimatedBoolean|SVGAnimatedEnumeration|SVGAnimatedInteger|SVGAnimatedNumberList|SVGAnimatedPreserveAspectRatio|SVGAnimatedRect|SVGAnimatedTransformList|SVGMatrix|SVGPreserveAspectRatio|SVGUnitTypes|ScrollState|ScrollTimeline|Selection|SharedArrayBuffer|StaticRange|StorageManager|StyleMedia|StylePropertyMap|StylePropertyMapReadonly|SubtleCrypto|SyncManager|TextDetector|TreeWalker|TrustedHTML|TrustedScriptURL|TrustedURL|URLSearchParams|USBAlternateInterface|USBConfiguration|USBDevice|USBEndpoint|USBInTransferResult|USBInterface|USBIsochronousInTransferPacket|USBIsochronousInTransferResult|USBIsochronousOutTransferPacket|USBIsochronousOutTransferResult|USBOutTransferResult|UnderlyingSourceBase|VRCoordinateSystem|VRDisplayCapabilities|VREyeParameters|VRFrameData|VRFrameOfReference|VRPose|VRStageBounds|VRStageParameters|ValidityState|VideoPlaybackQuality|WEBGL_compressed_texture_atc|WEBGL_compressed_texture_etc1|WEBGL_compressed_texture_pvrtc|WEBGL_compressed_texture_s3tc|WEBGL_debug_renderer_info|WEBGL_debug_shaders|WEBGL_depth_texture|WEBGL_draw_buffers|WEBGL_lose_context|WebGL|WebGL2RenderingContext|WebGL2RenderingContextBase|WebGLBuffer|WebGLCanvas|WebGLColorBufferFloat|WebGLCompressedTextureASTC|WebGLCompressedTextureATC|WebGLCompressedTextureETC|WebGLCompressedTextureETC1|WebGLCompressedTexturePVRTC|WebGLCompressedTextureS3TC|WebGLCompressedTextureS3TCsRGB|WebGLDebugRendererInfo|WebGLDebugShaders|WebGLDepthTexture|WebGLDrawBuffers|WebGLExtensionLoseContext|WebGLFramebuffer|WebGLGetBufferSubDataAsync|WebGLLoseContext|WebGLProgram|WebGLQuery|WebGLRenderbuffer|WebGLRenderingContext|WebGLSampler|WebGLShader|WebGLShaderPrecisionFormat|WebGLSync|WebGLTexture|WebGLTimerQueryEXT|WebGLTransformFeedback|WebGLUniformLocation|WebGLVertexArrayObject|WebGLVertexArrayObjectOES|WebKitMutationObserver|WorkerLocation|WorkerNavigator|Worklet|WorkletAnimation|WorkletGlobalScope|XMLSerializer|XPathEvaluator|XPathExpression|XPathNSResolver|XPathResult|XSLTProcessor|mozRTCIceCandidate|mozRTCSessionDescription"
     },
     JSBool: {
@@ -694,7 +694,7 @@
       },
       noSuchMethod$1: [function(receiver, invocation) {
         return this.super$Interceptor$noSuchMethod(receiver, H.interceptedTypeCheck(invocation, "$isInvocation"));
-      }, null, "get$noSuchMethod", 5, 0, null, 21],
+      }, null, "get$noSuchMethod", 5, 0, null, 22],
       $isNull: 1
     },
     JavaScriptObject: {
@@ -1172,6 +1172,12 @@
       get$isNegative: function(receiver) {
         return receiver === 0 ? 1 / receiver < 0 : receiver < 0;
       },
+      remainder$1: function(receiver, b) {
+        return receiver % b;
+      },
+      abs$0: function(receiver) {
+        return Math.abs(receiver);
+      },
       toInt$0: function(receiver) {
         var t1;
         if (receiver >= -2147483648 && receiver <= 2147483647)
@@ -1181,6 +1187,34 @@
           return t1 + 0;
         }
         throw H.wrapException(P.UnsupportedError$("" + receiver + ".toInt()"));
+      },
+      ceil$0: function(receiver) {
+        var truncated, d;
+        if (receiver >= 0) {
+          if (receiver <= 2147483647) {
+            truncated = receiver | 0;
+            return receiver === truncated ? truncated : truncated + 1;
+          }
+        } else if (receiver >= -2147483648)
+          return receiver | 0;
+        d = Math.ceil(receiver);
+        if (isFinite(d))
+          return d;
+        throw H.wrapException(P.UnsupportedError$("" + receiver + ".ceil()"));
+      },
+      floor$0: function(receiver) {
+        var truncated, d;
+        if (receiver >= 0) {
+          if (receiver <= 2147483647)
+            return receiver | 0;
+        } else if (receiver >= -2147483648) {
+          truncated = receiver | 0;
+          return receiver === truncated ? truncated : truncated - 1;
+        }
+        d = Math.floor(receiver);
+        if (isFinite(d))
+          return d;
+        throw H.wrapException(P.UnsupportedError$("" + receiver + ".floor()"));
       },
       round$0: function(receiver) {
         if (receiver > 0) {
@@ -1197,6 +1231,9 @@
           return lowerLimit;
         if (this.compareTo$1(receiver, upperLimit) > 0)
           return upperLimit;
+        return receiver;
+      },
+      toDouble$0: function(receiver) {
         return receiver;
       },
       toRadixString$1: function(receiver, radix) {
@@ -1236,6 +1273,17 @@
         if (typeof other !== "number")
           throw H.wrapException(H.argumentErrorValue(other));
         return receiver + other;
+      },
+      $sub: function(receiver, other) {
+        H.numTypeCheck(other);
+        if (typeof other !== "number")
+          throw H.wrapException(H.argumentErrorValue(other));
+        return receiver - other;
+      },
+      $mul: function(receiver, other) {
+        if (typeof other !== "number")
+          throw H.wrapException(H.argumentErrorValue(other));
+        return receiver * other;
       },
       $mod: function(receiver, other) {
         var result = receiver % other;
@@ -1307,6 +1355,9 @@
     },
     JSInt: {
       "^": "JSNumber;",
+      abs$0: function(receiver) {
+        return Math.abs(receiver);
+      },
       $isint: 1
     },
     JSDouble: {
@@ -1436,6 +1487,7 @@
         return this.startsWith$2($receiver, pattern, 0);
       },
       substring$2: function(receiver, startIndex, endIndex) {
+        H.intTypeCheck(endIndex);
         if (typeof startIndex !== "number" || Math.floor(startIndex) !== startIndex)
           H.throwExpression(H.argumentErrorValue(startIndex));
         if (endIndex == null)
@@ -1565,7 +1617,7 @@
       },
       $index: function(receiver, index) {
         H.intTypeCheck(index);
-        if (index >= receiver.length || false)
+        if (index >= receiver.length || index < 0)
           throw H.wrapException(H.diagnoseIndexError(receiver, index));
         return receiver[index];
       },
@@ -2410,7 +2462,7 @@
     },
     getType: [function(index) {
       return init.types[H.intTypeCheck(index)];
-    }, null, null, 4, 0, null, 33],
+    }, null, null, 4, 0, null, 31],
     isJsIndexable: function(object, record) {
       var result;
       if (record != null) {
@@ -2475,6 +2527,19 @@
             return;
       }
       return parseInt(source, radix);
+    },
+    Primitives_parseDouble: function(source) {
+      var result, trimmed;
+      if (!/^\s*[+-]?(?:Infinity|NaN|(?:\.\d+|\d+(?:\.\d*)?)(?:[eE][+-]?\d+)?)\s*$/.test(source))
+        return;
+      result = parseFloat(source);
+      if (isNaN(result)) {
+        trimmed = C.JSString_methods.trim$0(source);
+        if (trimmed === "NaN" || trimmed === "+NaN" || trimmed === "-NaN")
+          return result;
+        return;
+      }
+      return result;
     },
     Primitives_objectTypeName: function(object) {
       return H.Primitives__objectClassName(object) + H._joinArguments(H.getRuntimeTypeInfo(object), 0, null);
@@ -2892,7 +2957,7 @@
           return closure.call$4(arg1, arg2, arg3, arg4);
       }
       throw H.wrapException(P.Exception_Exception("Unsupported number of arguments for wrapped closure"));
-    }, null, null, 24, 0, null, 44, 55, 15, 16, 89, 86],
+    }, null, null, 24, 0, null, 44, 42, 17, 18, 57, 47],
     convertDartClosureToJS: function(closure, arity) {
       var $function;
       H.intTypeCheck(arity);
@@ -3972,7 +4037,7 @@
     },
     _stringIdentity: [function(string) {
       return string;
-    }, "call$1", "_js_helper___stringIdentity$closure", 4, 0, 14],
+    }, "call$1", "_js_helper___stringIdentity$closure", 4, 0, 10],
     stringReplaceAllFuncUnchecked: function(receiver, pattern, onMatch, onNonMatch) {
       var t1, startIndex, t2, t3, t4, t5;
       if (!J.getInterceptor$(pattern).$isPattern)
@@ -4076,7 +4141,7 @@
       call$1: [function(key) {
         var t1 = this.$this;
         return H.assertSubtypeOfRuntimeType(t1._fetch$1(H.assertSubtypeOfRuntimeType(key, H.getTypeArgumentByIndex(t1, 0))), H.getTypeArgumentByIndex(t1, 1));
-      }, null, null, 4, 0, null, 17, "call"],
+      }, null, null, 4, 0, null, 19, "call"],
       $signature: function() {
         var t1 = this.$this;
         return {func: 1, ret: H.getTypeArgumentByIndex(t1, 1), args: [H.getTypeArgumentByIndex(t1, 0)]};
@@ -4210,7 +4275,7 @@
       }
     },
     Primitives_functionNoSuchMethod_closure: {
-      "^": "Closure:72;_box_0,namedArgumentList,$arguments",
+      "^": "Closure:51;_box_0,namedArgumentList,$arguments",
       call$2: function($name, argument) {
         var t1;
         H.stringTypeCheck($name);
@@ -4327,7 +4392,7 @@
       "^": "Object;dartException,stackTrace"
     },
     unwrapException_saveStackTrace: {
-      "^": "Closure:7;ex",
+      "^": "Closure:8;ex",
       call$1: function(error) {
         if (!!J.getInterceptor$(error).$isError)
           if (error.$thrownJsError == null)
@@ -4776,7 +4841,7 @@
       call$1: [function(each) {
         var t1 = this.$this;
         return t1.$index(0, H.assertSubtypeOfRuntimeType(each, H.getTypeArgumentByIndex(t1, 0)));
-      }, null, null, 4, 0, null, 18, "call"],
+      }, null, null, 4, 0, null, 20, "call"],
       $signature: function() {
         var t1 = this.$this;
         return {func: 1, ret: H.getTypeArgumentByIndex(t1, 1), args: [H.getTypeArgumentByIndex(t1, 0)]};
@@ -4855,19 +4920,19 @@
       $isIterator: 1
     },
     initHooks_closure: {
-      "^": "Closure:7;getTag",
+      "^": "Closure:8;getTag",
       call$1: function(o) {
         return this.getTag(o);
       }
     },
     initHooks_closure0: {
-      "^": "Closure:232;getUnknownTag",
+      "^": "Closure:244;getUnknownTag",
       call$2: function(o, tag) {
         return this.getUnknownTag(o, tag);
       }
     },
     initHooks_closure1: {
-      "^": "Closure:233;prototypeForTag",
+      "^": "Closure:175;prototypeForTag",
       call$1: function(tag) {
         return this.prototypeForTag(H.stringTypeCheck(tag));
       }
@@ -5386,13 +5451,13 @@
     },
     _AsyncRun__scheduleImmediateJsOverride: [function(callback) {
       self.scheduleImmediate(H.convertDartClosureToJS(new P._AsyncRun__scheduleImmediateJsOverride_internalCallback(H.functionTypeCheck(callback, {func: 1, ret: -1})), 0));
-    }, "call$1", "async__AsyncRun__scheduleImmediateJsOverride$closure", 4, 0, 41],
+    }, "call$1", "async__AsyncRun__scheduleImmediateJsOverride$closure", 4, 0, 45],
     _AsyncRun__scheduleImmediateWithSetImmediate: [function(callback) {
       self.setImmediate(H.convertDartClosureToJS(new P._AsyncRun__scheduleImmediateWithSetImmediate_internalCallback(H.functionTypeCheck(callback, {func: 1, ret: -1})), 0));
-    }, "call$1", "async__AsyncRun__scheduleImmediateWithSetImmediate$closure", 4, 0, 41],
+    }, "call$1", "async__AsyncRun__scheduleImmediateWithSetImmediate$closure", 4, 0, 45],
     _AsyncRun__scheduleImmediateWithTimer: [function(callback) {
       P.Timer__createTimer(C.Duration_0, H.functionTypeCheck(callback, {func: 1, ret: -1}));
-    }, "call$1", "async__AsyncRun__scheduleImmediateWithTimer$closure", 4, 0, 41],
+    }, "call$1", "async__AsyncRun__scheduleImmediateWithTimer$closure", 4, 0, 45],
     Timer__createTimer: function(duration, callback) {
       var milliseconds;
       H.functionTypeCheck(callback, {func: 1, ret: -1});
@@ -5621,7 +5686,7 @@
         if ($._nextCallback != null)
           $.$get$_AsyncRun__scheduleImmediateClosure().call$1(P.async___startMicrotaskLoop$closure());
       }
-    }, "call$0", "async___startMicrotaskLoop$closure", 0, 0, 1],
+    }, "call$0", "async___startMicrotaskLoop$closure", 0, 0, 2],
     _scheduleAsyncCallback: function(callback) {
       var newEntry = new P._AsyncCallbackEntry(H.functionTypeCheck(callback, {func: 1, ret: -1}));
       if ($._nextCallback == null) {
@@ -5710,15 +5775,15 @@
       }
     },
     _nullDataHandler: [function(value) {
-    }, "call$1", "async___nullDataHandler$closure", 4, 0, 12, 1],
+    }, "call$1", "async___nullDataHandler$closure", 4, 0, 14, 1],
     _nullErrorHandler: [function(error, stackTrace) {
       H.interceptedTypeCheck(stackTrace, "$isStackTrace");
       $.Zone__current.handleUncaughtError$2(error, stackTrace);
     }, function(error) {
       return P._nullErrorHandler(error, null);
-    }, "call$2", "call$1", "async___nullErrorHandler$closure", 4, 2, 31, 3, 2, 4],
+    }, "call$2", "call$1", "async___nullErrorHandler$closure", 4, 2, 38, 3, 2, 4],
     _nullDoneHandler: [function() {
-    }, "call$0", "async___nullDoneHandler$closure", 0, 0, 1],
+    }, "call$0", "async___nullDoneHandler$closure", 0, 0, 2],
     _cancelAndValue: function(subscription, future, value) {
       var cancelFuture = subscription.cancel$0(0);
       if (!!J.getInterceptor$(cancelFuture).$isFuture && cancelFuture !== $.$get$Future__nullFuture())
@@ -5756,7 +5821,7 @@
       var t1 = {};
       t1.error = error;
       P._schedulePriorityAsyncCallback(new P._rootHandleUncaughtError_closure(t1, H.interceptedTypeCheck(stackTrace, "$isStackTrace")));
-    }, "call$5", "async___rootHandleUncaughtError$closure", 20, 0, 65],
+    }, "call$5", "async___rootHandleUncaughtError$closure", 20, 0, 70],
     _rootRun: [1, function($self, $parent, zone, f, $R) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5776,7 +5841,7 @@
       }
     }, function($self, $parent, zone, f) {
       return P._rootRun($self, $parent, zone, f, null);
-    }, "call$1$4", "call$4", "async___rootRun$closure", 16, 0, 69, 9, 13, 14, 19],
+    }, "call$1$4", "call$4", "async___rootRun$closure", 16, 0, 65, 10, 14, 15, 21],
     _rootRunUnary: [1, function($self, $parent, zone, f, arg, $R, $T) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5797,7 +5862,7 @@
       }
     }, function($self, $parent, zone, f, arg) {
       return P._rootRunUnary($self, $parent, zone, f, arg, null, null);
-    }, "call$2$5", "call$5", "async___rootRunUnary$closure", 20, 0, 68, 9, 13, 14, 19, 10],
+    }, "call$2$5", "call$5", "async___rootRunUnary$closure", 20, 0, 49, 10, 14, 15, 21, 11],
     _rootRunBinary: [1, function($self, $parent, zone, f, arg1, arg2, $R, T1, T2) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5819,26 +5884,26 @@
       }
     }, function($self, $parent, zone, f, arg1, arg2) {
       return P._rootRunBinary($self, $parent, zone, f, arg1, arg2, null, null, null);
-    }, "call$3$6", "call$6", "async___rootRunBinary$closure", 24, 0, 66, 9, 13, 14, 19, 15, 16],
+    }, "call$3$6", "call$6", "async___rootRunBinary$closure", 24, 0, 73, 10, 14, 15, 21, 17, 18],
     _rootRegisterCallback: [function($self, $parent, zone, f, $R) {
       return H.functionTypeCheck(f, {func: 1, ret: $R});
     }, function($self, $parent, zone, f) {
       return P._rootRegisterCallback($self, $parent, zone, f, null);
-    }, "call$1$4", "call$4", "async___rootRegisterCallback$closure", 16, 0, 197],
+    }, "call$1$4", "call$4", "async___rootRegisterCallback$closure", 16, 0, 211],
     _rootRegisterUnaryCallback: [function($self, $parent, zone, f, $R, $T) {
       return H.functionTypeCheck(f, {func: 1, ret: $R, args: [$T]});
     }, function($self, $parent, zone, f) {
       return P._rootRegisterUnaryCallback($self, $parent, zone, f, null, null);
-    }, "call$2$4", "call$4", "async___rootRegisterUnaryCallback$closure", 16, 0, 198],
+    }, "call$2$4", "call$4", "async___rootRegisterUnaryCallback$closure", 16, 0, 212],
     _rootRegisterBinaryCallback: [function($self, $parent, zone, f, $R, T1, T2) {
       return H.functionTypeCheck(f, {func: 1, ret: $R, args: [T1, T2]});
     }, function($self, $parent, zone, f) {
       return P._rootRegisterBinaryCallback($self, $parent, zone, f, null, null, null);
-    }, "call$3$4", "call$4", "async___rootRegisterBinaryCallback$closure", 16, 0, 199],
+    }, "call$3$4", "call$4", "async___rootRegisterBinaryCallback$closure", 16, 0, 213],
     _rootErrorCallback: [function($self, $parent, zone, error, stackTrace) {
       H.interceptedTypeCheck(stackTrace, "$isStackTrace");
       return;
-    }, "call$5", "async___rootErrorCallback$closure", 20, 0, 200],
+    }, "call$5", "async___rootErrorCallback$closure", 20, 0, 214],
     _rootScheduleMicrotask: [function($self, $parent, zone, f) {
       var t1;
       H.functionTypeCheck(f, {func: 1, ret: -1});
@@ -5846,25 +5911,25 @@
       if (t1)
         f = !(!t1 || C.C__RootZone.get$errorZone() === zone.get$errorZone()) ? zone.bindCallbackGuarded$1(f) : zone.bindCallback$1$1(f, -1);
       P._scheduleAsyncCallback(f);
-    }, "call$4", "async___rootScheduleMicrotask$closure", 16, 0, 71],
+    }, "call$4", "async___rootScheduleMicrotask$closure", 16, 0, 58],
     _rootCreateTimer: [function($self, $parent, zone, duration, callback) {
       H.interceptedTypeCheck(duration, "$isDuration");
       callback = zone.bindCallback$1$1(H.functionTypeCheck(callback, {func: 1, ret: -1}), -1);
       return P.Timer__createTimer(duration, callback);
-    }, "call$5", "async___rootCreateTimer$closure", 20, 0, 64],
+    }, "call$5", "async___rootCreateTimer$closure", 20, 0, 50],
     _rootCreatePeriodicTimer: [function($self, $parent, zone, duration, callback) {
       var milliseconds;
       H.interceptedTypeCheck(duration, "$isDuration");
       callback = zone.bindUnaryCallback$2$1(H.functionTypeCheck(callback, {func: 1, ret: -1, args: [P.Timer]}), null, P.Timer);
       milliseconds = C.JSInt_methods._tdivFast$1(duration._duration, 1000);
       return P._TimerImpl$periodic(milliseconds < 0 ? 0 : milliseconds, callback);
-    }, "call$5", "async___rootCreatePeriodicTimer$closure", 20, 0, 201],
+    }, "call$5", "async___rootCreatePeriodicTimer$closure", 20, 0, 215],
     _rootPrint: [function($self, $parent, zone, line) {
       H.printString(H.stringTypeCheck(line));
-    }, "call$4", "async___rootPrint$closure", 16, 0, 202],
+    }, "call$4", "async___rootPrint$closure", 16, 0, 216],
     _printToZone: [function(line) {
       $.Zone__current.print$1(0, line);
-    }, "call$1", "async___printToZone$closure", 4, 0, 60],
+    }, "call$1", "async___printToZone$closure", 4, 0, 61],
     _rootFork: [function($self, $parent, zone, specification, zoneValues) {
       var valueMap, t1, t2;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5907,7 +5972,7 @@
       t2 = specification.handleUncaughtError;
       t1.set$_handleUncaughtError(t2 != null ? new P._ZoneFunction(t1, t2, [{func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}]) : zone.get$_handleUncaughtError());
       return t1;
-    }, "call$5", "async___rootFork$closure", 20, 0, 203, 9, 13, 14, 43, 39],
+    }, "call$5", "async___rootFork$closure", 20, 0, 217, 10, 14, 15, 51, 39],
     _AsyncRun__initializeScheduleImmediate_internalCallback: {
       "^": "Closure:4;_box_0",
       call$1: [function(_) {
@@ -5919,7 +5984,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     _AsyncRun__initializeScheduleImmediate_closure: {
-      "^": "Closure:188;_box_0,div,span",
+      "^": "Closure:252;_box_0,div,span",
       call$1: function(callback) {
         var t1, t2;
         this._box_0.storedCallback = H.functionTypeCheck(callback, {func: 1, ret: -1});
@@ -5983,7 +6048,7 @@
       }
     },
     _TimerImpl_internalCallback: {
-      "^": "Closure:1;$this,callback",
+      "^": "Closure:2;$this,callback",
       call$0: [function() {
         var t1 = this.$this;
         t1._handle = null;
@@ -6044,22 +6109,22 @@
       }, null, null, 0, 0, null, "call"]
     },
     _awaitOnObject_closure: {
-      "^": "Closure:2;bodyFunction",
+      "^": "Closure:1;bodyFunction",
       call$1: [function(result) {
         return this.bodyFunction.call$2(0, result);
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     _awaitOnObject_closure0: {
-      "^": "Closure:98;bodyFunction",
+      "^": "Closure:253;bodyFunction",
       call$2: [function(error, stackTrace) {
         this.bodyFunction.call$2(1, new H.ExceptionAndStackTrace(error, H.interceptedTypeCheck(stackTrace, "$isStackTrace")));
       }, null, null, 8, 0, null, 2, 4, "call"]
     },
     _wrapJsFunctionForAsync_closure: {
-      "^": "Closure:172;$protected",
+      "^": "Closure:97;$protected",
       call$2: [function(errorCode, result) {
         this.$protected(H.intTypeCheck(errorCode), result);
-      }, null, null, 8, 0, null, 53, 6, "call"]
+      }, null, null, 8, 0, null, 53, 7, "call"]
     },
     _asyncStarHelper_closure: {
       "^": "Closure:0;controller,bodyFunctionOrErrorCode",
@@ -6133,7 +6198,7 @@
       }
     },
     _AsyncStarStreamController_closure: {
-      "^": "Closure:17;$this,body",
+      "^": "Closure:22;$this,body",
       call$0: [function() {
         var t1 = this.$this;
         if ((t1.controller.get$_state() & 4) === 0) {
@@ -6263,9 +6328,9 @@
         this._async$_previous = H.assertSubtype(_previous, "$is_BroadcastSubscription", this.$ti, "$as_BroadcastSubscription");
       },
       _onPause$0: [function() {
-      }, "call$0", "get$_onPause", 0, 0, 1],
+      }, "call$0", "get$_onPause", 0, 0, 2],
       _onResume$0: [function() {
-      }, "call$0", "get$_onResume", 0, 0, 1]
+      }, "call$0", "get$_onResume", 0, 0, 2]
     },
     _BroadcastStreamController: {
       "^": "Object;onCancel>,_state<,0_firstSubscription,0_lastSubscription,$ti",
@@ -6368,7 +6433,7 @@
         if (!this.get$_mayAddEvent())
           throw H.wrapException(this._addEventError$0());
         this._sendData$1(data);
-      }, null, "get$add", 5, 0, null, 8],
+      }, null, "get$add", 5, 0, null, 9],
       addError$2: function(error, stackTrace) {
         var replacement;
         if (error == null)
@@ -6400,7 +6465,7 @@
       },
       _add$1: [function(_, data) {
         this._sendData$1(H.assertSubtypeOfRuntimeType(data, H.getTypeArgumentByIndex(this, 0)));
-      }, null, "get$_add", 5, 0, null, 8],
+      }, null, "get$_add", 5, 0, null, 9],
       _forEachListener$1: function(action) {
         var t1, subscription, id, next;
         H.functionTypeCheck(action, {func: 1, ret: -1, args: [[P._BufferingStreamSubscription, H.getTypeArgumentByIndex(this, 0)]]});
@@ -6564,7 +6629,7 @@
             t1.lastPendingEvent = null;
           $event.perform$1(this);
         }
-      }, "call$1", "get$add", 5, 0, 12, 8],
+      }, "call$1", "get$add", 5, 0, 14, 9],
       addError$2: [function(error, stackTrace) {
         var t1, $event, t2;
         H.interceptedTypeCheck(stackTrace, "$isStackTrace");
@@ -6591,7 +6656,7 @@
         }
       }, function(error) {
         return this.addError$2(error, null);
-      }, "addError$1", "call$2", "call$1", "get$addError", 4, 2, 31, 3, 2, 4],
+      }, "addError$1", "call$2", "call$1", "get$addError", 4, 2, 38, 3, 2, 4],
       close$0: [function(_) {
         var t1 = this._state;
         if ((t1 & 4) === 0 && (t1 & 2) !== 0) {
@@ -6600,7 +6665,7 @@
           return P._BroadcastStreamController.prototype.get$done.call(this);
         }
         return this.super$_BroadcastStreamController$close(0);
-      }, "call$0", "get$close", 1, 0, 17],
+      }, "call$0", "get$close", 1, 0, 22],
       _callOnCancel$0: function() {
         if (this.get$_hasPending()) {
           var t1 = this._pending;
@@ -6658,7 +6723,7 @@
           }
         } else if (t2 === 0 && !this.eagerError)
           this.result._completeError$2(t1.error, t1.stackTrace);
-      }, null, null, 8, 0, null, 62, 47, "call"]
+      }, null, null, 8, 0, null, 62, 48, "call"]
     },
     Future_wait_closure: {
       "^": "Closure;_box_0,pos,result,cleanUp,eagerError,T",
@@ -6698,7 +6763,7 @@
         this._completeError$2(error, stackTrace);
       }, function(error) {
         return this.completeError$2(error, null);
-      }, "completeError$1", "call$2", "call$1", "get$completeError", 4, 2, 31, 3, 2, 4],
+      }, "completeError$1", "call$2", "call$1", "get$completeError", 4, 2, 38, 3, 2, 4],
       $isCompleter: 1
     },
     _AsyncCompleter: {
@@ -6712,7 +6777,7 @@
         t1._asyncComplete$1(value);
       }, function($receiver) {
         return this.complete$1($receiver, null);
-      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 62, 3, 1],
+      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 82, 3, 1],
       _completeError$2: function(error, stackTrace) {
         this.future._asyncCompleteError$2(error, stackTrace);
       }
@@ -6728,7 +6793,7 @@
         t1._complete$1(value);
       }, function($receiver) {
         return this.complete$1($receiver, null);
-      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 62, 3, 1],
+      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 82, 3, 1],
       _completeError$2: function(error, stackTrace) {
         this.future._completeError$2(error, stackTrace);
       }
@@ -6906,7 +6971,7 @@
         P._Future__propagateToListeners(this, listeners);
       }, function(error) {
         return this._completeError$2(error, null);
-      }, "_completeError$1", "call$2", "call$1", "get$_completeError", 4, 2, 31, 3, 2, 4],
+      }, "_completeError$1", "call$2", "call$1", "get$_completeError", 4, 2, 38, 3, 2, 4],
       _asyncComplete$1: function(value) {
         H.futureOrCheck(value, {futureOr: 1, type: H.getTypeArgumentByIndex(this, 0)});
         if (H.checkSubtype(value, "$isFuture", this.$ti, "$asFuture")) {
@@ -7088,7 +7153,7 @@
       }, null, null, 4, 0, null, 1, "call"]
     },
     _Future__chainForeignFuture_closure0: {
-      "^": "Closure:77;target",
+      "^": "Closure:98;target",
       call$2: [function(error, stackTrace) {
         this.target._completeError$2(error, H.interceptedTypeCheck(stackTrace, "$isStackTrace"));
       }, function(error) {
@@ -7121,7 +7186,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     _Future__propagateToListeners_handleWhenCompleteCallback: {
-      "^": "Closure:1;_box_1,_box_0,listener,hasError",
+      "^": "Closure:2;_box_1,_box_0,listener,hasError",
       call$0: function() {
         var completeResult, e, s, t1, exception, t2, originalSource;
         completeResult = null;
@@ -7163,13 +7228,13 @@
       }
     },
     _Future__propagateToListeners_handleWhenCompleteCallback_closure: {
-      "^": "Closure:90;originalSource",
+      "^": "Closure:101;originalSource",
       call$1: [function(_) {
         return this.originalSource;
       }, null, null, 4, 0, null, 0, "call"]
     },
     _Future__propagateToListeners_handleValueCallback: {
-      "^": "Closure:1;_box_0,listener,sourceResult",
+      "^": "Closure:2;_box_0,listener,sourceResult",
       call$0: function() {
         var e, s, t1, t2, t3, t4, exception;
         try {
@@ -7189,7 +7254,7 @@
       }
     },
     _Future__propagateToListeners_handleError: {
-      "^": "Closure:1;_box_1,_box_0,listener",
+      "^": "Closure:2;_box_1,_box_0,listener",
       call$0: function() {
         var asyncError, e, s, t1, t2, exception, t3, t4;
         try {
@@ -7435,7 +7500,7 @@
         if (this._state >= 4)
           throw H.wrapException(this._badEventState$0());
         this._add$1(0, value);
-      }, "call$1", "get$add", 5, 0, 12, 1],
+      }, "call$1", "get$add", 5, 0, 14, 1],
       addError$2: function(error, stackTrace) {
         var replacement;
         if (this._state >= 4)
@@ -7475,7 +7540,7 @@
           this._sendData$1(value);
         else if ((t1 & 3) === 0)
           this._ensurePendingEvents$0().add$1(0, new P._DelayedData(value, this.$ti));
-      }, "call$1", "get$_add", 5, 0, 12, 1],
+      }, "call$1", "get$_add", 5, 0, 14, 1],
       _addError$2: [function(error, stackTrace) {
         var t1;
         H.interceptedTypeCheck(stackTrace, "$isStackTrace");
@@ -7484,13 +7549,13 @@
           this._sendError$2(error, stackTrace);
         else if ((t1 & 3) === 0)
           this._ensurePendingEvents$0().add$1(0, new P._DelayedError(error, stackTrace));
-      }, "call$2", "get$_addError", 8, 0, 94, 2, 4],
+      }, "call$2", "get$_addError", 8, 0, 102, 2, 4],
       _close$0: [function() {
         var addState = H.assertSubtype(this._varData, "$is_StreamControllerAddStreamState", this.$ti, "$as_StreamControllerAddStreamState");
         this._varData = addState.varData;
         this._state &= 4294967287;
         addState.addStreamFuture._asyncComplete$1(null);
-      }, "call$0", "get$_close", 0, 0, 1],
+      }, "call$0", "get$_close", 0, 0, 2],
       _subscribe$4: function(onData, onError, onDone, cancelOnError) {
         var t1, t2, t3, t4, subscription, pendingEvents, addState;
         t1 = H.getTypeArgumentByIndex(this, 0);
@@ -7572,7 +7637,7 @@
       }
     },
     _StreamController__recordCancel_complete: {
-      "^": "Closure:1;$this",
+      "^": "Closure:2;$this",
       call$0: [function() {
         var t1 = this.$this._doneFuture;
         if (t1 != null && t1._state === 0)
@@ -7637,10 +7702,10 @@
       },
       _onPause$0: [function() {
         this._controller._recordPause$1(this);
-      }, "call$0", "get$_onPause", 0, 0, 1],
+      }, "call$0", "get$_onPause", 0, 0, 2],
       _onResume$0: [function() {
         this._controller._recordResume$1(this);
-      }, "call$0", "get$_onResume", 0, 0, 1]
+      }, "call$0", "get$_onResume", 0, 0, 2]
     },
     _AddStreamState: {
       "^": "Object;$ti",
@@ -7797,9 +7862,9 @@
           this._addPending$1(C.C__DelayedDone);
       }],
       _onPause$0: [function() {
-      }, "call$0", "get$_onPause", 0, 0, 1],
+      }, "call$0", "get$_onPause", 0, 0, 2],
       _onResume$0: [function() {
-      }, "call$0", "get$_onResume", 0, 0, 1],
+      }, "call$0", "get$_onResume", 0, 0, 2],
       _async$_onCancel$0: function() {
         return;
       },
@@ -7924,7 +7989,7 @@
       }
     },
     _BufferingStreamSubscription__sendError_sendError: {
-      "^": "Closure:1;$this,error,stackTrace",
+      "^": "Closure:2;$this,error,stackTrace",
       call$0: [function() {
         var t1, t2, onError, t3, t4;
         t1 = this.$this;
@@ -7944,7 +8009,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     _BufferingStreamSubscription__sendDone_sendDone: {
-      "^": "Closure:1;$this",
+      "^": "Closure:2;$this",
       call$0: [function() {
         var t1, t2;
         t1 = this.$this;
@@ -8145,7 +8210,7 @@
         t1 = this._onDone;
         if (t1 != null)
           this._zone.runGuarded$1(t1);
-      }, "call$0", "get$_sendDone", 0, 0, 1],
+      }, "call$0", "get$_sendDone", 0, 0, 2],
       $isStreamSubscription: 1
     },
     _AsBroadcastStream: {
@@ -8193,12 +8258,12 @@
             this.set$_subscription(null);
           }
         }
-      }, "call$0", "get$_async$_onCancel", 0, 0, 1],
+      }, "call$0", "get$_async$_onCancel", 0, 0, 2],
       _onListen$0: [function() {
         var t1 = this._onListenHandler;
         if (t1 != null)
           this._zone.runUnary$2$2(t1, new P._BroadcastSubscriptionWrapper(this, this.$ti), -1, [P._BroadcastSubscriptionWrapper, H.getTypeArgumentByIndex(this, 0)]);
-      }, "call$0", "get$_onListen", 0, 0, 1],
+      }, "call$0", "get$_onListen", 0, 0, 2],
       _cancelSubscription$0: function() {
         var t1 = this._subscription;
         if (t1 == null)
@@ -8249,7 +8314,7 @@
       "^": "Object;0_subscription,_stateData,_isPaused,$ti"
     },
     _cancelAndValue_closure: {
-      "^": "Closure:1;future,value",
+      "^": "Closure:2;future,value",
       call$0: [function() {
         return this.future._complete$1(this.value);
       }, null, null, 0, 0, null, "call"]
@@ -8303,13 +8368,13 @@
         if (t1 == null)
           return;
         t1.pause$0(0);
-      }, "call$0", "get$_onPause", 0, 0, 1],
+      }, "call$0", "get$_onPause", 0, 0, 2],
       _onResume$0: [function() {
         var t1 = this._subscription;
         if (t1 == null)
           return;
         t1.resume$0(0);
-      }, "call$0", "get$_onResume", 0, 0, 1],
+      }, "call$0", "get$_onResume", 0, 0, 2],
       _async$_onCancel$0: function() {
         var t1 = this._subscription;
         if (t1 != null) {
@@ -8320,14 +8385,14 @@
       },
       _handleData$1: [function(data) {
         this._stream._handleData$2(H.assertSubtypeOfRuntimeType(data, H.getRuntimeTypeArgument(this, "_ForwardingStreamSubscription", 0)), this);
-      }, "call$1", "get$_handleData", 4, 0, 12, 8],
+      }, "call$1", "get$_handleData", 4, 0, 14, 9],
       _handleError$2: [function(error, stackTrace) {
         H.interceptedTypeCheck(stackTrace, "$isStackTrace");
         H.assertSubtype(this, "$is_EventSink", [H.getRuntimeTypeArgument(this._stream, "_ForwardingStream", 1)], "$as_EventSink")._addError$2(error, stackTrace);
-      }, "call$2", "get$_handleError", 8, 0, 96, 2, 4],
+      }, "call$2", "get$_handleError", 8, 0, 104, 2, 4],
       _handleDone$0: [function() {
         H.assertSubtype(this, "$is_EventSink", [H.getRuntimeTypeArgument(this._stream, "_ForwardingStream", 1)], "$as_EventSink")._close$0();
-      }, "call$0", "get$_handleDone", 0, 0, 1],
+      }, "call$0", "get$_handleDone", 0, 0, 2],
       $asStreamSubscription: function($S, $T) {
         return [$T];
       },
@@ -8488,7 +8553,7 @@
         if ((t1._state & 2) !== 0)
           H.throwExpression(P.StateError$("Stream is already closed"));
         t1.super$_BufferingStreamSubscription$_add(0, data);
-      }, "call$1", "get$add", 5, 0, 12, 8],
+      }, "call$1", "get$add", 5, 0, 14, 9],
       addError$2: function(error, stackTrace) {
         var t1 = this._async$_sink;
         if ((t1._state & 2) !== 0)
@@ -8521,12 +8586,12 @@
         var t1 = this._subscription;
         if (t1 != null)
           t1.pause$0(0);
-      }, "call$0", "get$_onPause", 0, 0, 1],
+      }, "call$0", "get$_onPause", 0, 0, 2],
       _onResume$0: [function() {
         var t1 = this._subscription;
         if (t1 != null)
           t1.resume$0(0);
-      }, "call$0", "get$_onResume", 0, 0, 1],
+      }, "call$0", "get$_onResume", 0, 0, 2],
       _async$_onCancel$0: function() {
         var t1 = this._subscription;
         if (t1 != null) {
@@ -8548,7 +8613,7 @@
             H.throwExpression(P.StateError$("Stream is already closed"));
           this.super$_BufferingStreamSubscription$_addError(e, t1);
         }
-      }, "call$1", "get$_handleData", 4, 0, 12, 8],
+      }, "call$1", "get$_handleData", 4, 0, 14, 9],
       _handleError$2: [function(error, stackTrace) {
         var e, s, exception, t1;
         try {
@@ -8571,7 +8636,7 @@
         }
       }, function(error) {
         return this._handleError$2(error, null);
-      }, "_handleError$1", "call$2", "call$1", "get$_handleError", 4, 2, 97, 3, 2, 4],
+      }, "_handleError$1", "call$2", "call$1", "get$_handleError", 4, 2, 172, 3, 2, 4],
       _handleDone$0: [function() {
         var e, s, exception, t1;
         try {
@@ -8585,7 +8650,7 @@
             H.throwExpression(P.StateError$("Stream is already closed"));
           this.super$_BufferingStreamSubscription$_addError(e, t1);
         }
-      }, "call$0", "get$_handleDone", 0, 0, 1],
+      }, "call$0", "get$_handleDone", 0, 0, 2],
       $asStreamSubscription: function($S, $T) {
         return [$T];
       },
@@ -8899,7 +8964,7 @@
       }
     },
     _CustomZone_bindCallbackGuarded_closure: {
-      "^": "Closure:1;$this,registered",
+      "^": "Closure:2;$this,registered",
       call$0: [function() {
         return this.$this.runGuarded$1(this.registered);
       }, null, null, 0, 0, null, "call"]
@@ -8909,7 +8974,7 @@
       call$1: [function(arg) {
         var t1 = this.T;
         return this.$this.runUnaryGuarded$1$2(this.registered, H.assertSubtypeOfRuntimeType(arg, t1), t1);
-      }, null, null, 4, 0, null, 10, "call"],
+      }, null, null, 4, 0, null, 11, "call"],
       $signature: function() {
         return {func: 1, ret: -1, args: [this.T]};
       }
@@ -9112,7 +9177,7 @@
       }
     },
     _RootZone_bindCallbackGuarded_closure: {
-      "^": "Closure:1;$this,f",
+      "^": "Closure:2;$this,f",
       call$0: [function() {
         return this.$this.runGuarded$1(this.f);
       }, null, null, 0, 0, null, "call"]
@@ -9122,7 +9187,7 @@
       call$1: [function(arg) {
         var t1 = this.T;
         return this.$this.runUnaryGuarded$1$2(this.f, H.assertSubtypeOfRuntimeType(arg, t1), t1);
-      }, null, null, 4, 0, null, 10, "call"],
+      }, null, null, 4, 0, null, 11, "call"],
       $signature: function() {
         return {func: 1, ret: -1, args: [this.T]};
       }
@@ -9165,10 +9230,10 @@
     },
     _defaultEquals: [function(a, b) {
       return J.$eq$(a, b);
-    }, "call$2", "collection___defaultEquals$closure", 8, 0, 54],
+    }, "call$2", "collection___defaultEquals$closure", 8, 0, 64],
     _defaultHashCode: [function(a) {
       return J.get$hashCode$(a);
-    }, "call$1", "collection___defaultHashCode$closure", 4, 0, 205, 27],
+    }, "call$1", "collection___defaultHashCode$closure", 4, 0, 219, 27],
     HashMap_HashMap$from: function(other, $K, $V) {
       var result = P.HashMap_HashMap(null, null, null, $K, $V);
       J.forEach$1$ax(other, new P.HashMap_HashMap$from_closure(result, $K, $V));
@@ -9539,7 +9604,7 @@
       call$1: [function(each) {
         var t1 = this.$this;
         return t1.$index(0, H.assertSubtypeOfRuntimeType(each, H.getTypeArgumentByIndex(t1, 0)));
-      }, null, null, 4, 0, null, 18, "call"],
+      }, null, null, 4, 0, null, 20, "call"],
       $signature: function() {
         var t1 = this.$this;
         return {func: 1, ret: H.getTypeArgumentByIndex(t1, 1), args: [H.getTypeArgumentByIndex(t1, 0)]};
@@ -9661,7 +9726,7 @@
       }
     },
     _LinkedCustomHashMap_closure: {
-      "^": "Closure:25;K",
+      "^": "Closure:20;K",
       call$1: function(v) {
         return H.checkSubtypeOfRuntimeType(v, this.K);
       }
@@ -10532,7 +10597,7 @@
     },
     _defaultToEncodable: [function(object) {
       return object.toJson$0();
-    }, "call$1", "convert___defaultToEncodable$closure", 4, 0, 7, 20],
+    }, "call$1", "convert___defaultToEncodable$closure", 4, 0, 8, 16],
     _JsonMap: {
       "^": "MapBase;_original,_processed,0_data",
       $index: function(_, key) {
@@ -10659,10 +10724,10 @@
       }
     },
     _JsonMap_values_closure: {
-      "^": "Closure:7;$this",
+      "^": "Closure:8;$this",
       call$1: [function(each) {
         return this.$this.$index(0, each);
-      }, null, null, 4, 0, null, 18, "call"]
+      }, null, null, 4, 0, null, 20, "call"]
     },
     _JsonMapKeyIterable: {
       "^": "ListIterable;_convert$_parent",
@@ -11105,10 +11170,10 @@
         if (typeof t3 !== "number")
           return H.iae(t3);
         this._bufferIndex = t4 + t3;
-      }, "call$1", "get$add", 5, 0, 12, 65],
+      }, "call$1", "get$add", 5, 0, 14, 41],
       close$0: [function(_) {
         this._callback.call$1(C.NativeUint8List_methods.sublist$2(this._buffer, 0, this._bufferIndex));
-      }, "call$0", "get$close", 1, 0, 1]
+      }, "call$0", "get$close", 1, 0, 2]
     },
     ChunkedConversionSink: {
       "^": "Object;$ti"
@@ -11794,7 +11859,7 @@
       }
     },
     _Utf8Decoder_convert_scanOneByteCharacters: {
-      "^": "Closure:104;endIndex",
+      "^": "Closure:201;endIndex",
       call$2: function(units, from) {
         var to, t1, i, unit;
         H.assertSubtype(units, "$isList", [P.int], "$asList");
@@ -11814,7 +11879,7 @@
       }
     },
     _Utf8Decoder_convert_addSingleBytes: {
-      "^": "Closure:105;$this,startIndex,endIndex,codeUnits",
+      "^": "Closure:231;$this,startIndex,endIndex,codeUnits",
       call$2: function(from, to) {
         this.$this._stringSink._contents += P.String_String$fromCharCodes(this.codeUnits, from, to);
       }
@@ -11823,7 +11888,7 @@
     "^": "",
     identityHashCode: [function(object) {
       return H.objectHashCode(object);
-    }, "call$1", "core__identityHashCode$closure", 4, 0, 206, 20],
+    }, "call$1", "core__identityHashCode$closure", 4, 0, 220, 16],
     Function_apply: function($function, positionalArguments, namedArguments) {
       var t1 = H.Primitives_applyFunctionWithPositionalArguments($function, positionalArguments);
       return t1;
@@ -11838,6 +11903,12 @@
       if (onError != null)
         return onError.call$1(source);
       throw H.wrapException(P.FormatException$(source, null, null));
+    },
+    double_parse: function(source, onError) {
+      var value = H.Primitives_parseDouble(source);
+      if (value != null)
+        return value;
+      throw H.wrapException(P.FormatException$("Invalid double", source, null));
     },
     Error__objectToString: function(object) {
       if (object instanceof H.Closure)
@@ -11919,7 +11990,7 @@
     },
     identical: [function(a, b) {
       return a == null ? b == null : a === b;
-    }, "call$2", "core__identical$closure", 8, 0, 207, 27, 25],
+    }, "call$2", "core__identical$closure", 8, 0, 221, 27, 25],
     Uri_base: function() {
       var uri = H.Primitives_currentUri();
       if (uri != null)
@@ -11958,13 +12029,11 @@
       return result;
     },
     print: function(object) {
-      var line, t1;
-      line = H.S(object);
-      t1 = $.printToZone;
+      var t1 = $.printToZone;
       if (t1 == null)
-        H.printString(line);
+        H.printString(object);
       else
-        t1.call$1(line);
+        t1.call$1(object);
     },
     Uri_parse: function(uri, start, end) {
       var t1, delta, t2, indices, schemeEnd, hostStart, portStart, pathStart, queryStart, fragmentStart, isSimple, scheme, t3, schemeAuth;
@@ -12154,7 +12223,7 @@
     Uri_decodeComponent: [function(encodedComponent) {
       H.stringTypeCheck(encodedComponent);
       return P._Uri__uriDecode(encodedComponent, 0, encodedComponent.length, C.Utf8Codec_false, false);
-    }, "call$1", "core_Uri_decodeComponent$closure", 4, 0, 14, 51],
+    }, "call$1", "core_Uri_decodeComponent$closure", 4, 0, 10, 43],
     Uri_splitQueryString: function(query, encoding) {
       var t1 = P.String;
       return C.JSArray_methods.fold$1$2(H.setRuntimeTypeInfo(query.split("&"), [t1]), P.LinkedHashMap_LinkedHashMap$_empty(t1, t1), new P.Uri_splitQueryString_closure(encoding), [P.Map, P.String, P.String]);
@@ -12438,7 +12507,7 @@
       return state;
     },
     NoSuchMethodError_toString_closure: {
-      "^": "Closure:155;_box_0,sb",
+      "^": "Closure:234;_box_0,sb",
       call$2: function(key, value) {
         var t1, t2, t3;
         H.interceptedTypeCheck(key, "$isSymbol0");
@@ -12534,7 +12603,18 @@
     Duration: {
       "^": "Object;_duration",
       $add: function(_, other) {
-        return new P.Duration(C.JSInt_methods.$add(this._duration, other.get$_duration()));
+        return new P.Duration(C.JSInt_methods.$add(this._duration, H.interceptedTypeCheck(other, "$isDuration")._duration));
+      },
+      $sub: function(_, other) {
+        return new P.Duration(this._duration - H.interceptedTypeCheck(other, "$isDuration")._duration);
+      },
+      $mul: function(_, factor) {
+        return new P.Duration(C.JSInt_methods.round$0(this._duration * factor));
+      },
+      $tdiv: function(_, quotient) {
+        if (quotient === 0)
+          throw H.wrapException(new P.IntegerDivisionByZeroException());
+        return new P.Duration(C.JSInt_methods.$tdiv(this._duration, quotient));
       },
       $lt: function(_, other) {
         return C.JSInt_methods.$lt(this._duration, H.interceptedTypeCheck(other, "$isDuration")._duration);
@@ -12560,6 +12640,12 @@
         sixDigitUs = new P.Duration_toString_sixDigits().call$1(t2 % 1000000);
         return "" + C.JSInt_methods._tdivFast$1(t2, 3600000000) + ":" + H.S(twoDigitMinutes) + ":" + H.S(twoDigitSeconds) + "." + H.S(sixDigitUs);
       },
+      get$isNegative: function(_) {
+        return this._duration < 0;
+      },
+      abs$0: function(_) {
+        return new P.Duration(Math.abs(this._duration));
+      },
       static: {
         Duration$: function(days, hours, microseconds, milliseconds, minutes, seconds) {
           return new P.Duration(864e8 * days + 3600000000 * hours + 60000000 * minutes + 1000000 * seconds + 1000 * milliseconds + microseconds);
@@ -12567,7 +12653,7 @@
       }
     },
     Duration_toString_sixDigits: {
-      "^": "Closure:13;",
+      "^": "Closure:15;",
       call$1: function(n) {
         if (n >= 100000)
           return "" + n;
@@ -12583,7 +12669,7 @@
       }
     },
     Duration_toString_twoDigits: {
-      "^": "Closure:13;",
+      "^": "Closure:15;",
       call$1: function(n) {
         if (n >= 10)
           return "" + n;
@@ -12898,6 +12984,12 @@
         }
       }
     },
+    IntegerDivisionByZeroException: {
+      "^": "Object;",
+      toString$0: function(_) {
+        return "IntegerDivisionByZeroException";
+      }
+    },
     Expando: {
       "^": "Object;_jsWeakMapOrKey,name>,$ti",
       $index: function(_, object) {
@@ -13112,7 +13204,7 @@
       noSuchMethod$1: [function(_, invocation) {
         H.interceptedTypeCheck(invocation, "$isInvocation");
         throw H.wrapException(P.NoSuchMethodError$(this, invocation.get$memberName(), invocation.get$positionalArguments(), invocation.get$namedArguments(), null));
-      }, null, "get$noSuchMethod", 5, 0, null, 21],
+      }, null, "get$noSuchMethod", 5, 0, null, 22],
       toString: function() {
         return this.toString$0(this);
       }
@@ -13185,7 +13277,7 @@
       "^": "Object;"
     },
     Uri_splitQueryString_closure: {
-      "^": "Closure:217;encoding",
+      "^": "Closure:245;encoding",
       call$2: function(map, element) {
         var t1, index, key, value;
         t1 = P.String;
@@ -13205,13 +13297,13 @@
       }
     },
     Uri__parseIPv4Address_error: {
-      "^": "Closure:218;host",
+      "^": "Closure:248;host",
       call$2: function(msg, position) {
         throw H.wrapException(P.FormatException$("Illegal IPv4 address, " + msg, this.host, position));
       }
     },
     Uri_parseIPv6Address_error: {
-      "^": "Closure:219;host",
+      "^": "Closure:249;host",
       call$2: function(msg, position) {
         throw H.wrapException(P.FormatException$("Illegal IPv6 address, " + msg, this.host, position));
       },
@@ -13220,7 +13312,7 @@
       }
     },
     Uri_parseIPv6Address_parseHex: {
-      "^": "Closure:220;error,host",
+      "^": "Closure:251;error,host",
       call$2: function(start, end) {
         var value;
         if (end - start > 4)
@@ -14237,7 +14329,7 @@
       }
     },
     _Uri__makePath_closure: {
-      "^": "Closure:14;",
+      "^": "Closure:10;",
       call$1: [function(s) {
         return P._Uri__uriEncode(C.List_qg40, H.stringTypeCheck(s), C.Utf8Codec_false, false);
       }, null, null, 4, 0, null, 28, "call"]
@@ -14325,13 +14417,13 @@
       }
     },
     _createTables_closure: {
-      "^": "Closure:230;",
+      "^": "Closure:254;",
       call$1: function(_) {
         return new Uint8Array(96);
       }
     },
     _createTables_build: {
-      "^": "Closure:229;tables",
+      "^": "Closure:255;tables",
       call$2: function(state, defaultTransition) {
         var t1 = this.tables;
         if (state >= t1.length)
@@ -14821,7 +14913,7 @@
       else if (P.Device_isOpera())
         return "oTransitionEnd";
       return "transitionend";
-    }, null, null, 4, 0, null, 7],
+    }, null, null, 4, 0, null, 8],
     _JenkinsSmiHash_combine: function(hash, value) {
       hash = 536870911 & hash + value;
       hash = 536870911 & hash + ((524287 & hash) << 10);
@@ -14865,16 +14957,16 @@
       return t1.bindUnaryCallbackGuarded$1$1(callback, $T);
     },
     promiseToFuture_closure: {
-      "^": "Closure:2;completer,T",
+      "^": "Closure:1;completer,T",
       call$1: [function(promiseValue) {
         return this.completer.complete$1(0, H.futureOrCheck(promiseValue, {futureOr: 1, type: this.T}));
-      }, null, null, 4, 0, null, 42, "call"]
+      }, null, null, 4, 0, null, 55, "call"]
     },
     promiseToFuture_closure0: {
-      "^": "Closure:2;completer",
+      "^": "Closure:1;completer",
       call$1: [function(promiseError) {
         return this.completer.completeError$1(promiseError);
-      }, null, null, 4, 0, null, 41, "call"]
+      }, null, null, 4, 0, null, 65, "call"]
     },
     HtmlElement: {
       "^": "Element;",
@@ -14894,7 +14986,7 @@
       "^": "Interceptor;0length=",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 225],
+      }, "call$1", "get$item", 5, 0, 85],
       "%": "AccessibleNodeList"
     },
     AnchorElement: {
@@ -15063,7 +15155,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 13],
+      }, "call$1", "get$item", 5, 0, 15],
       get$bottom: function(receiver) {
         return receiver.bottom;
       },
@@ -15144,7 +15236,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 223],
+      }, "call$1", "get$item", 5, 0, 86],
       $index: function(receiver, index) {
         return receiver[H.intTypeCheck(index)];
       },
@@ -15246,7 +15338,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 216],
+      }, "call$1", "get$item", 5, 0, 90],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [[P.Rectangle, P.num]];
@@ -15349,7 +15441,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 13],
+      }, "call$1", "get$item", 5, 0, 15],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [P.String];
@@ -15382,7 +15474,7 @@
       "^": "Interceptor;",
       item$1: [function(receiver, $name) {
         return receiver.item($name);
-      }, "call$1", "get$item", 5, 0, 14],
+      }, "call$1", "get$item", 5, 0, 10],
       "%": "DOMStringMap"
     },
     DomTokenList: {
@@ -15392,7 +15484,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 13],
+      }, "call$1", "get$item", 5, 0, 15],
       "%": "DOMTokenList"
     },
     _ChildrenElementList: {
@@ -15582,7 +15674,7 @@
       "%": ";Element"
     },
     Element_animate_closure: {
-      "^": "Closure:210;",
+      "^": "Closure:94;",
       call$1: function(x) {
         return !!J.getInterceptor$(H.assertSubtype(x, "$isMap", [P.String, null], "$asMap")).$isMap;
       }
@@ -15617,7 +15709,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     Entry_remove_closure0: {
-      "^": "Closure:204;completer",
+      "^": "Closure:95;completer",
       call$1: [function(error) {
         this.completer.completeError$1(H.interceptedTypeCheck(error, "$isDomException"));
       }, null, null, 4, 0, null, 2, "call"]
@@ -15727,7 +15819,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 235],
+      }, "call$1", "get$item", 5, 0, 96],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.File];
@@ -15802,7 +15894,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 53],
+      }, "call$1", "get$item", 5, 0, 67],
       "%": "HTMLFormElement"
     },
     Gamepad: {
@@ -15854,7 +15946,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 52],
+      }, "call$1", "get$item", 5, 0, 59],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Node];
@@ -15893,7 +15985,7 @@
       "^": "HtmlCollection;",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 52],
+      }, "call$1", "get$item", 5, 0, 59],
       "%": "HTMLFormControlsCollection"
     },
     HttpRequest: {
@@ -15937,7 +16029,7 @@
       },
       setRequestHeader$2: [function(receiver, $name, value) {
         return receiver.setRequestHeader(H.stringTypeCheck($name), H.stringTypeCheck(value));
-      }, "call$2", "get$setRequestHeader", 9, 0, 42],
+      }, "call$2", "get$setRequestHeader", 9, 0, 43],
       $isHttpRequest: 1,
       "%": "XMLHttpRequest"
     },
@@ -16020,7 +16112,7 @@
       "^": "Interceptor;0length=",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 13],
+      }, "call$1", "get$item", 5, 0, 15],
       "%": "MediaList"
     },
     MediaStream: {
@@ -16104,13 +16196,13 @@
       "%": "MIDIInputMap"
     },
     MidiInputMap_keys_closure: {
-      "^": "Closure:8;keys",
+      "^": "Closure:12;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
       }
     },
     MidiInputMap_values_closure: {
-      "^": "Closure:8;values",
+      "^": "Closure:12;values",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.values, v);
       }
@@ -16167,13 +16259,13 @@
       "%": "MIDIOutputMap"
     },
     MidiOutputMap_keys_closure: {
-      "^": "Closure:8;keys",
+      "^": "Closure:12;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
       }
     },
     MidiOutputMap_values_closure: {
-      "^": "Closure:8;values",
+      "^": "Closure:12;values",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.values, v);
       }
@@ -16211,7 +16303,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 57],
+      }, "call$1", "get$item", 5, 0, 63],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.MimeType];
@@ -16504,7 +16596,7 @@
       "^": "Interceptor;0length=,0name=",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 57],
+      }, "call$1", "get$item", 5, 0, 63],
       $isPlugin: 1,
       "%": "Plugin"
     },
@@ -16532,7 +16624,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 176],
+      }, "call$1", "get$item", 5, 0, 105],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Plugin];
@@ -16654,13 +16746,13 @@
       "%": "RTCStatsReport"
     },
     RtcStatsReport_keys_closure: {
-      "^": "Closure:8;keys",
+      "^": "Closure:12;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
       }
     },
     RtcStatsReport_values_closure: {
-      "^": "Closure:8;values",
+      "^": "Closure:12;values",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.values, v);
       }
@@ -16676,7 +16768,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 53],
+      }, "call$1", "get$item", 5, 0, 67],
       "%": "HTMLSelectElement"
     },
     Sensor: {
@@ -16723,7 +16815,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 175],
+      }, "call$1", "get$item", 5, 0, 106],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.SourceBuffer];
@@ -16786,7 +16878,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 166],
+      }, "call$1", "get$item", 5, 0, 109],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.SpeechGrammar];
@@ -16824,7 +16916,7 @@
       "^": "Interceptor;0length=",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 152],
+      }, "call$1", "get$item", 5, 0, 110],
       $isSpeechRecognitionResult: 1,
       "%": "SpeechRecognitionResult"
     },
@@ -16895,13 +16987,13 @@
       "%": "Storage"
     },
     Storage_keys_closure: {
-      "^": "Closure:42;keys",
+      "^": "Closure:43;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
       }
     },
     Storage_values_closure: {
-      "^": "Closure:42;values",
+      "^": "Closure:43;values",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.values, v);
       }
@@ -17082,7 +17174,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 148],
+      }, "call$1", "get$item", 5, 0, 112],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Touch];
@@ -17120,7 +17212,7 @@
       "^": "Interceptor;0length=",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 143],
+      }, "call$1", "get$item", 5, 0, 117],
       "%": "TrackDefaultList"
     },
     TransitionEvent: {
@@ -17251,7 +17343,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 124],
+      }, "call$1", "get$item", 5, 0, 118],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.CssRule];
@@ -17338,7 +17430,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 118],
+      }, "call$1", "get$item", 5, 0, 119],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Gamepad];
@@ -17391,7 +17483,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 117],
+      }, "call$1", "get$item", 5, 0, 124],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Node];
@@ -17444,7 +17536,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 112],
+      }, "call$1", "get$item", 5, 0, 143],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.SpeechRecognitionResult];
@@ -17497,7 +17589,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 110],
+      }, "call$1", "get$item", 5, 0, 148],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.StyleSheet];
@@ -17697,7 +17789,7 @@
         this._html$_target = null;
         this.set$_html$_onData(null);
         return;
-      }, "call$0", "get$cancel", 1, 0, 17],
+      }, "call$0", "get$cancel", 1, 0, 22],
       pause$1: function(_, resumeSignal) {
         if (this._html$_target == null)
           return;
@@ -17733,10 +17825,10 @@
       }
     },
     _EventStreamSubscription_closure: {
-      "^": "Closure:109;onData",
+      "^": "Closure:152;onData",
       call$1: [function(e) {
         return this.onData.call$1(H.interceptedTypeCheck(e, "$isEvent"));
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     ImmutableListMixin: {
       "^": "Object;$ti",
@@ -17952,7 +18044,7 @@
       return object;
     }, function(dict) {
       return P.convertDartToNative_Dictionary(dict, null);
-    }, "call$2", "call$1", "html_common__convertDartToNative_Dictionary$closure", 4, 2, 208, 3, 57, 37],
+    }, "call$2", "call$1", "html_common__convertDartToNative_Dictionary$closure", 4, 2, 222, 3, 81, 88],
     convertNativePromiseToDartFuture: function(promise) {
       var t1, completer;
       t1 = new P._Future(0, $.Zone__current, [null]);
@@ -18169,7 +18261,7 @@
       }
     },
     _AcceptStructuredClone_walk_closure: {
-      "^": "Closure:106;_box_0,$this",
+      "^": "Closure:155;_box_0,$this",
       call$2: function(key, value) {
         var t1, t2;
         t1 = this._box_0.copy;
@@ -18199,16 +18291,16 @@
       }
     },
     convertNativePromiseToDartFuture_closure: {
-      "^": "Closure:2;completer",
+      "^": "Closure:1;completer",
       call$1: [function(result) {
         return this.completer.complete$1(0, result);
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     convertNativePromiseToDartFuture_closure0: {
-      "^": "Closure:2;completer",
+      "^": "Closure:1;completer",
       call$1: [function(result) {
         return this.completer.completeError$1(result);
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     CssClassSetImpl: {
       "^": "SetBase;",
@@ -18221,7 +18313,7 @@
         if (t1.test(value))
           return value;
         throw H.wrapException(P.ArgumentError$value(value, "value", "Not a valid class token"));
-      }, "call$1", "get$_validateToken", 4, 0, 14, 1],
+      }, "call$1", "get$_validateToken", 4, 0, 10, 1],
       toString$0: function(_) {
         return this.readClasses$0().join$1(0, " ");
       },
@@ -18321,20 +18413,20 @@
       }
     },
     CssClassSetImpl_add_closure: {
-      "^": "Closure:102;value",
+      "^": "Closure:166;value",
       call$1: function(s) {
         return H.assertSubtype(s, "$isSet", [P.String], "$asSet").add$1(0, this.value);
       }
     },
     CssClassSetImpl_addAll_closure: {
-      "^": "Closure:59;$this,iterable",
+      "^": "Closure:62;$this,iterable",
       call$1: function(s) {
         var t1 = P.String;
         return H.assertSubtype(s, "$isSet", [t1], "$asSet").addAll$1(0, this.iterable.map$1$1(0, this.$this.get$_validateToken(), t1));
       }
     },
     CssClassSetImpl_removeAll_closure: {
-      "^": "Closure:59;iterable",
+      "^": "Closure:62;iterable",
       call$1: function(s) {
         return H.assertSubtype(s, "$isSet", [P.String], "$asSet").removeAll$1(this.iterable);
       }
@@ -18439,19 +18531,19 @@
       }
     },
     FilteredElementList__iterable_closure: {
-      "^": "Closure:74;",
+      "^": "Closure:71;",
       call$1: function(n) {
         return !!J.getInterceptor$(H.interceptedTypeCheck(n, "$isNode")).$isElement;
       }
     },
     FilteredElementList__iterable_closure0: {
-      "^": "Closure:101;",
+      "^": "Closure:176;",
       call$1: [function(n) {
         return H.interceptedTypeCast(H.interceptedTypeCheck(n, "$isNode"), "$isElement");
       }, null, null, 4, 0, null, 38, "call"]
     },
     FilteredElementList_removeRange_closure: {
-      "^": "Closure:7;",
+      "^": "Closure:8;",
       call$1: function(el) {
         return J.remove$0$ax(el);
       }
@@ -18478,7 +18570,7 @@
       "%": "IDBDatabase"
     },
     _completeRequest_closure: {
-      "^": "Closure:9;request,completer,T",
+      "^": "Closure:13;request,completer,T",
       call$1: function(e) {
         this.completer.complete$1(0, H.assertSubtypeOfRuntimeType(new P._AcceptStructuredCloneDart2Js([], [], false).convertNativeToDart_AcceptStructuredClone$2$mustCopy(this.request.result, false), this.T));
       }
@@ -18559,7 +18651,7 @@
       }
       dartArgs = P.List_List$from(J.map$1$1$ax($arguments, P.js___convertToDart$closure(), null), true, null);
       return P._convertToJS(P.Function_apply(H.interceptedTypeCheck(callback, "$isFunction"), dartArgs, null));
-    }, null, null, 16, 0, null, 11, 40, 9, 35],
+    }, null, null, 16, 0, null, 12, 40, 10, 29],
     _defineProperty: function(o, $name, value) {
       var exception;
       try {
@@ -18593,7 +18685,7 @@
       if (!!t1.$isFunction)
         return P._getJsProxy(o, "$dart_jsFunction", new P._convertToJS_closure());
       return P._getJsProxy(o, "_$dart_jsObject", new P._convertToJS_closure0($.$get$_dartProxyCtor()));
-    }, "call$1", "js___convertToJS$closure", 4, 0, 7, 34],
+    }, "call$1", "js___convertToJS$closure", 4, 0, 8, 30],
     _getJsProxy: function(o, propertyName, createProxy) {
       var jsProxy;
       H.functionTypeCheck(createProxy, {func: 1, args: [,]});
@@ -18621,7 +18713,7 @@
         return o.o;
       else
         return P._wrapToDart(o);
-    }, "call$1", "js___convertToDart$closure", 4, 0, 209, 34],
+    }, "call$1", "js___convertToDart$closure", 4, 0, 223, 30],
     _wrapToDart: function(o) {
       if (typeof o == "function")
         return P._getDartProxy(o, $.$get$DART_CLOSURE_PROPERTY_NAME(), new P._wrapToDart_closure());
@@ -18656,7 +18748,7 @@
     _callDartFunctionFast: [function(callback, $arguments) {
       H.listTypeCheck($arguments);
       return P.Function_apply(H.interceptedTypeCheck(callback, "$isFunction"), $arguments, null);
-    }, null, null, 8, 0, null, 11, 35],
+    }, null, null, 8, 0, null, 12, 29],
     allowInterop: function(f, $F) {
       H.assertIsSubtype($F, P.Function, "The type argument '", "' is not a subtype of the type variable bound '", "' of type variable 'F' in 'allowInterop'.");
       H.assertSubtypeOfRuntimeType(f, $F);
@@ -18789,7 +18881,7 @@
       }
     },
     _convertToJS_closure: {
-      "^": "Closure:7;",
+      "^": "Closure:8;",
       call$1: function(o) {
         var jsFunction;
         H.interceptedTypeCheck(o, "$isFunction");
@@ -18803,25 +18895,25 @@
       }
     },
     _convertToJS_closure0: {
-      "^": "Closure:7;ctor",
+      "^": "Closure:8;ctor",
       call$1: function(o) {
         return new this.ctor(o);
       }
     },
     _wrapToDart_closure: {
-      "^": "Closure:95;",
+      "^": "Closure:210;",
       call$1: function(o) {
         return new P.JsFunction(o);
       }
     },
     _wrapToDart_closure0: {
-      "^": "Closure:85;",
+      "^": "Closure:218;",
       call$1: function(o) {
         return new P.JsArray(o, [null]);
       }
     },
     _wrapToDart_closure1: {
-      "^": "Closure:84;",
+      "^": "Closure:224;",
       call$1: function(o) {
         return new P.JsObject(o);
       }
@@ -18836,6 +18928,13 @@
     }
   }], ["dart.math", "dart:math",, P, {
     "^": "",
+    log: function(x) {
+      return Math.log(x);
+    },
+    pow: function(x, exponent) {
+      H.checkNum(exponent);
+      return Math.pow(x, exponent);
+    },
     Random_Random: function(seed) {
       return C.C__JSRandom;
     },
@@ -19536,13 +19635,13 @@
       "%": "AudioParamMap"
     },
     AudioParamMap_keys_closure: {
-      "^": "Closure:8;keys",
+      "^": "Closure:12;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
       }
     },
     AudioParamMap_values_closure: {
-      "^": "Closure:8;values",
+      "^": "Closure:12;values",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.values, v);
       }
@@ -19598,7 +19697,7 @@
       },
       item$1: [function(receiver, index) {
         return P.convertNativeToDart_Dictionary(this._item_1$1(receiver, index));
-      }, "call$1", "get$item", 5, 0, 83],
+      }, "call$1", "get$item", 5, 0, 230],
       _item_1$1: function(receiver, index) {
         return receiver.item(index);
       },
@@ -19632,7 +19731,7 @@
     "^": "",
     createNgZone: [function() {
       return Y.NgZone$(false);
-    }, "call$0", "modules__createNgZone$closure", 0, 0, 70],
+    }, "call$0", "modules__createNgZone$closure", 0, 0, 54],
     createRandomAppId: function() {
       var t1 = new G.createRandomAppId_char(C.C__JSRandom);
       return H.S(t1.call$0()) + H.S(t1.call$0()) + H.S(t1.call$0());
@@ -19648,7 +19747,7 @@
       $isSlowComponentLoader: 1
     },
     createRandomAppId_char: {
-      "^": "Closure:32;random",
+      "^": "Closure:7;random",
       call$0: function() {
         return H.Primitives_stringFromCharCode(97 + this.random.nextInt$1(26));
       }
@@ -19659,7 +19758,7 @@
       return new Y._Injector$minimalApp($parent == null ? C.EmptyInjector_null : $parent);
     }, function() {
       return Y.minimalApp$Injector(null);
-    }, "call$1", "call$0", "modules_template__minimalApp$Injector$closure", 0, 2, 47],
+    }, "call$1", "call$0", "modules_template__minimalApp$Injector$closure", 0, 2, 83],
     _Injector$minimalApp: {
       "^": "HierarchicalInjector;0_modules_template$_field0,0_modules_template$_field1,0_modules_template$_field2,0_modules_template$_field3,0_field5,parent",
       injectFromSelfOptional$2: function(token, orElse) {
@@ -19742,25 +19841,25 @@
       return ngZone._innerZone.run$1$1(t1, t2);
     },
     appInjector_closure: {
-      "^": "Closure:82;_box_0",
+      "^": "Closure:232;_box_0",
       call$0: function() {
         return this._box_0.applicationRef;
       }
     },
     appInjector_closure0: {
-      "^": "Closure:81;",
+      "^": "Closure:233;",
       call$0: function() {
         return $.appViewUtils;
       }
     },
     appInjector_closure1: {
-      "^": "Closure:70;ngZone",
+      "^": "Closure:54;ngZone",
       call$0: function() {
         return this.ngZone;
       }
     },
     appInjector_closure2: {
-      "^": "Closure:80;ngZone",
+      "^": "Closure:237;ngZone",
       call$0: function() {
         var t1 = new D.Testability(this.ngZone, 0, true, false, H.setRuntimeTypeInfo([], [P.Function]));
         t1._watchAngularEvents$0();
@@ -19768,7 +19867,7 @@
       }
     },
     appInjector_closure3: {
-      "^": "Closure:78;_box_0,ngZone,userInjector",
+      "^": "Closure:239;_box_0,ngZone,userInjector",
       call$0: [function() {
         var t1, t2, t3, t4;
         t1 = this.ngZone;
@@ -19884,32 +19983,32 @@
       }
     },
     NgClass__applyKeyValueChanges_closure: {
-      "^": "Closure:37;$this",
+      "^": "Closure:39;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.key), H.boolTypeCheck(record.currentValue));
       }
     },
     NgClass__applyKeyValueChanges_closure0: {
-      "^": "Closure:37;$this",
+      "^": "Closure:39;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.key), H.boolTypeCheck(record.currentValue));
       }
     },
     NgClass__applyKeyValueChanges_closure1: {
-      "^": "Closure:37;$this",
+      "^": "Closure:39;$this",
       call$1: function(record) {
         if (record.previousValue != null)
           this.$this._toggleClass$2(H.stringTypeCheck(record.key), false);
       }
     },
     NgClass__applyIterableChanges_closure: {
-      "^": "Closure:45;$this",
+      "^": "Closure:44;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.item), true);
       }
     },
     NgClass__applyIterableChanges_closure0: {
-      "^": "Closure:45;$this",
+      "^": "Closure:44;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.item), false);
       }
@@ -19966,7 +20065,7 @@
       }
     },
     NgFor__applyChanges_closure: {
-      "^": "Closure:75;$this,insertTuples",
+      "^": "Closure:246;$this,insertTuples",
       call$3: function(item, adjustedPreviousIndex, currentIndex) {
         var t1, t2, viewRef, view;
         H.interceptedTypeCheck(item, "$isCollectionChangeRecord");
@@ -19991,7 +20090,7 @@
       }
     },
     NgFor__applyChanges_closure0: {
-      "^": "Closure:45;$this",
+      "^": "Closure:44;$this",
       call$1: function(record) {
         var t1, t2;
         t1 = record.currentIndex;
@@ -20005,14 +20104,14 @@
   }], ["", "package:angular/src/common/directives/ng_if.dart",, K, {
     "^": "",
     NgIf: {
-      "^": "Object;_templateRef,_ng_if$_viewContainer,_prevCondition",
+      "^": "Object;_templateRef,_viewContainer,_prevCondition",
       set$ngIf: function(newCondition) {
         var t1;
         newCondition = newCondition === true;
         t1 = this._prevCondition;
         if (t1 === newCondition)
           return;
-        t1 = this._ng_if$_viewContainer;
+        t1 = this._viewContainer;
         if (newCondition)
           t1.createEmbeddedView$1(this._templateRef);
         else
@@ -20181,14 +20280,14 @@
       }
     },
     ApplicationRef$__closure: {
-      "^": "Closure:76;$this",
+      "^": "Closure:247;$this",
       call$1: [function(e) {
         H.interceptedTypeCheck(e, "$isNgZoneError");
         this.$this._exceptionHandler.call$3(e.error, new P._StringStackTrace(C.JSArray_methods.join$1(e.stackTrace, "\n")), null);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     ApplicationRef$__closure0: {
-      "^": "Closure:18;$this",
+      "^": "Closure:19;$this",
       call$1: [function(_) {
         var t1, t2;
         t1 = this.$this;
@@ -20259,7 +20358,7 @@
     _trackByIdentity: [function(index, item) {
       H.intTypeCheck(index);
       return item;
-    }, "call$2", "default_iterable_differ___trackByIdentity$closure", 8, 0, 211, 33, 22],
+    }, "call$2", "default_iterable_differ___trackByIdentity$closure", 8, 0, 225, 31, 5],
     _getPreviousIndex: function(item, addRemoveOffset, moveOffsets) {
       var previousIndex, moveOffset;
       H.interceptedTypeCheck(item, "$isCollectionChangeRecord");
@@ -20903,7 +21002,7 @@
           this._runningTick = false;
           this._resetViewErrors$0();
         }
-      }, "call$0", "get$tick", 0, 0, 1],
+      }, "call$0", "get$tick", 0, 0, 2],
       _runTick$0: function() {
         var detectors, $length, i;
         detectors = this._changeDetectors;
@@ -20987,7 +21086,7 @@
       call$1: [function(result) {
         H.assertSubtypeOfRuntimeType(result, this.R);
         this.completer.complete$1(0, result);
-      }, null, null, 4, 0, null, 6, "call"],
+      }, null, null, 4, 0, null, 7, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.R]};
       }
@@ -20998,7 +21097,7 @@
         var sCasted = H.interceptedTypeCheck(s, "$isStackTrace");
         this.completer.completeError$2(e, sCasted);
         this.$this._exceptionHandler.call$3(e, H.interceptedTypeCheck(sCasted, "$isStackTrace"), null);
-      }, null, null, 8, 0, null, 7, 28, "call"]
+      }, null, null, 8, 0, null, 8, 28, "call"]
     }
   }], ["", "package:angular/src/core/di/opaque_token.dart",, S, {
     "^": "",
@@ -21424,7 +21523,7 @@
         t1.toString;
         t2 = H.functionTypeCheck(this.handler, {func: 1, ret: -1});
         t1._innerZone.runGuarded$1(t2);
-      }, null, null, 4, 0, null, 5, "call"],
+      }, null, null, 4, 0, null, 6, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.E]};
       }
@@ -21439,13 +21538,13 @@
         t1.toString;
         t2 = H.functionTypeCheck(new S.AppView_eventHandler1__closure(this.handler, $event, this.F), {func: 1, ret: -1});
         t1._innerZone.runGuarded$1(t2);
-      }, null, null, 4, 0, null, 5, "call"],
+      }, null, null, 4, 0, null, 6, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.E]};
       }
     },
     AppView_eventHandler1__closure: {
-      "^": "Closure:1;handler,event,F",
+      "^": "Closure:2;handler,event,F",
       call$0: [function() {
         return this.handler.call$1(H.assertSubtypeOfRuntimeType(this.event, this.F));
       }, null, null, 0, 0, null, "call"]
@@ -21488,7 +21587,7 @@
       "^": "Object;_parentView,_nodeIndex,_nativeElement,_component,$ti",
       destroy$0: [function() {
         this._parentView.detachAndDestroy$0();
-      }, "call$0", "get$destroy", 0, 0, 1]
+      }, "call$0", "get$destroy", 0, 0, 2]
     },
     ComponentFactory: {
       "^": "Object;selector,_viewFactory,$ti",
@@ -21712,10 +21811,10 @@
       "^": "Object;appView",
       setLocal$2: [function(variableName, value) {
         this.appView.locals.$indexSet(0, H.stringTypeCheck(variableName), value);
-      }, "call$2", "get$setLocal", 8, 0, 8],
+      }, "call$2", "get$setLocal", 8, 0, 12],
       markForCheck$0: [function() {
         this.appView.markPathToRootAsCheckOnce$0();
-      }, "call$0", "get$markForCheck", 0, 0, 1],
+      }, "call$0", "get$markForCheck", 0, 0, 2],
       $isChangeDetectorRef: 1,
       $isViewRef: 1,
       $isEmbeddedViewRef: 1
@@ -21793,10 +21892,10 @@
       whenStable$1: [function(_, callback) {
         C.JSArray_methods.add$1(this._testability$_callbacks, H.interceptedTypeCheck(callback, "$isFunction"));
         this._runCallbacksIfReady$0();
-      }, "call$1", "get$whenStable", 5, 0, 79, 11]
+      }, "call$1", "get$whenStable", 5, 0, 250, 12]
     },
     Testability__watchAngularEvents_closure: {
-      "^": "Closure:18;$this",
+      "^": "Closure:19;$this",
       call$1: [function(_) {
         var t1 = this.$this;
         t1._didWork = true;
@@ -21813,7 +21912,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     Testability__watchAngularEvents__closure: {
-      "^": "Closure:18;$this",
+      "^": "Closure:19;$this",
       call$1: [function(_) {
         if ($.Zone__current.$index(0, $.$get$NgZone__anyZoneKey()) === true)
           H.throwExpression(P.Exception_Exception("Expected to not be in Angular Zone, but it is!"));
@@ -21875,7 +21974,7 @@
         implementation = $parent._delegationTarget.get$_scheduleMicrotask();
         implZone = implementation.zone;
         implementation.$function.call$4(implZone, P._parentDelegate(implZone), zone, safeMicrotask);
-      }, "call$4", "get$_ng_zone$_scheduleMicrotask", 16, 0, 71],
+      }, "call$4", "get$_ng_zone$_scheduleMicrotask", 16, 0, 58],
       _run$1$4: [function($self, $parent, zone, fn, $R) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R});
@@ -21886,7 +21985,7 @@
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}).call$1$4(implZone, P._parentDelegate(implZone), zone, t1, $R);
       }, function($self, $parent, zone, fn) {
         return this._run$1$4($self, $parent, zone, fn, null);
-      }, "_run$4", "call$1$4", "call$4", "get$_run", 16, 0, 69],
+      }, "_run$4", "call$1$4", "call$4", "get$_run", 16, 0, 65],
       _runUnary$2$5: [function($self, $parent, zone, fn, arg, $R, $T) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R, args: [$T]});
@@ -21899,7 +21998,7 @@
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}).call$2$5(implZone, P._parentDelegate(implZone), zone, t1, arg, $R, $T);
       }, function($self, $parent, zone, fn, arg) {
         return this._runUnary$2$5($self, $parent, zone, fn, arg, null, null);
-      }, "_runUnary$5", "call$2$5", "call$5", "get$_runUnary", 20, 0, 68],
+      }, "_runUnary$5", "call$2$5", "call$5", "get$_runUnary", 20, 0, 49],
       _runBinary$3$6: [function($self, $parent, zone, fn, arg1, arg2, $R, T1, T2) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R, args: [T1, T2]});
@@ -21912,7 +22011,7 @@
         implementation = $parent._delegationTarget.get$_async$_runBinary();
         implZone = implementation.zone;
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}).call$3$6(implZone, P._parentDelegate(implZone), zone, t1, arg1, arg2, $R, T1, T2);
-      }, "call$3$6", "get$_runBinary", 24, 0, 66],
+      }, "call$3$6", "get$_runBinary", 24, 0, 73],
       _onEnter$0: function() {
         ++this._nesting;
         if (this._isStable) {
@@ -21927,7 +22026,7 @@
       },
       _onErrorWithoutLongStackTrace$5: [function($self, $parent, zone, error, trace) {
         this._onError.add$1(0, new Y.NgZoneError(error, [J.toString$0$(H.interceptedTypeCheck(trace, "$isStackTrace"))]));
-      }, "call$5", "get$_onErrorWithoutLongStackTrace", 20, 0, 65],
+      }, "call$5", "get$_onErrorWithoutLongStackTrace", 20, 0, 70],
       _createTimer$5: [function($self, $parent, zone, duration, fn) {
         var t1, t2, onDone, callback, implementation, implZone, wrappedTimer;
         t1 = {};
@@ -21945,7 +22044,7 @@
         C.JSArray_methods.add$1(this._pendingTimers, wrappedTimer);
         this._hasPendingMacrotasks = true;
         return t1.wrappedTimer;
-      }, "call$5", "get$_createTimer", 20, 0, 64],
+      }, "call$5", "get$_createTimer", 20, 0, 50],
       _checkStable$0: function() {
         var t1, t2;
         t1 = this._nesting;
@@ -21972,7 +22071,7 @@
         return this._outerZone.run$1$1(callback, $R);
       }, function(callback) {
         return this.runOutsideAngular$1$1(callback, null);
-      }, "runOutsideAngular$1", "call$1$1", "call$1", "get$runOutsideAngular", 4, 0, 86, 11],
+      }, "runOutsideAngular$1", "call$1$1", "call$1", "get$runOutsideAngular", 4, 0, 84, 12],
       static: {
         NgZone$: function(enableLongStackTrace) {
           var t1 = [-1];
@@ -22023,7 +22122,7 @@
         } finally {
           this.$this._onLeave$0();
         }
-      }, null, null, 4, 0, null, 10, "call"],
+      }, null, null, 4, 0, null, 11, "call"],
       $signature: function() {
         return {func: 1, ret: this.R, args: [this.T]};
       }
@@ -22041,7 +22140,7 @@
         } finally {
           this.$this._onLeave$0();
         }
-      }, null, null, 8, 0, null, 15, 16, "call"],
+      }, null, null, 8, 0, null, 17, 18, "call"],
       $signature: function() {
         return {func: 1, ret: this.R, args: [this.T1, this.T2]};
       }
@@ -22276,7 +22375,7 @@
         throw H.wrapException(P.StateError$("Could not find testability for element."));
       }, function(elem) {
         return this.call$2(elem, true);
-      }, "call$1", null, null, null, 4, 2, null, 29, 48, 49, "call"]
+      }, "call$1", null, null, null, 4, 2, null, 32, 37, 49, "call"]
     },
     BrowserGetTestability_addToWindow_closure0: {
       "^": "Closure:89;",
@@ -22319,10 +22418,10 @@
           testability = t1.get$current(t1);
           testability.whenStable.apply(testability, [P.allowInterop(decrement, t2)]);
         }
-      }, null, null, 4, 0, null, 11, "call"]
+      }, null, null, 4, 0, null, 12, "call"]
     },
     BrowserGetTestability_addToWindow__closure: {
-      "^": "Closure:27;_box_0,callback",
+      "^": "Closure:29;_box_0,callback",
       call$1: [function(didWork_) {
         var t1, didWork, t2, count;
         H.boolTypeCheck(didWork_);
@@ -22346,7 +22445,7 @@
         t1 = this.registry;
         testability = t1._testabilityGetter.findTestabilityInTree$2(t1, element);
         return testability == null ? null : {isStable: P.allowInterop(testability.get$isStable(testability), {func: 1, ret: P.bool}), whenStable: P.allowInterop(testability.get$whenStable(testability), {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool]}]})};
-      }, null, null, 4, 0, null, 31, "call"]
+      }, null, null, 4, 0, null, 33, "call"]
     },
     BrowserGetTestability__createRegistry_closure0: {
       "^": "Closure:92;registry",
@@ -22418,25 +22517,25 @@
   }], ["", "package:angular/src/platform/dom/events/key_events.dart",, N, {
     "^": "",
     closure: {
-      "^": "Closure:28;",
+      "^": "Closure:27;",
       call$1: function($event) {
         return $event.altKey;
       }
     },
     closure0: {
-      "^": "Closure:28;",
+      "^": "Closure:27;",
       call$1: function($event) {
         return $event.ctrlKey;
       }
     },
     closure1: {
-      "^": "Closure:28;",
+      "^": "Closure:27;",
       call$1: function($event) {
         return $event.metaKey;
       }
     },
     closure2: {
-      "^": "Closure:28;",
+      "^": "Closure:27;",
       call$1: function($event) {
         return $event.shiftKey;
       }
@@ -22513,7 +22612,7 @@
       }
     },
     KeyEventsPlugin_addEventListener_closure: {
-      "^": "Closure:63;element,parsedEvent,outsideHandler",
+      "^": "Closure:46;element,parsedEvent,outsideHandler",
       call$0: [function() {
         var t1, t2;
         t1 = this.element;
@@ -22601,7 +22700,7 @@
         if (this.get$disabled(this))
           return;
         this._trigger.add$1(0, mouseEvent);
-      }, "call$1", "get$handleClick", 4, 0, 16],
+      }, "call$1", "get$handleClick", 4, 0, 18],
       handleKeyPress$1: [function(keyboardEvent) {
         H.interceptedTypeCheck(keyboardEvent, "$isKeyboardEvent");
         if (this.get$disabled(this))
@@ -22610,7 +22709,7 @@
           this._trigger.add$1(0, keyboardEvent);
           keyboardEvent.preventDefault();
         }
-      }, "call$1", "get$handleKeyPress", 4, 0, 15]
+      }, "call$1", "get$handleKeyPress", 4, 0, 16]
     },
     _ButtonDirective_RootFocusable_HasTabIndex: {
       "^": "RootFocusable+HasTabIndex;"
@@ -22618,40 +22717,40 @@
   }], ["", "package:angular_components/button_decorator/button_decorator.template.dart",, R, {
     "^": "",
     ButtonDirectiveNgCd: {
-      "^": "DirectiveChangeDetector;instance,0_expr_0,0_expr_1,0_expr_2,0_expr_3,0directive,0view,0el,_hasHostChanges",
+      "^": "DirectiveChangeDetector;instance,0_button_decorator_template$_expr_0,0_button_decorator_template$_expr_1,0_button_decorator_template$_expr_2,0_button_decorator_template$_expr_3,0directive,0view,0el,_hasHostChanges",
       detectHostChanges$2: function(view, el) {
         var t1, currVal_0, t2, currVal_1, currVal_2, currVal_3;
         t1 = this.instance;
         currVal_0 = t1.get$tabIndex(t1);
-        t2 = this._expr_0;
+        t2 = this._button_decorator_template$_expr_0;
         if (t2 != currVal_0) {
           el.tabIndex = currVal_0;
-          this._expr_0 = currVal_0;
+          this._button_decorator_template$_expr_0 = currVal_0;
         }
         currVal_1 = t1._ariaRole;
-        t2 = this._expr_1;
+        t2 = this._button_decorator_template$_expr_1;
         if (t2 != currVal_1) {
           this.setAttr$3(el, "role", currVal_1);
-          this._expr_1 = currVal_1;
+          this._button_decorator_template$_expr_1 = currVal_1;
         }
         currVal_2 = "" + t1.disabled;
-        t2 = this._expr_2;
+        t2 = this._button_decorator_template$_expr_2;
         if (t2 !== currVal_2) {
           this.setAttr$3(el, "aria-disabled", currVal_2);
-          this._expr_2 = currVal_2;
+          this._button_decorator_template$_expr_2 = currVal_2;
         }
         currVal_3 = t1.disabled;
-        t1 = this._expr_3;
+        t1 = this._button_decorator_template$_expr_3;
         if (t1 !== currVal_3) {
           this.updateElemClass$3(el, "is-disabled", currVal_3);
-          this._expr_3 = currVal_3;
+          this._button_decorator_template$_expr_3 = currVal_3;
         }
       }
     }
   }], ["", "package:angular_components/content/deferred_content.dart",, K, {
     "^": "",
     DeferredContentDirective: {
-      "^": "Object;_deferred_content$_disposer,_placeholder,_viewContainer,0_viewRef,_template,preserveDimensions,_visible",
+      "^": "Object;_deferred_content$_disposer,_placeholder,_deferred_content$_viewContainer,0_viewRef,_template,preserveDimensions,_visible",
       _setVisible$1: [function(value) {
         var t1, rootNodes, $content, dimensions, t2, container;
         H.boolTypeCheck(value);
@@ -22660,7 +22759,7 @@
         if (value) {
           if (this.preserveDimensions)
             C.DivElement_methods.remove$0(this._placeholder);
-          this._viewRef = this._viewContainer.createEmbeddedView$1(this._template);
+          this._viewRef = this._deferred_content$_viewContainer.createEmbeddedView$1(this._template);
         } else {
           if (this.preserveDimensions) {
             t1 = this._viewRef;
@@ -22677,9 +22776,9 @@
               t1.height = t2;
             }
           }
-          this._viewContainer.clear$0(0);
+          this._deferred_content$_viewContainer.clear$0(0);
           if (this.preserveDimensions) {
-            t1 = this._viewContainer;
+            t1 = this._deferred_content$_viewContainer;
             t2 = t1._elementRef;
             if (t2 == null) {
               t2 = new Z.ElementRef(t1.nativeElement);
@@ -22693,10 +22792,10 @@
           }
         }
         this._visible = value;
-      }, "call$1", "get$_setVisible", 4, 0, 19, 1],
+      }, "call$1", "get$_setVisible", 4, 0, 21, 1],
       ngOnDestroy$0: function() {
         this._deferred_content$_disposer.dispose$0();
-        this._viewContainer = null;
+        this._deferred_content$_viewContainer = null;
         this._template = null;
       },
       static: {
@@ -22773,7 +22872,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Z.DynamicComponent));
       t1.componentType = $.ViewDynamicComponent0__renderType;
       return t1;
-    }, "call$2", "dynamic_component_template__viewFactory_DynamicComponent1$closure", 8, 0, 212],
+    }, "call$2", "dynamic_component_template__viewFactory_DynamicComponent1$closure", 8, 0, 226],
     ViewDynamicComponent0: {
       "^": "AppView;0_dynamic_component_template$_appEl_0,0_TemplateRef_0_8,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -22854,7 +22953,7 @@
         if (!this._autoFocus)
           return;
         this.super$RootFocusable$focus(0);
-      }, "call$0", "get$focus", 1, 0, 1],
+      }, "call$0", "get$focus", 1, 0, 2],
       ngOnDestroy$0: function() {
         this.super$RootFocusable$dispose();
         this._focus$_disposer.dispose$0();
@@ -22866,7 +22965,7 @@
       _onModalOrPopupVisibleChanged$1: [function(isVisible) {
         if (H.boolTypeCheck(isVisible))
           this._focus$_domService.scheduleWrite$1(this.get$focus(this));
-      }, "call$1", "get$_onModalOrPopupVisibleChanged", 4, 0, 19, 23]
+      }, "call$1", "get$_onModalOrPopupVisibleChanged", 4, 0, 21, 23]
     },
     FocusableDirective: {
       "^": "RootFocusable;_root"
@@ -22901,11 +23000,11 @@
       focusFirst$0: [function() {
         var t1 = this._content._focus_trap$_element;
         this._focusFirstInOrder$1(Q.DomTreeIterator$(t1, false, t1, false));
-      }, "call$0", "get$focusFirst", 0, 0, 1],
+      }, "call$0", "get$focusFirst", 0, 0, 2],
       focusLast$0: [function() {
         var t1 = this._content._focus_trap$_element;
         this._focusFirstInOrder$1(Q.DomTreeIterator$(t1, true, t1, true));
-      }, "call$0", "get$focusLast", 0, 0, 1],
+      }, "call$0", "get$focusLast", 0, 0, 2],
       _focusFirstInOrder$1: function(iterator) {
         var t1;
         H.assertSubtype(iterator, "$isIterator", [W.Element], "$asIterator");
@@ -23105,7 +23204,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, G.HighlightedTextComponent));
       t1.componentType = $.ViewHighlightedTextComponent0__renderType;
       return t1;
-    }, "call$2", "highlighted_text_template__viewFactory_HighlightedTextComponent1$closure", 8, 0, 213],
+    }, "call$2", "highlighted_text_template__viewFactory_HighlightedTextComponent1$closure", 8, 0, 227],
     ViewHighlightedTextComponent0: {
       "^": "AppView;0_highlighted_text_template$_appEl_1,0_highlighted_text_template$_NgFor_1_9,0_highlighted_text_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -23201,7 +23300,7 @@
         H.boolTypeCheck(isVisible);
         this._modal$_isVisible = isVisible;
         this._onVisibleChanged.add$1(0, isVisible);
-      }, "call$1", "get$_onOverlayVisibleChanged", 4, 0, 19, 23],
+      }, "call$1", "get$_onOverlayVisibleChanged", 4, 0, 21, 23],
       get$contentVisible: function() {
         var t1 = this._onVisibleChanged;
         return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
@@ -23222,7 +23321,7 @@
         this._resolvedOverlayRef.setVisible$1(true);
       }, function() {
         return this._showModalOverlay$1$temporary(false);
-      }, "_showModalOverlay$0", "call$1$temporary", "call$0", "get$_showModalOverlay", 0, 3, 61],
+      }, "_showModalOverlay$0", "call$1$temporary", "call$0", "get$_showModalOverlay", 0, 3, 55],
       _hideModalOverlay$1$temporary: [function(temporary) {
         var t1;
         if (!temporary) {
@@ -23234,7 +23333,7 @@
         this._resolvedOverlayRef.setVisible$1(false);
       }, function() {
         return this._hideModalOverlay$1$temporary(false);
-      }, "_hideModalOverlay$0", "call$1$temporary", "call$0", "get$_hideModalOverlay", 0, 3, 61],
+      }, "_hideModalOverlay$0", "call$1$temporary", "call$0", "get$_hideModalOverlay", 0, 3, 55],
       _restoreFocus$0: function() {
         var t1 = this._lastFocusedElement;
         if (t1 == null)
@@ -23319,18 +23418,18 @@
       }
     },
     ModalComponent_open_closure: {
-      "^": "Closure:58;$this",
+      "^": "Closure:57;$this",
       call$1: [function(completed) {
         this.$this.set$_pendingOpen(null);
         return H.futureOrCheck(completed, {futureOr: 1, type: P.bool});
-      }, null, null, 4, 0, null, 30, "call"]
+      }, null, null, 4, 0, null, 34, "call"]
     },
     ModalComponent_close_closure: {
-      "^": "Closure:58;$this",
+      "^": "Closure:57;$this",
       call$1: [function(completed) {
         this.$this.set$_pendingClose(null);
         return H.futureOrCheck(completed, {futureOr: 1, type: P.bool});
-      }, null, null, 4, 0, null, 30, "call"]
+      }, null, null, 4, 0, null, 34, "call"]
     }
   }], ["", "package:angular_components/laminate/components/modal/modal.template.dart",, O, {
     "^": "",
@@ -23339,7 +23438,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.ModalComponent));
       t1.componentType = $.ViewModalComponent0__renderType;
       return t1;
-    }, "call$2", "modal_template__viewFactory_ModalComponent1$closure", 8, 0, 214],
+    }, "call$2", "modal_template__viewFactory_ModalComponent1$closure", 8, 0, 228],
     ViewModalComponent0: {
       "^": "AppView;0_modal_template$_appEl_1,0_ModalControllerDirective_1_9,0_modal_template$_expr_0,0_modal_template$_expr_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -23753,13 +23852,13 @@
       }
     },
     DomRulerImpl_removeCssClassesSync_closure: {
-      "^": "Closure:20;",
+      "^": "Closure:17;",
       call$1: function(c) {
         return H.stringTypeCheck(c).length !== 0;
       }
     },
     DomRulerImpl_addCssClassesSync_closure: {
-      "^": "Closure:20;",
+      "^": "Closure:17;",
       call$1: function(c) {
         return H.stringTypeCheck(c).length !== 0;
       }
@@ -23794,7 +23893,7 @@
   }], ["asset_angular_components_lib_material_button_material_button.scss.css.shim.dart", "package:angular_components/material_button/material_button.scss.css.shim.dart",, O, {}], ["", "package:angular_components/material_button/material_button.template.dart",, U, {
     "^": "",
     ViewMaterialButtonComponent0: {
-      "^": "AppView;0_compView_2,0_MaterialRippleComponent_2_5,0_material_button_template$_expr_0,0_material_button_template$_expr_1,0_material_button_template$_expr_2,0_material_button_template$_expr_3,0_expr_4,0_expr_5,0_expr_6,0_expr_7,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_compView_2,0_MaterialRippleComponent_2_5,0_material_button_template$_expr_0,0_material_button_template$_expr_1,0_material_button_template$_expr_2,0_material_button_template$_expr_3,0_material_button_template$_expr_4,0_material_button_template$_expr_5,0_material_button_template$_expr_6,0_material_button_template$_expr_7,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var _ctx, _rootEl, parentRenderNode, t1, t2, _el_1, _el_2, t3;
         _ctx = this.ctx;
@@ -23863,28 +23962,28 @@
           this._material_button_template$_expr_3 = currVal_3;
         }
         currVal_4 = this.ctx.get$hostDisabled();
-        t1 = this._expr_4;
+        t1 = this._material_button_template$_expr_4;
         if (t1 != currVal_4) {
           this.setAttr$3(this.rootEl, "disabled", currVal_4);
-          this._expr_4 = currVal_4;
+          this._material_button_template$_expr_4 = currVal_4;
         }
         currVal_5 = this.ctx.get$hostRaised();
-        t1 = this._expr_5;
+        t1 = this._material_button_template$_expr_5;
         if (t1 != currVal_5) {
           this.setAttr$3(this.rootEl, "raised", currVal_5);
-          this._expr_5 = currVal_5;
+          this._material_button_template$_expr_5 = currVal_5;
         }
         currVal_6 = this.ctx.get$hostClassIsFocused();
-        t1 = this._expr_6;
+        t1 = this._material_button_template$_expr_6;
         if (t1 !== currVal_6) {
           this.updateElemClass$3(this.rootEl, "is-focused", currVal_6);
-          this._expr_6 = currVal_6;
+          this._material_button_template$_expr_6 = currVal_6;
         }
         currVal_7 = this.ctx.get$hostElevation();
-        t1 = this._expr_7;
+        t1 = this._material_button_template$_expr_7;
         if (t1 !== currVal_7) {
           this.setAttr$3(this.rootEl, "elevation", currVal_7);
-          this._expr_7 = currVal_7;
+          this._material_button_template$_expr_7 = currVal_7;
         }
       },
       $asAppView: function() {
@@ -23922,22 +24021,22 @@
       onMouseDown$1: [function(_, _0) {
         this._clickFocused = true;
         this._isMouseDown = true;
-      }, "call$1", "get$onMouseDown", 5, 0, 2],
+      }, "call$1", "get$onMouseDown", 5, 0, 1],
       onMouseUp$1: [function(_, _0) {
         this._isMouseDown = false;
-      }, "call$1", "get$onMouseUp", 5, 0, 2],
+      }, "call$1", "get$onMouseUp", 5, 0, 1],
       onFocus$1: [function(_, $event) {
         H.interceptedTypeCheck($event, "$isUIEvent");
         if (this._clickFocused)
           return;
         this._setFocused$1(true);
-      }, "call$1", "get$onFocus", 5, 0, 21],
+      }, "call$1", "get$onFocus", 5, 0, 25],
       onBlur$1: [function(_, $event) {
         H.interceptedTypeCheck($event, "$isUIEvent");
         if (this._clickFocused)
           this._clickFocused = false;
         this._setFocused$1(false);
-      }, "call$1", "get$onBlur", 5, 0, 21]
+      }, "call$1", "get$onBlur", 5, 0, 25]
     },
     MaterialButtonBase__setFocused_closure: {
       "^": "Closure:0;$this,newValue",
@@ -24103,17 +24202,17 @@
         if (t1 == null ? t2 != null : t1 !== t2)
           return;
         this._isKeyboardEvent = true;
-      }, "call$1", "get$handleKeyUp", 4, 0, 15],
+      }, "call$1", "get$handleKeyUp", 4, 0, 16],
       handleClick$1: [function(mouseEvent) {
         H.interceptedTypeCheck(mouseEvent, "$isMouseEvent");
         if (this.disabled)
           return;
         this._isKeyboardEvent = false;
         this.toggleChecked$0();
-      }, "call$1", "get$handleClick", 4, 0, 16],
+      }, "call$1", "get$handleClick", 4, 0, 18],
       handleMouseDown$1: [function(mouseEvent) {
         H.interceptedTypeCheck(mouseEvent, "$isMouseEvent");
-      }, "call$1", "get$handleMouseDown", 4, 0, 16],
+      }, "call$1", "get$handleMouseDown", 4, 0, 18],
       handleKeyPress$1: [function($event) {
         var t1, t2;
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
@@ -24128,10 +24227,10 @@
           this._isKeyboardEvent = true;
           this.toggleChecked$0();
         }
-      }, "call$1", "get$handleKeyPress", 4, 0, 15],
+      }, "call$1", "get$handleKeyPress", 4, 0, 16],
       handleFocus$1: [function(_) {
         this._material_checkbox$_focused = true;
-      }, "call$1", "get$handleFocus", 4, 0, 2],
+      }, "call$1", "get$handleFocus", 4, 0, 1],
       handleBlur$1: [function($event) {
         var t1;
         H.interceptedTypeCheck($event, "$isEvent");
@@ -24139,11 +24238,11 @@
         t1 = this._onTouched;
         if (!(t1 == null))
           t1.call$0();
-      }, "call$1", "get$handleBlur", 4, 0, 36],
+      }, "call$1", "get$handleBlur", 4, 0, 33],
       onDisabledChanged$1: [function(isDisabled) {
         this.disabled = H.boolTypeCheck(isDisabled);
         this._material_checkbox$_changeDetector.appView.markPathToRootAsCheckOnce$0();
-      }, "call$1", "get$onDisabledChanged", 4, 0, 19, 24],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 21, 24],
       $isFocusable: 1,
       $isControlValueAccessor: 1,
       $asControlValueAccessor: function() {
@@ -24151,7 +24250,7 @@
       }
     },
     MaterialCheckboxComponent_registerOnChange_closure: {
-      "^": "Closure:7;callback",
+      "^": "Closure:8;callback",
       call$1: [function(checked) {
         return this.callback.call$1(H.boolTypeCheck(checked));
       }, null, null, 4, 0, null, 58, "call"]
@@ -24163,7 +24262,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, B.MaterialCheckboxComponent));
       t1.componentType = $.ViewMaterialCheckboxComponent0__renderType;
       return t1;
-    }, "call$2", "material_checkbox_template__viewFactory_MaterialCheckboxComponent1$closure", 8, 0, 215],
+    }, "call$2", "material_checkbox_template__viewFactory_MaterialCheckboxComponent1$closure", 8, 0, 229],
     ViewMaterialCheckboxComponent0: {
       "^": "AppView;0_material_checkbox_template$_compView_1,0_material_checkbox_template$_MaterialIconComponent_1_5,0_material_checkbox_template$_appEl_2,0_material_checkbox_template$_NgIf_2_9,0_material_checkbox_template$_expr_0,0_material_checkbox_template$_expr_1,0_material_checkbox_template$_expr_2,0_material_checkbox_template$_expr_3,0_material_checkbox_template$_expr_5,0_material_checkbox_template$_expr_6,0_material_checkbox_template$_expr_8,0_material_checkbox_template$_expr_9,0_material_checkbox_template$_expr_10,0_material_checkbox_template$_el_0,0_material_checkbox_template$_el_1,0_text_4,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -24326,7 +24425,7 @@
           $event.preventDefault();
           t1.close$0(0);
         }
-      }, "call$1", "get$_defaultEscapeHandler", 4, 0, 15],
+      }, "call$1", "get$_defaultEscapeHandler", 4, 0, 16],
       ngAfterContentChecked$0: function() {
         this._setHeaderFooterScrollBorder$0();
       },
@@ -24339,7 +24438,7 @@
       }
     },
     MaterialDialogComponent_main_closure: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: function(_) {
         this.$this._setHeaderFooterScrollBorder$0();
       }
@@ -24382,13 +24481,13 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.MaterialDialogComponent));
       t1.componentType = $.ViewMaterialDialogComponent0__renderType;
       return t1;
-    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent1$closure", 8, 0, 56],
+    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent1$closure", 8, 0, 66],
     viewFactory_MaterialDialogComponent2: [function(parentView, parentIndex) {
       var t1 = new Z._ViewMaterialDialogComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.MaterialDialogComponent));
       t1.componentType = $.ViewMaterialDialogComponent0__renderType;
       return t1;
-    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent2$closure", 8, 0, 56],
+    }, "call$2", "material_dialog_template__viewFactory_MaterialDialogComponent2$closure", 8, 0, 66],
     ViewMaterialDialogComponent0: {
       "^": "AppView;0_material_dialog_template$_compView_0,0_FocusTrapComponent_0_5,0_material_dialog_template$_appEl_2,0_material_dialog_template$_NgIf_2_9,0_material_dialog_template$_appEl_6,0_material_dialog_template$_NgIf_6_9,0_material_dialog_template$_expr_1,0_material_dialog_template$_expr_2,0_material_dialog_template$_expr_3,0_material_dialog_template$_expr_4,0_material_dialog_template$_el_3,0_material_dialog_template$_text_4,0_el_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -24524,7 +24623,7 @@
   }], ["", "package:angular_components/material_expansionpanel/material_expansionpanel.dart",, T, {
     "^": "",
     MaterialExpansionPanel: {
-      "^": "Object;_material_expansionpanel$_ngZone,_changeDetector<,_material_expansionpanel$_domService,_disposer,_defaultExpandIcon,shouldExpandOnLeft,initialized,0autoFocusChild,0_mainPanel,0_headerPanel,0_mainContent,0_headerContent,0_actionContent,0_contentWrapper,closeOnSave<,_isExpanded<,_isExpandedChange<,_isExpandedChangeByUserAction,_anotherExpanded,_disabled,saveDisabled,_activeSaveCancelAction,hideExpandedHeader,disableHeaderExpansion,0name>,0secondaryText,0_expandIcon,alwaysShowExpandIcon,alwaysHideExpandIcon,showSaveCancel,cancelDisplayed,enterAccepts,saveText,cancelText,_openController<,_closeController<,_saveController<,_cancelController<,0_expandCollapseButton",
+      "^": "Object;_material_expansionpanel$_ngZone,_material_expansionpanel$_changeDetector<,_material_expansionpanel$_domService,_material_expansionpanel$_disposer,_defaultExpandIcon,shouldExpandOnLeft,initialized,0autoFocusChild,0_mainPanel,0_headerPanel,0_mainContent,0_headerContent,0_actionContent,0_contentWrapper,closeOnSave<,_isExpanded<,_isExpandedChange<,_isExpandedChangeByUserAction,_anotherExpanded,_material_expansionpanel$_disabled,saveDisabled,_activeSaveCancelAction,hideExpandedHeader,disableHeaderExpansion,0name>,0secondaryText,0_expandIcon,alwaysShowExpandIcon,alwaysHideExpandIcon,showSaveCancel,cancelDisplayed,enterAccepts,saveText,cancelText,_openController<,_closeController<,_saveController<,_cancelController<,0_expandCollapseButton",
       set$_anotherExpanded: function(_anotherExpanded) {
         this._anotherExpanded = H.boolTypeCheck(_anotherExpanded);
       },
@@ -24536,14 +24635,14 @@
         this._mainPanel = mainPanel;
         mainPanel.toString;
         t1 = W.TransitionEvent;
-        this._disposer.addStreamSubscription$1$1(W._EventStreamSubscription$(mainPanel, H.stringTypeCheck(W.Element__determineTransitionEventType(mainPanel)), H.functionTypeCheck(new T.MaterialExpansionPanel_mainPanel_closure(this), {func: 1, ret: -1, args: [t1]}), false, t1), t1);
+        this._material_expansionpanel$_disposer.addStreamSubscription$1$1(W._EventStreamSubscription$(mainPanel, H.stringTypeCheck(W.Element__determineTransitionEventType(mainPanel)), H.functionTypeCheck(new T.MaterialExpansionPanel_mainPanel_closure(this), {func: 1, ret: -1, args: [t1]}), false, t1), t1);
       },
       set$headerPanel: function(headerPanel) {
         var t1;
         this._headerPanel = headerPanel;
         headerPanel.toString;
         t1 = W.TransitionEvent;
-        this._disposer.addStreamSubscription$1$1(W._EventStreamSubscription$(headerPanel, H.stringTypeCheck(W.Element__determineTransitionEventType(headerPanel)), H.functionTypeCheck(new T.MaterialExpansionPanel_headerPanel_closure(this), {func: 1, ret: -1, args: [t1]}), false, t1), t1);
+        this._material_expansionpanel$_disposer.addStreamSubscription$1$1(W._EventStreamSubscription$(headerPanel, H.stringTypeCheck(W.Element__determineTransitionEventType(headerPanel)), H.functionTypeCheck(new T.MaterialExpansionPanel_headerPanel_closure(this), {func: 1, ret: -1, args: [t1]}), false, t1), t1);
       },
       set$mainContent: function(mainContent) {
         this._mainContent = mainContent;
@@ -24575,13 +24674,13 @@
         return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
       },
       get$disabled: function(_) {
-        return this._disabled;
+        return this._material_expansionpanel$_disabled;
       },
       get$expandIcon: function() {
         return this._defaultExpandIcon;
       },
       get$shouldShowExpandIcon: function() {
-        return this.get$expandIcon() !== this._defaultExpandIcon && this._isExpanded ? false : !this._disabled;
+        return this.get$expandIcon() !== this._defaultExpandIcon && this._isExpanded ? false : !this._material_expansionpanel$_disabled;
       },
       get$shouldShowHiddenHeaderExpandIcon: function() {
         this.get$expandIcon() !== this._defaultExpandIcon || false;
@@ -24600,7 +24699,7 @@
       },
       get$headerMsg: function() {
         var t1, t2;
-        if (this._disabled)
+        if (this._material_expansionpanel$_disabled)
           return this.name;
         else {
           if (this._isExpanded)
@@ -24626,12 +24725,12 @@
           this.collapse$0(0);
         else
           this.expand$0(0);
-      }, "call$0", "get$handleHeaderClick", 0, 0, 1],
+      }, "call$0", "get$handleHeaderClick", 0, 0, 2],
       handleExpandIconClick$0: [function() {
-      }, "call$0", "get$handleExpandIconClick", 0, 0, 1],
+      }, "call$0", "get$handleExpandIconClick", 0, 0, 2],
       ngOnInit$0: function() {
         var t1 = this._isExpandedChangeByUserAction;
-        this._disposer.addStreamSubscription$1$1(new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(new T.MaterialExpansionPanel_ngOnInit_closure(this)), P.bool);
+        this._material_expansionpanel$_disposer.addStreamSubscription$1$1(new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(new T.MaterialExpansionPanel_ngOnInit_closure(this)), P.bool);
         this.initialized = true;
       },
       set$expandCollapse: function(button) {
@@ -24639,7 +24738,7 @@
       },
       expand$1$byUserAction: function(_, byUserAction) {
         var t1;
-        if (this._disabled && byUserAction) {
+        if (this._material_expansionpanel$_disabled && byUserAction) {
           t1 = new P._Future(0, $.Zone__current, [P.bool]);
           t1._asyncComplete$1(false);
           return t1;
@@ -24652,7 +24751,7 @@
       collapse$1$byUserAction: [function(_, byUserAction) {
         var t1;
         H.boolTypeCheck(byUserAction);
-        if (this._disabled && byUserAction) {
+        if (this._material_expansionpanel$_disabled && byUserAction) {
           t1 = new P._Future(0, $.Zone__current, [P.bool]);
           t1._asyncComplete$1(false);
           return t1;
@@ -24660,7 +24759,7 @@
         return this.changeState$3(false, byUserAction, this._closeController);
       }, function($receiver) {
         return this.collapse$1$byUserAction($receiver, true);
-      }, "collapse$0", "call$1$byUserAction", "call$0", "get$collapse", 1, 3, 108, 29, 59],
+      }, "collapse$0", "call$1$byUserAction", "call$0", "get$collapse", 1, 3, 108, 32, 59],
       doSave$0: [function() {
         var t1, t2, t3, t4, actionCtrl;
         t1 = P.bool;
@@ -24670,10 +24769,10 @@
         actionCtrl = new Z.AsyncActionController(new P._AsyncCompleter(new P._Future(0, t2, t3), t4), new P._AsyncCompleter(new P._Future(0, t2, t3), t4), H.setRuntimeTypeInfo([], [[P.Future,,]]), H.setRuntimeTypeInfo([], [[P.Future, P.bool]]), false, false, false, [t1]);
         this._saveController.add$1(0, actionCtrl.get$action(actionCtrl));
         this._activeSaveCancelAction = true;
-        this._changeDetector.appView.markPathToRootAsCheckOnce$0();
+        this._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         actionCtrl.execute$2$valueOnCancel(new T.MaterialExpansionPanel_doSave_closure(this, this.initialized), false);
         return actionCtrl.get$action(actionCtrl)._async_action$_onDone.then$1$1(new T.MaterialExpansionPanel_doSave_closure0(this), t1);
-      }, "call$0", "get$doSave", 0, 0, 44],
+      }, "call$0", "get$doSave", 0, 0, 41],
       doCancel$0: [function() {
         var t1, t2, t3, t4, actionCtrl;
         t1 = P.bool;
@@ -24683,10 +24782,10 @@
         actionCtrl = new Z.AsyncActionController(new P._AsyncCompleter(new P._Future(0, t2, t3), t4), new P._AsyncCompleter(new P._Future(0, t2, t3), t4), H.setRuntimeTypeInfo([], [[P.Future,,]]), H.setRuntimeTypeInfo([], [[P.Future, P.bool]]), false, false, false, [t1]);
         this._cancelController.add$1(0, actionCtrl.get$action(actionCtrl));
         this._activeSaveCancelAction = true;
-        this._changeDetector.appView.markPathToRootAsCheckOnce$0();
+        this._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         actionCtrl.execute$2$valueOnCancel(new T.MaterialExpansionPanel_doCancel_closure(this, this.initialized), false);
         return actionCtrl.get$action(actionCtrl)._async_action$_onDone.then$1$1(new T.MaterialExpansionPanel_doCancel_closure0(this), t1);
-      }, "call$0", "get$doCancel", 0, 0, 44],
+      }, "call$0", "get$doCancel", 0, 0, 41],
       changeState$3: function(expand, byUserAction, stream) {
         var t1, t2, t3, t4, actionCtrl;
         if (this._isExpanded === expand) {
@@ -24727,7 +24826,7 @@
       $isDeferredContentAware: 1
     },
     MaterialExpansionPanel_mainPanel_closure: {
-      "^": "Closure:55;$this",
+      "^": "Closure:72;$this",
       call$1: function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isTransitionEvent");
@@ -24736,7 +24835,7 @@
       }
     },
     MaterialExpansionPanel_headerPanel_closure: {
-      "^": "Closure:55;$this",
+      "^": "Closure:72;$this",
       call$1: function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isTransitionEvent");
@@ -24745,7 +24844,7 @@
       }
     },
     MaterialExpansionPanel_ngOnInit_closure: {
-      "^": "Closure:27;$this",
+      "^": "Closure:29;$this",
       call$1: [function(_) {
         var t1, t2;
         H.boolTypeCheck(_);
@@ -24773,7 +24872,7 @@
           t1._isExpanded = false;
           t1._isExpandedChange.add$1(0, false);
           t1._isExpandedChangeByUserAction.add$1(0, false);
-          t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
+          t1._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
           if (this.stateWasInitialized)
             t1._transitionHeightChange$1(false);
         }
@@ -24781,15 +24880,15 @@
       }
     },
     MaterialExpansionPanel_doSave_closure0: {
-      "^": "Closure:35;$this",
+      "^": "Closure:32;$this",
       call$1: [function(result) {
         var t1;
         H.boolTypeCheck(result);
         t1 = this.$this;
         t1._activeSaveCancelAction = false;
-        t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
+        t1._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         return result;
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     MaterialExpansionPanel_doCancel_closure: {
       "^": "Closure:6;$this,stateWasInitialized",
@@ -24798,22 +24897,22 @@
         t1._isExpanded = false;
         t1._isExpandedChange.add$1(0, false);
         t1._isExpandedChangeByUserAction.add$1(0, false);
-        t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
+        t1._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         if (this.stateWasInitialized)
           t1._transitionHeightChange$1(false);
         return true;
       }
     },
     MaterialExpansionPanel_doCancel_closure0: {
-      "^": "Closure:35;$this",
+      "^": "Closure:32;$this",
       call$1: [function(result) {
         var t1;
         H.boolTypeCheck(result);
         t1 = this.$this;
         t1._activeSaveCancelAction = false;
-        t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
+        t1._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         return result;
-      }, null, null, 4, 0, null, 6, "call"]
+      }, null, null, 4, 0, null, 7, "call"]
     },
     MaterialExpansionPanel_changeState_closure: {
       "^": "Closure:6;$this,expand,byUserAction,stateWasInitialized",
@@ -24825,7 +24924,7 @@
         t1._isExpandedChange.add$1(0, t2);
         if (this.byUserAction)
           t1._isExpandedChangeByUserAction.add$1(0, t2);
-        t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
+        t1._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         if (this.stateWasInitialized)
           t1._transitionHeightChange$1(t2);
         return true;
@@ -24839,7 +24938,7 @@
         t1 = this.$this._mainPanel.style;
         t1.toString;
         t1.height = expandedPanelHeight == null ? "" : expandedPanelHeight;
-      }, null, null, 4, 0, null, 90, "call"]
+      }, null, null, 4, 0, null, 91, "call"]
     },
     MaterialExpansionPanel__transitionHeightChange_closure0: {
       "^": "Closure:113;$this",
@@ -24874,75 +24973,75 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel1$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel1$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel2: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel2$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel2$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel3: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel3$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel3$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel4: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel4$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel4$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel5: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel5$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel5$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel6: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel6(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel6$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel6$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel7: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel7(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel7$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel7$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel8: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel8(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel8$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel8$closure", 8, 0, 11],
     viewFactory_MaterialExpansionPanel9: [function(parentView, parentIndex) {
       var t1 = new D._ViewMaterialExpansionPanel9(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, T.MaterialExpansionPanel));
       t1.componentType = $.ViewMaterialExpansionPanel0__renderType;
       return t1;
-    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel9$closure", 8, 0, 10],
+    }, "call$2", "material_expansionpanel_template__viewFactory_MaterialExpansionPanel9$closure", 8, 0, 11],
     ViewMaterialExpansionPanel0: {
-      "^": "AppView;0_KeyUpBoundaryDirective_0_5,0_ButtonDirective_2_5,0_appEl_3,0_NgIf_3_9,0_appEl_7,0_NgIf_7_9,0_appEl_9,0_NgIf_9_9,0_appEl_10,_query_action_1_4_isDirty,0_NgIf_10_9,0_appEl_14,_query_expandCollapseButton_1_6_isDirty,0_NgIf_14_9,0_appEl_16,0_NgIf_16_9,0_appEl_17,0_DeferredContentDirective_17_9,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_material_expansionpanel_template$_expr_2,0_material_expansionpanel_template$_expr_3,0_material_expansionpanel_template$_expr_4,0_material_expansionpanel_template$_expr_5,0_material_expansionpanel_template$_expr_6,0_material_expansionpanel_template$_expr_7,0_expr_8,0_expr_10,0_expr_14,0_expr_15,0_el_0,0_el_1,0_el_2,0_text_6,0_el_11,0_el_13,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_KeyUpBoundaryDirective_0_5,0_ButtonDirective_2_5,0_material_expansionpanel_template$_appEl_3,0_NgIf_3_9,0_appEl_7,0_NgIf_7_9,0_appEl_9,0_NgIf_9_9,0_appEl_10,_query_action_1_4_isDirty,0_NgIf_10_9,0_material_expansionpanel_template$_appEl_14,_query_expandCollapseButton_1_6_isDirty,0_material_expansionpanel_template$_NgIf_14_9,0_appEl_16,0_NgIf_16_9,0_appEl_17,0_DeferredContentDirective_17_9,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_material_expansionpanel_template$_expr_2,0_material_expansionpanel_template$_expr_3,0_material_expansionpanel_template$_expr_4,0_material_expansionpanel_template$_expr_5,0_material_expansionpanel_template$_expr_6,0_material_expansionpanel_template$_expr_7,0_material_expansionpanel_template$_expr_8,0_material_expansionpanel_template$_expr_10,0_material_expansionpanel_template$_expr_14,0_material_expansionpanel_template$_expr_15,0_material_expansionpanel_template$_el_0,0_material_expansionpanel_template$_el_1,0_el_2,0_text_6,0_material_expansionpanel_template$_el_11,0_el_13,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var parentRenderNode, doc, t1, t2, t3, _anchor_3, t4, _el_4, _el_5, _anchor_7, _el_8, _anchor_9, _anchor_10, _el_12, _anchor_14, _el_15, _anchor_16, _anchor_17, subscription_0;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         t1 = S.createDivAndAppend(doc, parentRenderNode);
-        this._el_0 = t1;
+        this._material_expansionpanel_template$_el_0 = t1;
         t1.className = "panel themeable";
         (t1 && C.DivElement_methods).setAttribute$2(t1, "keyupBoundary", "");
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         (t1 && C.DivElement_methods).setAttribute$2(t1, "role", "group");
-        this.addShimC$1(this._el_0);
-        t1 = this._el_0;
+        this.addShimC$1(this._material_expansionpanel_template$_el_0);
+        t1 = this._material_expansionpanel_template$_el_0;
         t2 = W.KeyboardEvent;
         this._KeyUpBoundaryDirective_0_5 = new E.KeyUpBoundaryDirective(new W._ElementEventStreamImpl(t1, "keyup", false, [t2]));
         t1 = S.createAndAppend(doc, "header", t1);
-        this._el_1 = t1;
+        this._material_expansionpanel_template$_el_1 = t1;
         this.addShimE$1(t1);
-        t1 = S.createDivAndAppend(doc, this._el_1);
+        t1 = S.createDivAndAppend(doc, this._material_expansionpanel_template$_el_1);
         this._el_2 = t1;
         (t1 && C.DivElement_methods).setAttribute$2(t1, "buttonDecorator", "");
         t1 = this._el_2;
@@ -24956,7 +25055,7 @@
         t4 = this._el_2;
         (t4 && C.DivElement_methods).append$1(t4, _anchor_3);
         t4 = new V.ViewContainer(3, 2, this, _anchor_3);
-        this._appEl_3 = t4;
+        this._material_expansionpanel_template$_appEl_3 = t4;
         this._NgIf_3_9 = new K.NgIf(new D.TemplateRef(t4, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel1$closure()), t4, false);
         _el_4 = S.createDivAndAppend(doc, this._el_2);
         _el_4.className = "panel-name";
@@ -24984,14 +25083,14 @@
         this._appEl_9 = t4;
         this._NgIf_9_9 = new K.NgIf(new D.TemplateRef(t4, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel3$closure()), t4, false);
         _anchor_10 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
-        J.append$1$x(this._el_1, _anchor_10);
+        J.append$1$x(this._material_expansionpanel_template$_el_1, _anchor_10);
         t4 = new V.ViewContainer(10, 1, this, _anchor_10);
         this._appEl_10 = t4;
         this._NgIf_10_9 = new K.NgIf(new D.TemplateRef(t4, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel4$closure()), t4, false);
-        t4 = S.createAndAppend(doc, "main", this._el_0);
-        this._el_11 = t4;
+        t4 = S.createAndAppend(doc, "main", this._material_expansionpanel_template$_el_0);
+        this._material_expansionpanel_template$_el_11 = t4;
         this.addShimE$1(t4);
-        _el_12 = S.createDivAndAppend(doc, this._el_11);
+        _el_12 = S.createDivAndAppend(doc, this._material_expansionpanel_template$_el_11);
         this.addShimC$1(_el_12);
         t4 = S.createDivAndAppend(doc, _el_12);
         this._el_13 = t4;
@@ -25001,8 +25100,8 @@
         t4 = this._el_13;
         (t4 && C.DivElement_methods).append$1(t4, _anchor_14);
         t4 = new V.ViewContainer(14, 13, this, _anchor_14);
-        this._appEl_14 = t4;
-        this._NgIf_14_9 = new K.NgIf(new D.TemplateRef(t4, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel5$closure()), t4, false);
+        this._material_expansionpanel_template$_appEl_14 = t4;
+        this._material_expansionpanel_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t4, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel5$closure()), t4, false);
         _el_15 = S.createDivAndAppend(doc, this._el_13);
         _el_15.className = "content";
         this.addShimC$1(_el_15);
@@ -25026,8 +25125,8 @@
         (t1 && C.DivElement_methods).addEventListener$2(t1, "keypress", this.eventHandler1$2$1(this._ButtonDirective_2_5.instance.get$handleKeyPress(), t4, t2));
         t2 = this._ButtonDirective_2_5.instance._trigger;
         subscription_0 = new P._BroadcastStream(t2, [H.getTypeArgumentByIndex(t2, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$handleHeaderClick(), t3));
-        this.ctx.set$mainPanel(H.interceptedTypeCheck(this._el_11, "$isHtmlElement"));
-        this.ctx.set$headerPanel(H.interceptedTypeCheck(this._el_1, "$isHtmlElement"));
+        this.ctx.set$mainPanel(H.interceptedTypeCheck(this._material_expansionpanel_template$_el_11, "$isHtmlElement"));
+        this.ctx.set$headerPanel(H.interceptedTypeCheck(this._material_expansionpanel_template$_el_1, "$isHtmlElement"));
         this.ctx.set$mainContent(_el_12);
         this.ctx.set$headerContent(this._el_2);
         this.ctx.set$contentWrapper(this._el_13);
@@ -25049,11 +25148,11 @@
         var _ctx, firstCheck, currVal_8, t1, t2, currVal_0, currVal_1, currVal_2, currVal_3, currVal_5, currVal_7, currVal_10, currVal_14;
         _ctx = this.ctx;
         firstCheck = this.viewData._cdState === 0;
-        currVal_8 = _ctx._disabled;
-        t1 = this._expr_8;
+        currVal_8 = _ctx._material_expansionpanel$_disabled;
+        t1 = this._material_expansionpanel_template$_expr_8;
         if (t1 !== currVal_8) {
           this._ButtonDirective_2_5.instance.disabled = currVal_8;
-          this._expr_8 = currVal_8;
+          this._material_expansionpanel_template$_expr_8 = currVal_8;
         }
         if (firstCheck)
           this._ButtonDirective_2_5.instance.ngOnInit$0();
@@ -25063,17 +25162,17 @@
         t1 = this._NgIf_9_9;
         t1.set$ngIf(_ctx.get$shouldShowExpandIcon() && !_ctx.shouldExpandOnLeft);
         this._NgIf_10_9.set$ngIf(!_ctx.get$shouldShowExpandIcon());
-        t1 = this._NgIf_14_9;
+        t1 = this._material_expansionpanel_template$_NgIf_14_9;
         t1.set$ngIf(_ctx.get$shouldShowHiddenHeaderExpandIcon() && _ctx.shouldExpandOnLeft);
         t1 = this._NgIf_16_9;
         t1.set$ngIf(_ctx.get$shouldShowHiddenHeaderExpandIcon() && !_ctx.shouldExpandOnLeft);
         if (firstCheck)
           this._DeferredContentDirective_17_9.preserveDimensions = true;
-        this._appEl_3.detectChangesInNestedViews$0();
+        this._material_expansionpanel_template$_appEl_3.detectChangesInNestedViews$0();
         this._appEl_7.detectChangesInNestedViews$0();
         this._appEl_9.detectChangesInNestedViews$0();
         this._appEl_10.detectChangesInNestedViews$0();
-        this._appEl_14.detectChangesInNestedViews$0();
+        this._material_expansionpanel_template$_appEl_14.detectChangesInNestedViews$0();
         this._appEl_16.detectChangesInNestedViews$0();
         this._appEl_17.detectChangesInNestedViews$0();
         if (this._query_action_1_4_isDirty) {
@@ -25085,20 +25184,20 @@
         if (this._query_expandCollapseButton_1_6_isDirty) {
           t1 = this.ctx;
           t2 = T.ButtonDirective;
-          t2 = Q.flattenNodes(H.setRuntimeTypeInfo([H.setRuntimeTypeInfo([this._ButtonDirective_2_5.instance], [t2]), this._appEl_14.mapNestedViews$2$1(new D.ViewMaterialExpansionPanel0_detectChangesInternal_closure0(), t2, D._ViewMaterialExpansionPanel5), this._appEl_16.mapNestedViews$2$1(new D.ViewMaterialExpansionPanel0_detectChangesInternal_closure1(), t2, D._ViewMaterialExpansionPanel6)], [[P.List, T.ButtonDirective]]), t2);
+          t2 = Q.flattenNodes(H.setRuntimeTypeInfo([H.setRuntimeTypeInfo([this._ButtonDirective_2_5.instance], [t2]), this._material_expansionpanel_template$_appEl_14.mapNestedViews$2$1(new D.ViewMaterialExpansionPanel0_detectChangesInternal_closure0(), t2, D._ViewMaterialExpansionPanel5), this._appEl_16.mapNestedViews$2$1(new D.ViewMaterialExpansionPanel0_detectChangesInternal_closure1(), t2, D._ViewMaterialExpansionPanel6)], [[P.List, T.ButtonDirective]]), t2);
           t1.set$expandCollapse(t2.length !== 0 ? C.JSArray_methods.get$first(t2) : null);
           this._query_expandCollapseButton_1_6_isDirty = false;
         }
         currVal_0 = _ctx.name;
         t1 = this._material_expansionpanel_template$_expr_0;
         if (t1 != currVal_0) {
-          this.setAttr$3(this._el_0, "aria-label", currVal_0);
+          this.setAttr$3(this._material_expansionpanel_template$_el_0, "aria-label", currVal_0);
           this._material_expansionpanel_template$_expr_0 = currVal_0;
         }
         currVal_1 = _ctx._isExpanded;
         t1 = this._material_expansionpanel_template$_expr_1;
         if (t1 !== currVal_1) {
-          t1 = this._el_0;
+          t1 = this._material_expansionpanel_template$_el_0;
           t2 = String(currVal_1);
           this.setAttr$3(t1, "aria-expanded", t2);
           this._material_expansionpanel_template$_expr_1 = currVal_1;
@@ -25106,18 +25205,18 @@
         currVal_2 = _ctx._isExpanded;
         t1 = this._material_expansionpanel_template$_expr_2;
         if (t1 !== currVal_2) {
-          this.updateClass$3(this._el_0, "open", currVal_2);
+          this.updateClass$3(this._material_expansionpanel_template$_el_0, "open", currVal_2);
           this._material_expansionpanel_template$_expr_2 = currVal_2;
         }
         currVal_3 = _ctx._anotherExpanded;
         t1 = this._material_expansionpanel_template$_expr_3;
         if (t1 !== currVal_3) {
-          this.updateClass$3(this._el_0, "background", currVal_3);
+          this.updateClass$3(this._material_expansionpanel_template$_el_0, "background", currVal_3);
           this._material_expansionpanel_template$_expr_3 = currVal_3;
         }
         t1 = this._material_expansionpanel_template$_expr_4;
         if (t1 !== false) {
-          this.updateClass$3(H.interceptedTypeCheck(this._el_1, "$isHtmlElement"), "hidden", false);
+          this.updateClass$3(H.interceptedTypeCheck(this._material_expansionpanel_template$_el_1, "$isHtmlElement"), "hidden", false);
           this._material_expansionpanel_template$_expr_4 = false;
         }
         currVal_5 = !_ctx._isExpanded;
@@ -25141,29 +25240,29 @@
         currVal_10 = _ctx.name;
         if (currVal_10 == null)
           currVal_10 = "";
-        t1 = this._expr_10;
+        t1 = this._material_expansionpanel_template$_expr_10;
         if (t1 !== currVal_10) {
           this._text_6.textContent = currVal_10;
-          this._expr_10 = currVal_10;
+          this._material_expansionpanel_template$_expr_10 = currVal_10;
         }
         currVal_14 = !_ctx._isExpanded;
-        t1 = this._expr_14;
+        t1 = this._material_expansionpanel_template$_expr_14;
         if (t1 !== currVal_14) {
-          this.updateClass$3(H.interceptedTypeCheck(this._el_11, "$isHtmlElement"), "hidden", currVal_14);
-          this._expr_14 = currVal_14;
+          this.updateClass$3(H.interceptedTypeCheck(this._material_expansionpanel_template$_el_11, "$isHtmlElement"), "hidden", currVal_14);
+          this._material_expansionpanel_template$_expr_14 = currVal_14;
         }
-        t1 = this._expr_15;
+        t1 = this._material_expansionpanel_template$_expr_15;
         if (t1 !== false) {
           this.updateClass$3(this._el_13, "hidden-header", false);
-          this._expr_15 = false;
+          this._material_expansionpanel_template$_expr_15 = false;
         }
       },
       destroyInternal$0: function() {
-        this._appEl_3.destroyNestedViews$0();
+        this._material_expansionpanel_template$_appEl_3.destroyNestedViews$0();
         this._appEl_7.destroyNestedViews$0();
         this._appEl_9.destroyNestedViews$0();
         this._appEl_10.destroyNestedViews$0();
-        this._appEl_14.destroyNestedViews$0();
+        this._material_expansionpanel_template$_appEl_14.destroyNestedViews$0();
         this._appEl_16.destroyNestedViews$0();
         this._appEl_17.destroyNestedViews$0();
         this._DeferredContentDirective_17_9.ngOnDestroy$0();
@@ -25192,7 +25291,7 @@
     ViewMaterialExpansionPanel0_detectChangesInternal_closure: {
       "^": "Closure:114;",
       call$1: function(nestedView) {
-        return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialExpansionPanel4")._el_0], [W.HtmlElement]);
+        return H.setRuntimeTypeInfo([H.interceptedTypeCheck(nestedView, "$is_ViewMaterialExpansionPanel4")._material_expansionpanel_template$_el_0], [W.HtmlElement]);
       }
     },
     ViewMaterialExpansionPanel0_detectChangesInternal_closure0: {
@@ -25208,29 +25307,29 @@
       }
     },
     _ViewMaterialExpansionPanel1: {
-      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_material_expansionpanel_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, t2, subscription_0;
         t1 = M.ViewMaterialIconComponent0$(this, 0);
         this._material_expansionpanel_template$_compView_0 = t1;
         t1 = t1.rootEl;
-        this._el_0 = t1;
+        this._material_expansionpanel_template$_el_0 = t1;
         J.setAttribute$2$x(t1, "buttonDecorator", "");
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t1.className = "expand-button expand-on-left";
         this.addShimC$1(t1);
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t2 = W.UIEvent;
         this._ButtonDirective_0_5 = new R.ButtonDirectiveNgCd(new T.ButtonDirective(new P._SyncBroadcastStreamController(null, null, 0, [t2]), null, false, true, null, t1), false);
         t1 = new Y.MaterialIconComponent(t1);
         this._MaterialIconComponent_0_6 = t1;
         this._material_expansionpanel_template$_compView_0.create$2(0, t1, []);
         t1 = W.Event;
-        J.addEventListener$2$x(this._el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
-        J.addEventListener$2$x(this._el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
         t1 = this._ButtonDirective_0_5.instance._trigger;
         subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$handleExpandIconClick(), t2));
-        this.init$2([this._el_0], [subscription_0]);
+        this.init$2([this._material_expansionpanel_template$_el_0], [subscription_0]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         if (token === C.Type_ButtonDirective_hH0 && 0 === nodeIndex)
@@ -25256,10 +25355,10 @@
         currVal_0 = _ctx.get$expandIcon() !== _ctx._defaultExpandIcon ? false : !_ctx._isExpanded;
         t1 = this._material_expansionpanel_template$_expr_0;
         if (t1 !== currVal_0) {
-          this.updateElemClass$3(this._el_0, "expand-more", currVal_0);
+          this.updateElemClass$3(this._material_expansionpanel_template$_el_0, "expand-more", currVal_0);
           this._material_expansionpanel_template$_expr_0 = currVal_0;
         }
-        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._el_0);
+        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._material_expansionpanel_template$_el_0);
         this._material_expansionpanel_template$_compView_0.detectChanges$0();
       },
       destroyInternal$0: function() {
@@ -25295,29 +25394,29 @@
       }
     },
     _ViewMaterialExpansionPanel3: {
-      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_2,0_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_2,0_material_expansionpanel_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, t2, subscription_0;
         t1 = M.ViewMaterialIconComponent0$(this, 0);
         this._material_expansionpanel_template$_compView_0 = t1;
         t1 = t1.rootEl;
-        this._el_0 = t1;
+        this._material_expansionpanel_template$_el_0 = t1;
         J.setAttribute$2$x(t1, "buttonDecorator", "");
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t1.className = "expand-button";
         this.addShimC$1(t1);
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t2 = W.UIEvent;
         this._ButtonDirective_0_5 = new R.ButtonDirectiveNgCd(new T.ButtonDirective(new P._SyncBroadcastStreamController(null, null, 0, [t2]), null, false, true, null, t1), false);
         t1 = new Y.MaterialIconComponent(t1);
         this._MaterialIconComponent_0_6 = t1;
         this._material_expansionpanel_template$_compView_0.create$2(0, t1, []);
         t1 = W.Event;
-        J.addEventListener$2$x(this._el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
-        J.addEventListener$2$x(this._el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
         t1 = this._ButtonDirective_0_5.instance._trigger;
         subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$handleExpandIconClick(), t2));
-        this.init$2([this._el_0], [subscription_0]);
+        this.init$2([this._material_expansionpanel_template$_el_0], [subscription_0]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         if (token === C.Type_ButtonDirective_hH0 && 0 === nodeIndex)
@@ -25343,15 +25442,15 @@
         if (firstCheck) {
           t1 = $.$get$MaterialExpansionPanel_expandAriaMsg();
           if (t1 != null)
-            this.setAttr$3(this._el_0, "aria-label", t1);
+            this.setAttr$3(this._material_expansionpanel_template$_el_0, "aria-label", t1);
         }
         currVal_0 = _ctx.get$expandIcon() !== _ctx._defaultExpandIcon ? false : !_ctx._isExpanded;
         t1 = this._material_expansionpanel_template$_expr_0;
         if (t1 !== currVal_0) {
-          this.updateElemClass$3(this._el_0, "expand-more", currVal_0);
+          this.updateElemClass$3(this._material_expansionpanel_template$_el_0, "expand-more", currVal_0);
           this._material_expansionpanel_template$_expr_0 = currVal_0;
         }
-        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._el_0);
+        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._material_expansionpanel_template$_el_0);
         this._material_expansionpanel_template$_compView_0.detectChanges$0();
       },
       destroyInternal$0: function() {
@@ -25362,15 +25461,15 @@
       }
     },
     _ViewMaterialExpansionPanel4: {
-      "^": "AppView;0_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_expansionpanel_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1 = document.createElement("div");
         H.interceptedTypeCheck(t1, "$isDivElement");
-        this._el_0 = t1;
+        this._material_expansionpanel_template$_el_0 = t1;
         t1.className = "action";
         this.addShimC$1(t1);
-        this.project$2(this._el_0, 2);
-        this.init0$1(this._el_0);
+        this.project$2(this._material_expansionpanel_template$_el_0, 2);
+        this.init0$1(this._material_expansionpanel_template$_el_0);
       },
       dirtyParentQueriesInternal$0: function() {
         H.interceptedTypeCheck(this.parentView, "$isViewMaterialExpansionPanel0")._query_action_1_4_isDirty = true;
@@ -25380,29 +25479,29 @@
       }
     },
     _ViewMaterialExpansionPanel5: {
-      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_material_expansionpanel_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, t2, subscription_0;
         t1 = M.ViewMaterialIconComponent0$(this, 0);
         this._material_expansionpanel_template$_compView_0 = t1;
         t1 = t1.rootEl;
-        this._el_0 = t1;
+        this._material_expansionpanel_template$_el_0 = t1;
         J.setAttribute$2$x(t1, "buttonDecorator", "");
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t1.className = "expand-button expand-on-left";
         this.addShimC$1(t1);
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t2 = W.UIEvent;
         this._ButtonDirective_0_5 = new R.ButtonDirectiveNgCd(new T.ButtonDirective(new P._SyncBroadcastStreamController(null, null, 0, [t2]), null, false, true, null, t1), false);
         t1 = new Y.MaterialIconComponent(t1);
         this._MaterialIconComponent_0_6 = t1;
         this._material_expansionpanel_template$_compView_0.create$2(0, t1, []);
         t1 = W.Event;
-        J.addEventListener$2$x(this._el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
-        J.addEventListener$2$x(this._el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
         t1 = this._ButtonDirective_0_5.instance._trigger;
         subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler0$1$1(J.get$collapse$z(this.ctx), t2));
-        this.init$2([this._el_0], [subscription_0]);
+        this.init$2([this._material_expansionpanel_template$_el_0], [subscription_0]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         if (token === C.Type_ButtonDirective_hH0 && 0 === nodeIndex)
@@ -25428,10 +25527,10 @@
         currVal_0 = _ctx.get$closePanelMsg();
         t1 = this._material_expansionpanel_template$_expr_0;
         if (t1 != currVal_0) {
-          this.setAttr$3(this._el_0, "aria-label", currVal_0);
+          this.setAttr$3(this._material_expansionpanel_template$_el_0, "aria-label", currVal_0);
           this._material_expansionpanel_template$_expr_0 = currVal_0;
         }
-        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._el_0);
+        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._material_expansionpanel_template$_el_0);
         this._material_expansionpanel_template$_compView_0.detectChanges$0();
       },
       dirtyParentQueriesInternal$0: function() {
@@ -25445,29 +25544,29 @@
       }
     },
     _ViewMaterialExpansionPanel6: {
-      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_expansionpanel_template$_compView_0,0_ButtonDirective_0_5,0_MaterialIconComponent_0_6,0_material_expansionpanel_template$_expr_0,0_material_expansionpanel_template$_expr_1,0_material_expansionpanel_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, t2, subscription_0;
         t1 = M.ViewMaterialIconComponent0$(this, 0);
         this._material_expansionpanel_template$_compView_0 = t1;
         t1 = t1.rootEl;
-        this._el_0 = t1;
+        this._material_expansionpanel_template$_el_0 = t1;
         J.setAttribute$2$x(t1, "buttonDecorator", "");
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t1.className = "expand-button";
         this.addShimC$1(t1);
-        t1 = this._el_0;
+        t1 = this._material_expansionpanel_template$_el_0;
         t2 = W.UIEvent;
         this._ButtonDirective_0_5 = new R.ButtonDirectiveNgCd(new T.ButtonDirective(new P._SyncBroadcastStreamController(null, null, 0, [t2]), null, false, true, null, t1), false);
         t1 = new Y.MaterialIconComponent(t1);
         this._MaterialIconComponent_0_6 = t1;
         this._material_expansionpanel_template$_compView_0.create$2(0, t1, []);
         t1 = W.Event;
-        J.addEventListener$2$x(this._el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
-        J.addEventListener$2$x(this._el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "click", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleClick(), t1, W.MouseEvent));
+        J.addEventListener$2$x(this._material_expansionpanel_template$_el_0, "keypress", this.eventHandler1$2$1(this._ButtonDirective_0_5.instance.get$handleKeyPress(), t1, W.KeyboardEvent));
         t1 = this._ButtonDirective_0_5.instance._trigger;
         subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler0$1$1(J.get$collapse$z(this.ctx), t2));
-        this.init$2([this._el_0], [subscription_0]);
+        this.init$2([this._material_expansionpanel_template$_el_0], [subscription_0]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         if (token === C.Type_ButtonDirective_hH0 && 0 === nodeIndex)
@@ -25493,10 +25592,10 @@
         currVal_0 = _ctx.get$closePanelMsg();
         t1 = this._material_expansionpanel_template$_expr_0;
         if (t1 != currVal_0) {
-          this.setAttr$3(this._el_0, "aria-label", currVal_0);
+          this.setAttr$3(this._material_expansionpanel_template$_el_0, "aria-label", currVal_0);
           this._material_expansionpanel_template$_expr_0 = currVal_0;
         }
-        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._el_0);
+        this._ButtonDirective_0_5.detectHostChanges$2(this._material_expansionpanel_template$_compView_0, this._material_expansionpanel_template$_el_0);
         this._material_expansionpanel_template$_compView_0.detectChanges$0();
       },
       dirtyParentQueriesInternal$0: function() {
@@ -25510,7 +25609,7 @@
       }
     },
     _ViewMaterialExpansionPanel7: {
-      "^": "AppView;0_appEl_0,0_NgIf_0_9,0_appEl_1,0_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_appEl_0,0_NgIf_0_9,0_material_expansionpanel_template$_appEl_1,0_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, t2;
         t1 = $.$get$_viewContainerAnchor();
@@ -25518,7 +25617,7 @@
         this._appEl_0 = t2;
         this._NgIf_0_9 = new K.NgIf(new D.TemplateRef(t2, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel8$closure()), t2, false);
         t1 = new V.ViewContainer(1, null, this, H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment"));
-        this._appEl_1 = t1;
+        this._material_expansionpanel_template$_appEl_1 = t1;
         this._NgIf_1_9 = new K.NgIf(new D.TemplateRef(t1, D.material_expansionpanel_template__viewFactory_MaterialExpansionPanel9$closure()), t1, false);
         this.init$2([this._appEl_0, t1], null);
       },
@@ -25527,11 +25626,11 @@
         this._NgIf_0_9.set$ngIf(!_ctx.showSaveCancel);
         this._NgIf_1_9.set$ngIf(_ctx.showSaveCancel);
         this._appEl_0.detectChangesInNestedViews$0();
-        this._appEl_1.detectChangesInNestedViews$0();
+        this._material_expansionpanel_template$_appEl_1.detectChangesInNestedViews$0();
       },
       destroyInternal$0: function() {
         this._appEl_0.destroyNestedViews$0();
-        this._appEl_1.destroyNestedViews$0();
+        this._material_expansionpanel_template$_appEl_1.destroyNestedViews$0();
       },
       $asAppView: function() {
         return [T.MaterialExpansionPanel];
@@ -25760,44 +25859,44 @@
           panel = t1[_i];
           if (!J.$eq$(panel, this._openPanel)) {
             panel.set$_anotherExpanded(this._openPanel != null);
-            panel.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+            panel.get$_material_expansionpanel$_changeDetector().appView.markPathToRootAsCheckOnce$0();
           }
         }
       }
     },
     MaterialExpansionPanelSet__onPanelsChange_closure: {
-      "^": "Closure:27;$this,panel",
+      "^": "Closure:29;$this,panel",
       call$1: [function(isExpanded) {
         if (H.boolTypeCheck(isExpanded))
           this.$this._setOpenPanel$1(this.panel);
       }, null, null, 4, 0, null, 61, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure0: {
-      "^": "Closure:30;$this,panel",
+      "^": "Closure:34;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelOpen$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 12, "call"]
+      }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure1: {
-      "^": "Closure:30;$this,panel",
+      "^": "Closure:34;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 12, "call"]
+      }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure2: {
-      "^": "Closure:30;$this,panel",
+      "^": "Closure:34;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 12, "call"]
+      }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure3: {
-      "^": "Closure:30;$this,panel",
+      "^": "Closure:34;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
-      }, null, null, 4, 0, null, 12, "call"]
+      }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelOpen_closure: {
-      "^": "Closure:35;$this,panel",
+      "^": "Closure:32;$this,panel",
       call$1: [function(success) {
         H.boolTypeCheck(success);
         if (success)
@@ -25881,7 +25980,7 @@
       }
     },
     BaseMaterialInput: {
-      "^": "FocusableMixin;_base_material_input$_changeDetector<,0label>",
+      "^": "FocusableMixin;_changeDetector<,0label>",
       set$inputText: function(value) {
         var t1;
         this._inputText = value;
@@ -25891,18 +25990,18 @@
           t1 = value.length;
           this._inputTextLength = t1;
         }
-        this.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+        this.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
       },
       BaseMaterialInput$3: function(_cd, _changeDetector, validator) {
         var $call = this.get$$call();
         validator.add$1(0, $call);
-        this._base_material_input$_disposer.addFunction$1(new D.BaseMaterialInput_closure(validator, $call));
+        this._disposer.addFunction$1(new D.BaseMaterialInput_closure(validator, $call));
       },
       ngAfterViewInit$0: function() {
         var t1, t2, t3;
         t1 = this._base_material_input$_cd;
         if ((t1 == null ? null : t1._control) != null) {
-          t2 = this._base_material_input$_disposer;
+          t2 = this._disposer;
           t3 = t1._control._valueChanges;
           t2.addStreamSubscription$1$1(new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(new D.BaseMaterialInput_ngAfterViewInit_closure(this)), null);
           t1 = t1._control._statusChanges;
@@ -25912,7 +26011,7 @@
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isAbstractControl");
         return this._isLocallyValid$1(true);
-      }, "call$1", "get$$call", 4, 0, 43, 0],
+      }, "call$1", "get$$call", 4, 0, 35, 0],
       _isLocallyValid$1: function(fromFormsApi) {
         var t1;
         if (this._invalid && true) {
@@ -25924,7 +26023,7 @@
         return;
       },
       get$disabled: function(_) {
-        return this._base_material_input$_disabled;
+        return this._disabled;
       },
       get$invalid: function(_) {
         var t1, t2;
@@ -25978,13 +26077,13 @@
         return t1 == null ? "" : t1;
       },
       ngOnDestroy$0: ["super$BaseMaterialInput$ngOnDestroy", function() {
-        this._base_material_input$_disposer.dispose$0();
+        this._disposer.dispose$0();
       }],
       inputFocusAction$1: [function($event) {
         this.focused = true;
         this.FocusableMixin__onFocus.add$1(0, H.interceptedTypeCheck($event, "$isFocusEvent"));
         this.updateBottomPanelState$0();
-      }, "call$1", "get$inputFocusAction", 4, 0, 2],
+      }, "call$1", "get$inputFocusAction", 4, 0, 1],
       inputBlurAction$3: function($event, valid, validationMessage) {
         this._invalid = !valid;
         this._validationMessage = validationMessage;
@@ -26025,7 +26124,7 @@
           t1 = C.BottomPanelState_0;
         }
         if (oldState !== t1)
-          this.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
       }
     },
     BaseMaterialInput_closure: {
@@ -26042,7 +26141,7 @@
     BaseMaterialInput_ngAfterViewInit_closure: {
       "^": "Closure:4;$this",
       call$1: [function(value) {
-        this.$this.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+        this.$this.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
       }, null, null, 4, 0, null, 1, "call"]
     },
     BaseMaterialInput_ngAfterViewInit_closure0: {
@@ -26051,12 +26150,12 @@
         var t1;
         H.stringTypeCheck($status);
         t1 = this.$this;
-        t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+        t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
         t1.updateBottomPanelState$0();
       }, null, null, 4, 0, null, 64, "call"]
     },
     BaseMaterialInput_errorMessage_closure: {
-      "^": "Closure:25;",
+      "^": "Closure:20;",
       call$1: function(v) {
         return typeof v === "string" && v.length !== 0;
       }
@@ -26089,12 +26188,12 @@
           this.set$_validator(numDelegates > 1 ? B.Validators_compose(t1) : C.JSArray_methods.get$single(t1));
         }
         return this._validator.call$1(control);
-      }, "call$1", "get$$call", 4, 0, 43, 36]
+      }, "call$1", "get$$call", 4, 0, 35, 35]
     }
   }], ["", "package:angular_components/material_input/material_input.dart",, L, {
     "^": "",
     MaterialInputComponent: {
-      "^": "BaseMaterialInput;_material_input$_changeDetector,0inputEl,0popupSourceEl,0type,multiple,inputRole,_labelId,0_leadingText,0leadingGlyph,0_trailingText,0trailingGlyph,0trailingGlyphAriaLabel,0leadingGlyphAriaLabel,_rightAlign,0inputAriaOwns,0inputAriaActivedescendent,0inputAriaHasPopup,0inputAriaExpanded,0inputAriaAutocomplete,_base_material_input$_changeDetector,_base_material_input$_disposer,emptyState,errorState,hintState,_invalid,0_validationMessage,0_localValidationMessage,_required,_showHintOnlyOnFocus,_base_material_input$_disabled,useNativeValidation,_pristine,_base_material_input$_cd,bottomPanelState,0_errorMsg,0_error,0label,0inputAriaLabel,0_hintText,_requiredErrorMsg,0maxCount,0_checkValid,_inputTextLength,_inputText,displayBottomPanel,0errorRenderer,0_characterCounter,showCharacterCount,floatingLabel,_keypressController,_changeController,_blurController,focused,FocusableMixin__onFocus,0FocusableMixin__focusable,FocusableMixin__focusPending",
+      "^": "BaseMaterialInput;_material_input$_changeDetector,0inputEl,0popupSourceEl,0type,multiple,inputRole,_labelId,0_leadingText,0leadingGlyph,0_trailingText,0trailingGlyph,0trailingGlyphAriaLabel,0leadingGlyphAriaLabel,_rightAlign,0inputAriaOwns,0inputAriaActivedescendent,0inputAriaHasPopup,0inputAriaExpanded,0inputAriaAutocomplete,_changeDetector,_disposer,emptyState,errorState,hintState,_invalid,0_validationMessage,0_localValidationMessage,_required,_showHintOnlyOnFocus,_disabled,useNativeValidation,_pristine,_base_material_input$_cd,bottomPanelState,0_errorMsg,0_error,0label,0inputAriaLabel,0_hintText,_requiredErrorMsg,0maxCount,0_checkValid,_inputTextLength,_inputText,displayBottomPanel,0errorRenderer,0_characterCounter,showCharacterCount,floatingLabel,_keypressController,_changeController,_blurController,focused,FocusableMixin__onFocus,0FocusableMixin__focusable,FocusableMixin__focusPending",
       set$inputEl: function(inputEl) {
         this.inputEl = H.interceptedTypeCheck(inputEl, "$isElementRef");
       },
@@ -26106,7 +26205,7 @@
       },
       focus$0: [function(_) {
         return this.super$FocusableMixin$focus(0);
-      }, "call$0", "get$focus", 1, 0, 1],
+      }, "call$0", "get$focus", 1, 0, 2],
       $isReferenceDirective: 1,
       static: {
         MaterialInputComponent$: function(type, multiple, inputRole, cd, _changeDetector, validator) {
@@ -26117,7 +26216,12 @@
           t4 = [W.FocusEvent];
           t1 = new L.MaterialInputComponent(_changeDetector, false, inputRole, t1, false, _changeDetector, new R.Disposer(true, false), C.BottomPanelState_0, C.BottomPanelState_1, C.BottomPanelState_2, false, false, false, false, true, true, cd, C.BottomPanelState_0, t2, 0, "", true, false, false, new P._SyncBroadcastStreamController(null, null, 0, t3), new P._SyncBroadcastStreamController(null, null, 0, t3), new P._SyncBroadcastStreamController(null, null, 0, t4), false, new P._SyncBroadcastStreamController(null, null, 0, t4), false);
           t1.BaseMaterialInput$3(cd, _changeDetector, validator);
-          t1.type = "text";
+          if (type == null)
+            t1.type = "text";
+          else if (C.JSArray_methods.contains$1(C.List_number_tel, type))
+            t1.type = "text";
+          else
+            t1.type = type;
           t1.multiple = E.attributeToBool(multiple, false);
           return t1;
         }
@@ -26130,57 +26234,57 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent1$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent1$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent2: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent2$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent2$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent3: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent3$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent3$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent4: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent4$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent4$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent5: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent5$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent5$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent6: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent6(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent6$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent6$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent7: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent7(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent7$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent7$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent8: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent8(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent8$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent8$closure", 8, 0, 9],
     viewFactory_MaterialInputComponent9: [function(parentView, parentIndex) {
       var t1 = new Q._ViewMaterialInputComponent9(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.MaterialInputComponent));
       t1.componentType = $.ViewMaterialInputComponent0__renderType;
       return t1;
-    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent9$closure", 8, 0, 11],
+    }, "call$2", "material_input_template__viewFactory_MaterialInputComponent9$closure", 8, 0, 9],
     ViewMaterialInputComponent0: {
-      "^": "AppView;0_material_input_template$_appEl_2,0_material_input_template$_NgIf_2_9,0_appEl_4,0_NgIf_4_9,0_DefaultValueAccessor_11_5,0_FocusableDirective_11_6,0_NgValueAccessor_11_7,0_NgModel_11_8,0_appEl_13,0_NgIf_13_9,0_appEl_15,0_NgIf_15_9,0_appEl_21,0_NgIf_21_9,0_material_input_template$_expr_0,0_material_input_template$_expr_3,0_material_input_template$_expr_4,0_material_input_template$_expr_5,0_material_input_template$_expr_6,0_material_input_template$_expr_7,0_material_input_template$_expr_8,0_expr_9,0_material_input_template$_expr_10,0_expr_11,0_expr_12,0_expr_13,0_material_input_template$_expr_14,0_material_input_template$_expr_15,0_expr_16,0_expr_17,0_expr_18,0_expr_19,0_expr_20,0_expr_22,0_expr_23,0_expr_24,0_expr_25,0_expr_26,0_expr_30,0_expr_31,0_expr_32,0_expr_33,0_expr_34,0_expr_35,0_material_input_template$_el_1,0_el_6,0_el_7,0_el_9,0_text_10,0_material_input_template$_el_11,0_el_18,0_el_19,0_el_20,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_appEl_2,0_NgIf_2_9,0_appEl_4,0_NgIf_4_9,0_DefaultValueAccessor_11_5,0_FocusableDirective_11_6,0_NgValueAccessor_11_7,0_NgModel_11_8,0_appEl_13,0_NgIf_13_9,0_appEl_15,0_NgIf_15_9,0_appEl_21,0_NgIf_21_9,0_expr_0,0_expr_3,0_expr_4,0_expr_5,0_expr_6,0_expr_7,0_expr_8,0_expr_9,0_expr_10,0_expr_11,0_expr_12,0_expr_13,0_expr_14,0_expr_15,0_expr_16,0_expr_17,0_expr_18,0_expr_19,0_expr_20,0_expr_22,0_expr_23,0_expr_24,0_expr_25,0_expr_26,0_expr_30,0_expr_31,0_expr_32,0_expr_33,0_expr_34,0_expr_35,0_el_1,0_el_6,0_el_7,0_el_9,0_text_10,0_el_11,0_el_18,0_el_19,0_el_20,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       set$_NgValueAccessor_11_7: function(_NgValueAccessor_11_7) {
         this._NgValueAccessor_11_7 = H.assertSubtype(_NgValueAccessor_11_7, "$isList", [[L.ControlValueAccessor,,]], "$asList");
       },
@@ -26194,29 +26298,29 @@
         _el_0.className = "baseline";
         this.addShimC$1(_el_0);
         t1 = S.createDivAndAppend(doc, _el_0);
-        this._material_input_template$_el_1 = t1;
+        this._el_1 = t1;
         t1.className = "top-section";
         this.addShimC$1(t1);
         t1 = $.$get$_viewContainerAnchor();
         _anchor_2 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
-        t2 = this._material_input_template$_el_1;
+        t2 = this._el_1;
         (t2 && C.DivElement_methods).append$1(t2, _anchor_2);
         t2 = new V.ViewContainer(2, 1, this, _anchor_2);
-        this._material_input_template$_appEl_2 = t2;
-        this._material_input_template$_NgIf_2_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent1$closure()), t2, false);
+        this._appEl_2 = t2;
+        this._NgIf_2_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent1$closure()), t2, false);
         _text_3 = doc.createTextNode(" ");
-        t2 = this._material_input_template$_el_1;
+        t2 = this._el_1;
         (t2 && C.DivElement_methods).append$1(t2, _text_3);
         _anchor_4 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
-        t2 = this._material_input_template$_el_1;
+        t2 = this._el_1;
         (t2 && C.DivElement_methods).append$1(t2, _anchor_4);
         t2 = new V.ViewContainer(4, 1, this, _anchor_4);
         this._appEl_4 = t2;
         this._NgIf_4_9 = new K.NgIf(new D.TemplateRef(t2, Q.material_input_template__viewFactory_MaterialInputComponent2$closure()), t2, false);
         _text_5 = doc.createTextNode(" ");
-        t2 = this._material_input_template$_el_1;
+        t2 = this._el_1;
         (t2 && C.DivElement_methods).append$1(t2, _text_5);
-        t2 = S.createAndAppend(doc, "label", this._material_input_template$_el_1);
+        t2 = S.createAndAppend(doc, "label", this._el_1);
         this._el_6 = t2;
         t2.className = "input-container";
         this.addShimE$1(t2);
@@ -26238,38 +26342,38 @@
         t3 = this._el_9;
         (t3 && C.SpanElement_methods).append$1(t3, t2);
         t2 = H.interceptedTypeCheck(S.createAndAppend(doc, "input", this._el_6), "$isInputElement");
-        this._material_input_template$_el_11 = t2;
+        this._el_11 = t2;
         t2.className = "input";
         (t2 && C.InputElement_methods).setAttribute$2(t2, "focusableElement", "");
-        this.addShimC$1(this._material_input_template$_el_11);
-        t2 = this._material_input_template$_el_11;
+        this.addShimC$1(this._el_11);
+        t2 = this._el_11;
         t3 = new O.DefaultValueAccessor(t2, new L.ChangeHandler_closure(P.String), new L.TouchHandler_closure());
         this._DefaultValueAccessor_11_5 = t3;
         this._FocusableDirective_11_6 = new E.FocusableDirective(t2);
         this.set$_NgValueAccessor_11_7(H.setRuntimeTypeInfo([t3], [[L.ControlValueAccessor,,]]));
         this._NgModel_11_8 = U.NgModel$(null, this._NgValueAccessor_11_7);
         _text_12 = doc.createTextNode(" ");
-        t3 = this._material_input_template$_el_1;
+        t3 = this._el_1;
         (t3 && C.DivElement_methods).append$1(t3, _text_12);
         _anchor_13 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
-        t3 = this._material_input_template$_el_1;
+        t3 = this._el_1;
         (t3 && C.DivElement_methods).append$1(t3, _anchor_13);
         t3 = new V.ViewContainer(13, 1, this, _anchor_13);
         this._appEl_13 = t3;
         this._NgIf_13_9 = new K.NgIf(new D.TemplateRef(t3, Q.material_input_template__viewFactory_MaterialInputComponent3$closure()), t3, false);
         _text_14 = doc.createTextNode(" ");
-        t3 = this._material_input_template$_el_1;
+        t3 = this._el_1;
         (t3 && C.DivElement_methods).append$1(t3, _text_14);
         _anchor_15 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
-        t3 = this._material_input_template$_el_1;
+        t3 = this._el_1;
         (t3 && C.DivElement_methods).append$1(t3, _anchor_15);
         t3 = new V.ViewContainer(15, 1, this, _anchor_15);
         this._appEl_15 = t3;
         this._NgIf_15_9 = new K.NgIf(new D.TemplateRef(t3, Q.material_input_template__viewFactory_MaterialInputComponent4$closure()), t3, false);
         _text_16 = doc.createTextNode(" ");
-        t3 = this._material_input_template$_el_1;
+        t3 = this._el_1;
         (t3 && C.DivElement_methods).append$1(t3, _text_16);
-        this.project$2(this._material_input_template$_el_1, 0);
+        this.project$2(this._el_1, 0);
         _el_17 = S.createDivAndAppend(doc, _el_0);
         _el_17.className = "underline";
         this.addShimC$1(_el_17);
@@ -26290,17 +26394,17 @@
         t1 = new V.ViewContainer(21, null, this, _anchor_21);
         this._appEl_21 = t1;
         this._NgIf_21_9 = new K.NgIf(new D.TemplateRef(t1, Q.material_input_template__viewFactory_MaterialInputComponent5$closure()), t1, false);
-        t1 = this._material_input_template$_el_11;
+        t1 = this._el_11;
         t3 = W.Event;
         (t1 && C.InputElement_methods).addEventListener$2(t1, "blur", this.eventHandler1$2$1(this.get$_handle_blur_11_0(), t3, t3));
-        t1 = this._material_input_template$_el_11;
+        t1 = this._el_11;
         (t1 && C.InputElement_methods).addEventListener$2(t1, "change", this.eventHandler1$2$1(this.get$_handle_change_11_1(), t3, t3));
-        t1 = this._material_input_template$_el_11;
+        t1 = this._el_11;
         (t1 && C.InputElement_methods).addEventListener$2(t1, "focus", this.eventHandler1$2$1(this.ctx.get$inputFocusAction(), t3, t3));
-        t1 = this._material_input_template$_el_11;
+        t1 = this._el_11;
         (t1 && C.InputElement_methods).addEventListener$2(t1, "input", this.eventHandler1$2$1(this.get$_handle_input_11_3(), t3, t3));
         this.ctx.set$focusable(this._FocusableDirective_11_6);
-        this.ctx.set$inputEl(new Z.ElementRef(this._material_input_template$_el_11));
+        this.ctx.set$inputEl(new Z.ElementRef(this._el_11));
         this.ctx.set$popupSourceEl(new Z.ElementRef(_el_0));
         this.init$2(C.List_empty, null);
         J.addEventListener$2$x(_rootEl, "focus", this.eventHandler0$1$1(_ctx.get$focus(_ctx), t3));
@@ -26316,7 +26420,7 @@
         var _ctx, firstCheck, t1, currVal_0, currVal_5, currVal_6, currVal_9, currVal_12, currVal_17, t2, currVal_22, currVal_24, currVal_25, currVal_26, currVal_30, currVal_31, currVal_32, currVal_33, currVal_34, currVal_35;
         _ctx = this.ctx;
         firstCheck = this.viewData._cdState === 0;
-        t1 = this._material_input_template$_NgIf_2_9;
+        t1 = this._NgIf_2_9;
         _ctx.leadingGlyph;
         t1.set$ngIf(false);
         t1 = this._NgIf_4_9;
@@ -26335,62 +26439,62 @@
         t1 = this._NgIf_21_9;
         _ctx.displayBottomPanel;
         t1.set$ngIf(true);
-        this._material_input_template$_appEl_2.detectChangesInNestedViews$0();
+        this._appEl_2.detectChangesInNestedViews$0();
         this._appEl_4.detectChangesInNestedViews$0();
         this._appEl_13.detectChangesInNestedViews$0();
         this._appEl_15.detectChangesInNestedViews$0();
         this._appEl_21.detectChangesInNestedViews$0();
-        currVal_0 = _ctx._base_material_input$_disabled;
-        t1 = this._material_input_template$_expr_0;
+        currVal_0 = _ctx._disabled;
+        t1 = this._expr_0;
         if (t1 != currVal_0) {
-          this.updateClass$3(this._material_input_template$_el_1, "disabled", currVal_0);
-          this._material_input_template$_expr_0 = currVal_0;
+          this.updateClass$3(this._el_1, "disabled", currVal_0);
+          this._expr_0 = currVal_0;
         }
         _ctx.floatingLabel;
-        t1 = this._material_input_template$_expr_3;
+        t1 = this._expr_3;
         if (t1 !== false) {
           this.updateClass$3(H.interceptedTypeCheck(this._el_6, "$isHtmlElement"), "floated-label", false);
-          this._material_input_template$_expr_3 = false;
+          this._expr_3 = false;
         }
         _ctx._rightAlign;
-        t1 = this._material_input_template$_expr_4;
+        t1 = this._expr_4;
         if (t1 !== false) {
           this.updateClass$3(this._el_7, "right-align", false);
-          this._material_input_template$_expr_4 = false;
+          this._expr_4 = false;
         }
         currVal_5 = _ctx._labelId;
-        t1 = this._material_input_template$_expr_5;
+        t1 = this._expr_5;
         if (t1 !== currVal_5) {
           this.setAttr$3(this._el_9, "id", currVal_5);
-          this._material_input_template$_expr_5 = currVal_5;
+          this._expr_5 = currVal_5;
         }
         currVal_6 = !(!(_ctx.type === "number" && _ctx.get$invalid(_ctx)) && D.BaseMaterialInput.prototype.get$labelVisible.call(_ctx));
-        t1 = this._material_input_template$_expr_6;
+        t1 = this._expr_6;
         if (t1 !== currVal_6) {
           this.updateClass$3(this._el_9, "invisible", currVal_6);
-          this._material_input_template$_expr_6 = currVal_6;
+          this._expr_6 = currVal_6;
         }
-        t1 = this._material_input_template$_expr_7;
+        t1 = this._expr_7;
         if (t1 !== false) {
           this.updateClass$3(this._el_9, "animated", false);
-          this._material_input_template$_expr_7 = false;
+          this._expr_7 = false;
         }
-        t1 = this._material_input_template$_expr_8;
+        t1 = this._expr_8;
         if (t1 !== false) {
           this.updateClass$3(this._el_9, "reset", false);
-          this._material_input_template$_expr_8 = false;
+          this._expr_8 = false;
         }
-        currVal_9 = _ctx._base_material_input$_disabled;
+        currVal_9 = _ctx._disabled;
         t1 = this._expr_9;
         if (t1 != currVal_9) {
           this.updateClass$3(this._el_9, "disabled", currVal_9);
           this._expr_9 = currVal_9;
         }
         _ctx.focused;
-        t1 = this._material_input_template$_expr_10;
+        t1 = this._expr_10;
         if (t1 !== false) {
           this.updateClass$3(this._el_9, "focused", false);
-          this._material_input_template$_expr_10 = false;
+          this._expr_10 = false;
         }
         _ctx.get$invalid(_ctx);
         t1 = this._expr_11;
@@ -26408,52 +26512,52 @@
         currVal_17 = _ctx.get$invalid(_ctx);
         t1 = this._expr_17;
         if (t1 !== currVal_17) {
-          t1 = this._material_input_template$_el_11;
+          t1 = this._el_11;
           t2 = String(currVal_17);
           this.setAttr$3(t1, "aria-invalid", t2);
           this._expr_17 = currVal_17;
         }
         t1 = this._expr_19;
         if (t1 !== currVal_5) {
-          this.setAttr$3(this._material_input_template$_el_11, "aria-labelledby", currVal_5);
+          this.setAttr$3(this._el_11, "aria-labelledby", currVal_5);
           this._expr_19 = currVal_5;
         }
-        currVal_22 = _ctx._base_material_input$_disabled;
+        currVal_22 = _ctx._disabled;
         t1 = this._expr_22;
         if (t1 != currVal_22) {
-          this.updateClass$3(this._material_input_template$_el_11, "disabledInput", currVal_22);
+          this.updateClass$3(this._el_11, "disabledInput", currVal_22);
           this._expr_22 = currVal_22;
         }
         t1 = this._expr_23;
         if (t1 !== false) {
-          this.updateClass$3(this._material_input_template$_el_11, "right-align", false);
+          this.updateClass$3(this._el_11, "right-align", false);
           this._expr_23 = false;
         }
         currVal_24 = _ctx.multiple;
         t1 = this._expr_24;
         if (t1 !== currVal_24) {
-          this._material_input_template$_el_11.multiple = currVal_24;
+          this._el_11.multiple = currVal_24;
           this._expr_24 = currVal_24;
         }
-        currVal_25 = _ctx._base_material_input$_disabled;
+        currVal_25 = _ctx._disabled;
         t1 = this._expr_25;
         if (t1 != currVal_25) {
-          this._material_input_template$_el_11.readOnly = currVal_25;
+          this._el_11.readOnly = currVal_25;
           this._expr_25 = currVal_25;
         }
         currVal_26 = _ctx.type;
         t1 = this._expr_26;
         if (t1 != currVal_26) {
-          this._material_input_template$_el_11.type = currVal_26;
+          this._el_11.type = currVal_26;
           this._expr_26 = currVal_26;
         }
-        currVal_30 = !_ctx._base_material_input$_disabled;
+        currVal_30 = !_ctx._disabled;
         t1 = this._expr_30;
         if (t1 !== currVal_30) {
           this.updateClass$3(this._el_18, "invisible", currVal_30);
           this._expr_30 = currVal_30;
         }
-        currVal_31 = _ctx._base_material_input$_disabled;
+        currVal_31 = _ctx._disabled;
         t1 = this._expr_31;
         if (t1 != currVal_31) {
           this.updateClass$3(this._el_19, "invisible", currVal_31);
@@ -26465,7 +26569,7 @@
           this.updateClass$3(this._el_19, "invalid", currVal_32);
           this._expr_32 = currVal_32;
         }
-        currVal_33 = !_ctx.focused || _ctx._base_material_input$_disabled;
+        currVal_33 = !_ctx.focused || _ctx._disabled;
         t1 = this._expr_33;
         if (t1 != currVal_33) {
           this.updateClass$3(this._el_20, "invisible", currVal_33);
@@ -26485,30 +26589,30 @@
         }
       },
       destroyInternal$0: function() {
-        this._material_input_template$_appEl_2.destroyNestedViews$0();
+        this._appEl_2.destroyNestedViews$0();
         this._appEl_4.destroyNestedViews$0();
         this._appEl_13.destroyNestedViews$0();
         this._appEl_15.destroyNestedViews$0();
         this._appEl_21.destroyNestedViews$0();
       },
       _handle_blur_11_0$1: [function($$event) {
-        var local_inputEl = this._material_input_template$_el_11;
+        var local_inputEl = this._el_11;
         this.ctx.inputBlurAction$3($$event, local_inputEl.validity.valid, local_inputEl.validationMessage);
         this._DefaultValueAccessor_11_5.TouchHandler_onTouched.call$0();
-      }, "call$1", "get$_handle_blur_11_0", 4, 0, 2],
+      }, "call$1", "get$_handle_blur_11_0", 4, 0, 1],
       _handle_change_11_1$1: [function($$event) {
-        var local_inputEl = this._material_input_template$_el_11;
+        var local_inputEl = this._el_11;
         this.ctx.inputChange$3(local_inputEl.value, local_inputEl.validity.valid, local_inputEl.validationMessage);
         J.stopPropagation$0$x($$event);
-      }, "call$1", "get$_handle_change_11_1", 4, 0, 2],
+      }, "call$1", "get$_handle_change_11_1", 4, 0, 1],
       _handle_input_11_3$1: [function($$event) {
         var local_inputEl, t1, t2;
-        local_inputEl = this._material_input_template$_el_11;
+        local_inputEl = this._el_11;
         this.ctx.inputKeypress$3(local_inputEl.value, local_inputEl.validity.valid, local_inputEl.validationMessage);
         t1 = this._DefaultValueAccessor_11_5;
         t2 = H.stringTypeCheck(J.get$value$x(J.get$target$x($$event)));
         t1.ChangeHandler_onChange.call$2$rawValue(t2, t2);
-      }, "call$1", "get$_handle_input_11_3", 4, 0, 2],
+      }, "call$1", "get$_handle_input_11_3", 4, 0, 1],
       $asAppView: function() {
         return [L.MaterialInputComponent];
       },
@@ -26534,50 +26638,50 @@
       }
     },
     _ViewMaterialInputComponent1: {
-      "^": "AppView;0_material_input_template$_compView_1,0_MaterialIconComponent_1_5,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_input_template$_compView_1,0_MaterialIconComponent_1_5,0_expr_0,0_expr_1,0_expr_2,0_expr_3,0_el_0,0_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1 = document.createElement("span");
-        this._material_input_template$_el_0 = t1;
+        this._el_0 = t1;
         t1.className = "leading-text";
         this.addShimE$1(t1);
         t1 = M.ViewMaterialIconComponent0$(this, 1);
         this._material_input_template$_compView_1 = t1;
         t1 = t1.rootEl;
-        this._material_input_template$_el_1 = t1;
-        J.append$1$x(this._material_input_template$_el_0, t1);
-        t1 = this._material_input_template$_el_1;
+        this._el_1 = t1;
+        J.append$1$x(this._el_0, t1);
+        t1 = this._el_1;
         t1.className = "glyph leading";
         this.addShimC$1(t1);
-        t1 = new Y.MaterialIconComponent(this._material_input_template$_el_1);
+        t1 = new Y.MaterialIconComponent(this._el_1);
         this._MaterialIconComponent_1_5 = t1;
         this._material_input_template$_compView_1.create$2(0, t1, []);
-        this.init0$1(this._material_input_template$_el_0);
+        this.init0$1(this._el_0);
       },
       detectChangesInternal$0: function() {
         var _ctx, t1, changed, currVal_1;
         _ctx = this.ctx;
         _ctx.leadingGlyph;
-        t1 = this._material_input_template$_expr_3;
+        t1 = this._expr_3;
         if (t1 !== "") {
           this._MaterialIconComponent_1_5.set$icon(0, "");
-          this._material_input_template$_expr_3 = "";
+          this._expr_3 = "";
           changed = true;
         } else
           changed = false;
         if (changed)
           this._material_input_template$_compView_1.viewData.set$cdMode(1);
         _ctx.floatingLabel;
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== false) {
-          this.updateClass$3(H.interceptedTypeCheck(this._material_input_template$_el_0, "$isHtmlElement"), "floated-label", false);
-          this._material_input_template$_expr_0 = false;
+          this.updateClass$3(H.interceptedTypeCheck(this._el_0, "$isHtmlElement"), "floated-label", false);
+          this._expr_0 = false;
         }
-        currVal_1 = _ctx._base_material_input$_disabled;
-        t1 = this._material_input_template$_expr_1;
+        currVal_1 = _ctx._disabled;
+        t1 = this._expr_1;
         if (t1 != currVal_1) {
-          t1 = this._material_input_template$_el_1;
+          t1 = this._el_1;
           this.setAttr$3(t1, "disabled", currVal_1 == null ? null : C.JSBool_methods.toString$0(currVal_1));
-          this._material_input_template$_expr_1 = currVal_1;
+          this._expr_1 = currVal_1;
         }
         this._material_input_template$_compView_1.detectChanges$0();
       },
@@ -26589,33 +26693,33 @@
       }
     },
     _ViewMaterialInputComponent2: {
-      "^": "AppView;0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_el_0,0_material_input_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_expr_0,0_expr_1,0_el_0,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, t1;
         doc = document;
         t1 = doc.createElement("span");
-        this._material_input_template$_el_0 = t1;
+        this._el_0 = t1;
         t1.className = "leading-text";
         this.addShimE$1(t1);
         t1 = doc.createTextNode("");
-        this._material_input_template$_text_1 = t1;
-        J.append$1$x(this._material_input_template$_el_0, t1);
-        this.init0$1(this._material_input_template$_el_0);
+        this._text_1 = t1;
+        J.append$1$x(this._el_0, t1);
+        this.init0$1(this._el_0);
       },
       detectChangesInternal$0: function() {
         var _ctx, t1;
         _ctx = this.ctx;
         _ctx.floatingLabel;
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== false) {
-          this.updateClass$3(H.interceptedTypeCheck(this._material_input_template$_el_0, "$isHtmlElement"), "floated-label", false);
-          this._material_input_template$_expr_0 = false;
+          this.updateClass$3(H.interceptedTypeCheck(this._el_0, "$isHtmlElement"), "floated-label", false);
+          this._expr_0 = false;
         }
         _ctx._leadingText;
-        t1 = this._material_input_template$_expr_1;
+        t1 = this._expr_1;
         if (t1 !== "") {
-          this._material_input_template$_text_1.textContent = "";
-          this._material_input_template$_expr_1 = "";
+          this._text_1.textContent = "";
+          this._expr_1 = "";
         }
       },
       $asAppView: function() {
@@ -26623,33 +26727,33 @@
       }
     },
     _ViewMaterialInputComponent3: {
-      "^": "AppView;0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_el_0,0_material_input_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_expr_0,0_expr_1,0_el_0,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, t1;
         doc = document;
         t1 = doc.createElement("span");
-        this._material_input_template$_el_0 = t1;
+        this._el_0 = t1;
         t1.className = "trailing-text";
         this.addShimE$1(t1);
         t1 = doc.createTextNode("");
-        this._material_input_template$_text_1 = t1;
-        J.append$1$x(this._material_input_template$_el_0, t1);
-        this.init0$1(this._material_input_template$_el_0);
+        this._text_1 = t1;
+        J.append$1$x(this._el_0, t1);
+        this.init0$1(this._el_0);
       },
       detectChangesInternal$0: function() {
         var _ctx, t1;
         _ctx = this.ctx;
         _ctx.floatingLabel;
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== false) {
-          this.updateClass$3(H.interceptedTypeCheck(this._material_input_template$_el_0, "$isHtmlElement"), "floated-label", false);
-          this._material_input_template$_expr_0 = false;
+          this.updateClass$3(H.interceptedTypeCheck(this._el_0, "$isHtmlElement"), "floated-label", false);
+          this._expr_0 = false;
         }
         _ctx._trailingText;
-        t1 = this._material_input_template$_expr_1;
+        t1 = this._expr_1;
         if (t1 !== "") {
-          this._material_input_template$_text_1.textContent = "";
-          this._material_input_template$_expr_1 = "";
+          this._text_1.textContent = "";
+          this._expr_1 = "";
         }
       },
       $asAppView: function() {
@@ -26657,50 +26761,50 @@
       }
     },
     _ViewMaterialInputComponent4: {
-      "^": "AppView;0_material_input_template$_compView_1,0_MaterialIconComponent_1_5,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_input_template$_compView_1,0_MaterialIconComponent_1_5,0_expr_0,0_expr_1,0_expr_2,0_expr_3,0_el_0,0_el_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1 = document.createElement("span");
-        this._material_input_template$_el_0 = t1;
+        this._el_0 = t1;
         t1.className = "trailing-text";
         this.addShimE$1(t1);
         t1 = M.ViewMaterialIconComponent0$(this, 1);
         this._material_input_template$_compView_1 = t1;
         t1 = t1.rootEl;
-        this._material_input_template$_el_1 = t1;
-        J.append$1$x(this._material_input_template$_el_0, t1);
-        t1 = this._material_input_template$_el_1;
+        this._el_1 = t1;
+        J.append$1$x(this._el_0, t1);
+        t1 = this._el_1;
         t1.className = "glyph trailing";
         this.addShimC$1(t1);
-        t1 = new Y.MaterialIconComponent(this._material_input_template$_el_1);
+        t1 = new Y.MaterialIconComponent(this._el_1);
         this._MaterialIconComponent_1_5 = t1;
         this._material_input_template$_compView_1.create$2(0, t1, []);
-        this.init0$1(this._material_input_template$_el_0);
+        this.init0$1(this._el_0);
       },
       detectChangesInternal$0: function() {
         var _ctx, t1, changed, currVal_1;
         _ctx = this.ctx;
         _ctx.trailingGlyph;
-        t1 = this._material_input_template$_expr_3;
+        t1 = this._expr_3;
         if (t1 !== "") {
           this._MaterialIconComponent_1_5.set$icon(0, "");
-          this._material_input_template$_expr_3 = "";
+          this._expr_3 = "";
           changed = true;
         } else
           changed = false;
         if (changed)
           this._material_input_template$_compView_1.viewData.set$cdMode(1);
         _ctx.floatingLabel;
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== false) {
-          this.updateClass$3(H.interceptedTypeCheck(this._material_input_template$_el_0, "$isHtmlElement"), "floated-label", false);
-          this._material_input_template$_expr_0 = false;
+          this.updateClass$3(H.interceptedTypeCheck(this._el_0, "$isHtmlElement"), "floated-label", false);
+          this._expr_0 = false;
         }
-        currVal_1 = _ctx._base_material_input$_disabled;
-        t1 = this._material_input_template$_expr_1;
+        currVal_1 = _ctx._disabled;
+        t1 = this._expr_1;
         if (t1 != currVal_1) {
-          t1 = this._material_input_template$_el_1;
+          t1 = this._el_1;
           this.setAttr$3(t1, "disabled", currVal_1 == null ? null : C.JSBool_methods.toString$0(currVal_1));
-          this._material_input_template$_expr_1 = currVal_1;
+          this._expr_1 = currVal_1;
         }
         this._material_input_template$_compView_1.detectChanges$0();
       },
@@ -26712,7 +26816,7 @@
       }
     },
     _ViewMaterialInputComponent5: {
-      "^": "AppView;0_NgSwitch_0_5,0_material_input_template$_appEl_1,0_NgSwitchWhen_1_9,0_material_input_template$_appEl_2,0_NgSwitchWhen_2_9,0_material_input_template$_appEl_3,0_NgSwitchWhen_3_9,0_appEl_4,0_NgIf_4_9,0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_NgSwitch_0_5,0_appEl_1,0_NgSwitchWhen_1_9,0_appEl_2,0_NgSwitchWhen_2_9,0_appEl_3,0_NgSwitchWhen_3_9,0_appEl_4,0_NgIf_4_9,0_expr_0,0_expr_1,0_expr_2,0_expr_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var _el_0, t1, _anchor_1, t2, t3, t4, _anchor_2, _anchor_3, _anchor_4;
         _el_0 = document.createElement("div");
@@ -26725,7 +26829,7 @@
         t2 = J.getInterceptor$x(_el_0);
         t2.append$1(_el_0, _anchor_1);
         t3 = new V.ViewContainer(1, 0, this, _anchor_1);
-        this._material_input_template$_appEl_1 = t3;
+        this._appEl_1 = t3;
         t4 = new V.NgSwitchWhen(C.C_Object);
         t4._switch = this._NgSwitch_0_5;
         t4._ng_switch$_view = new V.SwitchView(t3, new D.TemplateRef(t3, Q.material_input_template__viewFactory_MaterialInputComponent6$closure()));
@@ -26733,7 +26837,7 @@
         _anchor_2 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
         t2.append$1(_el_0, _anchor_2);
         t4 = new V.ViewContainer(2, 0, this, _anchor_2);
-        this._material_input_template$_appEl_2 = t4;
+        this._appEl_2 = t4;
         t3 = new V.NgSwitchWhen(C.C_Object);
         t3._switch = this._NgSwitch_0_5;
         t3._ng_switch$_view = new V.SwitchView(t4, new D.TemplateRef(t4, Q.material_input_template__viewFactory_MaterialInputComponent7$closure()));
@@ -26741,7 +26845,7 @@
         _anchor_3 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
         t2.append$1(_el_0, _anchor_3);
         t3 = new V.ViewContainer(3, 0, this, _anchor_3);
-        this._material_input_template$_appEl_3 = t3;
+        this._appEl_3 = t3;
         t4 = new V.NgSwitchWhen(C.C_Object);
         t4._switch = this._NgSwitch_0_5;
         t4._ng_switch$_view = new V.SwitchView(t3, new D.TemplateRef(t3, Q.material_input_template__viewFactory_MaterialInputComponent8$closure()));
@@ -26767,41 +26871,41 @@
         var _ctx, currVal_0, t1, currVal_1, currVal_2, currVal_3;
         _ctx = this.ctx;
         currVal_0 = _ctx.bottomPanelState;
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== currVal_0) {
           this._NgSwitch_0_5.set$ngSwitch(currVal_0);
-          this._material_input_template$_expr_0 = currVal_0;
+          this._expr_0 = currVal_0;
         }
         currVal_1 = _ctx.errorState;
-        t1 = this._material_input_template$_expr_1;
+        t1 = this._expr_1;
         if (t1 !== currVal_1) {
           this._NgSwitchWhen_1_9.set$ngSwitchWhen(currVal_1);
-          this._material_input_template$_expr_1 = currVal_1;
+          this._expr_1 = currVal_1;
         }
         currVal_2 = _ctx.hintState;
-        t1 = this._material_input_template$_expr_2;
+        t1 = this._expr_2;
         if (t1 !== currVal_2) {
           this._NgSwitchWhen_2_9.set$ngSwitchWhen(currVal_2);
-          this._material_input_template$_expr_2 = currVal_2;
+          this._expr_2 = currVal_2;
         }
         currVal_3 = _ctx.emptyState;
-        t1 = this._material_input_template$_expr_3;
+        t1 = this._expr_3;
         if (t1 !== currVal_3) {
           this._NgSwitchWhen_3_9.set$ngSwitchWhen(currVal_3);
-          this._material_input_template$_expr_3 = currVal_3;
+          this._expr_3 = currVal_3;
         }
         t1 = this._NgIf_4_9;
         _ctx.showCharacterCount;
         t1.set$ngIf(false);
-        this._material_input_template$_appEl_1.detectChangesInNestedViews$0();
-        this._material_input_template$_appEl_2.detectChangesInNestedViews$0();
-        this._material_input_template$_appEl_3.detectChangesInNestedViews$0();
+        this._appEl_1.detectChangesInNestedViews$0();
+        this._appEl_2.detectChangesInNestedViews$0();
+        this._appEl_3.detectChangesInNestedViews$0();
         this._appEl_4.detectChangesInNestedViews$0();
       },
       destroyInternal$0: function() {
-        this._material_input_template$_appEl_1.destroyNestedViews$0();
-        this._material_input_template$_appEl_2.destroyNestedViews$0();
-        this._material_input_template$_appEl_3.destroyNestedViews$0();
+        this._appEl_1.destroyNestedViews$0();
+        this._appEl_2.destroyNestedViews$0();
+        this._appEl_3.destroyNestedViews$0();
         this._appEl_4.destroyNestedViews$0();
       },
       $asAppView: function() {
@@ -26809,52 +26913,52 @@
       }
     },
     _ViewMaterialInputComponent6: {
-      "^": "AppView;0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_expr_2,0_material_input_template$_expr_3,0_material_input_template$_el_0,0_material_input_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_expr_0,0_expr_1,0_expr_2,0_expr_3,0_el_0,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, t1, t2, _text_2;
         doc = document;
         t1 = doc.createElement("div");
         H.interceptedTypeCheck(t1, "$isDivElement");
-        this._material_input_template$_el_0 = t1;
+        this._el_0 = t1;
         t1.className = "error-text";
         C.DivElement_methods.setAttribute$2(t1, "role", "alert");
-        this.addShimC$1(this._material_input_template$_el_0);
+        this.addShimC$1(this._el_0);
         t1 = doc.createTextNode("");
-        this._material_input_template$_text_1 = t1;
-        t2 = this._material_input_template$_el_0;
+        this._text_1 = t1;
+        t2 = this._el_0;
         (t2 && C.DivElement_methods).append$1(t2, t1);
         _text_2 = doc.createTextNode(" ");
-        t1 = this._material_input_template$_el_0;
+        t1 = this._el_0;
         (t1 && C.DivElement_methods).append$1(t1, _text_2);
-        this.project$2(this._material_input_template$_el_0, 1);
-        this.init0$1(this._material_input_template$_el_0);
+        this.project$2(this._el_0, 1);
+        this.init0$1(this._el_0);
       },
       detectChangesInternal$0: function() {
         var _ctx, currVal_0, t1, currVal_1, currVal_2, currVal_3;
         _ctx = this.ctx;
         currVal_0 = _ctx.focused;
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== currVal_0) {
-          this.updateClass$3(this._material_input_template$_el_0, "focused", currVal_0);
-          this._material_input_template$_expr_0 = currVal_0;
+          this.updateClass$3(this._el_0, "focused", currVal_0);
+          this._expr_0 = currVal_0;
         }
         currVal_1 = _ctx.get$invalid(_ctx);
-        t1 = this._material_input_template$_expr_1;
+        t1 = this._expr_1;
         if (t1 !== currVal_1) {
-          this.updateClass$3(this._material_input_template$_el_0, "invalid", currVal_1);
-          this._material_input_template$_expr_1 = currVal_1;
+          this.updateClass$3(this._el_0, "invalid", currVal_1);
+          this._expr_1 = currVal_1;
         }
         currVal_2 = Q.interpolate0(!_ctx.get$invalid(_ctx));
-        t1 = this._material_input_template$_expr_2;
+        t1 = this._expr_2;
         if (t1 !== currVal_2) {
-          this.setAttr$3(this._material_input_template$_el_0, "aria-hidden", currVal_2);
-          this._material_input_template$_expr_2 = currVal_2;
+          this.setAttr$3(this._el_0, "aria-hidden", currVal_2);
+          this._expr_2 = currVal_2;
         }
         currVal_3 = Q.interpolate0(_ctx.get$errorMessage(_ctx));
-        t1 = this._material_input_template$_expr_3;
+        t1 = this._expr_3;
         if (t1 !== currVal_3) {
-          this._material_input_template$_text_1.textContent = currVal_3;
-          this._material_input_template$_expr_3 = currVal_3;
+          this._text_1.textContent = currVal_3;
+          this._expr_3 = currVal_3;
         }
       },
       $asAppView: function() {
@@ -26862,7 +26966,7 @@
       }
     },
     _ViewMaterialInputComponent7: {
-      "^": "AppView;0_material_input_template$_expr_0,0_material_input_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_expr_0,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, _el_0, t1;
         doc = document;
@@ -26871,17 +26975,17 @@
         H.interceptedTypeCheck(_el_0, "$isHtmlElement");
         this.addShimC$1(_el_0);
         t1 = doc.createTextNode("");
-        this._material_input_template$_text_1 = t1;
+        this._text_1 = t1;
         J.append$1$x(_el_0, t1);
         this.init0$1(_el_0);
       },
       detectChangesInternal$0: function() {
         var currVal_0, t1;
         currVal_0 = Q.interpolate0(this.ctx._hintText);
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== currVal_0) {
-          this._material_input_template$_text_1.textContent = currVal_0;
-          this._material_input_template$_expr_0 = currVal_0;
+          this._text_1.textContent = currVal_0;
+          this._expr_0 = currVal_0;
         }
       },
       $asAppView: function() {
@@ -26906,44 +27010,44 @@
       },
       _handle_focus_0_0$1: [function($$event) {
         J.stopPropagation$0$x($$event);
-      }, "call$1", "get$_handle_focus_0_0", 4, 0, 2],
+      }, "call$1", "get$_handle_focus_0_0", 4, 0, 1],
       $asAppView: function() {
         return [L.MaterialInputComponent];
       }
     },
     _ViewMaterialInputComponent9: {
-      "^": "AppView;0_material_input_template$_expr_0,0_material_input_template$_expr_1,0_material_input_template$_el_0,0_material_input_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_expr_0,0_expr_1,0_el_0,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, t1, t2;
         doc = document;
         t1 = doc.createElement("div");
         H.interceptedTypeCheck(t1, "$isDivElement");
-        this._material_input_template$_el_0 = t1;
+        this._el_0 = t1;
         C.DivElement_methods.setAttribute$2(t1, "aria-hidden", "true");
-        t1 = this._material_input_template$_el_0;
+        t1 = this._el_0;
         t1.className = "counter";
         this.addShimC$1(t1);
         t1 = doc.createTextNode("");
-        this._material_input_template$_text_1 = t1;
-        t2 = this._material_input_template$_el_0;
+        this._text_1 = t1;
+        t2 = this._el_0;
         (t2 && C.DivElement_methods).append$1(t2, t1);
-        this.init0$1(this._material_input_template$_el_0);
+        this.init0$1(this._el_0);
       },
       detectChangesInternal$0: function() {
         var _ctx, currVal_0, t1, currVal_1;
         _ctx = this.ctx;
         currVal_0 = _ctx.get$invalid(_ctx);
-        t1 = this._material_input_template$_expr_0;
+        t1 = this._expr_0;
         if (t1 !== currVal_0) {
-          this.updateClass$3(this._material_input_template$_el_0, "invalid", currVal_0);
-          this._material_input_template$_expr_0 = currVal_0;
+          this.updateClass$3(this._el_0, "invalid", currVal_0);
+          this._expr_0 = currVal_0;
         }
         t1 = H.S(_ctx._inputTextLength);
         currVal_1 = Q.interpolate0(t1);
-        t1 = this._material_input_template$_expr_1;
+        t1 = this._expr_1;
         if (t1 !== currVal_1) {
-          this._material_input_template$_text_1.textContent = currVal_1;
-          this._material_input_template$_expr_1 = currVal_1;
+          this._text_1.textContent = currVal_1;
+          this._expr_1 = currVal_1;
         }
       },
       $asAppView: function() {
@@ -26975,9 +27079,9 @@
           t1.valueAccessor = this;
         this.disposer.addFunction$1(new Z.BaseMaterialInputValueAccessor_closure(this));
       },
-      writeValue$1: function(_, newValue) {
+      writeValue$1: ["super$BaseMaterialInputValueAccessor$writeValue", function(_, newValue) {
         this.input.set$inputText(H.stringTypeCheck(newValue));
-      },
+      }],
       registerOnTouched$1: function(callback) {
         var t1, t2, sub;
         t1 = {};
@@ -26990,9 +27094,9 @@
       },
       onDisabledChanged$1: [function(isDisabled) {
         var t1 = this.input;
-        t1._base_material_input$_disabled = H.boolTypeCheck(isDisabled);
-        t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
-      }, "call$1", "get$onDisabledChanged", 4, 0, 19, 24],
+        t1._disabled = H.boolTypeCheck(isDisabled);
+        t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+      }, "call$1", "get$onDisabledChanged", 4, 0, 21, 24],
       $isControlValueAccessor: 1,
       $asControlValueAccessor: Isolate.functionThatReturnsNull
     },
@@ -27005,12 +27109,125 @@
       }
     },
     BaseMaterialInputValueAccessor_registerOnTouched_closure: {
-      "^": "Closure:119;_box_0,callback",
+      "^": "Closure:52;_box_0,callback",
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isFocusEvent");
         this._box_0.sub.cancel$0(0);
         this.callback.call$0();
       }, null, null, 4, 0, null, 0, "call"]
+    }
+  }], ["", "package:angular_components/material_input/material_number_accessor.dart",, F, {
+    "^": "",
+    MaterialNumberValueAccessor: {
+      "^": "BaseMaterialInputValueAccessor;_numberFormat,_updateStream,_checkInteger,disposer,input,_cd",
+      MaterialNumberValueAccessor$_$6: function(_updateStream, _checkInteger, _numberFormat, input, control, blurFormat) {
+        var t1;
+        if (blurFormat) {
+          t1 = input._blurController;
+          this.disposer.addStreamSubscription$1$1(new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(new F.MaterialNumberValueAccessor$__closure(this, input)), W.FocusEvent);
+        }
+      },
+      writeValue$1: function(_, newValue) {
+        var t1;
+        if (newValue == null)
+          this.super$BaseMaterialInputValueAccessor$writeValue(0, "");
+        t1 = this._parseNumber$1(this.input._inputText);
+        if (t1 == null ? newValue != null : t1 !== newValue)
+          this.super$BaseMaterialInputValueAccessor$writeValue(0, this._numberFormat.format$1(newValue));
+      },
+      registerOnChange$1: function(callback) {
+        this.disposer.addStreamSubscription$1$1(this._updateStream.listen$1(new F.MaterialNumberValueAccessor_registerOnChange_closure(this, H.functionTypeCheck(callback, {func: 1, args: [,], named: {rawValue: P.String}}))), null);
+      },
+      _parseNumber$1: function(input) {
+        var value, t1, t2, t3, exception;
+        if (input == null || input === "NaN")
+          return;
+        try {
+          t1 = this._checkInteger;
+          if (t1 && J.contains$1$asx(input, this._numberFormat._symbols.DECIMAL_SEP))
+            return;
+          t2 = this._numberFormat;
+          t3 = new T._NumberParser(t2, input, new T._Stream(input, 0), new P.StringBuffer(""), false, false, false, false, false, false, 1);
+          t3.scale = t2._internalMultiplier;
+          t2 = t3.parse$0(0);
+          t3.value = t2;
+          value = t2;
+          t1 = t1 ? J.toInt$0$n(value) : value;
+          return t1;
+        } catch (exception) {
+          if (!!J.getInterceptor$(H.unwrapException(exception)).$isFormatException)
+            return;
+          else
+            throw exception;
+        }
+      },
+      static: {
+        MaterialNumberValueAccessor_MaterialNumberValueAccessor: function(input, control, numberFormat, changeUpdateAttr, keypressUpdateAttr, integer, blurFormat) {
+          var changeUpdate, keypressUpdate, t1, updateStream;
+          changeUpdate = E.attributeToBool(changeUpdateAttr, false);
+          keypressUpdate = E.attributeToBool(keypressUpdateAttr, false);
+          if (changeUpdate) {
+            t1 = input._changeController;
+            updateStream = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
+          } else if (keypressUpdate) {
+            t1 = input._keypressController;
+            updateStream = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
+          } else {
+            t1 = input._blurController;
+            updateStream = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
+          }
+          if (numberFormat == null)
+            numberFormat = T.NumberFormat$decimalPattern(null);
+          return F.MaterialNumberValueAccessor$_(updateStream, E.attributeToBool(integer, false), numberFormat, input, control, E.attributeToBool(blurFormat, false));
+        },
+        MaterialNumberValueAccessor$_: function(_updateStream, _checkInteger, _numberFormat, input, control, blurFormat) {
+          var t1 = new F.MaterialNumberValueAccessor(_numberFormat, _updateStream, _checkInteger, new R.Disposer(true, false), input, control);
+          t1.BaseMaterialInputValueAccessor$2(input, control);
+          t1.MaterialNumberValueAccessor$_$6(_updateStream, _checkInteger, _numberFormat, input, control, blurFormat);
+          return t1;
+        }
+      }
+    },
+    MaterialNumberValueAccessor$__closure: {
+      "^": "Closure:52;$this,input",
+      call$1: [function(_) {
+        var t1, t2, parsedNumber;
+        H.interceptedTypeCheck(_, "$isFocusEvent");
+        t1 = this.input;
+        if (t1 == null)
+          return;
+        t2 = this.$this;
+        parsedNumber = t2._parseNumber$1(t1._inputText);
+        if (parsedNumber != null)
+          t2.super$BaseMaterialInputValueAccessor$writeValue(0, t2._numberFormat.format$1(parsedNumber));
+      }, null, null, 4, 0, null, 0, "call"]
+    },
+    MaterialNumberValueAccessor_registerOnChange_closure: {
+      "^": "Closure:4;$this,callback",
+      call$1: [function(_) {
+        var t1, t2, rawValue;
+        t1 = this.$this;
+        t2 = t1.input;
+        if (t2 == null)
+          return;
+        rawValue = t2._inputText;
+        this.callback.call$2$rawValue(t1._parseNumber$1(rawValue), rawValue);
+      }, null, null, 4, 0, null, 0, "call"]
+    },
+    MaterialNumberValidator: {
+      "^": "Object;",
+      validate$1: function(control) {
+        var t1;
+        if (control._model$_value == null) {
+          t1 = control._rawValue;
+          t1 = !(t1 == null || C.JSString_methods.trim$0(t1).length === 0);
+        } else
+          t1 = false;
+        if (t1)
+          return P.LinkedHashMap_LinkedHashMap$_literal(["material-input-number-error", $.$get$messageLookup().lookupMessage$5("Enter a number", null, null, null, "Error message when input is not a number.")], P.String, null);
+        return;
+      },
+      $isValidator: 1
     }
   }], ["", "package:angular_components/material_list/material_list.dart",, B, {
     "^": "",
@@ -27118,31 +27335,31 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent1$closure", 8, 0, 29],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent1$closure", 8, 0, 30],
     viewFactory_MenuItemAffixListComponent2: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent2(P.LinkedHashMap_LinkedHashMap$_literal(["$implicit", null], P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent2$closure", 8, 0, 29],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent2$closure", 8, 0, 30],
     viewFactory_MenuItemAffixListComponent3: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent3$closure", 8, 0, 29],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent3$closure", 8, 0, 30],
     viewFactory_MenuItemAffixListComponent4: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent4$closure", 8, 0, 29],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent4$closure", 8, 0, 30],
     viewFactory_MenuItemAffixListComponent5: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent5$closure", 8, 0, 29],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent5$closure", 8, 0, 30],
     ViewMenuItemAffixListComponent0: {
       "^": "AppView;0_menu_item_affix_list_template$_appEl_1,0_menu_item_affix_list_template$_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -27329,7 +27546,7 @@
         local_affix = H.interceptedTypeCheck(this.parentView.parentView.locals.$index(0, "$implicit"), "$isMenuItemAffix");
         t1 = this.ctx;
         t1.handleActionIconTrigger$2(t1.getIcon$1(local_affix), H.interceptedTypeCheck($$event, "$isEvent"));
-      }, "call$1", "get$_handle_trigger_0_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_0_0", 4, 0, 1],
       $asAppView: function() {
         return [Q.MenuItemAffixListComponent];
       }
@@ -27420,7 +27637,7 @@
         this._activeModel.activate$1(null);
         this._hoveredItem = item;
         this._subMenuOpener.start$0(0);
-      }, "call$1", "get$onMouseOver", 5, 0, 16, 5],
+      }, "call$1", "get$onMouseOver", 5, 0, 18, 6],
       onMouseOut$1: [function(_, $event) {
         var item;
         H.interceptedTypeCheck($event, "$isMouseEvent");
@@ -27432,11 +27649,11 @@
         if (item === this._hoveredItem)
           this._hoveredItem = null;
         this._subMenuOpener._reset$1(false);
-      }, "call$1", "get$onMouseOut", 5, 0, 16],
+      }, "call$1", "get$onMouseOut", 5, 0, 18],
       onMouseMove$1: [function(_, _0) {
         H.interceptedTypeCheck(_0, "$isMouseEvent");
         this._isMouseDriven = true;
-      }, "call$1", "get$onMouseMove", 5, 0, 16],
+      }, "call$1", "get$onMouseMove", 5, 0, 18],
       onSubMenuItemSelected$1: [function(item) {
         this._selected.add$1(0, H.interceptedTypeCheck(item, "$isMenuItem"));
       }, "call$1", "get$onSubMenuItemSelected", 4, 0, 121],
@@ -27679,7 +27896,7 @@
       _openSubMenuOnHover$0: [function() {
         this._openSubMenu$1(this._hoveredItem);
         this._menu_item_groups$_changeDetector.appView.markPathToRootAsCheckOnce$0();
-      }, "call$0", "get$_openSubMenuOnHover", 0, 0, 1],
+      }, "call$0", "get$_openSubMenuOnHover", 0, 0, 2],
       $isFocusable: 1,
       static: {
         MenuItemGroupsComponent_MenuItemGroupsComponent: function(menuRoot, changeDetector, dropdownHandle, idGenerator) {
@@ -27697,19 +27914,19 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     MenuItemGroupsComponent_hasAutoFocus_closure: {
-      "^": "Closure:20;itemId",
+      "^": "Closure:17;itemId",
       call$1: function(id) {
         return H.stringTypeCheck(id) == this.itemId;
       }
     },
     MenuItemGroupsComponent__triggerAffixShortcutActions_closure: {
-      "^": "Closure:51;keyCode",
+      "^": "Closure:53;keyCode",
       call$1: function(suffix) {
         return H.interceptedTypeCheck(suffix, "$isMenuItemAffix").hasShortcutKeyCode$1(this.keyCode);
       }
     },
     MenuItemGroupsComponent__triggerAffixShortcutActions_closure0: {
-      "^": "Closure:51;",
+      "^": "Closure:53;",
       call$1: function(suffix) {
         return H.interceptedTypeCheck(suffix, "$isMenuItemAffix").get$shouldCloseMenuOnTrigger();
       }
@@ -28127,7 +28344,7 @@
       _menu_item_groups_template$_handle_trigger_0_0$1: [function($$event) {
         var local_group = H.interceptedTypeCheck(this.parentView.locals.$index(0, "$implicit"), "$isMenuItemGroup");
         this.ctx.toggleExpansionIfCollapsible$1(local_group);
-      }, "call$1", "get$_menu_item_groups_template$_handle_trigger_0_0", 4, 0, 2],
+      }, "call$1", "get$_menu_item_groups_template$_handle_trigger_0_0", 4, 0, 1],
       $asAppView: function() {
         return [A.MenuItemGroupsComponent];
       }
@@ -28617,7 +28834,7 @@
         local_item = t1.locals.$index(0, "$implicit");
         local_group = H.interceptedTypeCheck(t1.parentView.parentView.locals.$index(0, "$implicit"), "$isMenuItemGroup");
         this.ctx.handleSelectItemTrigger$3(H.interceptedTypeCheck(local_item, "$isMenuItem"), local_group, H.interceptedTypeCheck($$event, "$isUIEvent"));
-      }, "call$1", "get$_handle_trigger_1_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_1_0", 4, 0, 1],
       $asAppView: function() {
         return [A.MenuItemGroupsComponent];
       }
@@ -29064,7 +29281,7 @@
       _menu_item_groups_template$_handle_visibleChange_0_0$1: [function($$event) {
         var local_item = this.parentView.parentView.locals.$index(0, "$implicit");
         this.ctx.onSubMenuVisibilityChanged$2(H.interceptedTypeCheck(local_item, "$isMenuItem"), H.boolTypeCheck($$event));
-      }, "call$1", "get$_menu_item_groups_template$_handle_visibleChange_0_0", 4, 0, 2],
+      }, "call$1", "get$_menu_item_groups_template$_handle_visibleChange_0_0", 4, 0, 1],
       $asAppView: function() {
         return [A.MenuItemGroupsComponent];
       }
@@ -29171,7 +29388,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, G.MenuPopupComponent));
       t1.componentType = $.ViewMenuPopupComponent0__renderType;
       return t1;
-    }, "call$2", "menu_popup_template__viewFactory_MenuPopupComponent1$closure", 8, 0, 221],
+    }, "call$2", "menu_popup_template__viewFactory_MenuPopupComponent1$closure", 8, 0, 235],
     ViewMenuPopupComponent0: {
       "^": "AppView;0_menu_popup_template$_compView_0,0_menu_popup_template$_appEl_0,0_MaterialPopupComponent_0_8,0__PopupRef_0_10,0__PopupHierarchy_0_12,0_menu_popup_template$_appEl_1,_query_MenuItemGroupsComponent_1_0_isDirty,0_DeferredContentDirective_1_9,0_menu_popup_template$_expr_0,0_menu_popup_template$_expr_2,0_menu_popup_template$_expr_3,0_menu_popup_template$_expr_4,0_menu_popup_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       get$_PopupRef_0_10: function() {
@@ -29283,7 +29500,7 @@
       },
       _handle_visibleChange_0_0$1: [function($$event) {
         this.ctx.set$isExpanded($$event);
-      }, "call$1", "get$_handle_visibleChange_0_0", 4, 0, 2],
+      }, "call$1", "get$_handle_visibleChange_0_0", 4, 0, 1],
       $asAppView: function() {
         return [G.MenuPopupComponent];
       }
@@ -29656,7 +29873,7 @@
           popupContentsLayoutStream = new P._TakeStream(1, popupContentsLayoutStream, [H.getTypeArgumentByIndex(popupContentsLayoutStream, 0)]);
         this._layoutChangeSub = G._mergeStreams(H.setRuntimeTypeInfo([popupContentsLayoutStream, popupSourceLayoutStream], [[P.Stream, [P.Rectangle, P.num]]]), t2).listen$1(new G.MaterialPopupComponent__open_closure0(this, new P._AsyncCompleter(t3, [t2])));
         return t3;
-      }, "call$0", "get$_open", 1, 0, 17],
+      }, "call$0", "get$_open", 1, 0, 22],
       _onPopupOpened$0: function() {
         var t1, t2, t3;
         if (!this._isOpening)
@@ -29844,7 +30061,7 @@
         t1 = this._overlayRef.overlayElement.style;
         t2 = "translate(" + this._repositionOffsetX + "px, " + this._repositionOffsetY + "px)";
         C.CssStyleDeclaration_methods._setPropertyHelper$3(t1, (t1 && C.CssStyleDeclaration_methods)._browserPropertyName$1(t1, "transform"), t2, "");
-      }, "call$1", "get$_reposition", 4, 0, 2, 0],
+      }, "call$1", "get$_reposition", 4, 0, 1, 0],
       _updatePopupMinMaxSize$0: function() {
         return;
       },
@@ -30136,7 +30353,7 @@
           t2.set$_initialSourceDimensions(null);
           t2._schedulePositionUpdate$2(t1.$index(layoutRects, 0), t1.$index(layoutRects, 1));
         }
-      }, null, null, 4, 0, null, 79, "call"]
+      }, null, null, 4, 0, null, 67, "call"]
     },
     MaterialPopupComponent__open__closure: {
       "^": "Closure:139;",
@@ -30207,7 +30424,7 @@
         var t1 = this.cachedResults;
         C.JSArray_methods.$indexSet(t1, this.n, H.assertSubtypeOfRuntimeType(result, this.T));
         this._box_1.streamController.add$1(0, t1);
-      }, null, null, 4, 0, null, 6, "call"],
+      }, null, null, 4, 0, null, 7, "call"],
       $signature: function() {
         return {func: 1, ret: P.Null, args: [this.T]};
       }
@@ -30236,7 +30453,7 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, G.MaterialPopupComponent));
       t1.componentType = $.ViewMaterialPopupComponent0__renderType;
       return t1;
-    }, "call$2", "material_popup_template__viewFactory_MaterialPopupComponent1$closure", 8, 0, 222],
+    }, "call$2", "material_popup_template__viewFactory_MaterialPopupComponent1$closure", 8, 0, 236],
     ViewMaterialPopupComponent0: {
       "^": "AppView;0_material_popup_template$_appEl_1,0_TemplateRef_1_7,0_material_popup_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -30653,23 +30870,23 @@
       }
     },
     MaterialRippleComponent_closure: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: [function(e) {
         var t1, t2;
         e = H.interceptedTypeCast(H.interceptedTypeCheck(e, "$isEvent"), "$isMouseEvent");
         t1 = e.clientX;
         t2 = e.clientY;
         B._createRipple(H.intTypeCheck(t1), H.intTypeCheck(t2), this.$this._material_ripple$_element, false);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     MaterialRippleComponent_closure0: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: [function(e) {
         e = H.interceptedTypeCheck(H.interceptedTypeCheck(e, "$isEvent"), "$isKeyboardEvent");
         if (!(e.keyCode === 13 || Z.isSpaceKey(e)))
           return;
         B._createRipple(0, 0, this.$this._material_ripple$_element, true);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     }
   }], ["asset_angular_components_lib_material_ripple_material_ripple.scss.css.dart", "package:angular_components/material_ripple/material_ripple.scss.css.dart",, O, {}], ["", "package:angular_components/material_ripple/material_ripple.template.dart",, L, {
     "^": "",
@@ -30758,7 +30975,7 @@
             t1.set$visible(0, false);
         }
         this._selectOnActivate;
-      }, "call$1", "get$handleActivate", 4, 0, 21, 7],
+      }, "call$1", "get$handleActivate", 4, 0, 25, 8],
       static: {
         MaterialSelectItemComponent$: function(element, _dropdown, _activationHandler, _cdRef, role, $T) {
           var t1 = new B.MaterialSelectItemComponent(new R.Disposer(true, false), _activationHandler, _cdRef, _dropdown, element, false, false, false, G.has_renderer___nullRenderer$closure(), false, true, true, false, true, new P._SyncBroadcastStreamController(null, null, 0, [W.UIEvent]), role, false, true, null, element, [$T]);
@@ -30768,7 +30985,7 @@
       }
     },
     MaterialSelectItemComponent_closure: {
-      "^": "Closure:17;$this",
+      "^": "Closure:22;$this",
       call$0: function() {
         return;
       }
@@ -31316,10 +31533,10 @@
       },
       onYes$1: [function($event) {
         this._yes.add$1(0, H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onYes", 4, 0, 21],
+      }, "call$1", "get$onYes", 4, 0, 25],
       onNo$1: [function($event) {
         this._no.add$1(0, H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onNo", 4, 0, 21]
+      }, "call$1", "get$onNo", 4, 0, 25]
     },
     BoundaryAwareKeyUpDirective: {
       "^": "Object;",
@@ -31356,12 +31573,12 @@
         if (t1)
           return false;
         return true;
-      }, "call$1", "get$_isKeyUpMatching", 4, 0, 28],
+      }, "call$1", "get$_isKeyUpMatching", 4, 0, 27],
       _onMatchingKeyUp$1: [function($event) {
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
         this._yesNo._yes.add$1(0, $event);
         return;
-      }, "call$1", "get$_onMatchingKeyUp", 4, 0, 15, 5]
+      }, "call$1", "get$_onMatchingKeyUp", 4, 0, 16, 6]
     }
   }], ["asset_angular_components_lib_material_yes_no_buttons_material_yes_no_buttons.scss.css.shim.dart", "package:angular_components/material_yes_no_buttons/material_yes_no_buttons.scss.css.shim.dart",, T, {}], ["", "package:angular_components/material_yes_no_buttons/material_yes_no_buttons.template.dart",, M, {
     "^": "",
@@ -31370,21 +31587,21 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent1$closure", 8, 0, 39],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent1$closure", 8, 0, 47],
     viewFactory_MaterialYesNoButtonsComponent2: [function(parentView, parentIndex) {
       var t1 = new M._ViewMaterialYesNoButtonsComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent2$closure", 8, 0, 39],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent2$closure", 8, 0, 47],
     viewFactory_MaterialYesNoButtonsComponent3: [function(parentView, parentIndex) {
       var t1 = new M._ViewMaterialYesNoButtonsComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure", 8, 0, 39],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure", 8, 0, 47],
     ViewMaterialYesNoButtonsComponent0: {
-      "^": "AppView;0_material_yes_no_buttons_template$_appEl_0,0_material_yes_no_buttons_template$_NgIf_0_9,0_material_yes_no_buttons_template$_appEl_1,_query_yesButton_1_0_isDirty,0_material_yes_no_buttons_template$_NgIf_1_9,0_appEl_2,_query_noButton_1_1_isDirty,0_NgIf_2_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_yes_no_buttons_template$_appEl_0,0_material_yes_no_buttons_template$_NgIf_0_9,0_material_yes_no_buttons_template$_appEl_1,_query_yesButton_1_0_isDirty,0_material_yes_no_buttons_template$_NgIf_1_9,0_material_yes_no_buttons_template$_appEl_2,_query_noButton_1_1_isDirty,0_material_yes_no_buttons_template$_NgIf_2_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var parentRenderNode, t1, _anchor_0, t2, t3, _anchor_1, _anchor_2;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
@@ -31403,8 +31620,8 @@
         _anchor_2 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
         t2.append$1(parentRenderNode, _anchor_2);
         t2 = new V.ViewContainer(2, null, this, _anchor_2);
-        this._appEl_2 = t2;
-        this._NgIf_2_9 = new K.NgIf(new D.TemplateRef(t2, M.material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure()), t2, false);
+        this._material_yes_no_buttons_template$_appEl_2 = t2;
+        this._material_yes_no_buttons_template$_NgIf_2_9 = new K.NgIf(new D.TemplateRef(t2, M.material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure()), t2, false);
         this.init$2(C.List_empty, null);
       },
       detectChangesInternal$0: function() {
@@ -31418,7 +31635,7 @@
         } else
           t2 = false;
         t1.set$ngIf(t2);
-        t2 = this._NgIf_2_9;
+        t2 = this._material_yes_no_buttons_template$_NgIf_2_9;
         if (!_ctx.pending) {
           _ctx.noDisplayed;
           t1 = true;
@@ -31427,7 +31644,7 @@
         t2.set$ngIf(t1);
         this._material_yes_no_buttons_template$_appEl_0.detectChangesInNestedViews$0();
         this._material_yes_no_buttons_template$_appEl_1.detectChangesInNestedViews$0();
-        this._appEl_2.detectChangesInNestedViews$0();
+        this._material_yes_no_buttons_template$_appEl_2.detectChangesInNestedViews$0();
         if (this._query_yesButton_1_0_isDirty) {
           t1 = this.ctx;
           t2 = this._material_yes_no_buttons_template$_appEl_1.mapNestedViews$2$1(new M.ViewMaterialYesNoButtonsComponent0_detectChangesInternal_closure(), B.MaterialButtonComponent, M._ViewMaterialYesNoButtonsComponent2);
@@ -31436,7 +31653,7 @@
         }
         if (this._query_noButton_1_1_isDirty) {
           t1 = this.ctx;
-          t2 = this._appEl_2.mapNestedViews$2$1(new M.ViewMaterialYesNoButtonsComponent0_detectChangesInternal_closure0(), B.MaterialButtonComponent, M._ViewMaterialYesNoButtonsComponent3);
+          t2 = this._material_yes_no_buttons_template$_appEl_2.mapNestedViews$2$1(new M.ViewMaterialYesNoButtonsComponent0_detectChangesInternal_closure0(), B.MaterialButtonComponent, M._ViewMaterialYesNoButtonsComponent3);
           t1.set$noButton(t2.length !== 0 ? C.JSArray_methods.get$first(t2) : null);
           this._query_noButton_1_1_isDirty = false;
         }
@@ -31444,7 +31661,7 @@
       destroyInternal$0: function() {
         this._material_yes_no_buttons_template$_appEl_0.destroyNestedViews$0();
         this._material_yes_no_buttons_template$_appEl_1.destroyNestedViews$0();
-        this._appEl_2.destroyNestedViews$0();
+        this._material_yes_no_buttons_template$_appEl_2.destroyNestedViews$0();
       },
       $asAppView: function() {
         return [E.MaterialYesNoButtonsComponent];
@@ -31463,7 +31680,7 @@
       }
     },
     _ViewMaterialYesNoButtonsComponent1: {
-      "^": "AppView;0_compView_1,0_MaterialSpinnerComponent_1_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_yes_no_buttons_template$_compView_1,0_MaterialSpinnerComponent_1_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, _el_0, t1, t2, _el_1;
         doc = document;
@@ -31482,27 +31699,27 @@
           $.ViewMaterialSpinnerComponent0__renderType = t2;
         }
         t1.setupComponentType$1(t2);
-        this._compView_1 = t1;
+        this._material_yes_no_buttons_template$_compView_1 = t1;
         _el_1 = t1.rootEl;
         J.append$1$x(_el_0, _el_1);
         this.addShimC$1(_el_1);
         t1 = new T.MaterialSpinnerComponent();
         this._MaterialSpinnerComponent_1_5 = t1;
-        this._compView_1.create$2(0, t1, []);
+        this._material_yes_no_buttons_template$_compView_1.create$2(0, t1, []);
         this.init0$1(_el_0);
       },
       detectChangesInternal$0: function() {
-        this._compView_1.detectChanges$0();
+        this._material_yes_no_buttons_template$_compView_1.detectChanges$0();
       },
       destroyInternal$0: function() {
-        this._compView_1.destroy$0();
+        this._material_yes_no_buttons_template$_compView_1.destroy$0();
       },
       $asAppView: function() {
         return [E.MaterialYesNoButtonsComponent];
       }
     },
     _ViewMaterialYesNoButtonsComponent2: {
-      "^": "AppView;0_material_yes_no_buttons_template$_compView_0,0_AcxDarkTheme_0_5,0_MaterialButtonComponent_0_6,0_material_yes_no_buttons_template$_expr_0,0_material_yes_no_buttons_template$_expr_1,0_material_yes_no_buttons_template$_expr_2,0_material_yes_no_buttons_template$_expr_3,0_material_yes_no_buttons_template$_el_0,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_yes_no_buttons_template$_compView_0,0_AcxDarkTheme_0_5,0_MaterialButtonComponent_0_6,0_material_yes_no_buttons_template$_expr_0,0_material_yes_no_buttons_template$_expr_1,0_material_yes_no_buttons_template$_expr_2,0_material_yes_no_buttons_template$_expr_3,0_material_yes_no_buttons_template$_el_0,0_material_yes_no_buttons_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, t2, subscription_0;
         t1 = U.ViewMaterialButtonComponent0$(this, 0);
@@ -31516,7 +31733,7 @@
         t1 = B.MaterialButtonComponent$(this._material_yes_no_buttons_template$_el_0, t1, this._material_yes_no_buttons_template$_compView_0.viewData.ref, null);
         this._MaterialButtonComponent_0_6 = t1;
         t2 = document.createTextNode("");
-        this._text_1 = t2;
+        this._material_yes_no_buttons_template$_text_1 = t2;
         this._material_yes_no_buttons_template$_compView_0.create$2(0, t1, [H.setRuntimeTypeInfo([t2], [W.Text])]);
         t2 = this._MaterialButtonComponent_0_6._trigger;
         t1 = W.UIEvent;
@@ -31574,7 +31791,7 @@
           currVal_3 = "";
         t1 = this._material_yes_no_buttons_template$_expr_3;
         if (t1 !== currVal_3) {
-          this._text_1.textContent = currVal_3;
+          this._material_yes_no_buttons_template$_text_1.textContent = currVal_3;
           this._material_yes_no_buttons_template$_expr_3 = currVal_3;
         }
         this._material_yes_no_buttons_template$_compView_0.detectChanges$0();
@@ -31590,7 +31807,7 @@
       }
     },
     _ViewMaterialYesNoButtonsComponent3: {
-      "^": "AppView;0_material_yes_no_buttons_template$_compView_0,0_AcxDarkTheme_0_5,0_MaterialButtonComponent_0_6,0_material_yes_no_buttons_template$_expr_0,0_material_yes_no_buttons_template$_expr_1,0_material_yes_no_buttons_template$_expr_2,0_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_material_yes_no_buttons_template$_compView_0,0_AcxDarkTheme_0_5,0_MaterialButtonComponent_0_6,0_material_yes_no_buttons_template$_expr_0,0_material_yes_no_buttons_template$_expr_1,0_material_yes_no_buttons_template$_expr_2,0_material_yes_no_buttons_template$_text_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, _el_0, t2;
         t1 = U.ViewMaterialButtonComponent0$(this, 0);
@@ -31603,7 +31820,7 @@
         t1 = B.MaterialButtonComponent$(_el_0, t1, this._material_yes_no_buttons_template$_compView_0.viewData.ref, null);
         this._MaterialButtonComponent_0_6 = t1;
         t2 = document.createTextNode("");
-        this._text_1 = t2;
+        this._material_yes_no_buttons_template$_text_1 = t2;
         this._material_yes_no_buttons_template$_compView_0.create$2(0, t1, [H.setRuntimeTypeInfo([t2], [W.Text])]);
         t2 = this._MaterialButtonComponent_0_6._trigger;
         t1 = W.UIEvent;
@@ -31654,7 +31871,7 @@
           currVal_2 = "";
         t1 = this._material_yes_no_buttons_template$_expr_2;
         if (t1 !== currVal_2) {
-          this._text_1.textContent = currVal_2;
+          this._material_yes_no_buttons_template$_text_1.textContent = currVal_2;
           this._material_yes_no_buttons_template$_expr_2 = currVal_2;
         }
         this._material_yes_no_buttons_template$_compView_0.detectChanges$0();
@@ -31755,7 +31972,7 @@
         if (!t1.containsKey$1(0, item))
           t1.$indexSet(0, item, this._idGenerator.nextId$0());
         return t1.$index(0, item);
-      }, "call$1", "get$id", 5, 0, 142, 22]
+      }, "call$1", "get$id", 5, 0, 142, 5]
     }
   }], ["", "package:angular_components/model/a11y/active_item_directive.dart",, B, {
     "^": "",
@@ -31800,13 +32017,13 @@
       },
       onMouseEnter$0: [function(_) {
         this._hasHover = true;
-      }, "call$0", "get$onMouseEnter", 1, 0, 1],
+      }, "call$0", "get$onMouseEnter", 1, 0, 2],
       onMouseLeave$0: [function(_) {
         this._hasHover = false;
-      }, "call$0", "get$onMouseLeave", 1, 0, 1]
+      }, "call$0", "get$onMouseLeave", 1, 0, 2]
     },
     ActiveItemDirective__scrollIntoViewIfNecessary_closure: {
-      "^": "Closure:27;$this",
+      "^": "Closure:29;$this",
       call$1: [function(isVisible) {
         var t1, t2;
         if (H.boolTypeCheck(isVisible)) {
@@ -31857,7 +32074,7 @@
           if (t1 != null)
             t1.call$1($event);
         }
-      }, "call$1", "get$onKeyUp", 5, 0, 15]
+      }, "call$1", "get$onKeyUp", 5, 0, 16]
     }
   }], ["", "package:angular_components/model/action/delayed_action.dart",, T, {
     "^": "",
@@ -31869,7 +32086,7 @@
       _wrappedCallback$0: [function() {
         this._delayed_action$_callback.call$0();
         this._reset$1(true);
-      }, "call$0", "get$_wrappedCallback", 0, 0, 1],
+      }, "call$0", "get$_wrappedCallback", 0, 0, 2],
       start$0: function(_) {
         var t1;
         if (this._delayed_action$_timer == null) {
@@ -31951,13 +32168,13 @@
       }
     },
     CombinedList_isEmpty_closure: {
-      "^": "Closure:50;",
+      "^": "Closure:48;",
       call$1: function(list) {
         return J.get$isEmpty$asx(H.listTypeCheck(list));
       }
     },
     CombinedList_isNotEmpty_closure: {
-      "^": "Closure:50;",
+      "^": "Closure:48;",
       call$1: function(list) {
         return J.get$isNotEmpty$asx(H.listTypeCheck(list));
       }
@@ -32063,7 +32280,7 @@
       "^": "Closure:145;",
       call$1: [function(affix) {
         return H.S(H.interceptedTypeCheck(affix, "$isMenuItemAffix"));
-      }, null, null, 4, 0, null, 68, "call"]
+      }, null, null, 4, 0, null, 90, "call"]
     },
     ActiveMenuItemModel: {
       "^": "ActiveItemModel;_filterOutUnselectableItems,_active_item$_modelChanged,_ids,_idGenerator,0_items,0_loop,_activeIndex,$ti",
@@ -32176,7 +32393,7 @@
       static: {
         ObservableReference__defaultEq: [function(a, b) {
           return a == b;
-        }, "call$2", "observable_ObservableReference__defaultEq$closure", 8, 0, 54]
+        }, "call$2", "observable_ObservableReference__defaultEq$closure", 8, 0, 64]
       }
     },
     _ObservableReference_ChangeNotificationProvider_ObservableViewMixin: {
@@ -32191,7 +32408,7 @@
     "^": "",
     _nullRenderer: [function(value) {
       return H.throwExpression(P.StateError$("nullRenderer should never be called"));
-    }, "call$1", "has_renderer___nullRenderer$closure", 4, 0, 224, 1],
+    }, "call$1", "has_renderer___nullRenderer$closure", 4, 0, 238, 1],
     HasRenderer: {
       "^": "Object;"
     }
@@ -32282,7 +32499,7 @@
           t1._portal$_isDisposed = true;
         }
         this._stateUpdateListener.cancel$0(0);
-      }, "call$0", "get$dispose", 0, 0, 1],
+      }, "call$0", "get$dispose", 0, 0, 2],
       _applyChanges$0: function() {
         var t1, t2, t3;
         t1 = this._lastVisible;
@@ -32319,7 +32536,7 @@
           t1 = J.getInterceptor$x(a);
           t2 = J.getInterceptor$x(b);
           return t1.get$width(a) == t2.get$width(b) && t1.get$height(a) == t2.get$height(b);
-        }, "call$2", "overlay_ref_OverlayRef__isEqualSize$closure", 8, 0, 48],
+        }, "call$2", "overlay_ref_OverlayRef__isEqualSize$closure", 8, 0, 56],
         OverlayRef$: function(_asyncApplyState, _asyncMeasureSize, _delegatePortalHost, containerElement, overlayElement, _runOutsideAngular, state) {
           var t1 = new B.OverlayRef(Z.MutableOverlayState_MutableOverlayState$from(state), containerElement, overlayElement, _asyncApplyState, _asyncMeasureSize, _delegatePortalHost, _runOutsideAngular, false);
           t1.OverlayRef$7$state(_asyncApplyState, _asyncMeasureSize, _delegatePortalHost, containerElement, overlayElement, _runOutsideAngular, state);
@@ -32363,7 +32580,7 @@
         return this._renderService.measureSize$3$sync$track(pane, this._useDomSynchronously, true);
       }, function(pane) {
         return this._measurePane$2$track(pane, false);
-      }, "_measurePane$1", "call$2$track", "call$1", "get$_measurePane", 4, 3, 49]
+      }, "_measurePane$1", "call$2$track", "call$1", "get$_measurePane", 4, 3, 69]
     }
   }], ["", "package:angular_components/src/laminate/overlay/overlay_state.dart",, Z, {
     "^": "",
@@ -32638,7 +32855,7 @@
           return t1.measure$1(0, element).asStream$0();
       }, function(element) {
         return this._asyncMeasureSize$2$track(element, false);
-      }, "_asyncMeasureSize$1", "call$2$track", "call$1", "get$_asyncMeasureSize", 4, 3, 49, 72, 31, 73]
+      }, "_asyncMeasureSize$1", "call$2$track", "call$1", "get$_asyncMeasureSize", 4, 3, 69, 72, 33, 73]
     },
     DomPopupSource: {
       "^": "Object;_asyncMeasureSize,sourceElement<,_dom_popup_source$_initAriaAttributes,0_dom_popup_source$_alignOriginX,0_dom_popup_source$_alignOriginY,0_dom_popup_source$_id",
@@ -32740,7 +32957,7 @@
             t3._sendData$1($event);
           }
         }
-      }, "call$1", "get$_popup_hierarchy$_onTrigger", 4, 0, 36, 5],
+      }, "call$1", "get$_popup_hierarchy$_onTrigger", 4, 0, 33, 6],
       _onKeyUp$1: [function($event) {
         var t1, i, current, t2, t3, _i;
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
@@ -32771,7 +32988,7 @@
                 return;
               }
           }
-      }, "call$1", "get$_onKeyUp", 4, 0, 15]
+      }, "call$1", "get$_onKeyUp", 4, 0, 16]
     },
     PopupHierarchyElement: {
       "^": "Object;"
@@ -33067,7 +33284,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     RulerBase_track_closure1: {
-      "^": "Closure:48;",
+      "^": "Closure:56;",
       call$2: function(previous, next) {
         var t1, t2, t3;
         t1 = [P.num];
@@ -33092,7 +33309,7 @@
       }
     },
     RulerBase_updateSync_closure: {
-      "^": "Closure:72;$this,element",
+      "^": "Closure:51;$this,element",
       call$2: function($name, value) {
         var t1 = this.element.style;
         C.CssStyleDeclaration_methods._setPropertyHelper$3(t1, (t1 && C.CssStyleDeclaration_methods)._browserPropertyName$1(t1, $name), value, null);
@@ -33107,10 +33324,10 @@
       },
       onMouseOver$0: [function(_) {
         this._tooltipController.keepOpen$1(this);
-      }, "call$0", "get$onMouseOver", 1, 0, 1],
+      }, "call$0", "get$onMouseOver", 1, 0, 2],
       onMouseLeave$0: [function(_) {
         this._tooltipController.deactivate$1(this);
-      }, "call$0", "get$onMouseLeave", 1, 0, 1],
+      }, "call$0", "get$onMouseLeave", 1, 0, 2],
       set$tooltipRef: function(target) {
         var t1;
         this._tooltipSource = target;
@@ -33134,18 +33351,18 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.MaterialInkTooltipComponent));
       t1.componentType = $.ViewMaterialInkTooltipComponent0__renderType;
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent1$closure", 8, 0, 38],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent1$closure", 8, 0, 40],
     viewFactory_MaterialInkTooltipComponent2: [function(parentView, parentIndex) {
       var t1 = new L._ViewMaterialInkTooltipComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.MaterialInkTooltipComponent));
       t1.componentType = $.ViewMaterialInkTooltipComponent0__renderType;
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent2$closure", 8, 0, 38],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent2$closure", 8, 0, 40],
     viewFactory_MaterialInkTooltipComponentHost0: [function(parentView, parentIndex) {
       var t1 = new L._ViewMaterialInkTooltipComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, F.MaterialInkTooltipComponent));
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure", 8, 0, 38],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure", 8, 0, 40],
     ViewMaterialInkTooltipComponent0: {
       "^": "AppView;0_ink_tooltip_template$_appEl_1,0_ink_tooltip_template$_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -33405,7 +33622,7 @@
       handleLongPress$1: [function(_) {
         this.inLongPress = true;
         this.show$0(0);
-      }, "call$1", "get$handleLongPress", 4, 0, 36],
+      }, "call$1", "get$handleLongPress", 4, 0, 33],
       endLongPress$1: [function($event) {
         H.interceptedTypeCheck($event, "$isTouchEvent");
         if (this.inLongPress) {
@@ -33453,7 +33670,7 @@
         this._tooltip$_changeDetector.appView.markPathToRootAsCheckOnce$0();
         var t1 = this._tooltip;
         t1._tooltip_controller$_controller.activate$1(t1._tooltip_controller$_tooltip);
-      }, "call$0", "get$_activate", 0, 0, 1],
+      }, "call$0", "get$_activate", 0, 0, 2],
       set$canShow: function(value) {
         var t1;
         if (value === this._canShow)
@@ -33485,33 +33702,33 @@
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure: {
-      "^": "Closure:22;$this",
+      "^": "Closure:24;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.hide$1(true);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure0: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: function(_) {
         this.$this.hide$1(true);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure1: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: function(_) {
         this.$this.show$0(0);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure2: {
-      "^": "Closure:22;$this",
+      "^": "Closure:24;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.show$0(0);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure3: {
-      "^": "Closure:22;$this",
+      "^": "Closure:24;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.hide$0();
@@ -33675,7 +33892,7 @@
       }
     },
     AsyncActionController_execute_closure: {
-      "^": "Closure:17;$this,exec,onCancel,valueOnCancel",
+      "^": "Closure:22;$this,exec,onCancel,valueOnCancel",
       call$0: function() {
         var t1 = this.$this;
         if (t1._locked)
@@ -33685,7 +33902,7 @@
       }
     },
     AsyncActionController_execute__closure: {
-      "^": "Closure:196;$this,exec,onCancel,valueOnCancel",
+      "^": "Closure:156;$this,exec,onCancel,valueOnCancel",
       call$1: [function(shouldCancel) {
         var t1, shouldProceed;
         H.boolTypeCheck(shouldCancel);
@@ -33717,7 +33934,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     AsyncActionController__shouldCancel_closure: {
-      "^": "Closure:44;$this",
+      "^": "Closure:41;$this",
       call$0: function() {
         var t1 = P.bool;
         return P.Future_wait(this.$this._futureCancellations, null, false, t1).then$1$1(new Z.AsyncActionController__shouldCancel__closure(), t1);
@@ -33730,7 +33947,7 @@
       }, null, null, 4, 0, null, 75, "call"]
     },
     AsyncActionController__shouldCancel___closure: {
-      "^": "Closure:35;",
+      "^": "Closure:32;",
       call$1: function(cancel) {
         return H.boolTypeCheck(cancel) === true;
       }
@@ -33745,7 +33962,7 @@
       "^": "ManagedZone;",
       capturedTurnStart$1: [function($event) {
         this._managed_zone$_isRunning = true;
-      }, "call$1", "get$capturedTurnStart", 4, 0, 2, 5],
+      }, "call$1", "get$capturedTurnStart", 4, 0, 1, 6],
       capturedTurnDone$1: ["super$ManagedZoneBase$capturedTurnDone", function($event) {
         this._managed_zone$_isRunning = false;
       }],
@@ -33789,7 +34006,7 @@
       },
       add$1: [function(_, $event) {
         this._addEvent.call$1($event);
-      }, null, "get$add", 5, 0, null, 5],
+      }, null, "get$add", 5, 0, null, 6],
       addError$2: function(error, stackTrace) {
         var t1 = this._outputSink._async$_sink;
         if ((t1._state & 2) !== 0)
@@ -33955,7 +34172,7 @@
       "^": "Object;_disposeFn,viewRef",
       dispose$0: [function() {
         this._disposeFn.call$0();
-      }, "call$0", "get$dispose", 0, 0, 1],
+      }, "call$0", "get$dispose", 0, 0, 2],
       $isDisposable: 1
     }
   }], ["", "package:angular_components/utils/angular/managed_zone/angular_2.dart",, T, {
@@ -33974,12 +34191,12 @@
         if (this._isDisposed)
           return;
         this.super$ManagedZoneBase$capturedTurnDone($event);
-      }, "call$1", "get$capturedTurnDone", 4, 0, 2, 5],
+      }, "call$1", "get$capturedTurnDone", 4, 0, 1, 6],
       capturedEventDone$1: [function($event) {
         if (this._isDisposed)
           return;
         this.super$ManagedZoneBase$capturedEventDone($event);
-      }, "call$1", "get$capturedEventDone", 4, 0, 2, 5],
+      }, "call$1", "get$capturedEventDone", 4, 0, 1, 6],
       static: {
         Angular2ManagedZone$: function(_ngZone) {
           var t1 = new T.Angular2ManagedZone(_ngZone, false, false);
@@ -34368,7 +34585,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     DomService_init__closure: {
-      "^": "Closure:18;$this",
+      "^": "Closure:19;$this",
       call$1: [function(_) {
         var t1, t2, e;
         t1 = this.$this;
@@ -34425,7 +34642,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     DomService_onLayoutChanged__closure: {
-      "^": "Closure:18;$this",
+      "^": "Closure:19;$this",
       call$1: [function(_) {
         var t1 = this.$this;
         if (t1._dom_service$_state !== C.DomServiceState_0)
@@ -34434,7 +34651,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     DomService_onLayoutChanged__closure0: {
-      "^": "Closure:18;$this",
+      "^": "Closure:19;$this",
       call$1: [function(_) {
         var t1 = this.$this;
         if (t1._dom_service$_state !== C.DomServiceState_0)
@@ -34445,7 +34662,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     DomService_onLayoutChanged__closure1: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: [function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isEvent");
@@ -34455,7 +34672,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     DomService__listenOnLayoutEvents_closure: {
-      "^": "Closure:2;$this",
+      "^": "Closure:1;$this",
       call$1: function(_) {
         return this.$this._scheduleOnLayoutChanged$0();
       }
@@ -34522,7 +34739,7 @@
       }
     },
     DomServiceWebdriverTestability$__closure: {
-      "^": "Closure:2;$this",
+      "^": "Closure:1;$this",
       call$1: [function(_) {
         this.$this._runCallbacksIfStable$0();
         return;
@@ -34572,7 +34789,7 @@
       return false;
     },
     triggersOutside_closure: {
-      "^": "Closure:74;_box_0",
+      "^": "Closure:71;_box_0",
       call$1: function(node) {
         return false;
       }
@@ -34600,7 +34817,7 @@
       }
     },
     triggersOutsideAny__closure: {
-      "^": "Closure:9;_box_0,_box_1,checkNodeInside",
+      "^": "Closure:13;_box_0,_box_1,checkNodeInside",
       call$1: [function(e) {
         var node, t1;
         H.interceptedTypeCheck(e, "$isEvent");
@@ -34612,16 +34829,16 @@
           else
             node = node.parentElement;
         this._box_1.controller.add$1(0, e);
-      }, null, null, 4, 0, null, 7, "call"]
+      }, null, null, 4, 0, null, 8, "call"]
     },
     triggersOutsideAny__closure0: {
-      "^": "Closure:22;_box_0",
+      "^": "Closure:24;_box_0",
       call$1: function(e) {
         this._box_0.lastDownEvent = H.interceptedTypeCheck(e, "$isMouseEvent");
       }
     },
     triggersOutsideAny__closure1: {
-      "^": "Closure:22;_box_0,_box_1",
+      "^": "Closure:24;_box_0,_box_1",
       call$1: function(e) {
         var t1, t2, t3;
         H.interceptedTypeCheck(e, "$isMouseEvent");
@@ -34639,7 +34856,7 @@
       }
     },
     triggersOutsideAny__closure2: {
-      "^": "Closure:22;_box_0,_box_1",
+      "^": "Closure:24;_box_0,_box_1",
       call$1: function(e) {
         var t1, t2, t3, t4;
         H.interceptedTypeCheck(e, "$isMouseEvent");
@@ -34698,7 +34915,7 @@
         var t1 = this._disposable_callback$_callback;
         if (t1 != null)
           t1.call$0();
-      }, "call$0", "get$$call", 0, 0, 63]
+      }, "call$0", "get$$call", 0, 0, 46]
     }
   }], ["", "package:angular_components/utils/disposer/disposer.dart",, R, {
     "^": "",
@@ -34845,7 +35062,7 @@
       }
     },
     SequentialIdGenerator__createUuid_closure0: {
-      "^": "Closure:13;",
+      "^": "Closure:15;",
       call$1: [function(b) {
         return C.JSString_methods.padLeft$2(J.toRadixString$1$n(H.intTypeCheck(b), 16), 2, "0");
       }, null, null, 4, 0, null, 25, "call"]
@@ -34856,7 +35073,7 @@
       return R._throttle(H.functionTypeCheck(delegate, {func: 1, args: [$T]}), interval, true, $T);
     }, function(delegate, interval) {
       return R.throttleGuaranteeLast(delegate, interval, null);
-    }, "call$1$2", "call$2", "rate_limit_utils__throttleGuaranteeLast$closure", 8, 0, 226],
+    }, "call$1$2", "call$2", "rate_limit_utils__throttleGuaranteeLast$closure", 8, 0, 240],
     _throttle: function(delegate, interval, guaranteeLast, $T) {
       var t1, $self;
       t1 = {};
@@ -34965,7 +35182,7 @@
       },
       onDisabledChanged$1: [function(isDisabled) {
         this._default_value_accessor$_element.disabled = H.boolTypeCheck(isDisabled);
-      }, "call$1", "get$onDisabledChanged", 4, 0, 19, 24],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 21, 24],
       $isControlValueAccessor: 1,
       $asControlValueAccessor: Isolate.functionThatReturnsNull,
       $asChangeHandler: function() {
@@ -34997,8 +35214,8 @@
     NgModel: {
       "^": "_NgModel_NgControl_ComponentState;0_control,0_update,0_model,_modelChanged,0viewModel,ComponentState__stateChangeCallback,valueAccessor,validator,0name",
       set$model: function(value) {
-        var t1;
-        if (this._model == value)
+        var t1 = this._model;
+        if (t1 == null ? value == null : t1 === value)
           return;
         this._model = value;
         t1 = this.viewModel;
@@ -35057,12 +35274,24 @@
   }], ["", "package:angular_forms/src/directives/normalize_validator.dart",, D, {
     "^": "",
     normalizeValidator: [function(validator) {
-      var t1 = {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]};
-      if (!!J.getInterceptor$(validator).$isFunction)
-        return H.functionTypeCast(validator, t1);
-      else
-        return H.functionTypeCast(validator.get$$call(), t1);
-    }, "call$1", "normalize_validator__normalizeValidator$closure", 4, 0, 156, 60]
+      var t1, t2;
+      t1 = J.getInterceptor$(validator);
+      if (!!t1.$isValidator)
+        return new D.normalizeValidator_closure(validator);
+      else {
+        t2 = {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]};
+        if (!!t1.$isFunction)
+          return H.functionTypeCast(validator, t2);
+        else
+          return H.functionTypeCast(validator.get$$call(), t2);
+      }
+    }, "call$1", "normalize_validator__normalizeValidator$closure", 4, 0, 241, 78],
+    normalizeValidator_closure: {
+      "^": "Closure:35;validator",
+      call$1: [function(c) {
+        return this.validator.validate$1(H.interceptedTypeCheck(c, "$isAbstractControl"));
+      }, null, null, 4, 0, null, 79, "call"]
+    }
   }], ["", "package:angular_forms/src/directives/shared.dart",, X, {
     "^": "",
     setUpControl: function(control, dir) {
@@ -35125,14 +35354,14 @@
       }
     },
     setUpControl_closure0: {
-      "^": "Closure:2;dir",
+      "^": "Closure:1;dir",
       call$1: function(newValue) {
         var t1 = this.dir.valueAccessor;
         return t1 == null ? null : t1.writeValue$1(0, newValue);
       }
     },
     setUpControl_closure1: {
-      "^": "Closure:1;control",
+      "^": "Closure:2;control",
       call$0: function() {
         var t1 = this.control;
         t1._touched = true;
@@ -35254,10 +35483,10 @@
       return result.get$isEmpty(result) ? null : result;
     },
     Validators_compose_closure: {
-      "^": "Closure:43;presentValidators",
+      "^": "Closure:35;presentValidators",
       call$1: [function(control) {
         return B._executeValidators(H.interceptedTypeCheck(control, "$isAbstractControl"), this.presentValidators);
-      }, null, null, 4, 0, null, 36, "call"]
+      }, null, null, 4, 0, null, 35, "call"]
     }
   }], ["", "package:angular_router/src/directives/router_link_directive.dart",, G, {
     "^": "",
@@ -35281,13 +35510,13 @@
         if ($event.ctrlKey || $event.metaKey)
           return;
         this._router_link_directive$_trigger$1($event);
-      }, "call$1", "get$onClick", 5, 0, 16],
+      }, "call$1", "get$onClick", 5, 0, 18],
       _onKeyPress$1: [function($event) {
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
         if ($event.keyCode !== 13 || $event.ctrlKey || $event.metaKey)
           return;
         this._router_link_directive$_trigger$1($event);
-      }, "call$1", "get$_onKeyPress", 4, 0, 15],
+      }, "call$1", "get$_onKeyPress", 4, 0, 16],
       _router_link_directive$_trigger$1: function($event) {
         var t1, t2;
         $event.preventDefault();
@@ -35445,7 +35674,7 @@
       } else
         t1 = true;
       return t1 ? pathname : "/" + H.S(pathname);
-    }, "call$0", "base_href__baseHrefFromDOM$closure", 0, 0, 32],
+    }, "call$0", "base_href__baseHrefFromDOM$closure", 0, 0, 7],
     _getBaseElementHref: function() {
       var t1 = $._baseElement;
       if (t1 == null) {
@@ -35470,7 +35699,7 @@
         if (path == null)
           path = "";
         return path.length === 0 ? path : C.JSString_methods.substring$1(path, 1);
-      }, "call$0", "get$path", 1, 0, 32],
+      }, "call$0", "get$path", 1, 0, 7],
       prepareExternalUrl$1: function(internal) {
         var url, t1;
         url = V.Location_joinWithSlash(this._baseHref, internal);
@@ -35514,7 +35743,7 @@
       },
       path$0: [function(_) {
         return V.Location_stripTrailingSlash(V._stripBaseHref(this._location$_baseHref, V._stripIndexHtml(this.locationStrategy.path$0(0))));
-      }, "call$0", "get$path", 1, 0, 32],
+      }, "call$0", "get$path", 1, 0, 7],
       normalizePath$1: function(path) {
         if (path == null)
           return;
@@ -35549,13 +35778,13 @@
       }
     },
     Location_closure: {
-      "^": "Closure:9;$this",
+      "^": "Closure:13;$this",
       call$1: [function(ev) {
         var t1;
         H.interceptedTypeCheck(ev, "$isEvent");
         t1 = this.$this;
         t1._subject.add$1(0, P.LinkedHashMap_LinkedHashMap$_literal(["url", V.Location_stripTrailingSlash(V._stripBaseHref(t1._location$_baseHref, V._stripIndexHtml(t1.locationStrategy.path$0(0)))), "pop", true, "type", ev.type], P.String, P.Object));
-      }, null, null, 4, 0, null, 78, "call"]
+      }, null, null, 4, 0, null, 80, "call"]
     }
   }], ["", "package:angular_router/src/location/location_strategy.dart",, X, {
     "^": "",
@@ -35595,10 +35824,10 @@
       }
     },
     RouteDefinition_parameters_closure: {
-      "^": "Closure:34;",
+      "^": "Closure:36;",
       call$1: [function(m) {
         return H.interceptedTypeCheck(m, "$isMatch").$index(0, 1);
-      }, null, null, 4, 0, null, 26, "call"]
+      }, null, null, 4, 0, null, 36, "call"]
     },
     ComponentRouteDefinition: {
       "^": "RouteDefinition;component,path,useAsDefault,additionalData",
@@ -35641,10 +35870,10 @@
       }
     },
     RedirectRouteDefinition__redirectToParameters_closure: {
-      "^": "Closure:34;",
+      "^": "Closure:36;",
       call$1: [function(m) {
         return H.interceptedTypeCheck(m, "$isMatch").$index(0, 1);
-      }, null, null, 4, 0, null, 26, "call"]
+      }, null, null, 4, 0, null, 36, "call"]
     }
   }], ["", "package:angular_router/src/route_path.dart",, O, {
     "^": "",
@@ -36269,7 +36498,7 @@
           t2 = t1._activeState.toUrl$0(0);
           t1._router_impl$_location.locationStrategy.replaceState$4(0, null, "", t2, "");
         }
-      }, null, null, 4, 0, null, 80, "call"]
+      }, null, null, 4, 0, null, 82, "call"]
     },
     RouterImpl__enqueueNavigation_closure: {
       "^": "Closure:168;$this,path,navigationParams,navigationCompleter",
@@ -36285,7 +36514,7 @@
       }
     },
     RouterImpl__resolveState_closure: {
-      "^": "Closure:170;$this,path,navigationParams",
+      "^": "Closure:256;$this,path,navigationParams",
       call$1: [function(routerState) {
         var t1;
         H.interceptedTypeCheck(routerState, "$isMutableRouterState");
@@ -36298,7 +36527,7 @@
           }
           return this.$this._attachDefaultChildren$1(routerState);
         }
-      }, null, null, 4, 0, null, 81, "call"]
+      }, null, null, 4, 0, null, 83, "call"]
     }
   }], ["", "package:angular_router/src/router/router_outlet_token.dart",, S, {
     "^": "",
@@ -36388,14 +36617,14 @@
       }
     },
     Url_toUrl_closure: {
-      "^": "Closure:14;$this",
+      "^": "Closure:10;$this",
       call$1: [function(k) {
         var v;
         H.stringTypeCheck(k);
         v = this.$this.queryParameters.$index(0, k);
         k = P._Uri__uriEncode(C.List_KIf, k, C.Utf8Codec_false, false);
         return v != null ? H.S(k) + "=" + H.S(P._Uri__uriEncode(C.List_KIf, v, C.Utf8Codec_false, false)) : k;
-      }, null, null, 4, 0, null, 82, "call"]
+      }, null, null, 4, 0, null, 84, "call"]
     }
   }], ["asset_angular_tour_of_heroes_lib_app_component.css.shim.dart", "package:angular_tour_of_heroes/app_component.css.shim.dart",, L, {}], ["", "package:angular_tour_of_heroes/app_component.dart",, Q, {
     "^": "",
@@ -36406,20 +36635,20 @@
       },
       openUiWindow$0: [function() {
         G.get("http://localhost:3000/open/BCUI", null).then$1$1(new Q.AppComponent_openUiWindow_closure(), null);
-      }, "call$0", "get$openUiWindow", 0, 0, 1],
+      }, "call$0", "get$openUiWindow", 0, 0, 2],
       goHome$0: [function() {
         this._app_component$_router.navigate$1(0, $.$get$RoutePaths_dash().toUrl$0(0));
-      }, "call$0", "get$goHome", 0, 0, 1],
+      }, "call$0", "get$goHome", 0, 0, 2],
       ngOnInit$0: function() {
         var t1 = [D.MenuItem,,];
-        this.set$navMenu(D.MenuModel$(H.setRuntimeTypeInfo([D.MenuItemGroup$(H.setRuntimeTypeInfo([D.MenuItem$("Tournaments", new Q.AppComponent_ngOnInit_closure(this), null, true, null, null, null, null, null, null, null, null), D.MenuItem$("Matches", new Q.AppComponent_ngOnInit_closure0(this), null, true, null, null, null, null, null, null, null, null), D.MenuItem$("Players", new Q.AppComponent_ngOnInit_closure1(this), null, true, null, null, null, null, null, null, null, null)], [t1]), null, true, false, true, t1)], [[D.MenuItemGroup, [D.MenuItem,,]]]), null, null, null, t1));
+        this.set$navMenu(D.MenuModel$(H.setRuntimeTypeInfo([D.MenuItemGroup$(H.setRuntimeTypeInfo([D.MenuItem$("Tournaments", new Q.AppComponent_ngOnInit_closure(this), null, true, null, null, null, null, null, null, null, null), D.MenuItem$("Matches", new Q.AppComponent_ngOnInit_closure0(this), null, true, null, null, null, null, null, null, null, null), D.MenuItem$("Users", new Q.AppComponent_ngOnInit_closure1(this), null, true, null, null, null, null, null, null, null, null)], [t1]), null, true, false, true, t1)], [[D.MenuItemGroup, [D.MenuItem,,]]]), null, null, null, t1));
       }
     },
     AppComponent_openUiWindow_closure: {
       "^": "Closure:171;",
       call$1: [function(response) {
         P.print("Response status: " + H.S(H.interceptedTypeCheck(response, "$isResponse").statusCode));
-      }, null, null, 4, 0, null, 83, "call"]
+      }, null, null, 4, 0, null, 85, "call"]
     },
     AppComponent_ngOnInit_closure: {
       "^": "Closure:23;$this",
@@ -36439,7 +36668,7 @@
       "^": "Closure:23;$this",
       call$0: function() {
         var t1 = P.String;
-        return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "players"], t1, t1)));
+        return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "users"], t1, t1)));
       }
     }
   }], ["", "package:angular_tour_of_heroes/app_component.template.dart",, V, {
@@ -36448,7 +36677,7 @@
       var t1 = new V._ViewAppComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, Q.AppComponent));
       return t1;
-    }, "call$2", "app_component_template__viewFactory_AppComponentHost0$closure", 8, 0, 227],
+    }, "call$2", "app_component_template__viewFactory_AppComponentHost0$closure", 8, 0, 242],
     ViewAppComponent0: {
       "^": "AppView;0_app_component_template$_compView_2,0_app_component_template$_AcxDarkTheme_2_5,0_app_component_template$_MaterialButtonComponent_2_6,0_app_component_template$_compView_4,0_RaisableMenuComponent_4_5,0_compView_7,0_MaterialIconComponent_7_5,0_compView_8,0_AcxDarkTheme_8_5,0_MaterialButtonComponent_8_6,0_app_component_template$_appEl_13,0_RouterOutlet_13_8,0_app_component_template$_expr_1,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -36920,7 +37149,7 @@
       var t1 = new K._ViewAdminComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, O.AdminComponent));
       return t1;
-    }, "call$2", "admin_component_template__viewFactory_AdminComponentHost0$closure", 8, 0, 228],
+    }, "call$2", "admin_component_template__viewFactory_AdminComponentHost0$closure", 8, 0, 243],
     ViewAdminComponent0: {
       "^": "AppView;0_admin_component_template$_compView_1,0_RaisableMenuComponent_1_5,0_admin_component_template$_compView_4,0_MaterialIconComponent_4_5,0_admin_component_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -37041,7 +37270,17 @@
   }], ["asset_angular_tour_of_heroes_lib_src_component_dash_dashboard_component.css.shim.dart", "package:angular_tour_of_heroes/src/component/dash/dashboard_component.css.shim.dart",, R, {}], ["", "package:angular_tour_of_heroes/src/component/dash/dashboard_component.dart",, K, {
     "^": "",
     DashboardComponent: {
-      "^": "Object;sections"
+      "^": "Object;sections",
+      getSectionLink$1: function(section) {
+        var t1, t2;
+        t1 = section.name;
+        switch (t1.toLowerCase()) {
+          case "admin":
+            return $.$get$RoutePaths_admin().toUrl$0(0);
+        }
+        t2 = P.String;
+        return $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", t1.toLowerCase()], t2, t2));
+      }
     }
   }], ["", "package:angular_tour_of_heroes/src/component/dash/dashboard_component.template.dart",, T, {
     "^": "",
@@ -37050,12 +37289,24 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
       t1.componentType = $.ViewDashboardComponent0__renderType;
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent1$closure", 8, 0, 73],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent1$closure", 8, 0, 31],
+    viewFactory_DashboardComponent2: [function(parentView, parentIndex) {
+      var t1 = new T._ViewDashboardComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
+      t1.componentType = $.ViewDashboardComponent0__renderType;
+      return t1;
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent2$closure", 8, 0, 31],
+    viewFactory_DashboardComponent3: [function(parentView, parentIndex) {
+      var t1 = new T._ViewDashboardComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
+      t1.componentType = $.ViewDashboardComponent0__renderType;
+      return t1;
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent3$closure", 8, 0, 31],
     viewFactory_DashboardComponentHost0: [function(parentView, parentIndex) {
       var t1 = new T._ViewDashboardComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, K.DashboardComponent));
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponentHost0$closure", 8, 0, 73],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponentHost0$closure", 8, 0, 31],
     ViewDashboardComponent0: {
       "^": "AppView;0_dashboard_component_template$_appEl_3,0_dashboard_component_template$_NgFor_3_9,0_dashboard_component_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -37095,6 +37346,79 @@
       }
     },
     _ViewDashboardComponent1: {
+      "^": "AppView;0_dashboard_component_template$_appEl_1,0_dashboard_component_template$_NgIf_1_9,0_dashboard_component_template$_appEl_2,0_dashboard_component_template$_NgIf_2_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var _el_0, t1, _anchor_1, t2, t3, _anchor_2;
+        _el_0 = document.createElement("div");
+        _el_0.className = "col-1-4";
+        H.interceptedTypeCheck(_el_0, "$isHtmlElement");
+        this.addShimC$1(_el_0);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_1 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
+        t2 = J.getInterceptor$x(_el_0);
+        t2.append$1(_el_0, _anchor_1);
+        t3 = new V.ViewContainer(1, 0, this, _anchor_1);
+        this._dashboard_component_template$_appEl_1 = t3;
+        this._dashboard_component_template$_NgIf_1_9 = new K.NgIf(new D.TemplateRef(t3, T.dashboard_component_template__viewFactory_DashboardComponent2$closure()), t3, false);
+        _anchor_2 = H.interceptedTypeCheck(C.Comment_methods.clone$1(t1, false), "$isComment");
+        t2.append$1(_el_0, _anchor_2);
+        t2 = new V.ViewContainer(2, 0, this, _anchor_2);
+        this._dashboard_component_template$_appEl_2 = t2;
+        this._dashboard_component_template$_NgIf_2_9 = new K.NgIf(new D.TemplateRef(t2, T.dashboard_component_template__viewFactory_DashboardComponent3$closure()), t2, false);
+        this.init0$1(_el_0);
+      },
+      detectChangesInternal$0: function() {
+        var local_section, t1, t2;
+        local_section = H.interceptedTypeCheck(this.locals.$index(0, "$implicit"), "$isDashSection");
+        t1 = this._dashboard_component_template$_NgIf_1_9;
+        t2 = local_section.enabled;
+        t1.set$ngIf(!t2);
+        this._dashboard_component_template$_NgIf_2_9.set$ngIf(t2);
+        this._dashboard_component_template$_appEl_1.detectChangesInNestedViews$0();
+        this._dashboard_component_template$_appEl_2.detectChangesInNestedViews$0();
+      },
+      destroyInternal$0: function() {
+        this._dashboard_component_template$_appEl_1.destroyNestedViews$0();
+        this._dashboard_component_template$_appEl_2.destroyNestedViews$0();
+      },
+      $asAppView: function() {
+        return [K.DashboardComponent];
+      }
+    },
+    _ViewDashboardComponent2: {
+      "^": "AppView;0_dashboard_component_template$_expr_0,0_dashboard_component_template$_text_4,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var doc, _el_0, _el_1, _el_2, _el_3, t1;
+        doc = document;
+        _el_0 = doc.createElement("div");
+        H.interceptedTypeCheck(_el_0, "$isHtmlElement");
+        this.addShimC$1(_el_0);
+        _el_1 = S.createDivAndAppend(doc, _el_0);
+        _el_1.className = "module section";
+        this.addShimC$1(_el_1);
+        _el_2 = S.createAndAppend(doc, "i", _el_1);
+        this.addShimE$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        t1 = doc.createTextNode("");
+        this._dashboard_component_template$_text_4 = t1;
+        J.append$1$x(_el_3, t1);
+        this.init0$1(_el_0);
+      },
+      detectChangesInternal$0: function() {
+        var currVal_0, t1;
+        currVal_0 = Q.interpolate0(H.interceptedTypeCheck(this.parentView.locals.$index(0, "$implicit"), "$isDashSection").name);
+        t1 = this._dashboard_component_template$_expr_0;
+        if (t1 !== currVal_0) {
+          this._dashboard_component_template$_text_4.textContent = currVal_0;
+          this._dashboard_component_template$_expr_0 = currVal_0;
+        }
+      },
+      $asAppView: function() {
+        return [K.DashboardComponent];
+      }
+    },
+    _ViewDashboardComponent3: {
       "^": "AppView;0_RouterLink_0_5,0_dashboard_component_template$_expr_0,0_dashboard_component_template$_expr_1,0_dashboard_component_template$_el_0,0_text_3,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var doc, t1, t2, _el_1, _el_2;
@@ -37102,9 +37426,8 @@
         t1 = doc.createElement("a");
         H.interceptedTypeCheck(t1, "$isAnchorElement");
         this._dashboard_component_template$_el_0 = t1;
-        t1.className = "col-1-4";
         this.addShimC$1(t1);
-        t1 = this.parentView;
+        t1 = this.parentView.parentView;
         t2 = t1.parentView;
         t1 = G.RouterLink$(H.interceptedTypeCheck(t2.injectorGet$2(C.Type_Router_yx3, t1.viewData.parentIndex), "$isRouter"), H.interceptedTypeCheck(t2.injectorGet$2(C.Type_Location_ckm, t1.viewData.parentIndex), "$isLocation"), null, this._dashboard_component_template$_el_0);
         this._RouterLink_0_5 = new G.RouterLinkNgCd(t1, false);
@@ -37122,39 +37445,37 @@
         this.init0$1(this._dashboard_component_template$_el_0);
       },
       detectChangesInternal$0: function() {
-        var _ctx, t1, t2, currVal_0, t3, t4, t5, url, currVal_1;
+        var _ctx, local_section, currVal_0, t1, t2, t3, t4, url, currVal_1;
         _ctx = this.ctx;
-        t1 = H.interceptedTypeCheck(this.locals.$index(0, "$implicit"), "$isSection").name;
-        _ctx.toString;
-        t2 = P.String;
-        currVal_0 = $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", t1.toLowerCase()], t2, t2));
-        t2 = this._dashboard_component_template$_expr_0;
-        if (t2 !== currVal_0) {
-          t2 = this._RouterLink_0_5.instance;
-          t2._routerLink = currVal_0;
-          t2._cachedVisibleHref = null;
-          t2._cachedUrl = null;
+        local_section = H.interceptedTypeCheck(this.parentView.locals.$index(0, "$implicit"), "$isDashSection");
+        currVal_0 = _ctx.getSectionLink$1(local_section);
+        t1 = this._dashboard_component_template$_expr_0;
+        if (t1 !== currVal_0) {
+          t1 = this._RouterLink_0_5.instance;
+          t1._routerLink = currVal_0;
+          t1._cachedVisibleHref = null;
+          t1._cachedUrl = null;
           this._dashboard_component_template$_expr_0 = currVal_0;
         }
-        t2 = this._RouterLink_0_5;
-        t3 = this._dashboard_component_template$_el_0;
-        t4 = t2.instance;
-        currVal_0 = t4._cachedVisibleHref;
+        t1 = this._RouterLink_0_5;
+        t2 = this._dashboard_component_template$_el_0;
+        t3 = t1.instance;
+        currVal_0 = t3._cachedVisibleHref;
         if (currVal_0 == null) {
-          t5 = t4._router_link_directive$_location;
-          url = t4._routerLink;
-          t5.toString;
+          t4 = t3._router_link_directive$_location;
+          url = t3._routerLink;
+          t4.toString;
           if (url.length !== 0 && !J.startsWith$1$s(url, "/"))
             url = "/" + H.S(url);
-          currVal_0 = t5.locationStrategy.prepareExternalUrl$1(url);
-          t4._cachedVisibleHref = currVal_0;
+          currVal_0 = t4.locationStrategy.prepareExternalUrl$1(url);
+          t3._cachedVisibleHref = currVal_0;
         }
-        t4 = t2._router_link_directive_template$_expr_0;
-        if (t4 !== currVal_0) {
-          t2.setAttr$3(t3, "href", currVal_0);
-          t2._router_link_directive_template$_expr_0 = currVal_0;
+        t3 = t1._router_link_directive_template$_expr_0;
+        if (t3 !== currVal_0) {
+          t1.setAttr$3(t2, "href", currVal_0);
+          t1._router_link_directive_template$_expr_0 = currVal_0;
         }
-        currVal_1 = Q.interpolate0(t1);
+        currVal_1 = Q.interpolate0(local_section.name);
         t1 = this._dashboard_component_template$_expr_1;
         if (t1 !== currVal_1) {
           this._text_3.textContent = currVal_1;
@@ -37204,30 +37525,30 @@
         return [K.DashboardComponent];
       }
     }
-  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_player_player.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/player/player.css.shim.dart",, O, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/player/player.dart",, Q, {
+  }], ["", "package:angular_tour_of_heroes/src/component/dash/sections.dart",, E, {}], ["asset_angular_tour_of_heroes_lib_src_component_detailView_entrant_entrant.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/entrant/entrant.css.shim.dart",, F, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/entrant/entrant.dart",, D, {
     "^": "",
-    PlayerDetailComponent: {
-      "^": "Object;0item>,0lockLevel,0_buttonStreamer,_interopService,0barcodeSlot",
+    EntrantDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_entrant$_buttonStreamer,0barcodeSlot",
       set$item: function(_, item) {
-        this.item = H.interceptedTypeCheck(item, "$isPlayer");
+        this.item = H.interceptedTypeCheck(item, "$isEntrant");
       },
       set$lockLevel: function(lockLevel) {
         this.lockLevel = H.intTypeCheck(lockLevel);
       },
-      set$_buttonStreamer: function(_buttonStreamer) {
-        this._buttonStreamer = H.assertSubtype(_buttonStreamer, "$isStreamController", [P.String], "$asStreamController");
+      set$_entrant$_buttonStreamer: function(_buttonStreamer) {
+        this._entrant$_buttonStreamer = H.assertSubtype(_buttonStreamer, "$isStreamController", [P.String], "$asStreamController");
       },
       set$barcodeSlot: function(barcodeSlot) {
         this.barcodeSlot = H.interceptedTypeCheck(barcodeSlot, "$isMaterialInputComponent");
       },
       get$buttonStream: function() {
-        var t1 = this._buttonStreamer;
+        var t1 = this._entrant$_buttonStreamer;
         return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
       },
       ngOnInit$0: function() {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
-          $async$self = this, t1;
+          $async$self = this;
         var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -37236,9 +37557,6 @@
               case 0:
                 // Function start
                 P.print("Current Item : " + H.S($async$self.item.name));
-                t1 = $async$self._interopService._barcodeStreamer;
-                t1.toString;
-                new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1($async$self.get$_barcodeStreamHandler());
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
             }
@@ -37248,64 +37566,47 @@
       buttonCall$2: function($event, cmd) {
         $event.preventDefault();
         $event.stopPropagation();
-        this._buttonStreamer.add$1(0, cmd);
-      },
-      _barcodeStreamHandler$1: [function(barcode) {
-        var t1;
-        H.interceptedTypeCheck(barcode, "$isBarcode");
-        t1 = this.barcodeSlot;
-        if (t1.focused && !t1._base_material_input$_disabled)
-          this.item.key = barcode.value;
-      }, "call$1", "get$_barcodeStreamHandler", 4, 0, 173, 84],
-      startBarcodeReader$0: [function() {
-        if (!this.barcodeSlot._base_material_input$_disabled) {
-          this._interopService.toString;
-          $.$get$context().$index(0, "videoStreamer").callMethod$2("start", []);
-        }
-      }, "call$0", "get$startBarcodeReader", 0, 0, 1],
-      stopBarcodeReader$0: [function() {
-        this._interopService.toString;
-        $.$get$context().$index(0, "videoStreamer").callMethod$2("stop", []);
-      }, "call$0", "get$stopBarcodeReader", 0, 0, 1]
+        this._entrant$_buttonStreamer.add$1(0, cmd);
+      }
     }
-  }], ["", "package:angular_tour_of_heroes/src/component/detailView/player/player.template.dart",, Y, {
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/entrant/entrant.template.dart",, S, {
     "^": "",
-    viewFactory_PlayerDetailComponent1: [function(parentView, parentIndex) {
-      var t1 = new Y._ViewPlayerDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
-      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.PlayerDetailComponent));
-      t1.componentType = $.ViewPlayerDetailComponent0__renderType;
+    viewFactory_EntrantDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new S._ViewEntrantDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.EntrantDetailComponent));
+      t1.componentType = $.ViewEntrantDetailComponent0__renderType;
       return t1;
-    }, "call$2", "player_template__viewFactory_PlayerDetailComponent1$closure", 8, 0, 67],
-    viewFactory_PlayerDetailComponentHost0: [function(parentView, parentIndex) {
-      var t1 = new Y._ViewPlayerDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
-      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, Q.PlayerDetailComponent));
+    }, "call$2", "entrant_template__viewFactory_EntrantDetailComponent1$closure", 8, 0, 74],
+    viewFactory_EntrantDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new S._ViewEntrantDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, D.EntrantDetailComponent));
       return t1;
-    }, "call$2", "player_template__viewFactory_PlayerDetailComponentHost0$closure", 8, 0, 67],
-    ViewPlayerDetailComponent0: {
-      "^": "AppView;0_player_template$_compView_1,0_MaterialExpansionPanel_1_5,0_compView_5,0_DeferredValidator_5_5,0_NgValidators_5_6,0_NgModel_5_7,0_NgControl_5_8,0_MaterialInputComponent_5_9,0_BaseMaterialInput_5_10,0_MaterialInputDefaultValueAccessor_5_11,0_compView_9,0_DeferredValidator_9_5,0_NgValidators_9_6,0_NgModel_9_7,0_NgControl_9_8,0_MaterialInputComponent_9_9,0_BaseMaterialInput_9_10,0_MaterialInputDefaultValueAccessor_9_11,0_compView_13,0_DeferredValidator_13_5,0_NgValidators_13_6,0_NgModel_13_7,0_NgControl_13_8,0_MaterialInputComponent_13_9,0_BaseMaterialInput_13_10,0_MaterialInputDefaultValueAccessor_13_11,0_player_template$_appEl_14,0_player_template$_NgIf_14_9,0_player_template$_expr_4,0_player_template$_expr_6,0_player_template$_expr_9,0_player_template$_el_13,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+    }, "call$2", "entrant_template__viewFactory_EntrantDetailComponentHost0$closure", 8, 0, 74],
+    ViewEntrantDetailComponent0: {
+      "^": "AppView;0_entrant_template$_compView_1,0_entrant_template$_MaterialExpansionPanel_1_5,0_entrant_template$_compView_5,0_entrant_template$_DeferredValidator_5_5,0_entrant_template$_NgValidators_5_6,0_entrant_template$_NgModel_5_7,0_entrant_template$_NgControl_5_8,0_entrant_template$_MaterialInputComponent_5_9,0_entrant_template$_BaseMaterialInput_5_10,0_entrant_template$_MaterialInputDefaultValueAccessor_5_11,0_entrant_template$_compView_9,0_entrant_template$_DeferredValidator_9_5,0_entrant_template$_NgValidators_9_6,0_entrant_template$_NgModel_9_7,0_entrant_template$_NgControl_9_8,0_entrant_template$_MaterialInputComponent_9_9,0_entrant_template$_BaseMaterialInput_9_10,0_entrant_template$_MaterialInputDefaultValueAccessor_9_11,0_entrant_template$_compView_13,0_entrant_template$_DeferredValidator_13_5,0_NgValidators_13_6,0_NgModel_13_7,0_NgControl_13_8,0_MaterialInputComponent_13_9,0_BaseMaterialInput_13_10,0_MaterialInputDefaultValueAccessor_13_11,0_entrant_template$_appEl_14,0_entrant_template$_NgIf_14_9,0_entrant_template$_expr_4,0_entrant_template$_expr_6,0_entrant_template$_expr_8,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _anchor_14, subscription_0, subscription_1;
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _anchor_14, subscription_0;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         _el_0 = S.createDivAndAppend(doc, parentRenderNode);
         _el_0.className = "full_pad";
         this.addShimC$1(_el_0);
         t1 = D.ViewMaterialExpansionPanel0$(this, 1);
-        this._player_template$_compView_1 = t1;
+        this._entrant_template$_compView_1 = t1;
         _el_1 = t1.rootEl;
         (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
         J.setAttribute$2$x(_el_1, "name", "Basic Information");
         this.addShimC$1(_el_1);
         t1 = this.parentView;
         t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
-        t3 = this._player_template$_compView_1.viewData.ref;
+        t3 = this._entrant_template$_compView_1.viewData.ref;
         t1 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
         t4 = [P.bool];
         t5 = $.$get$MaterialExpansionPanel__msgSave();
         t6 = $.$get$MaterialExpansionPanel__msgCancel();
         t7 = [[L.AsyncAction, P.bool]];
         t1 = new T.MaterialExpansionPanel(t2, t3, t1, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t4), new P._SyncBroadcastStreamController(null, null, 0, t4), false, false, false, false, false, false, false, false, true, true, false, t5, t6, new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7));
-        this._MaterialExpansionPanel_1_5 = t1;
+        this._entrant_template$_MaterialExpansionPanel_1_5 = t1;
         _el_2 = doc.createElement("div");
         _el_2.className = "inlinediv";
         H.interceptedTypeCheck(_el_2, "$isHtmlElement");
@@ -37314,27 +37615,27 @@
         this.addShimE$1(_el_3);
         J.append$1$x(_el_3, doc.createTextNode("ID:"));
         t1 = Q.ViewMaterialInputComponent0$(this, 5);
-        this._compView_5 = t1;
+        this._entrant_template$_compView_5 = t1;
         _el_5 = t1.rootEl;
         J.append$1$x(_el_2, _el_5);
         J.setAttribute$2$x(_el_5, "placeholder", "-");
         this.addShimC$1(_el_5);
         t1 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
         t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
-        this._DeferredValidator_5_5 = t2;
+        this._entrant_template$_DeferredValidator_5_5 = t2;
         t2 = [t2];
-        this._NgValidators_5_6 = t2;
+        this._entrant_template$_NgValidators_5_6 = t2;
         t2 = U.NgModel$(t2, null);
-        this._NgModel_5_7 = t2;
-        this._NgControl_5_8 = t2;
-        t2 = L.MaterialInputComponent$(null, null, null, t2, this._compView_5.viewData.ref, this._DeferredValidator_5_5);
-        this._MaterialInputComponent_5_9 = t2;
-        this._BaseMaterialInput_5_10 = t2;
-        t3 = this._NgControl_5_8;
+        this._entrant_template$_NgModel_5_7 = t2;
+        this._entrant_template$_NgControl_5_8 = t2;
+        t2 = L.MaterialInputComponent$(null, null, null, t2, this._entrant_template$_compView_5.viewData.ref, this._entrant_template$_DeferredValidator_5_5);
+        this._entrant_template$_MaterialInputComponent_5_9 = t2;
+        this._entrant_template$_BaseMaterialInput_5_10 = t2;
+        t3 = this._entrant_template$_NgControl_5_8;
         t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t2, t3);
         t4.BaseMaterialInputValueAccessor$2(t2, t3);
-        this._MaterialInputDefaultValueAccessor_5_11 = t4;
-        this._compView_5.create$2(0, this._MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        this._entrant_template$_MaterialInputDefaultValueAccessor_5_11 = t4;
+        this._entrant_template$_compView_5.create$2(0, this._entrant_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
         _el_6 = doc.createElement("div");
         _el_6.className = "inlinediv";
         H.interceptedTypeCheck(_el_6, "$isHtmlElement");
@@ -37343,13 +37644,527 @@
         this.addShimE$1(_el_7);
         J.append$1$x(_el_7, doc.createTextNode("Name:"));
         t2 = Q.ViewMaterialInputComponent0$(this, 9);
-        this._compView_9 = t2;
+        this._entrant_template$_compView_9 = t2;
         _el_9 = t2.rootEl;
         J.append$1$x(_el_6, _el_9);
-        t2 = J.getInterceptor$x(_el_9);
-        t2.setAttribute$2(_el_9, "placeholder", "Name");
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
         this.addShimC$1(_el_9);
-        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._entrant_template$_DeferredValidator_9_5 = t2;
+        t2 = [t2];
+        this._entrant_template$_NgValidators_9_6 = t2;
+        t2 = U.NgModel$(t2, null);
+        this._entrant_template$_NgModel_9_7 = t2;
+        this._entrant_template$_NgControl_9_8 = t2;
+        t2 = L.MaterialInputComponent$(null, null, null, t2, this._entrant_template$_compView_9.viewData.ref, this._entrant_template$_DeferredValidator_9_5);
+        this._entrant_template$_MaterialInputComponent_9_9 = t2;
+        this._entrant_template$_BaseMaterialInput_9_10 = t2;
+        t3 = this._entrant_template$_NgControl_9_8;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t2, t3);
+        t4.BaseMaterialInputValueAccessor$2(t2, t3);
+        this._entrant_template$_MaterialInputDefaultValueAccessor_9_11 = t4;
+        this._entrant_template$_compView_9.create$2(0, this._entrant_template$_MaterialInputComponent_9_9, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Event ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._entrant_template$_compView_13 = t2;
+        _el_13 = t2.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        this.addShimC$1(_el_13);
+        t1 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._entrant_template$_DeferredValidator_13_5 = t1;
+        t1 = [t1];
+        this._NgValidators_13_6 = t1;
+        t1 = U.NgModel$(t1, null);
+        this._NgModel_13_7 = t1;
+        this._NgControl_13_8 = t1;
+        t1 = L.MaterialInputComponent$(null, null, null, t1, this._entrant_template$_compView_13.viewData.ref, this._entrant_template$_DeferredValidator_13_5);
+        this._MaterialInputComponent_13_9 = t1;
+        this._BaseMaterialInput_13_10 = t1;
+        t2 = this._NgControl_13_8;
+        t3 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t1, t2);
+        t3.BaseMaterialInputValueAccessor$2(t1, t2);
+        this._MaterialInputDefaultValueAccessor_13_11 = t3;
+        this._entrant_template$_compView_13.create$2(0, this._MaterialInputComponent_13_9, [C.List_empty, C.List_empty]);
+        this._entrant_template$_compView_1.create$2(0, this._entrant_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
+        t3 = $.$get$_viewContainerAnchor();
+        _anchor_14 = H.interceptedTypeCheck((t3 && C.Comment_methods).clone$1(t3, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_14);
+        t3 = new V.ViewContainer(14, 0, this, _anchor_14);
+        this._entrant_template$_appEl_14 = t3;
+        this._entrant_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t3, S.entrant_template__viewFactory_EntrantDetailComponent1$closure()), t3, false);
+        t3 = this._entrant_template$_NgModel_9_7._update;
+        t3.toString;
+        subscription_0 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_entrant_template$_handle_ngModelChange_9_0(), null, null));
+        t3 = this._NgModel_13_7._update;
+        t3.toString;
+        this.init$2(C.List_empty, [subscription_0, new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_entrant_template$_handle_ngModelChange_13_0(), null, null))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._entrant_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._entrant_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._entrant_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._entrant_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._entrant_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._entrant_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._entrant_template$_DeferredValidator_9_5;
+        if (t2 && 9 === nodeIndex)
+          return this._entrant_template$_NgModel_9_7;
+        if (t3 && 9 === nodeIndex)
+          return this._entrant_template$_NgControl_9_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._entrant_template$_MaterialInputComponent_9_9;
+        if (t5 && 9 === nodeIndex)
+          return this._entrant_template$_BaseMaterialInput_9_10;
+        if (t6 && 9 === nodeIndex)
+          return this._entrant_template$_MaterialInputDefaultValueAccessor_9_11;
+        if (t1 && 13 === nodeIndex)
+          return this._entrant_template$_DeferredValidator_13_5;
+        if (t2 && 13 === nodeIndex)
+          return this._NgModel_13_7;
+        if (t3 && 13 === nodeIndex)
+          return this._NgControl_13_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._MaterialInputComponent_13_9;
+        if (t5 && 13 === nodeIndex)
+          return this._BaseMaterialInput_13_10;
+        if (t6 && 13 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_13_11;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 13)
+          return this._entrant_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_8, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._entrant_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._entrant_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._entrant_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._entrant_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._entrant_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._entrant_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._entrant_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._entrant_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_5.viewData.set$cdMode(1);
+        this._entrant_template$_NgModel_9_7.set$model(_ctx.item.name);
+        this._entrant_template$_NgModel_9_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._entrant_template$_NgModel_9_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._entrant_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._entrant_template$_MaterialInputComponent_9_9;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._entrant_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_9.viewData.set$cdMode(1);
+        this._NgModel_13_7.set$model(_ctx.item.eventId);
+        this._NgModel_13_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_13_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_8 = t1 >= 1;
+        t1 = this._entrant_template$_expr_8;
+        if (t1 !== currVal_8) {
+          t1 = this._MaterialInputComponent_13_9;
+          t1._disabled = currVal_8;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._entrant_template$_expr_8 = currVal_8;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_13.viewData.set$cdMode(1);
+        t1 = this._entrant_template$_NgIf_14_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._entrant_template$_appEl_14.detectChangesInNestedViews$0();
+        this._entrant_template$_compView_1.detectChanges$0();
+        this._entrant_template$_compView_5.detectChanges$0();
+        this._entrant_template$_compView_9.detectChanges$0();
+        this._entrant_template$_compView_13.detectChanges$0();
+        if (firstCheck) {
+          this._entrant_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._entrant_template$_MaterialInputComponent_9_9.ngAfterViewInit$0();
+          this._MaterialInputComponent_13_9.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._entrant_template$_appEl_14.destroyNestedViews$0();
+        this._entrant_template$_compView_1.destroy$0();
+        this._entrant_template$_compView_5.destroy$0();
+        this._entrant_template$_compView_9.destroy$0();
+        this._entrant_template$_compView_13.destroy$0();
+        var t1 = this._entrant_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._entrant_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._entrant_template$_MaterialInputComponent_9_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._entrant_template$_MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_13_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_13_11.disposer.dispose$0();
+        this._entrant_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _entrant_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_entrant_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _entrant_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$eventId(H.intTypeCheck($$event));
+      }, "call$1", "get$_entrant_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      $asAppView: function() {
+        return [D.EntrantDetailComponent];
+      }
+    },
+    _ViewEntrantDetailComponent1: {
+      "^": "AppView;0_entrant_template$_compView_0,0_entrant_template$_MaterialExpansionPanel_0_5,0_entrant_template$_compView_2,0_entrant_template$_AcxDarkTheme_2_5,0_entrant_template$_MaterialButtonComponent_2_6,0_entrant_template$_compView_4,0_entrant_template$_AcxDarkTheme_4_5,0_entrant_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._entrant_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._entrant_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._entrant_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._entrant_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._entrant_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._entrant_template$_compView_2.viewData.ref, null);
+        this._entrant_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._entrant_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._entrant_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._entrant_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._entrant_template$_compView_4.viewData.ref, null);
+        this._entrant_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._entrant_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._entrant_template$_compView_0.create$2(0, this._entrant_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._entrant_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_entrant_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._entrant_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_entrant_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._entrant_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._entrant_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._entrant_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._entrant_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._entrant_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._entrant_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._entrant_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._entrant_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._entrant_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._entrant_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._entrant_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._entrant_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._entrant_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._entrant_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._entrant_template$_compView_0.detectChanges$0();
+        this._entrant_template$_compView_2.detectChanges$0();
+        this._entrant_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._entrant_template$_compView_0.destroy$0();
+        this._entrant_template$_compView_2.destroy$0();
+        this._entrant_template$_compView_4.destroy$0();
+        this._entrant_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _entrant_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_entrant_template$_handle_trigger_2_0", 4, 0, 1],
+      _entrant_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_entrant_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [D.EntrantDetailComponent];
+      }
+    },
+    _ViewEntrantDetailComponentHost0: {
+      "^": "AppView;0_entrant_template$_compView_0,0_EntrantDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3, t4;
+        t1 = P.String;
+        t2 = new S.ViewEntrantDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
+        t3 = D.EntrantDetailComponent;
+        t2.set$viewData(S.AppViewData_AppViewData(t2, 3, C.ViewType_1, 0, t3));
+        t4 = document.createElement("entrant-detail");
+        t2.rootEl = H.interceptedTypeCheck(t4, "$isHtmlElement");
+        t4 = $.ViewEntrantDetailComponent0__renderType;
+        if (t4 == null) {
+          t4 = $.appViewUtils;
+          t4 = t4.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$EntrantDetailComponent());
+          $.ViewEntrantDetailComponent0__renderType = t4;
+        }
+        t2.setupComponentType$1(t4);
+        this._entrant_template$_compView_0 = t2;
+        this.rootEl = t2.rootEl;
+        t2 = new D.EntrantDetailComponent();
+        t2.set$_entrant$_buttonStreamer(new P._SyncBroadcastStreamController(null, null, 0, [t1]));
+        this._EntrantDetailComponent_0_5 = t2;
+        this._entrant_template$_compView_0.create$2(0, t2, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._EntrantDetailComponent_0_5, [t3]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._EntrantDetailComponent_0_5.ngOnInit$0();
+        this._entrant_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._entrant_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [D.EntrantDetailComponent];
+      }
+    }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_event_event.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/event/event.css.shim.dart",, Q, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/event/event.dart",, X, {
+    "^": "",
+    EventDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_buttonStreamer",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isEvent0");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      get$buttonStream: function() {
+        return C.JSNull_methods.get$stream(this._buttonStreamer);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Current Item : " + H.S($async$self.item.name));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        C.JSNull_methods.add$1(this._buttonStreamer, cmd);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/event/event.template.dart",, G, {
+    "^": "",
+    viewFactory_EventDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new G._ViewEventDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, X.EventDetailComponent));
+      t1.componentType = $.ViewEventDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "event_template__viewFactory_EventDetailComponent1$closure", 8, 0, 75],
+    viewFactory_EventDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new G._ViewEventDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, X.EventDetailComponent));
+      return t1;
+    }, "call$2", "event_template__viewFactory_EventDetailComponentHost0$closure", 8, 0, 75],
+    ViewEventDetailComponent0: {
+      "^": "AppView;0_compView_1,0_MaterialExpansionPanel_1_5,0_compView_5,0_DeferredValidator_5_5,0_NgValidators_5_6,0_NgModel_5_7,0_NgControl_5_8,0_MaterialInputComponent_5_9,0_BaseMaterialInput_5_10,0_MaterialInputDefaultValueAccessor_5_11,0_compView_9,0_DeferredValidator_9_5,0_NgValidators_9_6,0_NgModel_9_7,0_NgControl_9_8,0_MaterialInputComponent_9_9,0_BaseMaterialInput_9_10,0_MaterialInputDefaultValueAccessor_9_11,0_compView_13,0_DeferredValidator_13_5,0_MaterialNumberValidator_13_6,0_NgValidators_13_7,0_NgModel_13_8,0_NgControl_13_9,0_MaterialInputComponent_13_10,0_BaseMaterialInput_13_11,0_MaterialInputDefaultValueAccessor_13_12,0_MaterialNumberValueAccessor_13_13,0_appEl_14,0_NgIf_14_9,0_event_template$_expr_4,0_event_template$_expr_6,0_event_template$_expr_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _anchor_14, subscription_0;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._NgModel_5_7 = t3;
+        this._NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._compView_5.viewData.ref, this._DeferredValidator_5_5);
+        this._MaterialInputComponent_5_9 = t3;
+        this._BaseMaterialInput_5_10 = t3;
+        t4 = this._NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._compView_5.create$2(0, this._MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Name:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
         this._DeferredValidator_9_5 = t3;
         t3 = [t3];
         this._NgValidators_9_6 = t3;
@@ -37370,47 +38185,47 @@
         this.addShimC$1(_el_10);
         _el_11 = S.createAndAppend(doc, "h4", _el_10);
         this.addShimE$1(_el_11);
-        J.append$1$x(_el_11, doc.createTextNode("Key:"));
+        J.append$1$x(_el_11, doc.createTextNode("Owner ID:"));
         t3 = Q.ViewMaterialInputComponent0$(this, 13);
         this._compView_13 = t3;
-        t3 = t3.rootEl;
-        this._player_template$_el_13 = t3;
-        J.append$1$x(_el_10, t3);
-        this._player_template$_el_13.className = Q.interpolate2("", "interop_fillable", " ", "themeable", "");
-        J.setAttribute$2$x(this._player_template$_el_13, "placeholder", "64-Bit Key");
-        this.addShimC$1(this._player_template$_el_13);
-        t1 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
-        this._DeferredValidator_13_5 = t1;
-        t1 = [t1];
-        this._NgValidators_13_6 = t1;
-        t1 = U.NgModel$(t1, null);
-        this._NgModel_13_7 = t1;
-        this._NgControl_13_8 = t1;
-        t1 = L.MaterialInputComponent$(null, null, null, t1, this._compView_13.viewData.ref, this._DeferredValidator_13_5);
-        this._MaterialInputComponent_13_9 = t1;
-        this._BaseMaterialInput_13_10 = t1;
-        t3 = this._NgControl_13_8;
-        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t1, t3);
-        t4.BaseMaterialInputValueAccessor$2(t1, t3);
-        this._MaterialInputDefaultValueAccessor_13_11 = t4;
-        this._compView_13.create$2(0, this._MaterialInputComponent_13_9, [C.List_empty, C.List_empty]);
-        this._player_template$_compView_1.create$2(0, this._MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
-        t4 = $.$get$_viewContainerAnchor();
-        _anchor_14 = H.interceptedTypeCheck((t4 && C.Comment_methods).clone$1(t4, false), "$isComment");
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._DeferredValidator_13_5 = t2;
+        t3 = new F.MaterialNumberValidator();
+        this._MaterialNumberValidator_13_6 = t3;
+        t3 = [t2, t3];
+        this._NgValidators_13_7 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._NgModel_13_8 = t3;
+        this._NgControl_13_9 = t3;
+        t3 = L.MaterialInputComponent$("number", null, null, t3, this._compView_13.viewData.ref, this._DeferredValidator_13_5);
+        this._MaterialInputComponent_13_10 = t3;
+        this._BaseMaterialInput_13_11 = t3;
+        t2 = this._NgControl_13_9;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t2);
+        t4.BaseMaterialInputValueAccessor$2(t3, t2);
+        this._MaterialInputDefaultValueAccessor_13_12 = t4;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._BaseMaterialInput_13_11, this._NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._MaterialNumberValueAccessor_13_13 = t1;
+        this._compView_13.create$2(0, this._MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        this._compView_1.create$2(0, this._MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_14 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
         C.DivElement_methods.append$1(_el_0, _anchor_14);
-        t4 = new V.ViewContainer(14, 0, this, _anchor_14);
-        this._player_template$_appEl_14 = t4;
-        this._player_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t4, Y.player_template__viewFactory_PlayerDetailComponent1$closure()), t4, false);
-        t4 = W.Event;
-        t2.addEventListener$2(_el_9, "keyup", this.eventHandler1$2$1(this.get$_handle_keyup_9_0(), t4, t4));
-        J.addEventListener$2$x(this._player_template$_el_13, "keyup", this.eventHandler1$2$1(this.get$_handle_keyup_13_2(), t4, t4));
-        t4 = this._MaterialInputComponent_13_9.FocusableMixin__onFocus;
-        t2 = W.FocusEvent;
-        subscription_0 = new P._BroadcastStream(t4, [H.getTypeArgumentByIndex(t4, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$startBarcodeReader(), t2));
-        t4 = this._MaterialInputComponent_13_9._blurController;
-        subscription_1 = new P._BroadcastStream(t4, [H.getTypeArgumentByIndex(t4, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$stopBarcodeReader(), t2));
-        this.ctx.set$barcodeSlot(this._MaterialInputComponent_13_9);
-        this.init$2(C.List_empty, [subscription_0, subscription_1]);
+        t1 = new V.ViewContainer(14, 0, this, _anchor_14);
+        this._appEl_14 = t1;
+        this._NgIf_14_9 = new K.NgIf(new D.TemplateRef(t1, G.event_template__viewFactory_EventDetailComponent1$closure()), t1, false);
+        t1 = this._NgModel_9_7._update;
+        t1.toString;
+        subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_ngModelChange_9_0(), null, null));
+        t1 = this._NgModel_13_8._update;
+        t1.toString;
+        this.init$2(C.List_empty, [subscription_0, new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_ngModelChange_13_0(), null, null))]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         var t1, t2, t3, t4, t5, t6;
@@ -37446,16 +38261,20 @@
           return this._MaterialInputDefaultValueAccessor_9_11;
         if (t1 && 13 === nodeIndex)
           return this._DeferredValidator_13_5;
+        if (token === C.Type_MaterialNumberValidator_86y && 13 === nodeIndex)
+          return this._MaterialNumberValidator_13_6;
         if (t2 && 13 === nodeIndex)
-          return this._NgModel_13_7;
+          return this._NgModel_13_8;
         if (t3 && 13 === nodeIndex)
-          return this._NgControl_13_8;
+          return this._NgControl_13_9;
         if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
-          return this._MaterialInputComponent_13_9;
+          return this._MaterialInputComponent_13_10;
         if (t5 && 13 === nodeIndex)
-          return this._BaseMaterialInput_13_10;
+          return this._BaseMaterialInput_13_11;
         if (t6 && 13 === nodeIndex)
-          return this._MaterialInputDefaultValueAccessor_13_11;
+          return this._MaterialInputDefaultValueAccessor_13_12;
+        if (token === C.Type_MaterialNumberValueAccessor_mqh && 13 === nodeIndex)
+          return this._MaterialNumberValueAccessor_13_13;
         if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 13)
           return this._MaterialExpansionPanel_1_5;
         return notFoundResult;
@@ -37473,7 +38292,7 @@
         } else
           changed = false;
         if (changed)
-          this._player_template$_compView_1.viewData.set$cdMode(1);
+          this._compView_1.viewData.set$cdMode(1);
         if (firstCheck)
           this._MaterialExpansionPanel_1_5.ngOnInit$0();
         this._NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
@@ -37483,12 +38302,12 @@
         t1 = _ctx.lockLevel;
         if (typeof t1 !== "number")
           return t1.$ge();
-        t1 = this._player_template$_expr_4;
+        t1 = this._event_template$_expr_4;
         if (t1 !== true) {
           t1 = this._MaterialInputComponent_5_9;
-          t1._base_material_input$_disabled = true;
-          t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
-          this._player_template$_expr_4 = true;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._event_template$_expr_4 = true;
           changed = true;
         } else
           changed = false;
@@ -37502,57 +38321,59 @@
         if (typeof t1 !== "number")
           return t1.$ge();
         currVal_6 = t1 >= 2;
-        t1 = this._player_template$_expr_6;
+        t1 = this._event_template$_expr_6;
         if (t1 !== currVal_6) {
           t1 = this._MaterialInputComponent_9_9;
-          t1._base_material_input$_disabled = currVal_6;
-          t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
-          this._player_template$_expr_6 = currVal_6;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._event_template$_expr_6 = currVal_6;
           changed = true;
         } else
           changed = false;
         if (changed)
           this._compView_9.viewData.set$cdMode(1);
-        this._NgModel_13_7.set$model(_ctx.item.key);
-        this._NgModel_13_7.ngAfterChanges$0();
+        this._NgModel_13_8.set$model(_ctx.item.ownerId);
+        this._NgModel_13_8.ngAfterChanges$0();
         if (firstCheck)
-          this._NgModel_13_7.ngOnInit$0();
+          this._NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
         t1 = _ctx.lockLevel;
         if (typeof t1 !== "number")
           return t1.$ge();
         currVal_9 = t1 >= 1;
-        t1 = this._player_template$_expr_9;
+        t1 = this._event_template$_expr_9;
         if (t1 !== currVal_9) {
-          t1 = this._MaterialInputComponent_13_9;
-          t1._base_material_input$_disabled = currVal_9;
-          t1.get$_base_material_input$_changeDetector().appView.markPathToRootAsCheckOnce$0();
-          this._player_template$_expr_9 = currVal_9;
+          t1 = this._MaterialInputComponent_13_10;
+          t1._disabled = currVal_9;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._event_template$_expr_9 = currVal_9;
           changed = true;
-        } else
-          changed = false;
+        }
         if (changed)
           this._compView_13.viewData.set$cdMode(1);
-        t1 = this._player_template$_NgIf_14_9;
+        t1 = this._NgIf_14_9;
         t2 = _ctx.lockLevel;
         if (typeof t2 !== "number")
           return t2.$ge();
         t1.set$ngIf(t2 >= 1);
-        this._player_template$_appEl_14.detectChangesInNestedViews$0();
-        if (firstCheck)
-          this.setAttr$3(this._player_template$_el_13, "maxlength", C.JSInt_methods.toString$0(40));
-        this._player_template$_compView_1.detectChanges$0();
+        this._appEl_14.detectChangesInNestedViews$0();
+        this._compView_1.detectChanges$0();
         this._compView_5.detectChanges$0();
         this._compView_9.detectChanges$0();
         this._compView_13.detectChanges$0();
         if (firstCheck) {
           this._MaterialInputComponent_5_9.ngAfterViewInit$0();
           this._MaterialInputComponent_9_9.ngAfterViewInit$0();
-          this._MaterialInputComponent_13_9.ngAfterViewInit$0();
+          this._MaterialInputComponent_13_10.ngAfterViewInit$0();
         }
       },
       destroyInternal$0: function() {
-        this._player_template$_appEl_14.destroyNestedViews$0();
-        this._player_template$_compView_1.destroy$0();
+        this._appEl_14.destroyNestedViews$0();
+        this._compView_1.destroy$0();
         this._compView_5.destroy$0();
         this._compView_9.destroy$0();
         this._compView_13.destroy$0();
@@ -37566,50 +38387,51 @@
         t1.inputEl = null;
         t1.popupSourceEl = null;
         this._MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
-        t1 = this._MaterialInputComponent_13_9;
+        t1 = this._MaterialInputComponent_13_10;
         t1.super$BaseMaterialInput$ngOnDestroy();
         t1.inputEl = null;
         t1.popupSourceEl = null;
-        this._MaterialInputDefaultValueAccessor_13_11.disposer.dispose$0();
-        this._MaterialExpansionPanel_1_5._disposer.dispose$0();
+        this._MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        this._MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
       },
-      _handle_keyup_9_0$1: [function($$event) {
-        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck(J.get$value$x(J.get$target$x($$event))));
-      }, "call$1", "get$_handle_keyup_9_0", 4, 0, 2],
-      _handle_keyup_13_2$1: [function($$event) {
-        J.set$key$x(J.get$item$x(this.ctx), H.stringTypeCheck(J.get$value$x(J.get$target$x($$event))));
-      }, "call$1", "get$_handle_keyup_13_2", 4, 0, 2],
+      _handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_handle_ngModelChange_9_0", 4, 0, 1],
+      _handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$ownerId(H.intTypeCheck($$event));
+      }, "call$1", "get$_handle_ngModelChange_13_0", 4, 0, 1],
       $asAppView: function() {
-        return [Q.PlayerDetailComponent];
+        return [X.EventDetailComponent];
       }
     },
-    _ViewPlayerDetailComponent1: {
-      "^": "AppView;0_player_template$_compView_0,0_player_template$_MaterialExpansionPanel_0_5,0_player_template$_compView_2,0_AcxDarkTheme_2_5,0_MaterialButtonComponent_2_6,0_compView_4,0_AcxDarkTheme_4_5,0_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+    _ViewEventDetailComponent1: {
+      "^": "AppView;0_event_template$_compView_0,0_MaterialExpansionPanel_0_5,0_event_template$_compView_2,0_AcxDarkTheme_2_5,0_MaterialButtonComponent_2_6,0_compView_4,0_AcxDarkTheme_4_5,0_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
         t1 = D.ViewMaterialExpansionPanel0$(this, 0);
-        this._player_template$_compView_0 = t1;
+        this._event_template$_compView_0 = t1;
         _el_0 = t1.rootEl;
         J.setAttribute$2$x(_el_0, "name", "Administration");
         this.addShimC$1(_el_0);
         t1 = this.parentView;
         t2 = t1.parentView;
         t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
-        t4 = this._player_template$_compView_0.viewData.ref;
+        t4 = this._event_template$_compView_0.viewData.ref;
         t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
         t6 = [P.bool];
         t7 = $.$get$MaterialExpansionPanel__msgSave();
         t8 = $.$get$MaterialExpansionPanel__msgCancel();
         t9 = [[L.AsyncAction, P.bool]];
         t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
-        this._player_template$_MaterialExpansionPanel_0_5 = t3;
+        this._MaterialExpansionPanel_0_5 = t3;
         doc = document;
         _el_1 = doc.createElement("div");
         _el_1.className = "vert_pad";
         H.interceptedTypeCheck(_el_1, "$isHtmlElement");
         this.addShimC$1(_el_1);
         t3 = U.ViewMaterialButtonComponent0$(this, 2);
-        this._player_template$_compView_2 = t3;
+        this._event_template$_compView_2 = t3;
         _el_2 = t3.rootEl;
         t3 = J.getInterceptor$x(_el_1);
         t3.append$1(_el_1, _el_2);
@@ -37618,11 +38440,11 @@
         this.addShimC$1(_el_2);
         t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
         this._AcxDarkTheme_2_5 = t4;
-        t4 = B.MaterialButtonComponent$(_el_2, t4, this._player_template$_compView_2.viewData.ref, null);
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._event_template$_compView_2.viewData.ref, null);
         this._MaterialButtonComponent_2_6 = t4;
         _text_3 = doc.createTextNode("DELETE");
         t5 = [W.Text];
-        this._player_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        this._event_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
         t4 = U.ViewMaterialButtonComponent0$(this, 4);
         this._compView_4 = t4;
         _el_4 = t4.rootEl;
@@ -37636,7 +38458,7 @@
         this._MaterialButtonComponent_4_6 = t1;
         _text_5 = doc.createTextNode("Clone");
         this._compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
-        this._player_template$_compView_0.create$2(0, this._player_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        this._event_template$_compView_0.create$2(0, this._MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
         t5 = this._MaterialButtonComponent_2_6._trigger;
         t1 = W.UIEvent;
         subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_trigger_2_0(), t1, t1));
@@ -37660,14 +38482,14 @@
         else
           t1 = false;
         if (t1)
-          return this._player_template$_MaterialExpansionPanel_0_5;
+          return this._MaterialExpansionPanel_0_5;
         return notFoundResult;
       },
       detectChangesInternal$0: function() {
         var firstCheck, t1, changed;
         firstCheck = this.viewData._cdState === 0;
         if (firstCheck) {
-          t1 = this._player_template$_MaterialExpansionPanel_0_5;
+          t1 = this._MaterialExpansionPanel_0_5;
           t1.name = "Administration";
           t1.showSaveCancel = false;
           t1.set$isExpanded(false);
@@ -37675,16 +38497,16 @@
         } else
           changed = false;
         if (changed)
-          this._player_template$_compView_0.viewData.set$cdMode(1);
+          this._event_template$_compView_0.viewData.set$cdMode(1);
         if (firstCheck)
-          this._player_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+          this._MaterialExpansionPanel_0_5.ngOnInit$0();
         if (firstCheck) {
           this._MaterialButtonComponent_2_6.raised = true;
           changed = true;
         } else
           changed = false;
         if (changed)
-          this._player_template$_compView_2.viewData.set$cdMode(1);
+          this._event_template$_compView_2.viewData.set$cdMode(1);
         if (firstCheck)
           this._MaterialButtonComponent_2_6.ngOnInit$0();
         if (firstCheck) {
@@ -37696,76 +38518,77 @@
           this._compView_4.viewData.set$cdMode(1);
         if (firstCheck)
           this._MaterialButtonComponent_4_6.ngOnInit$0();
-        this._player_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._event_template$_compView_2.detectHostChanges$1(firstCheck);
         this._compView_4.detectHostChanges$1(firstCheck);
-        this._player_template$_compView_0.detectChanges$0();
-        this._player_template$_compView_2.detectChanges$0();
+        this._event_template$_compView_0.detectChanges$0();
+        this._event_template$_compView_2.detectChanges$0();
         this._compView_4.detectChanges$0();
       },
       destroyInternal$0: function() {
-        this._player_template$_compView_0.destroy$0();
-        this._player_template$_compView_2.destroy$0();
+        this._event_template$_compView_0.destroy$0();
+        this._event_template$_compView_2.destroy$0();
         this._compView_4.destroy$0();
-        this._player_template$_MaterialExpansionPanel_0_5._disposer.dispose$0();
+        this._MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
       },
       _handle_trigger_2_0$1: [function($$event) {
         this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
-      }, "call$1", "get$_handle_trigger_2_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_2_0", 4, 0, 1],
       _handle_trigger_4_0$1: [function($$event) {
         this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
-      }, "call$1", "get$_handle_trigger_4_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_4_0", 4, 0, 1],
       $asAppView: function() {
-        return [Q.PlayerDetailComponent];
+        return [X.EventDetailComponent];
       }
     },
-    _ViewPlayerDetailComponentHost0: {
-      "^": "AppView;0_player_template$_compView_0,0_PlayerDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+    _ViewEventDetailComponentHost0: {
+      "^": "AppView;0_event_template$_compView_0,0_EventDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var t1, t2, t3, t4;
-        t1 = P.String;
-        t2 = new Y.ViewPlayerDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
-        t3 = Q.PlayerDetailComponent;
-        t2.set$viewData(S.AppViewData_AppViewData(t2, 3, C.ViewType_1, 0, t3));
-        t4 = document.createElement("player-detail");
-        t2.rootEl = H.interceptedTypeCheck(t4, "$isHtmlElement");
-        t4 = $.ViewPlayerDetailComponent0__renderType;
-        if (t4 == null) {
-          t4 = $.appViewUtils;
-          t4 = t4.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$PlayerDetailComponent());
-          $.ViewPlayerDetailComponent0__renderType = t4;
+        var t1, t2, t3;
+        t1 = new G.ViewEventDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
+        t2 = X.EventDetailComponent;
+        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
+        t3 = document.createElement("event-detail");
+        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
+        t3 = $.ViewEventDetailComponent0__renderType;
+        if (t3 == null) {
+          t3 = $.appViewUtils;
+          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$EventDetailComponent());
+          $.ViewEventDetailComponent0__renderType = t3;
         }
-        t2.setupComponentType$1(t4);
-        this._player_template$_compView_0 = t2;
-        this.rootEl = t2.rootEl;
-        t2 = new Q.PlayerDetailComponent(H.interceptedTypeCheck(this.injectorGet$2(C.Type_InteropBarcodeService_P5u, this.viewData.parentIndex), "$isInteropBarcodeService"));
-        t2.set$_buttonStreamer(new P._SyncBroadcastStreamController(null, null, 0, [t1]));
-        this._PlayerDetailComponent_0_5 = t2;
-        this._player_template$_compView_0.create$2(0, t2, this.viewData.projectableNodes);
+        t1.setupComponentType$1(t3);
+        this._event_template$_compView_0 = t1;
+        this.rootEl = t1.rootEl;
+        t3 = new X.EventDetailComponent();
+        this._EventDetailComponent_0_5 = t3;
+        t1.create$2(0, t3, this.viewData.projectableNodes);
         this.init0$1(this.rootEl);
-        return new D.ComponentRef(this, 0, this.rootEl, this._PlayerDetailComponent_0_5, [t3]);
+        return new D.ComponentRef(this, 0, this.rootEl, this._EventDetailComponent_0_5, [t2]);
       },
       detectChangesInternal$0: function() {
         var t1 = this.viewData._cdState;
         if (t1 === 0)
-          this._PlayerDetailComponent_0_5.ngOnInit$0();
-        this._player_template$_compView_0.detectChanges$0();
+          this._EventDetailComponent_0_5.ngOnInit$0();
+        this._event_template$_compView_0.detectChanges$0();
       },
       destroyInternal$0: function() {
-        this._player_template$_compView_0.destroy$0();
+        this._event_template$_compView_0.destroy$0();
       },
       $asAppView: function() {
-        return [Q.PlayerDetailComponent];
+        return [X.EventDetailComponent];
       }
     }
-  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_tournament_tournament.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.css.shim.dart",, S, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.dart",, E, {
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_game_game.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/game/game.css.shim.dart",, Z, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/game/game.dart",, D, {
     "^": "",
-    TournamentDetailComponent: {
-      "^": "Object;0item>,0lockLevel",
+    GameDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_game$_buttonStreamer",
       set$item: function(_, item) {
-        this.item = H.interceptedTypeCheck(item, "$isTournament");
+        this.item = H.interceptedTypeCheck(item, "$isGame");
       },
       set$lockLevel: function(lockLevel) {
         this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      get$buttonStream: function() {
+        return C.JSNull_methods.get$stream(this._game$_buttonStreamer);
       },
       ngOnInit$0: function() {
         var $async$goto = 0,
@@ -37778,7 +38601,552 @@
             switch ($async$goto) {
               case 0:
                 // Function start
-                P.print("Init finished");
+                P.print("Current Game : " + J.toString$0$($async$self.item.id));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        C.JSNull_methods.add$1(this._game$_buttonStreamer, cmd);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/game/game.template.dart",, G, {
+    "^": "",
+    viewFactory_GameDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new G._ViewGameDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, D.GameDetailComponent));
+      t1.componentType = $.ViewGameDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "game_template__viewFactory_GameDetailComponent1$closure", 8, 0, 76],
+    viewFactory_GameDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new G._ViewGameDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, D.GameDetailComponent));
+      return t1;
+    }, "call$2", "game_template__viewFactory_GameDetailComponentHost0$closure", 8, 0, 76],
+    ViewGameDetailComponent0: {
+      "^": "AppView;0_game_template$_compView_1,0_game_template$_MaterialExpansionPanel_1_5,0_game_template$_compView_5,0_game_template$_DeferredValidator_5_5,0_game_template$_NgValidators_5_6,0_game_template$_NgModel_5_7,0_game_template$_NgControl_5_8,0_game_template$_MaterialInputComponent_5_9,0_game_template$_BaseMaterialInput_5_10,0_game_template$_MaterialInputDefaultValueAccessor_5_11,0_game_template$_compView_9,0_game_template$_DeferredValidator_9_5,0_game_template$_MaterialNumberValidator_9_6,0_game_template$_NgValidators_9_7,0_game_template$_NgModel_9_8,0_game_template$_NgControl_9_9,0_game_template$_MaterialInputComponent_9_10,0_game_template$_BaseMaterialInput_9_11,0_game_template$_MaterialInputDefaultValueAccessor_9_12,0_game_template$_MaterialNumberValueAccessor_9_13,0_game_template$_compView_13,0_game_template$_DeferredValidator_13_5,0_game_template$_MaterialNumberValidator_13_6,0_game_template$_NgValidators_13_7,0_game_template$_NgModel_13_8,0_game_template$_NgControl_13_9,0_game_template$_MaterialInputComponent_13_10,0_game_template$_BaseMaterialInput_13_11,0_game_template$_MaterialInputDefaultValueAccessor_13_12,0_game_template$_MaterialNumberValueAccessor_13_13,0_game_template$_appEl_14,0_game_template$_NgIf_14_9,0_game_template$_expr_4,0_game_template$_expr_7,0_game_template$_expr_10,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _anchor_14, subscription_0;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._game_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._game_template$_compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._game_template$_MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._game_template$_compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._game_template$_DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._game_template$_NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._game_template$_NgModel_5_7 = t3;
+        this._game_template$_NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._game_template$_compView_5.viewData.ref, this._game_template$_DeferredValidator_5_5);
+        this._game_template$_MaterialInputComponent_5_9 = t3;
+        this._game_template$_BaseMaterialInput_5_10 = t3;
+        t4 = this._game_template$_NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._game_template$_MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._game_template$_compView_5.create$2(0, this._game_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Owner ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._game_template$_compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        t3 = J.getInterceptor$x(_el_9);
+        t3.setAttribute$2(_el_9, "label", "Number");
+        t3.setAttribute$2(_el_9, "type", "number");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._game_template$_DeferredValidator_9_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._game_template$_MaterialNumberValidator_9_6 = t4;
+        t4 = [t3, t4];
+        this._game_template$_NgValidators_9_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._game_template$_NgModel_9_8 = t4;
+        this._game_template$_NgControl_9_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._game_template$_compView_9.viewData.ref, this._game_template$_DeferredValidator_9_5);
+        this._game_template$_MaterialInputComponent_9_10 = t4;
+        this._game_template$_BaseMaterialInput_9_11 = t4;
+        t3 = this._game_template$_NgControl_9_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._game_template$_MaterialInputDefaultValueAccessor_9_12 = t5;
+        t3 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._game_template$_BaseMaterialInput_9_11, this._game_template$_NgControl_9_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._game_template$_MaterialNumberValueAccessor_9_13 = t3;
+        this._game_template$_compView_9.create$2(0, this._game_template$_MaterialInputComponent_9_10, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Match ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._game_template$_compView_13 = t3;
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._game_template$_DeferredValidator_13_5 = t2;
+        t3 = new F.MaterialNumberValidator();
+        this._game_template$_MaterialNumberValidator_13_6 = t3;
+        t3 = [t2, t3];
+        this._game_template$_NgValidators_13_7 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._game_template$_NgModel_13_8 = t3;
+        this._game_template$_NgControl_13_9 = t3;
+        t3 = L.MaterialInputComponent$("number", null, null, t3, this._game_template$_compView_13.viewData.ref, this._game_template$_DeferredValidator_13_5);
+        this._game_template$_MaterialInputComponent_13_10 = t3;
+        this._game_template$_BaseMaterialInput_13_11 = t3;
+        t2 = this._game_template$_NgControl_13_9;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t2);
+        t4.BaseMaterialInputValueAccessor$2(t3, t2);
+        this._game_template$_MaterialInputDefaultValueAccessor_13_12 = t4;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._game_template$_BaseMaterialInput_13_11, this._game_template$_NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._game_template$_MaterialNumberValueAccessor_13_13 = t1;
+        this._game_template$_compView_13.create$2(0, this._game_template$_MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        this._game_template$_compView_1.create$2(0, this._game_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_14 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_14);
+        t1 = new V.ViewContainer(14, 0, this, _anchor_14);
+        this._game_template$_appEl_14 = t1;
+        this._game_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t1, G.game_template__viewFactory_GameDetailComponent1$closure()), t1, false);
+        t1 = this._game_template$_NgModel_9_8._update;
+        t1.toString;
+        subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_game_template$_handle_ngModelChange_9_0(), null, null));
+        t1 = this._game_template$_NgModel_13_8._update;
+        t1.toString;
+        this.init$2(C.List_empty, [subscription_0, new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_game_template$_handle_ngModelChange_13_0(), null, null))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6, t7, t8;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._game_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._game_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._game_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._game_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._game_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._game_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._game_template$_DeferredValidator_9_5;
+        t7 = token === C.Type_MaterialNumberValidator_86y;
+        if (t7 && 9 === nodeIndex)
+          return this._game_template$_MaterialNumberValidator_9_6;
+        if (t2 && 9 === nodeIndex)
+          return this._game_template$_NgModel_9_8;
+        if (t3 && 9 === nodeIndex)
+          return this._game_template$_NgControl_9_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._game_template$_MaterialInputComponent_9_10;
+        if (t5 && 9 === nodeIndex)
+          return this._game_template$_BaseMaterialInput_9_11;
+        if (t6 && 9 === nodeIndex)
+          return this._game_template$_MaterialInputDefaultValueAccessor_9_12;
+        t8 = token === C.Type_MaterialNumberValueAccessor_mqh;
+        if (t8 && 9 === nodeIndex)
+          return this._game_template$_MaterialNumberValueAccessor_9_13;
+        if (t1 && 13 === nodeIndex)
+          return this._game_template$_DeferredValidator_13_5;
+        if (t7 && 13 === nodeIndex)
+          return this._game_template$_MaterialNumberValidator_13_6;
+        if (t2 && 13 === nodeIndex)
+          return this._game_template$_NgModel_13_8;
+        if (t3 && 13 === nodeIndex)
+          return this._game_template$_NgControl_13_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._game_template$_MaterialInputComponent_13_10;
+        if (t5 && 13 === nodeIndex)
+          return this._game_template$_BaseMaterialInput_13_11;
+        if (t6 && 13 === nodeIndex)
+          return this._game_template$_MaterialInputDefaultValueAccessor_13_12;
+        if (t8 && 13 === nodeIndex)
+          return this._game_template$_MaterialNumberValueAccessor_13_13;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 13)
+          return this._game_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_7, currVal_10, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._game_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._game_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._game_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._game_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._game_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._game_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._game_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._game_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._game_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._game_template$_compView_5.viewData.set$cdMode(1);
+        this._game_template$_NgModel_9_8.set$model(_ctx.item.ownerId);
+        this._game_template$_NgModel_9_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._game_template$_NgModel_9_8.ngOnInit$0();
+        if (firstCheck) {
+          this._game_template$_MaterialInputComponent_9_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_7 = t1 >= 1;
+        t1 = this._game_template$_expr_7;
+        if (t1 !== currVal_7) {
+          t1 = this._game_template$_MaterialInputComponent_9_10;
+          t1._disabled = currVal_7;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._game_template$_expr_7 = currVal_7;
+          changed = true;
+        }
+        if (changed)
+          this._game_template$_compView_9.viewData.set$cdMode(1);
+        this._game_template$_NgModel_13_8.set$model(_ctx.item.matchId);
+        this._game_template$_NgModel_13_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._game_template$_NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._game_template$_MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_10 = t1 >= 1;
+        t1 = this._game_template$_expr_10;
+        if (t1 !== currVal_10) {
+          t1 = this._game_template$_MaterialInputComponent_13_10;
+          t1._disabled = currVal_10;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._game_template$_expr_10 = currVal_10;
+          changed = true;
+        }
+        if (changed)
+          this._game_template$_compView_13.viewData.set$cdMode(1);
+        t1 = this._game_template$_NgIf_14_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._game_template$_appEl_14.detectChangesInNestedViews$0();
+        this._game_template$_compView_1.detectChanges$0();
+        this._game_template$_compView_5.detectChanges$0();
+        this._game_template$_compView_9.detectChanges$0();
+        this._game_template$_compView_13.detectChanges$0();
+        if (firstCheck) {
+          this._game_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._game_template$_MaterialInputComponent_9_10.ngAfterViewInit$0();
+          this._game_template$_MaterialInputComponent_13_10.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._game_template$_appEl_14.destroyNestedViews$0();
+        this._game_template$_compView_1.destroy$0();
+        this._game_template$_compView_5.destroy$0();
+        this._game_template$_compView_9.destroy$0();
+        this._game_template$_compView_13.destroy$0();
+        var t1 = this._game_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._game_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._game_template$_MaterialInputComponent_9_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._game_template$_MaterialInputDefaultValueAccessor_9_12.disposer.dispose$0();
+        this._game_template$_MaterialNumberValueAccessor_9_13.disposer.dispose$0();
+        t1 = this._game_template$_MaterialInputComponent_13_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._game_template$_MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._game_template$_MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        this._game_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _game_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$ownerId(H.intTypeCheck($$event));
+      }, "call$1", "get$_game_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _game_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$matchId(H.intTypeCheck($$event));
+      }, "call$1", "get$_game_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      $asAppView: function() {
+        return [D.GameDetailComponent];
+      }
+    },
+    _ViewGameDetailComponent1: {
+      "^": "AppView;0_game_template$_compView_0,0_game_template$_MaterialExpansionPanel_0_5,0_game_template$_compView_2,0_game_template$_AcxDarkTheme_2_5,0_game_template$_MaterialButtonComponent_2_6,0_game_template$_compView_4,0_game_template$_AcxDarkTheme_4_5,0_game_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._game_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._game_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._game_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._game_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._game_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._game_template$_compView_2.viewData.ref, null);
+        this._game_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._game_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._game_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._game_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._game_template$_compView_4.viewData.ref, null);
+        this._game_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._game_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._game_template$_compView_0.create$2(0, this._game_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._game_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_game_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._game_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_game_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._game_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._game_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._game_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._game_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._game_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._game_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._game_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._game_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._game_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._game_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._game_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._game_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._game_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._game_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._game_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._game_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._game_template$_compView_0.detectChanges$0();
+        this._game_template$_compView_2.detectChanges$0();
+        this._game_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._game_template$_compView_0.destroy$0();
+        this._game_template$_compView_2.destroy$0();
+        this._game_template$_compView_4.destroy$0();
+        this._game_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _game_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_game_template$_handle_trigger_2_0", 4, 0, 1],
+      _game_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_game_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [D.GameDetailComponent];
+      }
+    },
+    _ViewGameDetailComponentHost0: {
+      "^": "AppView;0_game_template$_compView_0,0_GameDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3;
+        t1 = new G.ViewGameDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
+        t2 = D.GameDetailComponent;
+        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
+        t3 = document.createElement("game-detail");
+        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
+        t3 = $.ViewGameDetailComponent0__renderType;
+        if (t3 == null) {
+          t3 = $.appViewUtils;
+          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$GameDetailComponent());
+          $.ViewGameDetailComponent0__renderType = t3;
+        }
+        t1.setupComponentType$1(t3);
+        this._game_template$_compView_0 = t1;
+        this.rootEl = t1.rootEl;
+        t3 = new D.GameDetailComponent();
+        this._GameDetailComponent_0_5 = t3;
+        t1.create$2(0, t3, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._GameDetailComponent_0_5, [t2]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._GameDetailComponent_0_5.ngOnInit$0();
+        this._game_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._game_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [D.GameDetailComponent];
+      }
+    }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_match_match.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/match/match.css.shim.dart",, O, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/match/match.dart",, Y, {
+    "^": "",
+    MatchDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_match$_buttonStreamer",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isMatch0");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      get$buttonStream: function() {
+        return C.JSNull_methods.get$stream(this._match$_buttonStreamer);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
                 P.print("Current Item : " + H.S($async$self.item.name));
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
@@ -37786,85 +39154,3034 @@
         });
         return P._asyncStartSync($async$ngOnInit$0, $async$completer);
       },
-      printString$1: function(str) {
-        P.print(str);
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        C.JSNull_methods.add$1(this._match$_buttonStreamer, cmd);
       }
     }
-  }], ["", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.template.dart",, A, {
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/match/match.template.dart",, R, {
     "^": "",
-    viewFactory_TournamentDetailComponentHost0: [function(parentView, parentIndex) {
-      var t1 = new A._ViewTournamentDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
-      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, E.TournamentDetailComponent));
+    viewFactory_MatchDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new R._ViewMatchDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Y.MatchDetailComponent));
+      t1.componentType = $.ViewMatchDetailComponent0__renderType;
       return t1;
-    }, "call$2", "tournament_template__viewFactory_TournamentDetailComponentHost0$closure", 8, 0, 231],
-    ViewTournamentDetailComponent0: {
-      "^": "AppView;0_tournament_template$_compView_0,0_MaterialExpansionPanel_0_5,0_tournament_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+    }, "call$2", "match_template__viewFactory_MatchDetailComponent1$closure", 8, 0, 77],
+    viewFactory_MatchDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new R._ViewMatchDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, Y.MatchDetailComponent));
+      return t1;
+    }, "call$2", "match_template__viewFactory_MatchDetailComponentHost0$closure", 8, 0, 77],
+    ViewMatchDetailComponent0: {
+      "^": "AppView;0_match_template$_compView_1,0_match_template$_MaterialExpansionPanel_1_5,0_match_template$_compView_5,0_match_template$_DeferredValidator_5_5,0_match_template$_NgValidators_5_6,0_match_template$_NgModel_5_7,0_match_template$_NgControl_5_8,0_match_template$_MaterialInputComponent_5_9,0_match_template$_BaseMaterialInput_5_10,0_match_template$_MaterialInputDefaultValueAccessor_5_11,0_match_template$_compView_9,0_match_template$_DeferredValidator_9_5,0_match_template$_NgValidators_9_6,0_match_template$_NgModel_9_7,0_match_template$_NgControl_9_8,0_match_template$_MaterialInputComponent_9_9,0_match_template$_BaseMaterialInput_9_10,0_match_template$_MaterialInputDefaultValueAccessor_9_11,0_match_template$_compView_13,0_match_template$_DeferredValidator_13_5,0_match_template$_MaterialNumberValidator_13_6,0_match_template$_NgValidators_13_7,0_match_template$_NgModel_13_8,0_match_template$_NgControl_13_9,0_match_template$_MaterialInputComponent_13_10,0_match_template$_BaseMaterialInput_13_11,0_match_template$_MaterialInputDefaultValueAccessor_13_12,0_match_template$_MaterialNumberValueAccessor_13_13,0_match_template$_appEl_14,0_match_template$_NgIf_14_9,0_match_template$_expr_4,0_match_template$_expr_6,0_match_template$_expr_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var parentRenderNode, t1, _el_0, t2, t3, t4, t5, t6, t7, _text_1;
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _anchor_14, subscription_0;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
-        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
-        this._tournament_template$_compView_0 = t1;
-        _el_0 = t1.rootEl;
-        J.append$1$x(parentRenderNode, _el_0);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
         this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._match_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
         t1 = this.parentView;
         t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
-        t3 = this._tournament_template$_compView_0.viewData.ref;
-        t1 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
-        t4 = [P.bool];
-        t5 = $.$get$MaterialExpansionPanel__msgSave();
-        t6 = $.$get$MaterialExpansionPanel__msgCancel();
-        t7 = [[L.AsyncAction, P.bool]];
-        t1 = new T.MaterialExpansionPanel(t2, t3, t1, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t4), new P._SyncBroadcastStreamController(null, null, 0, t4), false, false, false, false, false, false, false, false, true, true, false, t5, t6, new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7));
-        this._MaterialExpansionPanel_0_5 = t1;
-        _text_1 = document.createTextNode("This panel will not be automatically collapsed when there is a click outside of it.");
-        this._tournament_template$_compView_0.create$2(0, t1, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_text_1], [W.Text]), C.List_empty]);
-        t1 = this._MaterialExpansionPanel_0_5._cancelController;
-        t2 = [L.AsyncAction, P.bool];
-        this.init$2(C.List_empty, [new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_cancel_0_0(), t2, t2))]);
+        t3 = this._match_template$_compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._match_template$_MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._match_template$_compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._match_template$_DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._match_template$_NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._match_template$_NgModel_5_7 = t3;
+        this._match_template$_NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._match_template$_compView_5.viewData.ref, this._match_template$_DeferredValidator_5_5);
+        this._match_template$_MaterialInputComponent_5_9 = t3;
+        this._match_template$_BaseMaterialInput_5_10 = t3;
+        t4 = this._match_template$_NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._match_template$_MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._match_template$_compView_5.create$2(0, this._match_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Name:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._match_template$_compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._match_template$_DeferredValidator_9_5 = t3;
+        t3 = [t3];
+        this._match_template$_NgValidators_9_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._match_template$_NgModel_9_7 = t3;
+        this._match_template$_NgControl_9_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._match_template$_compView_9.viewData.ref, this._match_template$_DeferredValidator_9_5);
+        this._match_template$_MaterialInputComponent_9_9 = t3;
+        this._match_template$_BaseMaterialInput_9_10 = t3;
+        t4 = this._match_template$_NgControl_9_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._match_template$_MaterialInputDefaultValueAccessor_9_11 = t5;
+        this._match_template$_compView_9.create$2(0, this._match_template$_MaterialInputComponent_9_9, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Round ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._match_template$_compView_13 = t3;
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._match_template$_DeferredValidator_13_5 = t2;
+        t3 = new F.MaterialNumberValidator();
+        this._match_template$_MaterialNumberValidator_13_6 = t3;
+        t3 = [t2, t3];
+        this._match_template$_NgValidators_13_7 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._match_template$_NgModel_13_8 = t3;
+        this._match_template$_NgControl_13_9 = t3;
+        t3 = L.MaterialInputComponent$("number", null, null, t3, this._match_template$_compView_13.viewData.ref, this._match_template$_DeferredValidator_13_5);
+        this._match_template$_MaterialInputComponent_13_10 = t3;
+        this._match_template$_BaseMaterialInput_13_11 = t3;
+        t2 = this._match_template$_NgControl_13_9;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t2);
+        t4.BaseMaterialInputValueAccessor$2(t3, t2);
+        this._match_template$_MaterialInputDefaultValueAccessor_13_12 = t4;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._match_template$_BaseMaterialInput_13_11, this._match_template$_NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._match_template$_MaterialNumberValueAccessor_13_13 = t1;
+        this._match_template$_compView_13.create$2(0, this._match_template$_MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        this._match_template$_compView_1.create$2(0, this._match_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_14 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_14);
+        t1 = new V.ViewContainer(14, 0, this, _anchor_14);
+        this._match_template$_appEl_14 = t1;
+        this._match_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t1, R.match_template__viewFactory_MatchDetailComponent1$closure()), t1, false);
+        t1 = this._match_template$_NgModel_9_7._update;
+        t1.toString;
+        subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_match_template$_handle_ngModelChange_9_0(), null, null));
+        t1 = this._match_template$_NgModel_13_8._update;
+        t1.toString;
+        this.init$2(C.List_empty, [subscription_0, new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_match_template$_handle_ngModelChange_13_0(), null, null))]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
-        var t1;
-        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
-          t1 = nodeIndex <= 1;
-        else
-          t1 = false;
-        if (t1)
-          return this._MaterialExpansionPanel_0_5;
+        var t1, t2, t3, t4, t5, t6;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._match_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._match_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._match_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._match_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._match_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._match_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._match_template$_DeferredValidator_9_5;
+        if (t2 && 9 === nodeIndex)
+          return this._match_template$_NgModel_9_7;
+        if (t3 && 9 === nodeIndex)
+          return this._match_template$_NgControl_9_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._match_template$_MaterialInputComponent_9_9;
+        if (t5 && 9 === nodeIndex)
+          return this._match_template$_BaseMaterialInput_9_10;
+        if (t6 && 9 === nodeIndex)
+          return this._match_template$_MaterialInputDefaultValueAccessor_9_11;
+        if (t1 && 13 === nodeIndex)
+          return this._match_template$_DeferredValidator_13_5;
+        if (token === C.Type_MaterialNumberValidator_86y && 13 === nodeIndex)
+          return this._match_template$_MaterialNumberValidator_13_6;
+        if (t2 && 13 === nodeIndex)
+          return this._match_template$_NgModel_13_8;
+        if (t3 && 13 === nodeIndex)
+          return this._match_template$_NgControl_13_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._match_template$_MaterialInputComponent_13_10;
+        if (t5 && 13 === nodeIndex)
+          return this._match_template$_BaseMaterialInput_13_11;
+        if (t6 && 13 === nodeIndex)
+          return this._match_template$_MaterialInputDefaultValueAccessor_13_12;
+        if (token === C.Type_MaterialNumberValueAccessor_mqh && 13 === nodeIndex)
+          return this._match_template$_MaterialNumberValueAccessor_13_13;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 13)
+          return this._match_template$_MaterialExpansionPanel_1_5;
         return notFoundResult;
       },
       detectChangesInternal$0: function() {
-        var _ctx, firstCheck, t1, changed, currVal_0;
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_9, t2;
         _ctx = this.ctx;
         firstCheck = this.viewData._cdState === 0;
         if (firstCheck) {
-          t1 = this._MaterialExpansionPanel_0_5;
+          t1 = this._match_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
           t1.showSaveCancel = false;
           t1.set$isExpanded(false);
           changed = true;
         } else
           changed = false;
-        t1 = _ctx.item;
-        currVal_0 = Q.interpolate0(t1 == null ? "" : J.$add$ansx(t1.name, ":") + C.JSInt_methods.toString$0(_ctx.item.id));
-        t1 = this._tournament_template$_expr_0;
-        if (t1 !== currVal_0) {
-          this._MaterialExpansionPanel_0_5.name = currVal_0;
-          this._tournament_template$_expr_0 = currVal_0;
+        if (changed)
+          this._match_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._match_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._match_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._match_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._match_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._match_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._match_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._match_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._match_template$_compView_5.viewData.set$cdMode(1);
+        this._match_template$_NgModel_9_7.set$model(_ctx.item.name);
+        this._match_template$_NgModel_9_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._match_template$_NgModel_9_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._match_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._match_template$_MaterialInputComponent_9_9;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._match_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._match_template$_compView_9.viewData.set$cdMode(1);
+        this._match_template$_NgModel_13_8.set$model(_ctx.item.roundId);
+        this._match_template$_NgModel_13_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._match_template$_NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._match_template$_MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_9 = t1 >= 1;
+        t1 = this._match_template$_expr_9;
+        if (t1 !== currVal_9) {
+          t1 = this._match_template$_MaterialInputComponent_13_10;
+          t1._disabled = currVal_9;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._match_template$_expr_9 = currVal_9;
           changed = true;
         }
         if (changed)
+          this._match_template$_compView_13.viewData.set$cdMode(1);
+        t1 = this._match_template$_NgIf_14_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._match_template$_appEl_14.detectChangesInNestedViews$0();
+        this._match_template$_compView_1.detectChanges$0();
+        this._match_template$_compView_5.detectChanges$0();
+        this._match_template$_compView_9.detectChanges$0();
+        this._match_template$_compView_13.detectChanges$0();
+        if (firstCheck) {
+          this._match_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._match_template$_MaterialInputComponent_9_9.ngAfterViewInit$0();
+          this._match_template$_MaterialInputComponent_13_10.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._match_template$_appEl_14.destroyNestedViews$0();
+        this._match_template$_compView_1.destroy$0();
+        this._match_template$_compView_5.destroy$0();
+        this._match_template$_compView_9.destroy$0();
+        this._match_template$_compView_13.destroy$0();
+        var t1 = this._match_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._match_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._match_template$_MaterialInputComponent_9_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._match_template$_MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
+        t1 = this._match_template$_MaterialInputComponent_13_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._match_template$_MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._match_template$_MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        this._match_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _match_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_match_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _match_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$roundId(H.intTypeCheck($$event));
+      }, "call$1", "get$_match_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      $asAppView: function() {
+        return [Y.MatchDetailComponent];
+      }
+    },
+    _ViewMatchDetailComponent1: {
+      "^": "AppView;0_match_template$_compView_0,0_match_template$_MaterialExpansionPanel_0_5,0_match_template$_compView_2,0_match_template$_AcxDarkTheme_2_5,0_match_template$_MaterialButtonComponent_2_6,0_match_template$_compView_4,0_match_template$_AcxDarkTheme_4_5,0_match_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._match_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._match_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._match_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._match_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._match_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._match_template$_compView_2.viewData.ref, null);
+        this._match_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._match_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._match_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._match_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._match_template$_compView_4.viewData.ref, null);
+        this._match_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._match_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._match_template$_compView_0.create$2(0, this._match_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._match_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_match_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._match_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_match_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._match_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._match_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._match_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._match_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._match_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._match_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._match_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._match_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._match_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._match_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._match_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._match_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._match_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._match_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._match_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._match_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._match_template$_compView_0.detectChanges$0();
+        this._match_template$_compView_2.detectChanges$0();
+        this._match_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._match_template$_compView_0.destroy$0();
+        this._match_template$_compView_2.destroy$0();
+        this._match_template$_compView_4.destroy$0();
+        this._match_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _match_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_match_template$_handle_trigger_2_0", 4, 0, 1],
+      _match_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_match_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [Y.MatchDetailComponent];
+      }
+    },
+    _ViewMatchDetailComponentHost0: {
+      "^": "AppView;0_match_template$_compView_0,0_MatchDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3;
+        t1 = new R.ViewMatchDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
+        t2 = Y.MatchDetailComponent;
+        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
+        t3 = document.createElement("match-detail");
+        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
+        t3 = $.ViewMatchDetailComponent0__renderType;
+        if (t3 == null) {
+          t3 = $.appViewUtils;
+          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$MatchDetailComponent());
+          $.ViewMatchDetailComponent0__renderType = t3;
+        }
+        t1.setupComponentType$1(t3);
+        this._match_template$_compView_0 = t1;
+        this.rootEl = t1.rootEl;
+        t3 = new Y.MatchDetailComponent();
+        this._MatchDetailComponent_0_5 = t3;
+        t1.create$2(0, t3, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._MatchDetailComponent_0_5, [t2]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._MatchDetailComponent_0_5.ngOnInit$0();
+        this._match_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._match_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [Y.MatchDetailComponent];
+      }
+    }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_result_result.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/result/result.css.shim.dart",, Y, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/result/result.dart",, E, {
+    "^": "",
+    ResultDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_result$_buttonStreamer",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isResult");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      get$buttonStream: function() {
+        return C.JSNull_methods.get$stream(this._result$_buttonStreamer);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Current Item : " + J.toString$0$($async$self.item.id));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        C.JSNull_methods.add$1(this._result$_buttonStreamer, cmd);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/result/result.template.dart",, S, {
+    "^": "",
+    viewFactory_ResultDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new S._ViewResultDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.ResultDetailComponent));
+      t1.componentType = $.ViewResultDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "result_template__viewFactory_ResultDetailComponent1$closure", 8, 0, 78],
+    viewFactory_ResultDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new S._ViewResultDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, E.ResultDetailComponent));
+      return t1;
+    }, "call$2", "result_template__viewFactory_ResultDetailComponentHost0$closure", 8, 0, 78],
+    ViewResultDetailComponent0: {
+      "^": "AppView;0_result_template$_compView_1,0_result_template$_MaterialExpansionPanel_1_5,0_result_template$_compView_5,0_result_template$_DeferredValidator_5_5,0_result_template$_NgValidators_5_6,0_result_template$_NgModel_5_7,0_result_template$_NgControl_5_8,0_result_template$_MaterialInputComponent_5_9,0_result_template$_BaseMaterialInput_5_10,0_result_template$_MaterialInputDefaultValueAccessor_5_11,0_result_template$_compView_9,0_result_template$_DeferredValidator_9_5,0_MaterialNumberValidator_9_6,0_NgValidators_9_7,0_NgModel_9_8,0_NgControl_9_9,0_MaterialInputComponent_9_10,0_BaseMaterialInput_9_11,0_MaterialInputDefaultValueAccessor_9_12,0_MaterialNumberValueAccessor_9_13,0_result_template$_compView_13,0_result_template$_DeferredValidator_13_5,0_result_template$_MaterialNumberValidator_13_6,0_result_template$_NgValidators_13_7,0_result_template$_NgModel_13_8,0_result_template$_NgControl_13_9,0_result_template$_MaterialInputComponent_13_10,0_result_template$_BaseMaterialInput_13_11,0_result_template$_MaterialInputDefaultValueAccessor_13_12,0_result_template$_MaterialNumberValueAccessor_13_13,0_result_template$_compView_17,0_result_template$_DeferredValidator_17_5,0_NgValidators_17_6,0_NgModel_17_7,0_NgControl_17_8,0_MaterialInputComponent_17_9,0_BaseMaterialInput_17_10,0_MaterialInputDefaultValueAccessor_17_11,0_result_template$_appEl_18,0_result_template$_NgIf_18_9,0_result_template$_expr_4,0_result_template$_expr_7,0_result_template$_expr_10,0_result_template$_expr_12,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _el_14, _el_15, _el_17, _anchor_18, subscription_0, subscription_1;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._result_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._result_template$_compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._result_template$_MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._result_template$_compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._result_template$_DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._result_template$_NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._result_template$_NgModel_5_7 = t3;
+        this._result_template$_NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._result_template$_compView_5.viewData.ref, this._result_template$_DeferredValidator_5_5);
+        this._result_template$_MaterialInputComponent_5_9 = t3;
+        this._result_template$_BaseMaterialInput_5_10 = t3;
+        t4 = this._result_template$_NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._result_template$_MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._result_template$_compView_5.create$2(0, this._result_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Owner ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._result_template$_compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        t3 = J.getInterceptor$x(_el_9);
+        t3.setAttribute$2(_el_9, "label", "Number");
+        t3.setAttribute$2(_el_9, "type", "number");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._result_template$_DeferredValidator_9_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._MaterialNumberValidator_9_6 = t4;
+        t4 = [t3, t4];
+        this._NgValidators_9_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._NgModel_9_8 = t4;
+        this._NgControl_9_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._result_template$_compView_9.viewData.ref, this._result_template$_DeferredValidator_9_5);
+        this._MaterialInputComponent_9_10 = t4;
+        this._BaseMaterialInput_9_11 = t4;
+        t3 = this._NgControl_9_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._MaterialInputDefaultValueAccessor_9_12 = t5;
+        t3 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._BaseMaterialInput_9_11, this._NgControl_9_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._MaterialNumberValueAccessor_9_13 = t3;
+        this._result_template$_compView_9.create$2(0, this._MaterialInputComponent_9_10, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Match ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._result_template$_compView_13 = t3;
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._result_template$_DeferredValidator_13_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._result_template$_MaterialNumberValidator_13_6 = t4;
+        t4 = [t3, t4];
+        this._result_template$_NgValidators_13_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._result_template$_NgModel_13_8 = t4;
+        this._result_template$_NgControl_13_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._result_template$_compView_13.viewData.ref, this._result_template$_DeferredValidator_13_5);
+        this._result_template$_MaterialInputComponent_13_10 = t4;
+        this._result_template$_BaseMaterialInput_13_11 = t4;
+        t3 = this._result_template$_NgControl_13_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._result_template$_MaterialInputDefaultValueAccessor_13_12 = t5;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._result_template$_BaseMaterialInput_13_11, this._result_template$_NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._result_template$_MaterialNumberValueAccessor_13_13 = t1;
+        this._result_template$_compView_13.create$2(0, this._result_template$_MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        _el_14 = doc.createElement("div");
+        _el_14.className = "inlinediv";
+        H.interceptedTypeCheck(_el_14, "$isHtmlElement");
+        this.addShimC$1(_el_14);
+        _el_15 = S.createAndAppend(doc, "h4", _el_14);
+        this.addShimE$1(_el_15);
+        J.append$1$x(_el_15, doc.createTextNode("Notes:"));
+        t1 = Q.ViewMaterialInputComponent0$(this, 17);
+        this._result_template$_compView_17 = t1;
+        _el_17 = t1.rootEl;
+        J.append$1$x(_el_14, _el_17);
+        this.addShimC$1(_el_17);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._result_template$_DeferredValidator_17_5 = t2;
+        t2 = [t2];
+        this._NgValidators_17_6 = t2;
+        t2 = U.NgModel$(t2, null);
+        this._NgModel_17_7 = t2;
+        this._NgControl_17_8 = t2;
+        t2 = L.MaterialInputComponent$(null, null, null, t2, this._result_template$_compView_17.viewData.ref, this._result_template$_DeferredValidator_17_5);
+        this._MaterialInputComponent_17_9 = t2;
+        this._BaseMaterialInput_17_10 = t2;
+        t1 = this._NgControl_17_8;
+        t3 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t2, t1);
+        t3.BaseMaterialInputValueAccessor$2(t2, t1);
+        this._MaterialInputDefaultValueAccessor_17_11 = t3;
+        this._result_template$_compView_17.create$2(0, this._MaterialInputComponent_17_9, [C.List_empty, C.List_empty]);
+        this._result_template$_compView_1.create$2(0, this._result_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10, _el_14], [W.Element]), C.List_empty]);
+        t3 = $.$get$_viewContainerAnchor();
+        _anchor_18 = H.interceptedTypeCheck((t3 && C.Comment_methods).clone$1(t3, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_18);
+        t3 = new V.ViewContainer(18, 0, this, _anchor_18);
+        this._result_template$_appEl_18 = t3;
+        this._result_template$_NgIf_18_9 = new K.NgIf(new D.TemplateRef(t3, S.result_template__viewFactory_ResultDetailComponent1$closure()), t3, false);
+        t3 = this._NgModel_9_8._update;
+        t3.toString;
+        subscription_0 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_result_template$_handle_ngModelChange_9_0(), null, null));
+        t3 = this._result_template$_NgModel_13_8._update;
+        t3.toString;
+        subscription_1 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_result_template$_handle_ngModelChange_13_0(), null, null));
+        t3 = this._NgModel_17_7._update;
+        t3.toString;
+        this.init$2(C.List_empty, [subscription_0, subscription_1, new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_result_template$_handle_ngModelChange_17_0(), null, null))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6, t7, t8;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._result_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._result_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._result_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._result_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._result_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._result_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._result_template$_DeferredValidator_9_5;
+        t7 = token === C.Type_MaterialNumberValidator_86y;
+        if (t7 && 9 === nodeIndex)
+          return this._MaterialNumberValidator_9_6;
+        if (t2 && 9 === nodeIndex)
+          return this._NgModel_9_8;
+        if (t3 && 9 === nodeIndex)
+          return this._NgControl_9_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._MaterialInputComponent_9_10;
+        if (t5 && 9 === nodeIndex)
+          return this._BaseMaterialInput_9_11;
+        if (t6 && 9 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_9_12;
+        t8 = token === C.Type_MaterialNumberValueAccessor_mqh;
+        if (t8 && 9 === nodeIndex)
+          return this._MaterialNumberValueAccessor_9_13;
+        if (t1 && 13 === nodeIndex)
+          return this._result_template$_DeferredValidator_13_5;
+        if (t7 && 13 === nodeIndex)
+          return this._result_template$_MaterialNumberValidator_13_6;
+        if (t2 && 13 === nodeIndex)
+          return this._result_template$_NgModel_13_8;
+        if (t3 && 13 === nodeIndex)
+          return this._result_template$_NgControl_13_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._result_template$_MaterialInputComponent_13_10;
+        if (t5 && 13 === nodeIndex)
+          return this._result_template$_BaseMaterialInput_13_11;
+        if (t6 && 13 === nodeIndex)
+          return this._result_template$_MaterialInputDefaultValueAccessor_13_12;
+        if (t8 && 13 === nodeIndex)
+          return this._result_template$_MaterialNumberValueAccessor_13_13;
+        if (t1 && 17 === nodeIndex)
+          return this._result_template$_DeferredValidator_17_5;
+        if (t2 && 17 === nodeIndex)
+          return this._NgModel_17_7;
+        if (t3 && 17 === nodeIndex)
+          return this._NgControl_17_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 17 === nodeIndex)
+          return this._MaterialInputComponent_17_9;
+        if (t5 && 17 === nodeIndex)
+          return this._BaseMaterialInput_17_10;
+        if (t6 && 17 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_17_11;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 17)
+          return this._result_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_7, currVal_10, currVal_12, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._result_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._result_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._result_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._result_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._result_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._result_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._result_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._result_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._result_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._result_template$_compView_5.viewData.set$cdMode(1);
+        this._NgModel_9_8.set$model(_ctx.item.ownerId);
+        this._NgModel_9_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_9_8.ngOnInit$0();
+        if (firstCheck) {
+          this._MaterialInputComponent_9_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_7 = t1 >= 1;
+        t1 = this._result_template$_expr_7;
+        if (t1 !== currVal_7) {
+          t1 = this._MaterialInputComponent_9_10;
+          t1._disabled = currVal_7;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._result_template$_expr_7 = currVal_7;
+          changed = true;
+        }
+        if (changed)
+          this._result_template$_compView_9.viewData.set$cdMode(1);
+        this._result_template$_NgModel_13_8.set$model(_ctx.item.matchId);
+        this._result_template$_NgModel_13_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._result_template$_NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._result_template$_MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_10 = t1 >= 1;
+        t1 = this._result_template$_expr_10;
+        if (t1 !== currVal_10) {
+          t1 = this._result_template$_MaterialInputComponent_13_10;
+          t1._disabled = currVal_10;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._result_template$_expr_10 = currVal_10;
+          changed = true;
+        }
+        if (changed)
+          this._result_template$_compView_13.viewData.set$cdMode(1);
+        this._NgModel_17_7.set$model(_ctx.item.notes);
+        this._NgModel_17_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_17_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_12 = t1 >= 2;
+        t1 = this._result_template$_expr_12;
+        if (t1 !== currVal_12) {
+          t1 = this._MaterialInputComponent_17_9;
+          t1._disabled = currVal_12;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._result_template$_expr_12 = currVal_12;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._result_template$_compView_17.viewData.set$cdMode(1);
+        t1 = this._result_template$_NgIf_18_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._result_template$_appEl_18.detectChangesInNestedViews$0();
+        this._result_template$_compView_1.detectChanges$0();
+        this._result_template$_compView_5.detectChanges$0();
+        this._result_template$_compView_9.detectChanges$0();
+        this._result_template$_compView_13.detectChanges$0();
+        this._result_template$_compView_17.detectChanges$0();
+        if (firstCheck) {
+          this._result_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._MaterialInputComponent_9_10.ngAfterViewInit$0();
+          this._result_template$_MaterialInputComponent_13_10.ngAfterViewInit$0();
+          this._MaterialInputComponent_17_9.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._result_template$_appEl_18.destroyNestedViews$0();
+        this._result_template$_compView_1.destroy$0();
+        this._result_template$_compView_5.destroy$0();
+        this._result_template$_compView_9.destroy$0();
+        this._result_template$_compView_13.destroy$0();
+        this._result_template$_compView_17.destroy$0();
+        var t1 = this._result_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._result_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_9_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_9_12.disposer.dispose$0();
+        this._MaterialNumberValueAccessor_9_13.disposer.dispose$0();
+        t1 = this._result_template$_MaterialInputComponent_13_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._result_template$_MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._result_template$_MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_17_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_17_11.disposer.dispose$0();
+        this._result_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _result_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$ownerId(H.intTypeCheck($$event));
+      }, "call$1", "get$_result_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _result_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$matchId(H.intTypeCheck($$event));
+      }, "call$1", "get$_result_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      _result_template$_handle_ngModelChange_17_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$notes(H.stringTypeCheck($$event));
+      }, "call$1", "get$_result_template$_handle_ngModelChange_17_0", 4, 0, 1],
+      $asAppView: function() {
+        return [E.ResultDetailComponent];
+      }
+    },
+    _ViewResultDetailComponent1: {
+      "^": "AppView;0_result_template$_compView_0,0_result_template$_MaterialExpansionPanel_0_5,0_result_template$_compView_2,0_result_template$_AcxDarkTheme_2_5,0_result_template$_MaterialButtonComponent_2_6,0_result_template$_compView_4,0_result_template$_AcxDarkTheme_4_5,0_result_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._result_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._result_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._result_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._result_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._result_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._result_template$_compView_2.viewData.ref, null);
+        this._result_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._result_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._result_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._result_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._result_template$_compView_4.viewData.ref, null);
+        this._result_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._result_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._result_template$_compView_0.create$2(0, this._result_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._result_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_result_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._result_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_result_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._result_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._result_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._result_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._result_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._result_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._result_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._result_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._result_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._result_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._result_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._result_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._result_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._result_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._result_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._result_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._result_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._result_template$_compView_0.detectChanges$0();
+        this._result_template$_compView_2.detectChanges$0();
+        this._result_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._result_template$_compView_0.destroy$0();
+        this._result_template$_compView_2.destroy$0();
+        this._result_template$_compView_4.destroy$0();
+        this._result_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _result_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_result_template$_handle_trigger_2_0", 4, 0, 1],
+      _result_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_result_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [E.ResultDetailComponent];
+      }
+    },
+    _ViewResultDetailComponentHost0: {
+      "^": "AppView;0_result_template$_compView_0,0_ResultDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3;
+        t1 = new S.ViewResultDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
+        t2 = E.ResultDetailComponent;
+        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
+        t3 = document.createElement("result-detail");
+        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
+        t3 = $.ViewResultDetailComponent0__renderType;
+        if (t3 == null) {
+          t3 = $.appViewUtils;
+          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$ResultDetailComponent());
+          $.ViewResultDetailComponent0__renderType = t3;
+        }
+        t1.setupComponentType$1(t3);
+        this._result_template$_compView_0 = t1;
+        this.rootEl = t1.rootEl;
+        t3 = new E.ResultDetailComponent();
+        this._ResultDetailComponent_0_5 = t3;
+        t1.create$2(0, t3, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._ResultDetailComponent_0_5, [t2]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._ResultDetailComponent_0_5.ngOnInit$0();
+        this._result_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._result_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [E.ResultDetailComponent];
+      }
+    }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_round_round.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/round/round.css.shim.dart",, O, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/round/round.dart",, R, {
+    "^": "",
+    RoundDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_round$_buttonStreamer",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isRound");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      get$buttonStream: function() {
+        return C.JSNull_methods.get$stream(this._round$_buttonStreamer);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Current Item : " + H.S($async$self.item.name));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        C.JSNull_methods.add$1(this._round$_buttonStreamer, cmd);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/round/round.template.dart",, Z, {
+    "^": "",
+    viewFactory_RoundDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new Z._ViewRoundDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, R.RoundDetailComponent));
+      t1.componentType = $.ViewRoundDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "round_template__viewFactory_RoundDetailComponent1$closure", 8, 0, 79],
+    viewFactory_RoundDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new Z._ViewRoundDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, R.RoundDetailComponent));
+      return t1;
+    }, "call$2", "round_template__viewFactory_RoundDetailComponentHost0$closure", 8, 0, 79],
+    ViewRoundDetailComponent0: {
+      "^": "AppView;0_round_template$_compView_1,0_round_template$_MaterialExpansionPanel_1_5,0_round_template$_compView_5,0_round_template$_DeferredValidator_5_5,0_round_template$_NgValidators_5_6,0_round_template$_NgModel_5_7,0_round_template$_NgControl_5_8,0_round_template$_MaterialInputComponent_5_9,0_round_template$_BaseMaterialInput_5_10,0_round_template$_MaterialInputDefaultValueAccessor_5_11,0_round_template$_compView_9,0_round_template$_DeferredValidator_9_5,0_round_template$_NgValidators_9_6,0_round_template$_NgModel_9_7,0_round_template$_NgControl_9_8,0_round_template$_MaterialInputComponent_9_9,0_round_template$_BaseMaterialInput_9_10,0_round_template$_MaterialInputDefaultValueAccessor_9_11,0_round_template$_compView_13,0_round_template$_DeferredValidator_13_5,0_round_template$_MaterialNumberValidator_13_6,0_round_template$_NgValidators_13_7,0_round_template$_NgModel_13_8,0_round_template$_NgControl_13_9,0_round_template$_MaterialInputComponent_13_10,0_round_template$_BaseMaterialInput_13_11,0_round_template$_MaterialInputDefaultValueAccessor_13_12,0_round_template$_MaterialNumberValueAccessor_13_13,0_round_template$_appEl_14,0_round_template$_NgIf_14_9,0_round_template$_expr_4,0_round_template$_expr_6,0_round_template$_expr_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _anchor_14, subscription_0;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._round_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._round_template$_compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._round_template$_MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._round_template$_compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._round_template$_DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._round_template$_NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._round_template$_NgModel_5_7 = t3;
+        this._round_template$_NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._round_template$_compView_5.viewData.ref, this._round_template$_DeferredValidator_5_5);
+        this._round_template$_MaterialInputComponent_5_9 = t3;
+        this._round_template$_BaseMaterialInput_5_10 = t3;
+        t4 = this._round_template$_NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._round_template$_MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._round_template$_compView_5.create$2(0, this._round_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Name:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._round_template$_compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._round_template$_DeferredValidator_9_5 = t3;
+        t3 = [t3];
+        this._round_template$_NgValidators_9_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._round_template$_NgModel_9_7 = t3;
+        this._round_template$_NgControl_9_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._round_template$_compView_9.viewData.ref, this._round_template$_DeferredValidator_9_5);
+        this._round_template$_MaterialInputComponent_9_9 = t3;
+        this._round_template$_BaseMaterialInput_9_10 = t3;
+        t4 = this._round_template$_NgControl_9_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._round_template$_MaterialInputDefaultValueAccessor_9_11 = t5;
+        this._round_template$_compView_9.create$2(0, this._round_template$_MaterialInputComponent_9_9, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Stage ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._round_template$_compView_13 = t3;
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._round_template$_DeferredValidator_13_5 = t2;
+        t3 = new F.MaterialNumberValidator();
+        this._round_template$_MaterialNumberValidator_13_6 = t3;
+        t3 = [t2, t3];
+        this._round_template$_NgValidators_13_7 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._round_template$_NgModel_13_8 = t3;
+        this._round_template$_NgControl_13_9 = t3;
+        t3 = L.MaterialInputComponent$("number", null, null, t3, this._round_template$_compView_13.viewData.ref, this._round_template$_DeferredValidator_13_5);
+        this._round_template$_MaterialInputComponent_13_10 = t3;
+        this._round_template$_BaseMaterialInput_13_11 = t3;
+        t2 = this._round_template$_NgControl_13_9;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t2);
+        t4.BaseMaterialInputValueAccessor$2(t3, t2);
+        this._round_template$_MaterialInputDefaultValueAccessor_13_12 = t4;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._round_template$_BaseMaterialInput_13_11, this._round_template$_NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._round_template$_MaterialNumberValueAccessor_13_13 = t1;
+        this._round_template$_compView_13.create$2(0, this._round_template$_MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        this._round_template$_compView_1.create$2(0, this._round_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_14 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_14);
+        t1 = new V.ViewContainer(14, 0, this, _anchor_14);
+        this._round_template$_appEl_14 = t1;
+        this._round_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t1, Z.round_template__viewFactory_RoundDetailComponent1$closure()), t1, false);
+        t1 = this._round_template$_NgModel_9_7._update;
+        t1.toString;
+        subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_ngModelChange_9_0(), null, null));
+        t1 = this._round_template$_NgModel_13_8._update;
+        t1.toString;
+        this.init$2(C.List_empty, [subscription_0, new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_ngModelChange_13_0(), null, null))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._round_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._round_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._round_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._round_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._round_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._round_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._round_template$_DeferredValidator_9_5;
+        if (t2 && 9 === nodeIndex)
+          return this._round_template$_NgModel_9_7;
+        if (t3 && 9 === nodeIndex)
+          return this._round_template$_NgControl_9_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._round_template$_MaterialInputComponent_9_9;
+        if (t5 && 9 === nodeIndex)
+          return this._round_template$_BaseMaterialInput_9_10;
+        if (t6 && 9 === nodeIndex)
+          return this._round_template$_MaterialInputDefaultValueAccessor_9_11;
+        if (t1 && 13 === nodeIndex)
+          return this._round_template$_DeferredValidator_13_5;
+        if (token === C.Type_MaterialNumberValidator_86y && 13 === nodeIndex)
+          return this._round_template$_MaterialNumberValidator_13_6;
+        if (t2 && 13 === nodeIndex)
+          return this._round_template$_NgModel_13_8;
+        if (t3 && 13 === nodeIndex)
+          return this._round_template$_NgControl_13_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._round_template$_MaterialInputComponent_13_10;
+        if (t5 && 13 === nodeIndex)
+          return this._round_template$_BaseMaterialInput_13_11;
+        if (t6 && 13 === nodeIndex)
+          return this._round_template$_MaterialInputDefaultValueAccessor_13_12;
+        if (token === C.Type_MaterialNumberValueAccessor_mqh && 13 === nodeIndex)
+          return this._round_template$_MaterialNumberValueAccessor_13_13;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 13)
+          return this._round_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_9, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._round_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._round_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._round_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._round_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._round_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._round_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._round_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._round_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_5.viewData.set$cdMode(1);
+        this._round_template$_NgModel_9_7.set$model(_ctx.item.name);
+        this._round_template$_NgModel_9_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._round_template$_NgModel_9_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._round_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._round_template$_MaterialInputComponent_9_9;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._round_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_9.viewData.set$cdMode(1);
+        this._round_template$_NgModel_13_8.set$model(_ctx.item.stageId);
+        this._round_template$_NgModel_13_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._round_template$_NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._round_template$_MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_9 = t1 >= 1;
+        t1 = this._round_template$_expr_9;
+        if (t1 !== currVal_9) {
+          t1 = this._round_template$_MaterialInputComponent_13_10;
+          t1._disabled = currVal_9;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._round_template$_expr_9 = currVal_9;
+          changed = true;
+        }
+        if (changed)
+          this._round_template$_compView_13.viewData.set$cdMode(1);
+        t1 = this._round_template$_NgIf_14_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._round_template$_appEl_14.detectChangesInNestedViews$0();
+        this._round_template$_compView_1.detectChanges$0();
+        this._round_template$_compView_5.detectChanges$0();
+        this._round_template$_compView_9.detectChanges$0();
+        this._round_template$_compView_13.detectChanges$0();
+        if (firstCheck) {
+          this._round_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._round_template$_MaterialInputComponent_9_9.ngAfterViewInit$0();
+          this._round_template$_MaterialInputComponent_13_10.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._round_template$_appEl_14.destroyNestedViews$0();
+        this._round_template$_compView_1.destroy$0();
+        this._round_template$_compView_5.destroy$0();
+        this._round_template$_compView_9.destroy$0();
+        this._round_template$_compView_13.destroy$0();
+        var t1 = this._round_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._round_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._round_template$_MaterialInputComponent_9_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._round_template$_MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
+        t1 = this._round_template$_MaterialInputComponent_13_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._round_template$_MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._round_template$_MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        this._round_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _round_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_round_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _round_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$stageId(H.intTypeCheck($$event));
+      }, "call$1", "get$_round_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      $asAppView: function() {
+        return [R.RoundDetailComponent];
+      }
+    },
+    _ViewRoundDetailComponent1: {
+      "^": "AppView;0_round_template$_compView_0,0_round_template$_MaterialExpansionPanel_0_5,0_round_template$_compView_2,0_round_template$_AcxDarkTheme_2_5,0_round_template$_MaterialButtonComponent_2_6,0_round_template$_compView_4,0_round_template$_AcxDarkTheme_4_5,0_round_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._round_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._round_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._round_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._round_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._round_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._round_template$_compView_2.viewData.ref, null);
+        this._round_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._round_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._round_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._round_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._round_template$_compView_4.viewData.ref, null);
+        this._round_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._round_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._round_template$_compView_0.create$2(0, this._round_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._round_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._round_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._round_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._round_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._round_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._round_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._round_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._round_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._round_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._round_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._round_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._round_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._round_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._round_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._round_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._round_template$_compView_0.detectChanges$0();
+        this._round_template$_compView_2.detectChanges$0();
+        this._round_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._round_template$_compView_0.destroy$0();
+        this._round_template$_compView_2.destroy$0();
+        this._round_template$_compView_4.destroy$0();
+        this._round_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _round_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_round_template$_handle_trigger_2_0", 4, 0, 1],
+      _round_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_round_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [R.RoundDetailComponent];
+      }
+    },
+    _ViewRoundDetailComponentHost0: {
+      "^": "AppView;0_round_template$_compView_0,0_RoundDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3;
+        t1 = new Z.ViewRoundDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
+        t2 = R.RoundDetailComponent;
+        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
+        t3 = document.createElement("round-detail");
+        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
+        t3 = $.ViewRoundDetailComponent0__renderType;
+        if (t3 == null) {
+          t3 = $.appViewUtils;
+          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$RoundDetailComponent());
+          $.ViewRoundDetailComponent0__renderType = t3;
+        }
+        t1.setupComponentType$1(t3);
+        this._round_template$_compView_0 = t1;
+        this.rootEl = t1.rootEl;
+        t3 = new R.RoundDetailComponent();
+        this._RoundDetailComponent_0_5 = t3;
+        t1.create$2(0, t3, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._RoundDetailComponent_0_5, [t2]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._RoundDetailComponent_0_5.ngOnInit$0();
+        this._round_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._round_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [R.RoundDetailComponent];
+      }
+    }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_stage_stage.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/stage/stage.css.shim.dart",, O, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/stage/stage.dart",, L, {
+    "^": "",
+    StageDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_stage$_buttonStreamer",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isStage");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      set$_stage$_buttonStreamer: function(_buttonStreamer) {
+        this._stage$_buttonStreamer = H.assertSubtype(_buttonStreamer, "$isStreamController", [P.String], "$asStreamController");
+      },
+      get$buttonStream: function() {
+        var t1 = this._stage$_buttonStreamer;
+        return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Current Item : " + H.S($async$self.item.name));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        this._stage$_buttonStreamer.add$1(0, cmd);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/stage/stage.template.dart",, R, {
+    "^": "",
+    viewFactory_StageDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new R._ViewStageDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.StageDetailComponent));
+      t1.componentType = $.ViewStageDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "stage_template__viewFactory_StageDetailComponent1$closure", 8, 0, 80],
+    viewFactory_StageDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new R._ViewStageDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, L.StageDetailComponent));
+      return t1;
+    }, "call$2", "stage_template__viewFactory_StageDetailComponentHost0$closure", 8, 0, 80],
+    ViewStageDetailComponent0: {
+      "^": "AppView;0_stage_template$_compView_1,0_stage_template$_MaterialExpansionPanel_1_5,0_stage_template$_compView_5,0_stage_template$_DeferredValidator_5_5,0_stage_template$_NgValidators_5_6,0_stage_template$_NgModel_5_7,0_stage_template$_NgControl_5_8,0_stage_template$_MaterialInputComponent_5_9,0_stage_template$_BaseMaterialInput_5_10,0_stage_template$_MaterialInputDefaultValueAccessor_5_11,0_stage_template$_compView_9,0_stage_template$_DeferredValidator_9_5,0_stage_template$_NgValidators_9_6,0_stage_template$_NgModel_9_7,0_stage_template$_NgControl_9_8,0_stage_template$_MaterialInputComponent_9_9,0_stage_template$_BaseMaterialInput_9_10,0_stage_template$_MaterialInputDefaultValueAccessor_9_11,0_stage_template$_compView_13,0_stage_template$_DeferredValidator_13_5,0_stage_template$_MaterialNumberValidator_13_6,0_stage_template$_NgValidators_13_7,0_stage_template$_NgModel_13_8,0_stage_template$_NgControl_13_9,0_stage_template$_MaterialInputComponent_13_10,0_stage_template$_BaseMaterialInput_13_11,0_stage_template$_MaterialInputDefaultValueAccessor_13_12,0_stage_template$_MaterialNumberValueAccessor_13_13,0_stage_template$_compView_17,0_stage_template$_DeferredValidator_17_5,0_stage_template$_MaterialNumberValidator_17_6,0_stage_template$_NgValidators_17_7,0_stage_template$_NgModel_17_8,0_stage_template$_NgControl_17_9,0_stage_template$_MaterialInputComponent_17_10,0_stage_template$_BaseMaterialInput_17_11,0_stage_template$_MaterialInputDefaultValueAccessor_17_12,0_stage_template$_MaterialNumberValueAccessor_17_13,0_compView_21,0_DeferredValidator_21_5,0_MaterialNumberValidator_21_6,0_NgValidators_21_7,0_NgModel_21_8,0_NgControl_21_9,0_MaterialInputComponent_21_10,0_BaseMaterialInput_21_11,0_MaterialInputDefaultValueAccessor_21_12,0_MaterialNumberValueAccessor_21_13,0_compView_25,0_DeferredValidator_25_5,0_MaterialNumberValidator_25_6,0_NgValidators_25_7,0_NgModel_25_8,0_NgControl_25_9,0_MaterialInputComponent_25_10,0_BaseMaterialInput_25_11,0_MaterialInputDefaultValueAccessor_25_12,0_MaterialNumberValueAccessor_25_13,0_appEl_26,0_NgIf_26_9,0_stage_template$_expr_4,0_stage_template$_expr_6,0_stage_template$_expr_9,0_stage_template$_expr_12,0_stage_template$_expr_15,0_stage_template$_expr_18,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _el_14, _el_15, _el_17, _el_18, _el_19, _el_21, _el_22, _el_23, _el_25, _anchor_26, subscription_0, subscription_1, subscription_2, subscription_3;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._stage_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._stage_template$_compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._stage_template$_MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._stage_template$_compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._stage_template$_DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._stage_template$_NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._stage_template$_NgModel_5_7 = t3;
+        this._stage_template$_NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._stage_template$_compView_5.viewData.ref, this._stage_template$_DeferredValidator_5_5);
+        this._stage_template$_MaterialInputComponent_5_9 = t3;
+        this._stage_template$_BaseMaterialInput_5_10 = t3;
+        t4 = this._stage_template$_NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._stage_template$_MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._stage_template$_compView_5.create$2(0, this._stage_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Name:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._stage_template$_compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._stage_template$_DeferredValidator_9_5 = t3;
+        t3 = [t3];
+        this._stage_template$_NgValidators_9_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._stage_template$_NgModel_9_7 = t3;
+        this._stage_template$_NgControl_9_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._stage_template$_compView_9.viewData.ref, this._stage_template$_DeferredValidator_9_5);
+        this._stage_template$_MaterialInputComponent_9_9 = t3;
+        this._stage_template$_BaseMaterialInput_9_10 = t3;
+        t4 = this._stage_template$_NgControl_9_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._stage_template$_MaterialInputDefaultValueAccessor_9_11 = t5;
+        this._stage_template$_compView_9.create$2(0, this._stage_template$_MaterialInputComponent_9_9, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Owner ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._stage_template$_compView_13 = t3;
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._stage_template$_DeferredValidator_13_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._stage_template$_MaterialNumberValidator_13_6 = t4;
+        t4 = [t3, t4];
+        this._stage_template$_NgValidators_13_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._stage_template$_NgModel_13_8 = t4;
+        this._stage_template$_NgControl_13_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._stage_template$_compView_13.viewData.ref, this._stage_template$_DeferredValidator_13_5);
+        this._stage_template$_MaterialInputComponent_13_10 = t4;
+        this._stage_template$_BaseMaterialInput_13_11 = t4;
+        t3 = this._stage_template$_NgControl_13_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._stage_template$_MaterialInputDefaultValueAccessor_13_12 = t5;
+        t3 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._stage_template$_BaseMaterialInput_13_11, this._stage_template$_NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._stage_template$_MaterialNumberValueAccessor_13_13 = t3;
+        this._stage_template$_compView_13.create$2(0, this._stage_template$_MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        _el_14 = doc.createElement("div");
+        _el_14.className = "inlinediv";
+        H.interceptedTypeCheck(_el_14, "$isHtmlElement");
+        this.addShimC$1(_el_14);
+        _el_15 = S.createAndAppend(doc, "h4", _el_14);
+        this.addShimE$1(_el_15);
+        J.append$1$x(_el_15, doc.createTextNode("Tournament ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 17);
+        this._stage_template$_compView_17 = t3;
+        _el_17 = t3.rootEl;
+        J.append$1$x(_el_14, _el_17);
+        t3 = J.getInterceptor$x(_el_17);
+        t3.setAttribute$2(_el_17, "label", "Number");
+        t3.setAttribute$2(_el_17, "type", "number");
+        this.addShimC$1(_el_17);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._stage_template$_DeferredValidator_17_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._stage_template$_MaterialNumberValidator_17_6 = t4;
+        t4 = [t3, t4];
+        this._stage_template$_NgValidators_17_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._stage_template$_NgModel_17_8 = t4;
+        this._stage_template$_NgControl_17_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._stage_template$_compView_17.viewData.ref, this._stage_template$_DeferredValidator_17_5);
+        this._stage_template$_MaterialInputComponent_17_10 = t4;
+        this._stage_template$_BaseMaterialInput_17_11 = t4;
+        t3 = this._stage_template$_NgControl_17_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._stage_template$_MaterialInputDefaultValueAccessor_17_12 = t5;
+        t3 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._stage_template$_BaseMaterialInput_17_11, this._stage_template$_NgControl_17_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._stage_template$_MaterialNumberValueAccessor_17_13 = t3;
+        this._stage_template$_compView_17.create$2(0, this._stage_template$_MaterialInputComponent_17_10, [C.List_empty, C.List_empty]);
+        _el_18 = doc.createElement("div");
+        _el_18.className = "inlinediv";
+        H.interceptedTypeCheck(_el_18, "$isHtmlElement");
+        this.addShimC$1(_el_18);
+        _el_19 = S.createAndAppend(doc, "h4", _el_18);
+        this.addShimE$1(_el_19);
+        J.append$1$x(_el_19, doc.createTextNode("Max Entrants:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 21);
+        this._compView_21 = t3;
+        _el_21 = t3.rootEl;
+        J.append$1$x(_el_18, _el_21);
+        t3 = J.getInterceptor$x(_el_21);
+        t3.setAttribute$2(_el_21, "label", "Number");
+        t3.setAttribute$2(_el_21, "type", "number");
+        this.addShimC$1(_el_21);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._DeferredValidator_21_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._MaterialNumberValidator_21_6 = t4;
+        t4 = [t3, t4];
+        this._NgValidators_21_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._NgModel_21_8 = t4;
+        this._NgControl_21_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._compView_21.viewData.ref, this._DeferredValidator_21_5);
+        this._MaterialInputComponent_21_10 = t4;
+        this._BaseMaterialInput_21_11 = t4;
+        t3 = this._NgControl_21_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._MaterialInputDefaultValueAccessor_21_12 = t5;
+        t3 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._BaseMaterialInput_21_11, this._NgControl_21_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._MaterialNumberValueAccessor_21_13 = t3;
+        this._compView_21.create$2(0, this._MaterialInputComponent_21_10, [C.List_empty, C.List_empty]);
+        _el_22 = doc.createElement("div");
+        _el_22.className = "inlinediv";
+        H.interceptedTypeCheck(_el_22, "$isHtmlElement");
+        this.addShimC$1(_el_22);
+        _el_23 = S.createAndAppend(doc, "h4", _el_22);
+        this.addShimE$1(_el_23);
+        J.append$1$x(_el_23, doc.createTextNode("Max Rounds:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 25);
+        this._compView_25 = t3;
+        _el_25 = t3.rootEl;
+        J.append$1$x(_el_22, _el_25);
+        t3 = J.getInterceptor$x(_el_25);
+        t3.setAttribute$2(_el_25, "label", "Number");
+        t3.setAttribute$2(_el_25, "type", "number");
+        this.addShimC$1(_el_25);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._DeferredValidator_25_5 = t2;
+        t3 = new F.MaterialNumberValidator();
+        this._MaterialNumberValidator_25_6 = t3;
+        t3 = [t2, t3];
+        this._NgValidators_25_7 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._NgModel_25_8 = t3;
+        this._NgControl_25_9 = t3;
+        t3 = L.MaterialInputComponent$("number", null, null, t3, this._compView_25.viewData.ref, this._DeferredValidator_25_5);
+        this._MaterialInputComponent_25_10 = t3;
+        this._BaseMaterialInput_25_11 = t3;
+        t2 = this._NgControl_25_9;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t2);
+        t4.BaseMaterialInputValueAccessor$2(t3, t2);
+        this._MaterialInputDefaultValueAccessor_25_12 = t4;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._BaseMaterialInput_25_11, this._NgControl_25_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._MaterialNumberValueAccessor_25_13 = t1;
+        this._compView_25.create$2(0, this._MaterialInputComponent_25_10, [C.List_empty, C.List_empty]);
+        this._stage_template$_compView_1.create$2(0, this._stage_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10, _el_14, _el_18, _el_22], [W.Element]), C.List_empty]);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_26 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_26);
+        t1 = new V.ViewContainer(26, 0, this, _anchor_26);
+        this._appEl_26 = t1;
+        this._NgIf_26_9 = new K.NgIf(new D.TemplateRef(t1, R.stage_template__viewFactory_StageDetailComponent1$closure()), t1, false);
+        t1 = this._stage_template$_NgModel_9_7._update;
+        t1.toString;
+        subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_ngModelChange_9_0(), null, null));
+        t1 = this._stage_template$_NgModel_13_8._update;
+        t1.toString;
+        subscription_1 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_ngModelChange_13_0(), null, null));
+        t1 = this._stage_template$_NgModel_17_8._update;
+        t1.toString;
+        subscription_2 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_ngModelChange_17_0(), null, null));
+        t1 = this._NgModel_21_8._update;
+        t1.toString;
+        subscription_3 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_ngModelChange_21_0(), null, null));
+        t1 = this._NgModel_25_8._update;
+        t1.toString;
+        this.init$2(C.List_empty, [subscription_0, subscription_1, subscription_2, subscription_3, new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_ngModelChange_25_0(), null, null))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6, t7, t8;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._stage_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._stage_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._stage_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._stage_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._stage_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._stage_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._stage_template$_DeferredValidator_9_5;
+        if (t2 && 9 === nodeIndex)
+          return this._stage_template$_NgModel_9_7;
+        if (t3 && 9 === nodeIndex)
+          return this._stage_template$_NgControl_9_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._stage_template$_MaterialInputComponent_9_9;
+        if (t5 && 9 === nodeIndex)
+          return this._stage_template$_BaseMaterialInput_9_10;
+        if (t6 && 9 === nodeIndex)
+          return this._stage_template$_MaterialInputDefaultValueAccessor_9_11;
+        if (t1 && 13 === nodeIndex)
+          return this._stage_template$_DeferredValidator_13_5;
+        t7 = token === C.Type_MaterialNumberValidator_86y;
+        if (t7 && 13 === nodeIndex)
+          return this._stage_template$_MaterialNumberValidator_13_6;
+        if (t2 && 13 === nodeIndex)
+          return this._stage_template$_NgModel_13_8;
+        if (t3 && 13 === nodeIndex)
+          return this._stage_template$_NgControl_13_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._stage_template$_MaterialInputComponent_13_10;
+        if (t5 && 13 === nodeIndex)
+          return this._stage_template$_BaseMaterialInput_13_11;
+        if (t6 && 13 === nodeIndex)
+          return this._stage_template$_MaterialInputDefaultValueAccessor_13_12;
+        t8 = token === C.Type_MaterialNumberValueAccessor_mqh;
+        if (t8 && 13 === nodeIndex)
+          return this._stage_template$_MaterialNumberValueAccessor_13_13;
+        if (t1 && 17 === nodeIndex)
+          return this._stage_template$_DeferredValidator_17_5;
+        if (t7 && 17 === nodeIndex)
+          return this._stage_template$_MaterialNumberValidator_17_6;
+        if (t2 && 17 === nodeIndex)
+          return this._stage_template$_NgModel_17_8;
+        if (t3 && 17 === nodeIndex)
+          return this._stage_template$_NgControl_17_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 17 === nodeIndex)
+          return this._stage_template$_MaterialInputComponent_17_10;
+        if (t5 && 17 === nodeIndex)
+          return this._stage_template$_BaseMaterialInput_17_11;
+        if (t6 && 17 === nodeIndex)
+          return this._stage_template$_MaterialInputDefaultValueAccessor_17_12;
+        if (t8 && 17 === nodeIndex)
+          return this._stage_template$_MaterialNumberValueAccessor_17_13;
+        if (t1 && 21 === nodeIndex)
+          return this._DeferredValidator_21_5;
+        if (t7 && 21 === nodeIndex)
+          return this._MaterialNumberValidator_21_6;
+        if (t2 && 21 === nodeIndex)
+          return this._NgModel_21_8;
+        if (t3 && 21 === nodeIndex)
+          return this._NgControl_21_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 21 === nodeIndex)
+          return this._MaterialInputComponent_21_10;
+        if (t5 && 21 === nodeIndex)
+          return this._BaseMaterialInput_21_11;
+        if (t6 && 21 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_21_12;
+        if (t8 && 21 === nodeIndex)
+          return this._MaterialNumberValueAccessor_21_13;
+        if (t1 && 25 === nodeIndex)
+          return this._DeferredValidator_25_5;
+        if (t7 && 25 === nodeIndex)
+          return this._MaterialNumberValidator_25_6;
+        if (t2 && 25 === nodeIndex)
+          return this._NgModel_25_8;
+        if (t3 && 25 === nodeIndex)
+          return this._NgControl_25_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 25 === nodeIndex)
+          return this._MaterialInputComponent_25_10;
+        if (t5 && 25 === nodeIndex)
+          return this._BaseMaterialInput_25_11;
+        if (t6 && 25 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_25_12;
+        if (t8 && 25 === nodeIndex)
+          return this._MaterialNumberValueAccessor_25_13;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 25)
+          return this._stage_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_9, currVal_12, currVal_15, currVal_18, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._stage_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._stage_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._stage_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._stage_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._stage_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._stage_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._stage_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._stage_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._stage_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._stage_template$_compView_5.viewData.set$cdMode(1);
+        this._stage_template$_NgModel_9_7.set$model(_ctx.item.name);
+        this._stage_template$_NgModel_9_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._stage_template$_NgModel_9_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._stage_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._stage_template$_MaterialInputComponent_9_9;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._stage_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._stage_template$_compView_9.viewData.set$cdMode(1);
+        this._stage_template$_NgModel_13_8.set$model(_ctx.item.ownerId);
+        this._stage_template$_NgModel_13_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._stage_template$_NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._stage_template$_MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_9 = t1 >= 1;
+        t1 = this._stage_template$_expr_9;
+        if (t1 !== currVal_9) {
+          t1 = this._stage_template$_MaterialInputComponent_13_10;
+          t1._disabled = currVal_9;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._stage_template$_expr_9 = currVal_9;
+          changed = true;
+        }
+        if (changed)
+          this._stage_template$_compView_13.viewData.set$cdMode(1);
+        this._stage_template$_NgModel_17_8.set$model(_ctx.item.tournamentId);
+        this._stage_template$_NgModel_17_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._stage_template$_NgModel_17_8.ngOnInit$0();
+        if (firstCheck) {
+          this._stage_template$_MaterialInputComponent_17_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_12 = t1 >= 1;
+        t1 = this._stage_template$_expr_12;
+        if (t1 !== currVal_12) {
+          t1 = this._stage_template$_MaterialInputComponent_17_10;
+          t1._disabled = currVal_12;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._stage_template$_expr_12 = currVal_12;
+          changed = true;
+        }
+        if (changed)
+          this._stage_template$_compView_17.viewData.set$cdMode(1);
+        this._NgModel_21_8.set$model(_ctx.item.maxEntrants);
+        this._NgModel_21_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_21_8.ngOnInit$0();
+        if (firstCheck) {
+          this._MaterialInputComponent_21_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_15 = t1 >= 1;
+        t1 = this._stage_template$_expr_15;
+        if (t1 !== currVal_15) {
+          t1 = this._MaterialInputComponent_21_10;
+          t1._disabled = currVal_15;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._stage_template$_expr_15 = currVal_15;
+          changed = true;
+        }
+        if (changed)
+          this._compView_21.viewData.set$cdMode(1);
+        this._NgModel_25_8.set$model(_ctx.item.maxRounds);
+        this._NgModel_25_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_25_8.ngOnInit$0();
+        if (firstCheck) {
+          this._MaterialInputComponent_25_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_18 = t1 >= 1;
+        t1 = this._stage_template$_expr_18;
+        if (t1 !== currVal_18) {
+          t1 = this._MaterialInputComponent_25_10;
+          t1._disabled = currVal_18;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._stage_template$_expr_18 = currVal_18;
+          changed = true;
+        }
+        if (changed)
+          this._compView_25.viewData.set$cdMode(1);
+        t1 = this._NgIf_26_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._appEl_26.detectChangesInNestedViews$0();
+        this._stage_template$_compView_1.detectChanges$0();
+        this._stage_template$_compView_5.detectChanges$0();
+        this._stage_template$_compView_9.detectChanges$0();
+        this._stage_template$_compView_13.detectChanges$0();
+        this._stage_template$_compView_17.detectChanges$0();
+        this._compView_21.detectChanges$0();
+        this._compView_25.detectChanges$0();
+        if (firstCheck) {
+          this._stage_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._stage_template$_MaterialInputComponent_9_9.ngAfterViewInit$0();
+          this._stage_template$_MaterialInputComponent_13_10.ngAfterViewInit$0();
+          this._stage_template$_MaterialInputComponent_17_10.ngAfterViewInit$0();
+          this._MaterialInputComponent_21_10.ngAfterViewInit$0();
+          this._MaterialInputComponent_25_10.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._appEl_26.destroyNestedViews$0();
+        this._stage_template$_compView_1.destroy$0();
+        this._stage_template$_compView_5.destroy$0();
+        this._stage_template$_compView_9.destroy$0();
+        this._stage_template$_compView_13.destroy$0();
+        this._stage_template$_compView_17.destroy$0();
+        this._compView_21.destroy$0();
+        this._compView_25.destroy$0();
+        var t1 = this._stage_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._stage_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._stage_template$_MaterialInputComponent_9_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._stage_template$_MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
+        t1 = this._stage_template$_MaterialInputComponent_13_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._stage_template$_MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._stage_template$_MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        t1 = this._stage_template$_MaterialInputComponent_17_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._stage_template$_MaterialInputDefaultValueAccessor_17_12.disposer.dispose$0();
+        this._stage_template$_MaterialNumberValueAccessor_17_13.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_21_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_21_12.disposer.dispose$0();
+        this._MaterialNumberValueAccessor_21_13.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_25_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_25_12.disposer.dispose$0();
+        this._MaterialNumberValueAccessor_25_13.disposer.dispose$0();
+        this._stage_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _stage_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_stage_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _stage_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$ownerId(H.intTypeCheck($$event));
+      }, "call$1", "get$_stage_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      _stage_template$_handle_ngModelChange_17_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$tournamentId(H.intTypeCheck($$event));
+      }, "call$1", "get$_stage_template$_handle_ngModelChange_17_0", 4, 0, 1],
+      _handle_ngModelChange_21_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$maxEntrants(H.intTypeCheck($$event));
+      }, "call$1", "get$_handle_ngModelChange_21_0", 4, 0, 1],
+      _handle_ngModelChange_25_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$maxRounds(H.intTypeCheck($$event));
+      }, "call$1", "get$_handle_ngModelChange_25_0", 4, 0, 1],
+      $asAppView: function() {
+        return [L.StageDetailComponent];
+      }
+    },
+    _ViewStageDetailComponent1: {
+      "^": "AppView;0_stage_template$_compView_0,0_stage_template$_MaterialExpansionPanel_0_5,0_stage_template$_compView_2,0_stage_template$_AcxDarkTheme_2_5,0_stage_template$_MaterialButtonComponent_2_6,0_stage_template$_compView_4,0_stage_template$_AcxDarkTheme_4_5,0_stage_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._stage_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._stage_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._stage_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._stage_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._stage_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._stage_template$_compView_2.viewData.ref, null);
+        this._stage_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._stage_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._stage_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._stage_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._stage_template$_compView_4.viewData.ref, null);
+        this._stage_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._stage_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._stage_template$_compView_0.create$2(0, this._stage_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._stage_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._stage_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._stage_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._stage_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._stage_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._stage_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._stage_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._stage_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._stage_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._stage_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._stage_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._stage_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._stage_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._stage_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._stage_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._stage_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._stage_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._stage_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._stage_template$_compView_0.detectChanges$0();
+        this._stage_template$_compView_2.detectChanges$0();
+        this._stage_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._stage_template$_compView_0.destroy$0();
+        this._stage_template$_compView_2.destroy$0();
+        this._stage_template$_compView_4.destroy$0();
+        this._stage_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _stage_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_stage_template$_handle_trigger_2_0", 4, 0, 1],
+      _stage_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_stage_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [L.StageDetailComponent];
+      }
+    },
+    _ViewStageDetailComponentHost0: {
+      "^": "AppView;0_stage_template$_compView_0,0_StageDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3, t4;
+        t1 = P.String;
+        t2 = new R.ViewStageDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
+        t3 = L.StageDetailComponent;
+        t2.set$viewData(S.AppViewData_AppViewData(t2, 3, C.ViewType_1, 0, t3));
+        t4 = document.createElement("stage-detail");
+        t2.rootEl = H.interceptedTypeCheck(t4, "$isHtmlElement");
+        t4 = $.ViewStageDetailComponent0__renderType;
+        if (t4 == null) {
+          t4 = $.appViewUtils;
+          t4 = t4.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$StageDetailComponent());
+          $.ViewStageDetailComponent0__renderType = t4;
+        }
+        t2.setupComponentType$1(t4);
+        this._stage_template$_compView_0 = t2;
+        this.rootEl = t2.rootEl;
+        t2 = new L.StageDetailComponent();
+        t2.set$_stage$_buttonStreamer(new P._SyncBroadcastStreamController(null, null, 0, [t1]));
+        this._StageDetailComponent_0_5 = t2;
+        this._stage_template$_compView_0.create$2(0, t2, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._StageDetailComponent_0_5, [t3]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._StageDetailComponent_0_5.ngOnInit$0();
+        this._stage_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._stage_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [L.StageDetailComponent];
+      }
+    }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_tournament_tournament.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.css.shim.dart",, S, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.dart",, E, {
+    "^": "",
+    TournamentDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_tournament$_buttonStreamer",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isTournament");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      set$_tournament$_buttonStreamer: function(_buttonStreamer) {
+        this._tournament$_buttonStreamer = H.assertSubtype(_buttonStreamer, "$isStreamController", [P.String], "$asStreamController");
+      },
+      get$buttonStream: function() {
+        var t1 = this._tournament$_buttonStreamer;
+        return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Current Item : " + H.S($async$self.item.name));
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        this._tournament$_buttonStreamer.add$1(0, cmd);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/tournament/tournament.template.dart",, A, {
+    "^": "",
+    viewFactory_TournamentDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new A._ViewTournamentDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.TournamentDetailComponent));
+      t1.componentType = $.ViewTournamentDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "tournament_template__viewFactory_TournamentDetailComponent1$closure", 8, 0, 81],
+    viewFactory_TournamentDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new A._ViewTournamentDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, E.TournamentDetailComponent));
+      return t1;
+    }, "call$2", "tournament_template__viewFactory_TournamentDetailComponentHost0$closure", 8, 0, 81],
+    ViewTournamentDetailComponent0: {
+      "^": "AppView;0_tournament_template$_compView_1,0_tournament_template$_MaterialExpansionPanel_1_5,0_tournament_template$_compView_5,0_tournament_template$_DeferredValidator_5_5,0_tournament_template$_NgValidators_5_6,0_tournament_template$_NgModel_5_7,0_tournament_template$_NgControl_5_8,0_tournament_template$_MaterialInputComponent_5_9,0_tournament_template$_BaseMaterialInput_5_10,0_tournament_template$_MaterialInputDefaultValueAccessor_5_11,0_tournament_template$_compView_9,0_tournament_template$_DeferredValidator_9_5,0_tournament_template$_NgValidators_9_6,0_tournament_template$_NgModel_9_7,0_tournament_template$_NgControl_9_8,0_tournament_template$_MaterialInputComponent_9_9,0_tournament_template$_BaseMaterialInput_9_10,0_tournament_template$_MaterialInputDefaultValueAccessor_9_11,0_tournament_template$_compView_13,0_tournament_template$_DeferredValidator_13_5,0_tournament_template$_MaterialNumberValidator_13_6,0_tournament_template$_NgValidators_13_7,0_tournament_template$_NgModel_13_8,0_tournament_template$_NgControl_13_9,0_tournament_template$_MaterialInputComponent_13_10,0_tournament_template$_BaseMaterialInput_13_11,0_tournament_template$_MaterialInputDefaultValueAccessor_13_12,0_tournament_template$_MaterialNumberValueAccessor_13_13,0_compView_17,0_DeferredValidator_17_5,0_MaterialNumberValidator_17_6,0_NgValidators_17_7,0_NgModel_17_8,0_NgControl_17_9,0_MaterialInputComponent_17_10,0_BaseMaterialInput_17_11,0_MaterialInputDefaultValueAccessor_17_12,0_MaterialNumberValueAccessor_17_13,0_appEl_18,0_NgIf_18_9,0_tournament_template$_expr_4,0_tournament_template$_expr_6,0_tournament_template$_expr_9,0_tournament_template$_expr_12,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, t8, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _el_13, _el_14, _el_15, _el_17, _anchor_18, subscription_0, subscription_1;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._tournament_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._tournament_template$_compView_1.viewData.ref;
+        t4 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t5 = [P.bool];
+        t6 = $.$get$MaterialExpansionPanel__msgSave();
+        t7 = $.$get$MaterialExpansionPanel__msgCancel();
+        t8 = [[L.AsyncAction, P.bool]];
+        t2 = new T.MaterialExpansionPanel(t2, t3, t4, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t5), new P._SyncBroadcastStreamController(null, null, 0, t5), false, false, false, false, false, false, false, false, true, true, false, t6, t7, new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8), new P._SyncBroadcastStreamController(null, null, 0, t8));
+        this._tournament_template$_MaterialExpansionPanel_1_5 = t2;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._tournament_template$_compView_5 = t2;
+        _el_5 = t2.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        this.addShimC$1(_el_5);
+        t2 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._tournament_template$_DeferredValidator_5_5 = t3;
+        t3 = [t3];
+        this._tournament_template$_NgValidators_5_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._tournament_template$_NgModel_5_7 = t3;
+        this._tournament_template$_NgControl_5_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._tournament_template$_compView_5.viewData.ref, this._tournament_template$_DeferredValidator_5_5);
+        this._tournament_template$_MaterialInputComponent_5_9 = t3;
+        this._tournament_template$_BaseMaterialInput_5_10 = t3;
+        t4 = this._tournament_template$_NgControl_5_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._tournament_template$_MaterialInputDefaultValueAccessor_5_11 = t5;
+        this._tournament_template$_compView_5.create$2(0, this._tournament_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Name:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._tournament_template$_compView_9 = t3;
+        _el_9 = t3.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
+        this.addShimC$1(_el_9);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._tournament_template$_DeferredValidator_9_5 = t3;
+        t3 = [t3];
+        this._tournament_template$_NgValidators_9_6 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._tournament_template$_NgModel_9_7 = t3;
+        this._tournament_template$_NgControl_9_8 = t3;
+        t3 = L.MaterialInputComponent$(null, null, null, t3, this._tournament_template$_compView_9.viewData.ref, this._tournament_template$_DeferredValidator_9_5);
+        this._tournament_template$_MaterialInputComponent_9_9 = t3;
+        this._tournament_template$_BaseMaterialInput_9_10 = t3;
+        t4 = this._tournament_template$_NgControl_9_8;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t4);
+        t5.BaseMaterialInputValueAccessor$2(t3, t4);
+        this._tournament_template$_MaterialInputDefaultValueAccessor_9_11 = t5;
+        this._tournament_template$_compView_9.create$2(0, this._tournament_template$_MaterialInputComponent_9_9, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Owner ID:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._tournament_template$_compView_13 = t3;
+        _el_13 = t3.rootEl;
+        J.append$1$x(_el_10, _el_13);
+        t3 = J.getInterceptor$x(_el_13);
+        t3.setAttribute$2(_el_13, "label", "Number");
+        t3.setAttribute$2(_el_13, "type", "number");
+        this.addShimC$1(_el_13);
+        t3 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._tournament_template$_DeferredValidator_13_5 = t3;
+        t4 = new F.MaterialNumberValidator();
+        this._tournament_template$_MaterialNumberValidator_13_6 = t4;
+        t4 = [t3, t4];
+        this._tournament_template$_NgValidators_13_7 = t4;
+        t4 = U.NgModel$(t4, null);
+        this._tournament_template$_NgModel_13_8 = t4;
+        this._tournament_template$_NgControl_13_9 = t4;
+        t4 = L.MaterialInputComponent$("number", null, null, t4, this._tournament_template$_compView_13.viewData.ref, this._tournament_template$_DeferredValidator_13_5);
+        this._tournament_template$_MaterialInputComponent_13_10 = t4;
+        this._tournament_template$_BaseMaterialInput_13_11 = t4;
+        t3 = this._tournament_template$_NgControl_13_9;
+        t5 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t4, t3);
+        t5.BaseMaterialInputValueAccessor$2(t4, t3);
+        this._tournament_template$_MaterialInputDefaultValueAccessor_13_12 = t5;
+        t3 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._tournament_template$_BaseMaterialInput_13_11, this._tournament_template$_NgControl_13_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._tournament_template$_MaterialNumberValueAccessor_13_13 = t3;
+        this._tournament_template$_compView_13.create$2(0, this._tournament_template$_MaterialInputComponent_13_10, [C.List_empty, C.List_empty]);
+        _el_14 = doc.createElement("div");
+        _el_14.className = "inlinediv";
+        H.interceptedTypeCheck(_el_14, "$isHtmlElement");
+        this.addShimC$1(_el_14);
+        _el_15 = S.createAndAppend(doc, "h4", _el_14);
+        this.addShimE$1(_el_15);
+        J.append$1$x(_el_15, doc.createTextNode("Max Entrants:"));
+        t3 = Q.ViewMaterialInputComponent0$(this, 17);
+        this._compView_17 = t3;
+        _el_17 = t3.rootEl;
+        J.append$1$x(_el_14, _el_17);
+        t3 = J.getInterceptor$x(_el_17);
+        t3.setAttribute$2(_el_17, "label", "Number");
+        t3.setAttribute$2(_el_17, "type", "number");
+        this.addShimC$1(_el_17);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t2));
+        this._DeferredValidator_17_5 = t2;
+        t3 = new F.MaterialNumberValidator();
+        this._MaterialNumberValidator_17_6 = t3;
+        t3 = [t2, t3];
+        this._NgValidators_17_7 = t3;
+        t3 = U.NgModel$(t3, null);
+        this._NgModel_17_8 = t3;
+        this._NgControl_17_9 = t3;
+        t3 = L.MaterialInputComponent$("number", null, null, t3, this._compView_17.viewData.ref, this._DeferredValidator_17_5);
+        this._MaterialInputComponent_17_10 = t3;
+        this._BaseMaterialInput_17_11 = t3;
+        t2 = this._NgControl_17_9;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t3, t2);
+        t4.BaseMaterialInputValueAccessor$2(t3, t2);
+        this._MaterialInputDefaultValueAccessor_17_12 = t4;
+        t1 = F.MaterialNumberValueAccessor_MaterialNumberValueAccessor(this._BaseMaterialInput_17_11, this._NgControl_17_9, H.interceptedTypeCheck(t1.injectorGet$3(C.Type_NumberFormat_kZA, this.viewData.parentIndex, null), "$isNumberFormat"), null, null, null, null);
+        this._MaterialNumberValueAccessor_17_13 = t1;
+        this._compView_17.create$2(0, this._MaterialInputComponent_17_10, [C.List_empty, C.List_empty]);
+        this._tournament_template$_compView_1.create$2(0, this._tournament_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10, _el_14], [W.Element]), C.List_empty]);
+        t1 = $.$get$_viewContainerAnchor();
+        _anchor_18 = H.interceptedTypeCheck((t1 && C.Comment_methods).clone$1(t1, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_18);
+        t1 = new V.ViewContainer(18, 0, this, _anchor_18);
+        this._appEl_18 = t1;
+        this._NgIf_18_9 = new K.NgIf(new D.TemplateRef(t1, A.tournament_template__viewFactory_TournamentDetailComponent1$closure()), t1, false);
+        t1 = this._tournament_template$_NgModel_9_7._update;
+        t1.toString;
+        subscription_0 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_tournament_template$_handle_ngModelChange_9_0(), null, null));
+        t1 = this._tournament_template$_NgModel_13_8._update;
+        t1.toString;
+        subscription_1 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_tournament_template$_handle_ngModelChange_13_0(), null, null));
+        t1 = this._NgModel_17_8._update;
+        t1.toString;
+        this.init$2(C.List_empty, [subscription_0, subscription_1, new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_ngModelChange_17_0(), null, null))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6, t7, t8;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._tournament_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._tournament_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._tournament_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._tournament_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._tournament_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._tournament_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._tournament_template$_DeferredValidator_9_5;
+        if (t2 && 9 === nodeIndex)
+          return this._tournament_template$_NgModel_9_7;
+        if (t3 && 9 === nodeIndex)
+          return this._tournament_template$_NgControl_9_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._tournament_template$_MaterialInputComponent_9_9;
+        if (t5 && 9 === nodeIndex)
+          return this._tournament_template$_BaseMaterialInput_9_10;
+        if (t6 && 9 === nodeIndex)
+          return this._tournament_template$_MaterialInputDefaultValueAccessor_9_11;
+        if (t1 && 13 === nodeIndex)
+          return this._tournament_template$_DeferredValidator_13_5;
+        t7 = token === C.Type_MaterialNumberValidator_86y;
+        if (t7 && 13 === nodeIndex)
+          return this._tournament_template$_MaterialNumberValidator_13_6;
+        if (t2 && 13 === nodeIndex)
+          return this._tournament_template$_NgModel_13_8;
+        if (t3 && 13 === nodeIndex)
+          return this._tournament_template$_NgControl_13_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._tournament_template$_MaterialInputComponent_13_10;
+        if (t5 && 13 === nodeIndex)
+          return this._tournament_template$_BaseMaterialInput_13_11;
+        if (t6 && 13 === nodeIndex)
+          return this._tournament_template$_MaterialInputDefaultValueAccessor_13_12;
+        t8 = token === C.Type_MaterialNumberValueAccessor_mqh;
+        if (t8 && 13 === nodeIndex)
+          return this._tournament_template$_MaterialNumberValueAccessor_13_13;
+        if (t1 && 17 === nodeIndex)
+          return this._DeferredValidator_17_5;
+        if (t7 && 17 === nodeIndex)
+          return this._MaterialNumberValidator_17_6;
+        if (t2 && 17 === nodeIndex)
+          return this._NgModel_17_8;
+        if (t3 && 17 === nodeIndex)
+          return this._NgControl_17_9;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 17 === nodeIndex)
+          return this._MaterialInputComponent_17_10;
+        if (t5 && 17 === nodeIndex)
+          return this._BaseMaterialInput_17_11;
+        if (t6 && 17 === nodeIndex)
+          return this._MaterialInputDefaultValueAccessor_17_12;
+        if (t8 && 17 === nodeIndex)
+          return this._MaterialNumberValueAccessor_17_13;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 17)
+          return this._tournament_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_9, currVal_12, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._tournament_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._tournament_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._tournament_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._tournament_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._tournament_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._tournament_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._tournament_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._tournament_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._tournament_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._tournament_template$_compView_5.viewData.set$cdMode(1);
+        this._tournament_template$_NgModel_9_7.set$model(_ctx.item.name);
+        this._tournament_template$_NgModel_9_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._tournament_template$_NgModel_9_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._tournament_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._tournament_template$_MaterialInputComponent_9_9;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._tournament_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._tournament_template$_compView_9.viewData.set$cdMode(1);
+        this._tournament_template$_NgModel_13_8.set$model(_ctx.item.ownerId);
+        this._tournament_template$_NgModel_13_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._tournament_template$_NgModel_13_8.ngOnInit$0();
+        if (firstCheck) {
+          this._tournament_template$_MaterialInputComponent_13_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_9 = t1 >= 1;
+        t1 = this._tournament_template$_expr_9;
+        if (t1 !== currVal_9) {
+          t1 = this._tournament_template$_MaterialInputComponent_13_10;
+          t1._disabled = currVal_9;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._tournament_template$_expr_9 = currVal_9;
+          changed = true;
+        }
+        if (changed)
+          this._tournament_template$_compView_13.viewData.set$cdMode(1);
+        this._NgModel_17_8.set$model(J.$index$asx(_ctx.item.settings, "maxEntrants"));
+        this._NgModel_17_8.ngAfterChanges$0();
+        if (firstCheck)
+          this._NgModel_17_8.ngOnInit$0();
+        if (firstCheck) {
+          this._MaterialInputComponent_17_10.label = "Number";
+          changed = true;
+        } else
+          changed = false;
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_12 = t1 >= 1;
+        t1 = this._tournament_template$_expr_12;
+        if (t1 !== currVal_12) {
+          t1 = this._MaterialInputComponent_17_10;
+          t1._disabled = currVal_12;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._tournament_template$_expr_12 = currVal_12;
+          changed = true;
+        }
+        if (changed)
+          this._compView_17.viewData.set$cdMode(1);
+        t1 = this._NgIf_18_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._appEl_18.detectChangesInNestedViews$0();
+        this._tournament_template$_compView_1.detectChanges$0();
+        this._tournament_template$_compView_5.detectChanges$0();
+        this._tournament_template$_compView_9.detectChanges$0();
+        this._tournament_template$_compView_13.detectChanges$0();
+        this._compView_17.detectChanges$0();
+        if (firstCheck) {
+          this._tournament_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._tournament_template$_MaterialInputComponent_9_9.ngAfterViewInit$0();
+          this._tournament_template$_MaterialInputComponent_13_10.ngAfterViewInit$0();
+          this._MaterialInputComponent_17_10.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._appEl_18.destroyNestedViews$0();
+        this._tournament_template$_compView_1.destroy$0();
+        this._tournament_template$_compView_5.destroy$0();
+        this._tournament_template$_compView_9.destroy$0();
+        this._tournament_template$_compView_13.destroy$0();
+        this._compView_17.destroy$0();
+        var t1 = this._tournament_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._tournament_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._tournament_template$_MaterialInputComponent_9_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._tournament_template$_MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
+        t1 = this._tournament_template$_MaterialInputComponent_13_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._tournament_template$_MaterialInputDefaultValueAccessor_13_12.disposer.dispose$0();
+        this._tournament_template$_MaterialNumberValueAccessor_13_13.disposer.dispose$0();
+        t1 = this._MaterialInputComponent_17_10;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._MaterialInputDefaultValueAccessor_17_12.disposer.dispose$0();
+        this._MaterialNumberValueAccessor_17_13.disposer.dispose$0();
+        this._tournament_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _tournament_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_tournament_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _tournament_template$_handle_ngModelChange_13_0$1: [function($$event) {
+        J.get$item$x(this.ctx).set$ownerId(H.intTypeCheck($$event));
+      }, "call$1", "get$_tournament_template$_handle_ngModelChange_13_0", 4, 0, 1],
+      _handle_ngModelChange_17_0$1: [function($$event) {
+        J.$indexSet$ax(J.get$item$x(this.ctx).get$settings(), "maxEntrants", $$event);
+      }, "call$1", "get$_handle_ngModelChange_17_0", 4, 0, 1],
+      $asAppView: function() {
+        return [E.TournamentDetailComponent];
+      }
+    },
+    _ViewTournamentDetailComponent1: {
+      "^": "AppView;0_tournament_template$_compView_0,0_tournament_template$_MaterialExpansionPanel_0_5,0_tournament_template$_compView_2,0_tournament_template$_AcxDarkTheme_2_5,0_tournament_template$_MaterialButtonComponent_2_6,0_tournament_template$_compView_4,0_tournament_template$_AcxDarkTheme_4_5,0_tournament_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._tournament_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._tournament_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._tournament_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._tournament_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._tournament_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._tournament_template$_compView_2.viewData.ref, null);
+        this._tournament_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._tournament_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._tournament_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._tournament_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._tournament_template$_compView_4.viewData.ref, null);
+        this._tournament_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._tournament_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._tournament_template$_compView_0.create$2(0, this._tournament_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._tournament_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_tournament_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._tournament_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_tournament_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._tournament_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._tournament_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._tournament_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._tournament_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._tournament_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._tournament_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
           this._tournament_template$_compView_0.viewData.set$cdMode(1);
         if (firstCheck)
-          this._MaterialExpansionPanel_0_5.ngOnInit$0();
+          this._tournament_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._tournament_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._tournament_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._tournament_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._tournament_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._tournament_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._tournament_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._tournament_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._tournament_template$_compView_4.detectHostChanges$1(firstCheck);
         this._tournament_template$_compView_0.detectChanges$0();
+        this._tournament_template$_compView_2.detectChanges$0();
+        this._tournament_template$_compView_4.detectChanges$0();
       },
       destroyInternal$0: function() {
         this._tournament_template$_compView_0.destroy$0();
-        this._MaterialExpansionPanel_0_5._disposer.dispose$0();
+        this._tournament_template$_compView_2.destroy$0();
+        this._tournament_template$_compView_4.destroy$0();
+        this._tournament_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
       },
-      _handle_cancel_0_0$1: [function($$event) {
-        this.ctx.printString$1("Canceling!");
-      }, "call$1", "get$_handle_cancel_0_0", 4, 0, 2],
+      _tournament_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_tournament_template$_handle_trigger_2_0", 4, 0, 1],
+      _tournament_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_tournament_template$_handle_trigger_4_0", 4, 0, 1],
       $asAppView: function() {
         return [E.TournamentDetailComponent];
       }
@@ -37872,26 +42189,28 @@
     _ViewTournamentDetailComponentHost0: {
       "^": "AppView;0_tournament_template$_compView_0,0_TournamentDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var t1, t2, t3;
-        t1 = new A.ViewTournamentDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), this);
-        t2 = E.TournamentDetailComponent;
-        t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_1, 0, t2));
-        t3 = document.createElement("tournament-detail");
-        t1.rootEl = H.interceptedTypeCheck(t3, "$isHtmlElement");
-        t3 = $.ViewTournamentDetailComponent0__renderType;
-        if (t3 == null) {
-          t3 = $.appViewUtils;
-          t3 = t3.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$TournamentDetailComponent());
-          $.ViewTournamentDetailComponent0__renderType = t3;
+        var t1, t2, t3, t4;
+        t1 = P.String;
+        t2 = new A.ViewTournamentDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
+        t3 = E.TournamentDetailComponent;
+        t2.set$viewData(S.AppViewData_AppViewData(t2, 3, C.ViewType_1, 0, t3));
+        t4 = document.createElement("tournament-detail");
+        t2.rootEl = H.interceptedTypeCheck(t4, "$isHtmlElement");
+        t4 = $.ViewTournamentDetailComponent0__renderType;
+        if (t4 == null) {
+          t4 = $.appViewUtils;
+          t4 = t4.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$TournamentDetailComponent());
+          $.ViewTournamentDetailComponent0__renderType = t4;
         }
-        t1.setupComponentType$1(t3);
-        this._tournament_template$_compView_0 = t1;
-        this.rootEl = t1.rootEl;
-        t3 = new E.TournamentDetailComponent();
-        this._TournamentDetailComponent_0_5 = t3;
-        t1.create$2(0, t3, this.viewData.projectableNodes);
+        t2.setupComponentType$1(t4);
+        this._tournament_template$_compView_0 = t2;
+        this.rootEl = t2.rootEl;
+        t2 = new E.TournamentDetailComponent();
+        t2.set$_tournament$_buttonStreamer(new P._SyncBroadcastStreamController(null, null, 0, [t1]));
+        this._TournamentDetailComponent_0_5 = t2;
+        this._tournament_template$_compView_0.create$2(0, t2, this.viewData.projectableNodes);
         this.init0$1(this.rootEl);
-        return new D.ComponentRef(this, 0, this.rootEl, this._TournamentDetailComponent_0_5, [t2]);
+        return new D.ComponentRef(this, 0, this.rootEl, this._TournamentDetailComponent_0_5, [t3]);
       },
       detectChangesInternal$0: function() {
         var t1 = this.viewData._cdState;
@@ -37906,6 +42225,561 @@
         return [E.TournamentDetailComponent];
       }
     }
+  }], ["asset_angular_tour_of_heroes_lib_src_component_detailView_user_user.css.shim.dart", "package:angular_tour_of_heroes/src/component/detailView/user/user.css.shim.dart",, G, {}], ["", "package:angular_tour_of_heroes/src/component/detailView/user/user.dart",, N, {
+    "^": "",
+    UserDetailComponent: {
+      "^": "Object;0item>,0lockLevel,0_user$_buttonStreamer,_interopService,0barcodeSlot",
+      set$item: function(_, item) {
+        this.item = H.interceptedTypeCheck(item, "$isUser");
+      },
+      set$lockLevel: function(lockLevel) {
+        this.lockLevel = H.intTypeCheck(lockLevel);
+      },
+      set$_user$_buttonStreamer: function(_buttonStreamer) {
+        this._user$_buttonStreamer = H.assertSubtype(_buttonStreamer, "$isStreamController", [P.String], "$asStreamController");
+      },
+      set$barcodeSlot: function(barcodeSlot) {
+        this.barcodeSlot = H.interceptedTypeCheck(barcodeSlot, "$isMaterialInputComponent");
+      },
+      get$buttonStream: function() {
+        var t1 = this._user$_buttonStreamer;
+        return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
+      },
+      ngOnInit$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this, t1;
+        var $async$ngOnInit$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Current Item : " + H.S($async$self.item.name));
+                t1 = $async$self._interopService._barcodeStreamer;
+                t1.toString;
+                new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1($async$self.get$_barcodeStreamHandler());
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$ngOnInit$0, $async$completer);
+      },
+      buttonCall$2: function($event, cmd) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        this._user$_buttonStreamer.add$1(0, cmd);
+      },
+      _barcodeStreamHandler$1: [function(barcode) {
+        var t1;
+        H.interceptedTypeCheck(barcode, "$isBarcode");
+        t1 = this.barcodeSlot;
+        if (t1.focused && !t1._disabled)
+          this.item.key = barcode.value;
+      }, "call$1", "get$_barcodeStreamHandler", 4, 0, 173, 86],
+      startBarcodeReader$0: [function() {
+        if (!this.barcodeSlot._disabled) {
+          this._interopService.toString;
+          $.$get$context().$index(0, "videoStreamer").callMethod$2("start", []);
+        }
+      }, "call$0", "get$startBarcodeReader", 0, 0, 2],
+      stopBarcodeReader$0: [function() {
+        this._interopService.toString;
+        $.$get$context().$index(0, "videoStreamer").callMethod$2("stop", []);
+      }, "call$0", "get$stopBarcodeReader", 0, 0, 2]
+    }
+  }], ["", "package:angular_tour_of_heroes/src/component/detailView/user/user.template.dart",, F, {
+    "^": "",
+    viewFactory_UserDetailComponent1: [function(parentView, parentIndex) {
+      var t1 = new F._ViewUserDetailComponent1(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, N.UserDetailComponent));
+      t1.componentType = $.ViewUserDetailComponent0__renderType;
+      return t1;
+    }, "call$2", "user_template__viewFactory_UserDetailComponent1$closure", 8, 0, 68],
+    viewFactory_UserDetailComponentHost0: [function(parentView, parentIndex) {
+      var t1 = new F._ViewUserDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
+      t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, N.UserDetailComponent));
+      return t1;
+    }, "call$2", "user_template__viewFactory_UserDetailComponentHost0$closure", 8, 0, 68],
+    ViewUserDetailComponent0: {
+      "^": "AppView;0_user_template$_compView_1,0_user_template$_MaterialExpansionPanel_1_5,0_user_template$_compView_5,0_user_template$_DeferredValidator_5_5,0_user_template$_NgValidators_5_6,0_user_template$_NgModel_5_7,0_user_template$_NgControl_5_8,0_user_template$_MaterialInputComponent_5_9,0_user_template$_BaseMaterialInput_5_10,0_user_template$_MaterialInputDefaultValueAccessor_5_11,0_user_template$_compView_9,0_user_template$_DeferredValidator_9_5,0_user_template$_NgValidators_9_6,0_user_template$_NgModel_9_7,0_user_template$_NgControl_9_8,0_user_template$_MaterialInputComponent_9_9,0_user_template$_BaseMaterialInput_9_10,0_user_template$_MaterialInputDefaultValueAccessor_9_11,0_user_template$_compView_13,0_user_template$_DeferredValidator_13_5,0_user_template$_NgValidators_13_6,0_user_template$_NgModel_13_7,0_user_template$_NgControl_13_8,0_user_template$_MaterialInputComponent_13_9,0_user_template$_BaseMaterialInput_13_10,0_user_template$_MaterialInputDefaultValueAccessor_13_11,0_user_template$_appEl_14,0_user_template$_NgIf_14_9,0_user_template$_expr_4,0_user_template$_expr_6,0_user_template$_expr_9,0_user_template$_el_13,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var parentRenderNode, doc, _el_0, t1, _el_1, t2, t3, t4, t5, t6, t7, _el_2, _el_3, _el_5, _el_6, _el_7, _el_9, _el_10, _el_11, _anchor_14, subscription_0, subscription_1, subscription_2, subscription_3;
+        parentRenderNode = this.initViewRoot$1(this.rootEl);
+        doc = document;
+        _el_0 = S.createDivAndAppend(doc, parentRenderNode);
+        _el_0.className = "full_pad";
+        this.addShimC$1(_el_0);
+        t1 = D.ViewMaterialExpansionPanel0$(this, 1);
+        this._user_template$_compView_1 = t1;
+        _el_1 = t1.rootEl;
+        (_el_0 && C.DivElement_methods).append$1(_el_0, _el_1);
+        J.setAttribute$2$x(_el_1, "name", "Basic Information");
+        this.addShimC$1(_el_1);
+        t1 = this.parentView;
+        t2 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_NgZone_6ty, this.viewData.parentIndex), "$isNgZone");
+        t3 = this._user_template$_compView_1.viewData.ref;
+        t1 = H.interceptedTypeCheck(t1.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService");
+        t4 = [P.bool];
+        t5 = $.$get$MaterialExpansionPanel__msgSave();
+        t6 = $.$get$MaterialExpansionPanel__msgCancel();
+        t7 = [[L.AsyncAction, P.bool]];
+        t1 = new T.MaterialExpansionPanel(t2, t3, t1, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t4), new P._SyncBroadcastStreamController(null, null, 0, t4), false, false, false, false, false, false, false, false, true, true, false, t5, t6, new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7), new P._SyncBroadcastStreamController(null, null, 0, t7));
+        this._user_template$_MaterialExpansionPanel_1_5 = t1;
+        _el_2 = doc.createElement("div");
+        _el_2.className = "inlinediv";
+        H.interceptedTypeCheck(_el_2, "$isHtmlElement");
+        this.addShimC$1(_el_2);
+        _el_3 = S.createAndAppend(doc, "h4", _el_2);
+        this.addShimE$1(_el_3);
+        J.append$1$x(_el_3, doc.createTextNode("ID:"));
+        t1 = Q.ViewMaterialInputComponent0$(this, 5);
+        this._user_template$_compView_5 = t1;
+        _el_5 = t1.rootEl;
+        J.append$1$x(_el_2, _el_5);
+        J.setAttribute$2$x(_el_5, "placeholder", "-");
+        this.addShimC$1(_el_5);
+        t1 = [{func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}];
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._user_template$_DeferredValidator_5_5 = t2;
+        t2 = [t2];
+        this._user_template$_NgValidators_5_6 = t2;
+        t2 = U.NgModel$(t2, null);
+        this._user_template$_NgModel_5_7 = t2;
+        this._user_template$_NgControl_5_8 = t2;
+        t2 = L.MaterialInputComponent$(null, null, null, t2, this._user_template$_compView_5.viewData.ref, this._user_template$_DeferredValidator_5_5);
+        this._user_template$_MaterialInputComponent_5_9 = t2;
+        this._user_template$_BaseMaterialInput_5_10 = t2;
+        t3 = this._user_template$_NgControl_5_8;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t2, t3);
+        t4.BaseMaterialInputValueAccessor$2(t2, t3);
+        this._user_template$_MaterialInputDefaultValueAccessor_5_11 = t4;
+        this._user_template$_compView_5.create$2(0, this._user_template$_MaterialInputComponent_5_9, [C.List_empty, C.List_empty]);
+        _el_6 = doc.createElement("div");
+        _el_6.className = "inlinediv";
+        H.interceptedTypeCheck(_el_6, "$isHtmlElement");
+        this.addShimC$1(_el_6);
+        _el_7 = S.createAndAppend(doc, "h4", _el_6);
+        this.addShimE$1(_el_7);
+        J.append$1$x(_el_7, doc.createTextNode("Name:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 9);
+        this._user_template$_compView_9 = t2;
+        _el_9 = t2.rootEl;
+        J.append$1$x(_el_6, _el_9);
+        J.setAttribute$2$x(_el_9, "placeholder", "Name");
+        this.addShimC$1(_el_9);
+        t2 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._user_template$_DeferredValidator_9_5 = t2;
+        t2 = [t2];
+        this._user_template$_NgValidators_9_6 = t2;
+        t2 = U.NgModel$(t2, null);
+        this._user_template$_NgModel_9_7 = t2;
+        this._user_template$_NgControl_9_8 = t2;
+        t2 = L.MaterialInputComponent$(null, null, null, t2, this._user_template$_compView_9.viewData.ref, this._user_template$_DeferredValidator_9_5);
+        this._user_template$_MaterialInputComponent_9_9 = t2;
+        this._user_template$_BaseMaterialInput_9_10 = t2;
+        t3 = this._user_template$_NgControl_9_8;
+        t4 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t2, t3);
+        t4.BaseMaterialInputValueAccessor$2(t2, t3);
+        this._user_template$_MaterialInputDefaultValueAccessor_9_11 = t4;
+        this._user_template$_compView_9.create$2(0, this._user_template$_MaterialInputComponent_9_9, [C.List_empty, C.List_empty]);
+        _el_10 = doc.createElement("div");
+        _el_10.className = "inlinediv";
+        H.interceptedTypeCheck(_el_10, "$isHtmlElement");
+        this.addShimC$1(_el_10);
+        _el_11 = S.createAndAppend(doc, "h4", _el_10);
+        this.addShimE$1(_el_11);
+        J.append$1$x(_el_11, doc.createTextNode("Key:"));
+        t2 = Q.ViewMaterialInputComponent0$(this, 13);
+        this._user_template$_compView_13 = t2;
+        t2 = t2.rootEl;
+        this._user_template$_el_13 = t2;
+        J.append$1$x(_el_10, t2);
+        this._user_template$_el_13.className = Q.interpolate2("", "interop_fillable", " ", "themeable", "");
+        J.setAttribute$2$x(this._user_template$_el_13, "placeholder", "64-Bit Key");
+        this.addShimC$1(this._user_template$_el_13);
+        t1 = new L.DeferredValidator(H.setRuntimeTypeInfo([], t1));
+        this._user_template$_DeferredValidator_13_5 = t1;
+        t1 = [t1];
+        this._user_template$_NgValidators_13_6 = t1;
+        t1 = U.NgModel$(t1, null);
+        this._user_template$_NgModel_13_7 = t1;
+        this._user_template$_NgControl_13_8 = t1;
+        t1 = L.MaterialInputComponent$(null, null, null, t1, this._user_template$_compView_13.viewData.ref, this._user_template$_DeferredValidator_13_5);
+        this._user_template$_MaterialInputComponent_13_9 = t1;
+        this._user_template$_BaseMaterialInput_13_10 = t1;
+        t2 = this._user_template$_NgControl_13_8;
+        t3 = new Z.MaterialInputDefaultValueAccessor(new R.Disposer(true, false), t1, t2);
+        t3.BaseMaterialInputValueAccessor$2(t1, t2);
+        this._user_template$_MaterialInputDefaultValueAccessor_13_11 = t3;
+        this._user_template$_compView_13.create$2(0, this._user_template$_MaterialInputComponent_13_9, [C.List_empty, C.List_empty]);
+        this._user_template$_compView_1.create$2(0, this._user_template$_MaterialExpansionPanel_1_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_2, _el_6, _el_10], [W.Element]), C.List_empty]);
+        t3 = $.$get$_viewContainerAnchor();
+        _anchor_14 = H.interceptedTypeCheck((t3 && C.Comment_methods).clone$1(t3, false), "$isComment");
+        C.DivElement_methods.append$1(_el_0, _anchor_14);
+        t3 = new V.ViewContainer(14, 0, this, _anchor_14);
+        this._user_template$_appEl_14 = t3;
+        this._user_template$_NgIf_14_9 = new K.NgIf(new D.TemplateRef(t3, F.user_template__viewFactory_UserDetailComponent1$closure()), t3, false);
+        t3 = this._user_template$_NgModel_9_7._update;
+        t3.toString;
+        subscription_0 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_user_template$_handle_ngModelChange_9_0(), null, null));
+        t3 = this._user_template$_NgModel_13_7._update;
+        t3.toString;
+        subscription_1 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_ngModelChange_13_2(), null, null));
+        t3 = this._user_template$_MaterialInputComponent_13_9.FocusableMixin__onFocus;
+        t2 = W.FocusEvent;
+        subscription_2 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$startBarcodeReader(), t2));
+        t3 = this._user_template$_MaterialInputComponent_13_9._blurController;
+        subscription_3 = new P._BroadcastStream(t3, [H.getTypeArgumentByIndex(t3, 0)]).listen$1(this.eventHandler0$1$1(this.ctx.get$stopBarcodeReader(), t2));
+        this.ctx.set$barcodeSlot(this._user_template$_MaterialInputComponent_13_9);
+        this.init$2(C.List_empty, [subscription_0, subscription_1, subscription_2, subscription_3]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2, t3, t4, t5, t6;
+        t1 = token === C.Type_DeferredValidator_k2a;
+        if (t1 && 5 === nodeIndex)
+          return this._user_template$_DeferredValidator_5_5;
+        t2 = token === C.Type_NgModel_qx4;
+        if (t2 && 5 === nodeIndex)
+          return this._user_template$_NgModel_5_7;
+        t3 = token === C.Type_NgControl_GNi;
+        if (t3 && 5 === nodeIndex)
+          return this._user_template$_NgControl_5_8;
+        t4 = token !== C.Type_MaterialInputComponent_Arc;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 5 === nodeIndex)
+          return this._user_template$_MaterialInputComponent_5_9;
+        t5 = token === C.Type_BaseMaterialInput_ljM;
+        if (t5 && 5 === nodeIndex)
+          return this._user_template$_BaseMaterialInput_5_10;
+        t6 = token === C.Type_YIv;
+        if (t6 && 5 === nodeIndex)
+          return this._user_template$_MaterialInputDefaultValueAccessor_5_11;
+        if (t1 && 9 === nodeIndex)
+          return this._user_template$_DeferredValidator_9_5;
+        if (t2 && 9 === nodeIndex)
+          return this._user_template$_NgModel_9_7;
+        if (t3 && 9 === nodeIndex)
+          return this._user_template$_NgControl_9_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 9 === nodeIndex)
+          return this._user_template$_MaterialInputComponent_9_9;
+        if (t5 && 9 === nodeIndex)
+          return this._user_template$_BaseMaterialInput_9_10;
+        if (t6 && 9 === nodeIndex)
+          return this._user_template$_MaterialInputDefaultValueAccessor_9_11;
+        if (t1 && 13 === nodeIndex)
+          return this._user_template$_DeferredValidator_13_5;
+        if (t2 && 13 === nodeIndex)
+          return this._user_template$_NgModel_13_7;
+        if (t3 && 13 === nodeIndex)
+          return this._user_template$_NgControl_13_8;
+        if ((!t4 || token === C.Type_ReferenceDirective_i58 || token === C.Type_Focusable_adc || token === C.Type_HasDisabled_qzc) && 13 === nodeIndex)
+          return this._user_template$_MaterialInputComponent_13_9;
+        if (t5 && 13 === nodeIndex)
+          return this._user_template$_BaseMaterialInput_13_10;
+        if (t6 && 13 === nodeIndex)
+          return this._user_template$_MaterialInputDefaultValueAccessor_13_11;
+        if ((token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc) && 1 <= nodeIndex && nodeIndex <= 13)
+          return this._user_template$_MaterialExpansionPanel_1_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var _ctx, firstCheck, t1, changed, currVal_6, currVal_9, t2;
+        _ctx = this.ctx;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._user_template$_MaterialExpansionPanel_1_5;
+          t1.name = "Basic Information";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_1.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._user_template$_MaterialExpansionPanel_1_5.ngOnInit$0();
+        this._user_template$_NgModel_5_7.set$model(J.toString$0$(_ctx.item.id));
+        this._user_template$_NgModel_5_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._user_template$_NgModel_5_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        t1 = this._user_template$_expr_4;
+        if (t1 !== true) {
+          t1 = this._user_template$_MaterialInputComponent_5_9;
+          t1._disabled = true;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._user_template$_expr_4 = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_5.viewData.set$cdMode(1);
+        this._user_template$_NgModel_9_7.set$model(_ctx.item.name);
+        this._user_template$_NgModel_9_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._user_template$_NgModel_9_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_6 = t1 >= 2;
+        t1 = this._user_template$_expr_6;
+        if (t1 !== currVal_6) {
+          t1 = this._user_template$_MaterialInputComponent_9_9;
+          t1._disabled = currVal_6;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._user_template$_expr_6 = currVal_6;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_9.viewData.set$cdMode(1);
+        this._user_template$_NgModel_13_7.set$model(_ctx.item.key);
+        this._user_template$_NgModel_13_7.ngAfterChanges$0();
+        if (firstCheck)
+          this._user_template$_NgModel_13_7.ngOnInit$0();
+        t1 = _ctx.lockLevel;
+        if (typeof t1 !== "number")
+          return t1.$ge();
+        currVal_9 = t1 >= 1;
+        t1 = this._user_template$_expr_9;
+        if (t1 !== currVal_9) {
+          t1 = this._user_template$_MaterialInputComponent_13_9;
+          t1._disabled = currVal_9;
+          t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
+          this._user_template$_expr_9 = currVal_9;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_13.viewData.set$cdMode(1);
+        t1 = this._user_template$_NgIf_14_9;
+        t2 = _ctx.lockLevel;
+        if (typeof t2 !== "number")
+          return t2.$ge();
+        t1.set$ngIf(t2 >= 1);
+        this._user_template$_appEl_14.detectChangesInNestedViews$0();
+        if (firstCheck)
+          this.setAttr$3(this._user_template$_el_13, "maxlength", C.JSInt_methods.toString$0(40));
+        this._user_template$_compView_1.detectChanges$0();
+        this._user_template$_compView_5.detectChanges$0();
+        this._user_template$_compView_9.detectChanges$0();
+        this._user_template$_compView_13.detectChanges$0();
+        if (firstCheck) {
+          this._user_template$_MaterialInputComponent_5_9.ngAfterViewInit$0();
+          this._user_template$_MaterialInputComponent_9_9.ngAfterViewInit$0();
+          this._user_template$_MaterialInputComponent_13_9.ngAfterViewInit$0();
+        }
+      },
+      destroyInternal$0: function() {
+        this._user_template$_appEl_14.destroyNestedViews$0();
+        this._user_template$_compView_1.destroy$0();
+        this._user_template$_compView_5.destroy$0();
+        this._user_template$_compView_9.destroy$0();
+        this._user_template$_compView_13.destroy$0();
+        var t1 = this._user_template$_MaterialInputComponent_5_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._user_template$_MaterialInputDefaultValueAccessor_5_11.disposer.dispose$0();
+        t1 = this._user_template$_MaterialInputComponent_9_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._user_template$_MaterialInputDefaultValueAccessor_9_11.disposer.dispose$0();
+        t1 = this._user_template$_MaterialInputComponent_13_9;
+        t1.super$BaseMaterialInput$ngOnDestroy();
+        t1.inputEl = null;
+        t1.popupSourceEl = null;
+        this._user_template$_MaterialInputDefaultValueAccessor_13_11.disposer.dispose$0();
+        this._user_template$_MaterialExpansionPanel_1_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _user_template$_handle_ngModelChange_9_0$1: [function($$event) {
+        J.set$name$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_user_template$_handle_ngModelChange_9_0", 4, 0, 1],
+      _handle_ngModelChange_13_2$1: [function($$event) {
+        J.set$key$x(J.get$item$x(this.ctx), H.stringTypeCheck($$event));
+      }, "call$1", "get$_handle_ngModelChange_13_2", 4, 0, 1],
+      $asAppView: function() {
+        return [N.UserDetailComponent];
+      }
+    },
+    _ViewUserDetailComponent1: {
+      "^": "AppView;0_user_template$_compView_0,0_user_template$_MaterialExpansionPanel_0_5,0_user_template$_compView_2,0_user_template$_AcxDarkTheme_2_5,0_user_template$_MaterialButtonComponent_2_6,0_user_template$_compView_4,0_user_template$_AcxDarkTheme_4_5,0_user_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        t1 = D.ViewMaterialExpansionPanel0$(this, 0);
+        this._user_template$_compView_0 = t1;
+        _el_0 = t1.rootEl;
+        J.setAttribute$2$x(_el_0, "name", "Administration");
+        this.addShimC$1(_el_0);
+        t1 = this.parentView;
+        t2 = t1.parentView;
+        t3 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_NgZone_6ty, t1.viewData.parentIndex), "$isNgZone");
+        t4 = this._user_template$_compView_0.viewData.ref;
+        t5 = H.interceptedTypeCheck(t2.injectorGet$2(C.Type_DomService_2jN, t1.viewData.parentIndex), "$isDomService");
+        t6 = [P.bool];
+        t7 = $.$get$MaterialExpansionPanel__msgSave();
+        t8 = $.$get$MaterialExpansionPanel__msgCancel();
+        t9 = [[L.AsyncAction, P.bool]];
+        t3 = new T.MaterialExpansionPanel(t3, t4, t5, new R.Disposer(true, false), "expand_less", false, false, true, false, new P._SyncBroadcastStreamController(null, null, 0, t6), new P._SyncBroadcastStreamController(null, null, 0, t6), false, false, false, false, false, false, false, false, true, true, false, t7, t8, new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9), new P._SyncBroadcastStreamController(null, null, 0, t9));
+        this._user_template$_MaterialExpansionPanel_0_5 = t3;
+        doc = document;
+        _el_1 = doc.createElement("div");
+        _el_1.className = "vert_pad";
+        H.interceptedTypeCheck(_el_1, "$isHtmlElement");
+        this.addShimC$1(_el_1);
+        t3 = U.ViewMaterialButtonComponent0$(this, 2);
+        this._user_template$_compView_2 = t3;
+        _el_2 = t3.rootEl;
+        t3 = J.getInterceptor$x(_el_1);
+        t3.append$1(_el_1, _el_2);
+        _el_2.className = "danger_button";
+        J.setAttribute$2$x(_el_2, "raised", "");
+        this.addShimC$1(_el_2);
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._user_template$_AcxDarkTheme_2_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_2, t4, this._user_template$_compView_2.viewData.ref, null);
+        this._user_template$_MaterialButtonComponent_2_6 = t4;
+        _text_3 = doc.createTextNode("DELETE");
+        t5 = [W.Text];
+        this._user_template$_compView_2.create$2(0, t4, [H.setRuntimeTypeInfo([_text_3], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 4);
+        this._user_template$_compView_4 = t4;
+        _el_4 = t4.rootEl;
+        t3.append$1(_el_1, _el_4);
+        _el_4.className = "blue";
+        J.setAttribute$2$x(_el_4, "raised", "");
+        this.addShimC$1(_el_4);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._user_template$_AcxDarkTheme_4_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_4, t1, this._user_template$_compView_4.viewData.ref, null);
+        this._user_template$_MaterialButtonComponent_4_6 = t1;
+        _text_5 = doc.createTextNode("Clone");
+        this._user_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._user_template$_compView_0.create$2(0, this._user_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
+        t5 = this._user_template$_MaterialButtonComponent_2_6._trigger;
+        t1 = W.UIEvent;
+        subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_user_template$_handle_trigger_2_0(), t1, t1));
+        t5 = this._user_template$_MaterialButtonComponent_4_6._trigger;
+        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_user_template$_handle_trigger_4_0(), t1, t1))]);
+      },
+      injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
+        var t1, t2;
+        t1 = token === C.Type_AcxDarkTheme_Tng;
+        if (t1 && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._user_template$_AcxDarkTheme_2_5;
+        t2 = token !== C.Type_MaterialButtonComponent_xw8;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 2 <= nodeIndex && nodeIndex <= 3)
+          return this._user_template$_MaterialButtonComponent_2_6;
+        if (t1 && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._user_template$_AcxDarkTheme_4_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
+          return this._user_template$_MaterialButtonComponent_4_6;
+        if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
+          t1 = nodeIndex <= 5;
+        else
+          t1 = false;
+        if (t1)
+          return this._user_template$_MaterialExpansionPanel_0_5;
+        return notFoundResult;
+      },
+      detectChangesInternal$0: function() {
+        var firstCheck, t1, changed;
+        firstCheck = this.viewData._cdState === 0;
+        if (firstCheck) {
+          t1 = this._user_template$_MaterialExpansionPanel_0_5;
+          t1.name = "Administration";
+          t1.showSaveCancel = false;
+          t1.set$isExpanded(false);
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_0.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._user_template$_MaterialExpansionPanel_0_5.ngOnInit$0();
+        if (firstCheck) {
+          this._user_template$_MaterialButtonComponent_2_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_2.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._user_template$_MaterialButtonComponent_2_6.ngOnInit$0();
+        if (firstCheck) {
+          this._user_template$_MaterialButtonComponent_4_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._user_template$_compView_4.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._user_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        this._user_template$_compView_2.detectHostChanges$1(firstCheck);
+        this._user_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._user_template$_compView_0.detectChanges$0();
+        this._user_template$_compView_2.detectChanges$0();
+        this._user_template$_compView_4.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._user_template$_compView_0.destroy$0();
+        this._user_template$_compView_2.destroy$0();
+        this._user_template$_compView_4.destroy$0();
+        this._user_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
+      },
+      _user_template$_handle_trigger_2_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "delete");
+      }, "call$1", "get$_user_template$_handle_trigger_2_0", 4, 0, 1],
+      _user_template$_handle_trigger_4_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
+      }, "call$1", "get$_user_template$_handle_trigger_4_0", 4, 0, 1],
+      $asAppView: function() {
+        return [N.UserDetailComponent];
+      }
+    },
+    _ViewUserDetailComponentHost0: {
+      "^": "AppView;0_user_template$_compView_0,0_UserDetailComponent_0_5,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      build$0: function() {
+        var t1, t2, t3, t4;
+        t1 = P.String;
+        t2 = new F.ViewUserDetailComponent0(P.LinkedHashMap_LinkedHashMap$_empty(t1, null), this);
+        t3 = N.UserDetailComponent;
+        t2.set$viewData(S.AppViewData_AppViewData(t2, 3, C.ViewType_1, 0, t3));
+        t4 = document.createElement("user-detail");
+        t2.rootEl = H.interceptedTypeCheck(t4, "$isHtmlElement");
+        t4 = $.ViewUserDetailComponent0__renderType;
+        if (t4 == null) {
+          t4 = $.appViewUtils;
+          t4 = t4.createRenderType$3(null, C.ViewEncapsulation_0, $.$get$styles$UserDetailComponent());
+          $.ViewUserDetailComponent0__renderType = t4;
+        }
+        t2.setupComponentType$1(t4);
+        this._user_template$_compView_0 = t2;
+        this.rootEl = t2.rootEl;
+        t2 = new N.UserDetailComponent(H.interceptedTypeCheck(this.injectorGet$2(C.Type_InteropBarcodeService_P5u, this.viewData.parentIndex), "$isInteropBarcodeService"));
+        t2.set$_user$_buttonStreamer(new P._SyncBroadcastStreamController(null, null, 0, [t1]));
+        this._UserDetailComponent_0_5 = t2;
+        this._user_template$_compView_0.create$2(0, t2, this.viewData.projectableNodes);
+        this.init0$1(this.rootEl);
+        return new D.ComponentRef(this, 0, this.rootEl, this._UserDetailComponent_0_5, [t3]);
+      },
+      detectChangesInternal$0: function() {
+        var t1 = this.viewData._cdState;
+        if (t1 === 0)
+          this._UserDetailComponent_0_5.ngOnInit$0();
+        this._user_template$_compView_0.detectChanges$0();
+      },
+      destroyInternal$0: function() {
+        this._user_template$_compView_0.destroy$0();
+      },
+      $asAppView: function() {
+        return [N.UserDetailComponent];
+      }
+    }
   }], ["", "package:angular_tour_of_heroes/src/component/raisableMenu/raisable_menu_component.dart",, F, {
     "^": "",
     RaisableMenuComponent: {
@@ -37916,7 +42790,7 @@
       handleButtonClick$0: [function() {
         this.set$isExpanded(true);
         this._onTrigger.add$1(0, null);
-      }, "call$0", "get$handleButtonClick", 0, 0, 1],
+      }, "call$0", "get$handleButtonClick", 0, 0, 2],
       set$button: function(_, b) {
         this._button = b;
       },
@@ -37935,7 +42809,7 @@
       $isFocusable: 1
     },
     RaisableMenuComponent_ngAfterViewInit_closure: {
-      "^": "Closure:27;$this",
+      "^": "Closure:29;$this",
       call$1: [function(_) {
         var t1;
         H.boolTypeCheck(_);
@@ -37956,19 +42830,19 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent1$closure", 8, 0, 40],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent1$closure", 8, 0, 42],
     viewFactory_RaisableMenuComponent2: [function(parentView, parentIndex) {
       var t1 = new G._ViewRaisableMenuComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent2$closure", 8, 0, 40],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent2$closure", 8, 0, 42],
     viewFactory_RaisableMenuComponent3: [function(parentView, parentIndex) {
       var t1 = new G._ViewRaisableMenuComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure", 8, 0, 40],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure", 8, 0, 42],
     ViewRaisableMenuComponent0: {
       "^": "AppView;0_raisable_menu_component_template$_compView_0,0_raisable_menu_component_template$_appEl_0,0_AcxDarkTheme_0_8,0_MaterialButtonComponent_0_9,0_MaterialTooltipDirective_0_10,0_PopupSourceDirective_0_11,0__TooltipController_0_14,0_raisable_menu_component_template$_appEl_1,0_raisable_menu_component_template$_NgIf_1_9,0_raisable_menu_component_template$_appEl_2,0_raisable_menu_component_template$_NgIf_2_9,0_raisable_menu_component_template$_appEl_4,_query_MenuPopupComponent_1_1_isDirty,0_raisable_menu_component_template$_NgIf_4_9,0_raisable_menu_component_template$_expr_0,0_raisable_menu_component_template$_expr_1,0_raisable_menu_component_template$_expr_2,0_raisable_menu_component_template$_expr_3,0_raisable_menu_component_template$_expr_4,0_raisable_menu_component_template$_expr_5,0_raisable_menu_component_template$_expr_6,0_raisable_menu_component_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       get$_TooltipController_0_14: function() {
@@ -38298,7 +43172,7 @@
       },
       _handle_isExpandedChange_0_0$1: [function($$event) {
         this.ctx.set$isExpanded($$event);
-      }, "call$1", "get$_handle_isExpandedChange_0_0", 4, 0, 2],
+      }, "call$1", "get$_handle_isExpandedChange_0_0", 4, 0, 1],
       $asAppView: function() {
         return [F.RaisableMenuComponent];
       }
@@ -38348,7 +43222,7 @@
       onActivate$2: function(_, _0, current) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
-          $async$self = this, t1;
+          $async$self = this, t1, _serviceLoaded;
         var $async$onActivate$2 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -38360,26 +43234,68 @@
                 t1 = t1.$index(0, "type") == null ? null : J.trim$0$s(J.toString$0$(t1.$index(0, "type")));
                 $async$self._serviceName = t1;
                 switch (t1) {
+                  case "events":
+                    P.print("Loading event service...");
+                    $async$self._currentService = new Z.EventService();
+                    $async$self._currentFactory = C.ComponentFactory_ftt;
+                    _serviceLoaded = true;
+                    break;
                   case "tournaments":
                     P.print("Loading tournament service...");
                     $async$self._currentService = new G.TournamentService();
                     $async$self._currentFactory = C.ComponentFactory_OSt;
+                    _serviceLoaded = true;
+                    break;
+                  case "stages":
+                    P.print("Loading stage service...");
+                    $async$self._currentService = new L.StageService();
+                    $async$self._currentFactory = C.ComponentFactory_gOH;
+                    _serviceLoaded = true;
                     break;
                   case "matches":
                     P.print("Loading match service...");
                     $async$self._currentService = new Y.MatchService();
+                    $async$self._currentFactory = C.ComponentFactory_mJb;
+                    _serviceLoaded = true;
                     break;
-                  case "players":
-                    P.print("Loading player service...");
-                    $async$self._currentService = new R.PlayerService();
-                    $async$self._currentFactory = C.ComponentFactory_1mp;
+                  case "results":
+                    P.print("Loading result service...");
+                    $async$self._currentService = new S.ResultService();
+                    $async$self._currentFactory = C.ComponentFactory_qbf;
+                    _serviceLoaded = true;
+                    break;
+                  case "rounds":
+                    P.print("Loading round service...");
+                    $async$self._currentService = new U.RoundService();
+                    $async$self._currentFactory = C.ComponentFactory_MLc;
+                    _serviceLoaded = true;
+                    break;
+                  case "games":
+                    P.print("Loading game service...");
+                    $async$self._currentService = new L.GameService();
+                    $async$self._currentFactory = C.ComponentFactory_EyN;
+                    _serviceLoaded = true;
+                    break;
+                  case "entrants":
+                    P.print("Loading entrant service...");
+                    $async$self._currentService = new L.EntrantService();
+                    $async$self._currentFactory = C.ComponentFactory_UKi;
+                    _serviceLoaded = true;
+                    break;
+                  case "users":
+                    P.print("Loading user service...");
+                    $async$self._currentService = new D.UserService();
+                    $async$self._currentFactory = C.ComponentFactory_L97;
+                    _serviceLoaded = true;
                     break;
                   default:
                     C.Window_methods.alert$1(window, "Oops, that service doesn't seem to exist!");
                     P.print("Failed to find service... bad load!");
                     $async$self._router.navigate$1(0, $.$get$RoutePaths_dash().toUrl$0(0));
+                    _serviceLoaded = false;
                 }
-                $async$self._getServiceItems$0();
+                if (_serviceLoaded)
+                  $async$self._getServiceItems$0();
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
             }
@@ -38398,7 +43314,7 @@
       },
       onSearch$1: [function(_, $event) {
         return this.onSearch$body$TypeListComponent(_, H.interceptedTypeCheck($event, "$isEvent"));
-      }, "call$1", "get$onSearch", 5, 0, 36],
+      }, "call$1", "get$onSearch", 5, 0, 33],
       onSearch$body$TypeListComponent: function(_, $event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -38430,7 +43346,7 @@
       },
       onAddButton$1: [function($event) {
         return this.onAddButton$body$TypeListComponent(H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onAddButton", 4, 0, 21],
+      }, "call$1", "get$onAddButton", 4, 0, 25],
       onAddButton$body$TypeListComponent: function($event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -38462,7 +43378,7 @@
       },
       onCancel$1: [function(_, $event) {
         return this.onCancel$body$TypeListComponent(_, H.interceptedTypeCheck($event, "$isAsyncAction"));
-      }, "call$1", "get$onCancel", 5, 0, 46],
+      }, "call$1", "get$onCancel", 5, 0, 60],
       onCancel$body$TypeListComponent: function(_, $event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -38502,7 +43418,7 @@
       onConfirmDelete$0: [function() {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
-          $async$self = this, statusCode;
+          $async$self = this;
         var $async$onConfirmDelete$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -38516,27 +43432,24 @@
                 return P._asyncAwait($async$self._currentService.deleteById$1(H.intTypeCheck(J.get$id$x($async$self.selected))), $async$onConfirmDelete$0);
               case 2:
                 // returning from await.
-                statusCode = $async$result;
-                if (statusCode === 200) {
+                if ($async$result) {
                   J.removeWhere$1$ax($async$self.listItems, new L.TypeListComponent_onConfirmDelete_closure($async$self));
                   $async$self.selected = null;
-                } else {
+                } else
                   C.Window_methods.alert$1(window, "Couldn't finish deleting current item!");
-                  P.print("Status code: " + H.S(statusCode));
-                }
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
             }
         });
         return P._asyncStartSync($async$onConfirmDelete$0, $async$completer);
-      }, "call$0", "get$onConfirmDelete", 0, 0, 1],
+      }, "call$0", "get$onConfirmDelete", 0, 0, 2],
       onSave$1: [function($event) {
         return this.onSave$body$TypeListComponent(H.interceptedTypeCheck($event, "$isAsyncAction"));
-      }, "call$1", "get$onSave", 4, 0, 46],
+      }, "call$1", "get$onSave", 4, 0, 60],
       onSave$body$TypeListComponent: function($event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
-          $async$self = this, loadedItem, itemRef, indexPosition;
+          $async$self = this, loadedItem, t1, t2, newItem, indexPosition;
         var $async$onSave$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1)
             return P._asyncRethrow($async$result, $async$completer);
@@ -38546,50 +43459,35 @@
                 // Function start
                 P.print("Save requested...");
                 loadedItem = J.get$item$x($async$self.loadedComponent._component);
-                $async$goto = $async$self.mode === "add" ? 2 : 4;
+                t1 = $async$self.mode;
+                t2 = $async$self._currentService;
+                $async$goto = t1 === "add" ? 2 : 4;
                 break;
               case 2:
                 // then
-                $async$goto = loadedItem != null ? 5 : 7;
-                break;
+                $async$goto = 5;
+                return P._asyncAwait(t2.addByObject$1(loadedItem), $async$onSave$1);
               case 5:
-                // then
-                $async$goto = 8;
-                return P._asyncAwait($async$self._currentService.addByObject$1(loadedItem), $async$onSave$1);
-              case 8:
                 // returning from await.
-                itemRef = $async$result;
-                if (itemRef != null) {
-                  $async$self.mode = "edit";
-                  J.removeAt$1$ax($async$self.listItems, 0);
-                  J.insert$2$ax($async$self.listItems, 0, itemRef);
-                }
-                // goto join
-                $async$goto = 6;
-                break;
-              case 7:
-                // else
-                itemRef = null;
-              case 6:
-                // join
                 // goto join
                 $async$goto = 3;
                 break;
               case 4:
                 // else
-                $async$goto = 9;
-                return P._asyncAwait($async$self._currentService.updateByObject$1(loadedItem), $async$onSave$1);
-              case 9:
+                $async$goto = 6;
+                return P._asyncAwait(t2.updateByObject$1(loadedItem), $async$onSave$1);
+              case 6:
                 // returning from await.
-                itemRef = $async$result;
               case 3:
                 // join
-                if (itemRef == null)
+                newItem = $async$result;
+                if (newItem == null)
                   C.Window_methods.alert$1(window, "Couldn't finish current item save!");
                 else {
+                  $async$self.mode = "edit";
                   indexPosition = J.indexWhere$1$ax($async$self.listItems, new L.TypeListComponent_onSave_closure(loadedItem));
                   J.removeAt$1$ax($async$self.listItems, indexPosition);
-                  J.insert$2$ax($async$self.listItems, indexPosition, itemRef);
+                  J.insert$2$ax($async$self.listItems, indexPosition, newItem);
                 }
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
@@ -38599,7 +43497,7 @@
       },
       _childButtonListener$1: [function(cmd) {
         return this._childButtonListener$body$TypeListComponent(H.stringTypeCheck(cmd));
-      }, "call$1", "get$_childButtonListener", 4, 0, 60, 85],
+      }, "call$1", "get$_childButtonListener", 4, 0, 61, 87],
       _childButtonListener$body$TypeListComponent: function(cmd) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -38637,13 +43535,13 @@
       $isOnActivate: 1
     },
     TypeListComponent_onConfirmDelete_closure: {
-      "^": "Closure:25;$this",
+      "^": "Closure:20;$this",
       call$1: function(item) {
         return J.$eq$(J.get$id$x(item), J.get$id$x(this.$this.selected));
       }
     },
     TypeListComponent_onSave_closure: {
-      "^": "Closure:25;loadedItem",
+      "^": "Closure:20;loadedItem",
       call$1: function(element) {
         return J.$eq$(J.get$id$x(element), J.get$id$x(this.loadedItem));
       }
@@ -38669,32 +43567,32 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent3$closure", 8, 0, 24],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent3$closure", 8, 0, 28],
     viewFactory_TypeListComponent4: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponent4(P.LinkedHashMap_LinkedHashMap$_literal(["$implicit", null], P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent4$closure", 8, 0, 24],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent4$closure", 8, 0, 28],
     viewFactory_TypeListComponent5: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponent5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent5$closure", 8, 0, 24],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent5$closure", 8, 0, 28],
     viewFactory_TypeListComponent6: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponent6(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, L.TypeListComponent));
       t1.componentType = $.ViewTypeListComponent0__renderType;
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent6$closure", 8, 0, 24],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponent6$closure", 8, 0, 28],
     viewFactory_TypeListComponentHost0: [function(parentView, parentIndex) {
       var t1 = new Z._ViewTypeListComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, L.TypeListComponent));
       return t1;
-    }, "call$2", "type_list_component_template__viewFactory_TypeListComponentHost0$closure", 8, 0, 24],
+    }, "call$2", "type_list_component_template__viewFactory_TypeListComponentHost0$closure", 8, 0, 28],
     ViewTypeListComponent0: {
-      "^": "AppView;0_type_list_component_template$_compView_2,0_MaterialFabComponent_2_5,0_compView_3,0_MaterialIconComponent_3_5,0_type_list_component_template$_compView_7,0_DeferredValidator_7_5,0_MaterialInputComponent_7_6,0_BaseMaterialInput_7_7,0_MaterialInputDefaultValueAccessor_7_8,0__NgValidators_7_9,0_type_list_component_template$_compView_8,0_type_list_component_template$_AcxDarkTheme_8_5,0_type_list_component_template$_MaterialButtonComponent_8_6,0_type_list_component_template$_appEl_13,0_type_list_component_template$_NgIf_13_9,0_MaterialExpansionPanelSet_14_5,0_type_list_component_template$_appEl_15,_query_MaterialExpansionPanel_14_0_isDirty,_query_itemContainer_1_0_isDirty,0_NgFor_15_9,0_compView_16,0_ModalComponent_16_5,0_compView_17,0_MaterialDialogComponent_17_5,0_compView_25,0_AcxDarkTheme_25_5,0_MaterialButtonComponent_25_6,0_compView_27,0_AcxDarkTheme_27_5,0_MaterialButtonComponent_27_6,0_compView_29,0_ModalComponent_29_5,0_compView_30,0_MaterialDialogComponent_30_5,0_compView_38,0_AcxDarkTheme_38_5,0_MaterialButtonComponent_38_6,0_compView_40,0_AcxDarkTheme_40_5,0_MaterialButtonComponent_40_6,0_type_list_component_template$_expr_2,_type_list_component_template$_expr_3,_type_list_component_template$_expr_4,0_type_list_component_template$_expr_6,0_type_list_component_template$_expr_7,0_type_list_component_template$_expr_8,0_type_list_component_template$_expr_9,0_type_list_component_template$_expr_10,0_anchor_11,0_el_11_0,0_anchor_12,0_el_12_0,0_text_5,0_text_22,0_text_35,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_type_list_component_template$_compView_2,0_MaterialFabComponent_2_5,0_compView_3,0_MaterialIconComponent_3_5,0_type_list_component_template$_compView_7,0_DeferredValidator_7_5,0_MaterialInputComponent_7_6,0_BaseMaterialInput_7_7,0_MaterialInputDefaultValueAccessor_7_8,0__NgValidators_7_9,0_type_list_component_template$_compView_8,0_type_list_component_template$_AcxDarkTheme_8_5,0_type_list_component_template$_MaterialButtonComponent_8_6,0_type_list_component_template$_appEl_13,0_type_list_component_template$_NgIf_13_9,0_MaterialExpansionPanelSet_14_5,0_type_list_component_template$_appEl_15,_query_MaterialExpansionPanel_14_0_isDirty,_query_itemContainer_1_0_isDirty,0_NgFor_15_9,0_compView_16,0_ModalComponent_16_5,0_type_list_component_template$_compView_17,0_MaterialDialogComponent_17_5,0_type_list_component_template$_compView_25,0_AcxDarkTheme_25_5,0_MaterialButtonComponent_25_6,0_compView_27,0_AcxDarkTheme_27_5,0_MaterialButtonComponent_27_6,0_compView_29,0_ModalComponent_29_5,0_compView_30,0_MaterialDialogComponent_30_5,0_compView_38,0_AcxDarkTheme_38_5,0_MaterialButtonComponent_38_6,0_compView_40,0_AcxDarkTheme_40_5,0_MaterialButtonComponent_40_6,0_type_list_component_template$_expr_2,_type_list_component_template$_expr_3,_type_list_component_template$_expr_4,0_type_list_component_template$_expr_6,0_type_list_component_template$_expr_7,0_type_list_component_template$_expr_8,0_type_list_component_template$_expr_9,0_type_list_component_template$_expr_10,0_anchor_11,0_el_11_0,0_anchor_12,0_el_12_0,0_text_5,0_text_22,0_text_35,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
         var parentRenderNode, doc, _el_0, _el_1, t1, t2, _el_2, _el_3, _el_4, t3, t4, _el_6, _el_7, t5, _el_8, t6, _text_9, t7, t8, t9, _anchor_13, _el_14, _anchor_15, _el_16, _el_17, _el_18, _el_20, _el_24, _el_25, _text_26, _el_27, _text_28, _el_29, _el_30, _el_31, _el_33, _el_37, _el_38, _text_39, _el_40, _text_41, subscription_0, subscription_1, subscription_2, subscription_3;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
@@ -38812,12 +43710,12 @@
         t8 = D.ModalComponent$(H.interceptedTypeCheck(t3.injectorGet$2(C.Type_OverlayService_4iH, this.viewData.parentIndex), "$isOverlayService"), _el_16, H.interceptedTypeCheck(t3.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), H.interceptedTypeCheck(t3.injectorGet$3(C.Type_Modal_OjC, this.viewData.parentIndex, null), "$isModal"), H.interceptedTypeCheck(t3.injectorGet$3(C.Type_GlobalModalStack_QCS, this.viewData.parentIndex, null), "$isGlobalModalStack"));
         this._ModalComponent_16_5 = t8;
         t8 = Z.ViewMaterialDialogComponent0$(this, 17);
-        this._compView_17 = t8;
+        this._type_list_component_template$_compView_17 = t8;
         _el_17 = t8.rootEl;
         J.setAttribute$2$x(_el_17, "autofocus", "");
         _el_17.className = "max-height-dialog";
         this.addShimC$1(_el_17);
-        t8 = D.MaterialDialogComponent$(_el_17, H.interceptedTypeCheck(t3.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), this._compView_17.viewData.ref, this._ModalComponent_16_5);
+        t8 = D.MaterialDialogComponent$(_el_17, H.interceptedTypeCheck(t3.injectorGet$2(C.Type_DomService_2jN, this.viewData.parentIndex), "$isDomService"), this._type_list_component_template$_compView_17.viewData.ref, this._ModalComponent_16_5);
         this._MaterialDialogComponent_17_5 = t8;
         _el_18 = doc.createElement("h1");
         t8 = J.getInterceptor$x(_el_18);
@@ -38838,16 +43736,16 @@
         H.interceptedTypeCheck(_el_24, "$isHtmlElement");
         this.addShimC$1(_el_24);
         t9 = U.ViewMaterialButtonComponent0$(this, 25);
-        this._compView_25 = t9;
+        this._type_list_component_template$_compView_25 = t9;
         _el_25 = t9.rootEl;
         t8.append$1(_el_24, _el_25);
         this.addShimC$1(_el_25);
         t9 = F.AcxDarkTheme$(H.boolTypeCheck(t3.injectorGet$3(C.OpaqueToken_acxDarkTheme, this.viewData.parentIndex, null)));
         this._AcxDarkTheme_25_5 = t9;
-        t9 = B.MaterialButtonComponent$(_el_25, t9, this._compView_25.viewData.ref, null);
+        t9 = B.MaterialButtonComponent$(_el_25, t9, this._type_list_component_template$_compView_25.viewData.ref, null);
         this._MaterialButtonComponent_25_6 = t9;
         _text_26 = doc.createTextNode("Yes, Cancel");
-        this._compView_25.create$2(0, t9, [H.setRuntimeTypeInfo([_text_26], t7)]);
+        this._type_list_component_template$_compView_25.create$2(0, t9, [H.setRuntimeTypeInfo([_text_26], t7)]);
         t9 = U.ViewMaterialButtonComponent0$(this, 27);
         this._compView_27 = t9;
         _el_27 = t9.rootEl;
@@ -38861,7 +43759,7 @@
         _text_28 = doc.createTextNode("Go Back");
         this._compView_27.create$2(0, t8, [H.setRuntimeTypeInfo([_text_28], t7)]);
         t8 = [W.Element];
-        this._compView_17.create$2(0, this._MaterialDialogComponent_17_5, [H.setRuntimeTypeInfo([_el_18], t8), H.setRuntimeTypeInfo([_el_20], t8), H.setRuntimeTypeInfo([_el_24], t8)]);
+        this._type_list_component_template$_compView_17.create$2(0, this._MaterialDialogComponent_17_5, [H.setRuntimeTypeInfo([_el_18], t8), H.setRuntimeTypeInfo([_el_20], t8), H.setRuntimeTypeInfo([_el_24], t8)]);
         this._compView_16.create$2(0, this._ModalComponent_16_5, [H.setRuntimeTypeInfo([_el_17], t1)]);
         t9 = O.ViewModalComponent0$(this, 29);
         this._compView_29 = t9;
@@ -39146,7 +44044,7 @@
           this._text_22.textContent = currVal_8;
           this._type_list_component_template$_expr_8 = currVal_8;
         }
-        this._compView_25.detectHostChanges$1(firstCheck);
+        this._type_list_component_template$_compView_25.detectHostChanges$1(firstCheck);
         this._compView_27.detectHostChanges$1(firstCheck);
         this._compView_29.detectHostChanges$1(firstCheck);
         t1 = _ctx.selected;
@@ -39163,8 +44061,8 @@
         this._type_list_component_template$_compView_7.detectChanges$0();
         this._type_list_component_template$_compView_8.detectChanges$0();
         this._compView_16.detectChanges$0();
-        this._compView_17.detectChanges$0();
-        this._compView_25.detectChanges$0();
+        this._type_list_component_template$_compView_17.detectChanges$0();
+        this._type_list_component_template$_compView_25.detectChanges$0();
         this._compView_27.detectChanges$0();
         this._compView_29.detectChanges$0();
         this._compView_30.detectChanges$0();
@@ -39184,8 +44082,8 @@
         this._type_list_component_template$_compView_7.destroy$0();
         this._type_list_component_template$_compView_8.destroy$0();
         this._compView_16.destroy$0();
-        this._compView_17.destroy$0();
-        this._compView_25.destroy$0();
+        this._type_list_component_template$_compView_17.destroy$0();
+        this._type_list_component_template$_compView_25.destroy$0();
         this._compView_27.destroy$0();
         this._compView_29.destroy$0();
         this._compView_30.destroy$0();
@@ -39204,16 +44102,16 @@
       },
       _handle_input_7_0$1: [function($$event) {
         this.ctx.updateSearchText$1(H.stringTypeCheck(J.get$value$x(J.get$target$x($$event))));
-      }, "call$1", "get$_handle_input_7_0", 4, 0, 2],
+      }, "call$1", "get$_handle_input_7_0", 4, 0, 1],
       _handle_trigger_25_0$1: [function($$event) {
         this.ctx.onConfirmCancel$1(true);
-      }, "call$1", "get$_handle_trigger_25_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_25_0", 4, 0, 1],
       _handle_trigger_27_0$1: [function($$event) {
         this.ctx.onConfirmCancel$1(false);
-      }, "call$1", "get$_handle_trigger_27_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_27_0", 4, 0, 1],
       _handle_trigger_40_0$1: [function($$event) {
         this.ctx.set$deleteModalVisible(false);
-      }, "call$1", "get$_handle_trigger_40_0", 4, 0, 2],
+      }, "call$1", "get$_handle_trigger_40_0", 4, 0, 1],
       $asAppView: function() {
         return [L.TypeListComponent];
       }
@@ -39375,8 +44273,8 @@
         t1 = this._type_list_component_template$_expr_3;
         if (t1 !== currVal_3) {
           t1 = this._type_list_component_template$_MaterialExpansionPanel_0_5;
-          t1._disabled = currVal_3;
-          t1._changeDetector.appView.markPathToRootAsCheckOnce$0();
+          t1._material_expansionpanel$_disabled = currVal_3;
+          t1._material_expansionpanel$_changeDetector.appView.markPathToRootAsCheckOnce$0();
           this._type_list_component_template$_expr_3 = currVal_3;
           changed = true;
         }
@@ -39394,12 +44292,12 @@
       destroyInternal$0: function() {
         this._type_list_component_template$_appEl_1.destroyNestedViews$0();
         this._type_list_component_template$_compView_0.destroy$0();
-        this._type_list_component_template$_MaterialExpansionPanel_0_5._disposer.dispose$0();
+        this._type_list_component_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
       },
       _handle_expandedChange_0_0$1: [function($$event) {
         var local_item = this.locals.$index(0, "$implicit");
         this.ctx.changeHandler$2(H.boolTypeCheck($$event), local_item);
-      }, "call$1", "get$_handle_expandedChange_0_0", 4, 0, 2],
+      }, "call$1", "get$_handle_expandedChange_0_0", 4, 0, 1],
       $asAppView: function() {
         return [L.TypeListComponent];
       }
@@ -39480,126 +44378,90 @@
         return [L.TypeListComponent];
       }
     }
-  }], ["", "package:angular_tour_of_heroes/src/conf/route_paths.dart",, N, {}], ["", "package:angular_tour_of_heroes/src/conf/routes.dart",, T, {}], ["", "package:angular_tour_of_heroes/src/data/dash_sections.dart",, L, {}], ["", "package:angular_tour_of_heroes/src/data/mock_matches.dart",, G, {}], ["", "package:angular_tour_of_heroes/src/data/mock_tournaments.dart",, S, {}], ["", "package:angular_tour_of_heroes/src/service/interop_barcode_service.dart",, Y, {
+  }], ["", "package:angular_tour_of_heroes/src/routing/route_paths.dart",, N, {}], ["", "package:angular_tour_of_heroes/src/routing/routes.dart",, T, {}], ["", "package:angular_tour_of_heroes/src/service/entrant_service.dart",, L, {
     "^": "",
-    InteropBarcodeService: {
-      "^": "Object;0_barcodeStreamer",
-      set$_barcodeStreamer: function(_barcodeStreamer) {
-        this._barcodeStreamer = H.assertSubtype(_barcodeStreamer, "$isStreamController", [L.Barcode], "$asStreamController");
-      },
-      _acceptJsObject$1: [function(object) {
-        var barcode;
-        H.interceptedTypeCheck(object, "$isJsObject");
-        barcode = new L.Barcode();
-        P.print(object);
-        barcode.value = J.substring$1$s(J.toString$0$(object.$index(0, "BarcodeText")), 2);
-        this._barcodeStreamer.add$1(0, barcode);
-      }, "call$1", "get$_acceptJsObject", 4, 0, 180, 20]
-    }
-  }], ["", "package:angular_tour_of_heroes/src/service/match_service.dart",, Y, {
-    "^": "",
-    MatchService: {
+    EntrantService: {
       "^": "Object;",
-      addByObject$1: function(object) {
-        H.interceptedTypeCheck(object, "$isMatch0");
-        return;
-      },
-      updateByObject$1: function(object) {
-        H.interceptedTypeCheck(object, "$isMatch0");
-        return;
+      getNew$0: function() {
+        return new D.Entrant(0, 0, 0, "New");
       },
       getAll$0: function(_) {
         var $async$goto = 0,
-          $async$completer = P._makeAsyncAwaitCompleter([P.List, Y.Match0]),
-          $async$returnValue;
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, D.Entrant]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
         var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
-          if ($async$errorCode === 1)
-            return P._asyncRethrow($async$result, $async$completer);
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
           while (true)
             switch ($async$goto) {
               case 0:
                 // Function start
-                $async$returnValue = $.$get$mockMatches();
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.EntrantService_baseUrl + $.EntrantService_apiUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = D.Entrant;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new L.EntrantService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
                 // goto return
                 $async$goto = 1;
                 break;
               case 1:
                 // return
                 return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
             }
         });
         return P._asyncStartSync($async$getAll$0, $async$completer);
       },
-      searchFor$1: function(string) {
-        var $async$goto = 0,
-          $async$completer = P._makeAsyncAwaitCompleter([P.List, Y.Match0]),
-          $async$returnValue, $async$self = this, t1, $async$temp1;
-        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
-          if ($async$errorCode === 1)
-            return P._asyncRethrow($async$result, $async$completer);
-          while (true)
-            switch ($async$goto) {
-              case 0:
-                // Function start
-                t1 = {};
-                t1.testInt = null;
-                $async$temp1 = J;
-                $async$goto = 3;
-                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
-              case 3:
-                // returning from await.
-                $async$returnValue = $async$temp1.where$1$ax($async$result, new Y.MatchService_searchFor_closure(t1, string)).toList$0(0);
-                // goto return
-                $async$goto = 1;
-                break;
-              case 1:
-                // return
-                return P._asyncReturn($async$returnValue, $async$completer);
-            }
-        });
-        return P._asyncStartSync($async$searchFor$1, $async$completer);
-      },
-      deleteById$1: function(id) {
-        return;
-      },
-      getNew$0: function() {
-        return new Y.Match0(0, "New");
-      },
-      $isDetailListService: 1,
-      $asDetailListService: function() {
-        return [Y.Match0];
-      }
-    },
-    MatchService_searchFor_closure: {
-      "^": "Closure:181;_box_0,string",
-      call$1: function(match) {
-        var t1, testInt;
-        H.interceptedTypeCheck(match, "$isMatch0");
-        t1 = this.string;
-        testInt = H.Primitives_parseInt(t1, null);
-        this._box_0.testInt = testInt;
-        if (testInt != null)
-          if (match.id === testInt)
-            return true;
-        return C.JSString_methods.contains$1(match.name.toLowerCase(), t1.toLowerCase());
-      }
-    }
-  }], ["", "package:angular_tour_of_heroes/src/service/player_service.dart",, R, {
-    "^": "",
-    PlayerService: {
-      "^": "Object;",
-      updateByObject$1: function(object) {
-        H.interceptedTypeCheck(object, "$isPlayer");
-        return;
-      },
       addByObject$1: function(object) {
-        H.interceptedTypeCheck(object, "$isPlayer");
-        return this.addByObject$body$PlayerService(object);
+        H.interceptedTypeCheck(object, "$isEntrant");
+        return this.addByObject$body$EntrantService(object);
       },
-      addByObject$body$PlayerService: function(object) {
+      addByObject$body$EntrantService: function(object) {
         var $async$goto = 0,
-          $async$completer = P._makeAsyncAwaitCompleter(Q.Player),
-          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], client, url, jsonBody, response, jsonData, e, t1, exception, $async$exception;
+          $async$completer = P._makeAsyncAwaitCompleter(D.Entrant),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
         var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1) {
             $async$currentError = $async$result;
@@ -39609,16 +44471,12 @@
             switch ($async$goto) {
               case 0:
                 // Function start
-                client = new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false);
-                url = "http://localhost:8080/v1/user/add";
-                P.print("Adding: " + H.S(J.get$name$x(object)));
-                P.print("Key: " + H.S(J.get$key$x(object)));
                 t1 = P.String;
-                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "Key", J.get$key$x(object)], t1, t1));
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "EventId", object.get$eventId(), "OwnerId", object.get$ownerId()], t1, P.Object));
                 P.print(jsonBody);
                 $async$handler = 4;
                 $async$goto = 7;
-                return P._asyncAwait(client._sendUnstreamed$5("POST", url, H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.EntrantService_baseUrl + $.EntrantService_apiUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
               case 7:
                 // returning from await.
                 response = $async$result;
@@ -39627,16 +44485,19 @@
                   t1 = response;
                   jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
                   P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
-                  t1 = new Q.Player(0, "New");
+                  t1 = new D.Entrant(0, 0, 0, "New");
                   t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
                   t1.name = H.stringTypeCheck(J.get$name$x(object));
-                  t1.key = H.stringTypeCheck(J.get$key$x(object));
+                  t1.eventId = object.get$eventId();
+                  t1.ownerId = object.get$ownerId();
                   $async$returnValue = t1;
                   // goto return
                   $async$goto = 1;
                   break;
-                } else
-                  P.print("Error, code: " + H.S(J.get$statusCode$z(response)));
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
                 $async$handler = 2;
                 // goto after finally
                 $async$goto = 6;
@@ -39670,78 +44531,16 @@
         });
         return P._asyncStartSync($async$addByObject$1, $async$completer);
       },
-      getAll$0: function(_) {
-        var $async$goto = 0,
-          $async$completer = P._makeAsyncAwaitCompleter([P.List, Q.Player]),
-          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], client, url, response, jsonList, playerList, e, t1, exception, $async$exception;
-        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
-          if ($async$errorCode === 1) {
-            $async$currentError = $async$result;
-            $async$goto = $async$handler;
-          }
-          while (true)
-            switch ($async$goto) {
-              case 0:
-                // Function start
-                client = new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false);
-                url = "http://localhost:8080/v1/user/find/*";
-                $async$handler = 4;
-                $async$goto = 7;
-                return P._asyncAwait(client._sendUnstreamed$3("GET", url, null), $async$getAll$0);
-              case 7:
-                // returning from await.
-                response = $async$result;
-                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
-                t1 = response;
-                jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
-                t1 = Q.Player;
-                playerList = H.setRuntimeTypeInfo([], [t1]);
-                if (jsonList != null)
-                  playerList = J.map$1$1$ax(jsonList, new R.PlayerService_getAll_closure(), t1).toList$0(0);
-                t1 = playerList;
-                $async$returnValue = t1;
-                // goto return
-                $async$goto = 1;
-                break;
-                $async$handler = 2;
-                // goto after finally
-                $async$goto = 6;
-                break;
-              case 4:
-                // catch
-                $async$handler = 3;
-                $async$exception = $async$currentError;
-                e = H.unwrapException($async$exception);
-                P.print("Error: " + H.S(J.toString$0$(e)));
-                // goto return
-                $async$goto = 1;
-                break;
-                // goto after finally
-                $async$goto = 6;
-                break;
-              case 3:
-                // uncaught
-                // goto rethrow
-                $async$goto = 2;
-                break;
-              case 6:
-                // after finally
-              case 1:
-                // return
-                return P._asyncReturn($async$returnValue, $async$completer);
-              case 2:
-                // rethrow
-                return P._asyncRethrow($async$currentError, $async$completer);
-            }
-        });
-        return P._asyncStartSync($async$getAll$0, $async$completer);
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isEntrant");
+        return;
       },
       searchFor$1: function(string) {
-        return this.searchFor$body$PlayerService(string);
+        return this.searchFor$body$EntrantService(string);
       },
-      searchFor$body$PlayerService: function(string) {
+      searchFor$body$EntrantService: function(string) {
         var $async$goto = 0,
-          $async$completer = P._makeAsyncAwaitCompleter([P.List, Q.Player]),
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, D.Entrant]),
           $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], $async$self = this, t1, e, exception, $async$exception, $async$temp1;
         var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1) {
@@ -39760,7 +44559,7 @@
                 return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
               case 7:
                 // returning from await.
-                t1 = $async$temp1.where$1$ax($async$result, new R.PlayerService_searchFor_closure(t1, string)).toList$0(0);
+                t1 = $async$temp1.where$1$ax($async$result, new L.EntrantService_searchFor_closure(t1, string)).toList$0(0);
                 $async$returnValue = t1;
                 // goto return
                 $async$goto = 1;
@@ -39799,9 +44598,12 @@
         return P._asyncStartSync($async$searchFor$1, $async$completer);
       },
       deleteById$1: function(id) {
+        return this.deleteById$body$EntrantService(id);
+      },
+      deleteById$body$EntrantService: function(id) {
         var $async$goto = 0,
-          $async$completer = P._makeAsyncAwaitCompleter(P.int),
-          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], client, url, response, e, t1, exception, $async$exception;
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
         var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
           if ($async$errorCode === 1) {
             $async$currentError = $async$result;
@@ -39812,17 +44614,562 @@
               case 0:
                 // Function start
                 P.print("Deleting: " + H.S(id));
-                client = new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false);
-                url = "http://localhost:8080/v1/user/";
-                url = J.$add$ansx(url, J.toString$0$(id));
                 $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
                 $async$goto = 7;
-                return P._asyncAwait(client._sendUnstreamed$3("DELETE", url, null), $async$deleteById$1);
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.EntrantService_baseUrl + $.EntrantService_apiUrl + t2, null), $async$deleteById$1);
               case 7:
                 // returning from await.
                 response = $async$result;
                 P.print("Response status: " + H.S(J.get$statusCode$z(response)));
-                t1 = J.get$statusCode$z(response);
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [D.Entrant];
+      }
+    },
+    EntrantService_getAll_closure: {
+      "^": "Closure:180;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new D.Entrant(0, 0, 0, "New");
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
+        t1.eventId = H.intTypeCheck(t2.$index(item, "EventId"));
+        t1.ownerId = H.intTypeCheck(t2.$index(item, "OwnerId"));
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    },
+    EntrantService_searchFor_closure: {
+      "^": "Closure:181;_box_0,string",
+      call$1: function(player) {
+        var t1, testInt, t2, t3;
+        H.interceptedTypeCheck(player, "$isEntrant");
+        t1 = this.string;
+        testInt = H.Primitives_parseInt(t1, null);
+        t2 = this._box_0;
+        t2.testInt = testInt;
+        if (testInt != null) {
+          t3 = J.get$id$x(player);
+          t2 = t2.testInt;
+          if (t3 == null ? t2 == null : t3 === t2)
+            return true;
+        }
+        return C.JSString_methods.contains$1(J.get$name$x(player).toLowerCase(), t1.toLowerCase());
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/event_service.dart",, Z, {
+    "^": "",
+    EventService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new X.Event0(0, 0, "New");
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, X.Event0]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, tournamentList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.EventService_baseUrl + $.EventService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = X.Event0;
+                  tournamentList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    tournamentList = J.map$1$1$ax(jsonList, new Z.EventService_getAll_closure(), t1).toList$0(0);
+                  t1 = tournamentList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isEvent0");
+        return this.addByObject$body$EventService(object);
+      },
+      addByObject$body$EventService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(X.Event0),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "OwnerId", object.get$ownerId()], t1, P.Object));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.EventService_baseUrl + $.EventService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new X.Event0(0, 0, "New");
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.name = H.stringTypeCheck(J.get$name$x(object));
+                  t1.ownerId = object.get$ownerId();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isEvent0");
+        return;
+      },
+      searchFor$1: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, X.Event0]),
+          $async$returnValue, $async$self = this, t1, $async$temp1;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = {};
+                t1.testInt = null;
+                $async$temp1 = J;
+                $async$goto = 3;
+                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
+              case 3:
+                // returning from await.
+                $async$returnValue = $async$temp1.where$1$ax($async$result, new Z.EventService_searchFor_closure(t1, string)).toList$0(0);
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
+      },
+      deleteById$1: function(id) {
+        return this.deleteById$body$EventService(id);
+      },
+      deleteById$body$EventService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.EventService_baseUrl + $.EventService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [X.Event0];
+      }
+    },
+    EventService_getAll_closure: {
+      "^": "Closure:182;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new X.Event0(0, 0, "New");
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
+        t1.ownerId = H.intTypeCheck(t2.$index(item, "OwnerId"));
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    },
+    EventService_searchFor_closure: {
+      "^": "Closure:183;_box_0,string",
+      call$1: function(tournament) {
+        var t1, testInt;
+        H.interceptedTypeCheck(tournament, "$isEvent0");
+        t1 = this.string;
+        testInt = H.Primitives_parseInt(t1, null);
+        this._box_0.testInt = testInt;
+        if (testInt != null)
+          if (tournament.id === testInt)
+            return true;
+        return C.JSString_methods.contains$1(tournament.name.toLowerCase(), t1.toLowerCase());
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/game_service.dart",, L, {
+    "^": "",
+    GameService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new D.Game(0, 0, 0);
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, D.Game]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.GameService_baseUrl + $.GameService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = D.Game;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new L.GameService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isGame");
+        return this.addByObject$body$GameService(object);
+      },
+      addByObject$body$GameService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(D.Game),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["OwnerId", object.get$ownerId(), "MatchId", object.get$matchId()], t1, P.int));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.GameService_baseUrl + $.GameService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new D.Game(0, 0, 0);
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.ownerId = object.get$ownerId();
+                  t1.matchId = object.get$matchId();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isGame");
+        return;
+      },
+      searchFor$1: function(string) {
+        return this.searchFor$body$GameService(string);
+      },
+      searchFor$body$GameService: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, D.Game]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], $async$self = this, t1, e, exception, $async$exception, $async$temp1;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = {};
+                t1.testInt = null;
+                $async$handler = 4;
+                $async$temp1 = J;
+                $async$goto = 7;
+                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
+              case 7:
+                // returning from await.
+                t1 = $async$temp1.where$1$ax($async$result, new L.GameService_searchFor_closure(t1, string)).toList$0(0);
                 $async$returnValue = t1;
                 // goto return
                 $async$goto = 1;
@@ -39858,33 +45205,1352 @@
                 return P._asyncRethrow($async$currentError, $async$completer);
             }
         });
-        return P._asyncStartSync($async$deleteById$1, $async$completer);
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
       },
-      getNew$0: function() {
-        return new Q.Player(0, "New");
+      deleteById$1: function(id) {
+        return this.deleteById$body$GameService(id);
+      },
+      deleteById$body$GameService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.GameService_baseUrl + $.GameService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
       },
       $isDetailListService: 1,
       $asDetailListService: function() {
-        return [Q.Player];
+        return [D.Game];
       }
     },
-    PlayerService_getAll_closure: {
-      "^": "Closure:182;",
+    GameService_getAll_closure: {
+      "^": "Closure:184;",
+      call$1: [function(object) {
+        var t1, t2;
+        t1 = new D.Game(0, 0, 0);
+        t2 = J.getInterceptor$asx(object);
+        t1.id = H.intTypeCheck(t2.$index(object, "Id"));
+        t1.ownerId = H.intTypeCheck(t2.$index(object, "OwnerId"));
+        t1.matchId = H.intTypeCheck(t2.$index(object, "MatchId"));
+        return t1;
+      }, null, null, 4, 0, null, 16, "call"]
+    },
+    GameService_searchFor_closure: {
+      "^": "Closure:185;_box_0,string",
+      call$1: function(game) {
+        var testInt, t1, t2;
+        H.interceptedTypeCheck(game, "$isGame");
+        testInt = H.Primitives_parseInt(this.string, null);
+        t1 = this._box_0;
+        t1.testInt = testInt;
+        if (testInt != null) {
+          t2 = J.get$id$x(game);
+          t1 = t1.testInt;
+          if (t2 == null ? t1 == null : t2 === t1)
+            return true;
+        }
+        return false;
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/interop_barcode_service.dart",, Y, {
+    "^": "",
+    InteropBarcodeService: {
+      "^": "Object;0_barcodeStreamer",
+      set$_barcodeStreamer: function(_barcodeStreamer) {
+        this._barcodeStreamer = H.assertSubtype(_barcodeStreamer, "$isStreamController", [L.Barcode], "$asStreamController");
+      },
+      _acceptJsObject$1: [function(object) {
+        var barcode = new L.Barcode();
+        barcode.value = J.substring$1$s(J.toString$0$(H.interceptedTypeCheck(object, "$isJsObject").$index(0, "BarcodeText")), 2);
+        this._barcodeStreamer.add$1(0, barcode);
+      }, "call$1", "get$_acceptJsObject", 4, 0, 186, 16]
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/match_service.dart",, Y, {
+    "^": "",
+    MatchService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new Y.Match0(0, 0, "New");
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, Y.Match0]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.MatchService_baseUrl + $.MatchService_apiUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = Y.Match0;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new Y.MatchService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isMatch0");
+        return this.addByObject$body$MatchService(object);
+      },
+      addByObject$body$MatchService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(Y.Match0),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "RoundId", object.get$roundId()], t1, P.Object));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.MatchService_baseUrl + $.MatchService_apiUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new Y.Match0(0, 0, "New");
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.name = H.stringTypeCheck(J.get$name$x(object));
+                  t1.roundId = object.get$roundId();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isMatch0");
+        return;
+      },
+      searchFor$1: function(string) {
+        return this.searchFor$body$MatchService(string);
+      },
+      searchFor$body$MatchService: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, Y.Match0]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], $async$self = this, t1, e, exception, $async$exception, $async$temp1;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = {};
+                t1.testInt = null;
+                $async$handler = 4;
+                $async$temp1 = J;
+                $async$goto = 7;
+                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
+              case 7:
+                // returning from await.
+                t1 = $async$temp1.where$1$ax($async$result, new Y.MatchService_searchFor_closure(t1, string)).toList$0(0);
+                $async$returnValue = t1;
+                // goto return
+                $async$goto = 1;
+                break;
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto return
+                $async$goto = 1;
+                break;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
+      },
+      deleteById$1: function(id) {
+        return this.deleteById$body$MatchService(id);
+      },
+      deleteById$body$MatchService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.MatchService_baseUrl + $.MatchService_apiUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [Y.Match0];
+      }
+    },
+    MatchService_getAll_closure: {
+      "^": "Closure:187;",
       call$1: [function(item) {
         var t1, t2;
-        t1 = new Q.Player(0, "New");
+        t1 = new Y.Match0(0, 0, "New");
         t2 = J.getInterceptor$asx(item);
         t1.id = H.intTypeCheck(t2.$index(item, "Id"));
         t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
-        t1.key = H.stringTypeCheck(t2.$index(item, "Key"));
+        t1.roundId = H.intTypeCheck(t2.$index(item, "RoundId"));
         return t1;
-      }, null, null, 4, 0, null, 22, "call"]
+      }, null, null, 4, 0, null, 5, "call"]
     },
-    PlayerService_searchFor_closure: {
-      "^": "Closure:183;_box_0,string",
+    MatchService_searchFor_closure: {
+      "^": "Closure:188;_box_0,string",
       call$1: function(player) {
         var t1, testInt, t2, t3;
-        H.interceptedTypeCheck(player, "$isPlayer");
+        H.interceptedTypeCheck(player, "$isMatch0");
+        t1 = this.string;
+        testInt = H.Primitives_parseInt(t1, null);
+        t2 = this._box_0;
+        t2.testInt = testInt;
+        if (testInt != null) {
+          t3 = J.get$id$x(player);
+          t2 = t2.testInt;
+          if (t3 == null ? t2 == null : t3 === t2)
+            return true;
+        }
+        return C.JSString_methods.contains$1(J.get$name$x(player).toLowerCase(), t1.toLowerCase());
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/result_service.dart",, S, {
+    "^": "",
+    ResultService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new E.Result(0, 0, 0, "none");
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, E.Result]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.ResultService_baseUrl + $.ResultService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = E.Result;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new S.ResultService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isResult");
+        return this.addByObject$body$ResultService(object);
+      },
+      addByObject$body$ResultService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(E.Result),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["OwnerId", object.get$ownerId(), "MatchId", object.get$matchId(), "Notes", object.get$notes()], t1, P.Object));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.ResultService_baseUrl + $.ResultService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new E.Result(0, 0, 0, "none");
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.ownerId = object.get$ownerId();
+                  t1.matchId = object.get$matchId();
+                  t1.notes = object.get$notes();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isResult");
+        return;
+      },
+      searchFor$1: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, E.Result]),
+          $async$returnValue;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
+      },
+      deleteById$1: function(id) {
+        return this.deleteById$body$ResultService(id);
+      },
+      deleteById$body$ResultService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.ResultService_baseUrl + $.ResultService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [E.Result];
+      }
+    },
+    ResultService_getAll_closure: {
+      "^": "Closure:189;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new E.Result(0, 0, 0, "none");
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.ownerId = H.intTypeCheck(t2.$index(item, "OwnerId"));
+        t1.matchId = H.intTypeCheck(t2.$index(item, "MatchId"));
+        t1.notes = H.stringTypeCheck(t2.$index(item, "Notes"));
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/round_service.dart",, U, {
+    "^": "",
+    RoundService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new R.Round(0, 0, "New");
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, R.Round]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.RoundService_baseUrl + $.RoundService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = R.Round;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new U.RoundService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isRound");
+        return this.addByObject$body$RoundService(object);
+      },
+      addByObject$body$RoundService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(R.Round),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "StageId", object.get$stageId()], t1, P.Object));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.RoundService_baseUrl + $.RoundService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new R.Round(0, 0, "New");
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.name = H.stringTypeCheck(J.get$name$x(object));
+                  t1.stageId = object.get$stageId();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isRound");
+        return;
+      },
+      searchFor$1: function(string) {
+        return this.searchFor$body$RoundService(string);
+      },
+      searchFor$body$RoundService: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, R.Round]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], $async$self = this, t1, e, exception, $async$exception, $async$temp1;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = {};
+                t1.testInt = null;
+                $async$handler = 4;
+                $async$temp1 = J;
+                $async$goto = 7;
+                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
+              case 7:
+                // returning from await.
+                t1 = $async$temp1.where$1$ax($async$result, new U.RoundService_searchFor_closure(t1, string)).toList$0(0);
+                $async$returnValue = t1;
+                // goto return
+                $async$goto = 1;
+                break;
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto return
+                $async$goto = 1;
+                break;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
+      },
+      deleteById$1: function(id) {
+        return this.deleteById$body$RoundService(id);
+      },
+      deleteById$body$RoundService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.RoundService_baseUrl + $.RoundService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [R.Round];
+      }
+    },
+    RoundService_getAll_closure: {
+      "^": "Closure:190;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new R.Round(0, 0, "New");
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
+        t1.stageId = H.intTypeCheck(t2.$index(item, "StageId"));
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    },
+    RoundService_searchFor_closure: {
+      "^": "Closure:191;_box_0,string",
+      call$1: function(player) {
+        var t1, testInt, t2, t3;
+        H.interceptedTypeCheck(player, "$isRound");
+        t1 = this.string;
+        testInt = H.Primitives_parseInt(t1, null);
+        t2 = this._box_0;
+        t2.testInt = testInt;
+        if (testInt != null) {
+          t3 = J.get$id$x(player);
+          t2 = t2.testInt;
+          if (t3 == null ? t2 == null : t3 === t2)
+            return true;
+        }
+        return C.JSString_methods.contains$1(J.get$name$x(player).toLowerCase(), t1.toLowerCase());
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/service/stage_service.dart",, L, {
+    "^": "",
+    StageService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new L.Stage(0, 0, 0, 100, 10, "New");
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, L.Stage]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.StageService_baseUrl + $.StageService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = L.Stage;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new L.StageService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isStage");
+        return this.addByObject$body$StageService(object);
+      },
+      addByObject$body$StageService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(L.Stage),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "OwnerId", object.get$ownerId(), "TournamentId", object.get$tournamentId(), "MaxEntrants", object.get$maxEntrants(), "MaxRounds", object.get$maxRounds()], t1, P.Object));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.StageService_baseUrl + $.StageService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new L.Stage(0, 0, 0, 100, 10, "New");
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.name = H.stringTypeCheck(J.get$name$x(object));
+                  t1.ownerId = object.get$ownerId();
+                  t1.tournamentId = object.get$tournamentId();
+                  t1.maxEntrants = object.get$maxEntrants();
+                  t1.maxRounds = object.get$maxRounds();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isStage");
+        return;
+      },
+      searchFor$1: function(string) {
+        return this.searchFor$body$StageService(string);
+      },
+      searchFor$body$StageService: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, L.Stage]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], $async$self = this, t1, e, exception, $async$exception, $async$temp1;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = {};
+                t1.testInt = null;
+                $async$handler = 4;
+                $async$temp1 = J;
+                $async$goto = 7;
+                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
+              case 7:
+                // returning from await.
+                t1 = $async$temp1.where$1$ax($async$result, new L.StageService_searchFor_closure(t1, string)).toList$0(0);
+                $async$returnValue = t1;
+                // goto return
+                $async$goto = 1;
+                break;
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto return
+                $async$goto = 1;
+                break;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
+      },
+      deleteById$1: function(id) {
+        return this.deleteById$body$StageService(id);
+      },
+      deleteById$body$StageService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.StageService_baseUrl + $.StageService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [L.Stage];
+      }
+    },
+    StageService_getAll_closure: {
+      "^": "Closure:192;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new L.Stage(0, 0, 0, 100, 10, "New");
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
+        t1.ownerId = H.intTypeCheck(t2.$index(item, "StageId"));
+        t1.tournamentId = H.intTypeCheck(t2.$index(item, "TournamentId"));
+        t1.maxEntrants = H.intTypeCheck(t2.$index(item, "MaxEntrants"));
+        t1.maxRounds = H.intTypeCheck(t2.$index(item, "MaxRounds"));
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    },
+    StageService_searchFor_closure: {
+      "^": "Closure:193;_box_0,string",
+      call$1: function(player) {
+        var t1, testInt, t2, t3;
+        H.interceptedTypeCheck(player, "$isStage");
         t1 = this.string;
         testInt = H.Primitives_parseInt(t1, null);
         t2 = this._box_0;
@@ -39902,31 +46568,155 @@
     "^": "",
     TournamentService: {
       "^": "Object;",
+      getNew$0: function() {
+        return new E.Tournament(0, 0, "New", P.LinkedHashMap__makeLiteral(["maxEntrants", 100]));
+      },
       getAll$0: function(_) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter([P.List, E.Tournament]),
-          $async$returnValue;
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, tournamentList, e, t1, exception, $async$exception;
         var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
-          if ($async$errorCode === 1)
-            return P._asyncRethrow($async$result, $async$completer);
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
           while (true)
             switch ($async$goto) {
               case 0:
                 // Function start
-                $async$returnValue = P.List_List$from($.$get$mockTournaments(), true, E.Tournament);
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.TournamentService_baseUrl + $.TournamentService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = E.Tournament;
+                  tournamentList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    tournamentList = J.map$1$1$ax(jsonList, new G.TournamentService_getAll_closure(), t1).toList$0(0);
+                  t1 = tournamentList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
                 // goto return
                 $async$goto = 1;
                 break;
               case 1:
                 // return
                 return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
             }
         });
         return P._asyncStartSync($async$getAll$0, $async$completer);
       },
       addByObject$1: function(object) {
         H.interceptedTypeCheck(object, "$isTournament");
-        return;
+        return this.addByObject$body$TournamentService(object);
+      },
+      addByObject$body$TournamentService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(E.Tournament),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "OwnerId", object.get$ownerId()], t1, P.Object));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.TournamentService_baseUrl + $.TournamentService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new E.Tournament(0, 0, "New", P.LinkedHashMap__makeLiteral(["maxEntrants", 100]));
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.name = H.stringTypeCheck(J.get$name$x(object));
+                  t1.ownerId = object.get$ownerId();
+                  t1.settings = object.get$settings();
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
       },
       updateByObject$1: function(object) {
         H.interceptedTypeCheck(object, "$isTournament");
@@ -39962,18 +46752,94 @@
         return P._asyncStartSync($async$searchFor$1, $async$completer);
       },
       deleteById$1: function(id) {
-        return;
+        return this.deleteById$body$TournamentService(id);
       },
-      getNew$0: function() {
-        return new E.Tournament(0, "New");
+      deleteById$body$TournamentService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.TournamentService_baseUrl + $.TournamentService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
       },
       $isDetailListService: 1,
       $asDetailListService: function() {
         return [E.Tournament];
       }
     },
+    TournamentService_getAll_closure: {
+      "^": "Closure:194;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new E.Tournament(0, 0, "New", P.LinkedHashMap__makeLiteral(["maxEntrants", 100]));
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
+        t1.ownerId = H.intTypeCheck(t2.$index(item, "OwnerId"));
+        t1.settings = H.interceptedTypeCheck(C.JsonCodec_null_null.decode$1(0, H.stringTypeCheck(t2.$index(item, "Settings"))), "$isMap");
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    },
     TournamentService_searchFor_closure: {
-      "^": "Closure:184;_box_0,string",
+      "^": "Closure:195;_box_0,string",
       call$1: function(tournament) {
         var t1, testInt;
         H.interceptedTypeCheck(tournament, "$isTournament");
@@ -39986,59 +46852,459 @@
         return C.JSString_methods.contains$1(tournament.name.toLowerCase(), t1.toLowerCase());
       }
     }
+  }], ["", "package:angular_tour_of_heroes/src/service/user_service.dart",, D, {
+    "^": "",
+    UserService: {
+      "^": "Object;",
+      getNew$0: function() {
+        return new N.User(0, "New");
+      },
+      getAll$0: function(_) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, N.User]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, jsonList, playerList, e, t1, exception, $async$exception;
+        var $async$getAll$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Getting: all");
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$3("GET", $.UserService_baseUrl + $.UserService_coreUrl + "find", null), $async$getAll$0);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonList = H.listTypeCheck(J.$index$asx(H.interceptedTypeCast(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "$isMap"), "Data"));
+                  t1 = N.User;
+                  playerList = H.setRuntimeTypeInfo([], [t1]);
+                  if (jsonList != null)
+                    playerList = J.map$1$1$ax(jsonList, new D.UserService_getAll_closure(), t1).toList$0(0);
+                  t1 = playerList;
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$getAll$0, $async$completer);
+      },
+      addByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isUser");
+        return this.addByObject$body$UserService(object);
+      },
+      addByObject$body$UserService: function(object) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(N.User),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], jsonBody, response, jsonData, e, t1, exception, $async$exception;
+        var $async$addByObject$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = P.String;
+                jsonBody = C.JsonCodec_null_null.encode$1(P.LinkedHashMap_LinkedHashMap$_literal(["Name", J.get$name$x(object), "Key", J.get$key$x(object)], t1, t1));
+                P.print(jsonBody);
+                $async$handler = 4;
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest), false)._sendUnstreamed$5("POST", $.UserService_baseUrl + $.UserService_coreUrl + "add", H.assertSubtype(P.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1), "$isMap", [t1, t1], "$asMap"), jsonBody, null), $async$addByObject$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  t1 = response;
+                  jsonData = J.$index$asx(C.JsonCodec_null_null.decode$1(0, B.encodingForCharset(J.$index$asx(U._contentTypeForHeaders(J.get$headers$z(t1)).parameters._collection$_map, "charset"), C.Latin1Codec_false).decode$1(0, t1.get$bodyBytes())), "Data");
+                  P.print("Returning ID: " + H.S(J.$index$asx(jsonData, "id")));
+                  t1 = new N.User(0, "New");
+                  t1.id = H.intTypeCheck(J.$index$asx(jsonData, "id"));
+                  t1.name = H.stringTypeCheck(J.get$name$x(object));
+                  t1.key = H.stringTypeCheck(J.get$key$x(object));
+                  $async$returnValue = t1;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$addByObject$1, $async$completer);
+      },
+      updateByObject$1: function(object) {
+        H.interceptedTypeCheck(object, "$isUser");
+        return;
+      },
+      searchFor$1: function(string) {
+        return this.searchFor$body$UserService(string);
+      },
+      searchFor$body$UserService: function(string) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter([P.List, N.User]),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], $async$self = this, t1, e, exception, $async$exception, $async$temp1;
+        var $async$searchFor$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = {};
+                t1.testInt = null;
+                $async$handler = 4;
+                $async$temp1 = J;
+                $async$goto = 7;
+                return P._asyncAwait($async$self.getAll$0(0), $async$searchFor$1);
+              case 7:
+                // returning from await.
+                t1 = $async$temp1.where$1$ax($async$result, new D.UserService_searchFor_closure(t1, string)).toList$0(0);
+                $async$returnValue = t1;
+                // goto return
+                $async$goto = 1;
+                break;
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto return
+                $async$goto = 1;
+                break;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$searchFor$1, $async$completer);
+      },
+      deleteById$1: function(id) {
+        return this.deleteById$body$UserService(id);
+      },
+      deleteById$body$UserService: function(id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue, $async$handler = 2, $async$currentError, $async$next = [], response, e, t1, t2, exception, $async$exception;
+        var $async$deleteById$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1) {
+            $async$currentError = $async$result;
+            $async$goto = $async$handler;
+          }
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Deleting: " + H.S(id));
+                $async$handler = 4;
+                t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, W.HttpRequest);
+                t2 = J.toString$0$(id);
+                $async$goto = 7;
+                return P._asyncAwait(new O.BrowserClient(t1, false)._sendUnstreamed$3("DELETE", $.UserService_baseUrl + $.UserService_coreUrl + t2, null), $async$deleteById$1);
+              case 7:
+                // returning from await.
+                response = $async$result;
+                P.print("Response status: " + H.S(J.get$statusCode$z(response)));
+                if (J.get$statusCode$z(response) === 200) {
+                  $async$returnValue = true;
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                } else {
+                  t1 = P.Exception_Exception("Bad status code - " + H.S(J.get$statusCode$z(response)));
+                  throw H.wrapException(t1);
+                }
+                $async$handler = 2;
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 4:
+                // catch
+                $async$handler = 3;
+                $async$exception = $async$currentError;
+                e = H.unwrapException($async$exception);
+                P.print("Error: " + H.S(J.toString$0$(e)));
+                // goto after finally
+                $async$goto = 6;
+                break;
+              case 3:
+                // uncaught
+                // goto rethrow
+                $async$goto = 2;
+                break;
+              case 6:
+                // after finally
+                $async$returnValue = false;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+              case 2:
+                // rethrow
+                return P._asyncRethrow($async$currentError, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$deleteById$1, $async$completer);
+      },
+      $isDetailListService: 1,
+      $asDetailListService: function() {
+        return [N.User];
+      }
+    },
+    UserService_getAll_closure: {
+      "^": "Closure:196;",
+      call$1: [function(item) {
+        var t1, t2;
+        t1 = new N.User(0, "New");
+        t2 = J.getInterceptor$asx(item);
+        t1.id = H.intTypeCheck(t2.$index(item, "Id"));
+        t1.name = H.stringTypeCheck(t2.$index(item, "Name"));
+        t1.key = H.stringTypeCheck(t2.$index(item, "Key"));
+        return t1;
+      }, null, null, 4, 0, null, 5, "call"]
+    },
+    UserService_searchFor_closure: {
+      "^": "Closure:197;_box_0,string",
+      call$1: function(player) {
+        var t1, testInt, t2, t3;
+        H.interceptedTypeCheck(player, "$isUser");
+        t1 = this.string;
+        testInt = H.Primitives_parseInt(t1, null);
+        t2 = this._box_0;
+        t2.testInt = testInt;
+        if (testInt != null) {
+          t3 = J.get$id$x(player);
+          t2 = t2.testInt;
+          if (t3 == null ? t2 == null : t3 === t2)
+            return true;
+        }
+        return C.JSString_methods.contains$1(J.get$name$x(player).toLowerCase(), t1.toLowerCase());
+      }
+    }
   }], ["", "package:angular_tour_of_heroes/src/type/barcode.dart",, L, {
     "^": "",
     Barcode: {
       "^": "Object;0value"
     }
-  }], ["", "package:angular_tour_of_heroes/src/type/match.dart",, Y, {
+  }], ["", "package:angular_tour_of_heroes/src/type/dash_section.dart",, N, {
     "^": "",
-    Match0: {
-      "^": "Object;id>,name>",
+    DashSection: {
+      "^": "Object;name>,enabled>",
       set$name: function(_, $name) {
         this.name = H.stringTypeCheck($name);
       },
       static: {
-        Match$: function(id, $name) {
-          return new Y.Match0(id, $name);
+        DashSection$: function($name, enabled) {
+          return new N.DashSection($name, enabled);
         }
       }
     }
-  }], ["", "package:angular_tour_of_heroes/src/type/player.dart",, Q, {
+  }], ["", "package:angular_tour_of_heroes/src/type/entrant.dart",, D, {
     "^": "",
-    Player: {
+    Entrant: {
+      "^": "Object;id>,eventId<,ownerId<,name>",
+      set$eventId: function(eventId) {
+        this.eventId = H.intTypeCheck(eventId);
+      },
+      set$ownerId: function(ownerId) {
+        this.ownerId = H.intTypeCheck(ownerId);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/event.dart",, X, {
+    "^": "",
+    Event0: {
+      "^": "Object;id>,ownerId<,name>",
+      set$ownerId: function(ownerId) {
+        this.ownerId = H.intTypeCheck(ownerId);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/game.dart",, D, {
+    "^": "",
+    Game: {
+      "^": "Object;id>,matchId<,ownerId<",
+      set$matchId: function(matchId) {
+        this.matchId = H.intTypeCheck(matchId);
+      },
+      set$ownerId: function(ownerId) {
+        this.ownerId = H.intTypeCheck(ownerId);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/match.dart",, Y, {
+    "^": "",
+    Match0: {
+      "^": "Object;id>,roundId<,name>",
+      set$roundId: function(roundId) {
+        this.roundId = H.intTypeCheck(roundId);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/result.dart",, E, {
+    "^": "",
+    Result: {
+      "^": "Object;id>,ownerId<,matchId<,notes<",
+      set$ownerId: function(ownerId) {
+        this.ownerId = H.intTypeCheck(ownerId);
+      },
+      set$matchId: function(matchId) {
+        this.matchId = H.intTypeCheck(matchId);
+      },
+      set$notes: function(notes) {
+        this.notes = H.stringTypeCheck(notes);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/round.dart",, R, {
+    "^": "",
+    Round: {
+      "^": "Object;id>,stageId<,name>",
+      set$stageId: function(stageId) {
+        this.stageId = H.intTypeCheck(stageId);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/stage.dart",, L, {
+    "^": "",
+    Stage: {
+      "^": "Object;id>,ownerId<,tournamentId<,maxEntrants<,maxRounds<,name>",
+      set$ownerId: function(ownerId) {
+        this.ownerId = H.intTypeCheck(ownerId);
+      },
+      set$tournamentId: function(tournamentId) {
+        this.tournamentId = H.intTypeCheck(tournamentId);
+      },
+      set$maxEntrants: function(maxEntrants) {
+        this.maxEntrants = H.intTypeCheck(maxEntrants);
+      },
+      set$maxRounds: function(maxRounds) {
+        this.maxRounds = H.intTypeCheck(maxRounds);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/tournament.dart",, E, {
+    "^": "",
+    Tournament: {
+      "^": "Object;id>,ownerId<,name>,settings<",
+      set$ownerId: function(ownerId) {
+        this.ownerId = H.intTypeCheck(ownerId);
+      },
+      set$name: function(_, $name) {
+        this.name = H.stringTypeCheck($name);
+      }
+    }
+  }], ["", "package:angular_tour_of_heroes/src/type/user.dart",, N, {
+    "^": "",
+    User: {
       "^": "Object;id>,name>,0key>",
       set$name: function(_, $name) {
         this.name = H.stringTypeCheck($name);
       },
       set$key: function(_, key) {
         this.key = H.stringTypeCheck(key);
-      }
-    }
-  }], ["", "package:angular_tour_of_heroes/src/type/section.dart",, X, {
-    "^": "",
-    Section: {
-      "^": "Object;id>,name>",
-      set$name: function(_, $name) {
-        this.name = H.stringTypeCheck($name);
-      },
-      static: {
-        Section$: function(id, $name) {
-          return new X.Section(id, $name);
-        }
-      }
-    }
-  }], ["", "package:angular_tour_of_heroes/src/type/tournament.dart",, E, {
-    "^": "",
-    Tournament: {
-      "^": "Object;id>,name>",
-      set$name: function(_, $name) {
-        this.name = H.stringTypeCheck($name);
-      },
-      static: {
-        Tournament$: function(id, $name) {
-          return new E.Tournament(id, $name);
-        }
       }
     }
   }], ["built_collection.list", "package:built_collection/src/list.dart",, S, {
@@ -40307,7 +47573,7 @@
       call$1: [function(pair) {
         var t1 = this.$this;
         return H.assertSubtype(pair, "$isPair", [H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 1), H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 2)], "$asPair").first;
-      }, null, null, 4, 0, null, 32, "call"],
+      }, null, null, 4, 0, null, 26, "call"],
       $signature: function() {
         var t1, t2;
         t1 = this.$this;
@@ -40320,7 +47586,7 @@
       call$1: [function(pair) {
         var t1 = this.$this;
         return H.assertSubtype(pair, "$isPair", [H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 1), H.getRuntimeTypeArgument(t1, "CanonicalizedMap", 2)], "$asPair").last;
-      }, null, null, 4, 0, null, 32, "call"],
+      }, null, null, 4, 0, null, 26, "call"],
       $signature: function() {
         var t1, t2;
         t1 = this.$this;
@@ -40346,7 +47612,7 @@
       }
     },
     _isToStringVisiting_closure: {
-      "^": "Closure:25;o",
+      "^": "Closure:20;o",
       call$1: function(e) {
         return this.o === e;
       }
@@ -40679,7 +47945,7 @@
       return P._asyncStartSync($async$_withClient, $async$completer);
     },
     get_closure: {
-      "^": "Closure:185;url,headers",
+      "^": "Closure:198;url,headers",
       call$1: function(client) {
         return client._sendUnstreamed$3("GET", this.url, this.headers);
       }
@@ -40750,18 +48016,18 @@
       }
     },
     BaseRequest_closure: {
-      "^": "Closure:186;",
+      "^": "Closure:199;",
       call$2: [function(key1, key2) {
         H.stringTypeCheck(key1);
         H.stringTypeCheck(key2);
         return key1.toLowerCase() === key2.toLowerCase();
-      }, null, null, 8, 0, null, 87, 88, "call"]
+      }, null, null, 8, 0, null, 89, 68, "call"]
     },
     BaseRequest_closure0: {
-      "^": "Closure:187;",
+      "^": "Closure:200;",
       call$1: [function(key) {
         return C.JSString_methods.get$hashCode(H.stringTypeCheck(key).toLowerCase());
-      }, null, null, 4, 0, null, 17, "call"]
+      }, null, null, 4, 0, null, 19, "call"]
     }
   }], ["", "package:http/src/base_response.dart",, T, {
     "^": "",
@@ -40863,7 +48129,7 @@
       }
     },
     BrowserClient_send_closure: {
-      "^": "Closure:33;xhr,completer,request",
+      "^": "Closure:37;xhr,completer,request",
       call$1: [function(_) {
         var t1, blob, reader, t2, t3, t4, t5;
         H.interceptedTypeCheck(_, "$isProgressEvent");
@@ -40881,7 +48147,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     BrowserClient_send__closure: {
-      "^": "Closure:33;reader,completer,xhr,request",
+      "^": "Closure:37;reader,completer,xhr,request",
       call$1: [function(_) {
         var body, t1, t2, t3, t4, t5, t6;
         H.interceptedTypeCheck(_, "$isProgressEvent");
@@ -40900,13 +48166,13 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     BrowserClient_send__closure0: {
-      "^": "Closure:33;completer,request",
+      "^": "Closure:37;completer,request",
       call$1: [function(error) {
         this.completer.completeError$2(new E.ClientException(J.toString$0$(H.interceptedTypeCheck(error, "$isProgressEvent")), this.request.url), P.StackTrace_current());
       }, null, null, 4, 0, null, 2, "call"]
     },
     BrowserClient_send_closure0: {
-      "^": "Closure:33;completer,request",
+      "^": "Closure:37;completer,request",
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isProgressEvent");
         this.completer.completeError$2(new E.ClientException("XMLHttpRequest error.", this.request.url), P.StackTrace_current());
@@ -40933,7 +48199,7 @@
       }
     },
     ByteStream_toBytes_closure: {
-      "^": "Closure:189;completer",
+      "^": "Closure:202;completer",
       call$1: function(bytes) {
         return this.completer.complete$1(0, new Uint8Array(H._ensureNativeList(H.assertSubtype(bytes, "$isList", [P.int], "$asList"))));
       }
@@ -41011,7 +48277,7 @@
       }
     },
     Response_fromStream_closure: {
-      "^": "Closure:190;response",
+      "^": "Closure:203;response",
       call$1: [function(body) {
         var t1, t2, t3, t4, t5, t6;
         H.interceptedTypeCheck(body, "$isUint8List");
@@ -41025,7 +48291,7 @@
         t5 = new U.Response(t5, t3, t2, t1, t6, t4, false, true);
         t5.BaseResponse$7$contentLength$headers$isRedirect$persistentConnection$reasonPhrase$request(t2, t6, t4, false, true, t1, t3);
         return t5;
-      }, null, null, 4, 0, null, 67, "call"]
+      }, null, null, 4, 0, null, 60, "call"]
     }
   }], ["", "package:http/src/streamed_response.dart",, X, {
     "^": "",
@@ -41087,13 +48353,13 @@
       }
     },
     CaseInsensitiveMap$from_closure: {
-      "^": "Closure:14;",
+      "^": "Closure:10;",
       call$1: [function(key) {
         return H.stringTypeCheck(key).toLowerCase();
-      }, null, null, 4, 0, null, 17, "call"]
+      }, null, null, 4, 0, null, 19, "call"]
     },
     CaseInsensitiveMap$from_closure0: {
-      "^": "Closure:191;",
+      "^": "Closure:204;",
       call$1: function(key) {
         return key != null;
       }
@@ -41141,7 +48407,7 @@
       }
     },
     MediaType_MediaType$parse_closure: {
-      "^": "Closure:192;mediaType",
+      "^": "Closure:205;mediaType",
       call$0: function() {
         var t1, scanner, t2, t3, type, subtype, t4, parameters, t5, success, attribute, value;
         t1 = this.mediaType;
@@ -41217,7 +48483,7 @@
       }
     },
     MediaType_toString_closure: {
-      "^": "Closure:193;buffer",
+      "^": "Closure:206;buffer",
       call$2: function(attribute, value) {
         var t1, t2;
         H.stringTypeCheck(attribute);
@@ -41238,7 +48504,7 @@
       }
     },
     MediaType_toString__closure: {
-      "^": "Closure:34;",
+      "^": "Closure:36;",
       call$1: function(match) {
         return C.JSString_methods.$add("\\", match.$index(0, 0));
       }
@@ -41252,7 +48518,7 @@
       return H.stringReplaceAllFuncUnchecked(J.substring$2$s(string, 1, string.length - 1), $.$get$_quotedPair(), H.functionTypeCheck(new N.expectQuotedString_closure(), {func: 1, ret: P.String, args: [P.Match]}), null);
     },
     expectQuotedString_closure: {
-      "^": "Closure:34;",
+      "^": "Closure:36;",
       call$1: function(match) {
         return match.$index(0, 1);
       }
@@ -41280,12 +48546,833 @@
     }
   }], ["intl", "package:intl/intl.dart",, T, {
     "^": "",
+    Intl_defaultLocale: function() {
+      var zoneLocale = $.Zone__current.$index(0, C.Symbol_89P);
+      return H.stringTypeCheck(zoneLocale == null ? $.Intl__defaultLocale : zoneLocale);
+    },
     Intl_message: function(message_str, args, desc, examples, locale, meaning, $name, skip) {
       H.assertSubtype(examples, "$isMap", [P.String, null], "$asMap");
       $.$get$messageLookup().toString;
       return message_str;
+    },
+    Intl_verifiedLocale: function(newLocale, localeExists, onFailure) {
+      var t1, _i, each;
+      if (newLocale == null) {
+        if (T.Intl_defaultLocale() == null)
+          $.Intl__defaultLocale = $.Intl_systemLocale;
+        return T.Intl_verifiedLocale(T.Intl_defaultLocale(), localeExists, onFailure);
+      }
+      if (H.boolTypeCheck(localeExists.call$1(newLocale)))
+        return newLocale;
+      for (t1 = [T.Intl_canonicalizedLocale(newLocale), T.Intl_shortLocale(newLocale), "fallback"], _i = 0; _i < 3; ++_i) {
+        each = t1[_i];
+        if (H.boolTypeCheck(localeExists.call$1(each)))
+          return each;
+      }
+      return H.stringTypeCheck(onFailure.call$1(newLocale));
+    },
+    Intl__throwLocaleError: [function(localeName) {
+      throw H.wrapException(P.ArgumentError$("Invalid locale '" + localeName + "'"));
+    }, "call$1", "intl_Intl__throwLocaleError$closure", 4, 0, 10],
+    Intl_shortLocale: function(aLocale) {
+      if (aLocale.length < 2)
+        return aLocale;
+      return C.JSString_methods.substring$2(aLocale, 0, 2).toLowerCase();
+    },
+    Intl_canonicalizedLocale: function(aLocale) {
+      var t1, region;
+      if (aLocale === "C")
+        return "en_ISO";
+      if (aLocale.length < 5)
+        return aLocale;
+      t1 = aLocale[2];
+      if (t1 !== "-" && t1 !== "_")
+        return aLocale;
+      region = C.JSString_methods.substring$1(aLocale, 3);
+      if (region.length <= 3)
+        region = region.toUpperCase();
+      return aLocale[0] + aLocale[1] + "_" + region;
+    },
+    _Stream: {
+      "^": "Object;contents,index>",
+      read$1: function(_, howMany) {
+        var result = this.peek$1(howMany);
+        this.index += howMany;
+        return result;
+      },
+      startsWith$1: function(_, pattern) {
+        var t1 = this.contents;
+        if (typeof t1 === "string")
+          return C.JSString_methods.startsWith$2(t1, pattern, this.index);
+        return pattern === this.peek$1(pattern.length);
+      },
+      peek$1: function(howMany) {
+        var t1, t2, t3;
+        t1 = this.contents;
+        t2 = this.index;
+        t3 = t2 + howMany;
+        return typeof t1 === "string" ? C.JSString_methods.substring$2(t1, t2, Math.min(t3, t1.length)) : J.sublist$2$ax(t1, t2, t3);
+      },
+      peek$0: function() {
+        return this.peek$1(1);
+      }
+    },
+    NumberFormat: {
+      "^": "Object;_negativePrefix,_positivePrefix,_negativeSuffix,_positiveSuffix,_groupingSize,_finalGroupingSize,_groupingSizeSetExplicitly,_decimalSeparatorAlwaysShown,_useSignForPositiveExponent,_useExponentialNotation,_isForCurrency,maximumIntegerDigits,minimumIntegerDigits,maximumFractionDigits,minimumFractionDigits,minimumExponentDigits,_significantDigits,significantDigitsInUse,_internalMultiplier,_multiplierDigits,0_intl$_pattern,_locale,0_symbols,0currencyName,0_currencySymbol,0_decimalDigits,_intl$_buffer,_localeZero,_zeroOffset",
+      set$_multiplier: function(x) {
+        var t1, t2;
+        this._internalMultiplier = x;
+        t1 = Math.log(x);
+        t2 = $.$get$NumberFormat__ln10();
+        if (typeof t2 !== "number")
+          return H.iae(t2);
+        this._multiplierDigits = C.JSDouble_methods.round$0(t1 / t2);
+      },
+      format$1: function(number) {
+        var t1, t2, t3;
+        t1 = typeof number === "number";
+        if (t1 && isNaN(number))
+          return this._symbols.NAN;
+        if (t1)
+          t1 = number == 1 / 0 || number == -1 / 0;
+        else
+          t1 = false;
+        if (t1) {
+          t1 = J.get$isNegative$n(number) ? this._negativePrefix : this._positivePrefix;
+          return t1 + this._symbols.INFINITY;
+        }
+        t1 = J.getInterceptor$in(number);
+        t2 = t1.get$isNegative(number) ? this._negativePrefix : this._positivePrefix;
+        t3 = this._intl$_buffer;
+        t3._contents += t2;
+        t2 = t1.abs$0(number);
+        if (this._useExponentialNotation)
+          this._formatExponential$1(H.numTypeCheck(t2));
+        else
+          this._formatFixed$1(t2);
+        t2 = t3._contents += t1.get$isNegative(number) ? this._negativeSuffix : this._positiveSuffix;
+        t3._contents = "";
+        return t2.charCodeAt(0) == 0 ? t2 : t2;
+      },
+      _formatExponential$1: function(number) {
+        var t1, t2, exponent, mantissa;
+        if (number === 0) {
+          this._formatFixed$1(number);
+          this._formatExponent$1(0);
+          return;
+        }
+        t1 = Math.log(number);
+        t2 = $.$get$NumberFormat__ln10();
+        if (typeof t2 !== "number")
+          return H.iae(t2);
+        exponent = C.JSDouble_methods.floor$0(t1 / t2);
+        mantissa = number / Math.pow(10, exponent);
+        t1 = this.maximumIntegerDigits;
+        if (t1 > 1 && t1 > this.minimumIntegerDigits)
+          for (; C.JSInt_methods.$mod(exponent, t1) !== 0;) {
+            mantissa *= 10;
+            --exponent;
+          }
+        else {
+          t1 = this.minimumIntegerDigits;
+          if (t1 < 1) {
+            ++exponent;
+            mantissa /= 10;
+          } else {
+            --t1;
+            exponent -= t1;
+            mantissa *= Math.pow(10, t1);
+          }
+        }
+        this._formatFixed$1(mantissa);
+        this._formatExponent$1(exponent);
+      },
+      _formatExponent$1: function(exponent) {
+        var t1, t2, t3;
+        t1 = this._symbols;
+        t2 = this._intl$_buffer;
+        t3 = t2._contents += t1.EXP_SYMBOL;
+        if (exponent < 0) {
+          exponent = -exponent;
+          t2._contents = t3 + t1.MINUS_SIGN;
+        } else if (this._useSignForPositiveExponent)
+          t2._contents = t3 + t1.PLUS_SIGN;
+        t1 = this.minimumExponentDigits;
+        t3 = C.JSInt_methods.toString$0(exponent);
+        if (this._zeroOffset === 0)
+          t2._contents += C.JSString_methods.padLeft$2(t3, t1, "0");
+        else
+          this._slowPad$2(t1, t3);
+      },
+      _floor$1: function(number) {
+        var t1 = J.getInterceptor$in(number);
+        if (t1.get$isNegative(number) && !J.get$isNegative$n(t1.abs$0(number)))
+          throw H.wrapException(P.ArgumentError$("Internal error: expected positive number, got " + H.S(number)));
+        return typeof number === "number" ? t1.floor$0(number) : t1.$tdiv(number, 1);
+      },
+      _round$1: function(number) {
+        var t1, fraction;
+        if (typeof number === "number")
+          if (number == 1 / 0 || number == -1 / 0)
+            return $.$get$NumberFormat__maxInt();
+          else
+            return C.JSNumber_methods.round$0(number);
+        else {
+          t1 = J.getInterceptor$n(number);
+          if (t1.remainder$1(number, 1) === 0)
+            return number;
+          else {
+            fraction = C.JSNumber_methods.round$0(J.toDouble$0$n(t1.$sub(number, this._floor$1(number))));
+            return fraction === 0 ? number : t1.$add(number, fraction);
+          }
+        }
+      },
+      _formatFixed$1: function(number) {
+        var fractionDigits, t1, t2, integerPart, fractionPart, extraIntegerDigits, power, fraction, digitMultiplier, remainingDigits, howManyDigitsTooBig, divisor, paddingDigits, extra, intDigits, integerDigits, digitLength, fractionPresent, i;
+        fractionDigits = this.maximumFractionDigits;
+        if (typeof number === "number")
+          t1 = number == 1 / 0 || number == -1 / 0;
+        else
+          t1 = false;
+        t2 = J.getInterceptor$n(number);
+        if (t1) {
+          integerPart = t2.toInt$0(number);
+          fractionPart = 0;
+          extraIntegerDigits = 0;
+          power = 0;
+        } else {
+          integerPart = this._floor$1(number);
+          fraction = t2.$sub(number, integerPart);
+          if (J.toInt$0$n(fraction) !== 0) {
+            integerPart = number;
+            fraction = 0;
+          }
+          H.checkNum(fractionDigits);
+          power = H.intTypeCheck(Math.pow(10, fractionDigits));
+          digitMultiplier = power * this._internalMultiplier;
+          remainingDigits = J.toInt$0$n(this._round$1(J.$mul$ns(fraction, digitMultiplier)));
+          if (remainingDigits >= digitMultiplier) {
+            integerPart = J.$add$ansx(integerPart, 1);
+            remainingDigits -= digitMultiplier;
+          }
+          extraIntegerDigits = C.JSInt_methods.$tdiv(remainingDigits, power);
+          fractionPart = C.JSInt_methods.$mod(remainingDigits, power);
+        }
+        if (typeof integerPart === "number" && integerPart > $.$get$NumberFormat__maxInt()) {
+          H.numTypeCheck(integerPart);
+          t1 = Math.log(integerPart);
+          t2 = $.$get$NumberFormat__ln10();
+          if (typeof t2 !== "number")
+            return H.iae(t2);
+          t2 = C.JSDouble_methods.ceil$0(t1 / t2);
+          t1 = $.$get$NumberFormat__maxDigits();
+          if (typeof t1 !== "number")
+            return H.iae(t1);
+          howManyDigitsTooBig = t2 - t1;
+          divisor = C.JSNumber_methods.round$0(Math.pow(10, howManyDigitsTooBig));
+          if (divisor === 0)
+            divisor = Math.pow(10, howManyDigitsTooBig);
+          paddingDigits = C.JSString_methods.$mul("0", C.JSInt_methods.toInt$0(howManyDigitsTooBig));
+          integerPart = C.JSDouble_methods.toInt$0(integerPart / divisor);
+        } else
+          paddingDigits = "";
+        extra = extraIntegerDigits === 0 ? "" : C.JSInt_methods.toString$0(extraIntegerDigits);
+        intDigits = this._mainIntegerDigits$1(integerPart);
+        integerDigits = intDigits + (intDigits.length === 0 ? extra : C.JSString_methods.padLeft$2(extra, this._multiplierDigits, "0")) + paddingDigits;
+        digitLength = integerDigits.length;
+        if (typeof fractionDigits !== "number")
+          return fractionDigits.$gt();
+        if (fractionDigits > 0) {
+          t1 = this.minimumFractionDigits;
+          if (typeof t1 !== "number")
+            return t1.$gt();
+          fractionPresent = t1 > 0 || fractionPart > 0;
+        } else
+          fractionPresent = false;
+        if (digitLength !== 0 || this.minimumIntegerDigits > 0) {
+          integerDigits = C.JSString_methods.$mul("0", this.minimumIntegerDigits - digitLength) + integerDigits;
+          digitLength = integerDigits.length;
+          for (t1 = this._intl$_buffer, i = 0; i < digitLength; ++i) {
+            t1._contents += H.Primitives_stringFromCharCode(C.JSString_methods._codeUnitAt$1(integerDigits, i) + this._zeroOffset);
+            this._group$2(digitLength, i);
+          }
+        } else if (!fractionPresent)
+          this._intl$_buffer._contents += this._symbols.ZERO_DIGIT;
+        if (this._decimalSeparatorAlwaysShown || fractionPresent)
+          this._intl$_buffer._contents += this._symbols.DECIMAL_SEP;
+        this._formatFractionPart$1(C.JSInt_methods.toString$0(fractionPart + power));
+      },
+      _mainIntegerDigits$1: function(integer) {
+        var t1, digits;
+        t1 = J.getInterceptor$(integer);
+        if (t1.$eq(integer, 0))
+          return "";
+        digits = t1.toString$0(integer);
+        return C.JSString_methods.startsWith$1(digits, "-") ? C.JSString_methods.substring$1(digits, 1) : digits;
+      },
+      _formatFractionPart$1: function(fractionPart) {
+        var fractionLength, t1, fractionLength0, t2, i;
+        fractionLength = fractionPart.length;
+        t1 = this.minimumFractionDigits;
+        while (true) {
+          fractionLength0 = fractionLength - 1;
+          if (C.JSString_methods.codeUnitAt$1(fractionPart, fractionLength0) === 48) {
+            if (typeof t1 !== "number")
+              return t1.$add();
+            t2 = fractionLength > t1 + 1;
+          } else
+            t2 = false;
+          if (!t2)
+            break;
+          fractionLength = fractionLength0;
+        }
+        for (t1 = this._intl$_buffer, i = 1; i < fractionLength; ++i)
+          t1._contents += H.Primitives_stringFromCharCode(C.JSString_methods._codeUnitAt$1(fractionPart, i) + this._zeroOffset);
+      },
+      _slowPad$2: function(numberOfDigits, basic) {
+        var t1, t2, t3, i;
+        for (t1 = basic.length, t2 = numberOfDigits - t1, t3 = this._intl$_buffer, i = 0; i < t2; ++i)
+          t3._contents += this._symbols.ZERO_DIGIT;
+        for (i = 0; i < t1; ++i)
+          t3._contents += H.Primitives_stringFromCharCode(C.JSString_methods._codeUnitAt$1(basic, i) + this._zeroOffset);
+      },
+      _group$2: function(totalLength, position) {
+        var distanceFromEnd, t1;
+        distanceFromEnd = totalLength - position;
+        if (distanceFromEnd <= 1 || this._groupingSize <= 0)
+          return;
+        t1 = this._finalGroupingSize;
+        if (distanceFromEnd === t1 + 1)
+          this._intl$_buffer._contents += this._symbols.GROUP_SEP;
+        else if (distanceFromEnd > t1 && C.JSInt_methods.$mod(distanceFromEnd - t1, this._groupingSize) === 1)
+          this._intl$_buffer._contents += this._symbols.GROUP_SEP;
+      },
+      _setPattern$1: function(newPattern) {
+        var t1, t2, t3;
+        H.stringTypeCheck(newPattern);
+        if (newPattern == null)
+          return;
+        this._intl$_pattern = H.stringReplaceAllUnchecked(newPattern, " ", "\xa0");
+        t1 = this._currencySymbol;
+        if (t1 == null)
+          t1 = this.currencyName;
+        t2 = this._decimalDigits;
+        t3 = new T._StringIterator(newPattern, 0);
+        t3.moveNext$0();
+        new T._NumberFormatParser(this, t3, t1, t2, false, -1, 0, 0, 0, -1).parse$0(0);
+        t1 = this._decimalDigits;
+        t2 = t1 == null;
+        if (!t2 || false) {
+          if (t2) {
+            t1 = $.$get$currencyFractionDigits();
+            t2 = t1.$index(0, this.currencyName.toUpperCase());
+            t1 = t2 == null ? t1.$index(0, "DEFAULT") : t2;
+            this._decimalDigits = t1;
+          }
+          this.minimumFractionDigits = t1;
+          this.maximumFractionDigits = t1;
+        }
+      },
+      toString$0: function(_) {
+        return "NumberFormat(" + H.S(this._locale) + ", " + H.S(this._intl$_pattern) + ")";
+      },
+      static: {
+        NumberFormat$decimalPattern: function(locale) {
+          var t1, t2, t3;
+          t1 = T.Intl_verifiedLocale(locale, T.intl_NumberFormat_localeExists$closure(), T.intl_Intl__throwLocaleError$closure());
+          t2 = new T.NumberFormat("-", "", "", "", 3, 3, false, false, false, false, false, 40, 1, 3, 0, 0, 0, false, 1, 0, t1, new P.StringBuffer(""), 0, 0);
+          t1 = $.$get$numberFormatSymbols().$index(0, t1);
+          t2._symbols = t1;
+          t3 = C.JSString_methods._codeUnitAt$1(t1.ZERO_DIGIT, 0);
+          t2._localeZero = t3;
+          t2._zeroOffset = t3 - 48;
+          t2._negativePrefix = t1.MINUS_SIGN;
+          t3 = t1.DEF_CURRENCY_CODE;
+          t2.currencyName = t3;
+          t2._setPattern$1(new T.NumberFormat$decimalPattern_closure().call$1(t1));
+          return t2;
+        },
+        NumberFormat_localeExists: [function(localeName) {
+          if (localeName == null)
+            return false;
+          return $.$get$numberFormatSymbols().containsKey$1(0, localeName);
+        }, "call$1", "intl_NumberFormat_localeExists$closure", 4, 0, 20]
+      }
+    },
+    NumberFormat$decimalPattern_closure: {
+      "^": "Closure:207;",
+      call$1: function(x) {
+        return x.DECIMAL_PATTERN;
+      }
+    },
+    _NumberParser: {
+      "^": "Object;format,text,input,0value,_normalized,gotPositive,gotNegative,gotPositiveSuffix,gotNegativeSuffix,done,prefixesSkipped,scale,0_replacements",
+      set$_replacements: function(_replacements) {
+        this._replacements = H.assertSubtype(_replacements, "$isMap", [P.String, P.Function], "$asMap");
+      },
+      get$replacements: function() {
+        var t1 = this._replacements;
+        if (t1 == null) {
+          t1 = this._initializeReplacements$0();
+          this.set$_replacements(t1);
+        }
+        return t1;
+      },
+      _initializeReplacements$0: function() {
+        var t1, t2;
+        t1 = this.format._symbols;
+        t2 = this.get$handleSpace();
+        return P.LinkedHashMap_LinkedHashMap$_literal([t1.DECIMAL_SEP, new T._NumberParser__initializeReplacements_closure(), t1.EXP_SYMBOL, new T._NumberParser__initializeReplacements_closure0(), t1.GROUP_SEP, t2, t1.PERCENT, new T._NumberParser__initializeReplacements_closure1(this), t1.PERMILL, new T._NumberParser__initializeReplacements_closure2(this), " ", t2, "\xa0", t2, "+", new T._NumberParser__initializeReplacements_closure3(), "-", new T._NumberParser__initializeReplacements_closure4()], P.String, P.Function);
+      },
+      invalidFormat$0: function() {
+        return H.throwExpression(P.FormatException$("Invalid number: " + H.S(this.input.contents), null, null));
+      },
+      handleSpace$0: [function() {
+        return this.get$groupingIsNotASpaceOrElseItIsSpaceFollowedByADigit() ? "" : this.invalidFormat$0();
+      }, "call$0", "get$handleSpace", 0, 0, 46],
+      get$groupingIsNotASpaceOrElseItIsSpaceFollowedByADigit: function() {
+        var t1, peeked, t2;
+        t1 = this.format._symbols.GROUP_SEP;
+        if (t1 !== "\xa0" || t1 !== " ")
+          return true;
+        peeked = this.input.peek$1(t1.length + 1);
+        t1 = peeked.length;
+        t2 = t1 - 1;
+        if (t2 < 0)
+          return H.ioore(peeked, t2);
+        return this.asDigit$1(peeked[t2]) != null;
+      },
+      asDigit$1: function(char) {
+        var digitValue = C.JSString_methods._codeUnitAt$1(char, 0) - this.format._localeZero;
+        if (digitValue >= 0 && digitValue < 10)
+          return digitValue;
+        else
+          return;
+      },
+      checkPrefixes$1$skip: function(skip) {
+        var t1, t2, t3, t4;
+        t1 = new T._NumberParser_checkPrefixes_checkPrefix(this);
+        t2 = this.format;
+        if (t1.call$1(t2._positivePrefix))
+          this.gotPositive = true;
+        if (t1.call$1(t2._negativePrefix))
+          this.gotNegative = true;
+        t1 = this.gotPositive;
+        if (t1 && this.gotNegative) {
+          t3 = t2._positivePrefix.length;
+          t4 = t2._negativePrefix.length;
+          if (t3 > t4)
+            this.gotNegative = false;
+          else if (t4 > t3) {
+            this.gotPositive = false;
+            t1 = false;
+          }
+        }
+        if (skip) {
+          if (t1)
+            this.input.read$1(0, t2._positivePrefix.length);
+          if (this.gotNegative)
+            this.input.read$1(0, t2._negativePrefix.length);
+        }
+      },
+      checkPrefixes$0: function() {
+        return this.checkPrefixes$1$skip(false);
+      },
+      processNonDigit$0: function() {
+        var t1, foundAnInterpretation, t2, t3;
+        t1 = this.input;
+        if (t1.index === 0 && !this.prefixesSkipped) {
+          this.prefixesSkipped = true;
+          this.checkPrefixes$1$skip(true);
+          foundAnInterpretation = true;
+        } else
+          foundAnInterpretation = false;
+        for (t2 = this.get$replacements(), t2 = t2.get$keys(t2), t2 = t2.get$iterator(t2); t2.moveNext$0();) {
+          t3 = t2.get$current(t2);
+          if (t1.startsWith$1(0, t3)) {
+            t2 = this._replacements;
+            if (t2 == null) {
+              t2 = this._initializeReplacements$0();
+              this.set$_replacements(t2);
+            }
+            this._normalized._contents += H.S(t2.$index(0, t3).call$0());
+            t3 = t3.length;
+            t1.peek$1(t3);
+            t1.index += t3;
+            return;
+          }
+        }
+        if (!foundAnInterpretation)
+          this.done = true;
+      },
+      parse$0: function(_) {
+        var t1, t2, t3, t4, parsed;
+        t1 = this.text;
+        t2 = this.format;
+        t3 = t2._symbols;
+        if (t1 === t3.NAN)
+          return 0 / 0;
+        t4 = t2._positivePrefix;
+        t3 = t3.INFINITY;
+        if (t1 === t4 + t3 + t2._positiveSuffix)
+          return 1 / 0;
+        if (t1 === t2._negativePrefix + t3 + t2._negativeSuffix)
+          return -1 / 0;
+        this.checkPrefixes$0();
+        t1 = this.input;
+        parsed = this.parseNumber$1(t1);
+        if (this.gotPositive && !this.gotPositiveSuffix)
+          this.invalidNumber$0();
+        if (this.gotNegative && !this.gotNegativeSuffix)
+          this.invalidNumber$0();
+        if (t1.index < t1.contents.length)
+          this.invalidNumber$0();
+        return parsed;
+      },
+      invalidNumber$0: function() {
+        return H.throwExpression(P.FormatException$("Invalid Number: " + H.S(this.input.contents), null, null));
+      },
+      parseNumber$1: function(input) {
+        var t1, t2, t3, t4, t5, digit, t6, remainder, normalizedText, parsed;
+        if (this.gotNegative)
+          this._normalized._contents += "-";
+        t1 = this.format;
+        t2 = this.input;
+        t3 = t2.contents;
+        t4 = input.contents;
+        t5 = this._normalized;
+        while (true) {
+          if (!(!this.done && input.index < t4.length))
+            break;
+          digit = this.asDigit$1(input.peek$0());
+          if (digit != null) {
+            t5._contents += H.Primitives_stringFromCharCode(48 + digit);
+            t6 = input.index++;
+            if (t6 < 0 || t6 >= t4.length)
+              return H.ioore(t4, t6);
+            t4[t6];
+          } else
+            this.processNonDigit$0();
+          remainder = t2.peek$1(t3.length - t2.index);
+          if (remainder === t1._positiveSuffix)
+            this.gotPositiveSuffix = true;
+          if (remainder === t1._negativeSuffix)
+            this.gotNegativeSuffix = true;
+        }
+        t1 = t5._contents;
+        normalizedText = t1.charCodeAt(0) == 0 ? t1 : t1;
+        parsed = H.Primitives_parseInt(normalizedText, null);
+        if (parsed == null)
+          parsed = P.double_parse(normalizedText, null);
+        t1 = this.scale;
+        if (typeof parsed !== "number")
+          return parsed.$div();
+        return parsed / t1;
+      }
+    },
+    _NumberParser__initializeReplacements_closure: {
+      "^": "Closure:7;",
+      call$0: function() {
+        return ".";
+      }
+    },
+    _NumberParser__initializeReplacements_closure0: {
+      "^": "Closure:7;",
+      call$0: function() {
+        return "E";
+      }
+    },
+    _NumberParser__initializeReplacements_closure1: {
+      "^": "Closure:7;$this",
+      call$0: function() {
+        this.$this.scale = 100;
+        return "";
+      }
+    },
+    _NumberParser__initializeReplacements_closure2: {
+      "^": "Closure:7;$this",
+      call$0: function() {
+        this.$this.scale = 1000;
+        return "";
+      }
+    },
+    _NumberParser__initializeReplacements_closure3: {
+      "^": "Closure:7;",
+      call$0: function() {
+        return "+";
+      }
+    },
+    _NumberParser__initializeReplacements_closure4: {
+      "^": "Closure:7;",
+      call$0: function() {
+        return "-";
+      }
+    },
+    _NumberParser_checkPrefixes_checkPrefix: {
+      "^": "Closure:17;$this",
+      call$1: function(prefix) {
+        return prefix.length !== 0 && this.$this.input.startsWith$1(0, prefix);
+      }
+    },
+    _NumberFormatParser: {
+      "^": "Object;format,pattern,currencySymbol,decimalDigits,inQuote,decimalPos,digitLeftCount,zeroDigitCount,digitRightCount,groupingCount",
+      parse$0: function(_) {
+        var t1, trunk, t2, t3, each, t4;
+        t1 = this.format;
+        t1._positivePrefix = this._parseAffix$0();
+        trunk = this._parseTrunk$0();
+        t2 = this._parseAffix$0();
+        t1._positiveSuffix = t2;
+        t3 = this.pattern;
+        if (t3._intl$_current === ";") {
+          t3.moveNext$0();
+          t1._negativePrefix = this._parseAffix$0();
+          t2 = new T._StringIterator(trunk, 0);
+          for (; t2.moveNext$0();) {
+            each = t2._intl$_current;
+            t4 = t3._intl$_current;
+            if (t4 != each && t4 != null)
+              throw H.wrapException(P.FormatException$("Positive and negative trunks must be the same", null, null));
+            t3.moveNext$0();
+          }
+          t1._negativeSuffix = this._parseAffix$0();
+        } else {
+          t1._negativePrefix = t1._negativePrefix + t1._positivePrefix;
+          t1._negativeSuffix = t2 + t1._negativeSuffix;
+        }
+      },
+      _parseAffix$0: function() {
+        var affix, t1;
+        affix = new P.StringBuffer("");
+        this.inQuote = false;
+        t1 = this.pattern;
+        while (true)
+          if (!(this.parseCharacterAffix$1(affix) && t1.moveNext$0()))
+            break;
+        t1 = affix._contents;
+        return t1.charCodeAt(0) == 0 ? t1 : t1;
+      },
+      parseCharacterAffix$1: function(affix) {
+        var t1, ch, t2, t3;
+        t1 = this.pattern;
+        ch = t1._intl$_current;
+        if (ch == null)
+          return false;
+        if (ch === "'") {
+          t2 = t1.nextIndex;
+          t3 = t1.input;
+          if ((t2 >= t3.length ? null : t3[t2]) === "'") {
+            t1.moveNext$0();
+            affix._contents += "'";
+          } else
+            this.inQuote = !this.inQuote;
+          return true;
+        }
+        if (this.inQuote)
+          affix._contents += ch;
+        else
+          switch (ch) {
+            case "#":
+            case "0":
+            case ",":
+            case ".":
+            case ";":
+              return false;
+            case "\xa4":
+              affix._contents += this.currencySymbol;
+              break;
+            case "%":
+              t1 = this.format;
+              t2 = t1._internalMultiplier;
+              if (t2 !== 1 && t2 !== 100)
+                throw H.wrapException(P.FormatException$("Too many percent/permill", null, null));
+              t1.set$_multiplier(100);
+              affix._contents += t1._symbols.PERCENT;
+              break;
+            case "\u2030":
+              t1 = this.format;
+              t2 = t1._internalMultiplier;
+              if (t2 !== 1 && t2 !== 1000)
+                throw H.wrapException(P.FormatException$("Too many percent/permill", null, null));
+              t1.set$_multiplier(1000);
+              affix._contents += t1._symbols.PERMILL;
+              break;
+            default:
+              affix._contents += ch;
+          }
+        return true;
+      },
+      _parseTrunk$0: function() {
+        var trunk, t1, loop, t2, n, effectiveDecimalPos, t3, totalDigits, t4, t5;
+        trunk = new P.StringBuffer("");
+        t1 = this.pattern;
+        loop = true;
+        while (true) {
+          if (!(t1._intl$_current != null && loop))
+            break;
+          loop = this.parseTrunkCharacter$1(trunk);
+        }
+        t2 = this.zeroDigitCount;
+        if (t2 === 0 && this.digitLeftCount > 0 && this.decimalPos >= 0) {
+          n = this.decimalPos;
+          if (n === 0)
+            n = 1;
+          this.digitRightCount = this.digitLeftCount - n;
+          this.digitLeftCount = n - 1;
+          this.zeroDigitCount = 1;
+          t2 = 1;
+        }
+        effectiveDecimalPos = this.decimalPos;
+        if (!(effectiveDecimalPos < 0 && this.digitRightCount > 0)) {
+          if (effectiveDecimalPos >= 0) {
+            t3 = this.digitLeftCount;
+            t3 = effectiveDecimalPos < t3 || effectiveDecimalPos > t3 + t2;
+          } else
+            t3 = false;
+          t3 = t3 || this.groupingCount === 0;
+        } else
+          t3 = true;
+        if (t3)
+          throw H.wrapException(P.FormatException$('Malformed pattern "' + t1.input + '"', null, null));
+        t1 = this.digitLeftCount;
+        t2 = t1 + t2;
+        totalDigits = t2 + this.digitRightCount;
+        t3 = this.format;
+        t4 = effectiveDecimalPos >= 0;
+        t5 = t4 ? totalDigits - effectiveDecimalPos : 0;
+        t3.maximumFractionDigits = t5;
+        if (t4) {
+          t2 -= effectiveDecimalPos;
+          t3.minimumFractionDigits = t2;
+          if (t2 < 0)
+            t3.minimumFractionDigits = 0;
+        }
+        t2 = (t4 ? effectiveDecimalPos : totalDigits) - t1;
+        t3.minimumIntegerDigits = t2;
+        if (t3._useExponentialNotation) {
+          t3.maximumIntegerDigits = t1 + t2;
+          if (t5 === 0 && t2 === 0)
+            t3.minimumIntegerDigits = 1;
+        }
+        t1 = H.intTypeCheck(Math.max(0, this.groupingCount));
+        t3._finalGroupingSize = t1;
+        if (!t3._groupingSizeSetExplicitly)
+          t3._groupingSize = t1;
+        t3._decimalSeparatorAlwaysShown = effectiveDecimalPos === 0 || effectiveDecimalPos === totalDigits;
+        t1 = trunk._contents;
+        return t1.charCodeAt(0) == 0 ? t1 : t1;
+      },
+      parseTrunkCharacter$1: function(trunk) {
+        var t1, ch, t2, t3, nextChar;
+        t1 = this.pattern;
+        ch = t1._intl$_current;
+        switch (ch) {
+          case "#":
+            if (this.zeroDigitCount > 0)
+              ++this.digitRightCount;
+            else
+              ++this.digitLeftCount;
+            t2 = this.groupingCount;
+            if (t2 >= 0 && this.decimalPos < 0)
+              this.groupingCount = t2 + 1;
+            break;
+          case "0":
+            if (this.digitRightCount > 0)
+              throw H.wrapException(P.FormatException$('Unexpected "0" in pattern "' + t1.input + '"', null, null));
+            ++this.zeroDigitCount;
+            t2 = this.groupingCount;
+            if (t2 >= 0 && this.decimalPos < 0)
+              this.groupingCount = t2 + 1;
+            break;
+          case ",":
+            t2 = this.groupingCount;
+            if (t2 > 0) {
+              t3 = this.format;
+              t3._groupingSizeSetExplicitly = true;
+              t3._groupingSize = t2;
+            }
+            this.groupingCount = 0;
+            break;
+          case ".":
+            if (this.decimalPos >= 0)
+              throw H.wrapException(P.FormatException$('Multiple decimal separators in pattern "' + t1.toString$0(0) + '"', null, null));
+            this.decimalPos = this.digitLeftCount + this.zeroDigitCount + this.digitRightCount;
+            break;
+          case "E":
+            trunk._contents += H.S(ch);
+            t2 = this.format;
+            if (t2._useExponentialNotation)
+              throw H.wrapException(P.FormatException$('Multiple exponential symbols in pattern "' + t1.toString$0(0) + '"', null, null));
+            t2._useExponentialNotation = true;
+            t2.minimumExponentDigits = 0;
+            t1.moveNext$0();
+            nextChar = t1._intl$_current;
+            if (nextChar === "+") {
+              trunk._contents += H.S(nextChar);
+              t1.moveNext$0();
+              t2._useSignForPositiveExponent = true;
+            }
+            for (; t3 = t1._intl$_current, t3 === "0";) {
+              trunk._contents += H.S(t3);
+              t1.moveNext$0();
+              ++t2.minimumExponentDigits;
+            }
+            if (this.digitLeftCount + this.zeroDigitCount < 1 || t2.minimumExponentDigits < 1)
+              throw H.wrapException(P.FormatException$('Malformed exponential pattern "' + t1.toString$0(0) + '"', null, null));
+            return false;
+          default:
+            return false;
+        }
+        trunk._contents += H.S(ch);
+        t1.moveNext$0();
+        return true;
+      }
+    },
+    _StringIterable: {
+      "^": "IterableBase;iterator>",
+      $asIterable: function() {
+        return [P.String];
+      }
+    },
+    _StringIterator: {
+      "^": "Object;input,nextIndex,0_intl$_current",
+      get$current: function(_) {
+        return this._intl$_current;
+      },
+      moveNext$0: function() {
+        var t1, t2;
+        t1 = this.nextIndex;
+        t2 = this.input;
+        if (t1 >= t2.length) {
+          this._intl$_current = null;
+          return false;
+        }
+        this.nextIndex = t1 + 1;
+        this._intl$_current = t2[t1];
+        return true;
+      },
+      get$iterator: function(_) {
+        return this;
+      },
+      $isIterator: 1,
+      $asIterator: function() {
+        return [P.String];
+      }
     }
-  }], ["intl_helpers", "package:intl/src/intl_helpers.dart",, X, {
+  }], ["number_symbols", "package:intl/number_symbols.dart",, B, {
+    "^": "",
+    NumberSymbols: {
+      "^": "Object;NAME,DECIMAL_SEP,GROUP_SEP,PERCENT,ZERO_DIGIT,PLUS_SIGN,MINUS_SIGN,EXP_SYMBOL,PERMILL,INFINITY,NAN,DECIMAL_PATTERN,SCIENTIFIC_PATTERN,PERCENT_PATTERN,CURRENCY_PATTERN,DEF_CURRENCY_CODE",
+      toString$0: function(_) {
+        return this.NAME;
+      },
+      static: {
+        NumberSymbols$: function(CURRENCY_PATTERN, DECIMAL_PATTERN, DECIMAL_SEP, DEF_CURRENCY_CODE, EXP_SYMBOL, GROUP_SEP, INFINITY, MINUS_SIGN, NAME, NAN, PERCENT, PERCENT_PATTERN, PERMILL, PLUS_SIGN, SCIENTIFIC_PATTERN, ZERO_DIGIT) {
+          return new B.NumberSymbols(NAME, DECIMAL_SEP, GROUP_SEP, PERCENT, ZERO_DIGIT, PLUS_SIGN, MINUS_SIGN, EXP_SYMBOL, PERMILL, INFINITY, NAN, DECIMAL_PATTERN, SCIENTIFIC_PATTERN, PERCENT_PATTERN, CURRENCY_PATTERN, DEF_CURRENCY_CODE);
+        }
+      }
+    }
+  }], ["number_symbol_data", "package:intl/number_symbols_data.dart",, F, {}], ["intl_helpers", "package:intl/src/intl_helpers.dart",, X, {
     "^": "",
     UninitializedLocaleData: {
       "^": "Object;message>,fallbackData,_badMessages,$ti",
@@ -41738,7 +49825,7 @@
       }
     },
     _calcSplices_resetSplice: {
-      "^": "Closure:1;_box_0,E",
+      "^": "Closure:2;_box_0,E",
       call$0: function() {
         var t1 = this._box_0;
         t1.spliceIndex = -1;
@@ -42433,29 +50520,29 @@
       }
     },
     Context_join_closure: {
-      "^": "Closure:20;",
+      "^": "Closure:17;",
       call$1: function(part) {
         return H.stringTypeCheck(part) != null;
       }
     },
     Context_joinAll_closure: {
-      "^": "Closure:20;",
+      "^": "Closure:17;",
       call$1: function(part) {
         return H.stringTypeCheck(part) !== "";
       }
     },
     Context_split_closure: {
-      "^": "Closure:20;",
+      "^": "Closure:17;",
       call$1: function(part) {
         return H.stringTypeCheck(part).length !== 0;
       }
     },
     _validateArgList_closure: {
-      "^": "Closure:14;",
+      "^": "Closure:10;",
       call$1: [function(arg) {
         H.stringTypeCheck(arg);
         return arg == null ? "null" : '"' + arg + '"';
-      }, null, null, 4, 0, null, 10, "call"]
+      }, null, null, 4, 0, null, 11, "call"]
     }
   }], ["", "package:path/src/internal_style.dart",, B, {
     "^": "",
@@ -42596,7 +50683,7 @@
       }
     },
     ParsedPath_normalize_closure: {
-      "^": "Closure:13;$this",
+      "^": "Closure:15;$this",
       call$1: function(_) {
         return this.$this.style.get$separator();
       }
@@ -42865,7 +50952,7 @@
       return 536870911 & hash + ((16383 & hash) << 15);
     },
     hashObjects_closure: {
-      "^": "Closure:194;",
+      "^": "Closure:208;",
       call$2: function(h, i) {
         return X._combine(H.intTypeCheck(h), J.get$hashCode$(i));
       }
@@ -42905,7 +50992,7 @@
     "^": "",
     systemTime: [function() {
       return new P.DateTime(Date.now(), false);
-    }, "call$0", "time__systemTime$closure", 0, 0, 234],
+    }, "call$0", "time__systemTime$closure", 0, 0, 170],
     Clock: {
       "^": "Object;_time"
     }
@@ -43481,7 +51568,7 @@
       }
     },
     Highlighter__writeFirstLine_closure0: {
-      "^": "Closure:1;$this,textInside",
+      "^": "Closure:2;$this,textInside",
       call$0: function() {
         return this.$this._writeText$1(this.textInside);
       }
@@ -43498,7 +51585,7 @@
       }
     },
     Highlighter__writeFirstLine_closure2: {
-      "^": "Closure:1;_box_0,$this",
+      "^": "Closure:2;_box_0,$this",
       call$0: function() {
         var t1 = this._box_0;
         this.$this._highlighter$_buffer._contents += C.JSString_methods.$mul("^", Math.max(t1.endColumn - t1.startColumn, 1));
@@ -43789,7 +51876,7 @@
         return t1.charCodeAt(0) == 0 ? t1 : t1;
       }, function($receiver, message) {
         return this.message$2$color($receiver, message, null);
-      }, "message$1", "call$2$color", "call$1", "get$message", 5, 3, 195],
+      }, "message$1", "call$2$color", "call$1", "get$message", 5, 3, 209],
       highlight$1$color: function(_, color) {
         var t1, t2, t3, t4, newSpan;
         t1 = !!this.$isSourceSpanWithContext;
@@ -43998,7 +52085,7 @@
       return new K._Injector$injector($parent);
     }, function() {
       return K.injector$Injector(null);
-    }, "call$1", "call$0", "main_template__injector$Injector$closure", 0, 2, 47],
+    }, "call$1", "call$0", "main_template__injector$Injector$closure", 0, 2, 83],
     _Injector$injector: {
       "^": "HierarchicalInjector;0_field0,0_field1,0_field2,0_field3,parent",
       injectFromSelfOptional$2: function(token, orElse) {
@@ -44132,9 +52219,32 @@
       return J.UnknownJavaScriptObject.prototype;
     return receiver;
   };
+  J.getInterceptor$in = function(receiver) {
+    if (typeof receiver == "number") {
+      if (Math.floor(receiver) == receiver)
+        return J.JSInt.prototype;
+      return J.JSNumber.prototype;
+    }
+    if (receiver == null)
+      return receiver;
+    if (!(receiver instanceof P.Object))
+      return J.UnknownJavaScriptObject.prototype;
+    return receiver;
+  };
   J.getInterceptor$n = function(receiver) {
     if (typeof receiver == "number")
       return J.JSNumber.prototype;
+    if (receiver == null)
+      return receiver;
+    if (!(receiver instanceof P.Object))
+      return J.UnknownJavaScriptObject.prototype;
+    return receiver;
+  };
+  J.getInterceptor$ns = function(receiver) {
+    if (typeof receiver == "number")
+      return J.JSNumber.prototype;
+    if (typeof receiver == "string")
+      return J.JSString.prototype;
     if (receiver == null)
       return receiver;
     if (!(receiver instanceof P.Object))
@@ -44228,6 +52338,9 @@
   };
   J.get$isEmpty$asx = function(receiver) {
     return J.getInterceptor$asx(receiver).get$isEmpty(receiver);
+  };
+  J.get$isNegative$n = function(receiver) {
+    return J.getInterceptor$n(receiver).get$isNegative(receiver);
   };
   J.get$isNotEmpty$asx = function(receiver) {
     return J.getInterceptor$asx(receiver).get$isNotEmpty(receiver);
@@ -44356,6 +52469,11 @@
     if (typeof receiver == "number" && typeof a0 == "number")
       return receiver < a0;
     return J.getInterceptor$n(receiver).$lt(receiver, a0);
+  };
+  J.$mul$ns = function(receiver, a0) {
+    if (typeof receiver == "number" && typeof a0 == "number")
+      return receiver * a0;
+    return J.getInterceptor$ns(receiver).$mul(receiver, a0);
   };
   J.$or$n = function(receiver, a0) {
     if (typeof receiver == "number" && typeof a0 == "number")
@@ -44509,6 +52627,12 @@
   J.substring$2$s = function(receiver, a0, a1) {
     return J.getInterceptor$s(receiver).substring$2(receiver, a0, a1);
   };
+  J.toDouble$0$n = function(receiver) {
+    return J.getInterceptor$n(receiver).toDouble$0(receiver);
+  };
+  J.toInt$0$n = function(receiver) {
+    return J.getInterceptor$n(receiver).toInt$0(receiver);
+  };
   J.toRadixString$1$n = function(receiver, a0) {
     return J.getInterceptor$n(receiver).toRadixString$1(receiver, a0);
   };
@@ -44541,6 +52665,7 @@
   C.Interceptor_methods = J.Interceptor.prototype;
   C.JSArray_methods = J.JSArray.prototype;
   C.JSBool_methods = J.JSBool.prototype;
+  C.JSDouble_methods = J.JSDouble.prototype;
   C.JSInt_methods = J.JSInt.prototype;
   C.JSNull_methods = J.JSNull.prototype;
   C.JSNumber_methods = J.JSNumber.prototype;
@@ -44577,13 +52702,20 @@
   C.C__NoopDisposable = new R._NoopDisposable();
   C.C__RootZone = new P._RootZone();
   C.Clock_systemTime = new V.Clock(V.time__systemTime$closure());
-  C.ComponentFactory_1mp = new D.ComponentFactory("player-detail", Y.player_template__viewFactory_PlayerDetailComponentHost0$closure(), [Q.PlayerDetailComponent]);
   C.ComponentFactory_B8J = new D.ComponentFactory("admin-comp", K.admin_component_template__viewFactory_AdminComponentHost0$closure(), [O.AdminComponent]);
+  C.ComponentFactory_EyN = new D.ComponentFactory("game-detail", G.game_template__viewFactory_GameDetailComponentHost0$closure(), [D.GameDetailComponent]);
+  C.ComponentFactory_L97 = new D.ComponentFactory("user-detail", F.user_template__viewFactory_UserDetailComponentHost0$closure(), [N.UserDetailComponent]);
+  C.ComponentFactory_MLc = new D.ComponentFactory("round-detail", Z.round_template__viewFactory_RoundDetailComponentHost0$closure(), [R.RoundDetailComponent]);
   C.ComponentFactory_OSt = new D.ComponentFactory("tournament-detail", A.tournament_template__viewFactory_TournamentDetailComponentHost0$closure(), [E.TournamentDetailComponent]);
   C.ComponentFactory_S1h = new D.ComponentFactory("material-tooltip-text", L.ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure(), [F.MaterialInkTooltipComponent]);
+  C.ComponentFactory_UKi = new D.ComponentFactory("entrant-detail", S.entrant_template__viewFactory_EntrantDetailComponentHost0$closure(), [D.EntrantDetailComponent]);
   C.ComponentFactory_bl8 = new D.ComponentFactory("tr-dashboard", T.dashboard_component_template__viewFactory_DashboardComponentHost0$closure(), [K.DashboardComponent]);
   C.ComponentFactory_fRp = new D.ComponentFactory("tr-app", V.app_component_template__viewFactory_AppComponentHost0$closure(), [Q.AppComponent]);
+  C.ComponentFactory_ftt = new D.ComponentFactory("event-detail", G.event_template__viewFactory_EventDetailComponentHost0$closure(), [X.EventDetailComponent]);
+  C.ComponentFactory_gOH = new D.ComponentFactory("stage-detail", R.stage_template__viewFactory_StageDetailComponentHost0$closure(), [L.StageDetailComponent]);
   C.ComponentFactory_ivk = new D.ComponentFactory("my-itemlist", Z.type_list_component_template__viewFactory_TypeListComponentHost0$closure(), [L.TypeListComponent]);
+  C.ComponentFactory_mJb = new D.ComponentFactory("match-detail", R.match_template__viewFactory_MatchDetailComponentHost0$closure(), [Y.MatchDetailComponent]);
+  C.ComponentFactory_qbf = new D.ComponentFactory("result-detail", S.result_template__viewFactory_ResultDetailComponentHost0$closure(), [E.ResultDetailComponent]);
   C.DomServiceState_0 = new F.DomServiceState(0, "DomServiceState.Idle");
   C.DomServiceState_1 = new F.DomServiceState(1, "DomServiceState.Writing");
   C.DomServiceState_2 = new F.DomServiceState(2, "DomServiceState.Reading");
@@ -44761,6 +52893,7 @@
   C.RelativePosition_kQW = new K.RelativePosition(C.BeforeCustomAlignment_yHF, C.Alignment_dMH, "top right");
   C.RelativePosition_QC7 = new K.RelativePosition(C.BeforeCustomAlignment_yHF, C.Alignment_Yw7, "bottom right");
   C.List_kaS = H.setRuntimeTypeInfo(Isolate.makeConstantList([C.RelativePosition_kqK, C.RelativePosition_fXH, C.RelativePosition_MoS, C.RelativePosition_kQW, C.RelativePosition_22B, C.RelativePosition_QC7]), [K.RelativePosition]);
+  C.List_number_tel = H.setRuntimeTypeInfo(Isolate.makeConstantList(["number", "tel"]), [P.String]);
   C.List_nxB = H.setRuntimeTypeInfo(Isolate.makeConstantList([0, 0, 24576, 1023, 65534, 34815, 65534, 18431]), [P.int]);
   C.List_qNA = H.setRuntimeTypeInfo(Isolate.makeConstantList([0, 0, 32754, 11263, 65534, 34815, 65534, 18431]), [P.int]);
   C.List_qg40 = H.setRuntimeTypeInfo(Isolate.makeConstantList([0, 0, 32722, 12287, 65535, 34815, 65534, 18431]), [P.int]);
@@ -44795,6 +52928,7 @@
   C.OpaqueToken_overlayRepositionLoop = new S.OpaqueToken("overlayRepositionLoop", [null]);
   C.OpaqueToken_overlaySyncDom = new S.OpaqueToken("overlaySyncDom", [null]);
   C.Optional_null = new X.Optional(null, [P.String]);
+  C.Symbol_89P = new H.Symbol("Intl.locale");
   C.Symbol_autoDismiss = new H.Symbol("autoDismiss");
   C.Symbol_call = new H.Symbol("call");
   C.Symbol_constrainToViewport = new H.Symbol("constrainToViewport");
@@ -44847,6 +52981,8 @@
   C.Type_MaterialButtonComponent_xw8 = H.createRuntimeType(B.MaterialButtonComponent);
   C.Type_MaterialExpansionPanel_WrR = H.createRuntimeType(T.MaterialExpansionPanel);
   C.Type_MaterialInputComponent_Arc = H.createRuntimeType(L.MaterialInputComponent);
+  C.Type_MaterialNumberValidator_86y = H.createRuntimeType(F.MaterialNumberValidator);
+  C.Type_MaterialNumberValueAccessor_mqh = H.createRuntimeType(F.MaterialNumberValueAccessor);
   C.Type_MaterialPopupComponent_OpB = H.createRuntimeType(G.MaterialPopupComponent);
   C.Type_MenuRoot_uHT = H.createRuntimeType(Q.MenuRoot);
   C.Type_ModalComponent_Npb = H.createRuntimeType(D.ModalComponent);
@@ -44855,6 +52991,7 @@
   C.Type_NgModel_qx4 = H.createRuntimeType(U.NgModel);
   C.Type_NgSwitch_Mkn = H.createRuntimeType(V.NgSwitch);
   C.Type_NgZone_6ty = H.createRuntimeType(Y.NgZone);
+  C.Type_NumberFormat_kZA = H.createRuntimeType(T.NumberFormat);
   C.Type_OverlayDomRenderService_qUY = H.createRuntimeType(K.OverlayDomRenderService);
   C.Type_OverlayService_4iH = H.createRuntimeType(X.OverlayService);
   C.Type_OverlayStyleConfig_rp8 = H.createRuntimeType(R.OverlayStyleConfig);
@@ -44982,11 +53119,38 @@
   $.ViewAppComponent0__renderType = null;
   $.ViewAdminComponent0__renderType = null;
   $.ViewDashboardComponent0__renderType = null;
-  $.ViewPlayerDetailComponent0__renderType = null;
+  $.ViewEntrantDetailComponent0__renderType = null;
+  $.ViewEventDetailComponent0__renderType = null;
+  $.ViewGameDetailComponent0__renderType = null;
+  $.ViewMatchDetailComponent0__renderType = null;
+  $.ViewResultDetailComponent0__renderType = null;
+  $.ViewRoundDetailComponent0__renderType = null;
+  $.ViewStageDetailComponent0__renderType = null;
   $.ViewTournamentDetailComponent0__renderType = null;
+  $.ViewUserDetailComponent0__renderType = null;
   $.ViewRaisableMenuComponent0__renderType = null;
   $.ViewTypeListComponent0__renderType = null;
+  $.EntrantService_baseUrl = "http://localhost:8080/v1/";
+  $.EntrantService_apiUrl = "entrant/";
+  $.EventService_baseUrl = "http://localhost:8080/v1/";
+  $.EventService_coreUrl = "event/";
+  $.GameService_baseUrl = "http://localhost:8080/v1/";
+  $.GameService_coreUrl = "game/";
   $.serviceSingleton = null;
+  $.MatchService_baseUrl = "http://localhost:8080/v1/";
+  $.MatchService_apiUrl = "match/";
+  $.ResultService_baseUrl = "http://localhost:8080/v1/";
+  $.ResultService_coreUrl = "matchResult/";
+  $.RoundService_baseUrl = "http://localhost:8080/v1/";
+  $.RoundService_coreUrl = "round/";
+  $.StageService_baseUrl = "http://localhost:8080/v1/";
+  $.StageService_coreUrl = "stage/";
+  $.TournamentService_baseUrl = "http://localhost:8080/v1/";
+  $.TournamentService_coreUrl = "tournament/";
+  $.UserService_baseUrl = "http://localhost:8080/v1/";
+  $.UserService_coreUrl = "user/";
+  $.Intl__defaultLocale = null;
+  $.Intl_systemLocale = "en_US";
   $._currentUriBase = null;
   $._current = null;
   $._glyphs = C.C_UnicodeGlyphSet;
@@ -45123,38 +53287,38 @@
     return new P.Object();
   }, "NgZone__anyZoneKey", "_modifierKeyGetters", "$get$_modifierKeyGetters", function() {
     return P.LinkedHashMap_LinkedHashMap$_literal(["alt", new N.closure(), "control", new N.closure0(), "meta", new N.closure1(), "shift", new N.closure2()], P.String, {func: 1, ret: P.bool, args: [W.KeyboardEvent]});
-  }, "_modifierKeyGetters", "styles13", "$get$styles13", function() {
+  }, "_modifierKeyGetters", "styles20", "$get$styles20", function() {
     return ["._nghost-%ID%{display:block}[focusContentWrapper]._ngcontent-%ID%{height:inherit;max-height:inherit;min-height:inherit}"];
-  }, "styles13", "styles$FocusTrapComponent", "$get$styles$FocusTrapComponent", function() {
-    return [$.$get$styles13()];
+  }, "styles20", "styles$FocusTrapComponent", "$get$styles$FocusTrapComponent", function() {
+    return [$.$get$styles20()];
   }, "styles$FocusTrapComponent", "FrameworkStabilizers__idToFrameworkStabilizer", "$get$FrameworkStabilizers__idToFrameworkStabilizer", function() {
     return P.LinkedHashMap_LinkedHashMap$_empty(P.int, null);
   }, "FrameworkStabilizers__idToFrameworkStabilizer", "testabilitiesEnabled", "$get$testabilitiesEnabled", function() {
     return J.contains$1$asx(self.window.location.href, "enableTestabilities");
-  }, "testabilitiesEnabled", "styles8", "$get$styles8", function() {
+  }, "testabilitiesEnabled", "styles15", "$get$styles15", function() {
     return ['._nghost-%ID%{display:inline-flex}._nghost-%ID%[light]{opacity:0.54}._nghost-%ID%[size=x-small]  i{font-size:12px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=small]  i{font-size:13px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=medium]  i{font-size:16px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=large]  i{font-size:18px;height:1em;line-height:1em;width:1em}._nghost-%ID%[size=x-large]  i{font-size:20px;height:1em;line-height:1em;width:1em}._nghost-%ID%[flip][dir=rtl] .glyph-i._ngcontent-%ID%,[dir=rtl] [flip]._nghost-%ID% .glyph-i._ngcontent-%ID%{transform:scaleX(-1)}._nghost-%ID%[baseline]{align-items:center}._nghost-%ID%[baseline]::before{content:"-";display:inline-block;width:0;visibility:hidden}._nghost-%ID%[baseline] .glyph-i._ngcontent-%ID%{margin-bottom:0.1em}'];
-  }, "styles8", "styles$GlyphComponent", "$get$styles$GlyphComponent", function() {
-    return [$.$get$styles8()];
-  }, "styles$GlyphComponent", "styles11", "$get$styles11", function() {
+  }, "styles15", "styles$GlyphComponent", "$get$styles$GlyphComponent", function() {
+    return [$.$get$styles15()];
+  }, "styles$GlyphComponent", "styles18", "$get$styles18", function() {
     return [".segment-highlight._ngcontent-%ID%{font-weight:700}"];
-  }, "styles11", "styles$HighlightedTextComponent", "$get$styles$HighlightedTextComponent", function() {
-    return [$.$get$styles11()];
-  }, "styles$HighlightedTextComponent", "styles0", "$get$styles0", function() {
+  }, "styles18", "styles$HighlightedTextComponent", "$get$styles$HighlightedTextComponent", function() {
+    return [$.$get$styles18()];
+  }, "styles$HighlightedTextComponent", "styles1", "$get$styles1", function() {
     return ['._nghost-%ID%{font-size:14px;font-weight:500;text-transform:uppercase;user-select:none;background:transparent;border-radius:inherit;box-sizing:border-box;cursor:pointer;display:inline-block;letter-spacing:0.01em;line-height:normal;outline:none;position:relative;text-align:center}._nghost-%ID%.acx-theme-dark{color:#fff}._nghost-%ID%:not([icon]){margin:0 0.29em}._nghost-%ID%[dense]:not([icon]){height:32px;font-size:13px}._nghost-%ID%[compact]:not([icon]){padding:0 8px}._nghost-%ID%[disabled]{color:rgba(0,0,0,0.26);cursor:not-allowed}._nghost-%ID%[disabled].acx-theme-dark{color:rgba(255,255,255,0.3)}._nghost-%ID%[disabled] > *._ngcontent-%ID%{pointer-events:none}._nghost-%ID%:not([disabled]):not([icon]):hover::after,._nghost-%ID%.is-focused::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:currentColor;opacity:0.12;border-radius:inherit;pointer-events:none}._nghost-%ID%[raised][animated]{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}._nghost-%ID%[raised][elevation="1"]{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="2"]{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="3"]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="4"]{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="5"]{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="6"]{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}._nghost-%ID%[raised].acx-theme-dark{background-color:#4285f4}._nghost-%ID%[raised][disabled]{background:rgba(0,0,0,0.12);box-shadow:none}._nghost-%ID%[raised][disabled].acx-theme-dark{background:rgba(255,255,255,0.12)}._nghost-%ID%[raised].highlighted:not([disabled]){background-color:#4285f4;color:#fff}._nghost-%ID%[no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%[clear-size]{margin:0}._nghost-%ID% .content._ngcontent-%ID%{display:inline-flex;align-items:center}._nghost-%ID%:not([icon]){border-radius:2px;min-width:64px}._nghost-%ID%:not([icon]) .content._ngcontent-%ID%{padding:0.7em 0.57em}._nghost-%ID%[icon]{border-radius:50%}._nghost-%ID%[icon] .content._ngcontent-%ID%{padding:8px}._nghost-%ID%[clear-size]{min-width:0}'];
-  }, "styles0", "styles$MaterialButtonComponent", "$get$styles$MaterialButtonComponent", function() {
-    return [$.$get$styles0()];
-  }, "styles$MaterialButtonComponent", "styles23", "$get$styles23", function() {
+  }, "styles1", "styles$MaterialButtonComponent", "$get$styles$MaterialButtonComponent", function() {
+    return [$.$get$styles1()];
+  }, "styles$MaterialButtonComponent", "styles30", "$get$styles30", function() {
     return ['._nghost-%ID%{font-size:14px;font-weight:500;text-transform:uppercase;user-select:none;background:transparent;border-radius:inherit;box-sizing:border-box;cursor:pointer;display:inline-block;letter-spacing:0.01em;line-height:normal;outline:none;position:relative;text-align:center;border-radius:28px}._nghost-%ID%.acx-theme-dark{color:#fff}._nghost-%ID%:not([icon]){margin:0 0.29em}._nghost-%ID%[dense]:not([icon]){height:32px;font-size:13px}._nghost-%ID%[compact]:not([icon]){padding:0 8px}._nghost-%ID%[disabled]{color:rgba(0,0,0,0.26);cursor:not-allowed}._nghost-%ID%[disabled].acx-theme-dark{color:rgba(255,255,255,0.3)}._nghost-%ID%[disabled] > *._ngcontent-%ID%{pointer-events:none}._nghost-%ID%:not([disabled]):not([icon]):hover::after,._nghost-%ID%.is-focused::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:currentColor;opacity:0.12;border-radius:inherit;pointer-events:none}._nghost-%ID%[raised][animated]{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}._nghost-%ID%[raised][elevation="1"]{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="2"]{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="3"]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="4"]{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="5"]{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}._nghost-%ID%[raised][elevation="6"]{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}._nghost-%ID%[raised].acx-theme-dark{background-color:#4285f4}._nghost-%ID%[raised][disabled]{background:rgba(0,0,0,0.12);box-shadow:none}._nghost-%ID%[raised][disabled].acx-theme-dark{background:rgba(255,255,255,0.12)}._nghost-%ID%[raised].highlighted:not([disabled]){background-color:#4285f4;color:#fff}._nghost-%ID%[no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%[clear-size]{margin:0}._nghost-%ID% .content._ngcontent-%ID%{display:inline-flex;align-items:center}._nghost-%ID% .content._ngcontent-%ID%{height:56px;width:56px}._nghost-%ID% .content._ngcontent-%ID%{justify-content:center}._nghost-%ID%[mini]{font-size:14px;font-weight:500;text-transform:uppercase;user-select:none;background:transparent;border-radius:inherit;box-sizing:border-box;cursor:pointer;display:inline-block;letter-spacing:0.01em;line-height:normal;outline:none;position:relative;text-align:center;border-radius:20px}._nghost-%ID%[mini].acx-theme-dark{color:#fff}._nghost-%ID%[mini]:not([icon]){margin:0 0.29em}._nghost-%ID%[mini][dense]:not([icon]){height:32px;font-size:13px}._nghost-%ID%[mini][compact]:not([icon]){padding:0 8px}._nghost-%ID%[mini][disabled]{color:rgba(0,0,0,0.26);cursor:not-allowed}._nghost-%ID%[mini][disabled].acx-theme-dark{color:rgba(255,255,255,0.3)}._nghost-%ID%[mini][disabled] > *._ngcontent-%ID%{pointer-events:none}._nghost-%ID%[mini]:not([disabled]):not([icon]):hover::after,._nghost-%ID%[mini].is-focused::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:currentColor;opacity:0.12;border-radius:inherit;pointer-events:none}._nghost-%ID%[mini][raised][animated]{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}._nghost-%ID%[mini][raised][elevation="1"]{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="2"]{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="3"]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="4"]{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="5"]{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised][elevation="6"]{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}._nghost-%ID%[mini][raised].acx-theme-dark{background-color:#4285f4}._nghost-%ID%[mini][raised][disabled]{background:rgba(0,0,0,0.12);box-shadow:none}._nghost-%ID%[mini][raised][disabled].acx-theme-dark{background:rgba(255,255,255,0.12)}._nghost-%ID%[mini][raised].highlighted:not([disabled]){background-color:#4285f4;color:#fff}._nghost-%ID%[mini][no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%[mini][clear-size]{margin:0}._nghost-%ID%[mini] .content._ngcontent-%ID%{display:inline-flex;align-items:center}._nghost-%ID%[mini] .content._ngcontent-%ID%{height:40px;width:40px}._nghost-%ID%[mini] .content._ngcontent-%ID%{justify-content:center}._nghost-%ID%[raised]{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}._nghost-%ID%.is-pressed[raised]{box-shadow:0 12px 17px 2px rgba(0,0,0,0.14),0 5px 22px 4px rgba(0,0,0,0.12),0 7px 8px -4px rgba(0,0,0,0.2)}material-icon._ngcontent-%ID%  .material-icon-i.material-icon-i{font-size:24px}glyph._ngcontent-%ID%  i{font-size:24px;height:1em;line-height:1em;width:1em}'];
-  }, "styles23", "styles$MaterialFabComponent", "$get$styles$MaterialFabComponent", function() {
-    return [$.$get$styles23()];
-  }, "styles$MaterialFabComponent", "styles9", "$get$styles9", function() {
+  }, "styles30", "styles$MaterialFabComponent", "$get$styles$MaterialFabComponent", function() {
+    return [$.$get$styles30()];
+  }, "styles$MaterialFabComponent", "styles16", "$get$styles16", function() {
     return ['._nghost-%ID%{align-items:center;cursor:pointer;display:inline-flex;margin:8px}._nghost-%ID%[no-ink] material-ripple._ngcontent-%ID%{display:none}._nghost-%ID%:focus{outline:none}._nghost-%ID%.disabled{cursor:not-allowed}._nghost-%ID%.disabled > .content._ngcontent-%ID%{color:rgba(0,0,0,0.54)}._nghost-%ID%.disabled > .icon-container._ngcontent-%ID% > .icon._ngcontent-%ID%{color:rgba(0,0,0,0.26)}.icon-container._ngcontent-%ID%{display:flex;position:relative}.icon-container.focus._ngcontent-%ID%::after,.icon-container._ngcontent-%ID% .ripple._ngcontent-%ID%{color:#9e9e9e;border-radius:20px;height:40px;left:-8px;position:absolute;top:-8px;width:40px}.icon-container.focus._ngcontent-%ID%::after{content:"";display:block;background-color:currentColor;opacity:0.12}.icon._ngcontent-%ID%{opacity:0.54}.icon.filled._ngcontent-%ID%{color:#4285f4;opacity:0.87}.content._ngcontent-%ID%{align-items:center;flex-grow:1;flex-shrink:1;flex-basis:auto;margin-left:8px;overflow-x:hidden;padding:1px 0;text-overflow:ellipsis}'];
-  }, "styles9", "styles$MaterialCheckboxComponent", "$get$styles$MaterialCheckboxComponent", function() {
-    return [$.$get$styles9()];
-  }, "styles$MaterialCheckboxComponent", "styles21", "$get$styles21", function() {
+  }, "styles16", "styles$MaterialCheckboxComponent", "$get$styles$MaterialCheckboxComponent", function() {
+    return [$.$get$styles16()];
+  }, "styles$MaterialCheckboxComponent", "styles28", "$get$styles28", function() {
     return ["._nghost-%ID%{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);background:#fff;border-radius:2px;display:block;height:auto;max-height:60vh;max-width:1240px;overflow:hidden}@media (max-height:1200px){._nghost-%ID%{max-height:calc(560px + (100vh - 600px) * .267)}}@media (max-height:600px){._nghost-%ID%{max-height:calc(100vh - 32px)}}@media (max-width:1800px){._nghost-%ID%{max-width:calc(880px + (100vw - 920px) * .4)}}@media (max-width:920px){._nghost-%ID%{max-width:calc(100vw - 32px)}}focus-trap._ngcontent-%ID%{height:inherit;max-height:inherit;min-height:inherit;width:100%}.wrapper._ngcontent-%ID%{display:flex;flex-direction:column;height:inherit;overflow:hidden;max-height:inherit;min-height:inherit}.error._ngcontent-%ID%{font-size:13px;font-weight:400;box-sizing:border-box;flex-shrink:0;background:#eee;color:#c53929;padding:0 24px;transition:padding 218ms cubic-bezier(0.4,0,0.2,1) 0s;width:100%}.error.expanded._ngcontent-%ID%{border-bottom:1px #e0e0e0 solid;border-top:1px #e0e0e0 solid;padding:8px 24px}main._ngcontent-%ID%{font-size:13px;font-weight:400;box-sizing:border-box;flex-grow:1;color:rgba(0,0,0,0.87);overflow:auto;padding:0 24px;width:100%}main.top-scroll-stroke._ngcontent-%ID%{border-top:1px #e0e0e0 solid}main.bottom-scroll-stroke._ngcontent-%ID%{border-bottom:1px #e0e0e0 solid}footer._ngcontent-%ID%{box-sizing:border-box;flex-shrink:0;padding:0 8px 8px;width:100%}._nghost-%ID%  .wrapper > header{-moz-box-sizing:border-box;box-sizing:border-box;padding:24px 24px 0;width:100%;flex-shrink:0}._nghost-%ID%  .wrapper > header  h1,._nghost-%ID%  .wrapper > header  h3{font-size:20px;font-weight:500;margin:0 0 8px}._nghost-%ID%  .wrapper > header  p{font-size:12px;font-weight:400;margin:0}._nghost-%ID%  .wrapper > footer [footer]{display:flex;flex-shrink:0;justify-content:flex-end}._nghost-%ID%[headered]  .wrapper > header{-moz-box-sizing:border-box;box-sizing:border-box;padding:24px 24px 0;width:100%;background:#616161;padding-bottom:16px}._nghost-%ID%[headered]  .wrapper > header  h1,._nghost-%ID%[headered]  .wrapper > header  h3{font-size:20px;font-weight:500;margin:0 0 8px}._nghost-%ID%[headered]  .wrapper > header  p{font-size:12px;font-weight:400;margin:0}._nghost-%ID%[headered]  .wrapper > header  h1,._nghost-%ID%[headered]  .wrapper > header  h3{color:#fff;margin-bottom:4px}._nghost-%ID%[headered]  .wrapper > header  p{color:white}._nghost-%ID%[headered]  .wrapper > main{padding-top:8px}._nghost-%ID%[info]  .wrapper > header  h1,._nghost-%ID%[info]  .wrapper > header  h3{line-height:40px;margin:0}._nghost-%ID%[info]  .wrapper > header  material-button{float:right}._nghost-%ID%[info]  .wrapper > footer{padding-bottom:24px}"];
-  }, "styles21", "styles$MaterialDialogComponent", "$get$styles$MaterialDialogComponent", function() {
-    return [$.$get$styles21()];
+  }, "styles28", "styles$MaterialDialogComponent", "$get$styles$MaterialDialogComponent", function() {
+    return [$.$get$styles28()];
   }, "styles$MaterialDialogComponent", "MaterialExpansionPanel__closePanelMsg", "$get$MaterialExpansionPanel__closePanelMsg", function() {
     return T.Intl_message("Close panel", null, "ARIA label for a button that closes the panel.", C.Map_empty0, null, null, "_closePanelMsg", null);
   }, "MaterialExpansionPanel__closePanelMsg", "MaterialExpansionPanel__openPanelMsg", "$get$MaterialExpansionPanel__openPanelMsg", function() {
@@ -45165,103 +53329,133 @@
     return T.Intl_message("Save", null, "Text on save button.", C.Map_empty0, null, "Text on save button.", "_msgSave", null);
   }, "MaterialExpansionPanel__msgSave", "MaterialExpansionPanel__msgCancel", "$get$MaterialExpansionPanel__msgCancel", function() {
     return T.Intl_message("Cancel", null, "Text on cancel button.", C.Map_empty0, null, "Text on cancel button.", "_msgCancel", null);
-  }, "MaterialExpansionPanel__msgCancel", "styles4", "$get$styles4", function() {
+  }, "MaterialExpansionPanel__msgCancel", "styles5", "$get$styles5", function() {
     return [".panel._ngcontent-%ID%{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);background-color:#fff;margin:0;transition:margin 436ms cubic-bezier(0.4,0,0.2,1);width:inherit}._nghost-%ID%:not([hidden]){display:block}._nghost-%ID%[flat] .panel._ngcontent-%ID%{box-shadow:none;border:1px solid rgba(0,0,0,0.12)}._nghost-%ID%[wide] .panel._ngcontent-%ID%{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);background-color:#fff;margin:0 24px;transition:margin 436ms cubic-bezier(0.4,0,0.2,1)}.panel.open._ngcontent-%ID%,._nghost-%ID%[wide] .panel.open._ngcontent-%ID%{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);background-color:#fff;margin:16px 0}._nghost-%ID%[flat] .panel.open._ngcontent-%ID%{box-shadow:none;margin:0}.expand-button._ngcontent-%ID%{user-select:none;color:#616161;cursor:pointer;transition:transform 436ms cubic-bezier(0.4,0,0.2,1)}.expand-button.expand-more._ngcontent-%ID%{transform:rotate(180deg)}.expand-button.expand-on-left._ngcontent-%ID%{margin:0 4px 0 0}header._ngcontent-%ID%{display:flex;color:rgba(0,0,0,0.87);transition:height 218ms cubic-bezier(0.4,0,0.2,1),min-height 218ms cubic-bezier(0.4,0,0.2,1),opacity 436ms cubic-bezier(0.4,0,0.2,1)}header.hidden._ngcontent-%ID%{min-height:0;height:0;opacity:0;overflow:hidden}.header._ngcontent-%ID%{align-items:center;display:flex;flex-grow:1;font-size:15px;font-weight:400;cursor:pointer;min-height:48px;min-width:0;outline:none;padding:0 24px;transition:min-height 218ms cubic-bezier(0.4,0,0.2,1)}.header.closed:not(.is-disabled):hover._ngcontent-%ID%,.header.closed:not(.is-disabled):focus._ngcontent-%ID%{background-color:#eee}.header.disable-header-expansion._ngcontent-%ID%,.header.is-disabled._ngcontent-%ID%{cursor:default}.panel.open._ngcontent-%ID% > header:not(.hidden)._ngcontent-%ID% > .header._ngcontent-%ID%{min-height:64px}.background._ngcontent-%ID%,._nghost-%ID%[wide] .background._ngcontent-%ID%{background-color:whitesmoke}.panel-name._ngcontent-%ID%{padding-right:16px;min-width:20%}.panel-name._ngcontent-%ID% .primary-text._ngcontent-%ID%{margin:0}.panel-name._ngcontent-%ID% .secondary-text._ngcontent-%ID%{font-size:12px;font-weight:400;color:rgba(0,0,0,0.54);margin:0}.panel-description._ngcontent-%ID%{flex-grow:1;color:rgba(0,0,0,0.54);overflow:hidden;padding-right:16px}main._ngcontent-%ID%{max-height:100%;opacity:1;overflow:hidden;transition:height 218ms cubic-bezier(0.4,0,0.2,1),opacity 218ms cubic-bezier(0.4,0,0.2,1);width:100%}main.hidden._ngcontent-%ID%{height:0;opacity:0}.content-wrapper._ngcontent-%ID%{display:flex;margin:0 24px 16px}.content-wrapper.hidden-header._ngcontent-%ID%{margin-top:16px}.content-wrapper._ngcontent-%ID% > .expand-button._ngcontent-%ID%{align-self:flex-start;flex-shrink:0;margin-left:16px}.content-wrapper._ngcontent-%ID% > .expand-button:focus._ngcontent-%ID%{outline:none}.content-wrapper._ngcontent-%ID% > .expand-button.expand-on-left._ngcontent-%ID%{margin:0 4px 0 0}.content._ngcontent-%ID%{flex-grow:1;overflow:hidden;width:100%}.action-buttons._ngcontent-%ID%,.toolbelt._ngcontent-%ID%  [toolbelt]{box-sizing:border-box;border-top:1px rgba(0,0,0,0.12) solid;padding:16px 0;width:100%}.action-buttons._ngcontent-%ID%{color:#4285f4}"];
-  }, "styles4", "styles$MaterialExpansionPanel", "$get$styles$MaterialExpansionPanel", function() {
-    return [$.$get$styles4()];
-  }, "styles$MaterialExpansionPanel", "styles3", "$get$styles3", function() {
+  }, "styles5", "styles$MaterialExpansionPanel", "$get$styles$MaterialExpansionPanel", function() {
+    return [$.$get$styles5()];
+  }, "styles$MaterialExpansionPanel", "styles", "$get$styles", function() {
     return ['._nghost-%ID%{display:inline-flex}._nghost-%ID%.flip  .material-icon-i{transform:scaleX(-1)}._nghost-%ID%[light]{opacity:0.54}._nghost-%ID% .material-icon-i._ngcontent-%ID%{font-size:24px}._nghost-%ID%[size=x-small] .material-icon-i._ngcontent-%ID%{font-size:12px}._nghost-%ID%[size=small] .material-icon-i._ngcontent-%ID%{font-size:13px}._nghost-%ID%[size=medium] .material-icon-i._ngcontent-%ID%{font-size:16px}._nghost-%ID%[size=large] .material-icon-i._ngcontent-%ID%{font-size:18px}._nghost-%ID%[size=x-large] .material-icon-i._ngcontent-%ID%{font-size:20px}.material-icon-i._ngcontent-%ID%{height:1em;line-height:1;width:1em}._nghost-%ID%[flip][dir=rtl] .material-icon-i._ngcontent-%ID%,[dir=rtl] [flip]._nghost-%ID% .material-icon-i._ngcontent-%ID%{transform:scaleX(-1)}._nghost-%ID%[baseline]{align-items:center}._nghost-%ID%[baseline]::before{content:"-";display:inline-block;width:0;visibility:hidden}._nghost-%ID%[baseline] .material-icon-i._ngcontent-%ID%{margin-bottom:0.1em}'];
-  }, "styles3", "styles$MaterialIconComponent", "$get$styles$MaterialIconComponent", function() {
-    return [$.$get$styles3()];
+  }, "styles", "styles$MaterialIconComponent", "$get$styles$MaterialIconComponent", function() {
+    return [$.$get$styles()];
   }, "styles$MaterialIconComponent", "BaseMaterialInput_defaultEmptyMessage", "$get$BaseMaterialInput_defaultEmptyMessage", function() {
     return T.Intl_message("Enter a value", null, "Error message when the input is empty and required.", C.Map_empty0, null, null, null, null);
-  }, "BaseMaterialInput_defaultEmptyMessage", "styles6", "$get$styles6", function() {
+  }, "BaseMaterialInput_defaultEmptyMessage", "styles4", "$get$styles4", function() {
     return ["._nghost-%ID%{display:inline-flex;flex-direction:column;outline:none;padding:8px 0;text-align:inherit;width:176px;line-height:initial}.baseline._ngcontent-%ID%{display:inline-flex;flex-direction:column;width:100%}._nghost-%ID%[multiline] .baseline._ngcontent-%ID%{flex-shrink:0}.focused.label-text._ngcontent-%ID%{color:#4285f4}.focused-underline._ngcontent-%ID%,.cursor._ngcontent-%ID%{background-color:#4285f4}.top-section._ngcontent-%ID%{display:flex;flex-direction:row;align-items:baseline;margin-bottom:8px}.input-container._ngcontent-%ID%{flex-grow:100;flex-shrink:100;width:100%;position:relative}.input._ngcontent-%ID%::-ms-clear{display:none}.invalid.counter._ngcontent-%ID%,.invalid.label-text._ngcontent-%ID%,.error-text._ngcontent-%ID%,.focused.error-icon._ngcontent-%ID%{color:#c53929}.invalid.unfocused-underline._ngcontent-%ID%,.invalid.focused-underline._ngcontent-%ID%,.invalid.cursor._ngcontent-%ID%{background-color:#c53929}.right-align._ngcontent-%ID%{text-align:right}.leading-text._ngcontent-%ID%,.trailing-text._ngcontent-%ID%{padding:0 4px;white-space:nowrap}.glyph._ngcontent-%ID%{transform:translateY(8px)}.glyph.leading._ngcontent-%ID%{margin-right:8px}.glyph.trailing._ngcontent-%ID%{margin-left:8px}.glyph[disabled=true]._ngcontent-%ID%{opacity:0.3}input._ngcontent-%ID%,textarea._ngcontent-%ID%{font:inherit;color:inherit;padding:0;margin:0;background-color:transparent;border:0;outline:none;width:100%}input[type=text]._ngcontent-%ID%,input[type=text]:focus._ngcontent-%ID%,input[type=text]:hover._ngcontent-%ID%{border:0;outline:none;box-shadow:none}textarea._ngcontent-%ID%{position:absolute;top:0;right:0;bottom:0;left:0;resize:none;height:100%}input:hover._ngcontent-%ID%,textarea:hover._ngcontent-%ID%{cursor:text;box-shadow:none}input:focus._ngcontent-%ID%,textarea:focus._ngcontent-%ID%{box-shadow:none}input:invalid._ngcontent-%ID%,textarea:invalid._ngcontent-%ID%{box-shadow:none}.label-text.disabled._ngcontent-%ID%,.disabledInput._ngcontent-%ID%{color:rgba(0,0,0,0.38)}input[type=number]._ngcontent-%ID%::-webkit-inner-spin-button,input[type=number]._ngcontent-%ID%::-webkit-outer-spin-button{-webkit-appearance:none}input[type=number]._ngcontent-%ID%{-moz-appearance:textfield}.invisible._ngcontent-%ID%{visibility:hidden}.animated._ngcontent-%ID%,.reset._ngcontent-%ID%{transition:opacity 218ms cubic-bezier(0.4,0,0.2,1),transform 218ms cubic-bezier(0.4,0,0.2,1),font-size 218ms cubic-bezier(0.4,0,0.2,1)}.animated.label-text._ngcontent-%ID%{transform:translateY(-100%) translateY(-8px);font-size:12px}.leading-text.floated-label._ngcontent-%ID%,.trailing-text.floated-label._ngcontent-%ID%,.input-container.floated-label._ngcontent-%ID%{margin-top:16px}.label._ngcontent-%ID%{background:transparent;bottom:0;left:0;pointer-events:none;position:absolute;right:0;top:0}.label-text._ngcontent-%ID%{transform-origin:0%,0%;color:rgba(0,0,0,0.54);overflow:hidden;display:inline-block;max-width:100%}.label-text:not(.multiline)._ngcontent-%ID%{text-overflow:ellipsis;white-space:nowrap}.underline._ngcontent-%ID%{height:1px;overflow:visible}.disabled-underline._ngcontent-%ID%{-moz-box-sizing:border-box;box-sizing:border-box;height:1px;border-bottom:1px dashed;color:rgba(0,0,0,0.12)}.unfocused-underline._ngcontent-%ID%{height:1px;background:rgba(0,0,0,0.12);border-bottom-color:rgba(0,0,0,0.12);position:relative;top:-1px}.focused-underline._ngcontent-%ID%{transform:none;height:2px;position:relative;top:-3px}.focused-underline.invisible._ngcontent-%ID%{transform:scale3d(0,1,1)}.bottom-section._ngcontent-%ID%{display:flex;flex-direction:row;justify-content:space-between;margin-top:4px}.counter._ngcontent-%ID%,.error-text._ngcontent-%ID%,.hint-text._ngcontent-%ID%,.spaceholder._ngcontent-%ID%{font-size:12px}.spaceholder._ngcontent-%ID%{flex-grow:1;outline:none}.counter._ngcontent-%ID%{color:rgba(0,0,0,0.54);white-space:nowrap}.hint-text._ngcontent-%ID%{color:rgba(0,0,0,0.54)}.error-icon._ngcontent-%ID%{height:20px;width:20px}"];
-  }, "styles6", "styles$MaterialInputComponent", "$get$styles$MaterialInputComponent", function() {
-    return [$.$get$styles6()];
-  }, "styles$MaterialInputComponent", "styles15", "$get$styles15", function() {
+  }, "styles4", "styles$MaterialInputComponent", "$get$styles$MaterialInputComponent", function() {
+    return [$.$get$styles4()];
+  }, "styles$MaterialInputComponent", "styles22", "$get$styles22", function() {
     return ["._nghost-%ID%{display:block;background:#fff;margin:0;padding:16px 0;white-space:nowrap}._nghost-%ID%[size=x-small]{width:96px}._nghost-%ID%[size=small]{width:192px}._nghost-%ID%[size=medium]{width:320px}._nghost-%ID%[size=large]{width:384px}._nghost-%ID%[size=x-large]{width:448px}._nghost-%ID%[min-size=x-small]{min-width:96px}._nghost-%ID%[min-size=small]{min-width:192px}._nghost-%ID%[min-size=medium]{min-width:320px}._nghost-%ID%[min-size=large]{min-width:384px}._nghost-%ID%[min-size=x-large]{min-width:448px}._nghost-%ID%  [group]:not(.empty) + *:not(script):not(template):not(.empty),._nghost-%ID%  :not([group]):not(script):not(template):not(.empty) + [group]:not(.empty){border-top:1px solid #e0e0e0;margin-top:7px;padding-top:8px}._nghost-%ID%  [group]:not(.empty) + *:not(script):not(template):not(.empty){box-shadow:inset 0 8px 0 0 #fff}._nghost-%ID%  [separator=present]{background:#e0e0e0;cursor:default;height:1px;margin:8px 0}._nghost-%ID%  [label]{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;color:#9e9e9e;font-size:12px;font-weight:400}._nghost-%ID%  [label].disabled{pointer-events:none}._nghost-%ID%  [label]  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}._nghost-%ID%  [label].disabled  .material-list-item-primary{color:rgba(0,0,0,0.38)}._nghost-%ID%  [label]  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}._nghost-%ID%  [label].disabled  .material-list-item-secondary{color:rgba(0,0,0,0.38)}._nghost-%ID%  [label]  .submenu-icon{transform:rotate(-90deg)}._nghost-%ID%[dir=rtl]  [label]  .submenu-icon,[dir=rtl] ._nghost-%ID%  [label]  .submenu-icon{transform:rotate(90deg)}"];
-  }, "styles15", "styles$MaterialListComponent", "$get$styles$MaterialListComponent", function() {
-    return [$.$get$styles15()];
-  }, "styles$MaterialListComponent", "styles10", "$get$styles10", function() {
+  }, "styles22", "styles$MaterialListComponent", "$get$styles$MaterialListComponent", function() {
+    return [$.$get$styles22()];
+  }, "styles$MaterialListComponent", "styles17", "$get$styles17", function() {
     return ["._nghost-%ID%{display:block}._nghost-%ID%:hover  .secondary-icon.hover-icon{opacity:inherit}.material-list-item-primary.caption-text._ngcontent-%ID%{margin:0 8px}.material-list-item-primary.secondary-icon._ngcontent-%ID%{transition:color 218ms cubic-bezier(0.4,0,0.2,1);width:24px}.material-list-item-primary.secondary-icon:not(.disabled):hover._ngcontent-%ID%{color:rgba(0,0,0,0.87)}.secondary-icon.hover-icon._ngcontent-%ID%{opacity:0;transition:opacity 218ms cubic-bezier(0.4,0,0.2,1)}"];
-  }, "styles10", "styles$MenuItemAffixListComponent", "$get$styles$MenuItemAffixListComponent", function() {
-    return [$.$get$styles10()];
-  }, "styles$MenuItemAffixListComponent", "styles14", "$get$styles14", function() {
-    return ["._nghost-%ID%{display:block;outline:none}.group-header._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;font-size:12px;font-weight:400;color:rgba(0,0,0,0.54);height:24px;line-height:24px;display:flex;justify-content:space-between}.group-header.disabled._ngcontent-%ID%{pointer-events:none}.group-header._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.group-header.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.group-header.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.group-header.is-collapsible._ngcontent-%ID%{cursor:pointer}.expansion-icon._ngcontent-%ID%{align-items:center;cursor:pointer;margin-left:8px}.menu-item._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;display:flex;align-items:center;color:rgba(0,0,0,0.87);cursor:pointer;min-height:32px;outline:none}.menu-item.disabled._ngcontent-%ID%{pointer-events:none}.menu-item._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.menu-item.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.menu-item.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.menu-item:not([separator=present]):hover._ngcontent-%ID%,.menu-item:not([separator=present]):focus._ngcontent-%ID%,.menu-item:not([separator=present]).active._ngcontent-%ID%{background:#eee}.menu-item:not([separator=present]).disabled._ngcontent-%ID%{background:none;color:rgba(0,0,0,0.38);cursor:default;pointer-events:all}.menu-item._ngcontent-%ID% material-icon.disabled._ngcontent-%ID%{color:rgba(0,0,0,0.38)}._nghost-%ID%[dir=rtl] .group-header._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .group-header._ngcontent-%ID%  .submenu-icon,._nghost-%ID%[dir=rtl] .menu-item._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(90deg)}.menu-item.active._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.mouse-driven._ngcontent-%ID% .menu-item:not(:hover)._ngcontent-%ID%{background-color:inherit}.mouse-driven._ngcontent-%ID% .menu-item:hover._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.keyboard-driven._ngcontent-%ID% .menu-item:not(.active)._ngcontent-%ID%{background-color:inherit}.keyboard-driven._ngcontent-%ID% .menu-item.is-menu-parent._ngcontent-%ID%{background:#eee}.group:not(.empty):not(:first-child)._ngcontent-%ID%{border-top:1px solid #e0e0e0;margin-top:7px;padding-top:8px}.menu-item-label-section._ngcontent-%ID%{display:inline-flex;flex:1;flex-direction:column;line-height:normal;padding:4px 0}.menu-item-secondary-label._ngcontent-%ID%{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(0,0,0,0.54);font:400 12px/20px Roboto,Noto,sans-serif;letter-spacing:0.02em}.label-annotation._ngcontent-%ID%{color:#0f9d58;font-size:10px;font-weight:700;line-height:10px;text-transform:uppercase}.item-group-list._ngcontent-%ID%{padding:8px 0}.suffix-list._ngcontent-%ID%{margin-left:24px}"];
-  }, "styles14", "styles$MenuItemGroupsComponent", "$get$styles$MenuItemGroupsComponent", function() {
-    return [$.$get$styles14()];
-  }, "styles$MenuItemGroupsComponent", "styles17", "$get$styles17", function() {
-    return [".item-group-list._ngcontent-%ID%{padding:8px 0}"];
-  }, "styles17", "styles$MenuPopupComponent", "$get$styles$MenuPopupComponent", function() {
+  }, "styles17", "styles$MenuItemAffixListComponent", "$get$styles$MenuItemAffixListComponent", function() {
     return [$.$get$styles17()];
+  }, "styles$MenuItemAffixListComponent", "styles21", "$get$styles21", function() {
+    return ["._nghost-%ID%{display:block;outline:none}.group-header._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;font-size:12px;font-weight:400;color:rgba(0,0,0,0.54);height:24px;line-height:24px;display:flex;justify-content:space-between}.group-header.disabled._ngcontent-%ID%{pointer-events:none}.group-header._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.group-header.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.group-header.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.group-header._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.group-header.is-collapsible._ngcontent-%ID%{cursor:pointer}.expansion-icon._ngcontent-%ID%{align-items:center;cursor:pointer;margin-left:8px}.menu-item._ngcontent-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;display:flex;align-items:center;color:rgba(0,0,0,0.87);cursor:pointer;min-height:32px;outline:none}.menu-item.disabled._ngcontent-%ID%{pointer-events:none}.menu-item._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}.menu-item.disabled._ngcontent-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}.menu-item.disabled._ngcontent-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.38)}.menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(-90deg)}.menu-item:not([separator=present]):hover._ngcontent-%ID%,.menu-item:not([separator=present]):focus._ngcontent-%ID%,.menu-item:not([separator=present]).active._ngcontent-%ID%{background:#eee}.menu-item:not([separator=present]).disabled._ngcontent-%ID%{background:none;color:rgba(0,0,0,0.38);cursor:default;pointer-events:all}.menu-item._ngcontent-%ID% material-icon.disabled._ngcontent-%ID%{color:rgba(0,0,0,0.38)}._nghost-%ID%[dir=rtl] .group-header._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .group-header._ngcontent-%ID%  .submenu-icon,._nghost-%ID%[dir=rtl] .menu-item._ngcontent-%ID%  .submenu-icon,[dir=rtl] ._nghost-%ID% .menu-item._ngcontent-%ID%  .submenu-icon{transform:rotate(90deg)}.menu-item.active._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.mouse-driven._ngcontent-%ID% .menu-item:not(:hover)._ngcontent-%ID%{background-color:inherit}.mouse-driven._ngcontent-%ID% .menu-item:hover._ngcontent-%ID%  .secondary-icon.hover-icon{opacity:inherit}.keyboard-driven._ngcontent-%ID% .menu-item:not(.active)._ngcontent-%ID%{background-color:inherit}.keyboard-driven._ngcontent-%ID% .menu-item.is-menu-parent._ngcontent-%ID%{background:#eee}.group:not(.empty):not(:first-child)._ngcontent-%ID%{border-top:1px solid #e0e0e0;margin-top:7px;padding-top:8px}.menu-item-label-section._ngcontent-%ID%{display:inline-flex;flex:1;flex-direction:column;line-height:normal;padding:4px 0}.menu-item-secondary-label._ngcontent-%ID%{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(0,0,0,0.54);font:400 12px/20px Roboto,Noto,sans-serif;letter-spacing:0.02em}.label-annotation._ngcontent-%ID%{color:#0f9d58;font-size:10px;font-weight:700;line-height:10px;text-transform:uppercase}.item-group-list._ngcontent-%ID%{padding:8px 0}.suffix-list._ngcontent-%ID%{margin-left:24px}"];
+  }, "styles21", "styles$MenuItemGroupsComponent", "$get$styles$MenuItemGroupsComponent", function() {
+    return [$.$get$styles21()];
+  }, "styles$MenuItemGroupsComponent", "styles24", "$get$styles24", function() {
+    return [".item-group-list._ngcontent-%ID%{padding:8px 0}"];
+  }, "styles24", "styles$MenuPopupComponent", "$get$styles$MenuPopupComponent", function() {
+    return [$.$get$styles24()];
   }, "styles$MenuPopupComponent", "MaterialPopupComponent__idGenerator", "$get$MaterialPopupComponent__idGenerator", function() {
     return R.SequentialIdGenerator$fromUUID();
-  }, "MaterialPopupComponent__idGenerator", "styles16", "$get$styles16", function() {
+  }, "MaterialPopupComponent__idGenerator", "styles23", "$get$styles23", function() {
     return ['.shadow._ngcontent-%ID%{background:#fff;border-radius:2px;transition:transform 150ms cubic-bezier(0.4,0,1,1);transform-origin:top left;transform:scale3d(0,0,1);will-change:transform}.shadow[animated]._ngcontent-%ID%{transition:box-shadow 0.28s cubic-bezier(0.4,0,0.2,1)}.shadow[elevation="1"]._ngcontent-%ID%{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}.shadow[elevation="2"]._ngcontent-%ID%{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2)}.shadow[elevation="3"]._ngcontent-%ID%{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2)}.shadow[elevation="4"]._ngcontent-%ID%{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2)}.shadow[elevation="5"]._ngcontent-%ID%{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2)}.shadow[elevation="6"]._ngcontent-%ID%{box-shadow:0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2)}.shadow[slide=x]._ngcontent-%ID%{transform:scale3d(0,1,1)}.shadow[slide=y]._ngcontent-%ID%{transform:scale3d(1,0,1)}.shadow.visible._ngcontent-%ID%{transition:transform 150ms cubic-bezier(0,0,0.2,1);transform:scale3d(1,1,1)}.shadow.ink._ngcontent-%ID%{background:#616161;color:#fff}.shadow.full-width._ngcontent-%ID%{flex-grow:1;flex-shrink:1;flex-basis:auto}.shadow._ngcontent-%ID% .popup._ngcontent-%ID%{border-radius:2px;flex-grow:1;flex-shrink:1;flex-basis:auto;overflow:hidden;transition:inherit}.shadow.visible._ngcontent-%ID% .popup._ngcontent-%ID%{visibility:initial}.shadow._ngcontent-%ID% header._ngcontent-%ID%,.shadow._ngcontent-%ID% footer._ngcontent-%ID%{display:block}.shadow._ngcontent-%ID% .main._ngcontent-%ID%{display:flex;flex-direction:column;min-height:inherit;min-width:inherit;max-height:inherit;max-width:inherit;overflow:auto;overscroll-behavior:contain}._nghost-%ID%{justify-content:flex-start;align-items:flex-start}._nghost-%ID%  ::-webkit-scrollbar{background-color:rgba(0,0,0,0);height:4px;width:4px}._nghost-%ID%  ::-webkit-scrollbar:hover{background-color:rgba(0,0,0,0.12)}._nghost-%ID%  ::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.26);min-height:48px;min-width:48px}._nghost-%ID%  ::-webkit-scrollbar-thumb:hover{background-color:#4285f4}._nghost-%ID%  ::-webkit-scrollbar-button{width:0;height:0}.material-popup-content._ngcontent-%ID%{min-width:inherit;min-height:inherit;max-width:inherit;max-height:inherit;position:relative;display:flex;flex-direction:column}.popup-wrapper._ngcontent-%ID%{width:100%}'];
-  }, "styles16", "styles$MaterialPopupComponent", "$get$styles$MaterialPopupComponent", function() {
-    return [$.$get$styles16()];
-  }, "styles$MaterialPopupComponent", "styles22", "$get$styles22", function() {
+  }, "styles23", "styles$MaterialPopupComponent", "$get$styles$MaterialPopupComponent", function() {
+    return [$.$get$styles23()];
+  }, "styles$MaterialPopupComponent", "styles29", "$get$styles29", function() {
     return ["._nghost-%ID%{display:inline-block;width:100%;height:4px}.progress-container._ngcontent-%ID%{position:relative;height:100%;background-color:#e0e0e0;overflow:hidden}._nghost-%ID%[dir=rtl] .progress-container._ngcontent-%ID%,[dir=rtl] ._nghost-%ID% .progress-container._ngcontent-%ID%{transform:scaleX(-1)}.progress-container.indeterminate._ngcontent-%ID%{background-color:#c6dafc}.progress-container.indeterminate._ngcontent-%ID% > .secondary-progress._ngcontent-%ID%{background-color:#4285f4}.active-progress._ngcontent-%ID%,.secondary-progress._ngcontent-%ID%{transform-origin:left center;transform:scaleX(0);position:absolute;top:0;transition:transform 218ms cubic-bezier(0.4,0,0.2,1);right:0;bottom:0;left:0;will-change:transform}.active-progress._ngcontent-%ID%{background-color:#4285f4}.secondary-progress._ngcontent-%ID%{background-color:#a1c2fa}.progress-container.indeterminate.fallback._ngcontent-%ID% > .active-progress._ngcontent-%ID%{animation-name:indeterminate-active-progress;animation-duration:2000ms;animation-iteration-count:infinite;animation-timing-function:linear}.progress-container.indeterminate.fallback._ngcontent-%ID% > .secondary-progress._ngcontent-%ID%{animation-name:indeterminate-secondary-progress;animation-duration:2000ms;animation-iteration-count:infinite;animation-timing-function:linear}@keyframes indeterminate-active-progress{0%{transform:translate(0%) scaleX(0)}25%{transform:translate(0%) scaleX(0.5)}50%{transform:translate(25%) scaleX(0.75)}75%{transform:translate(100%) scaleX(0)}100%{transform:translate(100%) scaleX(0)}}@keyframes indeterminate-secondary-progress{0%{transform:translate(0%) scaleX(0)}60%{transform:translate(0%) scaleX(0)}80%{transform:translate(0%) scaleX(0.6)}100%{transform:translate(100%) scaleX(0.1)}}"];
-  }, "styles22", "styles$MaterialProgressComponent", "$get$styles$MaterialProgressComponent", function() {
-    return [$.$get$styles22()];
-  }, "styles$MaterialProgressComponent", "styles", "$get$styles", function() {
+  }, "styles29", "styles$MaterialProgressComponent", "$get$styles$MaterialProgressComponent", function() {
+    return [$.$get$styles29()];
+  }, "styles$MaterialProgressComponent", "styles0", "$get$styles0", function() {
     return ["material-ripple {\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  overflow: hidden;\n  border-radius: inherit;\n  contain: strict;\n  transform: translateX(0);\n}\n\n.__acx-ripple {\n  position: absolute;\n  width: 256px;\n  height: 256px;\n  background-color: currentColor;\n  border-radius: 50%;\n  pointer-events: none;\n  will-change: opacity, transform;\n  opacity: 0;\n}\n.__acx-ripple.fallback {\n  animation: __acx-ripple 300ms linear;\n  transform: translateZ(0);\n}\n\n@keyframes __acx-ripple {\n  from {\n    opacity: 0;\n    transform: translateZ(0) scale(0.125);\n  }\n  25%, 50% {\n    opacity: 0.16;\n  }\n  to {\n    opacity: 0;\n    transform: translateZ(0) scale(4);\n  }\n}\n"];
-  }, "styles", "styles$MaterialRippleComponent", "$get$styles$MaterialRippleComponent", function() {
-    return [$.$get$styles()];
-  }, "styles$MaterialRippleComponent", "styles12", "$get$styles12", function() {
+  }, "styles0", "styles$MaterialRippleComponent", "$get$styles$MaterialRippleComponent", function() {
+    return [$.$get$styles0()];
+  }, "styles$MaterialRippleComponent", "styles19", "$get$styles19", function() {
     return ["._nghost-%ID%{display:block;font-family:inherit;font-size:15px;line-height:32px;padding:0 24px;position:relative;white-space:nowrap;display:flex;align-items:center;color:rgba(0,0,0,0.87);cursor:pointer;padding:0 16px;outline:none}._nghost-%ID%.disabled{pointer-events:none}._nghost-%ID%  .material-list-item-primary{color:rgba(0,0,0,0.54);width:40px}._nghost-%ID%.disabled  .material-list-item-primary{color:rgba(0,0,0,0.38)}._nghost-%ID%  .material-list-item-secondary{color:rgba(0,0,0,0.54);margin-left:auto}._nghost-%ID%.disabled  .material-list-item-secondary{color:rgba(0,0,0,0.38)}._nghost-%ID%  .submenu-icon{transform:rotate(-90deg)}._nghost-%ID%:not([separator=present]):hover,._nghost-%ID%:not([separator=present]):focus,._nghost-%ID%:not([separator=present]).active{background:#eee}._nghost-%ID%:not([separator=present]).disabled{background:none;color:rgba(0,0,0,0.38);cursor:default;pointer-events:all}._nghost-%ID%:hover,._nghost-%ID%.active{background:whitesmoke}._nghost-%ID%:not(.multiselect).selected{background:#eee}._nghost-%ID% .selected-accent._ngcontent-%ID%{position:absolute;top:0;left:0;bottom:0;width:3px;background:#9e9e9e}._nghost-%ID% material-checkbox._ngcontent-%ID%{margin:0}.check-container._ngcontent-%ID%{display:inline-block;width:40px}.dynamic-item._ngcontent-%ID%{flex-grow:1}"];
-  }, "styles12", "styles$MaterialSelectItemComponent", "$get$styles$MaterialSelectItemComponent", function() {
-    return [$.$get$styles12()];
-  }, "styles$MaterialSelectItemComponent", "styles1", "$get$styles1", function() {
+  }, "styles19", "styles$MaterialSelectItemComponent", "$get$styles$MaterialSelectItemComponent", function() {
+    return [$.$get$styles19()];
+  }, "styles$MaterialSelectItemComponent", "styles2", "$get$styles2", function() {
     return ['._nghost-%ID%{animation:rotate 1568ms linear infinite;border-color:#4285f4;display:inline-block;height:28px;position:relative;vertical-align:middle;width:28px}.spinner._ngcontent-%ID%{animation:fill-unfill-rotate 5332ms cubic-bezier(0.4,0,0.2,1) infinite both;border-color:inherit;height:100%;display:flex;position:absolute;width:100%}.circle._ngcontent-%ID%{border-color:inherit;height:100%;overflow:hidden;position:relative;width:50%}.circle._ngcontent-%ID%::before{border-bottom-color:transparent!important;border-color:inherit;border-radius:50%;border-style:solid;border-width:3px;bottom:0;box-sizing:border-box;content:"";height:100%;left:0;position:absolute;right:0;top:0;width:200%}.circle.left._ngcontent-%ID%::before{animation:left-spin 1333ms cubic-bezier(0.4,0,0.2,1) infinite both;border-right-color:transparent;transform:rotate(129deg)}.circle.right._ngcontent-%ID%::before{animation:right-spin 1333ms cubic-bezier(0.4,0,0.2,1) infinite both;border-left-color:transparent;left:-100%;transform:rotate(-129deg)}.circle.gap._ngcontent-%ID%{height:50%;left:45%;position:absolute;top:0;width:10%}.circle.gap._ngcontent-%ID%::before{height:200%;left:-450%;width:1000%}@keyframes rotate{to{transform:rotate(360deg)}}@keyframes fill-unfill-rotate{12.5%{transform:rotate(135deg)}25%{transform:rotate(270deg)}37.5%{transform:rotate(405deg)}50%{transform:rotate(540deg)}62.5%{transform:rotate(675deg)}75%{transform:rotate(810deg)}87.5%{transform:rotate(945deg)}to{transform:rotate(1080deg)}}@keyframes left-spin{from{transform:rotate(130deg)}50%{transform:rotate(-5deg)}to{transform:rotate(130deg)}}@keyframes right-spin{from{transform:rotate(-130deg)}50%{transform:rotate(5deg)}to{transform:rotate(-130deg)}}'];
-  }, "styles1", "styles$MaterialSpinnerComponent", "$get$styles$MaterialSpinnerComponent", function() {
-    return [$.$get$styles1()];
+  }, "styles2", "styles$MaterialSpinnerComponent", "$get$styles$MaterialSpinnerComponent", function() {
+    return [$.$get$styles2()];
   }, "styles$MaterialSpinnerComponent", "MaterialYesNoButtonsComponent__msgYes", "$get$MaterialYesNoButtonsComponent__msgYes", function() {
     return T.Intl_message("Yes", null, "Text on yes button.", C.Map_empty0, null, "Text on yes button.", "_msgYes", null);
   }, "MaterialYesNoButtonsComponent__msgYes", "MaterialYesNoButtonsComponent__msgNo", "$get$MaterialYesNoButtonsComponent__msgNo", function() {
     return T.Intl_message("No", null, "Text on no button.", C.Map_empty0, null, "Text on no button.", "_msgNo", null);
-  }, "MaterialYesNoButtonsComponent__msgNo", "styles2", "$get$styles2", function() {
+  }, "MaterialYesNoButtonsComponent__msgNo", "styles3", "$get$styles3", function() {
     return ["._nghost-%ID%{display:flex}.btn.btn-yes._ngcontent-%ID%,.btn.btn-no._ngcontent-%ID%{height:36px;margin:0 4px}.btn:not([disabled]).highlighted[raised]._ngcontent-%ID%{background-color:#4285f4;color:#fff}.btn:not([disabled]).highlighted:not([raised])._ngcontent-%ID%{color:#4285f4}.spinner._ngcontent-%ID%{align-items:center;display:flex;margin-right:24px;min-width:128px}._nghost-%ID%.no-margin .btn._ngcontent-%ID%{margin:0;min-width:0;padding:0}._nghost-%ID%.no-margin .btn._ngcontent-%ID% .content._ngcontent-%ID%{padding-right:0}._nghost-%ID%[reverse]{flex-direction:row-reverse}._nghost-%ID%[reverse] .spinner._ngcontent-%ID%{justify-content:flex-end}._nghost-%ID%[dense] .btn.btn-yes._ngcontent-%ID% ,._nghost-%ID%[dense] .btn.btn-no._ngcontent-%ID% {height:32px;font-size:13px}"];
-  }, "styles2", "styles$MaterialYesNoButtonsComponent", "$get$styles$MaterialYesNoButtonsComponent", function() {
-    return [$.$get$styles2()];
+  }, "styles3", "styles$MaterialYesNoButtonsComponent", "$get$styles$MaterialYesNoButtonsComponent", function() {
+    return [$.$get$styles3()];
   }, "styles$MaterialYesNoButtonsComponent", "DomPopupSource__isRtl", "$get$DomPopupSource__isRtl", function() {
     var t1 = W.document();
     return t1.documentElement.dir === "rtl" || t1.body.dir === "rtl";
-  }, "DomPopupSource__isRtl", "styles19", "$get$styles19", function() {
+  }, "DomPopupSource__isRtl", "styles26", "$get$styles26", function() {
     return ["._nghost-%ID%{position:absolute}.ink-container._ngcontent-%ID%{box-sizing:border-box;overflow:hidden;max-width:320px;padding:8px;font-size:12px;font-weight:500;line-height:16px;text-align:left;text-overflow:ellipsis}.aacmtit-ink-tooltip-shadow._ngcontent-%ID%  .popup-wrapper.mixin{margin:8px}"];
-  }, "styles19", "styles$MaterialInkTooltipComponent", "$get$styles$MaterialInkTooltipComponent", function() {
-    return [$.$get$styles19()];
+  }, "styles26", "styles$MaterialInkTooltipComponent", "$get$styles$MaterialInkTooltipComponent", function() {
+    return [$.$get$styles26()];
   }, "styles$MaterialInkTooltipComponent", "supportsAnimationApi", "$get$supportsAnimationApi", function() {
     return P.hasProperty(W.DivElement_DivElement(), "animate") && !$.$get$context().hasProperty$1("__acxDisableWebAnimationsApi");
   }, "supportsAnimationApi", "SequentialIdGenerator__rnd", "$get$SequentialIdGenerator__rnd", function() {
     return P.Random_Random(null);
   }, "SequentialIdGenerator__rnd", "RouteDefinition__findParameters", "$get$RouteDefinition__findParameters", function() {
     return P.RegExp_RegExp(":([\\w-]+)", true, false);
-  }, "RouteDefinition__findParameters", "styles18", "$get$styles18", function() {
+  }, "RouteDefinition__findParameters", "styles25", "$get$styles25", function() {
     return ["h1._ngcontent-%ID%{font-size:1.2em;color:#999;margin-bottom:0}h2._ngcontent-%ID%{font-size:2em;margin-top:0;padding-top:0}nav._ngcontent-%ID% a._ngcontent-%ID%{padding:5px 10px;text-decoration:none;margin-top:10px;display:inline-block;background-color:#eee;border-radius:4px}nav._ngcontent-%ID% a:visited._ngcontent-%ID%,a:link._ngcontent-%ID%{color:#607D8B}nav._ngcontent-%ID% a:hover._ngcontent-%ID%{color:#039be5;background-color:#CFD8DC}nav._ngcontent-%ID% a.active._ngcontent-%ID%{color:#039be5}div.hrdiv._ngcontent-%ID%{border-bottom:2px solid #A0A0A0;overflow:hidden;width:100%;margin:auto;margin-bottom:.75em}div.appcontainer._ngcontent-%ID%{min-width:600px;max-width:1280px;margin:auto} material-input.interop_fillable .focused-underline{background-color:#27d64b}"];
-  }, "styles18", "styles$AppComponent", "$get$styles$AppComponent", function() {
-    return [$.$get$styles18()];
-  }, "styles$AppComponent", "styles20", "$get$styles20", function() {
-    return ["h1._ngcontent-%ID%{font-size:1.2em;color:#999;margin-bottom:0}h2._ngcontent-%ID%{font-size:2em;margin-top:0;padding-top:0}nav._ngcontent-%ID% a._ngcontent-%ID%{padding:5px 10px;text-decoration:none;margin-top:10px;display:inline-block;background-color:#eee;border-radius:4px}nav._ngcontent-%ID% a:visited._ngcontent-%ID%,a:link._ngcontent-%ID%{color:#607D8B}nav._ngcontent-%ID% a:hover._ngcontent-%ID%{color:#039be5;background-color:#CFD8DC}nav._ngcontent-%ID% a.active._ngcontent-%ID%{color:#039be5}div.hrdiv._ngcontent-%ID%{border-bottom:2px solid #A0A0A0;overflow:hidden;width:100%;margin:auto;margin-bottom:.75em}div.appcontainer._ngcontent-%ID%{min-width:600px;max-width:1280px;margin:auto}"];
-  }, "styles20", "styles$AdminComponent", "$get$styles$AdminComponent", function() {
-    return [$.$get$styles20()];
-  }, "styles$AdminComponent", "styles25", "$get$styles25", function() {
-    return ['[class*="col-"]._ngcontent-%ID%{float:left;padding-right:20px;padding-bottom:20px}[class*="col-"]:last-of-type._ngcontent-%ID%{padding-right:0}a._ngcontent-%ID%{text-decoration:none}*._ngcontent-%ID%,*._ngcontent-%ID%:after,*._ngcontent-%ID%:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}h3._ngcontent-%ID%{text-align:center;margin-bottom:0}h4._ngcontent-%ID%{position:relative}.grid._ngcontent-%ID%{margin:0}.col-1-4._ngcontent-%ID%{width:25%}.module._ngcontent-%ID%{padding:20px;text-align:center;color:#eee;max-height:120px;min-width:120px;background-color:#607D8B;border-radius:2px}.module:hover._ngcontent-%ID%{background-color:#EEE;cursor:pointer;color:#607d8b}.grid-pad._ngcontent-%ID%{padding:10px 0}.grid-pad._ngcontent-%ID% > [class*="col-"]:last-of-type._ngcontent-%ID%{padding-right:20px}@media (max-width:600px){.module._ngcontent-%ID%{font-size:10px;max-height:75px}}@media (max-width:1024px){.grid._ngcontent-%ID%{margin:0}.module._ngcontent-%ID%{min-width:60px}}'];
-  }, "styles25", "styles$DashboardComponent", "$get$styles$DashboardComponent", function() {
+  }, "styles25", "styles$AppComponent", "$get$styles$AppComponent", function() {
     return [$.$get$styles25()];
-  }, "styles$DashboardComponent", "styles7", "$get$styles7", function() {
+  }, "styles$AppComponent", "styles27", "$get$styles27", function() {
+    return ["h1._ngcontent-%ID%{font-size:1.2em;color:#999;margin-bottom:0}h2._ngcontent-%ID%{font-size:2em;margin-top:0;padding-top:0}nav._ngcontent-%ID% a._ngcontent-%ID%{padding:5px 10px;text-decoration:none;margin-top:10px;display:inline-block;background-color:#eee;border-radius:4px}nav._ngcontent-%ID% a:visited._ngcontent-%ID%,a:link._ngcontent-%ID%{color:#607D8B}nav._ngcontent-%ID% a:hover._ngcontent-%ID%{color:#039be5;background-color:#CFD8DC}nav._ngcontent-%ID% a.active._ngcontent-%ID%{color:#039be5}div.hrdiv._ngcontent-%ID%{border-bottom:2px solid #A0A0A0;overflow:hidden;width:100%;margin:auto;margin-bottom:.75em}div.appcontainer._ngcontent-%ID%{min-width:600px;max-width:1280px;margin:auto}"];
+  }, "styles27", "styles$AdminComponent", "$get$styles$AdminComponent", function() {
+    return [$.$get$styles27()];
+  }, "styles$AdminComponent", "styles32", "$get$styles32", function() {
+    return ['[class*="col-"]._ngcontent-%ID%{float:left;padding-right:20px;padding-bottom:20px}[class*="col-"]:last-of-type._ngcontent-%ID%{padding-right:0}a._ngcontent-%ID%{text-decoration:none}*._ngcontent-%ID%,*._ngcontent-%ID%:after,*._ngcontent-%ID%:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}h3._ngcontent-%ID%{text-align:center;margin-bottom:0}h4._ngcontent-%ID%{position:relative}.grid._ngcontent-%ID%{margin:0}.col-1-4._ngcontent-%ID%{width:25%}.module._ngcontent-%ID%{padding:20px;text-align:center;color:#eee;max-height:120px;min-width:120px;background-color:#607D8B;border-radius:2px}.module:hover._ngcontent-%ID%{background-color:#EEE;cursor:pointer;color:#607d8b}.grid-pad._ngcontent-%ID%{padding:10px 0}.grid-pad._ngcontent-%ID% > [class*="col-"]:last-of-type._ngcontent-%ID%{padding-right:20px}@media (max-width:600px){.module._ngcontent-%ID%{font-size:10px;max-height:75px}}@media (max-width:1024px){.grid._ngcontent-%ID%{margin:0}.module._ngcontent-%ID%{min-width:60px}}'];
+  }, "styles32", "styles$DashboardComponent", "$get$styles$DashboardComponent", function() {
+    return [$.$get$styles32()];
+  }, "styles$DashboardComponent", "dashSections", "$get$dashSections", function() {
+    return H.setRuntimeTypeInfo([N.DashSection$("Events", true), N.DashSection$("Tournaments", true), N.DashSection$("Stages", true), N.DashSection$("Matches", true), N.DashSection$("Rounds", true), N.DashSection$("Games", true), N.DashSection$("Results", true), N.DashSection$("Overrides", false), N.DashSection$("Entrants", true), N.DashSection$("Users", true), N.DashSection$("Admin", true)], [N.DashSection]);
+  }, "dashSections", "styles13", "$get$styles13", function() {
     return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
-  }, "styles7", "styles$PlayerDetailComponent", "$get$styles$PlayerDetailComponent", function() {
+  }, "styles13", "styles$EntrantDetailComponent", "$get$styles$EntrantDetailComponent", function() {
+    return [$.$get$styles13()];
+  }, "styles$EntrantDetailComponent", "styles6", "$get$styles6", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles6", "styles$EventDetailComponent", "$get$styles$EventDetailComponent", function() {
+    return [$.$get$styles6()];
+  }, "styles$EventDetailComponent", "styles12", "$get$styles12", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles12", "styles$GameDetailComponent", "$get$styles$GameDetailComponent", function() {
+    return [$.$get$styles12()];
+  }, "styles$GameDetailComponent", "styles9", "$get$styles9", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles9", "styles$MatchDetailComponent", "$get$styles$MatchDetailComponent", function() {
+    return [$.$get$styles9()];
+  }, "styles$MatchDetailComponent", "styles10", "$get$styles10", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles10", "styles$ResultDetailComponent", "$get$styles$ResultDetailComponent", function() {
+    return [$.$get$styles10()];
+  }, "styles$ResultDetailComponent", "styles11", "$get$styles11", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles11", "styles$RoundDetailComponent", "$get$styles$RoundDetailComponent", function() {
+    return [$.$get$styles11()];
+  }, "styles$RoundDetailComponent", "styles8", "$get$styles8", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles8", "styles$StageDetailComponent", "$get$styles$StageDetailComponent", function() {
+    return [$.$get$styles8()];
+  }, "styles$StageDetailComponent", "styles7", "$get$styles7", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles7", "styles$TournamentDetailComponent", "$get$styles$TournamentDetailComponent", function() {
     return [$.$get$styles7()];
-  }, "styles$PlayerDetailComponent", "styles5", "$get$styles5", function() {
-    return ["table._ngcontent-%ID%{border-collapse:separate;border-spacing:0px .5em}tr._ngcontent-%ID%{background-color:#EEE;border-radius:10px;height:1.5em;padding:.3em}tr:hover._ngcontent-%ID%{color:#607D8B;background-color:#DDD;left:.1em}tr.selected._ngcontent-%ID%{background-color:#CFD8DC!important;color:white;-webkit-transform:translateX(4px) translateY(2px)}tr.selected:hover._ngcontent-%ID%{background-color:#BBD8DC!important;color:white}td._ngcontent-%ID%{padding:5px;padding-left:.75em}td:first-of-type._ngcontent-%ID%{background-color:#607D8B;color:white;padding:0em 0.7em 0 0.7em;border:0px;border-radius:10px 0px 0px 10px;height:1.8em;margin-right:.8em}td._ngcontent-%ID%::nth-of-type(2){padding:0em 0em 0 0.7em}td:last-of-type._ngcontent-%ID%{border:0px;border-radius:0px 10px 10px 0px}td._ngcontent-%ID% button._ngcontent-%ID%{margin-right:1.5em;float:right;margin-bottom:.8em;vertical-align:middle;color:black;font-weight:bold}li._ngcontent-%ID% button.danger._ngcontent-%ID%{background-color:#A94A4B}li._ngcontent-%ID% button.danger:hover._ngcontent-%ID%{background-color:#763334}li._ngcontent-%ID% button.warn._ngcontent-%ID%{background-color:#FDB34C}li._ngcontent-%ID% button.warn:hover._ngcontent-%ID%{background-color:#B17D35}li._ngcontent-%ID% button.info._ngcontent-%ID%{background-color:#4AA66C}li._ngcontent-%ID% button.info:hover._ngcontent-%ID%{background-color:#33744B}div.col-1-2._ngcontent-%ID%{width:50%}div.inlinediv._ngcontent-%ID%{display:inline}div.floatright._ngcontent-%ID% *._ngcontent-%ID%{float:right}material-input#shiftedinput._ngcontent-%ID%{margin-right:1em}material-fab#heavyfab._ngcontent-%ID%{background-color:#db4437;color:white;margin-bottom:3em}"];
-  }, "styles5", "styles$TournamentDetailComponent", "$get$styles$TournamentDetailComponent", function() {
-    return [$.$get$styles5()];
-  }, "styles$TournamentDetailComponent", "styles24", "$get$styles24", function() {
+  }, "styles$TournamentDetailComponent", "styles14", "$get$styles14", function() {
+    return [".danger_button._ngcontent-%ID%{margin-right:4em;color:white;background-color:#db4437}.inlinediv._ngcontent-%ID% h4._ngcontent-%ID%{display:inherit}.full_pad._ngcontent-%ID%{margin:8px}.vert_pad._ngcontent-%ID%{margin:8px 0px 8px 0px}"];
+  }, "styles14", "styles$UserDetailComponent", "$get$styles$UserDetailComponent", function() {
+    return [$.$get$styles14()];
+  }, "styles$UserDetailComponent", "styles31", "$get$styles31", function() {
     return ["li._ngcontent-%ID% button.danger._ngcontent-%ID%{background-color:#A94A4B}li._ngcontent-%ID% button.danger:hover._ngcontent-%ID%{background-color:#763334}li._ngcontent-%ID% button.warn._ngcontent-%ID%{background-color:#FDB34C}li._ngcontent-%ID% button.warn:hover._ngcontent-%ID%{background-color:#B17D35}li._ngcontent-%ID% button.info._ngcontent-%ID%{background-color:#4AA66C}li._ngcontent-%ID% button.info:hover._ngcontent-%ID%{background-color:#33744B}div.col-1-2._ngcontent-%ID%{width:50%}div.inlinediv._ngcontent-%ID%{display:inline}div.floatright._ngcontent-%ID% *._ngcontent-%ID%{float:right}material-input#shiftedinput._ngcontent-%ID%{margin-right:1em}material-fab#heavyfab._ngcontent-%ID%{background-color:#db4437;color:white;margin-bottom:3em}material-button.delete_confirm._ngcontent-%ID%{margin-right:auto;background-color:#db4437;color:white}"];
-  }, "styles24", "styles$TypeListComponent", "$get$styles$TypeListComponent", function() {
-    return [$.$get$styles24()];
+  }, "styles31", "styles$TypeListComponent", "$get$styles$TypeListComponent", function() {
+    return [$.$get$styles31()];
   }, "styles$TypeListComponent", "RoutePaths_dash", "$get$RoutePaths_dash", function() {
     return O.RoutePath$(null, null, "dash", false);
   }, "RoutePaths_dash", "RoutePaths_list", "$get$RoutePaths_list", function() {
@@ -45282,13 +53476,7 @@
     t4 = $.$get$RoutePaths_dash().toUrl$0(0);
     t5 = F.Url_trimSlashes("");
     return H.setRuntimeTypeInfo([t1, t2, t3, new N.RedirectRouteDefinition(t4, t5, false, null)], [N.RouteDefinition]);
-  }, "Routes_all", "dashSections", "$get$dashSections", function() {
-    return H.setRuntimeTypeInfo([X.Section$(1, "Tournaments"), X.Section$(2, "Matches"), X.Section$(3, "Players"), X.Section$(4, "Admin")], [X.Section]);
-  }, "dashSections", "mockMatches", "$get$mockMatches", function() {
-    return H.setRuntimeTypeInfo([Y.Match$(1, "Red vs Blue"), Y.Match$(2, "TurboTown-1"), Y.Match$(3, "GP Match 502")], [Y.Match0]);
-  }, "mockMatches", "mockTournaments", "$get$mockTournaments", function() {
-    return H.setRuntimeTypeInfo([E.Tournament$(1, "Tokyo"), E.Tournament$(2, "Sydney"), E.Tournament$(3, "Oakland")], [E.Tournament]);
-  }, "mockTournaments", "_toStringVisiting0", "$get$_toStringVisiting0", function() {
+  }, "Routes_all", "_toStringVisiting0", "$get$_toStringVisiting0", function() {
     return [];
   }, "_toStringVisiting0", "_escapedChar", "$get$_escapedChar", function() {
     return P.RegExp_RegExp('["\\x00-\\x1F\\x7F]', true, false);
@@ -45304,7 +53492,17 @@
     return P.RegExp_RegExp('[()<>@,;:"\\\\/\\[\\]?={} \\t\\x00-\\x1F\\x7F]', true, false);
   }, "nonToken", "whitespace", "$get$whitespace", function() {
     return P.RegExp_RegExp("(?:" + $.$get$_lws().pattern + ")*", true, false);
-  }, "whitespace", "messageLookup", "$get$messageLookup", function() {
+  }, "whitespace", "NumberFormat__ln10", "$get$NumberFormat__ln10", function() {
+    return P.log(10);
+  }, "NumberFormat__ln10", "NumberFormat__maxInt", "$get$NumberFormat__maxInt", function() {
+    return typeof 1 === "number" ? P.pow(2, 52) : C.JSInt_methods.floor$0(1e300);
+  }, "NumberFormat__maxInt", "NumberFormat__maxDigits", "$get$NumberFormat__maxDigits", function() {
+    return C.JSDouble_methods.ceil$0(P.log($.$get$NumberFormat__maxInt()) / P.log(10));
+  }, "NumberFormat__maxDigits", "numberFormatSymbols", "$get$numberFormatSymbols", function() {
+    return P.LinkedHashMap_LinkedHashMap$_literal(["af", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ",", "ZAR", "E", "\xa0", "\u221e", "-", "af", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "am", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "ETB", "E", ",", "\u221e", "-", "am", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ar", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ".", "EGP", "E", ",", "\u221e", "\u200e-", "ar", "\u0644\u064a\u0633\xa0\u0631\u0642\u0645\u064b\u0627", "\u200e%\u200e", "#,##0%", "\u2030", "\u200e+", "#E0", "0"), "ar_DZ", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "DZD", "E", ".", "\u221e", "\u200e-", "ar_DZ", "\u0644\u064a\u0633\xa0\u0631\u0642\u0645\u064b\u0627", "\u200e%\u200e", "#,##0%", "\u2030", "\u200e+", "#E0", "0"), "ar_EG", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", "\u066b", "EGP", "\u0627\u0633", "\u066c", "\u221e", "\u061c-", "ar_EG", "\u0644\u064a\u0633\xa0\u0631\u0642\u0645", "\u066a\u061c", "#,##0%", "\u0609", "\u061c+", "#E0", "\u0660"), "az", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "AZN", "E", ".", "\u221e", "-", "az", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "be", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "BYN", "E", "\xa0", "\u221e", "-", "be", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "bg", B.NumberSymbols$("0.00\xa0\xa4", "#,##0.###", ",", "BGN", "E", "\xa0", "\u221e", "-", "bg", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "bn", B.NumberSymbols$("#,##,##0.00\xa4", "#,##,##0.###", ".", "BDT", "E", ",", "\u221e", "-", "bn", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "\u09e6"), "br", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", "\xa0", "\u221e", "-", "br", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "bs", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "BAM", "E", ".", "\u221e", "-", "bs", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "ca", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "ca", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "chr", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "USD", "E", ",", "\u221e", "-", "chr", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "cs", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "CZK", "E", "\xa0", "\u221e", "-", "cs", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "cy", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "GBP", "E", ",", "\u221e", "-", "cy", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "da", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "DKK", "E", ".", "\u221e", "-", "da", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "de", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "de", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "de_AT", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "EUR", "E", "\xa0", "\u221e", "-", "de_AT", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "de_CH", B.NumberSymbols$("\xa4\xa0#,##0.00;\xa4-#,##0.00", "#,##0.###", ".", "CHF", "E", "\u2019", "\u221e", "-", "de_CH", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "el", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "e", ".", "\u221e", "-", "el", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "USD", "E", ",", "\u221e", "-", "en", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_AU", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "AUD", "e", ",", "\u221e", "-", "en_AU", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_CA", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "CAD", "e", ",", "\u221e", "-", "en_CA", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_GB", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "GBP", "E", ",", "\u221e", "-", "en_GB", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_IE", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "EUR", "E", ",", "\u221e", "-", "en_IE", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_IN", B.NumberSymbols$("\xa4\xa0#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "en_IN", "NaN", "%", "#,##,##0%", "\u2030", "+", "#E0", "0"), "en_MY", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "MYR", "E", ",", "\u221e", "-", "en_MY", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_SG", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "SGD", "E", ",", "\u221e", "-", "en_SG", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_US", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "USD", "E", ",", "\u221e", "-", "en_US", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "en_ZA", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ",", "ZAR", "E", "\xa0", "\u221e", "-", "en_ZA", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "es", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "es", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "es_419", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "MXN", "E", ",", "\u221e", "-", "es_419", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "es_ES", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "es_ES", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "es_MX", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "MXN", "E", ",", "\u221e", "-", "es_MX", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "es_US", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "USD", "E", ",", "\u221e", "-", "es_US", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "et", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "\xd710^", "\xa0", "\u221e", "\u2212", "et", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "eu", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "\u2212", "eu", "NaN", "%", "%\xa0#,##0", "\u2030", "+", "#E0", "0"), "fa", B.NumberSymbols$("\u200e\xa4#,##0.00", "#,##0.###", "\u066b", "IRR", "\xd7\u06f1\u06f0^", "\u066c", "\u221e", "\u200e\u2212", "fa", "\u0646\u0627\u0639\u062f\u062f", "\u066a", "#,##0%", "\u0609", "\u200e+", "#E0", "\u06f0"), "fi", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", "\xa0", "\u221e", "\u2212", "fi", "ep\xe4luku", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "fil", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "PHP", "E", ",", "\u221e", "-", "fil", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "fr", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", "\xa0", "\u221e", "-", "fr", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "fr_CA", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "CAD", "E", "\xa0", "\u221e", "-", "fr_CA", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "fr_CH", B.NumberSymbols$("#,##0.00\xa0\xa4;-#,##0.00\xa0\xa4", "#,##0.###", ",", "CHF", "E", "\xa0", "\u221e", "-", "fr_CH", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ga", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "EUR", "E", ",", "\u221e", "-", "ga", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "gl", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "gl", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "gsw", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ".", "CHF", "E", "\u2019", "\u221e", "\u2212", "gsw", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "gu", B.NumberSymbols$("\xa4#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "gu", "NaN", "%", "#,##,##0%", "\u2030", "+", "[#E0]", "0"), "haw", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "USD", "E", ",", "\u221e", "-", "haw", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "he", B.NumberSymbols$("\u200f#,##0.00\xa0\xa4;\u200f-#,##0.00\xa0\xa4", "#,##0.###", ".", "ILS", "E", ",", "\u221e", "\u200e-", "he", "NaN", "%", "#,##0%", "\u2030", "\u200e+", "#E0", "0"), "hi", B.NumberSymbols$("\xa4#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "hi", "NaN", "%", "#,##,##0%", "\u2030", "+", "[#E0]", "0"), "hr", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "HRK", "E", ".", "\u221e", "-", "hr", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "hu", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "HUF", "E", "\xa0", "\u221e", "-", "hu", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "hy", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "AMD", "E", "\xa0", "\u221e", "-", "hy", "\u0548\u0579\u0539", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "id", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ",", "IDR", "E", ".", "\u221e", "-", "id", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "in", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ",", "IDR", "E", ".", "\u221e", "-", "in", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "is", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "ISK", "E", ".", "\u221e", "-", "is", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "it", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "it", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "it_CH", B.NumberSymbols$("\xa4\xa0#,##0.00;\xa4-#,##0.00", "#,##0.###", ".", "CHF", "E", "\u2019", "\u221e", "-", "it_CH", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "iw", B.NumberSymbols$("\u200f#,##0.00\xa0\xa4;\u200f-#,##0.00\xa0\xa4", "#,##0.###", ".", "ILS", "E", ",", "\u221e", "\u200e-", "iw", "NaN", "%", "#,##0%", "\u2030", "\u200e+", "#E0", "0"), "ja", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "JPY", "E", ",", "\u221e", "-", "ja", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ka", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "GEL", "E", "\xa0", "\u221e", "-", "ka", "\u10d0\u10e0\xa0\u10d0\u10e0\u10d8\u10e1\xa0\u10e0\u10d8\u10ea\u10ee\u10d5\u10d8", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "kk", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "KZT", "E", "\xa0", "\u221e", "-", "kk", "\u0441\u0430\u043d\xa0\u0435\u043c\u0435\u0441", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "km", B.NumberSymbols$("#,##0.00\xa4", "#,##0.###", ",", "KHR", "E", ".", "\u221e", "-", "km", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "kn", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "INR", "E", ",", "\u221e", "-", "kn", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ko", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "KRW", "E", ",", "\u221e", "-", "ko", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ky", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "KGS", "E", "\xa0", "\u221e", "-", "ky", "\u0441\u0430\u043d\xa0\u044d\u043c\u0435\u0441", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ln", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "CDF", "E", ".", "\u221e", "-", "ln", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "lo", B.NumberSymbols$("\xa4#,##0.00;\xa4-#,##0.00", "#,##0.###", ",", "LAK", "E", ".", "\u221e", "-", "lo", "\u0e9a\u0ecd\u0ec8\u200b\u0ec1\u0ea1\u0ec8\u0e99\u200b\u0ec2\u0e95\u200b\u0ec0\u0ea5\u0e81", "%", "#,##0%", "\u2030", "+", "#", "0"), "lt", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "\xd710^", "\xa0", "\u221e", "\u2212", "lt", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "lv", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", "\xa0", "\u221e", "-", "lv", "NS", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "mk", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "MKD", "E", ".", "\u221e", "-", "mk", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ml", B.NumberSymbols$("\xa4#,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "ml", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "mn", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ".", "MNT", "E", ",", "\u221e", "-", "mn", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "mr", B.NumberSymbols$("\xa4#,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "mr", "NaN", "%", "#,##0%", "\u2030", "+", "[#E0]", "\u0966"), "ms", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "MYR", "E", ",", "\u221e", "-", "ms", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "mt", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "EUR", "E", ",", "\u221e", "-", "mt", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "my", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ".", "MMK", "E", ",", "\u221e", "-", "my", "\u1002\u100f\u1014\u103a\u1038\u1019\u101f\u102f\u1010\u103a\u101e\u1031\u102c", "%", "#,##0%", "\u2030", "+", "#E0", "\u1040"), "nb", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "NOK", "E", "\xa0", "\u221e", "\u2212", "nb", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "ne", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ".", "NPR", "E", ",", "\u221e", "-", "ne", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "\u0966"), "nl", B.NumberSymbols$("\xa4\xa0#,##0.00;\xa4\xa0-#,##0.00", "#,##0.###", ",", "EUR", "E", ".", "\u221e", "-", "nl", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "no", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "NOK", "E", "\xa0", "\u221e", "\u2212", "no", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "no_NO", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "NOK", "E", "\xa0", "\u221e", "\u2212", "no_NO", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "or", B.NumberSymbols$("\xa4\xa0#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "or", "NaN", "%", "#,##,##0%", "\u2030", "+", "#E0", "0"), "pa", B.NumberSymbols$("\xa4\xa0#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "pa", "NaN", "%", "#,##,##0%", "\u2030", "+", "[#E0]", "0"), "pl", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "PLN", "E", "\xa0", "\u221e", "-", "pl", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ps", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", "\u066b", "AFN", "\xd7\u06f1\u06f0^", "\u066c", "\u221e", "\u200e-\u200e", "ps", "NaN", "\u066a", "#,##0%", "\u0609", "\u200e+\u200e", "#E0", "\u06f0"), "pt", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "BRL", "E", ".", "\u221e", "-", "pt", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "pt_BR", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ",", "BRL", "E", ".", "\u221e", "-", "pt_BR", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "pt_PT", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "E", "\xa0", "\u221e", "-", "pt_PT", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ro", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "RON", "E", ".", "\u221e", "-", "ro", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "ru", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "RUB", "E", "\xa0", "\u221e", "-", "ru", "\u043d\u0435\xa0\u0447\u0438\u0441\u043b\u043e", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "si", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "LKR", "E", ",", "\u221e", "-", "si", "NaN", "%", "#,##0%", "\u2030", "+", "#", "0"), "sk", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "e", "\xa0", "\u221e", "-", "sk", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "sl", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "EUR", "e", ".", "\u221e", "\u2212", "sl", "NaN", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "sq", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "ALL", "E", "\xa0", "\u221e", "-", "sq", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "sr", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "RSD", "E", ".", "\u221e", "-", "sr", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "sr_Latn", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "RSD", "E", ".", "\u221e", "-", "sr_Latn", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "sv", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "SEK", "\xd710^", "\xa0", "\u221e", "\u2212", "sv", "\xa4\xa4\xa4", "%", "#,##0\xa0%", "\u2030", "+", "#E0", "0"), "sw", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "TZS", "E", ",", "\u221e", "-", "sw", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ta", B.NumberSymbols$("\xa4\xa0#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "ta", "NaN", "%", "#,##,##0%", "\u2030", "+", "#E0", "0"), "te", B.NumberSymbols$("\xa4#,##,##0.00", "#,##,##0.###", ".", "INR", "E", ",", "\u221e", "-", "te", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "th", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "THB", "E", ",", "\u221e", "-", "th", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "tl", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "PHP", "E", ",", "\u221e", "-", "tl", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "tr", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ",", "TRY", "E", ".", "\u221e", "-", "tr", "NaN", "%", "%#,##0", "\u2030", "+", "#E0", "0"), "uk", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "UAH", "\u0415", "\xa0", "\u221e", "-", "uk", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "ur", B.NumberSymbols$("\xa4\xa0#,##0.00", "#,##0.###", ".", "PKR", "E", ",", "\u221e", "\u200e-", "ur", "NaN", "%", "#,##0%", "\u2030", "\u200e+", "#E0", "0"), "uz", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "UZS", "E", "\xa0", "\u221e", "-", "uz", "son\xa0emas", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "vi", B.NumberSymbols$("#,##0.00\xa0\xa4", "#,##0.###", ",", "VND", "E", ".", "\u221e", "-", "vi", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "zh", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "CNY", "E", ",", "\u221e", "-", "zh", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "zh_CN", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "CNY", "E", ",", "\u221e", "-", "zh_CN", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "zh_HK", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "HKD", "E", ",", "\u221e", "-", "zh_HK", "\u975e\u6578\u503c", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "zh_TW", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "TWD", "E", ",", "\u221e", "-", "zh_TW", "\u975e\u6578\u503c", "%", "#,##0%", "\u2030", "+", "#E0", "0"), "zu", B.NumberSymbols$("\xa4#,##0.00", "#,##0.###", ".", "ZAR", "E", ",", "\u221e", "-", "zu", "NaN", "%", "#,##0%", "\u2030", "+", "#E0", "0")], P.String, B.NumberSymbols);
+  }, "numberFormatSymbols", "currencyFractionDigits", "$get$currencyFractionDigits", function() {
+    return P.LinkedHashMap_LinkedHashMap$_literal(["ADP", 0, "AFN", 0, "ALL", 0, "AMD", 0, "BHD", 3, "BIF", 0, "BYN", 2, "BYR", 0, "CAD", 2, "CHF", 2, "CLF", 4, "CLP", 0, "COP", 0, "CRC", 2, "CZK", 2, "DEFAULT", 2, "DJF", 0, "DKK", 2, "ESP", 0, "GNF", 0, "GYD", 0, "HUF", 2, "IDR", 0, "IQD", 0, "IRR", 0, "ISK", 0, "ITL", 0, "JOD", 3, "JPY", 0, "KMF", 0, "KPW", 0, "KRW", 0, "KWD", 3, "LAK", 0, "LBP", 0, "LUF", 0, "LYD", 3, "MGA", 0, "MGF", 0, "MMK", 0, "MNT", 0, "MRO", 0, "MUR", 0, "NOK", 2, "OMR", 3, "PKR", 0, "PYG", 0, "RSD", 0, "RWF", 0, "SEK", 2, "SLL", 0, "SOS", 0, "STD", 0, "SYP", 0, "TMM", 0, "TND", 3, "TRL", 0, "TWD", 2, "TZS", 0, "UGX", 0, "UYI", 0, "UZS", 0, "VND", 0, "VUV", 0, "XAF", 0, "XOF", 0, "XPF", 0, "YER", 0, "ZMK", 0, "ZWD", 0], P.String, P.int);
+  }, "currencyFractionDigits", "messageLookup", "$get$messageLookup", function() {
     return new X.UninitializedLocaleData("initializeMessages(<locale>)", null, H.setRuntimeTypeInfo([], [P.String]), [P.Null]);
   }, "messageLookup", "context0", "$get$context0", function() {
     return new M.Context($.$get$Style_platform(), null);
@@ -45321,8 +53519,8 @@
   }, "_slashAutoEscape"]);
   Isolate = Isolate.$finishIsolateConstructor(Isolate);
   $ = new Isolate();
-  init.metadata = ["_", "value", "error", null, "stackTrace", "event", "result", "e", "data", "self", "arg", "callback", "action", "parent", "zone", "arg1", "arg2", "key", "each", "f", "object", "invocation", "item", "isVisible", "isDisabled", "b", "m", "a", "s", true, "completed", "element", "pair", "index", "o", "arguments", "control", "postCreate", "n", "zoneValues", "captureThis", "promiseError", "promiseValue", "specification", "closure", "stack", "reason", "theStackTrace", "elem", "findInAncestors", "didWork_", "encodedComponent", "t", "errorCode", "fn", "numberOfArguments", "ref", "dict", "checked", "byUserAction", "validator", "isExpanded", "theError", "success", "status", "chunk", "sub", "body", "affix", "group", "state", "pane", false, "track", "shouldCancel", "results", "highResTimer", "argument", "ev", "layoutRects", "navigationResult", "routerState", "k", "response", "barcode", "cmd", "arg4", "key1", "key2", "arg3", "expandedPanelHeight"];
-  init.types = [{func: 1, ret: P.Null}, {func: 1, ret: -1}, {func: 1, ret: -1, args: [,]}, {func: 1, ret: [S.AppView, A.MenuItemGroupsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [,]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: P.bool}, {func: 1, args: [,]}, {func: 1, ret: -1, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.Event]}, {func: 1, ret: [S.AppView, T.MaterialExpansionPanel], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, L.MaterialInputComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.Object]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: -1, args: [W.KeyboardEvent]}, {func: 1, ret: -1, args: [W.MouseEvent]}, {func: 1, ret: [P.Future,,]}, {func: 1, ret: P.Null, args: [-1]}, {func: 1, ret: -1, args: [P.bool]}, {func: 1, ret: P.bool, args: [P.String]}, {func: 1, ret: -1, args: [W.UIEvent]}, {func: 1, ret: P.Null, args: [W.MouseEvent]}, {func: 1, ret: [P.Future, Z.NavigationResult]}, {func: 1, ret: [S.AppView, L.TypeListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [,]}, {func: 1, ret: P.Null, args: [P.String]}, {func: 1, ret: P.Null, args: [P.bool]}, {func: 1, ret: P.bool, args: [W.KeyboardEvent]}, {func: 1, ret: [S.AppView, Q.MenuItemAffixListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [[L.AsyncAction, P.bool]]}, {func: 1, ret: -1, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.String}, {func: 1, ret: P.Null, args: [W.ProgressEvent]}, {func: 1, ret: P.String, args: [P.Match]}, {func: 1, ret: P.bool, args: [P.bool]}, {func: 1, ret: -1, args: [W.Event]}, {func: 1, ret: P.Null, args: [N.KeyValueChangeRecord]}, {func: 1, ret: [S.AppView, F.MaterialInkTooltipComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.MaterialYesNoButtonsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, F.RaisableMenuComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [{func: 1, ret: -1}]}, {func: 1, ret: -1, args: [P.String, P.String]}, {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, {func: 1, ret: [P.Future, P.bool]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord]}, {func: 1, ret: -1, args: [[L.AsyncAction,,]]}, {func: 1, ret: M.Injector, opt: [M.Injector]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num], [P.Rectangle, P.num]]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]], args: [W.HtmlElement], named: {track: P.bool}}, {func: 1, ret: P.bool, args: [[P.List,,]]}, {func: 1, ret: P.bool, args: [L.MenuItemAffix]}, {func: 1, ret: W.Node, args: [P.int]}, {func: 1, ret: W.Element, args: [P.int]}, {func: 1, ret: P.bool, args: [,,]}, {func: 1, ret: P.Null, args: [W.TransitionEvent]}, {func: 1, ret: [S.AppView, D.MaterialDialogComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.MimeType, args: [P.int]}, {func: 1, ret: {futureOr: 1, type: P.bool}, args: [,]}, {func: 1, ret: -1, args: [[P.Set, P.String]]}, {func: 1, ret: -1, args: [P.String]}, {func: 1, ret: -1, named: {temporary: P.bool}}, {func: 1, ret: -1, opt: [P.Object]}, {func: 1}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}, {func: 1, ret: [S.AppView, Q.PlayerDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, ret: Y.NgZone}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [P.String,,]}, {func: 1, ret: [S.AppView, K.DashboardComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [W.Node]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: P.Null, args: [Y.NgZoneError]}, {func: 1, ret: P.Null, args: [,], opt: [,]}, {func: 1, ret: M.Injector}, {func: 1, ret: -1, args: [P.Function]}, {func: 1, ret: D.Testability}, {func: 1, ret: Q.AppViewUtils}, {func: 1, ret: Y.ApplicationRef}, {func: 1, ret: [P.Map,,,], args: [P.int]}, {func: 1, ret: P.JsObject, args: [,]}, {func: 1, ret: [P.JsArray,,], args: [,]}, {func: 1, bounds: [P.Object], ret: 0, args: [{func: 1, ret: 0}]}, {func: 1, ret: -1, args: [,], opt: [, P.String]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, ret: [P.List,,]}, {func: 1, ret: [P._Future,,], args: [,]}, {func: 1, ret: U.JsTestability, args: [W.Element]}, {func: 1, ret: [P.List, U.JsTestability]}, {func: 1, ret: U.JsTestability, args: [D.Testability]}, {func: 1, ret: -1, args: [P.Object, P.StackTrace]}, {func: 1, ret: P.JsFunction, args: [,]}, {func: 1, ret: -1, args: [, P.StackTrace]}, {func: 1, ret: -1, args: [,], opt: [,]}, {func: 1, ret: P.Null, args: [, P.StackTrace]}, {func: 1, ret: P.Null, args: [[D.ComponentRef,,]]}, {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool, P.String]}]}, {func: 1, ret: W.Element, args: [W.Node]}, {func: 1, ret: P.bool, args: [[P.Set, P.String]]}, {func: 1, ret: [P.Map, P.String,,], args: [O.ImperativeViewRef]}, {func: 1, ret: P.int, args: [[P.List, P.int], P.int]}, {func: 1, ret: -1, args: [P.int, P.int]}, {func: 1, args: [,,]}, {func: 1, ret: P.Null, args: [[L.AsyncAction,,]]}, {func: 1, ret: [P.Future, P.bool], named: {byUserAction: P.bool}}, {func: 1, args: [W.Event]}, {func: 1, ret: W.StyleSheet, args: [P.int]}, {func: 1, ret: P.Null, opt: [-1]}, {func: 1, ret: W.SpeechRecognitionResult, args: [P.int]}, {func: 1, ret: P.String, args: [P.num]}, {func: 1, ret: [P.List, W.HtmlElement], args: [D._ViewMaterialExpansionPanel4]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel5]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel6]}, {func: 1, ret: W._Attr, args: [P.int]}, {func: 1, ret: W.Gamepad, args: [P.int]}, {func: 1, ret: P.Null, args: [W.FocusEvent]}, {func: 1, ret: P.Null, args: [[P.List, [Y.ListChangeRecord, L.MenuItemAffix]]]}, {func: 1, ret: -1, args: [[D.MenuItem,,]]}, {func: 1, ret: -1, args: [W.KeyboardEvent], named: {shouldPreventDefault: P.bool}}, {func: 1, ret: -1, args: [W.FocusEvent]}, {func: 1, ret: W.CssRule, args: [P.int]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent15]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent16]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, A.MenuItemGroupsComponent], args: [M._ViewMenuPopupComponent1]}, {func: 1, ret: -1, args: [-1]}, {func: 1, ret: P.Null, args: [[P.StreamSubscription, [P.Rectangle, P.num]]]}, {func: 1, ret: P.Null, args: [[P.List, [P.Rectangle, P.num]]]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num]]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent2]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent3]}, {func: 1, ret: P.String, args: [P.Object]}, {func: 1, ret: W.TrackDefault, args: [P.int]}, {func: 1, ret: P.int, args: [P.int, [P.List,,]]}, {func: 1, ret: P.String, args: [L.MenuItemAffix]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]]}, {func: 1, ret: [P.Future,,], args: [,]}, {func: 1, ret: W.Touch, args: [P.int]}, {func: 1, ret: [P.Future,,], args: [Z.OverlayState, W.HtmlElement]}, {func: 1, ret: [P.Rectangle, P.num], args: [,]}, {func: 1, ret: [P.Rectangle, P.num], args: [-1]}, {func: 1, ret: W.SpeechRecognitionAlternative, args: [P.int]}, {func: 1, ret: P.bool, args: [P.num, P.num]}, {func: 1, ret: -1, args: [W.TouchEvent]}, {func: 1, ret: P.Null, args: [P.Symbol0,,]}, {func: 1, ret: {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, args: [,]}, {func: 1, ret: P.bool, args: [[P.List, P.bool]]}, {func: 1, ret: R._RateLimitSink, args: [[P.EventSink,,]]}, {func: 1, ret: O.ImperativeViewRef, args: [,]}, {func: 1, ret: P.Null, args: [P.num]}, {func: 1, ret: -1, args: [P.num]}, {func: 1, ret: P.int, args: [P.int]}, {func: 1, ret: P.Null, args: [,], named: {rawValue: P.String}}, {func: 1, ret: P.bool, args: [[Z.AbstractControl,,]]}, {func: 1, ret: [D.ComponentRef,,]}, {func: 1, ret: W.SpeechGrammar, args: [P.int]}, {func: 1, ret: P.Null, args: [Z.NavigationResult]}, {func: 1, ret: [P.Future, -1], args: [-1]}, {func: 1, ret: P.String, args: [P.String, N.RouteDefinition]}, {func: 1, ret: [P.Future, M.MutableRouterState], args: [M.MutableRouterState]}, {func: 1, ret: P.Null, args: [U.Response]}, {func: 1, ret: P.Null, args: [P.int,,]}, {func: 1, ret: -1, args: [L.Barcode]}, {func: 1, ret: [P.List, G.MenuPopupComponent], args: [G._ViewRaisableMenuComponent3]}, {func: 1, ret: W.SourceBuffer, args: [P.int]}, {func: 1, ret: W.Plugin, args: [P.int]}, {func: 1, ret: [P.List, T.MaterialExpansionPanel], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent5]}, {func: 1, ret: -1, args: [P.JsObject]}, {func: 1, ret: P.bool, args: [Y.Match0]}, {func: 1, ret: Q.Player, args: [,]}, {func: 1, ret: P.bool, args: [Q.Player]}, {func: 1, ret: P.bool, args: [E.Tournament]}, {func: 1, ret: [P.Future, U.Response], args: [U.Client]}, {func: 1, ret: P.bool, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.String]}, {func: 1, ret: P.Null, args: [{func: 1, ret: -1}]}, {func: 1, ret: -1, args: [[P.List, P.int]]}, {func: 1, ret: U.Response, args: [P.Uint8List]}, {func: 1, ret: P.bool, args: [P.Object]}, {func: 1, ret: R.MediaType}, {func: 1, ret: P.Null, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.int,,]}, {func: 1, ret: P.String, args: [P.String], named: {color: null}}, {func: 1, ret: [P.Future,,], args: [P.bool]}, {func: 1, bounds: [P.Object], ret: {func: 1, ret: 0}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, bounds: [P.Object, P.Object], ret: {func: 1, ret: 0, args: [1]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: {func: 1, ret: 0, args: [1, 2]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1, args: [P.Timer]}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, [P.Map,,,]]}, {func: 1, ret: P.Null, args: [W.DomException]}, {func: 1, ret: P.int, args: [,]}, {func: 1, ret: P.int, args: [P.Object]}, {func: 1, ret: P.bool, args: [P.Object, P.Object]}, {func: 1, args: [[P.Map,,,]], opt: [{func: 1, ret: -1, args: [P.Object]}]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: P.bool, args: [[P.Map, P.String,,]]}, {func: 1, ret: P.Object, args: [P.int,,]}, {func: 1, ret: [S.AppView, Z.DynamicComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.HighlightedTextComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.ModalComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, B.MaterialCheckboxComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Rectangle, P.num], args: [P.int]}, {func: 1, ret: [P.Map, P.String, P.String], args: [[P.Map, P.String, P.String], P.String]}, {func: 1, ret: -1, args: [P.String, P.int]}, {func: 1, ret: -1, args: [P.String], opt: [,]}, {func: 1, ret: P.int, args: [P.int, P.int]}, {func: 1, ret: [S.AppView, G.MenuPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.MaterialPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.DataTransferItem, args: [P.int]}, {func: 1, ret: P.String, args: [,]}, {func: 1, ret: W.AccessibleNode, args: [P.int]}, {func: 1, bounds: [P.Object], ret: {func: 1, args: [0]}, args: [{func: 1, args: [0]}, P.Duration]}, {func: 1, ret: [S.AppView, Q.AppComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, O.AdminComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Uint8List, args: [,,]}, {func: 1, ret: P.Uint8List, args: [P.int]}, {func: 1, ret: [S.AppView, E.TournamentDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, args: [, P.String]}, {func: 1, args: [P.String]}, {func: 1, ret: P.DateTime}, {func: 1, ret: W.File, args: [P.int]}];
+  init.metadata = ["_", "value", "error", null, "stackTrace", "item", "event", "result", "e", "data", "self", "arg", "callback", "action", "parent", "zone", "object", "arg1", "arg2", "key", "each", "f", "invocation", "isVisible", "isDisabled", "b", "pair", "a", "s", "arguments", "o", "index", true, "element", "completed", "control", "m", "elem", "n", "zoneValues", "captureThis", "chunk", "numberOfArguments", "encodedComponent", "closure", "stack", "reason", "arg4", "theStackTrace", "findInAncestors", "didWork_", "specification", "t", "errorCode", "fn", "promiseValue", "ref", "arg3", "checked", "byUserAction", "body", "isExpanded", "theError", "success", "status", "promiseError", "sub", "layoutRects", "key2", "group", "state", "pane", false, "track", "shouldCancel", "results", "highResTimer", "argument", "validator", "c", "ev", "dict", "navigationResult", "routerState", "k", "response", "barcode", "cmd", "postCreate", "key1", "affix", "expandedPanelHeight"];
+  init.types = [{func: 1, ret: P.Null}, {func: 1, ret: -1, args: [,]}, {func: 1, ret: -1}, {func: 1, ret: [S.AppView, A.MenuItemGroupsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [,]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: P.bool}, {func: 1, ret: P.String}, {func: 1, args: [,]}, {func: 1, ret: [S.AppView, L.MaterialInputComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: [S.AppView, T.MaterialExpansionPanel], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.Event]}, {func: 1, ret: -1, args: [P.Object]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: -1, args: [W.KeyboardEvent]}, {func: 1, ret: P.bool, args: [P.String]}, {func: 1, ret: -1, args: [W.MouseEvent]}, {func: 1, ret: P.Null, args: [-1]}, {func: 1, ret: P.bool, args: [,]}, {func: 1, ret: -1, args: [P.bool]}, {func: 1, ret: [P.Future,,]}, {func: 1, ret: [P.Future, Z.NavigationResult]}, {func: 1, ret: P.Null, args: [W.MouseEvent]}, {func: 1, ret: -1, args: [W.UIEvent]}, {func: 1, ret: P.Null, args: [P.String]}, {func: 1, ret: P.bool, args: [W.KeyboardEvent]}, {func: 1, ret: [S.AppView, L.TypeListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [P.bool]}, {func: 1, ret: [S.AppView, Q.MenuItemAffixListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, K.DashboardComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [P.bool]}, {func: 1, ret: -1, args: [W.Event]}, {func: 1, ret: P.Null, args: [[L.AsyncAction, P.bool]]}, {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, {func: 1, ret: P.String, args: [P.Match]}, {func: 1, ret: P.Null, args: [W.ProgressEvent]}, {func: 1, ret: -1, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.Null, args: [N.KeyValueChangeRecord]}, {func: 1, ret: [S.AppView, F.MaterialInkTooltipComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Future, P.bool]}, {func: 1, ret: [S.AppView, F.RaisableMenuComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.String, P.String]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord]}, {func: 1, ret: -1, args: [{func: 1, ret: -1}]}, {func: 1}, {func: 1, ret: [S.AppView, E.MaterialYesNoButtonsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [[P.List,,]]}, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.FocusEvent]}, {func: 1, ret: P.bool, args: [L.MenuItemAffix]}, {func: 1, ret: Y.NgZone}, {func: 1, ret: -1, named: {temporary: P.bool}}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num], [P.Rectangle, P.num]]}, {func: 1, ret: {futureOr: 1, type: P.bool}, args: [,]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: -1}]}, {func: 1, ret: W.Node, args: [P.int]}, {func: 1, ret: -1, args: [[L.AsyncAction,,]]}, {func: 1, ret: -1, args: [P.String]}, {func: 1, ret: -1, args: [[P.Set, P.String]]}, {func: 1, ret: W.MimeType, args: [P.int]}, {func: 1, ret: P.bool, args: [,,]}, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, ret: [S.AppView, D.MaterialDialogComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.Element, args: [P.int]}, {func: 1, ret: [S.AppView, N.UserDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]], args: [W.HtmlElement], named: {track: P.bool}}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, ret: P.bool, args: [W.Node]}, {func: 1, ret: P.Null, args: [W.TransitionEvent]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}, {func: 1, ret: [S.AppView, D.EntrantDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, X.EventDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.GameDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, Y.MatchDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.ResultDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, R.RoundDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, L.StageDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.TournamentDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, opt: [P.Object]}, {func: 1, ret: M.Injector, opt: [M.Injector]}, {func: 1, bounds: [P.Object], ret: 0, args: [{func: 1, ret: 0}]}, {func: 1, ret: W.AccessibleNode, args: [P.int]}, {func: 1, ret: W.DataTransferItem, args: [P.int]}, {func: 1, ret: -1, args: [,], opt: [, P.String]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, ret: [P.List,,]}, {func: 1, ret: [P.Rectangle, P.num], args: [P.int]}, {func: 1, ret: U.JsTestability, args: [W.Element]}, {func: 1, ret: [P.List, U.JsTestability]}, {func: 1, ret: U.JsTestability, args: [D.Testability]}, {func: 1, ret: P.bool, args: [[P.Map, P.String,,]]}, {func: 1, ret: P.Null, args: [W.DomException]}, {func: 1, ret: W.File, args: [P.int]}, {func: 1, ret: P.Null, args: [P.int,,]}, {func: 1, ret: P.Null, args: [,], opt: [,]}, {func: 1, ret: P.Null, args: [[D.ComponentRef,,]]}, {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool, P.String]}]}, {func: 1, ret: [P._Future,,], args: [,]}, {func: 1, ret: -1, args: [P.Object, P.StackTrace]}, {func: 1, ret: [P.Map, P.String,,], args: [O.ImperativeViewRef]}, {func: 1, ret: -1, args: [, P.StackTrace]}, {func: 1, ret: W.Plugin, args: [P.int]}, {func: 1, ret: W.SourceBuffer, args: [P.int]}, {func: 1, ret: P.Null, args: [[L.AsyncAction,,]]}, {func: 1, ret: [P.Future, P.bool], named: {byUserAction: P.bool}}, {func: 1, ret: W.SpeechGrammar, args: [P.int]}, {func: 1, ret: W.SpeechRecognitionAlternative, args: [P.int]}, {func: 1, ret: P.Null, opt: [-1]}, {func: 1, ret: W.Touch, args: [P.int]}, {func: 1, ret: P.String, args: [P.num]}, {func: 1, ret: [P.List, W.HtmlElement], args: [D._ViewMaterialExpansionPanel4]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel5]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel6]}, {func: 1, ret: W.TrackDefault, args: [P.int]}, {func: 1, ret: W.CssRule, args: [P.int]}, {func: 1, ret: W.Gamepad, args: [P.int]}, {func: 1, ret: P.Null, args: [[P.List, [Y.ListChangeRecord, L.MenuItemAffix]]]}, {func: 1, ret: -1, args: [[D.MenuItem,,]]}, {func: 1, ret: -1, args: [W.KeyboardEvent], named: {shouldPreventDefault: P.bool}}, {func: 1, ret: -1, args: [W.FocusEvent]}, {func: 1, ret: W._Attr, args: [P.int]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent15]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent16]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, A.MenuItemGroupsComponent], args: [M._ViewMenuPopupComponent1]}, {func: 1, ret: -1, args: [-1]}, {func: 1, ret: P.Null, args: [[P.StreamSubscription, [P.Rectangle, P.num]]]}, {func: 1, ret: P.Null, args: [[P.List, [P.Rectangle, P.num]]]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num]]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent2]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent3]}, {func: 1, ret: P.String, args: [P.Object]}, {func: 1, ret: W.SpeechRecognitionResult, args: [P.int]}, {func: 1, ret: P.int, args: [P.int, [P.List,,]]}, {func: 1, ret: P.String, args: [L.MenuItemAffix]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]]}, {func: 1, ret: [P.Future,,], args: [,]}, {func: 1, ret: W.StyleSheet, args: [P.int]}, {func: 1, ret: [P.Future,,], args: [Z.OverlayState, W.HtmlElement]}, {func: 1, ret: [P.Rectangle, P.num], args: [,]}, {func: 1, ret: [P.Rectangle, P.num], args: [-1]}, {func: 1, args: [W.Event]}, {func: 1, ret: P.bool, args: [P.num, P.num]}, {func: 1, ret: -1, args: [W.TouchEvent]}, {func: 1, args: [,,]}, {func: 1, ret: [P.Future,,], args: [P.bool]}, {func: 1, ret: P.bool, args: [[P.List, P.bool]]}, {func: 1, ret: R._RateLimitSink, args: [[P.EventSink,,]]}, {func: 1, ret: O.ImperativeViewRef, args: [,]}, {func: 1, ret: P.Null, args: [P.num]}, {func: 1, ret: -1, args: [P.num]}, {func: 1, ret: P.int, args: [P.int]}, {func: 1, ret: P.Null, args: [,], named: {rawValue: P.String}}, {func: 1, ret: P.bool, args: [[Z.AbstractControl,,]]}, {func: 1, ret: [D.ComponentRef,,]}, {func: 1, ret: P.bool, args: [[P.Set, P.String]]}, {func: 1, ret: P.Null, args: [Z.NavigationResult]}, {func: 1, ret: [P.Future, -1], args: [-1]}, {func: 1, ret: P.String, args: [P.String, N.RouteDefinition]}, {func: 1, ret: P.DateTime}, {func: 1, ret: P.Null, args: [U.Response]}, {func: 1, ret: -1, args: [,], opt: [,]}, {func: 1, ret: -1, args: [L.Barcode]}, {func: 1, ret: [P.List, G.MenuPopupComponent], args: [G._ViewRaisableMenuComponent3]}, {func: 1, args: [P.String]}, {func: 1, ret: W.Element, args: [W.Node]}, {func: 1, ret: [P.List, T.MaterialExpansionPanel], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent5]}, {func: 1, ret: D.Entrant, args: [,]}, {func: 1, ret: P.bool, args: [D.Entrant]}, {func: 1, ret: X.Event0, args: [,]}, {func: 1, ret: P.bool, args: [X.Event0]}, {func: 1, ret: D.Game, args: [,]}, {func: 1, ret: P.bool, args: [D.Game]}, {func: 1, ret: -1, args: [P.JsObject]}, {func: 1, ret: Y.Match0, args: [,]}, {func: 1, ret: P.bool, args: [Y.Match0]}, {func: 1, ret: E.Result, args: [,]}, {func: 1, ret: R.Round, args: [,]}, {func: 1, ret: P.bool, args: [R.Round]}, {func: 1, ret: L.Stage, args: [,]}, {func: 1, ret: P.bool, args: [L.Stage]}, {func: 1, ret: E.Tournament, args: [,]}, {func: 1, ret: P.bool, args: [E.Tournament]}, {func: 1, ret: N.User, args: [,]}, {func: 1, ret: P.bool, args: [N.User]}, {func: 1, ret: [P.Future, U.Response], args: [U.Client]}, {func: 1, ret: P.bool, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.String]}, {func: 1, ret: P.int, args: [[P.List, P.int], P.int]}, {func: 1, ret: -1, args: [[P.List, P.int]]}, {func: 1, ret: U.Response, args: [P.Uint8List]}, {func: 1, ret: P.bool, args: [P.Object]}, {func: 1, ret: R.MediaType}, {func: 1, ret: P.Null, args: [P.String, P.String]}, {func: 1, ret: P.String, args: [B.NumberSymbols]}, {func: 1, ret: P.int, args: [P.int,,]}, {func: 1, ret: P.String, args: [P.String], named: {color: null}}, {func: 1, ret: P.JsFunction, args: [,]}, {func: 1, bounds: [P.Object], ret: {func: 1, ret: 0}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, bounds: [P.Object, P.Object], ret: {func: 1, ret: 0, args: [1]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: {func: 1, ret: 0, args: [1, 2]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1, args: [P.Timer]}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, [P.Map,,,]]}, {func: 1, ret: [P.JsArray,,], args: [,]}, {func: 1, ret: P.int, args: [,]}, {func: 1, ret: P.int, args: [P.Object]}, {func: 1, ret: P.bool, args: [P.Object, P.Object]}, {func: 1, args: [[P.Map,,,]], opt: [{func: 1, ret: -1, args: [P.Object]}]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: P.JsObject, args: [,]}, {func: 1, ret: P.Object, args: [P.int,,]}, {func: 1, ret: [S.AppView, Z.DynamicComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.HighlightedTextComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.ModalComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, B.MaterialCheckboxComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Map,,,], args: [P.int]}, {func: 1, ret: -1, args: [P.int, P.int]}, {func: 1, ret: Y.ApplicationRef}, {func: 1, ret: Q.AppViewUtils}, {func: 1, ret: P.Null, args: [P.Symbol0,,]}, {func: 1, ret: [S.AppView, G.MenuPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.MaterialPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: D.Testability}, {func: 1, ret: P.String, args: [,]}, {func: 1, ret: M.Injector}, {func: 1, bounds: [P.Object], ret: {func: 1, args: [0]}, args: [{func: 1, args: [0]}, P.Duration]}, {func: 1, ret: {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, args: [,]}, {func: 1, ret: [S.AppView, Q.AppComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, O.AdminComponent], args: [[S.AppView,,], P.int]}, {func: 1, args: [, P.String]}, {func: 1, ret: [P.Map, P.String, P.String], args: [[P.Map, P.String, P.String], P.String]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: P.Null, args: [Y.NgZoneError]}, {func: 1, ret: -1, args: [P.String, P.int]}, {func: 1, ret: -1, args: [P.String], opt: [,]}, {func: 1, ret: -1, args: [P.Function]}, {func: 1, ret: P.int, args: [P.int, P.int]}, {func: 1, ret: P.Null, args: [{func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [, P.StackTrace]}, {func: 1, ret: P.Uint8List, args: [P.int]}, {func: 1, ret: P.Uint8List, args: [,,]}, {func: 1, ret: [P.Future, M.MutableRouterState], args: [M.MutableRouterState]}];
   function convertToFastObject(properties) {
     function MyClass() {
     }

@@ -18,18 +18,7 @@
       </material-input>
     </div>
     <!--
-    // DB NAME VALUE
-    -->
-    <div class="inlinediv">
-      <h4>Name:</h4>
-      <material-input
-        placeholder="Name"
-        [disabled]="lockLevelIsAtLeast(2)"
-        [(ngModel)] = "item.name" >
-      </material-input>
-    </div>
-    <!--
-    // DB OWNER ID
+    // DB STAGE ID
     -->
     <div class="inlinediv">
       <h4>Owner ID:</h4>
@@ -41,14 +30,14 @@
       </material-input>
     </div>
     <!--
-    // DB MAX ENTRANTS
+    // DB STAGE ID
     -->
     <div class="inlinediv">
-      <h4>Max Entrants:</h4>
+      <h4>Match ID:</h4>
       <material-input
         label="Number"
         type="number"
-        [(ngModel)]="item.settings['maxEntrants']"
+        [(ngModel)]="item.matchId"
         [disabled]="lockLevelIsAtLeast(1)" >
       </material-input>
     </div>

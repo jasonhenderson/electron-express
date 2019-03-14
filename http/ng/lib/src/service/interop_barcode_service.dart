@@ -32,8 +32,7 @@ class InteropBarcodeService {
   void _acceptJsObject(JsObject object){
     Barcode barcode = new Barcode();
     // TODO - Add types/filtering to Dart intake function _acceptJsObject
-    // TODO - This, better
-    print(object);
+    // TODO - This, but a lot better
     barcode.value = object["BarcodeText"].toString().substring(2);
     _barcodeStreamer.add(barcode);
   }

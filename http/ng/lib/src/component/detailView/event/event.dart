@@ -20,12 +20,12 @@ import 'package:angular_components/material_input/material_number_accessor.dart'
 // ***************
 // PROJECT IMPORTS
 // ***************
-import '../../../type/tournament.dart';
+import '../../../type/event.dart';
 
 @Component(
-  selector: 'tournament-detail',
-  templateUrl: 'tournament.html',
-  styleUrls: ['tournament.css'],
+  selector: 'event-detail',
+  templateUrl: 'event.html',
+  styleUrls: ['event.css'],
   directives: [
     coreDirectives,
     formDirectives,
@@ -36,11 +36,11 @@ import '../../../type/tournament.dart';
   ],
   pipes: [commonPipes],
 )
-class TournamentDetailComponent implements OnInit {
+class EventDetailComponent implements OnInit {
 
   // Hold on to current item
   @Input()
-  Tournament item;
+  Event item;
 
   // Track lock level (UI MOD)
   // 0 - New/free entity (DB reject on duplicate keys, id, etc)

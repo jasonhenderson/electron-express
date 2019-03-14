@@ -1,7 +1,7 @@
-class Player {
+class User {
   int id = 0;
   String name = "New";
   String key;
 
-  Player();
+  User();
 }

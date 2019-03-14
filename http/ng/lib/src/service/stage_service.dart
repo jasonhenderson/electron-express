@@ -9,7 +9,7 @@ import 'package:http/browser_client.dart';
 // ***************
 // PROJECT IMPORTS
 // ***************
-import '../type/tournament.dart';
+import '../type/stage.dart';
 import '../type/list_provider_interface.dart';
 
 // ***************
@@ -17,31 +17,32 @@ import '../type/list_provider_interface.dart';
 // ***************
 /*
 POST
-​/tournament​/add
+​/round​/add
 GET
-​/tournament​/find
+​/round​/find
 POST
-​/tournament​/sync
+​/round​/sync
 GET
-​/tournament​/{id}
+​/round​/{id}
 DELETE
-​/tournament​/{id}
+​/round​/{id}
 */
 
-class TournamentService implements DetailListService<Tournament> {
+class StageService implements DetailListService<Stage> {
 
   static String baseUrl = "http://localhost:8080/v1/";
-  static String coreUrl = "tournament/";
+  static String coreUrl = "stage/";
 
   String endpointUrl(String endpoint){
     return baseUrl + coreUrl + endpoint;
   }
 
-  Tournament getNew(){
-    return new Tournament();
+  Stage getNew(){
+    return new Stage();
   }
 
-  Future<List<Tournament>> getAll() async {
+  // Gets all Stage entries from the DB
+  Future<List<Stage>> getAll() async {
     print("Getting: all");
     try{
       // Fire the request and wait for the response
@@ -53,31 +54,36 @@ class TournamentService implements DetailListService<Tournament> {
         // WARNING - SERIOUS TYPING ISSUES IF NOT LEFT AS-IS
         // ********************************************************
         List<dynamic> jsonList = (json.decode(response.body) as Map)["Data"];
-        List<Tournament> tournamentList = new List();
+        List<Stage> playerList = new List();
         if(jsonList != null){
-            tournamentList = jsonList.map((item){
-              return new Tournament()
-                          ..id = item['Id']
-                          ..name = item['Name']
-                          ..ownerId = item['OwnerId']
-                          ..settings = json.decode(item['Settings']);
+            playerList = jsonList.map((item){
+              return new Stage()
+                          ..id = item["Id"]
+                          ..name = item["Name"]
+                          ..ownerId = item["StageId"]
+                          ..tournamentId = item["TournamentId"]
+                          ..maxEntrants = item["MaxEntrants"]
+                          ..maxRounds = item["MaxRounds"];
+
             }).toList();
         }
         // ********************************************************
-        return tournamentList;
+        return playerList;
       } else {
         throw new Exception("Bad status code - ${response.statusCode}");
       }
     } catch (e) {print("Error: ${e.toString()}");}
-     return null;
+    return null;
   }
 
-  Future<Tournament> addByObject(Tournament object) async {
+  // Use a simple map to craft a DB call to add a new user
+  Future<Stage> addByObject(Stage object) async {
     String jsonBody = json.encode({
       "Name": object.name,
       "OwnerId": object.ownerId,
-      // TODO - Encode/pass settings from a Map<d,d> to some JSON values
-      //"Settings": json.encode(object.settings)
+      "TournamentId": object.tournamentId,
+      "MaxEntrants": object.maxEntrants,
+      "MaxRounds": object.maxRounds
     });
     print(jsonBody);
     try{
@@ -88,14 +94,16 @@ class TournamentService implements DetailListService<Tournament> {
       print('Response status: ${response.statusCode}');
       // If add was successful then use the incoming data to build new item
       if(response.statusCode == 200){
-        dynamic jsonData = json.decode(response.body)["Data"];
-        // TODO - Fix API and return "Id" for consistency
-        print("Returning ID: ${jsonData['id']}");
-        return new Tournament()
-                    ..id = jsonData["id"]
-                    ..name = object.name
-                    ..ownerId = object.ownerId
-                    ..settings = object.settings;
+          dynamic jsonData = json.decode(response.body)["Data"];
+          // TODO - Fix API and return "Id" for consistency
+          print("Returning ID: ${jsonData['id']}");
+          return new Stage()
+                      ..id = jsonData["id"]
+                      ..name = object.name
+                      ..ownerId = object.ownerId
+                      ..tournamentId = object.tournamentId
+                      ..maxEntrants = object.maxEntrants
+                      ..maxRounds = object.maxRounds;
       }
       else {
         throw new Exception("Bad status code - ${response.statusCode}");
@@ -105,11 +113,12 @@ class TournamentService implements DetailListService<Tournament> {
   }
 
   // TODO - finish
-  Future<Tournament> updateByObject(Tournament object){
+  Future<Stage> updateByObject(Stage object){
     return null;
   }
 
-  Future<Tournament> getById(int id) async {
+  // TODO - Rewrite to use DB function (/get/id)
+  Future<Stage> getById(int id) async {
     print("Getting: ${id}");
     try{
       // Fire the request with appropriate headers and wait for the response
@@ -118,11 +127,13 @@ class TournamentService implements DetailListService<Tournament> {
       // If add was successful then use the incoming data to build new item
       if(response.statusCode == 200){
           dynamic jsonData = json.decode(response.body)["Data"];
-          return new Tournament()
+          return new Stage()
                       ..id = id
                       ..name = jsonData["Name"]
-                      ..ownerId = jsonData["OwnerId"]
-                      ..settings = jsonData["Settings"];
+                      ..ownerId = jsonData["StageId"]
+                      ..tournamentId = jsonData["TournamentId"]
+                      ..maxEntrants = jsonData["MaxEntrants"]
+                      ..maxRounds = jsonData["MaxRounds"];
       }
       else {
         throw new Exception("Bad status code - ${response.statusCode}");
@@ -131,18 +142,21 @@ class TournamentService implements DetailListService<Tournament> {
     return null;
   }
 
-  Future<List<Tournament>> searchFor(String string) async {
+  // TODO - Combine (ID FIND) with (API SEARCH)
+  Future<List<Stage>> searchFor(String string) async {
     int testInt;
-    return (await getAll()).where((tournament){
-      // Try to parse as an int
-      testInt = int.tryParse(string);
-      if(testInt != null){
-        // If we got an int, test against the tournament id
-        if(tournament.id == testInt) return true;
-      }
-      // Try to catch the name
-      return tournament.name.toLowerCase().contains(string.toLowerCase());
-    }).toList();
+    try{
+      return (await getAll()).where((player){
+        // Try to parse as an int
+        testInt = int.tryParse(string);
+        if(testInt != null){
+          // If we got an int, test against the player id
+          if(player.id == testInt) return true;
+        }
+        // Try to catch the name
+        return player.name.toLowerCase().contains(string.toLowerCase());
+      }).toList();
+    } catch (e) {print("Error: ${e.toString()}"); return null;}
   }
 
   Future<bool> deleteById(int id) async {
@@ -151,7 +165,6 @@ class TournamentService implements DetailListService<Tournament> {
       // Fire the request and wait for the response
       var response = await BrowserClient().delete(endpointUrl(id.toString()));
       print('Response status: ${response.statusCode}');
-      // Vanilla response code return
       if(response.statusCode == 200){
         return true;
       } else {

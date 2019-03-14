@@ -8,7 +8,7 @@ import 'package:angular_components/model/menu/menu.dart';
 
 import '../raisableMenu/raisable_menu_component.dart';
 
-import '../../conf/routes.dart';
+import '../../routing/routes.dart';
 
 @Component(
   selector: 'admin-comp',

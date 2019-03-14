@@ -20,12 +20,12 @@ import 'package:angular_components/material_input/material_number_accessor.dart'
 // ***************
 // PROJECT IMPORTS
 // ***************
-import '../../../type/tournament.dart';
+import '../../../type/entrant.dart';
 
 @Component(
-  selector: 'tournament-detail',
-  templateUrl: 'tournament.html',
-  styleUrls: ['tournament.css'],
+  selector: 'entrant-detail',
+  templateUrl: 'entrant.html',
+  styleUrls: ['entrant.css'],
   directives: [
     coreDirectives,
     formDirectives,
@@ -36,11 +36,11 @@ import '../../../type/tournament.dart';
   ],
   pipes: [commonPipes],
 )
-class TournamentDetailComponent implements OnInit {
+class EntrantDetailComponent implements OnInit {
 
   // Hold on to current item
   @Input()
-  Tournament item;
+  Entrant item;
 
   // Track lock level (UI MOD)
   // 0 - New/free entity (DB reject on duplicate keys, id, etc)
@@ -48,12 +48,17 @@ class TournamentDetailComponent implements OnInit {
   @Input()
   int lockLevel;
 
-  TournamentDetailComponent(){
+  EntrantDetailComponent(){
     _buttonStreamer = new StreamController<String>.broadcast(sync: true);
   }
 
   StreamController<String> _buttonStreamer;
   Stream<String> get buttonStream => _buttonStreamer.stream;
+
+
+  // Reference to the Material-Input where we want to auto-fill with barcodes
+  @ViewChild('barcode_slot', read: MaterialInputComponent)
+  MaterialInputComponent barcodeSlot;
 
   // Determine if UI element is locked
   // Lower levels are at decreased amounts of guarding from edits

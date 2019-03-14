@@ -10,7 +10,7 @@ import 'dart:html';
 import 'package:angular/angular.dart';
 
 import 'package:angular_router/angular_router.dart';
-import '../../conf/routes.dart';
+import '../../routing/routes.dart';
 
 import 'package:angular_components/angular_components.dart';
 import 'package:angular_forms/angular_forms.dart';
@@ -31,12 +31,25 @@ import 'package:angular_components/auto_dismiss/auto_dismiss.dart';
 // ***************
 // PROJECT IMPORTS
 // ***************
+import '../../service/event_service.dart';
 import '../../service/tournament_service.dart';
+import '../../service/stage_service.dart';
+import '../../service/round_service.dart';
+import '../../service/game_service.dart';
 import '../../service/match_service.dart';
-import '../../service/player_service.dart';
+import '../../service/result_service.dart';
+import '../../service/entrant_service.dart';
+import '../../service/user_service.dart';
 import '../../type/list_provider_interface.dart';
+import '../../component/detailView/event/event.template.dart' as event_component;
 import '../../component/detailView/tournament/tournament.template.dart' as tournament_component;
-import '../../component/detailView/player/player.template.dart' as player_component;
+import '../../component/detailView/stage/stage.template.dart' as stage_component;
+import '../../component/detailView/match/match.template.dart' as match_component;
+import '../../component/detailView/result/result.template.dart' as result_component;
+import '../../component/detailView/round/round.template.dart' as round_component;
+import '../../component/detailView/game/game.template.dart' as game_component;
+import '../../component/detailView/entrant/entrant.template.dart' as entrant_component;
+import '../../component/detailView/user/user.template.dart' as user_component;
 
 @Component(
   selector: 'my-itemlist',
@@ -110,27 +123,60 @@ class TypeListComponent implements OnActivate {
   void onActivate(_, RouterState current) async {
     // Get current service from router parameters
     _serviceName = getTypeFrom(current.parameters);
+    bool _serviceLoaded = true;
     switch (_serviceName) {
+      case "events":
+        print("Loading event service...");
+        _currentService = EventService();
+        _currentFactory = event_component.EventDetailComponentNgFactory;
+        break;
       case "tournaments":
         print("Loading tournament service...");
         _currentService = TournamentService();
         _currentFactory = tournament_component.TournamentDetailComponentNgFactory;
         break;
+      case "stages":
+        print("Loading stage service...");
+        _currentService = StageService();
+        _currentFactory = stage_component.StageDetailComponentNgFactory;
+        break;
       case "matches":
         print("Loading match service...");
         _currentService = MatchService();
+        _currentFactory = match_component.MatchDetailComponentNgFactory;
         break;
-      case "players":
-        print("Loading player service...");
-        _currentService = PlayerService();
-        _currentFactory = player_component.PlayerDetailComponentNgFactory;
+      case "results":
+        print("Loading result service...");
+        _currentService = ResultService();
+        _currentFactory = result_component.ResultDetailComponentNgFactory;
+        break;
+      case "rounds":
+        print("Loading round service...");
+        _currentService = RoundService();
+        _currentFactory = round_component.RoundDetailComponentNgFactory;
+        break;
+      case "games":
+        print("Loading game service...");
+        _currentService = GameService();
+        _currentFactory = game_component.GameDetailComponentNgFactory;
+        break;
+      case "entrants":
+        print("Loading entrant service...");
+        _currentService = EntrantService();
+        _currentFactory = entrant_component.EntrantDetailComponentNgFactory;
+        break;
+      case "users":
+        print("Loading user service...");
+        _currentService = UserService();
+        _currentFactory = user_component.UserDetailComponentNgFactory;
         break;
       default:
         window.alert("Oops, that service doesn't seem to exist!");
         print("Failed to find service... bad load!");
+        _serviceLoaded = false;
         _router.navigate(RoutePaths.dash.toUrl());
     }
-    _getServiceItems();
+    if(_serviceLoaded) _getServiceItems();
   }
 
   // Simple utility to parse service name from router into capitalized (?) value
@@ -203,14 +249,12 @@ class TypeListComponent implements OnActivate {
     print("Delete confirmed...");
     // Immediately kill UI element to prevent double click issues
     deleteModalVisible = false;
-    int statusCode = await _currentService.deleteById(selected.id);
-    if (statusCode == 200) {
+    if (await _currentService.deleteById(selected.id)) {
       // If we removed from DB successfully then remove from UI list
       listItems.removeWhere((item) => item.id == selected.id);
       selected = null;
     } else {
       window.alert("Couldn't finish deleting current item!");
-      print("Status code: ${statusCode}");
     }
   }
 
@@ -220,34 +264,27 @@ class TypeListComponent implements OnActivate {
     // Get a handle to injected object
     // TODO - "item" is injected from "selected" - ref is possible duplicate
     dynamic loadedItem = loadedComponent.instance.item;
-    dynamic itemRef;
+    dynamic newItem;
     // If adding, attempt to add and insert into list if successful
     if(mode == "add"){
-      if(loadedItem != null){
-        // Ensure we have an updated object when moving forward
-        itemRef = await _currentService.addByObject(loadedItem);
-        if(itemRef != null){
-          mode = "edit";
-          listItems.removeAt(0);
-          // Insert new ref for consistency (bad field sets in DB, etc)
-          listItems.insert(0, itemRef);
-        }
-      }
+      // Ensure we have an updated object when moving forward
+      newItem = await _currentService.addByObject(loadedItem);
     }
     // If editing, attempt to update existing entry in DB
     else {
-      itemRef = await _currentService.updateByObject(loadedItem);
+      newItem = await _currentService.updateByObject(loadedItem);
     }
     // If edit/add return null then alert and do nothing.
-    if(itemRef == null){
+    if(newItem == null){
       // Null return from current service is bad operation in connector
       window.alert("Couldn't finish current item save!");
     }
     // Add non-null handled, successful edit/update procedure below
     else {
+      mode = "edit";
       int indexPosition = listItems.indexWhere((element)=>element.id == loadedItem.id);
       listItems.removeAt(indexPosition);
-      listItems.insert(indexPosition, itemRef);
+      listItems.insert(indexPosition, newItem);
     }
   }
 

@@ -1,9 +1,16 @@
 <h3>Available Functions</h3>
 <div class="grid grid-pad">
-  <a *ngFor="let section of sections" class="col-1-4"
-     [routerLink]="getSectionLink(section.name)">
-    <div class="module section">
-      <h4>{{section.name}}</h4>
+  <div *ngFor="let section of sections" class="col-1-4">
+    <div *ngIf="!section.enabled" >
+      <div class="module section">
+        <i><h4>{{section.name}}</h4></i>
+      </div>
     </div>
-  </a>
+    <a *ngIf="section.enabled"
+       [routerLink]="getSectionLink(section)" >
+      <div class="module section">
+        <h4>{{section.name}}</h4>
+      </div>
+    </a>
+  </div>
 </div>

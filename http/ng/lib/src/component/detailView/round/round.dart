@@ -20,12 +20,12 @@ import 'package:angular_components/material_input/material_number_accessor.dart'
 // ***************
 // PROJECT IMPORTS
 // ***************
-import '../../../type/tournament.dart';
+import '../../../type/round.dart';
 
 @Component(
-  selector: 'tournament-detail',
-  templateUrl: 'tournament.html',
-  styleUrls: ['tournament.css'],
+  selector: 'round-detail',
+  templateUrl: 'round.html',
+  styleUrls: ['round.css'],
   directives: [
     coreDirectives,
     formDirectives,
@@ -36,11 +36,11 @@ import '../../../type/tournament.dart';
   ],
   pipes: [commonPipes],
 )
-class TournamentDetailComponent implements OnInit {
+class RoundDetailComponent implements OnInit {
 
   // Hold on to current item
   @Input()
-  Tournament item;
+  Round item;
 
   // Track lock level (UI MOD)
   // 0 - New/free entity (DB reject on duplicate keys, id, etc)
@@ -48,7 +48,7 @@ class TournamentDetailComponent implements OnInit {
   @Input()
   int lockLevel;
 
-  TournamentDetailComponent(){
+  StageDetailComponent(){
     _buttonStreamer = new StreamController<String>.broadcast(sync: true);
   }
 

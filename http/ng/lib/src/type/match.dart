@@ -1,6 +1,7 @@
 class Match {
-  final int id;
-  String name;
+  int id = 0;
+  int roundId = 0;
+  String name = "New";
 
-  Match(this.id, this.name);
+  Match();
 }
