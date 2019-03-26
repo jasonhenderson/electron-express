@@ -139,7 +139,7 @@ function createWindow () {
 
 	// Create the URL to the locally running express server
 	mainWindow.loadURL(url.format({
-		pathname: 'localhost:3000',
+		pathname: 'localhost:3010',
 		protocol: 'http:',
 		slashes: true
 	}));

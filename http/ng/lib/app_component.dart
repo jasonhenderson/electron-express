@@ -69,7 +69,7 @@ class AppComponent implements OnInit {
   // Function call to open second window in Electron - see host application
   void openUiWindow(){
     // Place request as per router config in Electron host
-    http.get("http://localhost:3000/open/BCUI")
+    http.get("http://localhost:3010/open/BCUI")
     .then((response) {
         // status 200 is ok, 201 is error from Electron host
         print("Response status: ${response.statusCode}");

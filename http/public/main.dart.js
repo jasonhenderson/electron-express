@@ -36634,7 +36634,7 @@
         this.navMenu = H.assertSubtype(navMenu, "$isMenuModel", [[D.MenuItem,,]], "$asMenuModel");
       },
       openUiWindow$0: [function() {
-        G.get("http://localhost:3000/open/BCUI", null).then$1$1(new Q.AppComponent_openUiWindow_closure(), null);
+        G.get("http://localhost:3010/open/BCUI", null).then$1$1(new Q.AppComponent_openUiWindow_closure(), null);
       }, "call$0", "get$openUiWindow", 0, 0, 2],
       goHome$0: [function() {
         this._app_component$_router.navigate$1(0, $.$get$RoutePaths_dash().toUrl$0(0));

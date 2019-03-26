@@ -25,7 +25,7 @@ var http = require('http');
 
 // Port 4332 is currently unassigned and not widely used
 // We will use it as a default HTTP channel
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3010');
 app.set('port', port);
 
 /**
