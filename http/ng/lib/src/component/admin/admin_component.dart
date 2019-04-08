@@ -1,4 +1,5 @@
 
+import 'dart:async';
 import 'dart:html';
 
 import 'package:angular/angular.dart';
@@ -34,7 +35,7 @@ class AdminComponent implements OnInit {
   MenuModel<MenuItem> uploadMenu;
   // Reference to our dynamically loaded content's DOM element
   @ViewChild('player_upload')
-  InputElement playerUploadButton;
+  FileUploadInputElement playerUploadButton;
 
   // Navigate back to the dashboard, using the current router object
   void goHome(){
@@ -45,19 +46,17 @@ class AdminComponent implements OnInit {
     // Fill menu on init, since we need to attach to the current router object
     uploadMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
-        MenuItem('Players', action: () => {
-          player_upload.click();
-        }))
+        MenuItem('Players', action: () => playerUploadButton.click())
       ])
     ]);
   }
 
-  void handleUpload(Event event){
+  void handleUpload() async {
     print("Trying to upload file...");
-    var blob = e.target as html.FileUploadInputElement).files[0];
-    var reader = new FileReader()..readAsArrayBuffer(blob);
+    var blob = playerUploadButton.files[0];
+    var reader = new FileReader()..readAsText(blob);
     await reader.onLoadEnd.first;
-    List<int> result = reader.result;
+    String result = reader.result;
     print(result);
   }
 }

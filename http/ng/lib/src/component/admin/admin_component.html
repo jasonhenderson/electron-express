@@ -7,5 +7,5 @@
             <material-icon icon="arrow_drop_down" size="medium" baseline></material-icon>
         </section>
     </raisable-menu>
-    <input type="file" id="player_upload" accept=".csv" (change)="handleUpload($event)" style="visibility: hidden;">
+    <input #player_upload type="file" id="player_upload" accept=".csv" (change)="handleUpload()" style="visibility: hidden;">
 </div>

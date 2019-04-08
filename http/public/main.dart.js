@@ -4275,7 +4275,7 @@
       }
     },
     Primitives_functionNoSuchMethod_closure: {
-      "^": "Closure:51;_box_0,namedArgumentList,$arguments",
+      "^": "Closure:70;_box_0,namedArgumentList,$arguments",
       call$2: function($name, argument) {
         var t1;
         H.stringTypeCheck($name);
@@ -5781,7 +5781,7 @@
       $.Zone__current.handleUncaughtError$2(error, stackTrace);
     }, function(error) {
       return P._nullErrorHandler(error, null);
-    }, "call$2", "call$1", "async___nullErrorHandler$closure", 4, 2, 38, 3, 2, 4],
+    }, "call$2", "call$1", "async___nullErrorHandler$closure", 4, 2, 37, 3, 2, 4],
     _nullDoneHandler: [function() {
     }, "call$0", "async___nullDoneHandler$closure", 0, 0, 2],
     _cancelAndValue: function(subscription, future, value) {
@@ -5821,7 +5821,7 @@
       var t1 = {};
       t1.error = error;
       P._schedulePriorityAsyncCallback(new P._rootHandleUncaughtError_closure(t1, H.interceptedTypeCheck(stackTrace, "$isStackTrace")));
-    }, "call$5", "async___rootHandleUncaughtError$closure", 20, 0, 70],
+    }, "call$5", "async___rootHandleUncaughtError$closure", 20, 0, 50],
     _rootRun: [1, function($self, $parent, zone, f, $R) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5841,7 +5841,7 @@
       }
     }, function($self, $parent, zone, f) {
       return P._rootRun($self, $parent, zone, f, null);
-    }, "call$1$4", "call$4", "async___rootRun$closure", 16, 0, 65, 10, 14, 15, 21],
+    }, "call$1$4", "call$4", "async___rootRun$closure", 16, 0, 72, 10, 14, 15, 21],
     _rootRunUnary: [1, function($self, $parent, zone, f, arg, $R, $T) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5862,7 +5862,7 @@
       }
     }, function($self, $parent, zone, f, arg) {
       return P._rootRunUnary($self, $parent, zone, f, arg, null, null);
-    }, "call$2$5", "call$5", "async___rootRunUnary$closure", 20, 0, 49, 10, 14, 15, 21, 11],
+    }, "call$2$5", "call$5", "async___rootRunUnary$closure", 20, 0, 71, 10, 14, 15, 21, 11],
     _rootRunBinary: [1, function($self, $parent, zone, f, arg1, arg2, $R, T1, T2) {
       var old, t1;
       H.interceptedTypeCheck($self, "$isZone");
@@ -5884,7 +5884,7 @@
       }
     }, function($self, $parent, zone, f, arg1, arg2) {
       return P._rootRunBinary($self, $parent, zone, f, arg1, arg2, null, null, null);
-    }, "call$3$6", "call$6", "async___rootRunBinary$closure", 24, 0, 73, 10, 14, 15, 21, 17, 18],
+    }, "call$3$6", "call$6", "async___rootRunBinary$closure", 24, 0, 49, 10, 14, 15, 21, 17, 18],
     _rootRegisterCallback: [function($self, $parent, zone, f, $R) {
       return H.functionTypeCheck(f, {func: 1, ret: $R});
     }, function($self, $parent, zone, f) {
@@ -5911,12 +5911,12 @@
       if (t1)
         f = !(!t1 || C.C__RootZone.get$errorZone() === zone.get$errorZone()) ? zone.bindCallbackGuarded$1(f) : zone.bindCallback$1$1(f, -1);
       P._scheduleAsyncCallback(f);
-    }, "call$4", "async___rootScheduleMicrotask$closure", 16, 0, 58],
+    }, "call$4", "async___rootScheduleMicrotask$closure", 16, 0, 65],
     _rootCreateTimer: [function($self, $parent, zone, duration, callback) {
       H.interceptedTypeCheck(duration, "$isDuration");
       callback = zone.bindCallback$1$1(H.functionTypeCheck(callback, {func: 1, ret: -1}), -1);
       return P.Timer__createTimer(duration, callback);
-    }, "call$5", "async___rootCreateTimer$closure", 20, 0, 50],
+    }, "call$5", "async___rootCreateTimer$closure", 20, 0, 51],
     _rootCreatePeriodicTimer: [function($self, $parent, zone, duration, callback) {
       var milliseconds;
       H.interceptedTypeCheck(duration, "$isDuration");
@@ -6198,7 +6198,7 @@
       }
     },
     _AsyncStarStreamController_closure: {
-      "^": "Closure:22;$this,body",
+      "^": "Closure:21;$this,body",
       call$0: [function() {
         var t1 = this.$this;
         if ((t1.controller.get$_state() & 4) === 0) {
@@ -6656,7 +6656,7 @@
         }
       }, function(error) {
         return this.addError$2(error, null);
-      }, "addError$1", "call$2", "call$1", "get$addError", 4, 2, 38, 3, 2, 4],
+      }, "addError$1", "call$2", "call$1", "get$addError", 4, 2, 37, 3, 2, 4],
       close$0: [function(_) {
         var t1 = this._state;
         if ((t1 & 4) === 0 && (t1 & 2) !== 0) {
@@ -6665,7 +6665,7 @@
           return P._BroadcastStreamController.prototype.get$done.call(this);
         }
         return this.super$_BroadcastStreamController$close(0);
-      }, "call$0", "get$close", 1, 0, 22],
+      }, "call$0", "get$close", 1, 0, 21],
       _callOnCancel$0: function() {
         if (this.get$_hasPending()) {
           var t1 = this._pending;
@@ -6763,7 +6763,7 @@
         this._completeError$2(error, stackTrace);
       }, function(error) {
         return this.completeError$2(error, null);
-      }, "completeError$1", "call$2", "call$1", "get$completeError", 4, 2, 38, 3, 2, 4],
+      }, "completeError$1", "call$2", "call$1", "get$completeError", 4, 2, 37, 3, 2, 4],
       $isCompleter: 1
     },
     _AsyncCompleter: {
@@ -6777,7 +6777,7 @@
         t1._asyncComplete$1(value);
       }, function($receiver) {
         return this.complete$1($receiver, null);
-      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 82, 3, 1],
+      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 68, 3, 1],
       _completeError$2: function(error, stackTrace) {
         this.future._asyncCompleteError$2(error, stackTrace);
       }
@@ -6793,7 +6793,7 @@
         t1._complete$1(value);
       }, function($receiver) {
         return this.complete$1($receiver, null);
-      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 82, 3, 1],
+      }, "complete$0", "call$1", "call$0", "get$complete", 1, 2, 68, 3, 1],
       _completeError$2: function(error, stackTrace) {
         this.future._completeError$2(error, stackTrace);
       }
@@ -6971,7 +6971,7 @@
         P._Future__propagateToListeners(this, listeners);
       }, function(error) {
         return this._completeError$2(error, null);
-      }, "_completeError$1", "call$2", "call$1", "get$_completeError", 4, 2, 38, 3, 2, 4],
+      }, "_completeError$1", "call$2", "call$1", "get$_completeError", 4, 2, 37, 3, 2, 4],
       _asyncComplete$1: function(value) {
         H.futureOrCheck(value, {futureOr: 1, type: H.getTypeArgumentByIndex(this, 0)});
         if (H.checkSubtype(value, "$isFuture", this.$ti, "$asFuture")) {
@@ -9726,7 +9726,7 @@
       }
     },
     _LinkedCustomHashMap_closure: {
-      "^": "Closure:20;K",
+      "^": "Closure:24;K",
       call$1: function(v) {
         return H.checkSubtypeOfRuntimeType(v, this.K);
       }
@@ -12029,11 +12029,13 @@
       return result;
     },
     print: function(object) {
-      var t1 = $.printToZone;
+      var line, t1;
+      line = H.S(object);
+      t1 = $.printToZone;
       if (t1 == null)
-        H.printString(object);
+        H.printString(line);
       else
-        t1.call$1(object);
+        t1.call$1(line);
     },
     Uri_parse: function(uri, start, end) {
       var t1, delta, t2, indices, schemeEnd, hostStart, portStart, pathStart, queryStart, fragmentStart, isSimple, scheme, t3, schemeAuth;
@@ -14309,7 +14311,7 @@
       }
     },
     _Uri__Uri$notSimple_closure: {
-      "^": "Closure:26;uri,portStart",
+      "^": "Closure:25;uri,portStart",
       call$1: function(_) {
         var t1 = this.portStart;
         if (typeof t1 !== "number")
@@ -14318,7 +14320,7 @@
       }
     },
     _Uri__checkNonWindowsPathReservedCharacters_closure: {
-      "^": "Closure:26;argumentError",
+      "^": "Closure:25;argumentError",
       call$1: function(segment) {
         H.stringTypeCheck(segment);
         if (J.contains$1$asx(segment, "/"))
@@ -15860,6 +15862,12 @@
       readAsArrayBuffer$1: function(receiver, blob) {
         return receiver.readAsArrayBuffer(blob);
       },
+      readAsText$2: function(receiver, blob, label) {
+        return receiver.readAsText(blob, label);
+      },
+      readAsText$1: function($receiver, blob) {
+        return $receiver.readAsText(blob);
+      },
       "%": "FileReader"
     },
     FileSystem: {
@@ -15946,7 +15954,7 @@
       },
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 59],
+      }, "call$1", "get$item", 5, 0, 57],
       $isJSIndexable: 1,
       $asJSIndexable: function() {
         return [W.Node];
@@ -15985,7 +15993,7 @@
       "^": "HtmlCollection;",
       item$1: [function(receiver, index) {
         return receiver.item(index);
-      }, "call$1", "get$item", 5, 0, 59],
+      }, "call$1", "get$item", 5, 0, 57],
       "%": "HTMLFormControlsCollection"
     },
     HttpRequest: {
@@ -16029,7 +16037,7 @@
       },
       setRequestHeader$2: [function(receiver, $name, value) {
         return receiver.setRequestHeader(H.stringTypeCheck($name), H.stringTypeCheck(value));
-      }, "call$2", "get$setRequestHeader", 9, 0, 43],
+      }, "call$2", "get$setRequestHeader", 9, 0, 42],
       $isHttpRequest: 1,
       "%": "XMLHttpRequest"
     },
@@ -16063,6 +16071,7 @@
         receiver.name = H.stringTypeCheck($name);
       },
       $isInputElement: 1,
+      $isFileUploadInputElement: 1,
       "%": "HTMLInputElement"
     },
     IntersectionObserverEntry: {
@@ -16987,13 +16996,13 @@
       "%": "Storage"
     },
     Storage_keys_closure: {
-      "^": "Closure:43;keys",
+      "^": "Closure:42;keys",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.keys, k);
       }
     },
     Storage_values_closure: {
-      "^": "Closure:43;values",
+      "^": "Closure:42;values",
       call$2: function(k, v) {
         return C.JSArray_methods.add$1(this.values, v);
       }
@@ -17789,7 +17798,7 @@
         this._html$_target = null;
         this.set$_html$_onData(null);
         return;
-      }, "call$0", "get$cancel", 1, 0, 22],
+      }, "call$0", "get$cancel", 1, 0, 21],
       pause$1: function(_, resumeSignal) {
         if (this._html$_target == null)
           return;
@@ -18419,14 +18428,14 @@
       }
     },
     CssClassSetImpl_addAll_closure: {
-      "^": "Closure:62;$this,iterable",
+      "^": "Closure:58;$this,iterable",
       call$1: function(s) {
         var t1 = P.String;
         return H.assertSubtype(s, "$isSet", [t1], "$asSet").addAll$1(0, this.iterable.map$1$1(0, this.$this.get$_validateToken(), t1));
       }
     },
     CssClassSetImpl_removeAll_closure: {
-      "^": "Closure:62;iterable",
+      "^": "Closure:58;iterable",
       call$1: function(s) {
         return H.assertSubtype(s, "$isSet", [P.String], "$asSet").removeAll$1(this.iterable);
       }
@@ -18531,7 +18540,7 @@
       }
     },
     FilteredElementList__iterable_closure: {
-      "^": "Closure:71;",
+      "^": "Closure:55;",
       call$1: function(n) {
         return !!J.getInterceptor$(H.interceptedTypeCheck(n, "$isNode")).$isElement;
       }
@@ -19731,7 +19740,7 @@
     "^": "",
     createNgZone: [function() {
       return Y.NgZone$(false);
-    }, "call$0", "modules__createNgZone$closure", 0, 0, 54],
+    }, "call$0", "modules__createNgZone$closure", 0, 0, 48],
     createRandomAppId: function() {
       var t1 = new G.createRandomAppId_char(C.C__JSRandom);
       return H.S(t1.call$0()) + H.S(t1.call$0()) + H.S(t1.call$0());
@@ -19853,7 +19862,7 @@
       }
     },
     appInjector_closure1: {
-      "^": "Closure:54;ngZone",
+      "^": "Closure:48;ngZone",
       call$0: function() {
         return this.ngZone;
       }
@@ -20002,13 +20011,13 @@
       }
     },
     NgClass__applyIterableChanges_closure: {
-      "^": "Closure:44;$this",
+      "^": "Closure:38;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.item), true);
       }
     },
     NgClass__applyIterableChanges_closure0: {
-      "^": "Closure:44;$this",
+      "^": "Closure:38;$this",
       call$1: function(record) {
         this.$this._toggleClass$2(H.stringTypeCheck(record.item), false);
       }
@@ -20090,7 +20099,7 @@
       }
     },
     NgFor__applyChanges_closure0: {
-      "^": "Closure:44;$this",
+      "^": "Closure:38;$this",
       call$1: function(record) {
         var t1, t2;
         t1 = record.currentIndex;
@@ -21974,7 +21983,7 @@
         implementation = $parent._delegationTarget.get$_scheduleMicrotask();
         implZone = implementation.zone;
         implementation.$function.call$4(implZone, P._parentDelegate(implZone), zone, safeMicrotask);
-      }, "call$4", "get$_ng_zone$_scheduleMicrotask", 16, 0, 58],
+      }, "call$4", "get$_ng_zone$_scheduleMicrotask", 16, 0, 65],
       _run$1$4: [function($self, $parent, zone, fn, $R) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R});
@@ -21985,7 +21994,7 @@
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}).call$1$4(implZone, P._parentDelegate(implZone), zone, t1, $R);
       }, function($self, $parent, zone, fn) {
         return this._run$1$4($self, $parent, zone, fn, null);
-      }, "_run$4", "call$1$4", "call$4", "get$_run", 16, 0, 65],
+      }, "_run$4", "call$1$4", "call$4", "get$_run", 16, 0, 72],
       _runUnary$2$5: [function($self, $parent, zone, fn, arg, $R, $T) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R, args: [$T]});
@@ -21998,7 +22007,7 @@
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}).call$2$5(implZone, P._parentDelegate(implZone), zone, t1, arg, $R, $T);
       }, function($self, $parent, zone, fn, arg) {
         return this._runUnary$2$5($self, $parent, zone, fn, arg, null, null);
-      }, "_runUnary$5", "call$2$5", "call$5", "get$_runUnary", 20, 0, 49],
+      }, "_runUnary$5", "call$2$5", "call$5", "get$_runUnary", 20, 0, 71],
       _runBinary$3$6: [function($self, $parent, zone, fn, arg1, arg2, $R, T1, T2) {
         var t1, implementation, implZone;
         H.functionTypeCheck(fn, {func: 1, ret: $R, args: [T1, T2]});
@@ -22011,7 +22020,7 @@
         implementation = $parent._delegationTarget.get$_async$_runBinary();
         implZone = implementation.zone;
         return H.functionTypeCheck(implementation.$function, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}).call$3$6(implZone, P._parentDelegate(implZone), zone, t1, arg1, arg2, $R, T1, T2);
-      }, "call$3$6", "get$_runBinary", 24, 0, 73],
+      }, "call$3$6", "get$_runBinary", 24, 0, 49],
       _onEnter$0: function() {
         ++this._nesting;
         if (this._isStable) {
@@ -22026,7 +22035,7 @@
       },
       _onErrorWithoutLongStackTrace$5: [function($self, $parent, zone, error, trace) {
         this._onError.add$1(0, new Y.NgZoneError(error, [J.toString$0$(H.interceptedTypeCheck(trace, "$isStackTrace"))]));
-      }, "call$5", "get$_onErrorWithoutLongStackTrace", 20, 0, 70],
+      }, "call$5", "get$_onErrorWithoutLongStackTrace", 20, 0, 50],
       _createTimer$5: [function($self, $parent, zone, duration, fn) {
         var t1, t2, onDone, callback, implementation, implZone, wrappedTimer;
         t1 = {};
@@ -22044,7 +22053,7 @@
         C.JSArray_methods.add$1(this._pendingTimers, wrappedTimer);
         this._hasPendingMacrotasks = true;
         return t1.wrappedTimer;
-      }, "call$5", "get$_createTimer", 20, 0, 50],
+      }, "call$5", "get$_createTimer", 20, 0, 51],
       _checkStable$0: function() {
         var t1, t2;
         t1 = this._nesting;
@@ -22421,7 +22430,7 @@
       }, null, null, 4, 0, null, 12, "call"]
     },
     BrowserGetTestability_addToWindow__closure: {
-      "^": "Closure:29;_box_0,callback",
+      "^": "Closure:27;_box_0,callback",
       call$1: [function(didWork_) {
         var t1, didWork, t2, count;
         H.boolTypeCheck(didWork_);
@@ -22517,25 +22526,25 @@
   }], ["", "package:angular/src/platform/dom/events/key_events.dart",, N, {
     "^": "",
     closure: {
-      "^": "Closure:27;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.altKey;
       }
     },
     closure0: {
-      "^": "Closure:27;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.ctrlKey;
       }
     },
     closure1: {
-      "^": "Closure:27;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.metaKey;
       }
     },
     closure2: {
-      "^": "Closure:27;",
+      "^": "Closure:26;",
       call$1: function($event) {
         return $event.shiftKey;
       }
@@ -22612,7 +22621,7 @@
       }
     },
     KeyEventsPlugin_addEventListener_closure: {
-      "^": "Closure:46;element,parsedEvent,outsideHandler",
+      "^": "Closure:40;element,parsedEvent,outsideHandler",
       call$0: [function() {
         var t1, t2;
         t1 = this.element;
@@ -22792,7 +22801,7 @@
           }
         }
         this._visible = value;
-      }, "call$1", "get$_setVisible", 4, 0, 21, 1],
+      }, "call$1", "get$_setVisible", 4, 0, 20, 1],
       ngOnDestroy$0: function() {
         this._deferred_content$_disposer.dispose$0();
         this._deferred_content$_viewContainer = null;
@@ -22965,7 +22974,7 @@
       _onModalOrPopupVisibleChanged$1: [function(isVisible) {
         if (H.boolTypeCheck(isVisible))
           this._focus$_domService.scheduleWrite$1(this.get$focus(this));
-      }, "call$1", "get$_onModalOrPopupVisibleChanged", 4, 0, 21, 23]
+      }, "call$1", "get$_onModalOrPopupVisibleChanged", 4, 0, 20, 23]
     },
     FocusableDirective: {
       "^": "RootFocusable;_root"
@@ -23300,7 +23309,7 @@
         H.boolTypeCheck(isVisible);
         this._modal$_isVisible = isVisible;
         this._onVisibleChanged.add$1(0, isVisible);
-      }, "call$1", "get$_onOverlayVisibleChanged", 4, 0, 21, 23],
+      }, "call$1", "get$_onOverlayVisibleChanged", 4, 0, 20, 23],
       get$contentVisible: function() {
         var t1 = this._onVisibleChanged;
         return new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]);
@@ -23321,7 +23330,7 @@
         this._resolvedOverlayRef.setVisible$1(true);
       }, function() {
         return this._showModalOverlay$1$temporary(false);
-      }, "_showModalOverlay$0", "call$1$temporary", "call$0", "get$_showModalOverlay", 0, 3, 55],
+      }, "_showModalOverlay$0", "call$1$temporary", "call$0", "get$_showModalOverlay", 0, 3, 59],
       _hideModalOverlay$1$temporary: [function(temporary) {
         var t1;
         if (!temporary) {
@@ -23333,7 +23342,7 @@
         this._resolvedOverlayRef.setVisible$1(false);
       }, function() {
         return this._hideModalOverlay$1$temporary(false);
-      }, "_hideModalOverlay$0", "call$1$temporary", "call$0", "get$_hideModalOverlay", 0, 3, 55],
+      }, "_hideModalOverlay$0", "call$1$temporary", "call$0", "get$_hideModalOverlay", 0, 3, 59],
       _restoreFocus$0: function() {
         var t1 = this._lastFocusedElement;
         if (t1 == null)
@@ -23418,14 +23427,14 @@
       }
     },
     ModalComponent_open_closure: {
-      "^": "Closure:57;$this",
+      "^": "Closure:62;$this",
       call$1: [function(completed) {
         this.$this.set$_pendingOpen(null);
         return H.futureOrCheck(completed, {futureOr: 1, type: P.bool});
       }, null, null, 4, 0, null, 34, "call"]
     },
     ModalComponent_close_closure: {
-      "^": "Closure:57;$this",
+      "^": "Closure:62;$this",
       call$1: [function(completed) {
         this.$this.set$_pendingClose(null);
         return H.futureOrCheck(completed, {futureOr: 1, type: P.bool});
@@ -24030,13 +24039,13 @@
         if (this._clickFocused)
           return;
         this._setFocused$1(true);
-      }, "call$1", "get$onFocus", 5, 0, 25],
+      }, "call$1", "get$onFocus", 5, 0, 23],
       onBlur$1: [function(_, $event) {
         H.interceptedTypeCheck($event, "$isUIEvent");
         if (this._clickFocused)
           this._clickFocused = false;
         this._setFocused$1(false);
-      }, "call$1", "get$onBlur", 5, 0, 25]
+      }, "call$1", "get$onBlur", 5, 0, 23]
     },
     MaterialButtonBase__setFocused_closure: {
       "^": "Closure:0;$this,newValue",
@@ -24238,11 +24247,11 @@
         t1 = this._onTouched;
         if (!(t1 == null))
           t1.call$0();
-      }, "call$1", "get$handleBlur", 4, 0, 33],
+      }, "call$1", "get$handleBlur", 4, 0, 31],
       onDisabledChanged$1: [function(isDisabled) {
         this.disabled = H.boolTypeCheck(isDisabled);
         this._material_checkbox$_changeDetector.appView.markPathToRootAsCheckOnce$0();
-      }, "call$1", "get$onDisabledChanged", 4, 0, 21, 24],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 20, 24],
       $isFocusable: 1,
       $isControlValueAccessor: 1,
       $asControlValueAccessor: function() {
@@ -24826,7 +24835,7 @@
       $isDeferredContentAware: 1
     },
     MaterialExpansionPanel_mainPanel_closure: {
-      "^": "Closure:72;$this",
+      "^": "Closure:73;$this",
       call$1: function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isTransitionEvent");
@@ -24835,7 +24844,7 @@
       }
     },
     MaterialExpansionPanel_headerPanel_closure: {
-      "^": "Closure:72;$this",
+      "^": "Closure:73;$this",
       call$1: function(_) {
         var t1;
         H.interceptedTypeCheck(_, "$isTransitionEvent");
@@ -24844,7 +24853,7 @@
       }
     },
     MaterialExpansionPanel_ngOnInit_closure: {
-      "^": "Closure:29;$this",
+      "^": "Closure:27;$this",
       call$1: [function(_) {
         var t1, t2;
         H.boolTypeCheck(_);
@@ -24931,7 +24940,7 @@
       }
     },
     MaterialExpansionPanel__transitionHeightChange_closure: {
-      "^": "Closure:26;$this",
+      "^": "Closure:25;$this",
       call$1: [function(expandedPanelHeight) {
         var t1;
         H.stringTypeCheck(expandedPanelHeight);
@@ -25865,32 +25874,32 @@
       }
     },
     MaterialExpansionPanelSet__onPanelsChange_closure: {
-      "^": "Closure:29;$this,panel",
+      "^": "Closure:27;$this,panel",
       call$1: [function(isExpanded) {
         if (H.boolTypeCheck(isExpanded))
           this.$this._setOpenPanel$1(this.panel);
       }, null, null, 4, 0, null, 61, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure0: {
-      "^": "Closure:34;$this,panel",
+      "^": "Closure:33;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelOpen$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
       }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure1: {
-      "^": "Closure:34;$this,panel",
+      "^": "Closure:33;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
       }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure2: {
-      "^": "Closure:34;$this,panel",
+      "^": "Closure:33;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
       }, null, null, 4, 0, null, 13, "call"]
     },
     MaterialExpansionPanelSet__onPanelsChange_closure3: {
-      "^": "Closure:34;$this,panel",
+      "^": "Closure:33;$this,panel",
       call$1: [function(action) {
         this.$this._onPanelClose$2(this.panel, H.assertSubtype(action, "$isAsyncAction", [P.bool], "$asAsyncAction"));
       }, null, null, 4, 0, null, 13, "call"]
@@ -26011,7 +26020,7 @@
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isAbstractControl");
         return this._isLocallyValid$1(true);
-      }, "call$1", "get$$call", 4, 0, 35, 0],
+      }, "call$1", "get$$call", 4, 0, 34, 0],
       _isLocallyValid$1: function(fromFormsApi) {
         var t1;
         if (this._invalid && true) {
@@ -26145,7 +26154,7 @@
       }, null, null, 4, 0, null, 1, "call"]
     },
     BaseMaterialInput_ngAfterViewInit_closure0: {
-      "^": "Closure:26;$this",
+      "^": "Closure:25;$this",
       call$1: [function($status) {
         var t1;
         H.stringTypeCheck($status);
@@ -26155,7 +26164,7 @@
       }, null, null, 4, 0, null, 64, "call"]
     },
     BaseMaterialInput_errorMessage_closure: {
-      "^": "Closure:20;",
+      "^": "Closure:24;",
       call$1: function(v) {
         return typeof v === "string" && v.length !== 0;
       }
@@ -26188,7 +26197,7 @@
           this.set$_validator(numDelegates > 1 ? B.Validators_compose(t1) : C.JSArray_methods.get$single(t1));
         }
         return this._validator.call$1(control);
-      }, "call$1", "get$$call", 4, 0, 35, 35]
+      }, "call$1", "get$$call", 4, 0, 34, 35]
     }
   }], ["", "package:angular_components/material_input/material_input.dart",, L, {
     "^": "",
@@ -27066,7 +27075,7 @@
       }
     },
     MaterialInputDefaultValueAccessor_registerOnChange_closure: {
-      "^": "Closure:26;callback",
+      "^": "Closure:25;callback",
       call$1: [function(value) {
         this.callback.call$1(H.stringTypeCheck(value));
       }, null, null, 4, 0, null, 1, "call"]
@@ -27096,7 +27105,7 @@
         var t1 = this.input;
         t1._disabled = H.boolTypeCheck(isDisabled);
         t1.get$_changeDetector().appView.markPathToRootAsCheckOnce$0();
-      }, "call$1", "get$onDisabledChanged", 4, 0, 21, 24],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 20, 24],
       $isControlValueAccessor: 1,
       $asControlValueAccessor: Isolate.functionThatReturnsNull
     },
@@ -27335,31 +27344,31 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent1$closure", 8, 0, 30],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent1$closure", 8, 0, 29],
     viewFactory_MenuItemAffixListComponent2: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent2(P.LinkedHashMap_LinkedHashMap$_literal(["$implicit", null], P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent2$closure", 8, 0, 30],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent2$closure", 8, 0, 29],
     viewFactory_MenuItemAffixListComponent3: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent3$closure", 8, 0, 30],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent3$closure", 8, 0, 29],
     viewFactory_MenuItemAffixListComponent4: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent4(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent4$closure", 8, 0, 30],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent4$closure", 8, 0, 29],
     viewFactory_MenuItemAffixListComponent5: [function(parentView, parentIndex) {
       var t1 = new N._ViewMenuItemAffixListComponent5(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, Q.MenuItemAffixListComponent));
       t1.componentType = $.ViewMenuItemAffixListComponent0__renderType;
       return t1;
-    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent5$closure", 8, 0, 30],
+    }, "call$2", "menu_item_affix_list_template__viewFactory_MenuItemAffixListComponent5$closure", 8, 0, 29],
     ViewMenuItemAffixListComponent0: {
       "^": "AppView;0_menu_item_affix_list_template$_appEl_1,0_menu_item_affix_list_template$_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -29873,7 +29882,7 @@
           popupContentsLayoutStream = new P._TakeStream(1, popupContentsLayoutStream, [H.getTypeArgumentByIndex(popupContentsLayoutStream, 0)]);
         this._layoutChangeSub = G._mergeStreams(H.setRuntimeTypeInfo([popupContentsLayoutStream, popupSourceLayoutStream], [[P.Stream, [P.Rectangle, P.num]]]), t2).listen$1(new G.MaterialPopupComponent__open_closure0(this, new P._AsyncCompleter(t3, [t2])));
         return t3;
-      }, "call$0", "get$_open", 1, 0, 22],
+      }, "call$0", "get$_open", 1, 0, 21],
       _onPopupOpened$0: function() {
         var t1, t2, t3;
         if (!this._isOpening)
@@ -30975,7 +30984,7 @@
             t1.set$visible(0, false);
         }
         this._selectOnActivate;
-      }, "call$1", "get$handleActivate", 4, 0, 25, 8],
+      }, "call$1", "get$handleActivate", 4, 0, 23, 8],
       static: {
         MaterialSelectItemComponent$: function(element, _dropdown, _activationHandler, _cdRef, role, $T) {
           var t1 = new B.MaterialSelectItemComponent(new R.Disposer(true, false), _activationHandler, _cdRef, _dropdown, element, false, false, false, G.has_renderer___nullRenderer$closure(), false, true, true, false, true, new P._SyncBroadcastStreamController(null, null, 0, [W.UIEvent]), role, false, true, null, element, [$T]);
@@ -30985,7 +30994,7 @@
       }
     },
     MaterialSelectItemComponent_closure: {
-      "^": "Closure:22;$this",
+      "^": "Closure:21;$this",
       call$0: function() {
         return;
       }
@@ -31533,10 +31542,10 @@
       },
       onYes$1: [function($event) {
         this._yes.add$1(0, H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onYes", 4, 0, 25],
+      }, "call$1", "get$onYes", 4, 0, 23],
       onNo$1: [function($event) {
         this._no.add$1(0, H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onNo", 4, 0, 25]
+      }, "call$1", "get$onNo", 4, 0, 23]
     },
     BoundaryAwareKeyUpDirective: {
       "^": "Object;",
@@ -31573,7 +31582,7 @@
         if (t1)
           return false;
         return true;
-      }, "call$1", "get$_isKeyUpMatching", 4, 0, 27],
+      }, "call$1", "get$_isKeyUpMatching", 4, 0, 26],
       _onMatchingKeyUp$1: [function($event) {
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
         this._yesNo._yes.add$1(0, $event);
@@ -31587,19 +31596,19 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent1$closure", 8, 0, 47],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent1$closure", 8, 0, 46],
     viewFactory_MaterialYesNoButtonsComponent2: [function(parentView, parentIndex) {
       var t1 = new M._ViewMaterialYesNoButtonsComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent2$closure", 8, 0, 47],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent2$closure", 8, 0, 46],
     viewFactory_MaterialYesNoButtonsComponent3: [function(parentView, parentIndex) {
       var t1 = new M._ViewMaterialYesNoButtonsComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, E.MaterialYesNoButtonsComponent));
       t1.componentType = $.ViewMaterialYesNoButtonsComponent0__renderType;
       return t1;
-    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure", 8, 0, 47],
+    }, "call$2", "material_yes_no_buttons_template__viewFactory_MaterialYesNoButtonsComponent3$closure", 8, 0, 46],
     ViewMaterialYesNoButtonsComponent0: {
       "^": "AppView;0_material_yes_no_buttons_template$_appEl_0,0_material_yes_no_buttons_template$_NgIf_0_9,0_material_yes_no_buttons_template$_appEl_1,_query_yesButton_1_0_isDirty,0_material_yes_no_buttons_template$_NgIf_1_9,0_material_yes_no_buttons_template$_appEl_2,_query_noButton_1_1_isDirty,0_material_yes_no_buttons_template$_NgIf_2_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -32023,7 +32032,7 @@
       }, "call$0", "get$onMouseLeave", 1, 0, 2]
     },
     ActiveItemDirective__scrollIntoViewIfNecessary_closure: {
-      "^": "Closure:29;$this",
+      "^": "Closure:27;$this",
       call$1: [function(isVisible) {
         var t1, t2;
         if (H.boolTypeCheck(isVisible)) {
@@ -32168,13 +32177,13 @@
       }
     },
     CombinedList_isEmpty_closure: {
-      "^": "Closure:48;",
+      "^": "Closure:54;",
       call$1: function(list) {
         return J.get$isEmpty$asx(H.listTypeCheck(list));
       }
     },
     CombinedList_isNotEmpty_closure: {
-      "^": "Closure:48;",
+      "^": "Closure:54;",
       call$1: function(list) {
         return J.get$isNotEmpty$asx(H.listTypeCheck(list));
       }
@@ -32957,7 +32966,7 @@
             t3._sendData$1($event);
           }
         }
-      }, "call$1", "get$_popup_hierarchy$_onTrigger", 4, 0, 33, 6],
+      }, "call$1", "get$_popup_hierarchy$_onTrigger", 4, 0, 31, 6],
       _onKeyUp$1: [function($event) {
         var t1, i, current, t2, t3, _i;
         H.interceptedTypeCheck($event, "$isKeyboardEvent");
@@ -33309,7 +33318,7 @@
       }
     },
     RulerBase_updateSync_closure: {
-      "^": "Closure:51;$this,element",
+      "^": "Closure:70;$this,element",
       call$2: function($name, value) {
         var t1 = this.element.style;
         C.CssStyleDeclaration_methods._setPropertyHelper$3(t1, (t1 && C.CssStyleDeclaration_methods)._browserPropertyName$1(t1, $name), value, null);
@@ -33351,18 +33360,18 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.MaterialInkTooltipComponent));
       t1.componentType = $.ViewMaterialInkTooltipComponent0__renderType;
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent1$closure", 8, 0, 40],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent1$closure", 8, 0, 47],
     viewFactory_MaterialInkTooltipComponent2: [function(parentView, parentIndex) {
       var t1 = new L._ViewMaterialInkTooltipComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.MaterialInkTooltipComponent));
       t1.componentType = $.ViewMaterialInkTooltipComponent0__renderType;
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent2$closure", 8, 0, 40],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponent2$closure", 8, 0, 47],
     viewFactory_MaterialInkTooltipComponentHost0: [function(parentView, parentIndex) {
       var t1 = new L._ViewMaterialInkTooltipComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, F.MaterialInkTooltipComponent));
       return t1;
-    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure", 8, 0, 40],
+    }, "call$2", "ink_tooltip_template__viewFactory_MaterialInkTooltipComponentHost0$closure", 8, 0, 47],
     ViewMaterialInkTooltipComponent0: {
       "^": "AppView;0_ink_tooltip_template$_appEl_1,0_ink_tooltip_template$_NgIf_1_9,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -33622,7 +33631,7 @@
       handleLongPress$1: [function(_) {
         this.inLongPress = true;
         this.show$0(0);
-      }, "call$1", "get$handleLongPress", 4, 0, 33],
+      }, "call$1", "get$handleLongPress", 4, 0, 31],
       endLongPress$1: [function($event) {
         H.interceptedTypeCheck($event, "$isTouchEvent");
         if (this.inLongPress) {
@@ -33702,7 +33711,7 @@
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure: {
-      "^": "Closure:24;$this",
+      "^": "Closure:22;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.hide$1(true);
@@ -33721,14 +33730,14 @@
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure2: {
-      "^": "Closure:24;$this",
+      "^": "Closure:22;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.show$0(0);
       }
     },
     MaterialTooltipDirective__attachHostListeners_closure3: {
-      "^": "Closure:24;$this",
+      "^": "Closure:22;$this",
       call$1: function(_) {
         H.interceptedTypeCheck(_, "$isMouseEvent");
         this.$this.hide$0();
@@ -33892,7 +33901,7 @@
       }
     },
     AsyncActionController_execute_closure: {
-      "^": "Closure:22;$this,exec,onCancel,valueOnCancel",
+      "^": "Closure:21;$this,exec,onCancel,valueOnCancel",
       call$0: function() {
         var t1 = this.$this;
         if (t1._locked)
@@ -34789,7 +34798,7 @@
       return false;
     },
     triggersOutside_closure: {
-      "^": "Closure:71;_box_0",
+      "^": "Closure:55;_box_0",
       call$1: function(node) {
         return false;
       }
@@ -34832,13 +34841,13 @@
       }, null, null, 4, 0, null, 8, "call"]
     },
     triggersOutsideAny__closure0: {
-      "^": "Closure:24;_box_0",
+      "^": "Closure:22;_box_0",
       call$1: function(e) {
         this._box_0.lastDownEvent = H.interceptedTypeCheck(e, "$isMouseEvent");
       }
     },
     triggersOutsideAny__closure1: {
-      "^": "Closure:24;_box_0,_box_1",
+      "^": "Closure:22;_box_0,_box_1",
       call$1: function(e) {
         var t1, t2, t3;
         H.interceptedTypeCheck(e, "$isMouseEvent");
@@ -34856,7 +34865,7 @@
       }
     },
     triggersOutsideAny__closure2: {
-      "^": "Closure:24;_box_0,_box_1",
+      "^": "Closure:22;_box_0,_box_1",
       call$1: function(e) {
         var t1, t2, t3, t4;
         H.interceptedTypeCheck(e, "$isMouseEvent");
@@ -34915,7 +34924,7 @@
         var t1 = this._disposable_callback$_callback;
         if (t1 != null)
           t1.call$0();
-      }, "call$0", "get$$call", 0, 0, 46]
+      }, "call$0", "get$$call", 0, 0, 40]
     }
   }], ["", "package:angular_components/utils/disposer/disposer.dart",, R, {
     "^": "",
@@ -35182,7 +35191,7 @@
       },
       onDisabledChanged$1: [function(isDisabled) {
         this._default_value_accessor$_element.disabled = H.boolTypeCheck(isDisabled);
-      }, "call$1", "get$onDisabledChanged", 4, 0, 21, 24],
+      }, "call$1", "get$onDisabledChanged", 4, 0, 20, 24],
       $isControlValueAccessor: 1,
       $asControlValueAccessor: Isolate.functionThatReturnsNull,
       $asChangeHandler: function() {
@@ -35287,7 +35296,7 @@
       }
     }, "call$1", "normalize_validator__normalizeValidator$closure", 4, 0, 241, 78],
     normalizeValidator_closure: {
-      "^": "Closure:35;validator",
+      "^": "Closure:34;validator",
       call$1: [function(c) {
         return this.validator.validate$1(H.interceptedTypeCheck(c, "$isAbstractControl"));
       }, null, null, 4, 0, null, 79, "call"]
@@ -35483,7 +35492,7 @@
       return result.get$isEmpty(result) ? null : result;
     },
     Validators_compose_closure: {
-      "^": "Closure:35;presentValidators",
+      "^": "Closure:34;presentValidators",
       call$1: [function(control) {
         return B._executeValidators(H.interceptedTypeCheck(control, "$isAbstractControl"), this.presentValidators);
       }, null, null, 4, 0, null, 35, "call"]
@@ -35824,7 +35833,7 @@
       }
     },
     RouteDefinition_parameters_closure: {
-      "^": "Closure:36;",
+      "^": "Closure:35;",
       call$1: [function(m) {
         return H.interceptedTypeCheck(m, "$isMatch").$index(0, 1);
       }, null, null, 4, 0, null, 36, "call"]
@@ -35870,7 +35879,7 @@
       }
     },
     RedirectRouteDefinition__redirectToParameters_closure: {
-      "^": "Closure:36;",
+      "^": "Closure:35;",
       call$1: [function(m) {
         return H.interceptedTypeCheck(m, "$isMatch").$index(0, 1);
       }, null, null, 4, 0, null, 36, "call"]
@@ -36931,7 +36940,7 @@
       }
     },
     _isToStringVisiting_closure: {
-      "^": "Closure:20;o",
+      "^": "Closure:24;o",
       call$1: function(e) {
         return this.o === e;
       }
@@ -37228,21 +37237,21 @@
       }, null, null, 4, 0, null, 86, "call"]
     },
     AppComponent_ngOnInit_closure: {
-      "^": "Closure:23;$this",
+      "^": "Closure:44;$this",
       call$0: function() {
         var t1 = P.String;
         return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "tournaments"], t1, t1)));
       }
     },
     AppComponent_ngOnInit_closure0: {
-      "^": "Closure:23;$this",
+      "^": "Closure:44;$this",
       call$0: function() {
         var t1 = P.String;
         return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "matches"], t1, t1)));
       }
     },
     AppComponent_ngOnInit_closure1: {
-      "^": "Closure:23;$this",
+      "^": "Closure:44;$this",
       call$0: function() {
         var t1 = P.String;
         return this.$this._app_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$1$parameters(0, P.LinkedHashMap_LinkedHashMap$_literal(["type", "users"], t1, t1)));
@@ -37693,31 +37702,57 @@
   }], ["asset_electron_apollo_lib_src_component_admin_admin_component.css.shim.dart", "package:electron_apollo/src/component/admin/admin_component.css.shim.dart",, D, {}], ["", "package:electron_apollo/src/component/admin/admin_component.dart",, O, {
     "^": "",
     AdminComponent: {
-      "^": "Object;_admin_component$_router,0adminMenu",
-      set$adminMenu: function(adminMenu) {
-        this.adminMenu = H.assertSubtype(adminMenu, "$isMenuModel", [[D.MenuItem,,]], "$asMenuModel");
+      "^": "Object;_admin_component$_router,0uploadMenu,0playerUploadButton",
+      set$uploadMenu: function(uploadMenu) {
+        this.uploadMenu = H.assertSubtype(uploadMenu, "$isMenuModel", [[D.MenuItem,,]], "$asMenuModel");
+      },
+      set$playerUploadButton: function(playerUploadButton) {
+        this.playerUploadButton = H.interceptedTypeCheck(playerUploadButton, "$isFileUploadInputElement");
       },
       ngOnInit$0: function() {
         var t1 = [D.MenuItem,,];
-        this.set$adminMenu(D.MenuModel$(H.setRuntimeTypeInfo([D.MenuItemGroup$(H.setRuntimeTypeInfo([D.MenuItem$("Tournaments", new O.AdminComponent_ngOnInit_closure(this), null, true, null, null, null, null, null, null, null, null), D.MenuItem$("Matches", new O.AdminComponent_ngOnInit_closure0(this), null, true, null, null, null, null, null, null, null, null), D.MenuItem$("Players", new O.AdminComponent_ngOnInit_closure1(this), null, true, null, null, null, null, null, null, null, null)], [t1]), null, true, false, true, t1)], [[D.MenuItemGroup, [D.MenuItem,,]]]), null, null, null, t1));
-      }
+        this.set$uploadMenu(D.MenuModel$(H.setRuntimeTypeInfo([D.MenuItemGroup$(H.setRuntimeTypeInfo([D.MenuItem$("Players", new O.AdminComponent_ngOnInit_closure(this), null, true, null, null, null, null, null, null, null, null)], [t1]), null, true, false, true, t1)], [[D.MenuItemGroup, [D.MenuItem,,]]]), null, null, null, t1));
+      },
+      handleUpload$0: [function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$returnValue, $async$self = this, t1, blob, reader;
+        var $async$handleUpload$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Trying to upload file...");
+                t1 = $async$self.playerUploadButton.files;
+                if (0 >= t1.length) {
+                  $async$returnValue = H.ioore(t1, 0);
+                  // goto return
+                  $async$goto = 1;
+                  break;
+                }
+                blob = t1[0];
+                reader = new FileReader();
+                C.FileReader_methods.readAsText$1(reader, blob);
+                t1 = new W._EventStream(reader, "loadend", false, [W.ProgressEvent]);
+                $async$goto = 3;
+                return P._asyncAwait(t1.get$first(t1), $async$handleUpload$0);
+              case 3:
+                // returning from await.
+                P.print(H.stringTypeCheck(C.FileReader_methods.get$result(reader)));
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$handleUpload$0, $async$completer);
+      }, "call$0", "get$handleUpload", 0, 0, 2]
     },
     AdminComponent_ngOnInit_closure: {
-      "^": "Closure:23;$this",
+      "^": "Closure:2;$this",
       call$0: function() {
-        return this.$this._admin_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$0(0));
-      }
-    },
-    AdminComponent_ngOnInit_closure0: {
-      "^": "Closure:23;$this",
-      call$0: function() {
-        return this.$this._admin_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$0(0));
-      }
-    },
-    AdminComponent_ngOnInit_closure1: {
-      "^": "Closure:23;$this",
-      call$0: function() {
-        return this.$this._admin_component$_router.navigate$1(0, $.$get$RoutePaths_list().toUrl$0(0));
+        return this.$this.playerUploadButton.click();
       }
     }
   }], ["", "package:electron_apollo/src/component/admin/admin_component.template.dart",, K, {
@@ -37730,7 +37765,7 @@
     ViewAdminComponent0: {
       "^": "AppView;0_admin_component_template$_compView_1,0_RaisableMenuComponent_1_5,0_admin_component_template$_compView_4,0_MaterialIconComponent_4_5,0_admin_component_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var parentRenderNode, doc, _el_0, t1, _el_1, _el_2, t2, _el_4;
+        var parentRenderNode, doc, _el_0, t1, _el_1, _el_2, t2, _el_4, _el_5;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         _el_0 = S.createDivAndAppend(doc, parentRenderNode);
@@ -37747,7 +37782,7 @@
         t1 = J.getInterceptor$x(_el_2);
         t1.setAttribute$2(_el_2, "menu-button", "");
         this.addShimE$1(_el_2);
-        t1.append$1(_el_2, doc.createTextNode("Services"));
+        t1.append$1(_el_2, doc.createTextNode("Upload"));
         t2 = M.ViewMaterialIconComponent0$(this, 4);
         this._admin_component_template$_compView_4 = t2;
         _el_4 = t2.rootEl;
@@ -37761,6 +37796,16 @@
         this._MaterialIconComponent_4_5 = t1;
         this._admin_component_template$_compView_4.create$2(0, t1, []);
         this._admin_component_template$_compView_1.create$2(0, this._RaisableMenuComponent_1_5, [H.setRuntimeTypeInfo([_el_2], [W.Element]), C.List_empty]);
+        _el_5 = S.createAndAppend(doc, "input", _el_0);
+        t1 = J.getInterceptor$x(_el_5);
+        t1.setAttribute$2(_el_5, "accept", ".csv");
+        t1.setAttribute$2(_el_5, "id", "player_upload");
+        t1.setAttribute$2(_el_5, "style", "visibility: hidden;");
+        t1.setAttribute$2(_el_5, "type", "file");
+        H.interceptedTypeCheck(_el_5, "$isHtmlElement");
+        this.addShimC$1(_el_5);
+        t1.addEventListener$2(_el_5, "change", this.eventHandler0$1$1(this.ctx.get$handleUpload(), W.Event));
+        this.ctx.set$playerUploadButton(H.interceptedTypeCheck(_el_5, "$isFileUploadInputElement"));
         this.init$2(C.List_empty, null);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
@@ -37777,7 +37822,7 @@
           changed = true;
         } else
           changed = false;
-        currVal_0 = _ctx.adminMenu;
+        currVal_0 = _ctx.uploadMenu;
         t1 = this._admin_component_template$_expr_0;
         if (t1 == null ? currVal_0 != null : t1 !== currVal_0) {
           this._RaisableMenuComponent_1_5.MenuPopupWrapper_menu = currVal_0;
@@ -37866,24 +37911,24 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
       t1.componentType = $.ViewDashboardComponent0__renderType;
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent1$closure", 8, 0, 31],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent1$closure", 8, 0, 30],
     viewFactory_DashboardComponent2: [function(parentView, parentIndex) {
       var t1 = new T._ViewDashboardComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
       t1.componentType = $.ViewDashboardComponent0__renderType;
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent2$closure", 8, 0, 31],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent2$closure", 8, 0, 30],
     viewFactory_DashboardComponent3: [function(parentView, parentIndex) {
       var t1 = new T._ViewDashboardComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, K.DashboardComponent));
       t1.componentType = $.ViewDashboardComponent0__renderType;
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent3$closure", 8, 0, 31],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponent3$closure", 8, 0, 30],
     viewFactory_DashboardComponentHost0: [function(parentView, parentIndex) {
       var t1 = new T._ViewDashboardComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, K.DashboardComponent));
       return t1;
-    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponentHost0$closure", 8, 0, 31],
+    }, "call$2", "dashboard_component_template__viewFactory_DashboardComponentHost0$closure", 8, 0, 30],
     ViewDashboardComponent0: {
       "^": "AppView;0_dashboard_component_template$_appEl_3,0_dashboard_component_template$_NgFor_3_9,0_dashboard_component_template$_expr_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -42873,12 +42918,12 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, N.UserDetailComponent));
       t1.componentType = $.ViewUserDetailComponent0__renderType;
       return t1;
-    }, "call$2", "user_template__viewFactory_UserDetailComponent1$closure", 8, 0, 68],
+    }, "call$2", "user_template__viewFactory_UserDetailComponent1$closure", 8, 0, 82],
     viewFactory_UserDetailComponentHost0: [function(parentView, parentIndex) {
       var t1 = new F._ViewUserDetailComponentHost0(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_0, parentIndex, N.UserDetailComponent));
       return t1;
-    }, "call$2", "user_template__viewFactory_UserDetailComponentHost0$closure", 8, 0, 68],
+    }, "call$2", "user_template__viewFactory_UserDetailComponentHost0$closure", 8, 0, 82],
     ViewUserDetailComponent0: {
       "^": "AppView;0_user_template$_compView_1,0_user_template$_MaterialExpansionPanel_1_5,0_user_template$_compView_5,0_user_template$_DeferredValidator_5_5,0_user_template$_NgValidators_5_6,0_user_template$_NgModel_5_7,0_user_template$_NgControl_5_8,0_user_template$_MaterialInputComponent_5_9,0_user_template$_BaseMaterialInput_5_10,0_user_template$_MaterialInputDefaultValueAccessor_5_11,0_user_template$_compView_9,0_user_template$_DeferredValidator_9_5,0_user_template$_NgValidators_9_6,0_user_template$_NgModel_9_7,0_user_template$_NgControl_9_8,0_user_template$_MaterialInputComponent_9_9,0_user_template$_BaseMaterialInput_9_10,0_user_template$_MaterialInputDefaultValueAccessor_9_11,0_user_template$_compView_13,0_user_template$_DeferredValidator_13_5,0_user_template$_NgValidators_13_6,0_user_template$_NgModel_13_7,0_user_template$_NgControl_13_8,0_user_template$_MaterialInputComponent_13_9,0_user_template$_BaseMaterialInput_13_10,0_user_template$_MaterialInputDefaultValueAccessor_13_11,0_user_template$_appEl_14,0_user_template$_NgIf_14_9,0_user_template$_expr_4,0_user_template$_expr_6,0_user_template$_expr_9,0_user_template$_el_13,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
@@ -43386,7 +43431,7 @@
       $isFocusable: 1
     },
     RaisableMenuComponent_ngAfterViewInit_closure: {
-      "^": "Closure:29;$this",
+      "^": "Closure:27;$this",
       call$1: [function(_) {
         var t1;
         H.boolTypeCheck(_);
@@ -43407,19 +43452,19 @@
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent1$closure", 8, 0, 42],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent1$closure", 8, 0, 43],
     viewFactory_RaisableMenuComponent2: [function(parentView, parentIndex) {
       var t1 = new G._ViewRaisableMenuComponent2(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent2$closure", 8, 0, 42],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent2$closure", 8, 0, 43],
     viewFactory_RaisableMenuComponent3: [function(parentView, parentIndex) {
       var t1 = new G._ViewRaisableMenuComponent3(P.LinkedHashMap_LinkedHashMap$_empty(P.String, null), parentView);
       t1.set$viewData(S.AppViewData_AppViewData(t1, 3, C.ViewType_2, parentIndex, F.RaisableMenuComponent));
       t1.componentType = $.ViewRaisableMenuComponent0__renderType;
       return t1;
-    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure", 8, 0, 42],
+    }, "call$2", "raisable_menu_component_template__viewFactory_RaisableMenuComponent3$closure", 8, 0, 43],
     ViewRaisableMenuComponent0: {
       "^": "AppView;0_raisable_menu_component_template$_compView_0,0_raisable_menu_component_template$_appEl_0,0_AcxDarkTheme_0_8,0_MaterialButtonComponent_0_9,0_MaterialTooltipDirective_0_10,0_PopupSourceDirective_0_11,0__TooltipController_0_14,0_raisable_menu_component_template$_appEl_1,0_raisable_menu_component_template$_NgIf_1_9,0_raisable_menu_component_template$_appEl_2,0_raisable_menu_component_template$_NgIf_2_9,0_raisable_menu_component_template$_appEl_4,_query_MenuPopupComponent_1_1_isDirty,0_raisable_menu_component_template$_NgIf_4_9,0_raisable_menu_component_template$_expr_0,0_raisable_menu_component_template$_expr_1,0_raisable_menu_component_template$_expr_2,0_raisable_menu_component_template$_expr_3,0_raisable_menu_component_template$_expr_4,0_raisable_menu_component_template$_expr_5,0_raisable_menu_component_template$_expr_6,0_raisable_menu_component_template$_el_0,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       get$_TooltipController_0_14: function() {
@@ -43887,7 +43932,7 @@
       },
       onAddButton$1: [function($event) {
         return this.onAddButton$body$TypeListComponent(H.interceptedTypeCheck($event, "$isUIEvent"));
-      }, "call$1", "get$onAddButton", 4, 0, 25],
+      }, "call$1", "get$onAddButton", 4, 0, 23],
       onAddButton$body$TypeListComponent: function($event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -43923,7 +43968,7 @@
       },
       onSearch$1: [function(_, $event) {
         return this.onSearch$body$TypeListComponent(_, H.interceptedTypeCheck($event, "$isEvent"));
-      }, "call$1", "get$onSearch", 5, 0, 33],
+      }, "call$1", "get$onSearch", 5, 0, 31],
       onSearch$body$TypeListComponent: function(_, $event) {
         var $async$goto = 0,
           $async$completer = P._makeAsyncAwaitCompleter(null),
@@ -44115,7 +44160,7 @@
       $isOnActivate: 1
     },
     TypeListComponent_onSave_closure: {
-      "^": "Closure:20;loadedItem",
+      "^": "Closure:24;loadedItem",
       call$1: function(element) {
         return J.$eq$(J.get$id$x(element), J.get$id$x(this.loadedItem));
       }
@@ -44135,7 +44180,7 @@
       }, null, null, 0, 0, null, "call"]
     },
     TypeListComponent_onConfirmDelete_closure: {
-      "^": "Closure:20;$this",
+      "^": "Closure:24;$this",
       call$1: function(item) {
         return J.$eq$(J.get$id$x(item), J.get$id$x(this.$this.selected));
       }
@@ -48132,7 +48177,7 @@
       }
     },
     BrowserClient_send_closure: {
-      "^": "Closure:37;xhr,completer,request",
+      "^": "Closure:36;xhr,completer,request",
       call$1: [function(_) {
         var t1, blob, reader, t2, t3, t4, t5;
         H.interceptedTypeCheck(_, "$isProgressEvent");
@@ -48150,7 +48195,7 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     BrowserClient_send__closure: {
-      "^": "Closure:37;reader,completer,xhr,request",
+      "^": "Closure:36;reader,completer,xhr,request",
       call$1: [function(_) {
         var body, t1, t2, t3, t4, t5, t6;
         H.interceptedTypeCheck(_, "$isProgressEvent");
@@ -48169,13 +48214,13 @@
       }, null, null, 4, 0, null, 0, "call"]
     },
     BrowserClient_send__closure0: {
-      "^": "Closure:37;completer,request",
+      "^": "Closure:36;completer,request",
       call$1: [function(error) {
         this.completer.completeError$2(new E.ClientException(J.toString$0$(H.interceptedTypeCheck(error, "$isProgressEvent")), this.request.url), P.StackTrace_current());
       }, null, null, 4, 0, null, 2, "call"]
     },
     BrowserClient_send_closure0: {
-      "^": "Closure:37;completer,request",
+      "^": "Closure:36;completer,request",
       call$1: [function(_) {
         H.interceptedTypeCheck(_, "$isProgressEvent");
         this.completer.completeError$2(new E.ClientException("XMLHttpRequest error.", this.request.url), P.StackTrace_current());
@@ -48507,7 +48552,7 @@
       }
     },
     MediaType_toString__closure: {
-      "^": "Closure:36;",
+      "^": "Closure:35;",
       call$1: function(match) {
         return C.JSString_methods.$add("\\", match.$index(0, 0));
       }
@@ -48521,7 +48566,7 @@
       return H.stringReplaceAllFuncUnchecked(J.substring$2$s(string, 1, string.length - 1), $.$get$_quotedPair(), H.functionTypeCheck(new N.expectQuotedString_closure(), {func: 1, ret: P.String, args: [P.Match]}), null);
     },
     expectQuotedString_closure: {
-      "^": "Closure:36;",
+      "^": "Closure:35;",
       call$1: function(match) {
         return match.$index(0, 1);
       }
@@ -48899,7 +48944,7 @@
           if (localeName == null)
             return false;
           return $.$get$numberFormatSymbols().containsKey$1(0, localeName);
-        }, "call$1", "intl_NumberFormat_localeExists$closure", 4, 0, 20]
+        }, "call$1", "intl_NumberFormat_localeExists$closure", 4, 0, 24]
       }
     },
     NumberFormat$decimalPattern_closure: {
@@ -48932,7 +48977,7 @@
       },
       handleSpace$0: [function() {
         return this.get$groupingIsNotASpaceOrElseItIsSpaceFollowedByADigit() ? "" : this.invalidFormat$0();
-      }, "call$0", "get$handleSpace", 0, 0, 46],
+      }, "call$0", "get$handleSpace", 0, 0, 40],
       get$groupingIsNotASpaceOrElseItIsSpaceFollowedByADigit: function() {
         var t1, peeked, t2;
         t1 = this.format._symbols.GROUP_SEP;
@@ -53523,7 +53568,7 @@
   Isolate = Isolate.$finishIsolateConstructor(Isolate);
   $ = new Isolate();
   init.metadata = ["_", "value", "error", null, "stackTrace", "item", "event", "result", "e", "data", "self", "arg", "callback", "action", "parent", "zone", "object", "arg1", "arg2", "key", "each", "f", "invocation", "isVisible", "isDisabled", "b", "pair", "a", "s", "arguments", "o", "index", true, "element", "completed", "control", "m", "elem", "n", "zoneValues", "captureThis", "chunk", "numberOfArguments", "encodedComponent", "closure", "stack", "reason", "arg4", "theStackTrace", "findInAncestors", "didWork_", "specification", "t", "errorCode", "fn", "promiseValue", "ref", "arg3", "checked", "byUserAction", "body", "isExpanded", "theError", "success", "status", "promiseError", "sub", "layoutRects", "key2", "group", "state", "pane", false, "track", "shouldCancel", "results", "highResTimer", "argument", "validator", "c", "ev", "dict", "navigationResult", "routerState", "k", "postCreate", "response", "barcode", "cmd", "key1", "affix", "expandedPanelHeight"];
-  init.types = [{func: 1, ret: P.Null}, {func: 1, ret: -1, args: [,]}, {func: 1, ret: -1}, {func: 1, ret: [S.AppView, A.MenuItemGroupsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [,]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: P.bool}, {func: 1, ret: P.String}, {func: 1, args: [,]}, {func: 1, ret: [S.AppView, L.MaterialInputComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: [S.AppView, T.MaterialExpansionPanel], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.Event]}, {func: 1, ret: -1, args: [P.Object]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: -1, args: [W.KeyboardEvent]}, {func: 1, ret: P.bool, args: [P.String]}, {func: 1, ret: -1, args: [W.MouseEvent]}, {func: 1, ret: P.Null, args: [-1]}, {func: 1, ret: P.bool, args: [,]}, {func: 1, ret: -1, args: [P.bool]}, {func: 1, ret: [P.Future,,]}, {func: 1, ret: [P.Future, Z.NavigationResult]}, {func: 1, ret: P.Null, args: [W.MouseEvent]}, {func: 1, ret: -1, args: [W.UIEvent]}, {func: 1, ret: P.Null, args: [P.String]}, {func: 1, ret: P.bool, args: [W.KeyboardEvent]}, {func: 1, ret: [S.AppView, L.TypeListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [P.bool]}, {func: 1, ret: [S.AppView, Q.MenuItemAffixListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, K.DashboardComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [P.bool]}, {func: 1, ret: -1, args: [W.Event]}, {func: 1, ret: P.Null, args: [[L.AsyncAction, P.bool]]}, {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, {func: 1, ret: P.String, args: [P.Match]}, {func: 1, ret: P.Null, args: [W.ProgressEvent]}, {func: 1, ret: -1, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.Null, args: [N.KeyValueChangeRecord]}, {func: 1, ret: [S.AppView, F.MaterialInkTooltipComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Future, P.bool]}, {func: 1, ret: [S.AppView, F.RaisableMenuComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.String, P.String]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord]}, {func: 1, ret: -1, args: [{func: 1, ret: -1}]}, {func: 1}, {func: 1, ret: [S.AppView, E.MaterialYesNoButtonsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.bool, args: [[P.List,,]]}, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.FocusEvent]}, {func: 1, ret: P.bool, args: [L.MenuItemAffix]}, {func: 1, ret: Y.NgZone}, {func: 1, ret: -1, named: {temporary: P.bool}}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num], [P.Rectangle, P.num]]}, {func: 1, ret: {futureOr: 1, type: P.bool}, args: [,]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: -1}]}, {func: 1, ret: W.Node, args: [P.int]}, {func: 1, ret: -1, args: [[L.AsyncAction,,]]}, {func: 1, ret: -1, args: [P.String]}, {func: 1, ret: -1, args: [[P.Set, P.String]]}, {func: 1, ret: W.MimeType, args: [P.int]}, {func: 1, ret: P.bool, args: [,,]}, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, ret: [S.AppView, D.MaterialDialogComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.Element, args: [P.int]}, {func: 1, ret: [S.AppView, N.UserDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]], args: [W.HtmlElement], named: {track: P.bool}}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, ret: P.bool, args: [W.Node]}, {func: 1, ret: P.Null, args: [W.TransitionEvent]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}, {func: 1, ret: [S.AppView, D.EntrantDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, X.EventDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.GameDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, Y.MatchDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.ResultDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, R.RoundDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, L.StageDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.TournamentDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, opt: [P.Object]}, {func: 1, ret: M.Injector, opt: [M.Injector]}, {func: 1, bounds: [P.Object], ret: 0, args: [{func: 1, ret: 0}]}, {func: 1, ret: W.AccessibleNode, args: [P.int]}, {func: 1, ret: W.DataTransferItem, args: [P.int]}, {func: 1, ret: -1, args: [,], opt: [, P.String]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, ret: [P.List,,]}, {func: 1, ret: [P.Rectangle, P.num], args: [P.int]}, {func: 1, ret: U.JsTestability, args: [W.Element]}, {func: 1, ret: [P.List, U.JsTestability]}, {func: 1, ret: U.JsTestability, args: [D.Testability]}, {func: 1, ret: P.bool, args: [[P.Map, P.String,,]]}, {func: 1, ret: P.Null, args: [W.DomException]}, {func: 1, ret: W.File, args: [P.int]}, {func: 1, ret: P.Null, args: [P.int,,]}, {func: 1, ret: P.Null, args: [,], opt: [,]}, {func: 1, ret: P.Null, args: [[D.ComponentRef,,]]}, {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool, P.String]}]}, {func: 1, ret: [P._Future,,], args: [,]}, {func: 1, ret: -1, args: [P.Object, P.StackTrace]}, {func: 1, ret: [P.Map, P.String,,], args: [O.ImperativeViewRef]}, {func: 1, ret: -1, args: [, P.StackTrace]}, {func: 1, ret: W.Plugin, args: [P.int]}, {func: 1, ret: W.SourceBuffer, args: [P.int]}, {func: 1, ret: P.Null, args: [[L.AsyncAction,,]]}, {func: 1, ret: [P.Future, P.bool], named: {byUserAction: P.bool}}, {func: 1, ret: W.SpeechGrammar, args: [P.int]}, {func: 1, ret: W.SpeechRecognitionAlternative, args: [P.int]}, {func: 1, ret: P.Null, opt: [-1]}, {func: 1, ret: W.Touch, args: [P.int]}, {func: 1, ret: P.String, args: [P.num]}, {func: 1, ret: [P.List, W.HtmlElement], args: [D._ViewMaterialExpansionPanel4]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel5]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel6]}, {func: 1, ret: W.TrackDefault, args: [P.int]}, {func: 1, ret: W.CssRule, args: [P.int]}, {func: 1, ret: W.Gamepad, args: [P.int]}, {func: 1, ret: P.Null, args: [[P.List, [Y.ListChangeRecord, L.MenuItemAffix]]]}, {func: 1, ret: -1, args: [[D.MenuItem,,]]}, {func: 1, ret: -1, args: [W.KeyboardEvent], named: {shouldPreventDefault: P.bool}}, {func: 1, ret: -1, args: [W.FocusEvent]}, {func: 1, ret: W._Attr, args: [P.int]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent15]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent16]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, A.MenuItemGroupsComponent], args: [M._ViewMenuPopupComponent1]}, {func: 1, ret: -1, args: [-1]}, {func: 1, ret: P.Null, args: [[P.StreamSubscription, [P.Rectangle, P.num]]]}, {func: 1, ret: P.Null, args: [[P.List, [P.Rectangle, P.num]]]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num]]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent2]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent3]}, {func: 1, ret: P.String, args: [P.Object]}, {func: 1, ret: W.SpeechRecognitionResult, args: [P.int]}, {func: 1, ret: P.int, args: [P.int, [P.List,,]]}, {func: 1, ret: P.String, args: [L.MenuItemAffix]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]]}, {func: 1, ret: [P.Future,,], args: [,]}, {func: 1, ret: W.StyleSheet, args: [P.int]}, {func: 1, ret: [P.Future,,], args: [Z.OverlayState, W.HtmlElement]}, {func: 1, ret: [P.Rectangle, P.num], args: [,]}, {func: 1, ret: [P.Rectangle, P.num], args: [-1]}, {func: 1, args: [W.Event]}, {func: 1, ret: P.bool, args: [P.num, P.num]}, {func: 1, ret: -1, args: [W.TouchEvent]}, {func: 1, args: [,,]}, {func: 1, ret: [P.Future,,], args: [P.bool]}, {func: 1, ret: P.bool, args: [[P.List, P.bool]]}, {func: 1, ret: R._RateLimitSink, args: [[P.EventSink,,]]}, {func: 1, ret: O.ImperativeViewRef, args: [,]}, {func: 1, ret: P.Null, args: [P.num]}, {func: 1, ret: -1, args: [P.num]}, {func: 1, ret: P.int, args: [P.int]}, {func: 1, ret: P.Null, args: [,], named: {rawValue: P.String}}, {func: 1, ret: P.bool, args: [[Z.AbstractControl,,]]}, {func: 1, ret: [D.ComponentRef,,]}, {func: 1, ret: P.bool, args: [[P.Set, P.String]]}, {func: 1, ret: P.Null, args: [Z.NavigationResult]}, {func: 1, ret: [P.Future, -1], args: [-1]}, {func: 1, ret: P.String, args: [P.String, N.RouteDefinition]}, {func: 1, ret: P.DateTime}, {func: 1, ret: P.Null, args: [U.Response]}, {func: 1, ret: -1, args: [,], opt: [,]}, {func: 1, ret: -1, args: [L.Barcode]}, {func: 1, ret: [P.List, G.MenuPopupComponent], args: [G._ViewRaisableMenuComponent3]}, {func: 1, args: [P.String]}, {func: 1, ret: W.Element, args: [W.Node]}, {func: 1, ret: [P.List, T.MaterialExpansionPanel], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent5]}, {func: 1, ret: D.Entrant, args: [,]}, {func: 1, ret: P.bool, args: [D.Entrant]}, {func: 1, ret: X.Event0, args: [,]}, {func: 1, ret: P.bool, args: [X.Event0]}, {func: 1, ret: D.Game, args: [,]}, {func: 1, ret: P.bool, args: [D.Game]}, {func: 1, ret: -1, args: [P.JsObject]}, {func: 1, ret: Y.Match0, args: [,]}, {func: 1, ret: P.bool, args: [Y.Match0]}, {func: 1, ret: E.Result, args: [,]}, {func: 1, ret: R.Round, args: [,]}, {func: 1, ret: P.bool, args: [R.Round]}, {func: 1, ret: L.Stage, args: [,]}, {func: 1, ret: P.bool, args: [L.Stage]}, {func: 1, ret: E.Tournament, args: [,]}, {func: 1, ret: P.bool, args: [E.Tournament]}, {func: 1, ret: N.User, args: [,]}, {func: 1, ret: P.bool, args: [N.User]}, {func: 1, ret: [P.Future, U.Response], args: [U.Client]}, {func: 1, ret: P.bool, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.String]}, {func: 1, ret: P.int, args: [[P.List, P.int], P.int]}, {func: 1, ret: -1, args: [[P.List, P.int]]}, {func: 1, ret: U.Response, args: [P.Uint8List]}, {func: 1, ret: P.bool, args: [P.Object]}, {func: 1, ret: R.MediaType}, {func: 1, ret: P.Null, args: [P.String, P.String]}, {func: 1, ret: P.String, args: [B.NumberSymbols]}, {func: 1, ret: P.int, args: [P.int,,]}, {func: 1, ret: P.String, args: [P.String], named: {color: null}}, {func: 1, ret: P.JsFunction, args: [,]}, {func: 1, bounds: [P.Object], ret: {func: 1, ret: 0}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, bounds: [P.Object, P.Object], ret: {func: 1, ret: 0, args: [1]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: {func: 1, ret: 0, args: [1, 2]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1, args: [P.Timer]}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, [P.Map,,,]]}, {func: 1, ret: [P.JsArray,,], args: [,]}, {func: 1, ret: P.int, args: [,]}, {func: 1, ret: P.int, args: [P.Object]}, {func: 1, ret: P.bool, args: [P.Object, P.Object]}, {func: 1, args: [[P.Map,,,]], opt: [{func: 1, ret: -1, args: [P.Object]}]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: P.JsObject, args: [,]}, {func: 1, ret: P.Object, args: [P.int,,]}, {func: 1, ret: [S.AppView, Z.DynamicComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.HighlightedTextComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.ModalComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, B.MaterialCheckboxComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Map,,,], args: [P.int]}, {func: 1, ret: -1, args: [P.int, P.int]}, {func: 1, ret: Y.ApplicationRef}, {func: 1, ret: Q.AppViewUtils}, {func: 1, ret: P.Null, args: [P.Symbol0,,]}, {func: 1, ret: [S.AppView, G.MenuPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.MaterialPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: D.Testability}, {func: 1, ret: P.String, args: [,]}, {func: 1, ret: M.Injector}, {func: 1, bounds: [P.Object], ret: {func: 1, args: [0]}, args: [{func: 1, args: [0]}, P.Duration]}, {func: 1, ret: {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, args: [,]}, {func: 1, ret: [S.AppView, Q.AppComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, O.AdminComponent], args: [[S.AppView,,], P.int]}, {func: 1, args: [, P.String]}, {func: 1, ret: [P.Map, P.String, P.String], args: [[P.Map, P.String, P.String], P.String]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: P.Null, args: [Y.NgZoneError]}, {func: 1, ret: -1, args: [P.String, P.int]}, {func: 1, ret: -1, args: [P.String], opt: [,]}, {func: 1, ret: -1, args: [P.Function]}, {func: 1, ret: P.int, args: [P.int, P.int]}, {func: 1, ret: P.Null, args: [{func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [, P.StackTrace]}, {func: 1, ret: P.Uint8List, args: [P.int]}, {func: 1, ret: P.Uint8List, args: [,,]}, {func: 1, ret: [P.Future, M.MutableRouterState], args: [M.MutableRouterState]}];
+  init.types = [{func: 1, ret: P.Null}, {func: 1, ret: -1, args: [,]}, {func: 1, ret: -1}, {func: 1, ret: [S.AppView, A.MenuItemGroupsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.Null, args: [,]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: P.bool}, {func: 1, ret: P.String}, {func: 1, args: [,]}, {func: 1, ret: [S.AppView, L.MaterialInputComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: [S.AppView, T.MaterialExpansionPanel], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [P.String,,]}, {func: 1, ret: P.Null, args: [W.Event]}, {func: 1, ret: -1, args: [P.Object]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: -1, args: [W.KeyboardEvent]}, {func: 1, ret: P.bool, args: [P.String]}, {func: 1, ret: -1, args: [W.MouseEvent]}, {func: 1, ret: P.Null, args: [-1]}, {func: 1, ret: -1, args: [P.bool]}, {func: 1, ret: [P.Future,,]}, {func: 1, ret: P.Null, args: [W.MouseEvent]}, {func: 1, ret: -1, args: [W.UIEvent]}, {func: 1, ret: P.bool, args: [,]}, {func: 1, ret: P.Null, args: [P.String]}, {func: 1, ret: P.bool, args: [W.KeyboardEvent]}, {func: 1, ret: P.Null, args: [P.bool]}, {func: 1, ret: [S.AppView, L.TypeListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, Q.MenuItemAffixListComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, K.DashboardComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: -1, args: [W.Event]}, {func: 1, ret: P.bool, args: [P.bool]}, {func: 1, ret: P.Null, args: [[L.AsyncAction, P.bool]]}, {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, {func: 1, ret: P.String, args: [P.Match]}, {func: 1, ret: P.Null, args: [W.ProgressEvent]}, {func: 1, ret: -1, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord]}, {func: 1, ret: P.Null, args: [N.KeyValueChangeRecord]}, {func: 1}, {func: 1, ret: [P.Future, P.bool]}, {func: 1, ret: -1, args: [P.String, P.String]}, {func: 1, ret: [S.AppView, F.RaisableMenuComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Future, Z.NavigationResult]}, {func: 1, ret: -1, args: [{func: 1, ret: -1}]}, {func: 1, ret: [S.AppView, E.MaterialYesNoButtonsComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, F.MaterialInkTooltipComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: Y.NgZone}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}, 1, 2]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [W.FocusEvent]}, {func: 1, ret: P.bool, args: [L.MenuItemAffix]}, {func: 1, ret: P.bool, args: [[P.List,,]]}, {func: 1, ret: P.bool, args: [W.Node]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num], [P.Rectangle, P.num]]}, {func: 1, ret: W.Node, args: [P.int]}, {func: 1, ret: -1, args: [[P.Set, P.String]]}, {func: 1, ret: -1, named: {temporary: P.bool}}, {func: 1, ret: -1, args: [[L.AsyncAction,,]]}, {func: 1, ret: -1, args: [P.String]}, {func: 1, ret: {futureOr: 1, type: P.bool}, args: [,]}, {func: 1, ret: W.MimeType, args: [P.int]}, {func: 1, ret: P.bool, args: [,,]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: -1}]}, {func: 1, ret: [S.AppView, D.MaterialDialogComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: W.Element, args: [P.int]}, {func: 1, ret: -1, opt: [P.Object]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]], args: [W.HtmlElement], named: {track: P.bool}}, {func: 1, ret: P.Null, args: [P.String,,]}, {func: 1, bounds: [P.Object, P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}, 1]}, {func: 1, bounds: [P.Object], ret: 0, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, ret: P.Null, args: [W.TransitionEvent]}, {func: 1, ret: [S.AppView, D.EntrantDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, X.EventDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.GameDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, Y.MatchDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.ResultDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, R.RoundDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, L.StageDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, E.TournamentDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, N.UserDetailComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: M.Injector, opt: [M.Injector]}, {func: 1, bounds: [P.Object], ret: 0, args: [{func: 1, ret: 0}]}, {func: 1, ret: W.AccessibleNode, args: [P.int]}, {func: 1, ret: W.DataTransferItem, args: [P.int]}, {func: 1, ret: -1, args: [,], opt: [, P.String]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, ret: [P.List,,]}, {func: 1, ret: [P.Rectangle, P.num], args: [P.int]}, {func: 1, ret: U.JsTestability, args: [W.Element]}, {func: 1, ret: [P.List, U.JsTestability]}, {func: 1, ret: U.JsTestability, args: [D.Testability]}, {func: 1, ret: P.bool, args: [[P.Map, P.String,,]]}, {func: 1, ret: P.Null, args: [W.DomException]}, {func: 1, ret: W.File, args: [P.int]}, {func: 1, ret: P.Null, args: [P.int,,]}, {func: 1, ret: P.Null, args: [,], opt: [,]}, {func: 1, ret: P.Null, args: [[D.ComponentRef,,]]}, {func: 1, ret: -1, args: [{func: 1, ret: -1, args: [P.bool, P.String]}]}, {func: 1, ret: [P._Future,,], args: [,]}, {func: 1, ret: -1, args: [P.Object, P.StackTrace]}, {func: 1, ret: [P.Map, P.String,,], args: [O.ImperativeViewRef]}, {func: 1, ret: -1, args: [, P.StackTrace]}, {func: 1, ret: W.Plugin, args: [P.int]}, {func: 1, ret: W.SourceBuffer, args: [P.int]}, {func: 1, ret: P.Null, args: [[L.AsyncAction,,]]}, {func: 1, ret: [P.Future, P.bool], named: {byUserAction: P.bool}}, {func: 1, ret: W.SpeechGrammar, args: [P.int]}, {func: 1, ret: W.SpeechRecognitionAlternative, args: [P.int]}, {func: 1, ret: P.Null, opt: [-1]}, {func: 1, ret: W.Touch, args: [P.int]}, {func: 1, ret: P.String, args: [P.num]}, {func: 1, ret: [P.List, W.HtmlElement], args: [D._ViewMaterialExpansionPanel4]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel5]}, {func: 1, ret: [P.List, T.ButtonDirective], args: [D._ViewMaterialExpansionPanel6]}, {func: 1, ret: W.TrackDefault, args: [P.int]}, {func: 1, ret: W.CssRule, args: [P.int]}, {func: 1, ret: W.Gamepad, args: [P.int]}, {func: 1, ret: P.Null, args: [[P.List, [Y.ListChangeRecord, L.MenuItemAffix]]]}, {func: 1, ret: -1, args: [[D.MenuItem,,]]}, {func: 1, ret: -1, args: [W.KeyboardEvent], named: {shouldPreventDefault: P.bool}}, {func: 1, ret: -1, args: [W.FocusEvent]}, {func: 1, ret: W._Attr, args: [P.int]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent15]}, {func: 1, ret: [P.List, E.AutoFocusDirective], args: [B._ViewMenuItemGroupsComponent16]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent1]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent4]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent5]}, {func: 1, ret: [P.List, K.FocusableActivateItem], args: [B._ViewMenuItemGroupsComponent6]}, {func: 1, ret: [P.List, A.MenuItemGroupsComponent], args: [M._ViewMenuPopupComponent1]}, {func: 1, ret: -1, args: [-1]}, {func: 1, ret: P.Null, args: [[P.StreamSubscription, [P.Rectangle, P.num]]]}, {func: 1, ret: P.Null, args: [[P.List, [P.Rectangle, P.num]]]}, {func: 1, ret: P.bool, args: [[P.Rectangle, P.num]]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent2]}, {func: 1, ret: [P.List, B.MaterialButtonComponent], args: [M._ViewMaterialYesNoButtonsComponent3]}, {func: 1, ret: P.String, args: [P.Object]}, {func: 1, ret: W.SpeechRecognitionResult, args: [P.int]}, {func: 1, ret: P.int, args: [P.int, [P.List,,]]}, {func: 1, ret: P.String, args: [L.MenuItemAffix]}, {func: 1, ret: [P.Stream, [P.Rectangle, P.num]]}, {func: 1, ret: [P.Future,,], args: [,]}, {func: 1, ret: W.StyleSheet, args: [P.int]}, {func: 1, ret: [P.Future,,], args: [Z.OverlayState, W.HtmlElement]}, {func: 1, ret: [P.Rectangle, P.num], args: [,]}, {func: 1, ret: [P.Rectangle, P.num], args: [-1]}, {func: 1, args: [W.Event]}, {func: 1, ret: P.bool, args: [P.num, P.num]}, {func: 1, ret: -1, args: [W.TouchEvent]}, {func: 1, args: [,,]}, {func: 1, ret: [P.Future,,], args: [P.bool]}, {func: 1, ret: P.bool, args: [[P.List, P.bool]]}, {func: 1, ret: R._RateLimitSink, args: [[P.EventSink,,]]}, {func: 1, ret: O.ImperativeViewRef, args: [,]}, {func: 1, ret: P.Null, args: [P.num]}, {func: 1, ret: -1, args: [P.num]}, {func: 1, ret: P.int, args: [P.int]}, {func: 1, ret: P.Null, args: [,], named: {rawValue: P.String}}, {func: 1, ret: P.bool, args: [[Z.AbstractControl,,]]}, {func: 1, ret: [D.ComponentRef,,]}, {func: 1, ret: P.bool, args: [[P.Set, P.String]]}, {func: 1, ret: P.Null, args: [Z.NavigationResult]}, {func: 1, ret: [P.Future, -1], args: [-1]}, {func: 1, ret: P.String, args: [P.String, N.RouteDefinition]}, {func: 1, ret: P.DateTime}, {func: 1, ret: P.Null, args: [U.Response]}, {func: 1, ret: -1, args: [,], opt: [,]}, {func: 1, ret: -1, args: [L.Barcode]}, {func: 1, ret: [P.List, G.MenuPopupComponent], args: [G._ViewRaisableMenuComponent3]}, {func: 1, args: [P.String]}, {func: 1, ret: W.Element, args: [W.Node]}, {func: 1, ret: [P.List, T.MaterialExpansionPanel], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent4]}, {func: 1, ret: [P.List, R.ViewContainerRef], args: [Z._ViewTypeListComponent5]}, {func: 1, ret: D.Entrant, args: [,]}, {func: 1, ret: P.bool, args: [D.Entrant]}, {func: 1, ret: X.Event0, args: [,]}, {func: 1, ret: P.bool, args: [X.Event0]}, {func: 1, ret: D.Game, args: [,]}, {func: 1, ret: P.bool, args: [D.Game]}, {func: 1, ret: -1, args: [P.JsObject]}, {func: 1, ret: Y.Match0, args: [,]}, {func: 1, ret: P.bool, args: [Y.Match0]}, {func: 1, ret: E.Result, args: [,]}, {func: 1, ret: R.Round, args: [,]}, {func: 1, ret: P.bool, args: [R.Round]}, {func: 1, ret: L.Stage, args: [,]}, {func: 1, ret: P.bool, args: [L.Stage]}, {func: 1, ret: E.Tournament, args: [,]}, {func: 1, ret: P.bool, args: [E.Tournament]}, {func: 1, ret: N.User, args: [,]}, {func: 1, ret: P.bool, args: [N.User]}, {func: 1, ret: [P.Future, U.Response], args: [U.Client]}, {func: 1, ret: P.bool, args: [P.String, P.String]}, {func: 1, ret: P.int, args: [P.String]}, {func: 1, ret: P.int, args: [[P.List, P.int], P.int]}, {func: 1, ret: -1, args: [[P.List, P.int]]}, {func: 1, ret: U.Response, args: [P.Uint8List]}, {func: 1, ret: P.bool, args: [P.Object]}, {func: 1, ret: R.MediaType}, {func: 1, ret: P.Null, args: [P.String, P.String]}, {func: 1, ret: P.String, args: [B.NumberSymbols]}, {func: 1, ret: P.int, args: [P.int,,]}, {func: 1, ret: P.String, args: [P.String], named: {color: null}}, {func: 1, ret: P.JsFunction, args: [,]}, {func: 1, bounds: [P.Object], ret: {func: 1, ret: 0}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0}]}, {func: 1, bounds: [P.Object, P.Object], ret: {func: 1, ret: 0, args: [1]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1]}]}, {func: 1, bounds: [P.Object, P.Object, P.Object], ret: {func: 1, ret: 0, args: [1, 2]}, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, ret: 0, args: [1, 2]}]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, ret: -1, args: [P.Timer]}]}, {func: 1, ret: -1, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, [P.Map,,,]]}, {func: 1, ret: [P.JsArray,,], args: [,]}, {func: 1, ret: P.int, args: [,]}, {func: 1, ret: P.int, args: [P.Object]}, {func: 1, ret: P.bool, args: [P.Object, P.Object]}, {func: 1, args: [[P.Map,,,]], opt: [{func: 1, ret: -1, args: [P.Object]}]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: P.JsObject, args: [,]}, {func: 1, ret: P.Object, args: [P.int,,]}, {func: 1, ret: [S.AppView, Z.DynamicComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.HighlightedTextComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, D.ModalComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, B.MaterialCheckboxComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [P.Map,,,], args: [P.int]}, {func: 1, ret: -1, args: [P.int, P.int]}, {func: 1, ret: Y.ApplicationRef}, {func: 1, ret: Q.AppViewUtils}, {func: 1, ret: P.Null, args: [P.Symbol0,,]}, {func: 1, ret: [S.AppView, G.MenuPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, G.MaterialPopupComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: D.Testability}, {func: 1, ret: P.String, args: [,]}, {func: 1, ret: M.Injector}, {func: 1, bounds: [P.Object], ret: {func: 1, args: [0]}, args: [{func: 1, args: [0]}, P.Duration]}, {func: 1, ret: {func: 1, ret: [P.Map, P.String,,], args: [[Z.AbstractControl,,]]}, args: [,]}, {func: 1, ret: [S.AppView, Q.AppComponent], args: [[S.AppView,,], P.int]}, {func: 1, ret: [S.AppView, O.AdminComponent], args: [[S.AppView,,], P.int]}, {func: 1, args: [, P.String]}, {func: 1, ret: [P.Map, P.String, P.String], args: [[P.Map, P.String, P.String], P.String]}, {func: 1, ret: P.Null, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: P.Null, args: [Y.NgZoneError]}, {func: 1, ret: -1, args: [P.String, P.int]}, {func: 1, ret: -1, args: [P.String], opt: [,]}, {func: 1, ret: -1, args: [P.Function]}, {func: 1, ret: P.int, args: [P.int, P.int]}, {func: 1, ret: P.Null, args: [{func: 1, ret: -1}]}, {func: 1, ret: P.Null, args: [, P.StackTrace]}, {func: 1, ret: P.Uint8List, args: [P.int]}, {func: 1, ret: P.Uint8List, args: [,,]}, {func: 1, ret: [P.Future, M.MutableRouterState], args: [M.MutableRouterState]}];
   function convertToFastObject(properties) {
     function MyClass() {
     }
