@@ -1,3 +1,6 @@
+
+import 'dart:html';
+
 import 'package:angular/angular.dart';
 
 import 'package:angular_router/angular_router.dart';
@@ -28,7 +31,10 @@ class AdminComponent implements OnInit {
   AdminComponent(this._router);
 
   // Navigation menu for sub-component
-  MenuModel<MenuItem> adminMenu;
+  MenuModel<MenuItem> uploadMenu;
+  // Reference to our dynamically loaded content's DOM element
+  @ViewChild('player_upload')
+  InputElement playerUploadButton;
 
   // Navigate back to the dashboard, using the current router object
   void goHome(){
@@ -37,13 +43,21 @@ class AdminComponent implements OnInit {
 
   void ngOnInit(){
     // Fill menu on init, since we need to attach to the current router object
-    adminMenu = MenuModel<MenuItem>([
+    uploadMenu = MenuModel<MenuItem>([
       MenuItemGroup<MenuItem>([
-        MenuItem('Tournaments', action: () => _router.navigate(RoutePaths.list.toUrl())),
-        MenuItem('Matches', action: () => _router.navigate(RoutePaths.list.toUrl())),
-        MenuItem('Players', action: () => _router.navigate(RoutePaths.list.toUrl()))
+        MenuItem('Players', action: () => {
+          player_upload.click();
+        }))
       ])
     ]);
   }
 
+  void handleUpload(Event event){
+    print("Trying to upload file...");
+    var blob = e.target as html.FileUploadInputElement).files[0];
+    var reader = new FileReader()..readAsArrayBuffer(blob);
+    await reader.onLoadEnd.first;
+    List<int> result = reader.result;
+    print(result);
+  }
 }

@@ -1,10 +1,11 @@
 <div class="appcontainer">
     <raisable-menu
-        [menu]="adminMenu"
+        [menu]="uploadMenu"
         [raised]="true" >
         <section menu-button>
-            Services
+            Upload
             <material-icon icon="arrow_drop_down" size="medium" baseline></material-icon>
         </section>
     </raisable-menu>
+    <input type="file" id="player_upload" accept=".csv" (change)="handleUpload($event)" style="visibility: hidden;">
 </div>
