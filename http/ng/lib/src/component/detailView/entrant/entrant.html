@@ -30,7 +30,7 @@
       </material-input>
     </div>
     <!--
-    // DB KEY VALUE
+    // DB EVENT ID VALUE
     -->
     <div class="inlinediv">
       <h4>Event ID:</h4>
@@ -39,6 +39,22 @@
         [(ngModel)] = "item.eventId" >
       </material-input>
     </div>
+    <!--
+    // DB KEY VALUE
+    <div class="inlinediv">
+      <h4>Key:</h4>
+      <material-input
+        #barcode_slot
+        (focus)="startBarcodeReader()"
+        (blur)="stopBarcodeReader()"
+        class = "interop_fillable"
+        placeholder="64-Bit Key"
+        [disabled]="lockLevelIsAtLeast(1)"
+        [attr.maxlength]="40"
+        [(ngModel)] = "item.key" >
+      </material-input>
+    </div>
+    -->
   </material-expansionpanel>
 
   <!--

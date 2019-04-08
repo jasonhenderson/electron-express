@@ -48,13 +48,14 @@ class EntrantDetailComponent implements OnInit {
   @Input()
   int lockLevel;
 
-  EntrantDetailComponent(){
+  EntrantDetailComponent(this._interopService){
     _buttonStreamer = new StreamController<String>.broadcast(sync: true);
   }
 
   StreamController<String> _buttonStreamer;
   Stream<String> get buttonStream => _buttonStreamer.stream;
 
+  InteropBarcodeService _interopService; // Injected from app_component
 
   // Reference to the Material-Input where we want to auto-fill with barcodes
   @ViewChild('barcode_slot', read: MaterialInputComponent)

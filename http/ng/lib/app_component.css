@@ -38,6 +38,7 @@ div.appcontainer{
     max-width: 1280px;
     margin: auto;
 }
+/* interop barcode service */
 ::ng-deep material-input.interop_fillable .focused-underline{
     background-color: #27d64b;
 }
