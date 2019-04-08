@@ -21,6 +21,8 @@ import 'package:angular_components/material_input/material_number_accessor.dart'
 // PROJECT IMPORTS
 // ***************
 import '../../../type/entrant.dart';
+import '../../../type/barcode.dart';
+import '../../../service/interop_barcode_service.dart';
 
 @Component(
   selector: 'entrant-detail',

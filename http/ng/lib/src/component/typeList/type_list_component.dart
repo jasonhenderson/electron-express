@@ -74,50 +74,51 @@ import '../../component/detailView/user/user.template.dart' as user_component;
 )
 class TypeListComponent implements OnActivate {
 
+  /*
+  **************************************************
+    HANDLE CONSTRUCTION AND SETUP ITEM LIST
+  **************************************************
+  */
   // Default constructor, grab router at init
   TypeListComponent(this._router, this._loader);
   // Router for nav to detail view
   Router _router;
-  // Component factory and loader for dynamically loaded content manipulation
   final ComponentLoader _loader;
-  ComponentFactory _currentFactory;
-  ComponentRef loadedComponent;
-
-  // Hold on to current service and string title
-  DetailListService _currentService;
-  String _serviceName;
-  bool loading = false;
 
   // List of items from calls to current service
   List <dynamic> listItems = new List();
   // Currently selected item handle
   dynamic selected;
 
-  // Current value for search text-box
-  String _searchText = "";
-  void updateSearchText(String text) => _searchText = text;
-
-  // Toggle the "New" feature for the current service
-  // TODO - Rewrite with type/struct to enforce interface (add/edit)
-  String mode = "edit";
-
-  // Toggle the "Delete" modal for confirmation before sending DB request
-  bool cancelModalVisible = false;
-  bool deleteModalVisible = false;
-  Completer<bool> modalCompleter;
-
-  // Reference to our dynamically loaded content's DOM element
-  @ViewChild('itemContainer', read: ViewContainerRef)
-  ViewContainerRef domContainer;
-
+  /*
+  **************************************************
+    HANDLE DYNAMIC SERVICE AND FACTORY CREATION
+  **************************************************
+  */
+  // Component factory and loader for dynamically loaded content manipulation
+  ComponentFactory _currentFactory;
+  // Hold on to current service and string title
+  DetailListService _currentService;
+  String _serviceName;
+  // Simple utility to parse service name from router into capitalized (?) value
+  String getServiceTitle(bool capital) {
+    if (_serviceName == null) {
+      return "";
+    }
+    if (capital) {
+      return _serviceName[0].toUpperCase() + _serviceName.substring(1);
+    } else {
+      return _serviceName;
+    }
+  }
   // Use the current service to get every item available (NO FILTER)
+  bool loading = false;
   Future <void> _getServiceItems() async {
     loading = true;
     listItems = (await _currentService.getAll()) ?? listItems;
     loading = false;
     // TODO - switch to "getShort()" and only return id/name
   }
-
   // Take current router path and parse into required service, then LOAD
   @override
   void onActivate(_, RouterState current) async {
@@ -179,29 +180,14 @@ class TypeListComponent implements OnActivate {
     if(_serviceLoaded) _getServiceItems();
   }
 
-  // Simple utility to parse service name from router into capitalized (?) value
-  String getSectionTitle(bool capital) {
-    if (_serviceName == null) {
-      return "";
-    }
-    if (capital) {
-      return _serviceName[0].toUpperCase() + _serviceName.substring(1);
-    } else {
-      return _serviceName;
-    }
-  }
-
-  // Extinguish the current event and initiate a text search on current service
-  void onSearch(Event event) async {
-    print("Search initiated...");
-    print("Current value is: ${_searchText}");
-    event.stopPropagation();
-    event.preventDefault();
-    loading = true;
-    listItems = await _currentService.searchFor(_searchText);
-    loading = false;
-  }
-
+  /*
+  **************************************************
+    HANDLE NEW ITEM CREATION
+  **************************************************
+  */
+  // Toggle the "New" feature for the current service
+  // TODO - Rewrite with type/struct to enforce interface (add/edit)
+  String mode = "edit";
   // If we are in edit mode, add a new item and open in free UI
   // If we are already in add mode, ignore the button event
   void onAddButton(UIEvent event) async {
@@ -215,8 +201,36 @@ class TypeListComponent implements OnActivate {
     mode = "add";
   }
 
+  /*
+  **************************************************
+    HANDLE TEXT SEARCH FOR CURRENT SERVICE
+  **************************************************
+  */
+  // Current value for search text-box
+  String _searchText = "";
+  void updateSearchText(String text) => _searchText = text;
+  // Initiate a text search on current service
+  void onSearch(Event event) async {
+    print("Search initiated...");
+    print("Current value is: ${_searchText}");
+    event.stopPropagation();
+    event.preventDefault();
+    loading = true;
+    listItems = await _currentService.searchFor(_searchText);
+    loading = false;
+  }
+
+  /*
+  **************************************************
+    HANDLE PANEL ACTION AND MODAL STATE
+  **************************************************
+  */
+  // Toggle the modals before confirming
+  bool cancelModalVisible = false;
+  Completer<bool> modalCompleter;
   // Handle the cancellation of a panel
   void onCancel(AsyncAction event) async {
+    // Set up a future observable and add as resolver for cancel event
     modalCompleter = new Completer();
     event.cancelIf(modalCompleter.future);
     print("Cancel requested...");
@@ -225,8 +239,9 @@ class TypeListComponent implements OnActivate {
   // Handle the cancellation of a panel
   void onConfirmCancel(bool cancel) {
     print("Cancel confirmed: ${cancel.toString()}");
-    // Signal modal that a decision has been made
+    // Complete observable with action value
     modalCompleter.complete(!cancel);
+    // Reset app state if add cancelled
     if(cancel){
       if(mode == "add"){
         mode = "edit";
@@ -238,26 +253,6 @@ class TypeListComponent implements OnActivate {
     }
     cancelModalVisible = false;
   }
-
-  // Handle the cancellation of a panel
-  void onDelete() {
-    print("Delete requested...");
-    deleteModalVisible = true;
-  }
-  // Handle the cancellation of a panel
-  void onConfirmDelete() async {
-    print("Delete confirmed...");
-    // Immediately kill UI element to prevent double click issues
-    deleteModalVisible = false;
-    if (await _currentService.deleteById(selected.id)) {
-      // If we removed from DB successfully then remove from UI list
-      listItems.removeWhere((item) => item.id == selected.id);
-      selected = null;
-    } else {
-      window.alert("Couldn't finish deleting current item!");
-    }
-  }
-
   // Handle the saving of a panel - panels will not auto-close on success/fail
   void onSave(AsyncAction event) async {
     print("Save requested...");
@@ -288,23 +283,17 @@ class TypeListComponent implements OnActivate {
     }
   }
 
-  // Do other stuff (placeholder event handling)
-  void _childButtonListener(String cmd) async {
-    print("Child button clicked with method ${cmd}");
-    switch (cmd) {
-      case "clone":
-        print("Running clone flow...");
-        break;
-      case "delete":
-        print("Running delete flow...");
-        onDelete();
-        break;
-      default:
-        print("ERROR IN FLOW - BAD CMD: $cmd");
-    }
-  }
-
-  // If we're loading a new thing then replace the dynamic DOM element
+  /*
+  **************************************************
+    HANDLE TRACKING OF OPENED EXPANSION PANEL
+  **************************************************
+  */
+  // Reference to our dynamically loaded content's DOM element
+  @ViewChild('itemContainer', read: ViewContainerRef)
+  ViewContainerRef domContainer;
+  // Dynamic reference to newly inflated panel, on creation
+  ComponentRef loadedComponent;
+  // If we're loading a new panel then replace the dynamic DOM element
   void changeHandler(bool loading, dynamic thing) {
     if (loading) {
       // Delay long enough for template region to register in DOM
@@ -319,6 +308,49 @@ class TypeListComponent implements OnActivate {
         // Add a button listener for child callbacks
         loadedComponent.instance.buttonStream.listen(_childButtonListener);
       });
+    }
+  }
+
+  /*
+  **************************************************
+    HANDLE CHILD PANEL ACTIONS FROM BUTTON STREAM
+  **************************************************
+  */
+  // Do stuff when children request it
+  void _childButtonListener(String cmd) async {
+    print("Child button clicked with method ${cmd}");
+    switch (cmd) {
+      case "clone":
+        print("Running clone flow...");
+        break;
+      case "delete":
+        print("Running delete flow...");
+        onDelete();
+        break;
+      case "advance":
+        print("Running advance flow...");
+        break;
+      default:
+        print("ERROR IN FLOW - BAD CMD: $cmd");
+    }
+  }
+  bool deleteModalVisible = false;
+  // Handle the deletion of an item
+  void onDelete() {
+    print("Delete requested...");
+    deleteModalVisible = true;
+  }
+  // Handle the deletion panel actions
+  void onConfirmDelete() async {
+    print("Delete confirmed...");
+    // Immediately kill UI element to prevent double click issues
+    deleteModalVisible = false;
+    if (await _currentService.deleteById(selected.id)) {
+      // If we removed from DB successfully then remove from UI list
+      listItems.removeWhere((item) => item.id == selected.id);
+      selected = null;
+    } else {
+      window.alert("Couldn't finish deleting current item!");
     }
   }
 
