@@ -41250,9 +41250,9 @@
       }
     },
     _ViewRoundDetailComponent1: {
-      "^": "AppView;0_round_template$_compView_0,0_round_template$_MaterialExpansionPanel_0_5,0_round_template$_compView_2,0_round_template$_AcxDarkTheme_2_5,0_round_template$_MaterialButtonComponent_2_6,0_round_template$_compView_4,0_round_template$_AcxDarkTheme_4_5,0_round_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_round_template$_compView_0,0_round_template$_MaterialExpansionPanel_0_5,0_round_template$_compView_2,0_round_template$_AcxDarkTheme_2_5,0_round_template$_MaterialButtonComponent_2_6,0_round_template$_compView_4,0_round_template$_AcxDarkTheme_4_5,0_round_template$_MaterialButtonComponent_4_6,0_round_template$_compView_6,0_round_template$_AcxDarkTheme_6_5,0_round_template$_MaterialButtonComponent_6_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, _el_6, _text_7, subscription_0, subscription_1;
         t1 = D.ViewMaterialExpansionPanel0$(this, 0);
         this._round_template$_compView_0 = t1;
         _el_0 = t1.rootEl;
@@ -41296,18 +41296,32 @@
         _el_4.className = "blue";
         J.setAttribute$2$x(_el_4, "raised", "");
         this.addShimC$1(_el_4);
-        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
-        this._round_template$_AcxDarkTheme_4_5 = t1;
-        t1 = B.MaterialButtonComponent$(_el_4, t1, this._round_template$_compView_4.viewData.ref, null);
-        this._round_template$_MaterialButtonComponent_4_6 = t1;
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._round_template$_AcxDarkTheme_4_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_4, t4, this._round_template$_compView_4.viewData.ref, null);
+        this._round_template$_MaterialButtonComponent_4_6 = t4;
         _text_5 = doc.createTextNode("Clone");
-        this._round_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._round_template$_compView_4.create$2(0, t4, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 6);
+        this._round_template$_compView_6 = t4;
+        _el_6 = t4.rootEl;
+        t3.append$1(_el_1, _el_6);
+        J.setAttribute$2$x(_el_6, "raised", "");
+        this.addShimC$1(_el_6);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._round_template$_AcxDarkTheme_6_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_6, t1, this._round_template$_compView_6.viewData.ref, null);
+        this._round_template$_MaterialButtonComponent_6_6 = t1;
+        _text_7 = doc.createTextNode("End/Adv");
+        this._round_template$_compView_6.create$2(0, t1, [H.setRuntimeTypeInfo([_text_7], t5)]);
         this._round_template$_compView_0.create$2(0, this._round_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
         t5 = this._round_template$_MaterialButtonComponent_2_6._trigger;
         t1 = W.UIEvent;
         subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_trigger_2_0(), t1, t1));
         t5 = this._round_template$_MaterialButtonComponent_4_6._trigger;
-        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_trigger_4_0(), t1, t1))]);
+        subscription_1 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_trigger_4_0(), t1, t1));
+        t5 = this._round_template$_MaterialButtonComponent_6_6._trigger;
+        this.init$2([_el_0], [subscription_0, subscription_1, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_round_template$_handle_trigger_6_0(), t1, t1))]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         var t1, t2;
@@ -41321,8 +41335,12 @@
           return this._round_template$_AcxDarkTheme_4_5;
         if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
           return this._round_template$_MaterialButtonComponent_4_6;
+        if (t1 && 6 <= nodeIndex && nodeIndex <= 7)
+          return this._round_template$_AcxDarkTheme_6_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 6 <= nodeIndex && nodeIndex <= 7)
+          return this._round_template$_MaterialButtonComponent_6_6;
         if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
-          t1 = nodeIndex <= 5;
+          t1 = nodeIndex <= 7;
         else
           t1 = false;
         if (t1)
@@ -41362,16 +41380,28 @@
           this._round_template$_compView_4.viewData.set$cdMode(1);
         if (firstCheck)
           this._round_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        if (firstCheck) {
+          this._round_template$_MaterialButtonComponent_6_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._round_template$_compView_6.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._round_template$_MaterialButtonComponent_6_6.ngOnInit$0();
         this._round_template$_compView_2.detectHostChanges$1(firstCheck);
         this._round_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._round_template$_compView_6.detectHostChanges$1(firstCheck);
         this._round_template$_compView_0.detectChanges$0();
         this._round_template$_compView_2.detectChanges$0();
         this._round_template$_compView_4.detectChanges$0();
+        this._round_template$_compView_6.detectChanges$0();
       },
       destroyInternal$0: function() {
         this._round_template$_compView_0.destroy$0();
         this._round_template$_compView_2.destroy$0();
         this._round_template$_compView_4.destroy$0();
+        this._round_template$_compView_6.destroy$0();
         this._round_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
       },
       _round_template$_handle_trigger_2_0$1: [function($$event) {
@@ -41380,6 +41410,9 @@
       _round_template$_handle_trigger_4_0$1: [function($$event) {
         this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
       }, "call$1", "get$_round_template$_handle_trigger_4_0", 4, 0, 1],
+      _round_template$_handle_trigger_6_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "advance");
+      }, "call$1", "get$_round_template$_handle_trigger_6_0", 4, 0, 1],
       $asAppView: function() {
         return [R.RoundDetailComponent];
       }
@@ -42049,9 +42082,9 @@
       }
     },
     _ViewStageDetailComponent1: {
-      "^": "AppView;0_stage_template$_compView_0,0_stage_template$_MaterialExpansionPanel_0_5,0_stage_template$_compView_2,0_stage_template$_AcxDarkTheme_2_5,0_stage_template$_MaterialButtonComponent_2_6,0_stage_template$_compView_4,0_stage_template$_AcxDarkTheme_4_5,0_stage_template$_MaterialButtonComponent_4_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
+      "^": "AppView;0_stage_template$_compView_0,0_stage_template$_MaterialExpansionPanel_0_5,0_stage_template$_compView_2,0_stage_template$_AcxDarkTheme_2_5,0_stage_template$_MaterialButtonComponent_2_6,0_stage_template$_compView_4,0_stage_template$_AcxDarkTheme_4_5,0_stage_template$_MaterialButtonComponent_4_6,0_compView_6,0_AcxDarkTheme_6_5,0_MaterialButtonComponent_6_6,0viewData,locals,parentView,0componentType,0rootEl,0ctx",
       build$0: function() {
-        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, subscription_0;
+        var t1, _el_0, t2, t3, t4, t5, t6, t7, t8, t9, doc, _el_1, _el_2, _text_3, _el_4, _text_5, _el_6, _text_7, subscription_0, subscription_1;
         t1 = D.ViewMaterialExpansionPanel0$(this, 0);
         this._stage_template$_compView_0 = t1;
         _el_0 = t1.rootEl;
@@ -42095,18 +42128,32 @@
         _el_4.className = "blue";
         J.setAttribute$2$x(_el_4, "raised", "");
         this.addShimC$1(_el_4);
-        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
-        this._stage_template$_AcxDarkTheme_4_5 = t1;
-        t1 = B.MaterialButtonComponent$(_el_4, t1, this._stage_template$_compView_4.viewData.ref, null);
-        this._stage_template$_MaterialButtonComponent_4_6 = t1;
+        t4 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._stage_template$_AcxDarkTheme_4_5 = t4;
+        t4 = B.MaterialButtonComponent$(_el_4, t4, this._stage_template$_compView_4.viewData.ref, null);
+        this._stage_template$_MaterialButtonComponent_4_6 = t4;
         _text_5 = doc.createTextNode("Clone");
-        this._stage_template$_compView_4.create$2(0, t1, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        this._stage_template$_compView_4.create$2(0, t4, [H.setRuntimeTypeInfo([_text_5], t5)]);
+        t4 = U.ViewMaterialButtonComponent0$(this, 6);
+        this._compView_6 = t4;
+        _el_6 = t4.rootEl;
+        t3.append$1(_el_1, _el_6);
+        J.setAttribute$2$x(_el_6, "raised", "");
+        this.addShimC$1(_el_6);
+        t1 = F.AcxDarkTheme$(H.boolTypeCheck(t2.injectorGet$3(C.OpaqueToken_acxDarkTheme, t1.viewData.parentIndex, null)));
+        this._AcxDarkTheme_6_5 = t1;
+        t1 = B.MaterialButtonComponent$(_el_6, t1, this._compView_6.viewData.ref, null);
+        this._MaterialButtonComponent_6_6 = t1;
+        _text_7 = doc.createTextNode("End/Adv");
+        this._compView_6.create$2(0, t1, [H.setRuntimeTypeInfo([_text_7], t5)]);
         this._stage_template$_compView_0.create$2(0, this._stage_template$_MaterialExpansionPanel_0_5, [C.List_empty, C.List_empty, C.List_empty, H.setRuntimeTypeInfo([_el_1], [W.Element]), C.List_empty]);
         t5 = this._stage_template$_MaterialButtonComponent_2_6._trigger;
         t1 = W.UIEvent;
         subscription_0 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_trigger_2_0(), t1, t1));
         t5 = this._stage_template$_MaterialButtonComponent_4_6._trigger;
-        this.init$2([_el_0], [subscription_0, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_trigger_4_0(), t1, t1))]);
+        subscription_1 = new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_stage_template$_handle_trigger_4_0(), t1, t1));
+        t5 = this._MaterialButtonComponent_6_6._trigger;
+        this.init$2([_el_0], [subscription_0, subscription_1, new P._BroadcastStream(t5, [H.getTypeArgumentByIndex(t5, 0)]).listen$1(this.eventHandler1$2$1(this.get$_handle_trigger_6_0(), t1, t1))]);
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
         var t1, t2;
@@ -42120,8 +42167,12 @@
           return this._stage_template$_AcxDarkTheme_4_5;
         if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 4 <= nodeIndex && nodeIndex <= 5)
           return this._stage_template$_MaterialButtonComponent_4_6;
+        if (t1 && 6 <= nodeIndex && nodeIndex <= 7)
+          return this._AcxDarkTheme_6_5;
+        if ((!t2 || token === C.Type_ButtonDirective_hH0 || token === C.Type_HasDisabled_qzc) && 6 <= nodeIndex && nodeIndex <= 7)
+          return this._MaterialButtonComponent_6_6;
         if (token === C.Type_MaterialExpansionPanel_WrR || token === C.Type_DeferredContentAware_BCk || token === C.Type_HasDisabled_qzc)
-          t1 = nodeIndex <= 5;
+          t1 = nodeIndex <= 7;
         else
           t1 = false;
         if (t1)
@@ -42161,16 +42212,28 @@
           this._stage_template$_compView_4.viewData.set$cdMode(1);
         if (firstCheck)
           this._stage_template$_MaterialButtonComponent_4_6.ngOnInit$0();
+        if (firstCheck) {
+          this._MaterialButtonComponent_6_6.raised = true;
+          changed = true;
+        } else
+          changed = false;
+        if (changed)
+          this._compView_6.viewData.set$cdMode(1);
+        if (firstCheck)
+          this._MaterialButtonComponent_6_6.ngOnInit$0();
         this._stage_template$_compView_2.detectHostChanges$1(firstCheck);
         this._stage_template$_compView_4.detectHostChanges$1(firstCheck);
+        this._compView_6.detectHostChanges$1(firstCheck);
         this._stage_template$_compView_0.detectChanges$0();
         this._stage_template$_compView_2.detectChanges$0();
         this._stage_template$_compView_4.detectChanges$0();
+        this._compView_6.detectChanges$0();
       },
       destroyInternal$0: function() {
         this._stage_template$_compView_0.destroy$0();
         this._stage_template$_compView_2.destroy$0();
         this._stage_template$_compView_4.destroy$0();
+        this._compView_6.destroy$0();
         this._stage_template$_MaterialExpansionPanel_0_5._material_expansionpanel$_disposer.dispose$0();
       },
       _stage_template$_handle_trigger_2_0$1: [function($$event) {
@@ -42179,6 +42242,9 @@
       _stage_template$_handle_trigger_4_0$1: [function($$event) {
         this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "clone");
       }, "call$1", "get$_stage_template$_handle_trigger_4_0", 4, 0, 1],
+      _handle_trigger_6_0$1: [function($$event) {
+        this.ctx.buttonCall$2(H.interceptedTypeCheck($$event, "$isUIEvent"), "advance");
+      }, "call$1", "get$_handle_trigger_6_0", 4, 0, 1],
       $asAppView: function() {
         return [L.StageDetailComponent];
       }
@@ -44108,21 +44174,56 @@
               case 0:
                 // Function start
                 P.print("Child button clicked with method " + H.S(cmd));
+              case 2:
+                // switch
                 switch (cmd) {
                   case "clone":
-                    P.print("Running clone flow...");
+                    // goto case
+                    $async$goto = 4;
                     break;
                   case "delete":
-                    P.print("Running delete flow...");
-                    P.print("Delete requested...");
-                    $async$self.deleteModalVisible = true;
+                    // goto case
+                    $async$goto = 5;
                     break;
                   case "advance":
-                    P.print("Running advance flow...");
+                    // goto case
+                    $async$goto = 6;
                     break;
                   default:
-                    P.print("ERROR IN FLOW - BAD CMD: " + H.S(cmd));
+                    // goto default
+                    $async$goto = 7;
+                    break;
                 }
+                break;
+              case 4:
+                // case
+                P.print("Running clone flow...");
+                // goto after switch
+                $async$goto = 3;
+                break;
+              case 5:
+                // case
+                P.print("Running delete flow...");
+                P.print("Delete requested...");
+                $async$self.deleteModalVisible = true;
+                // goto after switch
+                $async$goto = 3;
+                break;
+              case 6:
+                // case
+                P.print("Running advance flow...");
+                $async$goto = 8;
+                return P._asyncAwait($async$self.onAdvance$0(), $async$_childButtonListener$1);
+              case 8:
+                // returning from await.
+                // goto after switch
+                $async$goto = 3;
+                break;
+              case 7:
+                // default
+                P.print("ERROR IN FLOW - BAD CMD: " + H.S(cmd));
+              case 3:
+                // after switch
                 // implicit return
                 return P._asyncReturn(null, $async$completer);
             }
@@ -44157,6 +44258,43 @@
         });
         return P._asyncStartSync($async$onConfirmDelete$0, $async$completer);
       }, "call$0", "get$onConfirmDelete", 0, 0, 2],
+      onAdvance$0: function() {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(null),
+          $async$self = this, t1, $async$temp1, $async$temp2;
+        var $async$onAdvance$0 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                t1 = $async$self._currentService;
+                $async$goto = !!J.getInterceptor$(t1).$isAdvanceable ? 2 : 4;
+                break;
+              case 2:
+                // then
+                $async$temp1 = P;
+                $async$temp2 = J;
+                $async$goto = 5;
+                return P._asyncAwait(t1.advance$1(0, H.intTypeCheck(J.get$id$x($async$self.selected))), $async$onAdvance$0);
+              case 5:
+                // returning from await.
+                $async$temp1.print("Advancement ok? --> " + $async$temp2.toString$0$($async$result));
+                // goto join
+                $async$goto = 3;
+                break;
+              case 4:
+                // else
+                P.print("Not an advanceable service/item!");
+              case 3:
+                // join
+                // implicit return
+                return P._asyncReturn(null, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$onAdvance$0, $async$completer);
+      },
       $isOnActivate: 1
     },
     TypeListComponent_onSave_closure: {
@@ -46825,6 +46963,30 @@
         });
         return P._asyncStartSync($async$deleteById$1, $async$completer);
       },
+      advance$1: function(_, id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue;
+        var $async$advance$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Round service advancing " + J.toString$0$(id) + "...");
+                $async$returnValue = true;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$advance$1, $async$completer);
+      },
+      $isAdvanceable: 1,
       $isDetailListService: 1,
       $asDetailListService: function() {
         return [R.Round];
@@ -47151,6 +47313,30 @@
         });
         return P._asyncStartSync($async$deleteById$1, $async$completer);
       },
+      advance$1: function(_, id) {
+        var $async$goto = 0,
+          $async$completer = P._makeAsyncAwaitCompleter(P.bool),
+          $async$returnValue;
+        var $async$advance$1 = P._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+          if ($async$errorCode === 1)
+            return P._asyncRethrow($async$result, $async$completer);
+          while (true)
+            switch ($async$goto) {
+              case 0:
+                // Function start
+                P.print("Stage service advancing " + J.toString$0$(id) + "...");
+                $async$returnValue = true;
+                // goto return
+                $async$goto = 1;
+                break;
+              case 1:
+                // return
+                return P._asyncReturn($async$returnValue, $async$completer);
+            }
+        });
+        return P._asyncStartSync($async$advance$1, $async$completer);
+      },
+      $isAdvanceable: 1,
       $isDetailListService: 1,
       $asDetailListService: function() {
         return [L.Stage];

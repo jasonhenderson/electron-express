@@ -11,6 +11,7 @@ import 'package:http/browser_client.dart';
 // ***************
 import '../type/round.dart';
 import '../type/list_provider_interface.dart';
+import '../type/advanceable_interface.dart';
 
 // ***************
 // API DEFINITION
@@ -28,7 +29,7 @@ DELETE
 ​/round​/{id}
 */
 
-class RoundService implements DetailListService<Round> {
+class RoundService implements DetailListService<Round>, Advanceable {
 
   static String baseUrl = "http://localhost:8080/v1/";
   static String coreUrl = "round/";
@@ -160,6 +161,11 @@ class RoundService implements DetailListService<Round> {
       }
     } catch (e) {print("Error: ${e.toString()}");}
     return false;
+  }
+
+  Future<bool> advance(int id) async {
+    print("Round service advancing ${id.toString()}...");
+    return true;
   }
 
 }

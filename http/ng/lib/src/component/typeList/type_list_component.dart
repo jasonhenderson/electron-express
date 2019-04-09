@@ -40,7 +40,6 @@ import '../../service/match_service.dart';
 import '../../service/result_service.dart';
 import '../../service/entrant_service.dart';
 import '../../service/user_service.dart';
-import '../../type/list_provider_interface.dart';
 import '../../component/detailView/event/event.template.dart' as event_component;
 import '../../component/detailView/tournament/tournament.template.dart' as tournament_component;
 import '../../component/detailView/stage/stage.template.dart' as stage_component;
@@ -50,6 +49,9 @@ import '../../component/detailView/round/round.template.dart' as round_component
 import '../../component/detailView/game/game.template.dart' as game_component;
 import '../../component/detailView/entrant/entrant.template.dart' as entrant_component;
 import '../../component/detailView/user/user.template.dart' as user_component;
+
+import '../../type/list_provider_interface.dart';
+import '../../type/advanceable_interface.dart';
 
 @Component(
   selector: 'my-itemlist',
@@ -329,6 +331,7 @@ class TypeListComponent implements OnActivate {
         break;
       case "advance":
         print("Running advance flow...");
+        await onAdvance();
         break;
       default:
         print("ERROR IN FLOW - BAD CMD: $cmd");
@@ -353,5 +356,14 @@ class TypeListComponent implements OnActivate {
       window.alert("Couldn't finish deleting current item!");
     }
   }
-
+  // Move stage/round to next iteration
+  void onAdvance() async {
+    if(_currentService is Advanceable){
+      bool success = await (_currentService as Advanceable).advance(selected.id);
+      print("Advancement ok? --> ${success.toString()}");
+    } else {
+      // This is a bad error, if triggered then some architecture is broken
+      print("Not an advanceable service/item!");
+    }
+  }
 }

@@ -11,6 +11,7 @@ import 'package:http/browser_client.dart';
 // ***************
 import '../type/stage.dart';
 import '../type/list_provider_interface.dart';
+import '../type/advanceable_interface.dart';
 
 // ***************
 // API DEFINITION
@@ -28,7 +29,7 @@ DELETE
 ​/round​/{id}
 */
 
-class StageService implements DetailListService<Stage> {
+class StageService implements DetailListService<Stage>, Advanceable {
 
   static String baseUrl = "http://localhost:8080/v1/";
   static String coreUrl = "stage/";
@@ -172,6 +173,11 @@ class StageService implements DetailListService<Stage> {
       }
     } catch (e) {print("Error: ${e.toString()}");}
     return false;
+  }
+
+  Future<bool> advance(int id) async {
+    print("Stage service advancing ${id.toString()}...");
+    return true;
   }
 
 }

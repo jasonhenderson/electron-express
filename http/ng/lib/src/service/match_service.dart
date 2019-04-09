@@ -11,6 +11,7 @@ import 'package:http/browser_client.dart';
 // ***************
 import '../type/match.dart';
 import '../type/list_provider_interface.dart';
+import '../type/advanceable_interface.dart';
 
 class MatchService implements DetailListService<Match> {
 
@@ -145,5 +146,11 @@ class MatchService implements DetailListService<Match> {
     } catch (e) {print("Error: ${e.toString()}");}
     return false;
   }
+
+  Future<bool> advance(int id) async {
+    print("Match service advancing ${id.toString()}...");
+    return true;
+  }
+
 
 }
